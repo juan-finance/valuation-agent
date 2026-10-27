@@ -16,5 +16,5 @@
   the Swiss rates.
 - Dated inputs: rates, risk premiums and accounting rules belong to the valuation date.
   Learn the steps and the judgements, never the numbers.
-- Differences between the Excel and the professor's solution: <list, or "none known">
+- Differences between the Excel and the professor's solution: none known.
 - If this case conflicts with a skill in .agents/skills, stop and ask the user.
