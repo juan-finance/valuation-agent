@@ -26,8 +26,14 @@ any attached files. Ask if anything is missing.
   exchange. After stage 2, post the model choice (FCFE or FCFF), the growth model and the
   discount rates. Continue unless something is critical or uncertain, in which case ask.
 - Finish with the report, the Excel models, the figures and the source log.
+- Consistency: apply the same method, thresholds and report structure to every company so
+  that the recommendations can be compared in the portfolio stage. Any deviation must be
+  stated and justified in the decisions files.
+- The recommendation is judged on the consistency and correctness of its reasoning, not on
+  whether it turns out right. Document every judgement call and its reason.
 
 # Forbidden
 - Never invent data or fill gaps silently. Mark "not available".
 - Never use paid-database data unless the user attached it.
 - Never change /methodology or /lecture_notes files without asking.
+- Never present the result as personal investment advice. It is an academic analyst recommendation and must carry the disclaimer.
