@@ -5,8 +5,8 @@ description: Stage 2 of a company valuation. Builds a DCF using FCFE or FCFF dep
 
 # Goal
 Value ONE company with a DCF following the professor's lecture notes (/lecture_notes:
-Closure in Valuation, Cash Flows full 2026, Lecture 2 Discount Rates 2025). Where this
-file and the notes differ, the notes win. Use the data pack from stage 1.
+Lecture 4-Closure in Valuation.pptx, Cash Flows full 2026, Lecture 2 Discount Rates 2025).
+Where this file and the notes differ, the notes win. Use the data pack from stage 1.
 
 # Procedure
 ## A. Choose the model

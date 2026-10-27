@@ -46,5 +46,5 @@ keep the structure easy to change.
   investment advice.
 - Run methodology/qa_checklist.md before delivering. Report data gaps.
 - Before writing the report, follow methodology/report_template.md: propose the outline in
-  report_outline.md, wait for the user's approval, then build report.pdf, model.xlsx and all
-  figures as PNG.
+  report_outline.md, wait for the user's approval, then build report.pdf, the Excel models
+  (data_pack.xlsx, dcf_model.xlsx, relative_model.xlsx) and all figures as PNG.

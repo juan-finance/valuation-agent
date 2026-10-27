@@ -4,7 +4,7 @@ description: Stage 3 of a company valuation. Selects the most relevant sector mu
 ---
 
 # Goal
-Relative valuation of ONE company, following /lecture_notes (Lecture 5 Relative Valuation).
+Relative valuation of ONE company, following /lecture_notes (Lecture 5-Relative Valuation.pptx).
 Where this file and the notes differ, the notes win. Use stage 1 data and the DCF from stage 2.
 
 # Procedure
@@ -14,7 +14,7 @@ Where this file and the notes differ, the notes win. Use stage 1 data and the DC
 1. Choose the 2-3 MOST RELEVANT multiples for this business. Use common sense, analyst
    recommendations and news (e.g. EV/DACF for oil, EV/EBITDA or EV/RAB for networks,
    EV per MW for renewables). Write the reasoning down. These are the "key multiples".
-2. Build the peer set (same sector; the bucket in methodology/valuation_standards.md helps).
+2. Build the peer set (same sector; the bucket in methodology/sector_adjustments.md helps).
    Use at least 4 peers where possible; say clearly if fewer exist.
 3. For the key multiples, run the regression analysis from Lecture 5. Use the Damodaran
    regression with the highest R-squared from

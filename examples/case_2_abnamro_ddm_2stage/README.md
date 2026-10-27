@@ -2,8 +2,8 @@
 - Files: professor_solution.docx (REFERENCE), my_calculation.xlsx (layout and formulas only)
 - Technique: dividend discount model (DDM), 2-stage growth
 - Currency: EUR
-- Valuation date: not recorded. Read it from professor_solution.docx and write it in
-  case_summary.md. Do not assume a date.
+- Valuation date: 2003 (the document states the year only, not the day or month). Write it
+  in case_summary.md.
 - Use in stage: 2 (2-stage mechanics; financial firms only)
 - What it teaches: how a bank is valued on dividends or equity cash flows instead of FCFF
   (debt is raw material for a bank, so a firm-level cash flow does not make sense), how
