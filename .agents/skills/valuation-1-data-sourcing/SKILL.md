@@ -7,6 +7,9 @@ description: Stage 1 of a company valuation. Confirms company identity, ticker a
 Produce a verified, normalized data pack for ONE company. Read /lecture_notes first for
 any definitions. Where my rules and the lecture notes differ, the lecture notes win.
 
+0. Read methodology/data_sources.md. These are indicative sources; others are allowed.
+   Replace US-only sources with the European equivalents listed there.
+
 # Procedure
 1. Identify the company. Confirm legal name, ISIN, ticker, exchange, country, reporting
    currency and fiscal year-end. Make sure it is exactly the company named by the user
