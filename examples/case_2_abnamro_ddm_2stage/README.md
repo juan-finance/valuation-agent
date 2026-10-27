@@ -14,5 +14,5 @@
   financial institution is ever valued, tell the user before continuing.
 - Dated inputs: rates, risk premiums and regulatory conventions belong to the valuation
   date. Never reuse the numbers.
-- Differences between the Excel and the professor's solution: <list, or "none known">
+- Differences between the Excel and the professor's solution: none known.
 - If this case conflicts with a skill in .agents/skills, stop and ask the user.
