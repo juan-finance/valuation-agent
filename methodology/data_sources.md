@@ -1,4 +1,4 @@
-# Indicative data sources (the professor's list, adapted)
+# Indicative data sources
 These sources are INDICATIVE, not exclusive. Use any other trustworthy source as well, and
 always cross-check key figures against at least one independent source. Several links in
 the original list are old: if a link is dead, find the current equivalent and record it.
