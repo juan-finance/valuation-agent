@@ -14,3 +14,11 @@
 [ ] Every number in the report has a source and date.
 [ ] Data gaps section lists everything missing or estimated.
 [ ] Plain-English summary is readable by a non-specialist.
+[ ] Ticker, exchange and company identity confirmed.
+[ ] Anomaly report written and each flag resolved (kept or normalized, with reason).
+[ ] FCFE vs FCFF choice justified by debt-ratio stability.
+[ ] Number of growth stages matches the 7% / 10-point rule; stable growth <= risk-free rate.
+[ ] Risk-free rate is net of country default spread; beta compared with Damodaran.
+[ ] Share count checked in the annual report and on the exchange.
+[ ] Weights in the relative valuation sum to 100% and no weight exceeds 30%.
+[ ] Recommendation tied to the annual report narrative and one mispriced parameter.
