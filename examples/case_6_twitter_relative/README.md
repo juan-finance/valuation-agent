@@ -2,8 +2,8 @@
 - Files: professor_solution.docx (REFERENCE for method only). No Excel.
 - Technique: relative valuation (multiples, regression, interpretation)
 - Currency: USD
-- Valuation date: not recorded. Read it from professor_solution.docx and write it in
-  case_summary.md. Do not assume a date.
+- Valuation date: March 2014 (main valuation; the document also values the IPO in November
+  2013 and repeats the valuation in March 2017). Write it in case_summary.md.
 - Use in stage: 3
 - What it teaches: how the relevant multiples are chosen for a company with low or negative
   earnings, how peers are selected, how the regression is run and read, how outliers and

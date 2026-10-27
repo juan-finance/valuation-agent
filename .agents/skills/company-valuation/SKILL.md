@@ -12,8 +12,8 @@ Run four stages in order. For each stage, first READ the stage file, then follow
 
 # Rules of precedence
 1. The professor's lecture notes in /lecture_notes override everything else.
-2. The four stage files override /methodology/valuation_standards.md.
-3. /methodology/valuation_standards.md still supplies sector adjustments
+2. The four stage files override /methodology/sector_adjustments.md.
+3. /methodology/sector_adjustments.md still supplies sector adjustments
    (buckets A-F) and the QA checklist applies to the final output.
 
 # Required from user
@@ -25,7 +25,8 @@ any attached files. Ask if anything is missing.
 - After stage 1, post a short message with the anomaly report and the confirmed ticker and
   exchange. After stage 2, post the model choice (FCFE or FCFF), the growth model and the
   discount rates. Continue unless something is critical or uncertain, in which case ask.
-- Finish with the report, the Excel models, the figures and the source log.
+- Finish with the report, the Excel models (data_pack.xlsx, dcf_model.xlsx,
+  relative_model.xlsx), the figures and the source log.
 - Consistency: apply the same method, thresholds and report structure to every company so
   that the recommendations can be compared in the portfolio stage. Any deviation must be
   stated and justified in the decisions files.
