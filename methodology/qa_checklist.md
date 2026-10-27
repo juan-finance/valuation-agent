@@ -27,6 +27,7 @@ Record the result of every item (pass / fail / fixed / not applicable) in /outpu
     and flagged if above 75%.
 [ ] DCF-implied EV/EBITDA is compared with peers and with history.
 [ ] Key value drivers identified and ranked. DCF summary picture produced.
+[ ] Marginal tax rate and cost-of-debt method documented, with sources and dates.
 
 ## C. Relative valuation (stage 3)
 [ ] Peers are in the right bucket, with consistent periods. Fewer than 4 peers is stated.
