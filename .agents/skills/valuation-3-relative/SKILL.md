@@ -8,6 +8,9 @@ Relative valuation of ONE company, following /lecture_notes (Lecture 5 Relative 
 Where this file and the notes differ, the notes win. Use stage 1 data and the DCF from stage 2.
 
 # Procedure
+0. Read methodology/data_sources.md for indicative sources of market data and analyst
+   estimates. They are indicative, not exclusive: other trustworthy sources are allowed.
+   Replace US-only sources with the European equivalents listed there.
 1. Choose the 2-3 MOST RELEVANT multiples for this business. Use common sense, analyst
    recommendations and news (e.g. EV/DACF for oil, EV/EBITDA or EV/RAB for networks,
    EV per MW for renewables). Write the reasoning down. These are the "key multiples".
@@ -21,7 +24,8 @@ Where this file and the notes differ, the notes win. Use stage 1 data and the DC
    far outside the sample range. State the thresholds you used.
 4. For ALL other multiples you can find (P/E, P/B, P/S, EV/EBITDA, EV/EBIT, EV/Sales, P/CF,
    dividend yield, etc.), compute the sector median and quartiles and the implied value per
-   share. Compare the company's market cap with competitors.
+   share. Compare the company's market cap with competitors. Log the source and date of
+   every peer figure in source_log.csv.
 5. Weighting:
    - key multiples get higher weights than the others;
    - if the company's market cap is closer to the top of the peer group, weight the higher
