@@ -36,3 +36,14 @@ Where this file and the notes differ, the notes win. Use stage 1 data and the DC
 
 # Outputs
 relative_model.xlsx, weights_table, distribution chart, relative_decisions.md.
+
+# Additional requirements
+- Justify each key multiple with literature or data (textbook chapter, sector studies, analyst
+  practice). Cite only sources you have opened. Mark anything unverified. Never invent citations.
+- Sensitivities: show how the relative value changes with the peer set, the quartile used
+  (25th / median / 75th) and the choice of multiple.
+- Describe the main characteristics of the industry and market (cycle, regulation, growth,
+  capital intensity, commodity or rate exposure) and how they affect which multiples are
+  meaningful.
+- Discuss how current market conditions (rates, sentiment, commodity prices) are reflected in
+  the peers' multiples, because multiples embed market expectations.
