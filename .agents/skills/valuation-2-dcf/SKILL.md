@@ -72,3 +72,19 @@ dcf_model.xlsx (inputs on one sheet, no hardcoded numbers in formulas), dcf_deci
 (each judgement call with its reason), updated source_log.csv.
 Show terminal value as a share of EV/equity value and flag it if above 75%.
 Use tested Python functions in /src (create them with unit tests if missing).
+
+# Additional requirements
+- Justify the model choice (FCFE vs FCFF, number of growth stages, discount-rate method)
+  in dcf_decisions.md, citing literature or data (e.g. Damodaran, Investment Valuation;
+  Koller et al., Valuation) with chapter or table where possible. Only cite sources you
+  have actually opened. If you cannot verify a citation, mark it "unverified". Never invent one.
+- The professor's rule (FCFE if debt ratio stable, otherwise FCFF) is the DEFAULT. You may also
+  run the other model as a cross-check. If you do, report both values and explain the difference.
+- KEY VALUE DRIVERS: rank the 3-5 inputs that move the value most (growth, growth period,
+  net capex or reinvestment, margin, cost of capital, debt ratio, etc.) using the sensitivity
+  results. Explain in plain English why each matters for THIS company.
+- Produce ONE summary picture of the DCF (assumptions, discount rates, growth stages, value per
+  share) as dcf_summary.png. Make it clear and visually appealing.
+- Comment in the decisions file on extraordinary or unusual historical items (from the
+  stage 1 anomaly report) and how they affect the forecast.
+
