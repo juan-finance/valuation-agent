@@ -87,4 +87,16 @@ Use tested Python functions in /src (create them with unit tests if missing).
   share) as dcf_summary.png. Make it clear and visually appealing.
 - Comment in the decisions file on extraordinary or unusual historical items (from the
   stage 1 anomaly report) and how they affect the forecast.
+- Read methodology/data_sources.md for the indicative sources of each input.
+- Marginal tax rate: use the statutory corporate rate of the country (cite the table and year)
+  for the after-tax cost of debt and for relevering beta. Keep the effective tax rate from
+  the P&L for the FCFF cash flows (flag it if it is abnormal).
+- Cost of debt: compare (a) actual bond rating or yields, (b) synthetic rating from interest
+  coverage with Damodaran's table, and (c) risk-free rate + default spread. Explain the choice.
+- Beta: compare the market regression beta, the bottom-up beta (industry mix from the segment
+  note) and Damodaran's industry beta, all relevered at the stable debt ratio.
+- Market value of debt: use the debt footnotes (maturity, coupons, fair value). If the market
+  value is unavailable, say so and use book value with a stated reason.
+- Operating leases are on the balance sheet under IFRS 16. Treat them consistently in debt,
+  EBIT and cash flows. Mention R&D capitalization only if it is material for the company.
 
