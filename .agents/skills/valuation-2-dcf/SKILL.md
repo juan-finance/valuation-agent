@@ -9,7 +9,7 @@ Value ONE company using the stage 1 data pack and the supplied course materials.
 
 Read [data sources](../methodology/data_sources.md), [sector adjustments](../methodology/sector_adjustments.md), [company universe](../methodology/company_universe.md), [QA checklist](../methodology/qa_checklist.md), and [report template](../methodology/report_template.md). Use [change summary](../methodology/CHANGE_SUMMARY.md) to understand departures from the supplied files.
 
-# Execution sequence
+# Procedure
 
 1. Fix valuation date, information cutoff, currency, units, historical years and share class. Inventory the stage 1 files; log unavailable inputs. Use five years of history. The Word document's t=2025 and t−1=2024 are worked-period labels, not instructions to roll dates forward silently.
 2. Build five-year market and book capital-structure tables. Estimate market debt from fair value, a supported debt valuation or vendor estimate; use book debt only with justification. Use industry ratios as benchmarks, never average a currency amount with a percentage. Select and justify stable/target leverage.
