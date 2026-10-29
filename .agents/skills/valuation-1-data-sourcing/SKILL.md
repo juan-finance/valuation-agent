@@ -4,10 +4,11 @@ description: Stage 1 of a company valuation. Confirms company identity, ticker a
 ---
 
 # Goal
-Produce a verified, normalized data pack for ONE company. Read /lecture_notes first for
-any definitions. Where my rules and the lecture notes differ, the lecture notes win; then
-Steps in Company Valuation.docx as encoded in methodology/dcf_procedure.md (see the
-precedence rules in the company-valuation skill).
+Produce a verified, normalized data pack for ONE company. Read lecture_notes/ first for
+any definitions. Where my rules and the lecture notes differ, the lecture notes win; next
+come the methodology procedures (methodology/dcf_procedure.md, which encodes Steps in Company
+Valuation.docx together with its recorded corrections). See the precedence rules in the
+company-valuation skill.
 
 # Procedure
 0. Read methodology/data_sources.md. These are indicative sources; others are allowed.
@@ -45,7 +46,7 @@ precedence rules in the company-valuation skill).
    "n/a" in a field that does not apply; do not drop columns. Stages 2-3 append to this
    file and preserve these entries.
 
-# Outputs (in /outputs/<ticker>_<date>/)
+# Outputs (in outputs/<ticker>_<date>/)
 company_identity.md, data_pack.xlsx, anomaly_report.md, source_log.csv.
 Post a short summary to the user. If any anomaly is material, say so clearly.
 
