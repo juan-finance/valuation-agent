@@ -12,7 +12,7 @@ keep the structure easy to change.
 # Required content
 1. DCF: scenario analysis (bear/base/bull) and sensitivity to the main inputs (tornado chart
    and a WACC vs growth table). Identify the key value drivers and say why they matter.
-2. Relative valuation: scenario analysis too (peer quartiles, alternative weights, multiples).
+2. Relative valuation: scenario analysis too, built on the stage 3 outputs and kept separate for the two methods: comparables (p25/median/p75, primary multiple versus cross-check multiples, peer-set variants) and regression (the chosen model versus the next two eligible alternatives, and A/B/C). No stage 3 weights_table or 30% cap exists. If stage 4 combines methods into one value, use explicit method-suitability weights or a stated choice, justified in writing, never chosen because they move the result toward the DCF or the market price; show the sensitivity of the synthesis to those choices and keep the underlying estimates visible.
 3. Reconciliation: an EXTENDED analysis of why DCF and relative valuation differ. Table of
    DCF assumptions vs the assumptions implied by relative valuation, with the factors that make
    them differ. Identify DCF assumptions that would bring the DCF closer to the multiples.
@@ -46,5 +46,11 @@ keep the structure easy to change.
   investment advice.
 - Run methodology/qa_checklist.md before delivering. Report data gaps.
 - Before writing the report, follow methodology/report_template.md: propose the outline in
-  report_outline.md, wait for the user's approval, then build report.pdf, the Excel models
-  (data_pack.xlsx, dcf_model.xlsx, relative_model.xlsx) and all figures as PNG.
+  report_outline.md. If the user already approved scope/outline, reuse that approval;
+  otherwise ask for approval and keep doing independent work (QA, figures, workbooks,
+  recommendation_summary.csv) in the meantime. Build report.pdf once the outline is
+  approved or the user explicitly authorizes proceeding without it. Deliver the Excel
+  models (data_pack.xlsx, dcf_model.xlsx), the stage 3 core files already produced
+  (comparables.csv, multiples_summary.csv, comparables_report.md, DATA_BASE_MSCI.xlsx,
+  regression_valuation.xlsx, valuation_multiples.csv, valuation_summary.md) and all
+  figures as PNG. relative_model.xlsx no longer exists.
