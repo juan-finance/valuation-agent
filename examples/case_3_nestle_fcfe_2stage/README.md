@@ -3,7 +3,7 @@
 - Technique: FCFE (free cash flow to equity) with a stable debt ratio, 2-stage growth
 - Currency: CHF (Swiss franc)
 - Valuation date: 2001 (the document states the year only, not the day or month). Write it
-  in case_summary.md.
+  in outputs/<ticker>_<date>/case_summary.md.
 - Use in stage: 2 (FCFE branch)
 - What it teaches: how the stable debt ratio is identified and justified, how FCFE is
   derived, how only capex that creates organic growth is selected, how the reinvestment
@@ -17,4 +17,4 @@
 - Dated inputs: rates, risk premiums and accounting rules belong to the valuation date.
   Learn the steps and the judgements, never the numbers.
 - Differences between the Excel and the professor's solution: none known.
-- Rank: below the lecture notes, the methodology procedures and the skills. If this case differs from any of them, follow the higher-ranked source, note the difference in case_summary.md and tell the user. Do not stop to ask.
+- Rank: lowest in the hierarchy, below the lecture notes, the methodology procedures and the skills. If this case differs from any of them, follow the higher-ranked source, record the difference in outputs/<ticker>_<date>/case_summary.md and tell the user. Do not stop to ask. Ask only if the hierarchy cannot settle the conflict (see examples/README.md).
