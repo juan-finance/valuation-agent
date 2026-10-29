@@ -3,7 +3,7 @@
 - Technique: FCFF (free cash flow to the firm) valuation
 - Currency: EUR
 - Valuation date: not recorded. Read it from professor_calculation.docx and write it in
-  case_summary.md. Do not assume a date.
+  outputs/<ticker>_<date>/case_summary.md. Do not assume a date.
 - Use in stage: 2 (FCFF branch)
 - What it teaches: how EBIT is normalized, how the tax rate is chosen, how the reinvestment
   rate is derived, how growth is built (reinvestment rate x return), how WACC is computed,
@@ -14,4 +14,4 @@
   lease treatment before IFRS 16) belong to the valuation date. Learn the steps and the
   judgements, never the numbers.
 - Differences between the Excel and the professor's solution: none known.
-- Rank: below the lecture notes, the methodology procedures and the skills. If this case differs from any of them, follow the higher-ranked source, note the difference in case_summary.md and tell the user. Do not stop to ask.
+- Rank: lowest in the hierarchy, below the lecture notes, the methodology procedures and the skills. If this case differs from any of them, follow the higher-ranked source, record the difference in outputs/<ticker>_<date>/case_summary.md and tell the user. Do not stop to ask. Ask only if the hierarchy cannot settle the conflict (see examples/README.md).
