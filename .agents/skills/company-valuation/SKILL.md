@@ -6,8 +6,8 @@ description: Full valuation of ONE listed company (data sourcing, DCF, relative 
 # Overview
 Run four stages in order. For each stage, first READ the stage file, then follow it exactly:
 1. .agents/skills/valuation-1-data-sourcing/SKILL.md
-2. .agents/skills/valuation-2-dcf/SKILL.md
-3. .agents/skills/valuation-3-relative/SKILL.md
+2. .agents/skills/valuation-2-dcf/SKILL-DCF.md
+3. .agents/skills/valuation-3-relative/SKILL-RELATIVE.md
 4. .agents/skills/valuation-4-recommendation/SKILL.md
 
 # Rules of precedence
