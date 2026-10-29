@@ -1,5 +1,5 @@
 # Case 3: Nestle, FCFE valuation with 2-stage growth
-- Files: professor_solution.docx (REFERENCE), my_calculation.xlsx (layout and formulas only)
+- Files: professor_calculation.docx (REFERENCE), my_calculation.xlsx (layout and formulas only)
 - Technique: FCFE (free cash flow to equity) with a stable debt ratio, 2-stage growth
 - Currency: CHF (Swiss franc)
 - Valuation date: 2001 (the document states the year only, not the day or month). Write it
@@ -17,4 +17,4 @@
 - Dated inputs: rates, risk premiums and accounting rules belong to the valuation date.
   Learn the steps and the judgements, never the numbers.
 - Differences between the Excel and the professor's solution: none known.
-- If this case conflicts with a skill in .agents/skills, stop and ask the user.
+- Rank: below the lecture notes, the methodology procedures and the skills. If this case differs from any of them, follow the higher-ranked source, note the difference in case_summary.md and tell the user. Do not stop to ask.
