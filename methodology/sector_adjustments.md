@@ -1,6 +1,6 @@
 # Sector adjustments and conventions
 
-Use [DCF procedure](dcf_procedure.md) for DCF methods, growth, tax and discount-rate rules. For relative valuation use [comparables procedure](comparables_procedure.md) and [regression procedure](regression_procedure.md), with the additional mapping below. This file adds sector assumptions and claim checks. The two-folder repository uses skills/ and methodology/; do not refer to an assumed .agents/skills/ layout.
+Use [DCF procedure](dcf_procedure.md) for DCF methods, growth, tax and discount-rate rules. For relative valuation use [comparables procedure](comparables_procedure.md) and [regression procedure](regression_procedure.md), with the additional mapping below.
 
 ## General conventions
 
