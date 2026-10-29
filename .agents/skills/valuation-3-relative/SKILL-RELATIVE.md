@@ -5,12 +5,12 @@ description: Stage 3 relative valuation for European energy-transition companies
 
 # Goal and required reading
 
-Run two distinct methods for the targets in [company universe](../methodology/company_universe.md):
+Run two distinct methods for the targets in [company universe](../../../methodology/company_universe.md):
 
 1. **Comparable-company valuation:** a selected, ranked peer set per target; peer medians, quartiles and fundamental adjustments.
 2. **Regression valuation:** a broad, systematically defined market dataset; A within industry, B market with sector dummies, C market without dummies; four multiple models.
 
-Read this skill, [methodology README](../methodology/README.md), the full [comparables procedure](../methodology/comparables_procedure.md) and [regression procedure](../methodology/regression_procedure.md). Also read [data sources](../methodology/data_sources.md), [sector adjustments](../methodology/sector_adjustments.md), [QA](../methodology/qa_checklist.md) and [report template](../methodology/report_template.md). These Markdown files contain the execution rules; no separate Word/PDF instruction file is needed.
+Read this skill, [methodology README](../../../methodology/README.md), the full [comparables procedure](../../../methodology/comparables_procedure.md) and [regression procedure](../../../methodology/regression_procedure.md). Also read [data sources](../../../methodology/data_sources.md), [sector adjustments](../../../methodology/sector_adjustments.md), [QA](../../../methodology/qa_checklist.md) and [report template](../../../methodology/report_template.md). These Markdown files contain the execution rules; no separate Word/PDF instruction file is needed.
 
 Default scope is the full 20-company assignment. If the user requests one/subset, run that scope and state it; do not label a partial run as 400 peer rows or 20 completed targets. Reuse one dated market dataset across targets. The 20 targets, each target's 20 peers and the regression universe are different sets.
 
