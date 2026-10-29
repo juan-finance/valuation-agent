@@ -6,7 +6,7 @@ The repository has two folders: skills/ contains agent instructions; methodology
 | --- | --- |
 | skills/SKILL-DCF.md | Existing stage 2 DCF skill; keep unchanged |
 | skills/SKILL-RELATIVE.md | Stage 3 orchestration of comparables and regressions |
-| methodology/dcf_procedure.md | Existing complete DCF procedure; keep unchanged |
+| methodology/dcf_procedure.md | Existing complete DCF procedure |
 | methodology/comparables_procedure.md | New peer selection, scoring, multiples and valuation procedure |
 | methodology/regression_procedure.md | New market dataset, A/B/C regressions, Excel formulas and diagnostics |
 | methodology/company_universe.md | Original 20 targets, sector mapping and distinct universe definitions |
@@ -14,8 +14,6 @@ The repository has two folders: skills/ contains agent instructions; methodology
 | methodology/sector_adjustments.md | DCF conventions plus relative primary multiples and bridge checks |
 | methodology/qa_checklist.md | Stage-specific completion and validation gates |
 | methodology/report_template.md | Integrated report, independent methods and appendix requirements |
-| methodology/CHANGE_SUMMARY.md | Existing DCF change history; keep unchanged |
-| methodology/RELATIVE_CHANGE_SUMMARY.md | This revision's coverage and conflict resolutions |
 
 ## Authority and execution
 
