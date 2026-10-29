@@ -5,7 +5,7 @@ description: Stage 2 company DCF valuation using the course FCFE or FCFF rule, a
 
 # Goal and required reading
 
-Value ONE company using the stage 1 data pack and the supplied course materials. Read [methodology README](../../../methodology/README.md), then the complete [DCF procedure](../../../methodology/dcf_procedure.md) before calculating. The procedure incorporates Steps in Company Valuation.docx and records corrections to its internal inconsistencies. Do not treat unverified examples as current data.
+Value ONE company using the stage 1 data pack and the supplied course materials. Read [methodology README](../../../methodology/README.md), then the complete [DCF procedure](../../../methodology/dcf_procedure.md) before calculating. The procedure incorporates Steps in Company Valuation.docx and records corrections to its internal inconsistencies. That Word document was itself derived from the professor's lecture notes in /lecture_notes, which rank higher: if a lecture contradicts the Word document or the procedure, follow the lecture and record the conflict in dcf_decisions.md (precedence rules: company-valuation skill). Do not treat unverified examples as current data.
 
 Read [data sources](../../../methodology/data_sources.md), [sector adjustments](../../../methodology/sector_adjustments.md), [company universe](../../../methodology/company_universe.md), [QA checklist](../../../methodology/qa_checklist.md), and [report template](../../../methodology/report_template.md).
 
@@ -32,7 +32,7 @@ Write under outputs/<ticker>_<valuation-date>/, relative to repository root:
 
 - dcf_model.xlsx: an Inputs sheet for sourced assumptions; separate historical/reconciliation, reinvestment, forecast, discount-rate, equity-bridge, sensitivity and QA schedules. Link formulas to inputs; no embedded valuation assumptions in formulas. Mathematical constants are permitted. Recalculate and check errors.
 - dcf_decisions.md: each judgment, alternatives, evidence, chosen method, source locator and value impact; include all course conventions and unresolved conflicts.
-- source_log.csv: fields specified in data_sources.md; preserve stage 1 entries.
+- source_log.csv: the 21 fields specified in data_sources.md (the same schema stage 1 uses); preserve and extend stage 1 entries.
 - qa_results.md: pass/fail/fixed/not applicable, evidence and any outstanding blockers for every applicable checklist item.
 - dcf_summary.png: one readable picture of assumptions, growth stages, Ke/Kd/WACC, equity bridge and per-share value.
 
