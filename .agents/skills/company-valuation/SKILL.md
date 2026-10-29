@@ -11,28 +11,45 @@ Run four stages in order. For each stage, first READ the stage file, then follow
 4. .agents/skills/valuation-4-recommendation/SKILL.md
 
 # Rules of precedence (single hierarchy for the whole repository)
-1. The professor's lecture notes in /lecture_notes override everything else.
-2. Steps in Company Valuation.docx (and the two Agent Instructions PDFs in /method_guides)
-   come next. They were written from the lectures, so if one contradicts a lecture, the
-   lecture wins. Their content is already encoded in methodology/dcf_procedure.md,
-   comparables_procedure.md and regression_procedure.md; open the originals only to
-   settle a doubt.
-3. The methodology procedures and the four stage files (they must agree; a stage file
-   orchestrates and the procedure holds the detail). If they disagree, apply the more
-   specific rule, record the conflict in the decisions file, and tell the user.
-4. /methodology/sector_adjustments.md is overridden by the four stage files, but still
+This is the one authoritative statement of the hierarchy; every other file points here.
+1. The professor's lecture notes in lecture_notes/ override everything else.
+2. The methodology procedures (methodology/dcf_procedure.md, comparables_procedure.md,
+   regression_procedure.md) and the four stage files. The procedures consolidate Steps in
+   Company Valuation.docx and the two Agent Instructions PDFs (method_guides/), which were
+   written from the lectures, and they deliberately record corrections to errors and internal
+   contradictions in those documents (conflict registers: dcf_procedure.md section 11 and
+   regression_procedure.md section 11). Those recorded corrections stand and are NOT undone by
+   the Word/PDF originals. Only a lecture can override them. Procedures and stage files must
+   agree (a stage file orchestrates, the procedure holds the detail); if they disagree, apply
+   the more specific rule, record the conflict in the decisions file and tell the user.
+3. The Word/PDF originals in method_guides/. They are source material, not a higher authority
+   than the procedures. Open them only to settle a doubt the procedures leave open; never use
+   them to reverse a recorded correction. If one contradicts a lecture, the lecture wins.
+4. methodology/sector_adjustments.md is overridden by the four stage files, but still
    supplies sector adjustments (buckets A-F). The QA checklist applies to the final output.
-5. Worked examples in /examples show method only and never override any of the above.
+5. Worked examples in examples/ show method only and never override any of the above. If an
+   example differs from a higher-ranked source, follow the higher-ranked source, note the
+   difference in case_summary.md and tell the user. Do not stop to ask.
+If a lecture contradicts a procedure, a recorded correction or a stage file, follow the lecture
+and record the conflict (dcf_decisions.md for stage 2, the method report/Log for stage 3).
 Run parameters given by the user (company, valuation date, data route, scope, attached
 files) are inputs, not methodology; they do not change rules 1-5 unless the user says so
 explicitly and the choice is recorded.
+
+# Repository facts
+- Paths in all files are repository-relative, without a leading slash (outputs/, lecture_notes/,
+  methodology/, examples/, method_guides/).
+- A run writes only to outputs/. There is no src/ code library, no templates/ folder and no
+  group workbook, and none will be supplied. Do your own research for peers, cross-checks and
+  data (sources in methodology/data_sources.md); build and test any code or checks yourself.
+  Only files the user attaches in the conversation are extra inputs.
 
 # Required from user
 Company name (must be in methodology/company_universe.md), valuation date (default today),
 any attached files. Ask if anything is missing.
 
 # Workflow
-- Scope: this orchestrator values ONE company. Create /outputs/<ticker>_<date>/ for all
+- Scope: this orchestrator values ONE company. Create outputs/<ticker>_<date>/ for all
   deliverables, including stage 3 (single-target mode, folder relative/ inside it; see
   SKILL-RELATIVE.md). The 20-target batch run (outputs/relative_<date>/) is only for a
   direct request to run stage 3 for the whole universe, outside this orchestrator.
@@ -59,5 +76,5 @@ any attached files. Ask if anything is missing.
 # Forbidden
 - Never invent data or fill gaps silently. Mark "not available".
 - Never use paid-database data unless the user attached it.
-- Never change /methodology or /lecture_notes files without asking.
+- Never change methodology/ or lecture_notes/ files without asking.
 - Never present the result as personal investment advice. It is an academic analyst recommendation and must carry the disclaimer.
