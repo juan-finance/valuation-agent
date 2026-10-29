@@ -5,9 +5,9 @@ description: Stage 2 company DCF valuation using the course FCFE or FCFF rule, a
 
 # Goal and required reading
 
-Value ONE company using the stage 1 data pack and the supplied course materials. Read [methodology README](../methodology/README.md), then the complete [DCF procedure](../methodology/dcf_procedure.md) before calculating. The procedure incorporates Steps in Company Valuation.docx and records corrections to its internal inconsistencies. Do not treat unverified examples as current data.
+Value ONE company using the stage 1 data pack and the supplied course materials. Read [methodology README](../../../methodology/README.md), then the complete [DCF procedure](../../../methodology/dcf_procedure.md) before calculating. The procedure incorporates Steps in Company Valuation.docx and records corrections to its internal inconsistencies. Do not treat unverified examples as current data.
 
-Read [data sources](../methodology/data_sources.md), [sector adjustments](../methodology/sector_adjustments.md), [company universe](../methodology/company_universe.md), [QA checklist](../methodology/qa_checklist.md), and [report template](../methodology/report_template.md).
+Read [data sources](../../../methodology/data_sources.md), [sector adjustments](../../../methodology/sector_adjustments.md), [company universe](../../../methodology/company_universe.md), [QA checklist](../../../methodology/qa_checklist.md), and [report template](../../../methodology/report_template.md).
 
 # Procedure
 
