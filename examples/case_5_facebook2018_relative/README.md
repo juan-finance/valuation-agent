@@ -3,7 +3,7 @@
 - Technique: relative valuation (multiples, regression, interpretation)
 - Currency: USD
 - Valuation date: 2018 (from the case name). Confirm the exact date in the Word document and
-  write it in case_summary.md.
+  write it in outputs/<ticker>_<date>/case_summary.md.
 - Use in stage: 3
 - What it teaches: how the most relevant multiples are chosen for a high-growth technology
   firm, how peers are selected, how the regression on multiples is run and read, how the
@@ -17,4 +17,4 @@
   example per-user metrics) will not carry over. Learn the process of choosing and justifying
   multiples, not the multiples themselves.
 - Dated inputs: market multiples, peer data and rates belong to 2018. Never reuse the numbers.
-- Rank: below the lecture notes, the methodology procedures and the skills. If this case differs from any of them, follow the higher-ranked source, note the difference in case_summary.md and tell the user. Do not stop to ask.
+- Rank: lowest in the hierarchy, below the lecture notes, the methodology procedures and the skills. If this case differs from any of them, follow the higher-ranked source, record the difference in outputs/<ticker>_<date>/case_summary.md and tell the user. Do not stop to ask. Ask only if the hierarchy cannot settle the conflict (see examples/README.md).
