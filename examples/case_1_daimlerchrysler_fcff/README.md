@@ -1,8 +1,8 @@
 # Case 1: DaimlerChrysler, FCFF valuation
-- Files: professor_solution.docx (REFERENCE), my_calculation.xlsx (layout and formulas only)
+- Files: professor_calculation.docx (REFERENCE), my_calculation.xlsx (layout and formulas only)
 - Technique: FCFF (free cash flow to the firm) valuation
 - Currency: EUR
-- Valuation date: not recorded. Read it from professor_solution.docx and write it in
+- Valuation date: not recorded. Read it from professor_calculation.docx and write it in
   case_summary.md. Do not assume a date.
 - Use in stage: 2 (FCFF branch)
 - What it teaches: how EBIT is normalized, how the tax rate is chosen, how the reinvestment
@@ -14,4 +14,4 @@
   lease treatment before IFRS 16) belong to the valuation date. Learn the steps and the
   judgements, never the numbers.
 - Differences between the Excel and the professor's solution: none known.
-- If this case conflicts with a skill in .agents/skills, stop and ask the user.
+- Rank: below the lecture notes, the methodology procedures and the skills. If this case differs from any of them, follow the higher-ranked source, note the difference in case_summary.md and tell the user. Do not stop to ask.
