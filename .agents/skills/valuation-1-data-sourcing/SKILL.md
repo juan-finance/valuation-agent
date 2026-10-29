@@ -5,7 +5,9 @@ description: Stage 1 of a company valuation. Confirms company identity, ticker a
 
 # Goal
 Produce a verified, normalized data pack for ONE company. Read /lecture_notes first for
-any definitions. Where my rules and the lecture notes differ, the lecture notes win.
+any definitions. Where my rules and the lecture notes differ, the lecture notes win; then
+Steps in Company Valuation.docx as encoded in methodology/dcf_procedure.md (see the
+precedence rules in the company-valuation skill).
 
 # Procedure
 0. Read methodology/data_sources.md. These are indicative sources; others are allowed.
@@ -33,7 +35,15 @@ any definitions. Where my rules and the lecture notes differ, the lecture notes 
    - ii. Search news and the annual report for the cause.
    - iii. If there is news AND analysts agree it is the new status quo, keep the value.
      Otherwise normalize it using the order in step 4. Record the decision and reason.
-6. Log every number in source_log.csv (item, value, source URL, date, document page).
+6. Log every number in source_log.csv using the 21 fields defined in
+   methodology/data_sources.md ("Required source_log.csv fields"): input_id, company,
+   metric, value, unit, currency, period_start, period_end, as_of_date, publication_date,
+   access_date, source_name, url_or_local_file, page_note_sheet_cell, dataset_vintage,
+   reported_or_adjusted, consolidation_scope, method_or_formula, cross_check_source,
+   status, limitation. (Old 5-column names map as: item→metric, value→value,
+   URL→url_or_local_file, date→as_of_date/access_date, page→page_note_sheet_cell.) Write
+   "n/a" in a field that does not apply; do not drop columns. Stages 2-3 append to this
+   file and preserve these entries.
 
 # Outputs (in /outputs/<ticker>_<date>/)
 company_identity.md, data_pack.xlsx, anomaly_report.md, source_log.csv.
