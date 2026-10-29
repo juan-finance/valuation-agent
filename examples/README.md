@@ -1,6 +1,7 @@
 # Worked examples (method and layout only)
-Each case folder contains the professor's solution (professor_solution.docx), which is the
-REFERENCE for method, judgement calls and results. Some folders also contain the student's
+Each case folder contains the professor's solution as a Word file, which is the REFERENCE
+for method, judgement calls and results. Actual file names: professor_calculation.docx
+(cases 1-4), Facebook 2018.docx (case 5) and Twitter.docx (case 6). Some folders also contain the student's
 Excel (my_calculation.xlsx): use it for layout and formulas only. The solution wins in any
 conflict. Read each case README first.
 
@@ -9,8 +10,10 @@ RULES
   The cases are from other dates and markets; their inputs are dated.
 - Learn the order of the steps, the judgement calls, the level of detail and the
   interpretation of results.
-- The cases show the method. If a case conflicts with a current skill in .agents/skills,
-  stop and ask the user which applies. Do not choose silently.
+- The cases show the method. The professor's lecture notes rank above the cases. If a case
+  conflicts with a lecture, follow the lecture; if it conflicts with a current skill in
+  .agents/skills and no lecture settles it, stop and ask the user which applies. Do not
+  choose silently.
 
 | Case | Technique | Files | Use in stage |
 |------|-----------|-------|--------------|
