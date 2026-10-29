@@ -2,18 +2,24 @@
 Each case folder contains the professor's solution as a Word file, which is the REFERENCE
 for method, judgement calls and results. Actual file names: professor_calculation.docx
 (cases 1-4), Facebook 2018.docx (case 5) and Twitter.docx (case 6). Some folders also contain the student's
-Excel (my_calculation.xlsx): use it for layout and formulas only. The solution wins in any
-conflict. Read each case README first.
+Excel (my_calculation.xlsx): use it for layout and formulas only. If the Excel and the Word
+solution differ, the Word solution wins. Read each case README first.
 
 RULES
 - Never copy numbers, rates, risk premiums, assumptions or company data into a new valuation.
   The cases are from other dates and markets; their inputs are dated.
 - Learn the order of the steps, the judgement calls, the level of detail and the
   interpretation of results.
-- The cases show the method. The professor's lecture notes rank above the cases. If a case
-  conflicts with a lecture, follow the lecture; if it conflicts with a current skill in
-  .agents/skills and no lecture settles it, stop and ask the user which applies. Do not
-  choose silently.
+- The cases show the method and rank LAST in the repository hierarchy. The skill goes first;
+  the example is only an example. If a case differs from a lecture, a methodology procedure,
+  a recorded correction or a skill in .agents/skills, follow the higher-ranked source. Do not
+  stop to ask. Record the difference in outputs/<ticker>_<date>/case_summary.md (one file per
+  run, one section per case consulted; the agent creates the outputs/ folder itself) and
+  tell the user in the next stage message.
+- Only a conflict that the hierarchy cannot settle (same rank, equally specific rules,
+  ambiguous lecture) is put to the user: ask, do not choose silently, and keep doing
+  independent work while waiting. Full rule: "Conflict handling" in
+  .agents/skills/company-valuation/SKILL.md, which wins if wording differs.
 
 | Case | Technique | Files | Use in stage |
 |------|-----------|-------|--------------|
