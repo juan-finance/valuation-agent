@@ -1,11 +1,11 @@
 # Valuation methodology
 
-The repository has two folders: skills/ contains agent instructions; methodology/ contains shared definitions and detailed procedures. Stage 2 and stage 3 produce independent estimates before the stage 4 reconciliation. This revision adds relative valuation to the existing DCF workflow.
+The repository folders are: .agents/skills/ (agent instructions, one folder per stage plus the company-valuation orchestrator), methodology/ (shared definitions and detailed procedures), lecture_notes/ (the professor's slides, highest authority), method_guides/ (the Word and PDF instruction documents the procedures were built from) and examples/ (worked cases, method only). Stage 2 and stage 3 produce independent estimates before the stage 4 reconciliation. This revision adds relative valuation to the existing DCF workflow.
 
 | Path | Role |
 | --- | --- |
-| skills/SKILL-DCF.md | Existing stage 2 DCF skill; keep unchanged |
-| skills/SKILL-RELATIVE.md | Stage 3 orchestration of comparables and regressions |
+| .agents/skills/valuation-2-dcf/SKILL-DCF.md | Existing stage 2 DCF skill; keep unchanged |
+| .agents/skills/valuation-3-relative/SKILL-RELATIVE.md | Stage 3 orchestration of comparables and regressions |
 | methodology/dcf_procedure.md | Existing complete DCF procedure |
 | methodology/comparables_procedure.md | New peer selection, scoring, multiples and valuation procedure |
 | methodology/regression_procedure.md | New market dataset, A/B/C regressions, Excel formulas and diagnostics |
@@ -17,7 +17,7 @@ The repository has two folders: skills/ contains agent instructions; methodology
 
 ## Authority and execution
 
-Use current explicit user/professor instructions first. The detailed Markdown procedures consolidate the supplied instructions and make their mathematical/operational ambiguities explicit. Project thresholds and defaults are labelled as such; do not present them as universal theory or independently verified professor statements. There is no need to open a separate Word/PDF instruction attachment to execute these procedures.
+Precedence (identical to the company-valuation skill): 1) the professor's lecture notes; 2) Steps in Company Valuation.docx and the Agent Instructions PDFs, which were written from the lectures (a lecture wins in any contradiction); 3) these methodology procedures and the stage skills; 4) sector_adjustments.md; 5) worked examples (method only). User-supplied run parameters (company, date, data route, scope, files) are inputs and do not change this order unless the user says so explicitly. The detailed Markdown procedures consolidate the supplied instructions and make their mathematical/operational ambiguities explicit. Project thresholds and defaults are labelled as such; do not present them as universal theory or independently verified professor statements. There is no need to open the Word/PDF instruction documents to execute these procedures; open them, and the relevant lecture, only to settle a doubt or a suspected contradiction, and record the outcome.
 
 For DCF, use SKILL-DCF.md and dcf_procedure.md. For relative valuation, read SKILL-RELATIVE.md, then BOTH comparables_procedure.md and regression_procedure.md, followed by the shared sources, universe, sector, QA and report files. A newer stage 3 rule supersedes the old relative skill where incompatible; it does not silently change DCF calculations. Record remaining conflicts and concrete limitations in the relevant method report/Log. Continue independent work when one model is blocked; never fabricate missing inputs or label a failed result verified.
 
@@ -33,4 +33,4 @@ Comparable valuation uses one business-appropriate primary multiple with support
 
 ## Outputs and handoff
 
-Repository-relative paths: outputs/, src/, templates/. Stage 1 sourcing and stage 2 DCF continue unchanged. Stage 3's seven core files are comparables.csv, multiples_summary.csv, comparables_report.md, DATA_BASE_MSCI.xlsx, regression_valuation.xlsx, valuation_multiples.csv and valuation_summary.md. Shared source/QA logs continue; embed audit schedules/charts as specified. Stage 4 follows report_template.md. Existing approval of scope/data route is reused; required manual data review is recorded honestly.
+Repository-relative paths: outputs/, src/, templates/. Stage 1 sourcing and stage 2 DCF continue unchanged. Stage 3's seven core files are comparables.csv, multiples_summary.csv, comparables_report.md, DATA_BASE_MSCI.xlsx, regression_valuation.xlsx, valuation_multiples.csv and valuation_summary.md. Shared source/QA logs continue; embed audit schedules/charts as specified. Scope: the company-valuation orchestrator values ONE company in outputs/<ticker>_<date>/ (stage 3 in its relative/ subfolder); a direct whole-assignment stage 3 run uses outputs/relative_<date>/. There is no relative_model.xlsx; stage 4 and the orchestrator use the seven core files. source_log.csv always uses the 21 fields in data_sources.md. Stage 4 follows report_template.md. Existing approval of scope/data route is reused; required manual data review is recorded honestly.

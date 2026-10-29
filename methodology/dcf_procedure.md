@@ -1,6 +1,6 @@
 # Complete DCF procedure
 
-Read this file in full before executing skills/SKILL-DCF.md. Labels distinguish **Word requirement**, **retained skill convention**, and **technical clarification**. The Word document is the procedural reference; errors and ambiguities are resolved explicitly below rather than silently propagated.
+Read this file in full before executing .agents/skills/valuation-2-dcf/SKILL-DCF.md. Labels distinguish **Word requirement**, **retained skill convention**, and **technical clarification**. The Word document is the procedural reference, but it was derived from the professor's lecture notes, which rank higher: where a lecture contradicts the Word document or this file, the lecture wins and the conflict is recorded in dcf_decisions.md. Errors and ambiguities are resolved explicitly below rather than silently propagated.
 
 ## Contents
 

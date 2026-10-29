@@ -15,7 +15,7 @@ Select a defensible peer group separately for each target, then value the target
 
 ## 1. Configuration and definitions
 
-Use all 20 targets unless a subset is explicitly requested. Record:
+Scope follows SKILL-RELATIVE.md: ONE target when called from the company-valuation orchestrator (output in outputs/<ticker>_<date>/relative/); all 20 targets for a direct whole-assignment run (outputs/relative_<date>/); a subset only if explicitly requested. Peer lists are always built per target. Record:
 
 ```yaml
 comparables_per_target: 20

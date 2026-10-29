@@ -6,7 +6,7 @@ whether the recommendation proves right.
 1. After stage 3, write report_outline.md in outputs/<ticker>_<date>/. Use the structure
    below as the starting point and adapt it if THIS company needs it. List the chapters,
    figures and tables, and explain any change.
-2. Use existing user approval if the scope and outline are already authorized. Otherwise ask the user to approve or change the outline; continue independent valuation and QA work.
+2. Use existing user approval if the scope and outline are already authorized. Otherwise ask the user to approve or change the outline; do not stop: continue independent valuation, QA, workbook and figure work while waiting. This is the single approval rule for the whole repository (stage 4 and the orchestrator follow it).
 3. Build the final report once the outline is approved or the user explicitly authorizes proceeding without that separate step.
 4. Afterwards, offer to save the approved outline as templates/approved_report_outline.md.
    Ask before writing it.

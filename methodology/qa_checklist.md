@@ -10,7 +10,7 @@ Record pass / fail / fixed / not applicable, evidence, reason and unresolved imp
 - [ ] Current common shares exclude treasury shares and are checked against report AND exchange, with issues, splits and buybacks updated. Dilution follows a disclosed method; historical weighted-average EPS shares are not used blindly.
 - [ ] The valuation debt/cash definition is reconciled to the company's reported net debt; hybrids, leases, pensions, NCI and provisions follow sector_adjustments.md without double counting.
 - [ ] Currency and units consistent everywhere. GBp vs GBP checked for London stocks.
-- [ ] Every number has a source and a date, and is logged in source_log.csv.
+- [ ] Every number has a source and a date, and is logged in source_log.csv using the 21 fields in data_sources.md (not the retired 5-column format).
 
 ## B. DCF (stage 2)
 
@@ -64,7 +64,7 @@ Record pass / fail / fixed / not applicable, evidence, reason and unresolved imp
 
 ### Shared data and independence
 
-- [ ] Data route confirmed/reused; full versus minimum universe stated. One valuation/FX date, cutoff and separately named FY/TTM/forward bases recorded.
+- [ ] Scope stated: single target in outputs/<ticker>_<date>/relative/ (orchestrator) or batch in outputs/relative_<date>/. Group workbook marked supplied or "not available". Data route confirmed/reused; full versus minimum universe stated. One valuation/FX date, cutoff and separately named FY/TTM/forward bases recorded.
 - [ ] Target list, selected peers and broad regression market remain distinct; internal A–F buckets are not used as unverified GICS sectors.
 - [ ] Raw financials and class-level market cap reconcile within 2%; price currencies/GBX, reporting currencies, ADRs, share classes and dilution are handled explicitly.
 - [ ] Field-level sources, membership vintage, exact industry mapping, fallback formulas and all transformations are logged. No unsupported imputation or per-row web-source switching.
@@ -118,5 +118,7 @@ Record pass / fail / fixed / not applicable, evidence, reason and unresolved imp
 - [ ] Extraordinary items commented on.
 - [ ] recommendation_summary.csv written.
 - [ ] Same method and thresholds as in the other companies, or deviations justified.
+- [ ] No reference to relative_model.xlsx, weights_table or relative_decisions.md remains; any stage 4 synthesis weights are stated, justified and not tuned to the DCF or the market price.
+- [ ] Report outline approval reused or requested per report_template.md; work was not blocked while waiting.
 - [ ] Data gaps section lists everything missing or estimated.
 - [ ] Plain-English summary is readable by a non-specialist. Glossary and disclaimer included.

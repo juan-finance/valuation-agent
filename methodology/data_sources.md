@@ -55,6 +55,8 @@ Cross-check material inputs independently when possible; otherwise record the un
 
 ## Required source_log.csv fields
 
+One schema for ALL stages (stage 1 creates the file with these columns; stages 2-3 append). The earlier five-column format (item, value, URL, date, page) is retired: item→metric, URL→url_or_local_file, date→as_of_date and access_date, page→page_note_sheet_cell. Write "n/a" where a field does not apply.
+
 Use: input_id, company, metric, value, unit, currency, period_start, period_end, as_of_date, publication_date, access_date, source_name, url_or_local_file, page_note_sheet_cell, dataset_vintage, reported_or_adjusted, consolidation_scope, method_or_formula, cross_check_source, status, limitation.
 
 Use stable input IDs in workbook inputs and decisions. Derived numbers must reference their source input IDs and calculation, not pretend to be vendor observations. Mark each input sourced, derived, estimated, unavailable or unverified. Preserve original stage 1 entries and record replacements transparently. Cite only pages/files actually opened; a search snippet alone does not verify a company input.
@@ -71,7 +73,7 @@ Confirm terminal-export availability once for the joint relative task; reuse a p
 | Relative input | Required source evidence |
 | --- | --- |
 | Index universe | MSCI/authorized terminal constituent list; otherwise dated tracking ETF holdings with all pages, reported count and exclusions reconciled; label proxy coverage |
-| Candidate peers | Group workbook peer row, issuer competitors and same-industry screener; verify membership and all hard filters separately |
+| Candidate peers | Group workbook peer row (only if the user attached it; it is not in the repository), issuer competitors and same-industry screener; verify membership and all hard filters separately |
 | Raw financials | Price/current shares, parent common NI/EPS/book equity, consolidated sales/EBIT/EBITDA/assets, total debt with leases, cash, NCI, associates, CFO, CapEx, D&A, tax/pretax profit, dividends/DPS and dates/units |
 | Earnings basis | Separate FY, TTM and NTM/next-FY series; matching fiscal dates and available interim data for any calendarization |
 | Consensus growth | Consistent 3–5-year EPS horizon; source availability assessed before candidate exclusions; fallback coverage logged |
