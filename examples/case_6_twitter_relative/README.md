@@ -1,5 +1,5 @@
 # Case 6: Twitter, relative valuation
-- Files: professor_solution.docx (REFERENCE for method only). No Excel.
+- Files: Twitter.docx (REFERENCE for method only). No Excel.
 - Technique: relative valuation (multiples, regression, interpretation)
 - Currency: USD
 - Valuation date: March 2014 (main valuation; the document also values the IPO in November
@@ -14,4 +14,4 @@
   multiples. Where a multiple is negative or meaningless, the stage 3 safeguards apply.
 - Dated inputs: market multiples, peer data and rates belong to the valuation date. Never
   reuse the numbers.
-- If this case conflicts with a skill in .agents/skills, stop and ask the user.
+- Rank: below the lecture notes, the methodology procedures and the skills. If this case differs from any of them, follow the higher-ranked source, note the difference in case_summary.md and tell the user. Do not stop to ask.
