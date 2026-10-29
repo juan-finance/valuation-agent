@@ -1,5 +1,5 @@
 # Case 2: ABN Amro, dividend discount model with 2-stage growth
-- Files: professor_solution.docx (REFERENCE), my_calculation.xlsx (layout and formulas only)
+- Files: professor_calculation.docx (REFERENCE), my_calculation.xlsx (layout and formulas only)
 - Technique: dividend discount model (DDM), 2-stage growth
 - Currency: EUR
 - Valuation date: 2003 (the document states the year only, not the day or month). Write it
@@ -15,4 +15,4 @@
 - Dated inputs: rates, risk premiums and regulatory conventions belong to the valuation
   date. Never reuse the numbers.
 - Differences between the Excel and the professor's solution: none known.
-- If this case conflicts with a skill in .agents/skills, stop and ask the user.
+- Rank: below the lecture notes, the methodology procedures and the skills. If this case differs from any of them, follow the higher-ranked source, note the difference in case_summary.md and tell the user. Do not stop to ask.
