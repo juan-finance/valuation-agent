@@ -47,7 +47,7 @@ The source wording “trailing FY2025” conflates a fiscal-year observation wit
 
 ## 2. Data route and validation
 
-Follow the stage 3 rules in [data sources](data_sources.md). Confirm availability of a coherent terminal export once; reuse that answer for both methods. Terminal is preferred; otherwise use stockanalysis raw fields for all companies, with the permitted separate identity, classification, FX and beta sources. The group workbook's peer lists and annual-report competitors are starting candidates, not approved peers.
+Follow the stage 3 rules in [data sources](data_sources.md). Confirm availability of a coherent terminal export once; reuse that answer for both methods. Terminal is preferred; otherwise use stockanalysis raw fields for all companies, with the permitted separate identity, classification, FX and beta sources. Competitors named in the target's annual report, same-industry screener results and the agent's own research are starting candidates, not approved peers. No group workbook exists or will be supplied.
 
 Terminal route growth: consensus EPS growth over the same 3–5-year horizon. If more than 30% of a target's initial eligible candidate pool lacks consensus, switch the entire pool AND target to fundamental growth and report it. Measure this missingness before excluding incomplete candidates. Below that threshold the documented individual fallback is allowed, but label mixed provenance and show an all-fundamental scoring sensitivity where material.
 
@@ -58,7 +58,7 @@ Before selection/valuation:
 - Check equity market value versus class-level price × shares within 2%; flag discrepancies and resolve unit/perimeter errors.
 - Use a single valuation date and FX snapshot. A price more than five trading days stale fails freshness; a price within five days is not automatically date-aligned. Retrieve the common-date quote or agree a common historical date; never combine dates silently. Record last-trading-day holiday conventions.
 - Compute EV and multiples from raw figures, require positive EV for EV valuation. Keep original raw data and differences versus vendor multiples.
-- Cross-check all targets with available group-workbook and FY annual reports; >2% discrepancies require both sources, chosen definition and explanation. Do not replace individual web inputs selectively to force agreement.
+- Cross-check all targets against the FY annual reports and an independent public source; >2% discrepancies require both sources, chosen definition and explanation. Do not replace individual web inputs selectively to force agreement.
 - Compare peer median multiples with the best-matching Damodaran Europe industry benchmark (region-appropriate benchmark for material global peers). A >50% relative gap triggers investigation before using the result. Verify the benchmark statistic really is a median, its period and its industry scope; do not compare aggregate ratios as if they were medians. A real economic gap can be retained only after documented resolution, not “fixed” to match.
 - Verify every peer ISIN on an exchange, MSCI or issuer IR page. Directory sites can locate candidates but do not replace final verification.
 - Prepare source-linked Spot_check rows for every target's selected peers. Record required human review separately from automated checks; do not claim it happened without evidence.

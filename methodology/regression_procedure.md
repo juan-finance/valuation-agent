@@ -284,7 +284,7 @@ Render multiples to 1 decimal, coefficients/SE/t to 3 significant figures, p-val
 
 ## 11. Explicit conflict resolutions and technical references
 
-The following are implementation resolutions, not claims that ambiguous instructions were unambiguous:
+The following are implementation resolutions, not claims that ambiguous instructions were unambiguous. They settle contradictions and ambiguities inside the Agent Instructions PDFs and rank above those PDFs. Only a lecture overrides them: if a lecture addresses the same point, follow the lecture and record the difference in the Log.
 
 - Beta bound 2.5 follows the detailed cleaning step rather than the earlier 3.0 summary; any override is global and logged. Beta repair precedes missing-X exclusion.
 - FY2025 configuration governs the base; separate TTM columns remain. The PE model is not silently linked to the TTM column when configured FY.

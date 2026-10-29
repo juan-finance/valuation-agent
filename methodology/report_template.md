@@ -8,8 +8,8 @@ whether the recommendation proves right.
    figures and tables, and explain any change.
 2. Use existing user approval if the scope and outline are already authorized. Otherwise ask the user to approve or change the outline; do not stop: continue independent valuation, QA, workbook and figure work while waiting. This is the single approval rule for the whole repository (stage 4 and the orchestrator follow it).
 3. Build the final report once the outline is approved or the user explicitly authorizes proceeding without that separate step.
-4. Afterwards, offer to save the approved outline as templates/approved_report_outline.md.
-   Ask before writing it.
+4. Keep the approved outline in outputs/<ticker>_<date>/report_outline.md (update it if the
+   approved structure changes). No templates/ folder exists; do not create one.
 
 ## Structure (default)
 1. One-page summary: fair value range, recommended price, current price, upside/downside,

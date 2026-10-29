@@ -64,7 +64,7 @@ Record pass / fail / fixed / not applicable, evidence, reason and unresolved imp
 
 ### Shared data and independence
 
-- [ ] Scope stated: single target in outputs/<ticker>_<date>/relative/ (orchestrator) or batch in outputs/relative_<date>/. Group workbook marked supplied or "not available". Data route confirmed/reused; full versus minimum universe stated. One valuation/FX date, cutoff and separately named FY/TTM/forward bases recorded.
+- [ ] Scope stated: single target in outputs/<ticker>_<date>/relative/ (orchestrator) or batch in outputs/relative_<date>/. Peer candidates and cross-checks come from the agent's own research (no group workbook). Data route confirmed/reused; full versus minimum universe stated. One valuation/FX date, cutoff and separately named FY/TTM/forward bases recorded.
 - [ ] Target list, selected peers and broad regression market remain distinct; internal A–F buckets are not used as unverified GICS sectors.
 - [ ] Raw financials and class-level market cap reconcile within 2%; price currencies/GBX, reporting currencies, ADRs, share classes and dilution are handled explicitly.
 - [ ] Field-level sources, membership vintage, exact industry mapping, fallback formulas and all transformations are logged. No unsupported imputation or per-row web-source switching.

@@ -1,6 +1,6 @@
 # Complete DCF procedure
 
-Read this file in full before executing .agents/skills/valuation-2-dcf/SKILL-DCF.md. Labels distinguish **Word requirement**, **retained skill convention**, and **technical clarification**. The Word document is the procedural reference, but it was derived from the professor's lecture notes, which rank higher: where a lecture contradicts the Word document or this file, the lecture wins and the conflict is recorded in dcf_decisions.md. Errors and ambiguities are resolved explicitly below rather than silently propagated.
+Read this file in full before executing .agents/skills/valuation-2-dcf/SKILL-DCF.md. Labels distinguish **Word requirement**, **retained skill convention**, and **technical clarification**. This file encodes the Word document and records, in section 11, deliberate corrections to its errors and internal contradictions. Those corrections stand: the Word document is source material and is not used to reverse them. The Word document was derived from the professor's lecture notes, which rank higher than both: where a lecture contradicts the Word document, a section 11 correction or any other rule here, the lecture wins and the conflict is recorded in dcf_decisions.md. Errors and ambiguities are resolved explicitly below rather than silently propagated. Full hierarchy: .agents/skills/company-valuation/SKILL.md.
 
 ## Contents
 
@@ -237,6 +237,8 @@ Report `PV(terminal value) / total discounted operating cash flows` for FCFF and
 Follow SKILL-DCF.md for required files and qa_checklist.md for evidence. Preserve anomaly commentary, decision rationale, verified citations, summary image, dated source log and workbook reproducibility. Do not imply that the procedure itself has performed a company valuation.
 
 ## 11. Conflict register and reference evidence
+
+Each row is a deliberate correction of the Word document (or of the earlier skill), and the implemented treatment stands over the Word. Only a lecture overrides it: when the agent reaches one of these points and a lecture addresses it, the lecture applies and the difference is recorded in dcf_decisions.md. The detailed corrections in sections 1-9 (for example book debt averaged with an industry ratio, sovereign default spread versus equity CRP, the CoCo probability split, the geographic tax rate) follow the same rule.
 
 | Conflict in supplied material | Implemented treatment |
 | --- | --- |

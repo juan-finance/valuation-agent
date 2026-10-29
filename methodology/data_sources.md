@@ -73,7 +73,7 @@ Confirm terminal-export availability once for the joint relative task; reuse a p
 | Relative input | Required source evidence |
 | --- | --- |
 | Index universe | MSCI/authorized terminal constituent list; otherwise dated tracking ETF holdings with all pages, reported count and exclusions reconciled; label proxy coverage |
-| Candidate peers | Group workbook peer row (only if the user attached it; it is not in the repository), issuer competitors and same-industry screener; verify membership and all hard filters separately |
+| Candidate peers | Issuer-named competitors, same-industry screener and the agent's own research (no group workbook exists or will be supplied); verify membership and all hard filters separately |
 | Raw financials | Price/current shares, parent common NI/EPS/book equity, consolidated sales/EBIT/EBITDA/assets, total debt with leases, cash, NCI, associates, CFO, CapEx, D&A, tax/pretax profit, dividends/DPS and dates/units |
 | Earnings basis | Separate FY, TTM and NTM/next-FY series; matching fiscal dates and available interim data for any calendarization |
 | Consensus growth | Consistent 3–5-year EPS horizon; source availability assessed before candidate exclusions; fallback coverage logged |
