@@ -34,7 +34,3 @@ Comparable valuation uses one business-appropriate primary multiple with support
 ## Outputs and handoff
 
 Repository-relative paths: outputs/, src/, templates/. Stage 1 sourcing and stage 2 DCF continue unchanged. Stage 3's seven core files are comparables.csv, multiples_summary.csv, comparables_report.md, DATA_BASE_MSCI.xlsx, regression_valuation.xlsx, valuation_multiples.csv and valuation_summary.md. Shared source/QA logs continue; embed audit schedules/charts as specified. Stage 4 follows report_template.md. Existing approval of scope/data route is reused; required manual data review is recorded honestly.
-
-## Applying this revision
-
-Replace SKILL-RELATIVE.md and the six shared methodology files supplied with this revision; add comparables_procedure.md, regression_procedure.md and RELATIVE_CHANGE_SUMMARY.md. Keep SKILL-DCF.md, dcf_procedure.md and the prior CHANGE_SUMMARY.md. The suffix (1) on uploaded shared filenames is a download suffix, not a new repository basename. This is a document replacement package, not a claim that the remote GitHub repository or any installed skill has been updated.
