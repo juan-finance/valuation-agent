@@ -1,0 +1,35 @@
+{
+  "company": "Air Liquide",
+  "ticker": "AI.PA",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-10-30T19:42:58+00:00",
+  "stages": {
+    "stage1_data": {
+      "status": "pending",
+      "notes": [
+        "2026-10-30T19:42:58+00:00 Stage 0 market cache built: macro/2026-10-30.json, market/2026-10-30/{universe.csv,candidates_AI.PA.csv,MANIFEST.md}; candidate pages cached under cache/web/2026-10-30/"
+      ],
+      "outputs": [],
+      "next_step": "start of stage"
+    },
+    "stage2_dcf": {
+      "status": "pending",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage3_relative": {
+      "status": "pending",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage4_recommendation": {
+      "status": "pending",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    }
+  }
+}

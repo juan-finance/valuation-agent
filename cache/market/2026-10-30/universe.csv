@@ -1,0 +1,1011 @@
+ticker,name,gics_sector,country_listing,exchange,currency,price,fund_weight_pct,fund_market_value_usd,screen_flag,isin,source
+ASML,ASML HOLDING,Information Technology,Netherlands,Euronext Amsterdam,EUR,"1,679.80",4.24,"403,812,462.43",,,ishares_ieur_holdings_2026-10-29
+ROP,ROCHE PS PAR AG,Health Care,Switzerland,SIX Swiss Exchange,CHF,485.82,2.22,"211,224,679.20",,,ishares_ieur_holdings_2026-10-29
+SHEL,SHELL,Energy,United Kingdom,London Stock Exchange,GBP,54.00,2.03,"193,336,761.30",,,ishares_ieur_holdings_2026-10-29
+HSBA,HSBC HOLDINGS PLC,Financials,United Kingdom,London Stock Exchange,GBP,17.29,1.93,"184,021,793.91",sector_financials,,ishares_ieur_holdings_2026-10-29
+NOVN,NOVARTIS AG,Health Care,Switzerland,SIX Swiss Exchange,CHF,160.00,1.90,"181,477,486.85",,,ishares_ieur_holdings_2026-10-29
+AZN,ASTRAZENECA PLC,Health Care,United Kingdom,London Stock Exchange,GBP,174.55,1.71,"163,240,022.25",,,ishares_ieur_holdings_2026-10-29
+NESN,NESTLE SA,Consumer Staples,Switzerland,SIX Swiss Exchange,CHF,100.15,1.68,"159,822,649.02",,,ishares_ieur_holdings_2026-10-29
+SAP,SAP,Information Technology,Germany,Xetra,EUR,233.19,1.54,"146,415,022.63",,,ishares_ieur_holdings_2026-10-29
+SIE,SIEMENS N AG,Industrials,Germany,Xetra,EUR,305.59,1.44,"137,142,001.13",,,ishares_ieur_holdings_2026-10-29
+ALV,ALLIANZ,Financials,Germany,Xetra,EUR,490.72,1.21,"115,535,916.29",sector_financials,,ishares_ieur_holdings_2026-10-29
+TTE,TOTALENERGIES,Energy,France,Nyse Euronext - Euronext Paris,EUR,94.44,1.19,"113,565,801.06",,,ishares_ieur_holdings_2026-10-29
+SAN,BANCO SANTANDER,Financials,Spain,Bolsa De Madrid,EUR,11.73,1.09,"103,609,114.27",sector_financials,,ishares_ieur_holdings_2026-10-29
+IBE,IBERDROLA,Utilities,Spain,Bolsa De Madrid,EUR,24.67,1.00,"94,915,256.09",,,ishares_ieur_holdings_2026-10-29
+SU,SCHNEIDER ELECTRIC,Industrials,France,Nyse Euronext - Euronext Paris,EUR,276.39,0.99,"94,039,828.63",,,ishares_ieur_holdings_2026-10-29
+UBSG,UBS GROUP AG,Financials,Switzerland,SIX Swiss Exchange,CHF,48.03,0.97,"92,604,622.88",sector_financials,,ishares_ieur_holdings_2026-10-29
+RR.,ROLLS-ROYCE HOLDINGS PLC,Industrials,United Kingdom,London Stock Exchange,GBP,17.12,0.93,"88,566,498.03",,,ishares_ieur_holdings_2026-10-29
+ABBN,ABB LTD,Industrials,Switzerland,SIX Swiss Exchange,CHF,88.43,0.89,"85,248,006.77",,,ishares_ieur_holdings_2026-10-29
+ULVR,UNILEVER PLC,Consumer Staples,United Kingdom,London Stock Exchange,GBP,63.81,0.89,"84,998,401.03",,,ishares_ieur_holdings_2026-10-29
+BBVA,BANCO BILBAO VIZCAYA ARGENTARIA,Financials,Spain,Bolsa De Madrid,EUR,24.41,0.89,"84,439,956.51",sector_financials,,ishares_ieur_holdings_2026-10-29
+BP.,BP PLC,Energy,United Kingdom,London Stock Exchange,GBP,8.35,0.85,"80,928,295.48",,,ishares_ieur_holdings_2026-10-29
+AIR,AIRBUS GROUP,Industrials,France,Nyse Euronext - Euronext Paris,EUR,219.17,0.84,"80,465,476.18",,,ishares_ieur_holdings_2026-10-29
+NOVO B,NOVO NORDISK CLASS B,Health Care,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,38.89,0.81,"77,539,428.36",,,ishares_ieur_holdings_2026-10-29
+AI,LAIR LIQUIDE SOCIETE ANONYME POUR,Materials,France,Nyse Euronext - Euronext Paris,EUR,198.01,0.80,"76,507,821.06",,,ishares_ieur_holdings_2026-10-29
+BATS,BRITISH AMERICAN TOBACCO,Consumer Staples,United Kingdom,London Stock Exchange,GBP,60.39,0.78,"74,712,564.09",,,ishares_ieur_holdings_2026-10-29
+ENR,SIEMENS ENERGY N AG,Industrials,Germany,Xetra,EUR,152.13,0.77,"73,093,291.26",,,ishares_ieur_holdings_2026-10-29
+OR,LOREAL SA,Consumer Staples,France,Nyse Euronext - Euronext Paris,EUR,473.87,0.73,"69,928,426.11",,,ishares_ieur_holdings_2026-10-29
+UCG,UNICREDIT,Financials,Italy,Borsa Italiana,EUR,83.19,0.73,"69,707,273.39",sector_financials,,ishares_ieur_holdings_2026-10-29
+ZURN,ZURICH INSURANCE GROUP AG,Financials,Switzerland,SIX Swiss Exchange,CHF,751.53,0.72,"68,499,420.45",sector_financials,,ishares_ieur_holdings_2026-10-29
+SAF,SAFRAN SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,311.45,0.70,"66,719,572.08",,,ishares_ieur_holdings_2026-10-29
+CFR,COMPAGNIE FINANCIERE RICHEMONT SA,Consumer Discretionary,Switzerland,SIX Swiss Exchange,CHF,198.83,0.70,"66,287,487.69",,,ishares_ieur_holdings_2026-10-29
+MC,LVMH,Consumer Discretionary,France,Nyse Euronext - Euronext Paris,EUR,428.49,0.69,"65,462,827.87",,,ishares_ieur_holdings_2026-10-29
+GSK,GLAXOSMITHKLINE,Health Care,United Kingdom,London Stock Exchange,GBP,24.26,0.64,"60,563,841.37",,,ishares_ieur_holdings_2026-10-29
+DTE,DEUTSCHE TELEKOM N AG,Communication,Germany,Xetra,EUR,28.60,0.63,"60,042,670.63",,,ishares_ieur_holdings_2026-10-29
+BNP,BNP PARIBAS SA,Financials,France,Nyse Euronext - Euronext Paris,EUR,97.84,0.63,"59,859,598.48",sector_financials,,ishares_ieur_holdings_2026-10-29
+ISP,INTESA SANPAOLO,Financials,Italy,Borsa Italiana,EUR,6.66,0.61,"57,930,993.28",sector_financials,,ishares_ieur_holdings_2026-10-29
+INGA,ING GROEP,Financials,Netherlands,Euronext Amsterdam,EUR,32.21,0.60,"57,477,877.99",sector_financials,,ishares_ieur_holdings_2026-10-29
+SAN,SANOFI SA,Health Care,France,Nyse Euronext - Euronext Paris,EUR,85.01,0.60,"57,126,151.78",,,ishares_ieur_holdings_2026-10-29
+RIO,RIO TINTO,Materials,United Kingdom,London Stock Exchange,GBP,83.00,0.57,"54,573,234.04",,,ishares_ieur_holdings_2026-10-29
+NG.,NATIONAL GRID PLC,Utilities,United Kingdom,London Stock Exchange,GBP,16.78,0.54,"51,273,500.92",,,ishares_ieur_holdings_2026-10-29
+SPOT,SPOTIFY TECHNOLOGY,Communication,Sweden,NYSE,USD,557.24,0.53,"50,859,852.04",,,ishares_ieur_holdings_2026-10-29
+BA.,BAE SYSTEMS PLC,Industrials,United Kingdom,London Stock Exchange,GBP,27.68,0.53,"50,214,539.76",,,ishares_ieur_holdings_2026-10-29
+MUV2,MUENCHENER RUECKVERSICHERUNGS-GESE,Financials,Germany,Xetra,EUR,621.11,0.51,"48,976,954.32",sector_financials,,ishares_ieur_holdings_2026-10-29
+IFX,INFINEON TECHNOLOGIES AG,Information Technology,Germany,Xetra,EUR,60.29,0.51,"48,896,536.56",,,ishares_ieur_holdings_2026-10-29
+ENEL,ENEL,Utilities,Italy,Borsa Italiana,EUR,10.38,0.51,"48,711,521.71",,,ishares_ieur_holdings_2026-10-29
+BARC,BARCLAYS PLC,Financials,United Kingdom,London Stock Exchange,GBP,5.78,0.51,"48,480,799.71",sector_financials,,ishares_ieur_holdings_2026-10-29
+LLOY,LLOYDS BANKING GROUP PLC,Financials,United Kingdom,London Stock Exchange,GBP,1.32,0.49,"47,015,519.37",sector_financials,,ishares_ieur_holdings_2026-10-29
+INVE B,INVESTOR CLASS B,Financials,Sweden,Nasdaq Omx Nordic,SEK,43.28,0.49,"46,461,710.13",sector_financials,,ishares_ieur_holdings_2026-10-29
+CS,AXA SA,Financials,France,Nyse Euronext - Euronext Paris,EUR,47.70,0.48,"46,067,317.54",sector_financials,,ishares_ieur_holdings_2026-10-29
+ABI,ANHEUSER-BUSCH INBEV SA,Consumer Staples,Belgium,Nyse Euronext - Euronext Brussels,EUR,78.90,0.46,"43,794,754.03",,,ishares_ieur_holdings_2026-10-29
+REL,RELX PLC,Industrials,United Kingdom,London Stock Exchange,GBP,38.98,0.45,"42,623,548.52",,,ishares_ieur_holdings_2026-10-29
+ITX,INDUSTRIA DE DISENO TEXTIL SA,Consumer Discretionary,Spain,Bolsa De Madrid,EUR,62.83,0.44,"42,414,157.14",,,ishares_ieur_holdings_2026-10-29
+GLEN,GLENCORE PLC,Materials,United Kingdom,London Stock Exchange,GBP,7.14,0.43,"41,387,558.00",,,ishares_ieur_holdings_2026-10-29
+NWG,NATWEST GROUP PLC,Financials,United Kingdom,London Stock Exchange,GBP,8.49,0.43,"41,218,153.91",sector_financials,,ishares_ieur_holdings_2026-10-29
+DB1,DEUTSCHE BOERSE AG,Financials,Germany,Xetra,EUR,351.63,0.42,"39,582,792.40",sector_financials,,ishares_ieur_holdings_2026-10-29
+DHL,DHL AG,Industrials,Germany,Xetra,EUR,65.64,0.39,"37,310,727.17",,,ishares_ieur_holdings_2026-10-29
+DBK,DEUTSCHE BANK AG,Financials,Germany,Xetra,EUR,34.78,0.39,"37,020,937.33",sector_financials,,ishares_ieur_holdings_2026-10-29
+EL,ESSILORLUXOTTICA SA,Health Care,France,Nyse Euronext - Euronext Paris,EUR,198.92,0.38,"36,022,868.83",,,ishares_ieur_holdings_2026-10-29
+CPG,COMPASS GROUP PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,USD,33.58,0.37,"35,165,983.40",,,ishares_ieur_holdings_2026-10-29
+DG,VINCI SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,121.96,0.37,"35,109,604.15",,,ishares_ieur_holdings_2026-10-29
+ARGX,ARGENX,Health Care,Belgium,Nyse Euronext - Euronext Brussels,EUR,897.95,0.37,"34,797,425.05",,,ishares_ieur_holdings_2026-10-29
+LSEG,LONDON STOCK EXCHANGE GROUP PLC,Financials,United Kingdom,London Stock Exchange,GBP,126.30,0.36,"34,661,715.52",sector_financials,,ishares_ieur_holdings_2026-10-29
+RHM,RHEINMETALL AG,Industrials,Germany,Xetra,EUR,"1,170.10",0.36,"34,027,842.70",,,ishares_ieur_holdings_2026-10-29
+ENI,ENI,Energy,Italy,Borsa Italiana,EUR,30.02,0.35,"33,731,228.33",,,ishares_ieur_holdings_2026-10-29
+LONN,LONZA GROUP AG,Health Care,Switzerland,SIX Swiss Exchange,CHF,774.99,0.35,"33,726,764.47",,,ishares_ieur_holdings_2026-10-29
+NDA FI,NORDEA BANK,Financials,Finland,Nasdaq Omx Helsinki Ltd.,EUR,17.89,0.35,"33,696,574.57",sector_financials,,ishares_ieur_holdings_2026-10-29
+AAL,ANGLO AMERICAN PLC,Materials,United Kingdom,London Stock Exchange,GBP,51.69,0.35,"33,326,313.72",,,ishares_ieur_holdings_2026-10-29
+SREN,SWISS RE AG,Financials,Switzerland,SIX Swiss Exchange,CHF,182.44,0.34,"32,744,037.19",sector_financials,,ishares_ieur_holdings_2026-10-29
+BAYN,BAYER AG,Health Care,Germany,Xetra,EUR,53.54,0.34,"32,598,920.61",,,ishares_ieur_holdings_2026-10-29
+BAS,BASF N,Materials,Germany,Xetra,EUR,59.53,0.34,"32,219,047.99",,,ishares_ieur_holdings_2026-10-29
+DGE,DIAGEO PLC,Consumer Staples,United Kingdom,London Stock Exchange,GBP,22.75,0.33,"31,133,769.10",,,ishares_ieur_holdings_2026-10-29
+STAN,STANDARD CHARTERED PLC,Financials,United Kingdom,London Stock Exchange,GBP,28.19,0.32,"30,908,109.05",sector_financials,,ishares_ieur_holdings_2026-10-29
+VOLV B,VOLVO CLASS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,31.46,0.32,"30,050,698.18",,,ishares_ieur_holdings_2026-10-29
+ATCO A,ATLAS COPCO CLASS A,Industrials,Sweden,Nasdaq Omx Nordic,SEK,19.11,0.31,"29,942,695.56",,,ishares_ieur_holdings_2026-10-29
+RACE,FERRARI,Consumer Discretionary,Italy,Borsa Italiana,EUR,398.74,0.31,"29,899,695.86",,,ishares_ieur_holdings_2026-10-29
+RMS,HERMES INTERNATIONAL,Consumer Discretionary,France,Nyse Euronext - Euronext Paris,EUR,"1,413.23",0.31,"29,714,695.93",,,ishares_ieur_holdings_2026-10-29
+EOAN,E.ON N,Utilities,Germany,Xetra,EUR,21.16,0.31,"29,374,398.66",,,ishares_ieur_holdings_2026-10-29
+NOKIA,NOKIA,Information Technology,Finland,Nasdaq Omx Helsinki Ltd.,EUR,9.33,0.30,"29,049,059.21",,,ishares_ieur_holdings_2026-10-29
+ENGI,ENGIE SA,Utilities,France,Nyse Euronext - Euronext Paris,EUR,26.34,0.30,"28,750,001.97",,,ishares_ieur_holdings_2026-10-29
+PRX,PROSUS NV CLASS N,Consumer Discretionary,Netherlands,Euronext Amsterdam,EUR,38.29,0.30,"28,653,107.17",,,ishares_ieur_holdings_2026-10-29
+BN,DANONE SA,Consumer Staples,France,Nyse Euronext - Euronext Paris,EUR,71.87,0.29,"27,873,625.03",,,ishares_ieur_holdings_2026-10-29
+RKT,RECKITT BENCKISER GROUP PLC,Consumer Staples,United Kingdom,London Stock Exchange,GBP,70.64,0.29,"27,638,288.73",,,ishares_ieur_holdings_2026-10-29
+GLE,SOCIETE GENERALE SA,Financials,France,Nyse Euronext - Euronext Paris,EUR,69.67,0.29,"27,495,563.24",sector_financials,,ishares_ieur_holdings_2026-10-29
+TSCO,TESCO PLC,Consumer Staples,United Kingdom,London Stock Exchange,GBP,7.10,0.29,"27,453,281.50",,,ishares_ieur_holdings_2026-10-29
+CABK,CAIXABANK SA,Financials,Spain,Bolsa De Madrid,EUR,12.46,0.29,"27,243,505.48",sector_financials,,ishares_ieur_holdings_2026-10-29
+GIVN,GIVAUDAN SA,Materials,Switzerland,SIX Swiss Exchange,CHF,"4,736.05",0.28,"27,047,561.23",,,ishares_ieur_holdings_2026-10-29
+HOLN,HOLCIM LTD AG,Materials,Switzerland,SIX Swiss Exchange,CHF,84.47,0.28,"26,753,403.59",,,ishares_ieur_holdings_2026-10-29
+SSE,SSE PLC,Utilities,United Kingdom,London Stock Exchange,GBP,35.40,0.28,"26,590,273.48",,,ishares_ieur_holdings_2026-10-29
+GALD,GALDERMA GROUP N AG,Health Care,Switzerland,SIX Swiss Exchange,CHF,229.42,0.28,"26,452,005.68",,,ishares_ieur_holdings_2026-10-29
+SDZ,SANDOZ GROUP AG,Health Care,Switzerland,SIX Swiss Exchange,CHF,100.84,0.28,"26,313,834.55",,,ishares_ieur_holdings_2026-10-29
+RWE,RWE AG,Utilities,Germany,Xetra,EUR,65.50,0.28,"26,238,148.59",,,ishares_ieur_holdings_2026-10-29
+ASM,ASM INTERNATIONAL NV,Information Technology,Netherlands,Euronext Amsterdam,EUR,881.43,0.27,"25,673,425.59",,,ishares_ieur_holdings_2026-10-29
+DSV,DSV,Industrials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,209.26,0.26,"24,906,224.90",,,ishares_ieur_holdings_2026-10-29
+ASSA B,ASSA ABLOY B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,39.25,0.25,"23,925,026.71",,,ishares_ieur_holdings_2026-10-29
+LR,LEGRAND SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,150.25,0.25,"23,765,822.27",,,ishares_ieur_holdings_2026-10-29
+SAND,SANDVIK,Industrials,Sweden,Nasdaq Omx Nordic,SEK,36.94,0.25,"23,657,014.91",,,ishares_ieur_holdings_2026-10-29
+UCB,UCB SA,Health Care,Belgium,Nyse Euronext - Euronext Brussels,EUR,312.56,0.25,"23,550,447.14",,,ishares_ieur_holdings_2026-10-29
+EBS,ERSTE GROUP BANK AG,Financials,Austria,Wiener Boerse Ag,EUR,119.89,0.24,"23,012,165.27",sector_financials,,ishares_ieur_holdings_2026-10-29
+HLN,HALEON PLC,Health Care,United Kingdom,London Stock Exchange,GBP,4.25,0.24,"22,969,617.46",,,ishares_ieur_holdings_2026-10-29
+REP,REPSOL,Energy,Spain,Bolsa De Madrid,EUR,32.83,0.24,"22,512,417.40",,,ishares_ieur_holdings_2026-10-29
+PRY,PRYSMIAN,Industrials,Italy,Borsa Italiana,EUR,128.26,0.23,"22,142,404.04",,,ishares_ieur_holdings_2026-10-29
+NBIS,NEBIUS NV CLASS A,Information Technology,Netherlands,NASDAQ,USD,171.99,0.23,"21,592,828.53",,,ishares_ieur_holdings_2026-10-29
+ALC,ALCON AG,Health Care,Switzerland,SIX Swiss Exchange,CHF,71.06,0.23,"21,566,842.31",,,ishares_ieur_holdings_2026-10-29
+EXPN,EXPERIAN PLC,Industrials,United Kingdom,London Stock Exchange,GBP,39.18,0.23,"21,530,000.59",,,ishares_ieur_holdings_2026-10-29
+G,ASSICURAZIONI GENERALI,Financials,Italy,Borsa Italiana,EUR,47.38,0.23,"21,525,466.26",sector_financials,,ishares_ieur_holdings_2026-10-29
+GMAB,GENMAB,Health Care,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,565.79,0.22,"20,995,377.78",,,ishares_ieur_holdings_2026-10-29
+SGO,COMPAGNIE DE SAINT GOBAIN SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,76.11,0.22,"20,786,296.32",,,ishares_ieur_holdings_2026-10-29
+SWED A,SWEDBANK,Financials,Sweden,Nasdaq Omx Nordic,SEK,39.61,0.21,"20,484,676.09",sector_financials,,ishares_ieur_holdings_2026-10-29
+DANSKE,DANSKE BANK,Financials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,53.20,0.21,"20,391,725.77",sector_financials,,ishares_ieur_holdings_2026-10-29
+SIKA,SIKA AG,Materials,Switzerland,SIX Swiss Exchange,CHF,215.70,0.21,"20,322,215.15",,,ishares_ieur_holdings_2026-10-29
+SLHN,SWISS LIFE HOLDING AG,Financials,Switzerland,SIX Swiss Exchange,CHF,"1,158.86",0.21,"19,972,881.42",sector_financials,,ishares_ieur_holdings_2026-10-29
+AD,KONINKLIJKE AHOLD DELHAIZE,Consumer Staples,Netherlands,Euronext Amsterdam,EUR,36.30,0.21,"19,873,934.53",,,ishares_ieur_holdings_2026-10-29
+STMPA,STMICROELECTRONICS,Information Technology,France,Nyse Euronext - Euronext Paris,EUR,49.35,0.20,"19,420,973.52",,,ishares_ieur_holdings_2026-10-29
+III,3I GROUP FUND PLC,Financials,United Kingdom,London Stock Exchange,GBP,32.52,0.20,"19,414,078.43",sector_financials,,ishares_ieur_holdings_2026-10-29
+EQNR,EQUINOR,Energy,Norway,Oslo Bors Asa,NOK,46.98,0.20,"19,072,505.48",,,ishares_ieur_holdings_2026-10-29
+SEB A,SKANDINAVISKA ENSKILDA BANKEN,Financials,Sweden,Nasdaq Omx Nordic,SEK,21.21,0.20,"18,988,543.03",sector_financials,,ishares_ieur_holdings_2026-10-29
+MBG,MERCEDES-BENZ GROUP N AG,Consumer Discretionary,Germany,Xetra,EUR,45.50,0.20,"18,851,766.26",,,ishares_ieur_holdings_2026-10-29
+ADS,ADIDAS N AG,Consumer Discretionary,Germany,Xetra,EUR,186.59,0.20,"18,842,372.02",,,ishares_ieur_holdings_2026-10-29
+PRU,PRUDENTIAL PLC,Financials,United Kingdom,London Stock Exchange,GBP,12.09,0.20,"18,715,989.97",sector_financials,,ishares_ieur_holdings_2026-10-29
+KBC,KBC GROEP,Financials,Belgium,Nyse Euronext - Euronext Brussels,EUR,129.43,0.20,"18,604,467.00",sector_financials,,ishares_ieur_holdings_2026-10-29
+ORA,ORANGE SA,Communication,France,Nyse Euronext - Euronext Paris,EUR,16.12,0.19,"18,253,141.63",,,ishares_ieur_holdings_2026-10-29
+ERIC B,ERICSSON B,Information Technology,Sweden,Nasdaq Omx Nordic,SEK,11.07,0.19,"18,146,492.75",,,ishares_ieur_holdings_2026-10-29
+AV.,AVIVA PLC,Financials,United Kingdom,London Stock Exchange,GBP,9.77,0.19,"17,814,898.63",sector_financials,,ishares_ieur_holdings_2026-10-29
+IMB,IMPERIAL BRANDS PLC,Consumer Staples,United Kingdom,London Stock Exchange,GBP,38.84,0.19,"17,663,760.10",,,ishares_ieur_holdings_2026-10-29
+VOD,VODAFONE GROUP PLC,Communication,United Kingdom,London Stock Exchange,GBP,1.56,0.18,"17,627,320.31",,,ishares_ieur_holdings_2026-10-29
+VWS,VESTAS WIND SYSTEMS,Industrials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,28.72,0.18,"17,337,087.04",,,ishares_ieur_holdings_2026-10-29
+DNB,DNB BANK,Financials,Norway,Oslo Bors Asa,NOK,34.55,0.18,"17,154,452.49",sector_financials,,ishares_ieur_holdings_2026-10-29
+ABN,ABN AMRO BANK NV,Financials,Netherlands,Euronext Amsterdam,EUR,44.83,0.18,"17,104,401.19",sector_financials,,ishares_ieur_holdings_2026-10-29
+FER,FERROVIAL NV,Industrials,Spain,Bolsa De Madrid,EUR,56.73,0.18,"17,038,001.01",,,ishares_ieur_holdings_2026-10-29
+AMS,AMADEUS IT GROUP,Consumer Discretionary,Spain,Bolsa De Madrid,EUR,63.85,0.18,"16,969,914.01",,,ishares_ieur_holdings_2026-10-29
+MT,ARCELORMITTAL SA,Materials,France,Euronext Amsterdam,EUR,61.15,0.17,"16,478,092.19",,,ishares_ieur_holdings_2026-10-29
+CBK,COMMERZBANK AG,Financials,Germany,Xetra,EUR,42.87,0.17,"15,945,522.12",sector_financials,,ishares_ieur_holdings_2026-10-29
+AER,AERCAP HOLDINGS,Industrials,Netherlands,NYSE,USD,159.71,0.16,"15,658,287.82",,,ishares_ieur_holdings_2026-10-29
+PUB,PUBLICIS GROUPE,Communication,France,Nyse Euronext - Euronext Paris,EUR,110.94,0.16,"15,536,075.49",,,ishares_ieur_holdings_2026-10-29
+SAMPO,SAMPO CLASS A,Financials,Finland,Nasdaq Omx Helsinki Ltd.,EUR,10.54,0.16,"15,483,941.54",sector_financials,,ishares_ieur_holdings_2026-10-29
+HO,THALES SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,266.12,0.16,"15,387,666.82",,,ishares_ieur_holdings_2026-10-29
+ADYEN,ADYEN,Financials,Netherlands,Euronext Amsterdam,EUR,910.79,0.16,"15,349,529.88",sector_financials,,ishares_ieur_holdings_2026-10-29
+A5G,AIB GROUP PLC,Financials,Ireland,Irish Stock Exchange - All Market,EUR,12.44,0.16,"15,336,392.91",sector_financials,,ishares_ieur_holdings_2026-10-29
+ATCO B,ATLAS COPCO CLASS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,16.66,0.16,"15,029,612.56",,,ishares_ieur_holdings_2026-10-29
+NSIS B,NOVOZYMES B,Materials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,69.50,0.16,"14,911,798.01",,,ishares_ieur_holdings_2026-10-29
+IHG,INTERCONTINENTAL HOTELS GROUP PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,USD,167.50,0.16,"14,814,202.50",,,ishares_ieur_holdings_2026-10-29
+BMPS,BANCA MONTE DEI PASCHI DI SIENA SP,Financials,Italy,Borsa Italiana,EUR,12.17,0.15,"14,458,087.69",sector_financials,,ishares_ieur_holdings_2026-10-29
+HEXA B,HEXAGON CLASS B,Information Technology,Sweden,Nasdaq Omx Nordic,SEK,11.17,0.15,"14,454,979.65",,,ishares_ieur_holdings_2026-10-29
+HEIA,HEINEKEN NV,Consumer Staples,Netherlands,Euronext Amsterdam,EUR,86.89,0.15,"14,453,920.81",,,ishares_ieur_holdings_2026-10-29
+NXT,NEXT PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,205.35,0.15,"14,442,272.01",,,ishares_ieur_holdings_2026-10-29
+GEBN,GEBERIT AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,696.38,0.15,"14,307,778.68",,,ishares_ieur_holdings_2026-10-29
+LDO,LEONARDO FINMECCANICA SPA,Industrials,Italy,Borsa Italiana,EUR,57.84,0.15,"14,226,608.37",,,ishares_ieur_holdings_2026-10-29
+NN,NN GROUP,Financials,Netherlands,Euronext Amsterdam,EUR,87.36,0.15,"14,169,882.96",sector_financials,,ishares_ieur_holdings_2026-10-29
+CCEP,COCA COLA EUROPACIFIC PARTNERS PLC,Consumer Staples,Netherlands,NASDAQ,USD,110.94,0.15,"14,092,153.50",,,ishares_ieur_holdings_2026-10-29
+FRE,FRESENIUS N,Health Care,Germany,Xetra,EUR,52.47,0.15,"14,007,137.05",,,ishares_ieur_holdings_2026-10-29
+ML,MICHELIN,Consumer Discretionary,France,Nyse Euronext - Euronext Paris,EUR,35.84,0.15,"13,954,544.79",,,ishares_ieur_holdings_2026-10-29
+HEI,HEIDELBERG MATERIALS AG,Materials,Germany,Xetra,EUR,168.78,0.15,"13,859,069.01",,,ishares_ieur_holdings_2026-10-29
+SCMN,SWISSCOM AG,Communication,Switzerland,SIX Swiss Exchange,CHF,832.68,0.14,"13,809,968.56",,,ishares_ieur_holdings_2026-10-29
+SHB A,SVENSKA HANDELSBANKEN-A SHS,Financials,Sweden,Nasdaq Omx Nordic,SEK,15.80,0.14,"13,740,371.43",sector_financials,,ishares_ieur_holdings_2026-10-29
+SAAB B,SAAB CLASS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,68.62,0.14,"13,725,066.16",,,ishares_ieur_holdings_2026-10-29
+VIE,VEOLIA ENVIRON. SA,Utilities,France,Nyse Euronext - Euronext Paris,EUR,36.67,0.14,"13,665,941.79",,,ishares_ieur_holdings_2026-10-29
+AENA,AENA SME SA,Industrials,Spain,Bolsa De Madrid,EUR,30.41,0.14,"13,660,616.94",,,ishares_ieur_holdings_2026-10-29
+MRK,MERCK,Health Care,Germany,Xetra,EUR,167.78,0.14,"13,436,149.15",,,ishares_ieur_holdings_2026-10-29
+LGEN,LEGAL AND GENERAL GROUP PLC,Financials,United Kingdom,London Stock Exchange,GBP,4.08,0.14,"13,348,818.99",sector_financials,,ishares_ieur_holdings_2026-10-29
+WKL,WOLTERS KLUWER,Industrials,Netherlands,Euronext Amsterdam,EUR,94.55,0.14,"13,342,887.53",,,ishares_ieur_holdings_2026-10-29
+SGSN,SGS SA,Industrials,Switzerland,SIX Swiss Exchange,CHF,125.05,0.14,"13,186,579.43",,,ishares_ieur_holdings_2026-10-29
+BPE,BPER BANCA,Financials,Italy,Borsa Italiana,EUR,14.67,0.14,"13,105,653.71",sector_financials,,ishares_ieur_holdings_2026-10-29
+PHIA,KONINKLIJKE PHILIPS,Health Care,Netherlands,Euronext Amsterdam,EUR,27.10,0.14,"13,089,383.37",,,ishares_ieur_holdings_2026-10-29
+HBAN,HELVETIA BALOISE HOLDING N AG,Financials,Switzerland,SIX Swiss Exchange,CHF,263.41,0.14,"12,931,290.56",sector_financials,,ishares_ieur_holdings_2026-10-29
+CAP,CAPGEMINI,Information Technology,France,Nyse Euronext - Euronext Paris,EUR,137.42,0.14,"12,874,417.28",,,ishares_ieur_holdings_2026-10-29
+DTG,DAIMLER TRUCK HOLDING E AG,Industrials,Germany,Xetra,EUR,45.41,0.13,"12,855,560.00",,,ishares_ieur_holdings_2026-10-29
+BMW,BMW,Consumer Discretionary,Germany,Xetra,EUR,64.39,0.13,"12,808,097.56",,,ishares_ieur_holdings_2026-10-29
+MTX,MTU AERO ENGINES HOLDING AG,Industrials,Germany,Xetra,EUR,372.84,0.13,"12,701,683.36",,,ishares_ieur_holdings_2026-10-29
+PST,POSTE ITALIANE,Financials,Italy,Borsa Italiana,EUR,26.93,0.13,"12,425,905.64",sector_financials,,ishares_ieur_holdings_2026-10-29
+BIRG,BANK OF IRELAND GROUP PLC,Financials,Ireland,Irish Stock Exchange - All Market,EUR,21.04,0.13,"12,220,710.44",sector_financials,,ishares_ieur_holdings_2026-10-29
+VACN,VAT GROUP AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,723.95,0.13,"12,203,664.75",,,ishares_ieur_holdings_2026-10-29
+DSFIR,DSM FIRMENICH AG,Materials,Netherlands,Euronext Amsterdam,EUR,118.77,0.13,"12,180,781.61",,,ishares_ieur_holdings_2026-10-29
+HNR1,HANNOVER RUECK,Financials,Germany,Xetra,EUR,317.25,0.13,"12,103,815.85",sector_financials,,ishares_ieur_holdings_2026-10-29
+KNEBV,KONE,Industrials,Finland,Nasdaq Omx Helsinki Ltd.,EUR,60.82,0.13,"12,095,699.01",,,ishares_ieur_holdings_2026-10-29
+ACS,ACS ACTIVIDADES DE CONSTRUCCION Y,Industrials,Spain,Bolsa De Madrid,EUR,102.87,0.12,"11,730,032.01",,,ishares_ieur_holdings_2026-10-29
+SAB,BANCO DE SABADELL,Financials,Spain,Bolsa De Madrid,EUR,3.92,0.12,"11,698,656.72",sector_financials,,ishares_ieur_holdings_2026-10-29
+UMG,UNIVERSAL MUSIC GROUP,Communication,Netherlands,Euronext Amsterdam,EUR,17.68,0.12,"11,652,510.02",,,ishares_ieur_holdings_2026-10-29
+DSY,DASSAULT SYSTEMES,Information Technology,France,Nyse Euronext - Euronext Paris,EUR,27.99,0.12,"11,449,849.26",,,ishares_ieur_holdings_2026-10-29
+KPN,KONINKLIJKE KPN NV,Communication,Netherlands,Euronext Amsterdam,EUR,4.76,0.12,"11,448,747.42",,,ishares_ieur_holdings_2026-10-29
+BAER,JULIUS BAER GRUPPE AG,Financials,Switzerland,SIX Swiss Exchange,CHF,84.30,0.11,"10,693,262.14",sector_financials,,ishares_ieur_holdings_2026-10-29
+HLMA,HALMA PLC,Information Technology,United Kingdom,London Stock Exchange,GBP,46.81,0.11,"10,610,501.47",,,ishares_ieur_holdings_2026-10-29
+SOON,SONOVA HOLDING AG,Health Care,Switzerland,SIX Swiss Exchange,CHF,340.57,0.11,"10,542,673.52",,,ishares_ieur_holdings_2026-10-29
+PGHN,PARTNERS GROUP HOLDING AG,Financials,Switzerland,SIX Swiss Exchange,CHF,778.86,0.11,"10,426,592.49",sector_financials,,ishares_ieur_holdings_2026-10-29
+EDP,EDP ENERGIAS DE PORTUGAL,Utilities,Portugal,Nyse Euronext - Euronext Lisbon,EUR,5.47,0.11,"10,299,068.69",,,ishares_ieur_holdings_2026-10-29
+BT.A,BT GROUP PLC,Communication,United Kingdom,London Stock Exchange,GBP,2.85,0.11,"10,270,708.98",,,ishares_ieur_holdings_2026-10-29
+KRZ,KERRY GROUP PLC,Consumer Staples,Ireland,Irish Stock Exchange - All Market,EUR,107.78,0.11,"10,215,379.13",,,ishares_ieur_holdings_2026-10-29
+ALFA,ALFA LAVAL,Industrials,Sweden,Nasdaq Omx Nordic,SEK,55.80,0.11,"10,172,021.41",,,ishares_ieur_holdings_2026-10-29
+KOG,KONGSBERG GRUPPEN,Industrials,Norway,Oslo Bors Asa,NOK,38.06,0.11,"10,129,549.48",,,ishares_ieur_holdings_2026-10-29
+ESSITY B,ESSITY CLASS B,Consumer Staples,Sweden,Nasdaq Omx Nordic,SEK,27.80,0.11,"10,099,168.91",,,ishares_ieur_holdings_2026-10-29
+EPI A,EPIROC CLASS A,Industrials,Sweden,Nasdaq Omx Nordic,SEK,25.13,0.10,"9,994,129.20",,,ishares_ieur_holdings_2026-10-29
+VOW3,VOLKSWAGEN NON-VOTING PREF AG,Consumer Discretionary,Germany,Xetra,EUR,78.36,0.10,"9,925,773.90",,,ishares_ieur_holdings_2026-10-29
+SHL,SIEMENS HEALTHINEERS AG,Health Care,Germany,Xetra,EUR,47.88,0.10,"9,879,072.84",,,ishares_ieur_holdings_2026-10-29
+KRX,KINGSPAN GROUP PLC,Industrials,Ireland,Irish Stock Exchange - All Market,EUR,107.67,0.10,"9,812,244.35",,,ishares_ieur_holdings_2026-10-29
+ACA,CREDIT AGRICOLE SA,Financials,France,Nyse Euronext - Euronext Paris,EUR,17.07,0.10,"9,797,958.67",sector_financials,,ishares_ieur_holdings_2026-10-29
+BAMI,BANCO BPM,Financials,Italy,Borsa Italiana,EUR,15.35,0.10,"9,656,027.09",sector_financials,,ishares_ieur_holdings_2026-10-29
+ELE,ENDESA SA,Utilities,Spain,Bolsa De Madrid,EUR,48.51,0.10,"9,582,466.86",,,ishares_ieur_holdings_2026-10-29
+ANTO,ANTOFAGASTA PLC,Materials,United Kingdom,London Stock Exchange,GBP,43.78,0.10,"9,529,901.56",,,ishares_ieur_holdings_2026-10-29
+INF,INFORMA PLC,Communication,United Kingdom,London Stock Exchange,GBP,11.09,0.10,"9,392,613.39",,,ishares_ieur_holdings_2026-10-29
+SCHP,SCHINDLER HOLDING PAR AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,363.06,0.10,"9,330,035.19",,,ishares_ieur_holdings_2026-10-29
+ENX,EURONEXT NV,Financials,France,Nyse Euronext - Euronext Paris,EUR,197.47,0.10,"9,325,882.09",sector_financials,,ishares_ieur_holdings_2026-10-29
+UU.,UNITED UTILITIES GROUP PLC,Utilities,United Kingdom,London Stock Exchange,GBP,20.37,0.10,"9,195,876.31",,,ishares_ieur_holdings_2026-10-29
+SGRO,SEGRO REIT PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,12.16,0.10,"9,171,405.25",,,ishares_ieur_holdings_2026-10-29
+BOL,BOLIDEN,Materials,Sweden,Nasdaq Omx Nordic,SEK,51.62,0.10,"9,170,557.61",,,ishares_ieur_holdings_2026-10-29
+RO,ROCHE HOLDING AG,Health Care,Switzerland,SIX Swiss Exchange,CHF,495.13,0.10,"9,072,801.11",,,ishares_ieur_holdings_2026-10-29
+SGE,THE SAGE GROUP,Information Technology,United Kingdom,London Stock Exchange,GBP,15.41,0.09,"9,024,811.39",,,ishares_ieur_holdings_2026-10-29
+WRT1V,WARTSILA,Industrials,Finland,Nasdaq Omx Helsinki Ltd.,EUR,29.63,0.09,"8,996,562.10",,,ishares_ieur_holdings_2026-10-29
+LOGN,LOGITECH INTERNATIONAL,Information Technology,Switzerland,SIX Swiss Exchange,CHF,98.76,0.09,"8,946,108.05",,,ishares_ieur_holdings_2026-10-29
+TRN,TERNA RETE ELETTRICA NAZIONALE,Utilities,Italy,Borsa Italiana,EUR,10.64,0.09,"8,809,948.95",,,ishares_ieur_holdings_2026-10-29
+RI,PERNOD RICARD SA,Consumer Staples,France,Nyse Euronext - Euronext Paris,EUR,72.89,0.09,"8,770,507.22",,,ishares_ieur_holdings_2026-10-29
+KER,KERING SA,Consumer Discretionary,France,Nyse Euronext - Euronext Paris,EUR,196.78,0.09,"8,717,217.64",,,ishares_ieur_holdings_2026-10-29
+KNIN,KUEHNE UND NAGEL INTERNATIONAL AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,286.27,0.09,"8,674,467.44",,,ishares_ieur_holdings_2026-10-29
+FBK,FINECOBANK BANCA FINECO,Financials,Italy,Borsa Italiana,EUR,23.30,0.09,"8,648,472.72",sector_financials,,ishares_ieur_holdings_2026-10-29
+EQT,EQT,Financials,Sweden,Nasdaq Omx Nordic,SEK,31.34,0.09,"8,568,838.83",sector_financials,,ishares_ieur_holdings_2026-10-29
+CLNX,CELLNEX TELECOM,Communication,Spain,Bolsa De Madrid,EUR,28.68,0.09,"8,551,532.09",,,ishares_ieur_holdings_2026-10-29
+NTGY,NATURGY ENERGY GROUP SA,Utilities,Spain,Bolsa De Madrid,EUR,33.27,0.09,"8,520,753.18",,,ishares_ieur_holdings_2026-10-29
+ASRNL,ASR NEDERLAND,Financials,Netherlands,Euronext Amsterdam,EUR,84.73,0.09,"8,521,011.49",sector_financials,,ishares_ieur_holdings_2026-10-29
+AKRBP,AKER BP,Energy,Norway,Oslo Bors Asa,NOK,41.90,0.09,"8,408,830.02",,,ishares_ieur_holdings_2026-10-29
+SY1,SYMRISE AG,Materials,Germany,Xetra,EUR,102.43,0.09,"8,398,578.96",,,ishares_ieur_holdings_2026-10-29
+SRG,SNAM,Utilities,Italy,Borsa Italiana,EUR,6.83,0.09,"8,366,056.89",,,ishares_ieur_holdings_2026-10-29
+UPM,UPM-KYMMENE,Materials,Finland,Nasdaq Omx Helsinki Ltd.,EUR,25.59,0.09,"8,343,155.83",,,ishares_ieur_holdings_2026-10-29
+HEN3,HENKEL & KGAA PREF AG,Consumer Staples,Germany,Xetra,EUR,87.83,0.09,"8,296,116.20",,,ishares_ieur_holdings_2026-10-29
+NESTE,NESTE,Energy,Finland,Nasdaq Omx Helsinki Ltd.,EUR,31.67,0.09,"8,279,719.38",,,ishares_ieur_holdings_2026-10-29
+TEF,TELEFONICA SA,Communication,Spain,Bolsa De Madrid,EUR,3.71,0.09,"8,275,457.26",,,ishares_ieur_holdings_2026-10-29
+ADM,ADMIRAL GROUP PLC,Financials,United Kingdom,London Stock Exchange,GBP,51.09,0.09,"8,236,617.75",sector_financials,,ishares_ieur_holdings_2026-10-29
+BG,BAWAG GROUP AG,Financials,Austria,Wiener Boerse Ag,EUR,181.06,0.09,"8,185,172.86",sector_financials,,ishares_ieur_holdings_2026-10-29
+DPLM,DIPLOMA PLC,Industrials,United Kingdom,London Stock Exchange,GBP,97.69,0.09,"8,178,209.06",,,ishares_ieur_holdings_2026-10-29
+VNA,VONOVIA SE,Real Estate,Germany,Xetra,EUR,17.83,0.09,"8,170,282.36",,,ishares_ieur_holdings_2026-10-29
+BESI,BE SEMICONDUCTOR INDUSTRIES NV,Information Technology,Netherlands,Euronext Amsterdam,EUR,182.35,0.09,"8,143,279.34",,,ishares_ieur_holdings_2026-10-29
+SPSN,SWISS PRIME SITE AG,Real Estate,Switzerland,SIX Swiss Exchange,CHF,154.68,0.09,"8,112,218.18",,,ishares_ieur_holdings_2026-10-29
+STMN,STRAUMANN HOLDING AG,Health Care,Switzerland,SIX Swiss Exchange,CHF,116.64,0.08,"8,017,402.38",,,ishares_ieur_holdings_2026-10-29
+CARL B,CARLSBERG AS CL B,Consumer Staples,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,139.54,0.08,"7,988,431.75",,,ishares_ieur_holdings_2026-10-29
+CCH,COCA COLA HBC AG,Consumer Staples,United Kingdom,London Stock Exchange,GBP,61.95,0.08,"7,966,324.23",,,ishares_ieur_holdings_2026-10-29
+AGS,AGEAS,Financials,Belgium,Nyse Euronext - Euronext Brussels,EUR,84.50,0.08,"7,839,681.24",sector_financials,,ishares_ieur_holdings_2026-10-29
+METSO,METSO CORPORATION,Industrials,Finland,Nasdaq Omx Helsinki Ltd.,EUR,19.33,0.08,"7,703,178.18",,,ishares_ieur_holdings_2026-10-29
+ITRK,INTERTEK GROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,79.24,0.08,"7,691,156.02",,,ishares_ieur_holdings_2026-10-29
+ORNBV,ORION CLASS B,Health Care,Finland,Nasdaq Omx Helsinki Ltd.,EUR,109.84,0.08,"7,620,971.17",,,ishares_ieur_holdings_2026-10-29
+BNZL,BUNZL,Industrials,United Kingdom,London Stock Exchange,GBP,38.11,0.08,"7,540,300.93",,,ishares_ieur_holdings_2026-10-29
+OMV,OMV,Energy,Austria,Wiener Boerse Ag,EUR,82.49,0.08,"7,539,508.73",,,ishares_ieur_holdings_2026-10-29
+SN.,SMITH AND NEPHEW PLC,Health Care,United Kingdom,London Stock Exchange,GBP,14.99,0.08,"7,406,181.43",,,ishares_ieur_holdings_2026-10-29
+UNI,UNIPOL ASSICURAZIONI SPA,Financials,Italy,Borsa Italiana,EUR,28.28,0.08,"7,332,953.36",sector_financials,,ishares_ieur_holdings_2026-10-29
+SMIN,SMITHS GROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,36.64,0.08,"7,181,591.43",,,ishares_ieur_holdings_2026-10-29
+SVT,SEVERN TRENT PLC,Utilities,United Kingdom,London Stock Exchange,GBP,43.81,0.08,"7,150,927.07",,,ishares_ieur_holdings_2026-10-29
+RTO,RENTOKIL INITIAL PLC,Industrials,United Kingdom,London Stock Exchange,GBP,4.64,0.07,"7,142,642.10",,,ishares_ieur_holdings_2026-10-29
+TELIA,TELIA COMPANY,Communication,Sweden,Nasdaq Omx Nordic,SEK,4.91,0.07,"7,139,844.05",,,ishares_ieur_holdings_2026-10-29
+URW,UNIBAIL RODAMCO WE STAPLED UNITS,Real Estate,France,Nyse Euronext - Euronext Paris,EUR,102.25,0.07,"7,083,479.86",,,ishares_ieur_holdings_2026-10-29
+MAERSK B,A P MOLLER MAERSK B,Industrials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,"3,478.69",0.07,"7,075,654.40",,,ishares_ieur_holdings_2026-10-29
+G1A,GEA GROUP AG,Industrials,Germany,Xetra,EUR,76.13,0.07,"7,049,106.53",,,ishares_ieur_holdings_2026-10-29
+FORTUM,FORTUM,Utilities,Finland,Nasdaq Omx Helsinki Ltd.,EUR,25.76,0.07,"7,030,484.46",,,ishares_ieur_holdings_2026-10-29
+ERF,EUROFINS SCIENTIFIC,Health Care,France,Nyse Euronext - Euronext Paris,EUR,97.21,0.07,"7,023,040.52",,,ishares_ieur_holdings_2026-10-29
+EDV,ENDEAVOUR MINING,Materials,United Kingdom,London Stock Exchange,GBP,52.79,0.07,"7,008,502.74",,,ishares_ieur_holdings_2026-10-29
+RYA,RYANAIR HOLDINGS PLC,Industrials,Ireland,Irish Stock Exchange - All Market,EUR,25.64,0.07,"6,953,386.55",,,ishares_ieur_holdings_2026-10-29
+MKS,MARKS AND SPENCER GROUP PLC,Consumer Staples,United Kingdom,London Stock Exchange,GBP,5.40,0.07,"6,876,695.43",,,ishares_ieur_holdings_2026-10-29
+AGN,AEGON,Financials,Netherlands,Euronext Amsterdam,EUR,8.34,0.07,"6,689,076.50",sector_financials,,ishares_ieur_holdings_2026-10-29
+BCP,BANCO COMERCIAL PORTUGUES SA,Financials,Portugal,Nyse Euronext - Euronext Lisbon,EUR,1.23,0.07,"6,623,835.87",sector_financials,,ishares_ieur_holdings_2026-10-29
+MOWI,MOWI,Consumer Staples,Norway,Oslo Bors Asa,NOK,23.16,0.07,"6,608,942.69",,,ishares_ieur_holdings_2026-10-29
+MONC,MONCLER,Consumer Discretionary,Italy,Borsa Italiana,EUR,47.02,0.07,"6,533,181.34",,,ishares_ieur_holdings_2026-10-29
+HEIO,HEINEKEN HOLDING NV,Consumer Staples,Netherlands,Euronext Amsterdam,EUR,82.77,0.07,"6,523,887.60",,,ishares_ieur_holdings_2026-10-29
+BKT,BANKINTER,Financials,Spain,Bolsa De Madrid,EUR,15.77,0.07,"6,514,566.89",sector_financials,,ishares_ieur_holdings_2026-10-29
+BVI,BUREAU VERITAS SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,32.46,0.07,"6,499,834.60",,,ishares_ieur_holdings_2026-10-29
+AKZA,AKZO NOBEL NV,Materials,Netherlands,Euronext Amsterdam,EUR,65.71,0.07,"6,426,187.00",,,ishares_ieur_holdings_2026-10-29
+TEN,TENARIS SA,Energy,Italy,Borsa Italiana,EUR,30.55,0.07,"6,365,194.89",,,ishares_ieur_holdings_2026-10-29
+AC,ACCOR SA,Consumer Discretionary,France,Nyse Euronext - Euronext Paris,EUR,52.45,0.07,"6,302,618.05",,,ishares_ieur_holdings_2026-10-29
+SKA B,SKANSKA B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,28.68,0.07,"6,298,466.79",,,ishares_ieur_holdings_2026-10-29
+QIA,QIAGEN,Health Care,Germany,Deutsche Boerse Xetra,EUR,50.29,0.06,"6,192,073.07",,,ishares_ieur_holdings_2026-10-29
+LISN,CHOCOLADEFABRIKEN LINDT & SPRUENGL,Consumer Staples,Switzerland,SIX Swiss Exchange,CHF,"102,799.78",0.06,"6,065,187.16",,,ishares_ieur_holdings_2026-10-29
+EN,BOUYGUES SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,45.98,0.06,"6,032,030.34",,,ishares_ieur_holdings_2026-10-29
+SKF B,SKF B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,28.38,0.06,"6,019,974.38",,,ishares_ieur_holdings_2026-10-29
+IMI,IMI PLC,Industrials,United Kingdom,London Stock Exchange,GBP,39.10,0.06,"5,993,683.07",,,ishares_ieur_holdings_2026-10-29
+BEAN,BELIMO N AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,969.95,0.06,"5,931,220.90",,,ishares_ieur_holdings_2026-10-29
+TREL B,TRELLEBORG B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,46.23,0.06,"5,889,435.79",,,ishares_ieur_holdings_2026-10-29
+EVO,EVOLUTION,Consumer Discretionary,Sweden,Nasdaq Omx Nordic,SEK,83.95,0.06,"5,879,843.60",,,ishares_ieur_holdings_2026-10-29
+GALP,GALP ENERGIA SGPS SA CLASS B,Energy,Portugal,Nyse Euronext - Euronext Lisbon,EUR,23.05,0.06,"5,855,888.88",,,ishares_ieur_holdings_2026-10-29
+NHY,NORSK HYDRO,Materials,Norway,Oslo Bors Asa,NOK,7.39,0.06,"5,833,156.13",,,ishares_ieur_holdings_2026-10-29
+ORSTED,ORSTED A/S,Utilities,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,20.04,0.06,"5,799,164.01",,,ishares_ieur_holdings_2026-10-29
+STLAM,STELLANTIS,Consumer Discretionary,Italy,Borsa Italiana,EUR,4.71,0.06,"5,761,027.47",,,ishares_ieur_holdings_2026-10-29
+MICC,MAGNUM ICE CREAM,Consumer Staples,Netherlands,Euronext Amsterdam,EUR,18.94,0.06,"5,755,523.67",,,ishares_ieur_holdings_2026-10-29
+SOBI,SWEDISH ORPHAN BIOVITRUM,Health Care,Sweden,Nasdaq Omx Nordic,SEK,49.51,0.06,"5,723,301.83",,,ishares_ieur_holdings_2026-10-29
+LISP,CHOCOLADEFABRIKEN LINDT & SPRUENGL,Consumer Staples,Switzerland,SIX Swiss Exchange,CHF,"9,965.53",0.06,"5,710,249.74",,,ishares_ieur_holdings_2026-10-29
+PNDORA,PANDORA,Consumer Discretionary,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,121.88,0.06,"5,710,494.77",,,ishares_ieur_holdings_2026-10-29
+MNG,M&G PLC,Financials,United Kingdom,London Stock Exchange,GBP,4.32,0.06,"5,705,156.43",sector_financials,,ishares_ieur_holdings_2026-10-29
+CNA,CENTRICA PLC,Utilities,United Kingdom,London Stock Exchange,GBP,2.08,0.06,"5,703,237.35",,,ishares_ieur_holdings_2026-10-29
+WEIR,WEIR PLC,Industrials,United Kingdom,London Stock Exchange,GBP,35.25,0.06,"5,659,161.71",,,ishares_ieur_holdings_2026-10-29
+PSPN,PSP SWISS PROPERTY AG,Real Estate,Switzerland,SIX Swiss Exchange,CHF,182.02,0.06,"5,590,988.09",,,ishares_ieur_holdings_2026-10-29
+STB,STOREBRAND,Financials,Norway,Oslo Bors Asa,NOK,21.05,0.06,"5,554,959.50",sector_financials,,ishares_ieur_holdings_2026-10-29
+FME,FRESENIUS MEDICAL CARE AG,Health Care,Germany,Xetra,EUR,46.29,0.06,"5,534,554.95",,,ishares_ieur_holdings_2026-10-29
+PSON,PEARSON PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,17.46,0.06,"5,460,107.89",,,ishares_ieur_holdings_2026-10-29
+LI,KLEPIERRE REIT SA,Real Estate,France,Nyse Euronext - Euronext Paris,EUR,39.43,0.06,"5,456,598.76",,,ishares_ieur_holdings_2026-10-29
+SRT3,SARTORIUS PREF AG,Health Care,Germany,Xetra,EUR,333.21,0.06,"5,426,748.45",,,ishares_ieur_holdings_2026-10-29
+COLO B,COLOPLAST B,Health Care,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,71.25,0.06,"5,416,741.62",,,ishares_ieur_holdings_2026-10-29
+RBI,RAIFFEISEN BANK INTERNATIONAL AG,Financials,Austria,Wiener Boerse Ag,EUR,63.74,0.06,"5,402,728.02",sector_financials,,ishares_ieur_holdings_2026-10-29
+TLX,TALANX AG,Financials,Germany,Xetra,EUR,141.77,0.06,"5,379,182.90",sector_financials,,ishares_ieur_holdings_2026-10-29
+TEL,TELENOR,Communication,Norway,Oslo Bors Asa,NOK,14.05,0.06,"5,368,739.18",,,ishares_ieur_holdings_2026-10-29
+TEL2 B,TELE2 B,Communication,Sweden,Nasdaq Omx Nordic,SEK,16.10,0.06,"5,362,235.59",,,ishares_ieur_holdings_2026-10-29
+BEI,BEIERSDORF AG,Consumer Staples,Germany,Xetra,EUR,90.20,0.06,"5,320,092.01",,,ishares_ieur_holdings_2026-10-29
+SDLF,STANDARD LIFE PLC,Financials,United Kingdom,London Stock Exchange,GBP,12.40,0.06,"5,313,702.65",sector_financials,,ishares_ieur_holdings_2026-10-29
+CA,CARREFOUR SA,Consumer Staples,France,Nyse Euronext - Euronext Paris,EUR,14.60,0.06,"5,285,927.87",,,ishares_ieur_holdings_2026-10-29
+RXL,REXEL SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,39.10,0.06,"5,283,339.95",,,ishares_ieur_holdings_2026-10-29
+BNR,BRENNTAG,Industrials,Germany,Xetra,EUR,70.26,0.06,"5,245,043.70",,,ishares_ieur_holdings_2026-10-29
+SUBC,SUBSEA,Energy,Norway,Oslo Bors Asa,NOK,35.59,0.05,"5,239,796.12",,,ishares_ieur_holdings_2026-10-29
+INDU C,INDUSTRIVARDEN SERIES,Financials,Sweden,Nasdaq Omx Nordic,SEK,53.02,0.05,"5,233,290.92",sector_financials,,ishares_ieur_holdings_2026-10-29
+HSX,HISCOX LTD,Financials,United Kingdom,London Stock Exchange,GBP,24.77,0.05,"5,207,487.85",sector_financials,,ishares_ieur_holdings_2026-10-29
+FRO,FRONTLINE PLC,Energy,Norway,Oslo Bors Asa,NOK,55.87,0.05,"5,175,653.30",,,ishares_ieur_holdings_2026-10-29
+CON,CONTINENTAL AG,Consumer Discretionary,Germany,Xetra,EUR,76.04,0.05,"5,175,670.88",,,ishares_ieur_holdings_2026-10-29
+MAERSK A,A P MOLLER MAERSK,Industrials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,"3,375.63",0.05,"5,049,939.88",,,ishares_ieur_holdings_2026-10-29
+KGF,KINGFISHER PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,4.67,0.05,"5,042,106.32",,,ishares_ieur_holdings_2026-10-29
+ADDT B,ADDTECH CLASS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,31.35,0.05,"5,034,043.68",,,ishares_ieur_holdings_2026-10-29
+KESKOB,KESKO CLASS B,Consumer Staples,Finland,Nasdaq Omx Helsinki Ltd.,EUR,28.29,0.05,"4,974,078.33",,,ishares_ieur_holdings_2026-10-29
+HM B,HENNES & MAURITZ,Consumer Discretionary,Sweden,Nasdaq Omx Nordic,SEK,17.80,0.05,"4,969,092.72",,,ishares_ieur_holdings_2026-10-29
+SCA B,SVENSKA CELLULOSA B,Materials,Sweden,Nasdaq Omx Nordic,SEK,12.42,0.05,"4,920,714.10",,,ishares_ieur_holdings_2026-10-29
+MRO,MELROSE INDUSTRIES PLC,Industrials,United Kingdom,London Stock Exchange,GBP,6.35,0.05,"4,917,154.77",,,ishares_ieur_holdings_2026-10-29
+GTT,GAZTRANSPORT & TECHNIGAZ SA,Energy,France,Nyse Euronext - Euronext Paris,EUR,213.44,0.05,"4,915,443.98",,,ishares_ieur_holdings_2026-10-29
+ALSYDB,AL SYDBANK,Financials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,108.14,0.05,"4,914,187.65",sector_financials,,ishares_ieur_holdings_2026-10-29
+DCC,DCC ENERGY PLC,Energy,United Kingdom,London Stock Exchange,GBP,86.19,0.05,"4,832,452.31",,,ishares_ieur_holdings_2026-10-29
+ORK,ORKLA,Consumer Staples,Norway,Oslo Bors Asa,NOK,10.45,0.05,"4,832,843.53",,,ishares_ieur_holdings_2026-10-29
+WISE,WISE PLC CLASS A,Financials,United Kingdom,London Stock Exchange,GBP,10.97,0.05,"4,820,008.74",sector_financials,,ishares_ieur_holdings_2026-10-29
+HEN,HENKEL AG,Consumer Staples,Germany,Xetra,EUR,80.26,0.05,"4,774,142.50",,,ishares_ieur_holdings_2026-10-29
+ACLN,ACCELLERON N AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,80.91,0.05,"4,766,296.31",,,ishares_ieur_holdings_2026-10-29
+ABF,ASSOCIATED BRITISH FOODS PLC,Consumer Staples,United Kingdom,London Stock Exchange,GBP,25.20,0.05,"4,764,501.95",,,ishares_ieur_holdings_2026-10-29
+EXO,EXOR NV,Financials,Netherlands,Euronext Amsterdam,EUR,79.76,0.05,"4,750,324.34",sector_financials,,ishares_ieur_holdings_2026-10-29
+SECU B,SECURITAS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,15.55,0.05,"4,745,296.64",,,ishares_ieur_holdings_2026-10-29
+STJ,ST JAMESS PLACE PLC,Financials,United Kingdom,London Stock Exchange,GBP,14.34,0.05,"4,715,229.77",sector_financials,,ishares_ieur_holdings_2026-10-29
+TIGO,MILLICOM INTERNATIONAL CELLULAR,Communication,Sweden,NASDAQ,USD,79.90,0.05,"4,712,182.40",,,ishares_ieur_holdings_2026-10-29
+FGR,EIFFAGE SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,112.86,0.05,"4,688,908.42",,,ishares_ieur_holdings_2026-10-29
+EPI B,EPIROC CLASS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,21.53,0.05,"4,666,193.12",,,ishares_ieur_holdings_2026-10-29
+EMSN,EMS-CHEMIE HOLDING AG,Materials,Switzerland,SIX Swiss Exchange,CHF,"1,020.74",0.05,"4,619,875.43",,,ishares_ieur_holdings_2026-10-29
+SBRY,SAINSBURY(J) PLC,Consumer Staples,United Kingdom,London Stock Exchange,GBP,4.52,0.05,"4,604,999.61",,,ishares_ieur_holdings_2026-10-29
+TRYG,TRYG,Financials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,23.76,0.05,"4,557,165.05",sector_financials,,ishares_ieur_holdings_2026-10-29
+INDT,INDUTRADE,Industrials,Sweden,Nasdaq Omx Nordic,SEK,26.62,0.05,"4,553,910.97",,,ishares_ieur_holdings_2026-10-29
+AED,AEDIFICA NV,Real Estate,Belgium,Nyse Euronext - Euronext Brussels,EUR,70.66,0.05,"4,468,298.29",,,ishares_ieur_holdings_2026-10-29
+SPX,SPIRAX GROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,100.84,0.05,"4,455,245.38",,,ishares_ieur_holdings_2026-10-29
+SPIE,SPIE SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,48.83,0.05,"4,437,247.83",,,ishares_ieur_holdings_2026-10-29
+IDR,INDRA SISTEMAS SA,Information Technology,Spain,Bolsa De Madrid,EUR,73.01,0.05,"4,421,463.59",,,ishares_ieur_holdings_2026-10-29
+SCHN,SCHINDLER HOLDING AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,352.54,0.05,"4,420,181.41",,,ishares_ieur_holdings_2026-10-29
+NKT,NKT,Industrials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,130.54,0.05,"4,416,963.28",,,ishares_ieur_holdings_2026-10-29
+DIM,SARTORIUS STEDIM BIOTECH SA,Health Care,France,Nyse Euronext - Euronext Paris,EUR,254.96,0.05,"4,412,388.29",,,ishares_ieur_holdings_2026-10-29
+GAW,GAMES WORKSHOP GROUP PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,214.51,0.05,"4,407,341.77",,,ishares_ieur_holdings_2026-10-29
+KBX,KNORR BREMSE AG,Industrials,Germany,Xetra,EUR,100.24,0.05,"4,345,666.37",,,ishares_ieur_holdings_2026-10-29
+G24,SCOUT24 N,Communication,Germany,Xetra,EUR,92.43,0.05,"4,325,245.00",,,ishares_ieur_holdings_2026-10-29
+TKA,THYSSENKRUPP AG,Materials,Germany,Xetra,EUR,13.84,0.05,"4,323,170.92",,,ishares_ieur_holdings_2026-10-29
+NIBE B,NIBE INDUSTRIER CLASS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,4.63,0.05,"4,321,476.64",,,ishares_ieur_holdings_2026-10-29
+JYSK,JYSKE BANK,Financials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,163.25,0.05,"4,294,911.02",sector_financials,,ishares_ieur_holdings_2026-10-29
+YAR,YARA INTERNATIONAL,Materials,Norway,Oslo Bors Asa,NOK,42.37,0.04,"4,271,380.01",,,ishares_ieur_holdings_2026-10-29
+LTMC,LOTTOMATICA GROUP,Consumer Discretionary,Italy,Borsa Italiana,EUR,28.53,0.04,"4,227,337.10",,,ishares_ieur_holdings_2026-10-29
+ICG,ICG PLC,Financials,United Kingdom,London Stock Exchange,GBP,24.75,0.04,"4,212,571.26",sector_financials,,ishares_ieur_holdings_2026-10-29
+GETI B,GETINGE B,Health Care,Sweden,Nasdaq Omx Nordic,SEK,27.74,0.04,"4,188,957.09",,,ishares_ieur_holdings_2026-10-29
+GBLB,GROUPE BRUXELLES LAMBERT NV,Financials,Belgium,Nyse Euronext - Euronext Brussels,EUR,86.40,0.04,"4,177,431.93",sector_financials,,ishares_ieur_holdings_2026-10-29
+BEIJ B,BEIJER REF CLASS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,15.73,0.04,"4,164,330.97",,,ishares_ieur_holdings_2026-10-29
+RILBA,RINGKJOBING LANDBOBANK,Financials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,263.93,0.04,"4,155,784.05",sector_financials,,ishares_ieur_holdings_2026-10-29
+SPM,SAIPEM,Energy,Italy,Borsa Italiana,EUR,5.06,0.04,"4,150,756.71",,,ishares_ieur_holdings_2026-10-29
+LAND,LAND SECURITIES GROUP REIT PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,8.83,0.04,"4,129,341.48",,,ishares_ieur_holdings_2026-10-29
+IMCD,IMCD NV,Industrials,Netherlands,Euronext Amsterdam,EUR,113.47,0.04,"4,118,802.84",,,ishares_ieur_holdings_2026-10-29
+ELI,ELIA GROUP SA,Utilities,Belgium,Nyse Euronext - Euronext Brussels,EUR,144.34,0.04,"4,101,352.62",,,ishares_ieur_holdings_2026-10-29
+LIFCO B,LIFCO CLASS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,28.21,0.04,"4,056,093.55",,,ishares_ieur_holdings_2026-10-29
+HOT,HOCHTIEF AG,Industrials,Germany,Xetra,EUR,428.88,0.04,"4,042,646.07",,,ishares_ieur_holdings_2026-10-29
+EDEN,EDENRED,Financials,France,Nyse Euronext - Euronext Paris,EUR,27.00,0.04,"3,990,385.21",sector_financials,,ishares_ieur_holdings_2026-10-29
+ACKB,ACKERMANS & VAN HAAREN NV,Industrials,Belgium,Nyse Euronext - Euronext Brussels,EUR,294.93,0.04,"3,973,249.27",,,ishares_ieur_holdings_2026-10-29
+AM,DASSAULT AVIATION SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,343.60,0.04,"3,960,987.83",,,ishares_ieur_holdings_2026-10-29
+IPN,IPSEN SA,Health Care,France,Nyse Euronext - Euronext Paris,EUR,173.92,0.04,"3,959,974.01",,,ishares_ieur_holdings_2026-10-29
+EVK,EVONIK INDUSTRIES AG,Materials,Germany,Xetra,EUR,23.46,0.04,"3,959,585.24",,,ishares_ieur_holdings_2026-10-29
+FRES,FRESNILLO PLC,Materials,United Kingdom,London Stock Exchange,GBP,31.52,0.04,"3,891,120.23",,,ishares_ieur_holdings_2026-10-29
+IAG,INTERNATIONAL AIRLINES GROUP,Industrials,Spain,Bolsa De Madrid,EUR,5.48,0.04,"3,886,967.73",,,ishares_ieur_holdings_2026-10-29
+BBY,BALFOUR BEATTY PLC,Industrials,United Kingdom,London Stock Exchange,GBP,11.57,0.04,"3,868,422.96",,,ishares_ieur_holdings_2026-10-29
+INDU A,INDUSTRIVARDEN A,Financials,Sweden,Nasdaq Omx Nordic,SEK,53.27,0.04,"3,858,016.89",sector_financials,,ishares_ieur_holdings_2026-10-29
+ZAL,ZALANDO,Consumer Discretionary,Germany,Xetra,EUR,29.87,0.04,"3,857,096.91",,,ishares_ieur_holdings_2026-10-29
+HAG,HENSOLDT AG,Industrials,Germany,Xetra,EUR,97.79,0.04,"3,843,063.68",,,ishares_ieur_holdings_2026-10-29
+WTB,WHITBREAD PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,36.74,0.04,"3,834,314.63",,,ishares_ieur_holdings_2026-10-29
+ALO,ALSTOM SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,17.99,0.04,"3,810,875.44",,,ishares_ieur_holdings_2026-10-29
+CRDA,CRODA INTERNATIONAL PLC,Materials,United Kingdom,London Stock Exchange,GBP,48.32,0.04,"3,796,960.87",,,ishares_ieur_holdings_2026-10-29
+SYENS,SYENSQO NV,Materials,Belgium,Nyse Euronext - Euronext Brussels,EUR,86.35,0.04,"3,782,464.33",,,ishares_ieur_holdings_2026-10-29
+ANDR,ANDRITZ AG,Industrials,Austria,Wiener Boerse Ag,EUR,90.64,0.04,"3,767,690.21",,,ishares_ieur_holdings_2026-10-29
+KCR,KONECRANES,Industrials,Finland,Nasdaq Omx Helsinki Ltd.,EUR,30.88,0.04,"3,762,684.79",,,ishares_ieur_holdings_2026-10-29
+AUTO,AUTOTRADER GROUP PLC,Communication,United Kingdom,London Stock Exchange,GBP,7.06,0.04,"3,762,402.28",,,ishares_ieur_holdings_2026-10-29
+UHR,THE SWATCH GROUP AG,Consumer Discretionary,Switzerland,SIX Swiss Exchange,CHF,211.65,0.04,"3,756,938.99",,,ishares_ieur_holdings_2026-10-29
+MTLN,METLEN ENERGY & METALS PLC,Industrials,Greece,London Stock Exchange,EUR,54.10,0.04,"3,753,227.50",,,ishares_ieur_holdings_2026-10-29
+ISS,ISS A S,Industrials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,42.81,0.04,"3,743,109.31",,,ishares_ieur_holdings_2026-10-29
+STERV,STORA ENSO CLASS R,Materials,Finland,Nasdaq Omx Helsinki Ltd.,EUR,10.88,0.04,"3,721,721.76",,,ishares_ieur_holdings_2026-10-29
+GET,GETLINK,Industrials,France,Nyse Euronext - Euronext Paris,EUR,22.11,0.04,"3,717,745.14",,,ishares_ieur_holdings_2026-10-29
+BGEO,LION FINANCE GROUP PLC,Financials,United Kingdom,London Stock Exchange,GBP,170.11,0.04,"3,707,737.61",sector_financials,,ishares_ieur_holdings_2026-10-29
+BTRW,BARRATT REDROW PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,4.28,0.04,"3,645,473.37",,,ishares_ieur_holdings_2026-10-29
+NDX1,NORDEX,Industrials,Germany,Xetra,EUR,43.13,0.04,"3,645,283.28",,,ishares_ieur_holdings_2026-10-29
+LOTB,LOTUS BAKERIES NV,Consumer Staples,Belgium,Nyse Euronext - Euronext Brussels,EUR,"14,958.36",0.04,"3,634,896.06",,,ishares_ieur_holdings_2026-10-29
+ABVX,ABIVAX SA,Health Care,France,Nyse Euronext - Euronext Paris,EUR,90.53,0.04,"3,634,313.80",,,ishares_ieur_holdings_2026-10-29
+AMUN,AMUNDI SA,Financials,France,Nyse Euronext - Euronext Paris,EUR,101.64,0.04,"3,630,752.47",sector_financials,,ishares_ieur_holdings_2026-10-29
+IG,ITALGAS,Utilities,Italy,Borsa Italiana,EUR,9.91,0.04,"3,608,565.65",,,ishares_ieur_holdings_2026-10-29
+RNO,RENAULT SA,Consumer Discretionary,France,Nyse Euronext - Euronext Paris,EUR,31.45,0.04,"3,568,354.25",,,ishares_ieur_holdings_2026-10-29
+WPP,WPP PLC,Communication,United Kingdom,London Stock Exchange,GBP,5.41,0.04,"3,557,896.10",,,ishares_ieur_holdings_2026-10-29
+MRL,MERLIN PROPERTIES REIT,Real Estate,Spain,Bolsa De Madrid,EUR,12.95,0.04,"3,556,154.04",,,ishares_ieur_holdings_2026-10-29
+DHER,DELIVERY HERO,Consumer Discretionary,Germany,Xetra,EUR,41.88,0.04,"3,553,612.01",,,ishares_ieur_holdings_2026-10-29
+HWDN,HOWDEN JOINERY GROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,10.77,0.04,"3,542,251.70",,,ishares_ieur_holdings_2026-10-29
+SSAB B,SSAB CLASS B,Materials,Sweden,Nasdaq Omx Nordic,SEK,9.85,0.04,"3,540,416.95",,,ishares_ieur_holdings_2026-10-29
+GF,GEORG FISCHER AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,69.12,0.04,"3,538,897.20",,,ishares_ieur_holdings_2026-10-29
+BLND,BRITISH LAND REIT,Real Estate,United Kingdom,London Stock Exchange,GBP,5.64,0.04,"3,523,761.27",,,ishares_ieur_holdings_2026-10-29
+SCR,SCOR,Financials,France,Nyse Euronext - Euronext Paris,EUR,36.86,0.04,"3,518,050.55",sector_financials,,ishares_ieur_holdings_2026-10-29
+VAR,VAR ENERGI,Energy,Norway,Oslo Bors Asa,NOK,6.22,0.04,"3,476,865.11",,,ishares_ieur_holdings_2026-10-29
+ANA,ACCIONA,Utilities,Spain,Bolsa De Madrid,EUR,230.85,0.04,"3,464,840.26",,,ishares_ieur_holdings_2026-10-29
+P911,DR ING HC F PORSCHE PRF AG,Consumer Discretionary,Germany,Xetra,EUR,51.48,0.04,"3,451,162.10",,,ishares_ieur_holdings_2026-10-29
+GALE,GALENICA AG,Health Care,Switzerland,SIX Swiss Exchange,CHF,105.76,0.04,"3,441,099.59",,,ishares_ieur_holdings_2026-10-29
+SB1NO,SPAREBANK SR-NORGE,Financials,Norway,Oslo Bors Asa,NOK,25.03,0.04,"3,434,675.47",sector_financials,,ishares_ieur_holdings_2026-10-29
+REC,RECORDATI INDUSTRIA CHIMICA E FARM,Health Care,Italy,Borsa Italiana,EUR,59.16,0.04,"3,433,991.08",,,ishares_ieur_holdings_2026-10-29
+SBMO,SBM OFFSHORE,Energy,Netherlands,Euronext Amsterdam,EUR,39.38,0.04,"3,407,028.87",,,ishares_ieur_holdings_2026-10-29
+AVOL,AVOLTA AG,Consumer Discretionary,Switzerland,SIX Swiss Exchange,CHF,57.35,0.04,"3,397,826.38",,,ishares_ieur_holdings_2026-10-29
+ROR,ROTORK PLC,Industrials,United Kingdom,London Stock Exchange,GBP,6.59,0.04,"3,397,382.54",,,ishares_ieur_holdings_2026-10-29
+BMED,BANCA MEDIOLANUM,Financials,Italy,Borsa Italiana,EUR,25.26,0.04,"3,385,924.09",sector_financials,,ishares_ieur_holdings_2026-10-29
+NEX,NEXANS SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,143.33,0.04,"3,371,476.94",,,ishares_ieur_holdings_2026-10-29
+EMG,MAN GROUP PLC,Financials,United Kingdom,London Stock Exchange,GBP,4.50,0.04,"3,363,755.21",sector_financials,,ishares_ieur_holdings_2026-10-29
+GJF,GJENSIDIGE FORSIKRING,Financials,Norway,Oslo Bors Asa,NOK,28.19,0.04,"3,361,949.78",sector_financials,,ishares_ieur_holdings_2026-10-29
+VOE,VOESTALPINE AG,Materials,Austria,Wiener Boerse Ag,EUR,47.38,0.04,"3,347,714.18",,,ishares_ieur_holdings_2026-10-29
+RMV,RIGHTMOVE PLC,Communication,United Kingdom,London Stock Exchange,GBP,6.85,0.04,"3,341,860.05",,,ishares_ieur_holdings_2026-10-29
+PSN,PERSIMMON PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,16.57,0.03,"3,311,037.02",,,ishares_ieur_holdings_2026-10-29
+MYCR,MYCRONIC,Information Technology,Sweden,Nasdaq Omx Nordic,SEK,31.70,0.03,"3,298,382.33",,,ishares_ieur_holdings_2026-10-29
+SW,SODEXO SA,Consumer Discretionary,France,Nyse Euronext - Euronext Paris,EUR,64.75,0.03,"3,297,677.46",,,ishares_ieur_holdings_2026-10-29
+INVP,INVESTEC PLC,Financials,United Kingdom,London Stock Exchange,GBP,8.26,0.03,"3,290,033.22",sector_financials,,ishares_ieur_holdings_2026-10-29
+TE,TECHNIP ENERGIES,Energy,France,Nyse Euronext - Euronext Paris,EUR,38.11,0.03,"3,285,809.54",,,ishares_ieur_holdings_2026-10-29
+VER,VERBUND AG,Utilities,Austria,Wiener Boerse Ag,EUR,77.64,0.03,"3,284,736.64",,,ishares_ieur_holdings_2026-10-29
+SOF,SOFINA SA,Financials,Belgium,Nyse Euronext - Euronext Brussels,EUR,304.75,0.03,"3,278,804.17",sector_financials,,ishares_ieur_holdings_2026-10-29
+JMT,JERONIMO MARTINS SA,Consumer Staples,Portugal,Nyse Euronext - Euronext Lisbon,EUR,20.42,0.03,"3,267,005.74",,,ishares_ieur_holdings_2026-10-29
+ELISA,ELISA,Communication,Finland,Nasdaq Omx Helsinki Ltd.,EUR,36.35,0.03,"3,263,390.97",,,ishares_ieur_holdings_2026-10-29
+LMP,LONDONMETRIC PROPERTY REIT PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,2.46,0.03,"3,233,654.14",,,ishares_ieur_holdings_2026-10-29
+SIGN,SIG GROUP N AG,Materials,Switzerland,SIX Swiss Exchange,CHF,17.60,0.03,"3,217,118.76",,,ishares_ieur_holdings_2026-10-29
+ALK B,ALK-ABELLO CLASS B,Health Care,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,36.83,0.03,"3,187,101.63",,,ishares_ieur_holdings_2026-10-29
+VALMT,VALMET CORP,Industrials,Finland,Nasdaq Omx Helsinki Ltd.,EUR,32.89,0.03,"3,163,882.45",,,ishares_ieur_holdings_2026-10-29
+BCVN,BC VAUD N,Financials,Switzerland,SIX Swiss Exchange,CHF,158.43,0.03,"3,129,677.69",sector_financials,,ishares_ieur_holdings_2026-10-29
+NEM,NEMETSCHEK,Information Technology,Germany,Xetra,EUR,81.94,0.03,"3,128,004.77",,,ishares_ieur_holdings_2026-10-29
+TUB,FINANCIERE DE TUBIZE SA,Health Care,Belgium,Nyse Euronext - Euronext Brussels,EUR,254.07,0.03,"3,125,059.52",,,ishares_ieur_holdings_2026-10-29
+SECT B,SECTRA CLASS B,Health Care,Sweden,Nasdaq Omx Nordic,SEK,34.66,0.03,"3,120,645.07",,,ishares_ieur_holdings_2026-10-29
+ABDN,ABERDEEN GROUP PLC,Financials,United Kingdom,London Stock Exchange,GBP,3.00,0.03,"3,118,623.12",sector_financials,,ishares_ieur_holdings_2026-10-29
+SQN,SWISSQUOTE GROUP HOLDING SA,Financials,Switzerland,SIX Swiss Exchange,CHF,42.93,0.03,"3,086,183.71",sector_financials,,ishares_ieur_holdings_2026-10-29
+CTEC,CONVATEC GROUP PLC,Health Care,United Kingdom,London Stock Exchange,GBP,3.25,0.03,"3,082,999.59",,,ishares_ieur_holdings_2026-10-29
+BRBY,BURBERRY GROUP PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,13.86,0.03,"3,083,021.19",,,ishares_ieur_holdings_2026-10-29
+DEMANT,DEMANT,Health Care,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,54.67,0.03,"3,082,905.13",,,ishares_ieur_holdings_2026-10-29
+BARN,BARRY CALLEBAUT AG,Consumer Staples,Switzerland,SIX Swiss Exchange,CHF,"1,387.19",0.03,"3,062,920.72",,,ishares_ieur_holdings_2026-10-29
+LHA,DEUTSCHE LUFTHANSA AG,Industrials,Germany,Xetra,EUR,8.09,0.03,"3,058,397.80",,,ishares_ieur_holdings_2026-10-29
+TEMN,TEMENOS AG,Information Technology,Switzerland,SIX Swiss Exchange,CHF,91.55,0.03,"3,042,373.71",,,ishares_ieur_holdings_2026-10-29
+FHZN,FLUGHAFEN ZUERICH AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,245.27,0.03,"3,032,495.86",,,ishares_ieur_holdings_2026-10-29
+BBOX,TRITAX BIG BOX REIT PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,1.95,0.03,"3,030,970.49",,,ishares_ieur_holdings_2026-10-29
+OCTV SDB,OCTAVE INTELLIGENCE SDR PLC,Information Technology,Sweden,Nasdaq Omx Nordic,SEK,21.46,0.03,"3,028,350.81",,,ishares_ieur_holdings_2026-10-29
+EDPR,EDP RENEWABLES SA,Utilities,Portugal,Nyse Euronext - Euronext Lisbon,EUR,14.10,0.03,"3,024,052.31",,,ishares_ieur_holdings_2026-10-29
+EVD,CTS EVENTIM AG,Communication,Germany,Xetra,EUR,70.94,0.03,"3,006,757.62",,,ishares_ieur_holdings_2026-10-29
+RS1,RS GROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,10.54,0.03,"3,007,203.89",,,ishares_ieur_holdings_2026-10-29
+CAST,CASTELLUM,Real Estate,Sweden,Nasdaq Omx Nordic,SEK,13.37,0.03,"2,979,021.13",,,ishares_ieur_holdings_2026-10-29
+GL9,GLANBIA PLC,Consumer Staples,Ireland,Irish Stock Exchange - All Market,EUR,22.64,0.03,"2,956,121.05",,,ishares_ieur_holdings_2026-10-29
+CCC,COMPUTACENTER PLC,Information Technology,United Kingdom,London Stock Exchange,GBP,70.28,0.03,"2,953,000.46",,,ishares_ieur_holdings_2026-10-29
+SAVE,NORDNET,Financials,Sweden,Nasdaq Omx Nordic,SEK,33.34,0.03,"2,947,939.51",sector_financials,,ishares_ieur_holdings_2026-10-29
+WDP,WAREHOUSES DE PAUW NV,Real Estate,Belgium,Nyse Euronext - Euronext Brussels,EUR,21.31,0.03,"2,935,624.68",,,ishares_ieur_holdings_2026-10-29
+AALB,AALBERTS,Industrials,Netherlands,Euronext Amsterdam,EUR,47.04,0.03,"2,927,212.96",,,ishares_ieur_holdings_2026-10-29
+AZM,AZIMUT HOLDING,Financials,Italy,Borsa Italiana,EUR,39.77,0.03,"2,925,241.39",sector_financials,,ishares_ieur_holdings_2026-10-29
+RAND,RANDSTAD HOLDING,Industrials,Netherlands,Euronext Amsterdam,EUR,44.93,0.03,"2,912,567.07",,,ishares_ieur_holdings_2026-10-29
+ADEN,ADECCO GROUP AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,27.65,0.03,"2,909,110.21",,,ishares_ieur_holdings_2026-10-29
+AZA,AVANZA BANK HOLDING,Financials,Sweden,Nasdaq Omx Nordic,SEK,36.15,0.03,"2,897,107.72",sector_financials,,ishares_ieur_holdings_2026-10-29
+UMI,UMICORE SA,Materials,Belgium,Nyse Euronext - Euronext Brussels,EUR,20.73,0.03,"2,869,362.37",,,ishares_ieur_holdings_2026-10-29
+PAH3,PORSCHE AUTOMOBIL HOLDING PREF,Consumer Discretionary,Germany,Xetra,EUR,28.59,0.03,"2,836,602.49",,,ishares_ieur_holdings_2026-10-29
+SALM,SALMAR,Consumer Staples,Norway,Oslo Bors Asa,NOK,62.05,0.03,"2,787,546.00",,,ishares_ieur_holdings_2026-10-29
+ATS,AT & S AUSTRIA TECHNOLOGIE & SYSTE,Information Technology,Austria,Wiener Boerse Ag,EUR,173.03,0.03,"2,786,937.84",,,ishares_ieur_holdings_2026-10-29
+BKG,BERKELEY GROUP HOLDINGS (THE),Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,46.03,0.03,"2,776,395.17",,,ishares_ieur_holdings_2026-10-29
+MNDI,MONDI PLC,Materials,United Kingdom,London Stock Exchange,GBP,10.24,0.03,"2,770,288.78",,,ishares_ieur_holdings_2026-10-29
+SRP,SERCO GROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,3.89,0.03,"2,759,216.40",,,ishares_ieur_holdings_2026-10-29
+IGG,IG GROUP HOLDINGS PLC,Financials,United Kingdom,London Stock Exchange,GBP,12.96,0.03,"2,755,209.26",sector_financials,,ishares_ieur_holdings_2026-10-29
+LAGR B,LAGERCRANTZ GROUP CLASS B,Information Technology,Sweden,Nasdaq Omx Nordic,SEK,23.21,0.03,"2,753,864.50",,,ishares_ieur_holdings_2026-10-29
+LEG,LEG IMMOBILIEN N,Real Estate,Germany,Xetra,EUR,53.31,0.03,"2,753,000.22",,,ishares_ieur_holdings_2026-10-29
+DIE,DIETEREN (D) SA,Consumer Discretionary,Belgium,Nyse Euronext - Euronext Brussels,EUR,191.22,0.03,"2,749,775.09",,,ishares_ieur_holdings_2026-10-29
+IFCN,INFICON HOLDING AG,Information Technology,Switzerland,SIX Swiss Exchange,CHF,223.74,0.03,"2,713,974.72",,,ishares_ieur_holdings_2026-10-29
+KBCA,KBC ANCORA NV,Financials,Belgium,Nyse Euronext - Euronext Brussels,EUR,105.38,0.03,"2,709,497.65",sector_financials,,ishares_ieur_holdings_2026-10-29
+TECN,TECAN GROUP AG,Health Care,Switzerland,SIX Swiss Exchange,CHF,308.64,0.03,"2,706,783.58",,,ishares_ieur_holdings_2026-10-29
+A2A,A2A,Utilities,Italy,Borsa Italiana,EUR,2.71,0.03,"2,678,847.10",,,ishares_ieur_holdings_2026-10-29
+UNI,UNICAJA BANCO SA,Financials,Spain,Bolsa De Madrid,EUR,3.53,0.03,"2,676,514.13",sector_financials,,ishares_ieur_holdings_2026-10-29
+CPR,DAVIDE CAMPARI MILANO NV,Consumer Staples,Italy,Borsa Italiana,EUR,6.84,0.03,"2,654,250.10",,,ishares_ieur_holdings_2026-10-29
+SAGA B,SAGAX CLASS B,Real Estate,Sweden,Nasdaq Omx Nordic,SEK,16.89,0.03,"2,646,075.79",,,ishares_ieur_holdings_2026-10-29
+ELIS,ELIS SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,25.38,0.03,"2,646,249.47",,,ishares_ieur_holdings_2026-10-29
+AIXA,AIXTRON,Information Technology,Germany,Xetra,EUR,38.11,0.03,"2,643,647.92",,,ishares_ieur_holdings_2026-10-29
+DRX,DRAX GROUP PLC,Utilities,United Kingdom,London Stock Exchange,GBP,11.01,0.03,"2,642,073.03",,,ishares_ieur_holdings_2026-10-29
+ADP,AEROPORTS DE PARIS SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,126.81,0.03,"2,634,512.65",,,ishares_ieur_holdings_2026-10-29
+VEND,VEND MARKETPLACES ASA,Communication,Norway,Oslo Bors Asa,NOK,23.63,0.03,"2,631,176.07",,,ishares_ieur_holdings_2026-10-29
+BGN,BANCA GENERALI,Financials,Italy,Borsa Italiana,EUR,67.65,0.03,"2,631,228.05",sector_financials,,ishares_ieur_holdings_2026-10-29
+LUND B,LUNDBERGFORETAGEN CLASS B,Financials,Sweden,Nasdaq Omx Nordic,SEK,59.36,0.03,"2,623,366.56",sector_financials,,ishares_ieur_holdings_2026-10-29
+LOOMIS,LOOMIS CLASS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,54.79,0.03,"2,601,336.28",,,ishares_ieur_holdings_2026-10-29
+TUI1,TUI N AG,Consumer Discretionary,United Kingdom,Xetra,EUR,7.76,0.03,"2,599,813.25",,,ishares_ieur_holdings_2026-10-29
+ZEG,ZEGONA COMMUNICATIONS PLC,Communication,United Kingdom,London Stock Exchange,GBP,23.43,0.03,"2,590,344.78",,,ishares_ieur_holdings_2026-10-29
+TEP,TELEPERFORMANCE,Industrials,France,Nyse Euronext - Euronext Paris,EUR,88.72,0.03,"2,547,518.54",,,ishares_ieur_holdings_2026-10-29
+CWK,CRANSWICK PLC,Consumer Staples,United Kingdom,London Stock Exchange,GBP,70.75,0.03,"2,511,900.91",,,ishares_ieur_holdings_2026-10-29
+ALLN,ALLREAL HOLDING AG,Real Estate,Switzerland,SIX Swiss Exchange,CHF,231.48,0.03,"2,480,318.07",,,ishares_ieur_holdings_2026-10-29
+CMBN,CEMBRA MONEY BANK AG,Financials,Switzerland,SIX Swiss Exchange,CHF,108.36,0.03,"2,478,154.93",sector_financials,,ishares_ieur_holdings_2026-10-29
+BIM,BIOMERIEUX SA,Health Care,France,Nyse Euronext - Euronext Paris,EUR,100.63,0.03,"2,470,776.89",,,ishares_ieur_holdings_2026-10-29
+VPK,KONINKLIJKE VOPAK,Energy,Netherlands,Euronext Amsterdam,EUR,60.56,0.03,"2,461,613.41",,,ishares_ieur_holdings_2026-10-29
+JMAT,JOHNSON MATTHEY PLC,Materials,United Kingdom,London Stock Exchange,GBP,32.60,0.03,"2,455,517.11",,,ishares_ieur_holdings_2026-10-29
+SUN,SULZER AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,223.38,0.03,"2,446,881.30",,,ishares_ieur_holdings_2026-10-29
+SOI,SOITEC SA,Information Technology,France,Nyse Euronext - Euronext Paris,EUR,148.47,0.03,"2,442,296.95",,,ishares_ieur_holdings_2026-10-29
+R3NK,RENK GROUP AG,Industrials,Germany,Xetra,EUR,41.91,0.03,"2,438,881.59",,,ishares_ieur_holdings_2026-10-29
+ENT,ENTAIN PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,6.21,0.03,"2,419,913.60",,,ishares_ieur_holdings_2026-10-29
+BZU,BUZZI,Materials,Italy,Borsa Italiana,EUR,45.94,0.03,"2,397,570.27",,,ishares_ieur_holdings_2026-10-29
+NOD,NORDIC SEMICONDUCTOR,Information Technology,Norway,Oslo Bors Asa,NOK,19.75,0.03,"2,393,693.63",,,ishares_ieur_holdings_2026-10-29
+SUNN,SUNRISE N CLASS A LTD,Communication,Switzerland,SIX Swiss Exchange,CHF,52.32,0.03,"2,385,957.60",,,ishares_ieur_holdings_2026-10-29
+VK,VALLOUREC SA,Energy,France,Nyse Euronext - Euronext Paris,EUR,21.54,0.02,"2,365,564.69",,,ishares_ieur_holdings_2026-10-29
+TW.,TAYLOR WIMPEY PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,1.07,0.02,"2,362,969.06",,,ishares_ieur_holdings_2026-10-29
+BME,B&M EUROPEAN VALUE RETAIL PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,3.65,0.02,"2,337,689.35",,,ishares_ieur_holdings_2026-10-29
+DLG,DELONGHI,Consumer Discretionary,Italy,Borsa Italiana,EUR,48.25,0.02,"2,329,388.59",,,ishares_ieur_holdings_2026-10-29
+MTO,MITIE GROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,2.82,0.02,"2,318,331.69",,,ishares_ieur_holdings_2026-10-29
+BAMNB,BAM GROEP KONINKLIJKE NV,Industrials,Netherlands,Euronext Amsterdam,EUR,13.72,0.02,"2,317,057.14",,,ishares_ieur_holdings_2026-10-29
+ALLFG,ALLFUNDS GROUP PLC,Financials,Netherlands,Euronext Amsterdam,EUR,11.05,0.02,"2,316,068.77",sector_financials,,ishares_ieur_holdings_2026-10-29
+FPE3,FUCHS PREF,Materials,Germany,Xetra,EUR,49.94,0.02,"2,313,771.44",,,ishares_ieur_holdings_2026-10-29
+HIK,HIKMA PHARMACEUTICALS PLC,Health Care,United Kingdom,London Stock Exchange,GBP,23.06,0.02,"2,313,199.85",,,ishares_ieur_holdings_2026-10-29
+QQ.,QINETIQ GROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,7.20,0.02,"2,313,552.36",,,ishares_ieur_holdings_2026-10-29
+BALD B,FASTIGHETS BALDER CLASS B,Real Estate,Sweden,Nasdaq Omx Nordic,SEK,4.87,0.02,"2,309,289.90",,,ishares_ieur_holdings_2026-10-29
+BRAV,BRAVIDA HOLDING,Industrials,Sweden,Nasdaq Omx Nordic,SEK,15.53,0.02,"2,293,435.90",,,ishares_ieur_holdings_2026-10-29
+ROSE,ROSEBANK INDUSTRIES PLC,Industrials,United Kingdom,London Stock Exchange,GBP,4.31,0.02,"2,286,589.02",,,ishares_ieur_holdings_2026-10-29
+MOBN,MOBIMO HOLDING AG,Real Estate,Switzerland,SIX Swiss Exchange,CHF,411.80,0.02,"2,286,746.69",,,ishares_ieur_holdings_2026-10-29
+HER,HERA,Utilities,Italy,Borsa Italiana,EUR,4.07,0.02,"2,263,699.78",,,ishares_ieur_holdings_2026-10-29
+RAA,RATIONAL AG,Industrials,Germany,Xetra,EUR,699.92,0.02,"2,244,643.76",,,ishares_ieur_holdings_2026-10-29
+RED,REDEIA CORPORACION SA,Utilities,Spain,Bolsa De Madrid,EUR,17.10,0.02,"2,239,264.49",,,ishares_ieur_holdings_2026-10-29
+MAP,MAPFRE SA,Financials,Spain,Bolsa De Madrid,EUR,4.48,0.02,"2,228,615.51",sector_financials,,ishares_ieur_holdings_2026-10-29
+COTN,COMET HOLDING AG,Information Technology,Switzerland,SIX Swiss Exchange,CHF,447.72,0.02,"2,224,737.01",,,ishares_ieur_holdings_2026-10-29
+PHP,PRIMARY HEALTH PROPERTIES REIT PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,1.26,0.02,"2,220,653.99",,,ishares_ieur_holdings_2026-10-29
+DKSH,DKSH HOLDING AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,93.37,0.02,"2,220,159.40",,,ishares_ieur_holdings_2026-10-29
+PLUS,PLUS500,Financials,United Kingdom,London Stock Exchange,GBP,44.99,0.02,"2,219,235.45",sector_financials,,ishares_ieur_holdings_2026-10-29
+FLS,FLSMIDTH AND CO CLASS B,Industrials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,89.92,0.02,"2,204,769.20",,,ishares_ieur_holdings_2026-10-29
+ACX,ACERINOX,Materials,Spain,Bolsa De Madrid,EUR,18.98,0.02,"2,191,551.42",,,ishares_ieur_holdings_2026-10-29
+VONN,VONTOBEL HOLDING AG,Financials,Switzerland,SIX Swiss Exchange,CHF,109.09,0.02,"2,183,410.53",sector_financials,,ishares_ieur_holdings_2026-10-29
+MING,SPAREBANK SMNS,Financials,Norway,Oslo Bors Asa,NOK,23.45,0.02,"2,179,996.60",sector_financials,,ishares_ieur_holdings_2026-10-29
+BAB,BABCOCK INTERNATIONAL GROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,13.73,0.02,"2,180,141.17",,,ishares_ieur_holdings_2026-10-29
+NDA,AURUBIS AG,Materials,Germany,Xetra,EUR,153.71,0.02,"2,178,749.46",,,ishares_ieur_holdings_2026-10-29
+BANB,BACHEM HOLDING AG,Health Care,Switzerland,SIX Swiss Exchange,CHF,102.01,0.02,"2,166,770.27",,,ishares_ieur_holdings_2026-10-29
+BKW,BKW N AG,Utilities,Switzerland,SIX Swiss Exchange,CHF,149.36,0.02,"2,165,898.89",,,ishares_ieur_holdings_2026-10-29
+ARCAD,ARCADIS NV,Industrials,Netherlands,Euronext Amsterdam,EUR,50.39,0.02,"2,165,954.39",,,ishares_ieur_holdings_2026-10-29
+HILS,HILL AND SMITH PLC,Materials,United Kingdom,London Stock Exchange,GBP,40.66,0.02,"2,163,113.34",,,ishares_ieur_holdings_2026-10-29
+REY,REPLY,Information Technology,Italy,Borsa Italiana,EUR,147.57,0.02,"2,154,445.38",,,ishares_ieur_holdings_2026-10-29
+BC8,BECHTLE AG,Information Technology,Germany,Xetra,EUR,39.76,0.02,"2,149,725.53",,,ishares_ieur_holdings_2026-10-29
+SFZN,SIEGFRIED HOLDING AG,Health Care,Switzerland,SIX Swiss Exchange,CHF,85.63,0.02,"2,142,538.07",,,ishares_ieur_holdings_2026-10-29
+ENG,ENAGAS SA,Utilities,Spain,Bolsa De Madrid,EUR,19.69,0.02,"2,132,770.14",,,ishares_ieur_holdings_2026-10-29
+IP,INTERPUMP GROUP,Industrials,Italy,Borsa Italiana,EUR,42.73,0.02,"2,115,104.02",,,ishares_ieur_holdings_2026-10-29
+AKE,ARKEMA SA,Materials,France,Nyse Euronext - Euronext Paris,EUR,62.51,0.02,"2,115,183.10",,,ishares_ieur_holdings_2026-10-29
+GFC,GECINA SA,Real Estate,France,Nyse Euronext - Euronext Paris,EUR,71.67,0.02,"2,108,283.92",,,ishares_ieur_holdings_2026-10-29
+BWY,BELLWAY PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,28.94,0.02,"2,104,795.73",,,ishares_ieur_holdings_2026-10-29
+AYV,AYVENS SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,10.23,0.02,"2,102,384.68",,,ishares_ieur_holdings_2026-10-29
+BC,BRUNELLO CUCINELLI,Consumer Discretionary,Italy,Borsa Italiana,EUR,95.60,0.02,"2,099,948.11",,,ishares_ieur_holdings_2026-10-29
+AAK,AAK,Consumer Staples,Sweden,Nasdaq Omx Nordic,SEK,17.82,0.02,"2,098,042.06",,,ishares_ieur_holdings_2026-10-29
+AXFO,AXFOOD,Consumer Staples,Sweden,Nasdaq Omx Nordic,SEK,27.65,0.02,"2,087,487.00",,,ishares_ieur_holdings_2026-10-29
+TCAP,TP ICAP GROUP PLC,Financials,United Kingdom,London Stock Exchange,GBP,4.34,0.02,"2,081,828.61",sector_financials,,ishares_ieur_holdings_2026-10-29
+AKER,AKER,Industrials,Norway,Oslo Bors Asa,NOK,127.33,0.02,"2,079,162.22",,,ishares_ieur_holdings_2026-10-29
+VIG,VIENNA INSURANCE GROUP AG,Financials,Austria,Wiener Boerse Ag,EUR,78.36,0.02,"2,073,831.78",sector_financials,,ishares_ieur_holdings_2026-10-29
+RBREW,ROYAL UNIBREW,Consumer Staples,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,64.20,0.02,"2,072,589.90",,,ishares_ieur_holdings_2026-10-29
+GRF,GRIFOLS CLASS A,Health Care,Spain,Bolsa De Madrid,EUR,11.92,0.02,"2,067,977.93",,,ishares_ieur_holdings_2026-10-29
+FNTN,FREENET AG,Communication,Germany,Xetra,EUR,25.23,0.02,"2,061,612.76",,,ishares_ieur_holdings_2026-10-29
+PAF,PAN AFRICAN RESOURCES PLC,Materials,United Kingdom,London Stock Exchange,GBP,1.49,0.02,"2,053,680.82",,,ishares_ieur_holdings_2026-10-29
+SCYR,SACYR,Industrials,Spain,Bolsa De Madrid,EUR,4.57,0.02,"2,037,634.95",,,ishares_ieur_holdings_2026-10-29
+SHC,SHAFTESBURY CAPITAL REIT PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,1.95,0.02,"2,034,682.85",,,ishares_ieur_holdings_2026-10-29
+TGS,TGS NOPEC GEOPHYSICAL,Energy,Norway,Oslo Bors Asa,NOK,15.38,0.02,"2,011,557.57",,,ishares_ieur_holdings_2026-10-29
+HBR,HARBOUR ENERGY PLC,Energy,United Kingdom,London Stock Exchange,GBP,4.10,0.02,"2,004,254.52",,,ishares_ieur_holdings_2026-10-29
+GRG,GREGGS PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,30.44,0.02,"1,999,447.43",,,ishares_ieur_holdings_2026-10-29
+SFSN,SFS GROUP AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,170.77,0.02,"1,998,333.92",,,ishares_ieur_holdings_2026-10-29
+QLT,QUILTER PLC,Financials,United Kingdom,London Stock Exchange,GBP,2.50,0.02,"1,998,193.50",sector_financials,,ishares_ieur_holdings_2026-10-29
+RUI,RUBIS,Utilities,France,Nyse Euronext - Euronext Paris,EUR,39.25,0.02,"1,988,477.56",,,ishares_ieur_holdings_2026-10-29
+HUBN,HUBER & SUHNER AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,204.15,0.02,"1,979,625.81",,,ishares_ieur_holdings_2026-10-29
+PNN,PENNON GROUP PLC,Utilities,United Kingdom,London Stock Exchange,GBP,4.68,0.02,"1,968,879.10",,,ishares_ieur_holdings_2026-10-29
+CVC,CVC CAPITAL PARTNERS PLC,Financials,Netherlands,Euronext Amsterdam,EUR,14.74,0.02,"1,962,487.55",sector_financials,,ishares_ieur_holdings_2026-10-29
+AAF,AIRTEL AFRICA PLC,Communication,United Kingdom,London Stock Exchange,GBP,3.67,0.02,"1,938,867.49",,,ishares_ieur_holdings_2026-10-29
+SWEC B,SWECO CLASS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,14.08,0.02,"1,920,040.26",,,ishares_ieur_holdings_2026-10-29
+KMAR,KONGSBERG MARITIME,Industrials,Norway,Oslo Bors Asa,NOK,6.35,0.02,"1,910,507.94",,,ishares_ieur_holdings_2026-10-29
+VATN,VALIANT HOLDING AG,Financials,Switzerland,SIX Swiss Exchange,CHF,176.57,0.02,"1,908,055.87",sector_financials,,ishares_ieur_holdings_2026-10-29
+MANTA,MANDATUM,Financials,Finland,Nasdaq Omx Helsinki Ltd.,EUR,6.69,0.02,"1,906,206.42",sector_financials,,ishares_ieur_holdings_2026-10-29
+NEXI,NEXI,Financials,Italy,Borsa Italiana,EUR,4.90,0.02,"1,895,479.09",sector_financials,,ishares_ieur_holdings_2026-10-29
+INCH,INCHCAPE PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,8.53,0.02,"1,894,747.78",,,ishares_ieur_holdings_2026-10-29
+ASMDEE B,ASMODEE GROUP CLASS B,Consumer Discretionary,Sweden,Nasdaq Omx Nordic,SEK,17.35,0.02,"1,891,336.43",,,ishares_ieur_holdings_2026-10-29
+AZE,AZELIS GROUP NV,Industrials,Belgium,Nyse Euronext - Euronext Brussels,EUR,13.02,0.02,"1,891,376.40",,,ishares_ieur_holdings_2026-10-29
+BAVA,BAVARIAN NORDIC,Health Care,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,37.01,0.02,"1,889,558.05",,,ishares_ieur_holdings_2026-10-29
+JD.,JD SPORTS FASHION PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,1.25,0.02,"1,875,095.14",,,ishares_ieur_holdings_2026-10-29
+PUM,PUMA,Consumer Discretionary,Germany,Xetra,EUR,28.14,0.02,"1,872,000.72",,,ishares_ieur_holdings_2026-10-29
+SCT,SOFTCAT PLC,Information Technology,United Kingdom,London Stock Exchange,GBP,22.61,0.02,"1,860,004.67",,,ishares_ieur_holdings_2026-10-29
+TBCG,TBC BANK GROUP PLC,Financials,United Kingdom,London Stock Exchange,GBP,66.79,0.02,"1,856,151.50",sector_financials,,ishares_ieur_holdings_2026-10-29
+ITV,ITV PLC,Communication,United Kingdom,London Stock Exchange,GBP,0.87,0.02,"1,851,902.99",,,ishares_ieur_holdings_2026-10-29
+SINCH,SINCH,Information Technology,Sweden,Nasdaq Omx Nordic,SEK,4.63,0.02,"1,844,078.87",,,ishares_ieur_holdings_2026-10-29
+VSURE,VERISURE PLC,Industrials,Sweden,Nasdaq Omx Nordic,EUR,11.72,0.02,"1,829,976.26",,,ishares_ieur_holdings_2026-10-29
+TRMD A,TORM PLC CLASS A,Energy,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,42.45,0.02,"1,828,502.40",,,ishares_ieur_holdings_2026-10-29
+DOKA,DORMAKABA HOLDING AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,83.93,0.02,"1,827,137.45",,,ishares_ieur_holdings_2026-10-29
+TATE,TATE AND LYLE PLC,Consumer Staples,United Kingdom,London Stock Exchange,GBP,7.54,0.02,"1,817,817.33",,,ishares_ieur_holdings_2026-10-29
+PROT,PROTECTOR FORSIKRING,Financials,Norway,Oslo Bors Asa,NOK,48.15,0.02,"1,813,390.16",sector_financials,,ishares_ieur_holdings_2026-10-29
+HUH1V,HUHTAMAKI,Materials,Finland,Nasdaq Omx Helsinki Ltd.,EUR,28.78,0.02,"1,795,127.43",,,ishares_ieur_holdings_2026-10-29
+SOP,SOPRA STERIA GROUP,Information Technology,France,Nyse Euronext - Euronext Paris,EUR,210.98,0.02,"1,788,905.36",,,ishares_ieur_holdings_2026-10-29
+EZJ,EASYJET,Industrials,United Kingdom,London Stock Exchange,GBP,9.11,0.02,"1,780,651.54",,,ishares_ieur_holdings_2026-10-29
+CAMX,CAMURUS,Health Care,Sweden,Nasdaq Omx Nordic,SEK,67.98,0.02,"1,773,818.33",,,ishares_ieur_holdings_2026-10-29
+KGX,KION GROUP AG,Industrials,Germany,Xetra,EUR,38.68,0.02,"1,769,097.78",,,ishares_ieur_holdings_2026-10-29
+PIRC,PIRELLI & C,Consumer Discretionary,Italy,Borsa Italiana,EUR,7.35,0.02,"1,754,590.20",,,ishares_ieur_holdings_2026-10-29
+VIS,VISCOFAN SA,Consumer Staples,Spain,Bolsa De Madrid,EUR,60.28,0.02,"1,754,816.90",,,ishares_ieur_holdings_2026-10-29
+KLR,KELLER GROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,42.13,0.02,"1,752,252.81",,,ishares_ieur_holdings_2026-10-29
+FR,VALEO,Consumer Discretionary,France,Nyse Euronext - Euronext Paris,EUR,12.97,0.02,"1,751,269.52",,,ishares_ieur_holdings_2026-10-29
+AG1,AUTO1 GROUP,Consumer Discretionary,Germany,Xetra,EUR,20.47,0.02,"1,747,652.22",,,ishares_ieur_holdings_2026-10-29
+BWLPG,BW LPG LTD,Energy,Norway,Oslo Bors Asa,NOK,25.49,0.02,"1,744,336.73",,,ishares_ieur_holdings_2026-10-29
+OSB,OSB GROUP PLC,Financials,United Kingdom,London Stock Exchange,GBP,6.63,0.02,"1,735,332.74",sector_financials,,ishares_ieur_holdings_2026-10-29
+BUCN,BUCHER INDUSTRIES AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,396.69,0.02,"1,716,461.27",,,ishares_ieur_holdings_2026-10-29
+FRA,FRAPORT AG,Industrials,Germany,Xetra,EUR,71.28,0.02,"1,711,473.43",,,ishares_ieur_holdings_2026-10-29
+HPOL B,HEXPOL CLASS B,Materials,Sweden,Nasdaq Omx Nordic,SEK,9.38,0.02,"1,706,152.65",,,ishares_ieur_holdings_2026-10-29
+ROCK B,ROCKWOOL CLASS B,Industrials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,29.87,0.02,"1,704,871.51",,,ishares_ieur_holdings_2026-10-29
+GFTU,GRAFTON GROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,13.24,0.02,"1,701,865.87",,,ishares_ieur_holdings_2026-10-29
+UTG,UNITE GROUP REIT PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,6.33,0.02,"1,700,782.84",,,ishares_ieur_holdings_2026-10-29
+LOG,LOGISTA CIA DE DISTRIBUCION INTEGR,Industrials,Spain,Bolsa De Madrid,EUR,40.39,0.02,"1,694,305.83",,,ishares_ieur_holdings_2026-10-29
+TKMS,TKMS AG,Industrials,Germany,Xetra,EUR,99.46,0.02,"1,680,913.38",,,ishares_ieur_holdings_2026-10-29
+FDJU,FDJ UNITED,Consumer Discretionary,France,Nyse Euronext - Euronext Paris,EUR,23.58,0.02,"1,675,352.33",,,ishares_ieur_holdings_2026-10-29
+COV,COVIVIO SA,Real Estate,France,Nyse Euronext - Euronext Paris,EUR,49.01,0.02,"1,668,835.68",,,ishares_ieur_holdings_2026-10-29
+UQA,UNIQA INSURANCE GROUP AG,Financials,Austria,Wiener Boerse Ag,EUR,19.67,0.02,"1,668,007.68",sector_financials,,ishares_ieur_holdings_2026-10-29
+TWEKA,TKH GROUP,Industrials,Netherlands,Euronext Amsterdam,EUR,56.32,0.02,"1,667,218.39",,,ishares_ieur_holdings_2026-10-29
+MGNS,MORGAN SINDALL GROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,54.46,0.02,"1,662,841.20",,,ishares_ieur_holdings_2026-10-29
+ATE,ALTEN SA,Information Technology,France,Nyse Euronext - Euronext Paris,EUR,96.56,0.02,"1,659,962.10",,,ishares_ieur_holdings_2026-10-29
+JEN,JENOPTIK N AG,Information Technology,Germany,Xetra,EUR,46.08,0.02,"1,657,805.16",,,ishares_ieur_holdings_2026-10-29
+SDF,K+S N AG,Materials,Germany,Xetra,EUR,14.61,0.02,"1,650,423.02",,,ishares_ieur_holdings_2026-10-29
+HEIJM,KONINKLIJKE HEIJMANS DUTCH CERTIFI,Industrials,Netherlands,Euronext Amsterdam,EUR,91.48,0.02,"1,650,862.25",,,ishares_ieur_holdings_2026-10-29
+AMBU B,AMBU CLASS B,Health Care,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,11.74,0.02,"1,643,144.50",,,ishares_ieur_holdings_2026-10-29
+RSW,RENISHAW PLC,Information Technology,United Kingdom,London Stock Exchange,GBP,73.62,0.02,"1,635,272.26",,,ishares_ieur_holdings_2026-10-29
+BAKKA,BAKKAFROST,Consumer Staples,Norway,Oslo Bors Asa,NOK,49.57,0.02,"1,627,205.87",,,ishares_ieur_holdings_2026-10-29
+DOFG,DOF GROUP,Energy,Norway,Oslo Bors Asa,NOK,14.39,0.02,"1,624,168.36",,,ishares_ieur_holdings_2026-10-29
+CLN,CLARIANT AG,Materials,Switzerland,SIX Swiss Exchange,CHF,12.69,0.02,"1,616,907.55",,,ishares_ieur_holdings_2026-10-29
+DLN,DERWENT LONDON REIT PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,25.37,0.02,"1,614,187.05",,,ishares_ieur_holdings_2026-10-29
+ALIF B,ADDLIFE CLASS B,Health Care,Sweden,Nasdaq Omx Nordic,SEK,18.38,0.02,"1,600,688.25",,,ishares_ieur_holdings_2026-10-29
+WOSG,WATCHES OF SWITZERLAND GROUP PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,9.80,0.02,"1,597,536.36",,,ishares_ieur_holdings_2026-10-29
+EMMN,EMMI AG,Consumer Staples,Switzerland,SIX Swiss Exchange,CHF,"1,106.61",0.02,"1,594,624.18",,,ishares_ieur_holdings_2026-10-29
+SON,SONAE SA,Consumer Staples,Portugal,Nyse Euronext - Euronext Lisbon,EUR,2.35,0.02,"1,583,455.73",,,ishares_ieur_holdings_2026-10-29
+TIETO,TIETO,Information Technology,Finland,Nasdaq Omx Helsinki Ltd.,EUR,20.82,0.02,"1,576,684.95",,,ishares_ieur_holdings_2026-10-29
+HAUTO,HOEGH AUTOLINERS,Industrials,Norway,Oslo Bors Asa,NOK,19.64,0.02,"1,571,685.17",,,ishares_ieur_holdings_2026-10-29
+NETC,NETCOMPANY GROUP,Information Technology,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,53.77,0.02,"1,567,480.45",,,ishares_ieur_holdings_2026-10-29
+AJB,AJ BELL PLC,Financials,United Kingdom,London Stock Exchange,GBP,7.90,0.02,"1,560,379.77",sector_financials,,ishares_ieur_holdings_2026-10-29
+FTK,FLATEXDEGIRO N,Financials,Germany,Xetra,EUR,26.90,0.02,"1,550,786.73",sector_financials,,ishares_ieur_holdings_2026-10-29
+HOLM B,HOLMEN CLASS B,Materials,Sweden,Nasdaq Omx Nordic,SEK,30.62,0.02,"1,546,641.75",,,ishares_ieur_holdings_2026-10-29
+LIGHT,SIGNIFY,Industrials,Netherlands,Euronext Amsterdam,EUR,17.12,0.02,"1,545,855.77",,,ishares_ieur_holdings_2026-10-29
+THULE,THULE GROUP,Consumer Discretionary,Sweden,Nasdaq Omx Nordic,SEK,19.63,0.02,"1,543,504.00",,,ishares_ieur_holdings_2026-10-29
+OXIG,OXFORD INSTRUMENTS PLC,Information Technology,United Kingdom,London Stock Exchange,GBP,36.03,0.02,"1,521,723.46",,,ishares_ieur_holdings_2026-10-29
+WIE,WIENERBERGER AG,Materials,Austria,Wiener Boerse Ag,EUR,18.36,0.02,"1,518,190.55",,,ishares_ieur_holdings_2026-10-29
+VID,VIDRALA,Materials,Spain,Bolsa De Madrid,EUR,96.89,0.02,"1,517,566.98",,,ishares_ieur_holdings_2026-10-29
+MAIRE,MAIRE SPA,Industrials,Italy,Borsa Italiana,EUR,14.42,0.02,"1,510,305.41",,,ishares_ieur_holdings_2026-10-29
+GBF,BILFINGER,Industrials,Germany,Xetra,EUR,65.36,0.02,"1,510,389.57",,,ishares_ieur_holdings_2026-10-29
+BYG,BIG YELLOW GROUP REIT PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,12.37,0.02,"1,506,527.45",,,ishares_ieur_holdings_2026-10-29
+AMS,AMS-OSRAM AG,Information Technology,Switzerland,SIX Swiss Exchange,CHF,24.02,0.02,"1,499,521.87",,,ishares_ieur_holdings_2026-10-29
+TOM,TOMRA SYSTEMS,Industrials,Norway,Oslo Bors Asa,NOK,10.44,0.02,"1,497,984.36",,,ishares_ieur_holdings_2026-10-29
+YPSN,YPSOMED HOLDING AG,Health Care,Switzerland,SIX Swiss Exchange,CHF,478.20,0.02,"1,496,767.25",,,ishares_ieur_holdings_2026-10-29
+CLAS B,CLAS OHLSON,Consumer Discretionary,Sweden,Nasdaq Omx Nordic,SEK,49.19,0.02,"1,496,789.10",,,ishares_ieur_holdings_2026-10-29
+TEG,TAG IMMOBILIEN AG,Real Estate,Germany,Xetra,EUR,12.56,0.02,"1,495,112.22",,,ishares_ieur_holdings_2026-10-29
+GN,GN STORE NORD,Consumer Discretionary,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,16.46,0.02,"1,492,519.88",,,ishares_ieur_holdings_2026-10-29
+CMBT,CMB.TECH NV,Energy,Belgium,Nyse Euronext - Euronext Brussels,EUR,18.73,0.02,"1,480,426.48",,,ishares_ieur_holdings_2026-10-29
+HLUN B,H. LUNDBECK CLASS B,Health Care,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,8.13,0.02,"1,470,423.67",,,ishares_ieur_holdings_2026-10-29
+UTDI,UNITED INTERNET AG,Communication,Germany,Xetra,EUR,26.72,0.02,"1,456,229.58",,,ishares_ieur_holdings_2026-10-29
+EKTA B,ELEKTA B,Health Care,Sweden,Nasdaq Omx Nordic,SEK,5.94,0.02,"1,454,708.01",,,ishares_ieur_holdings_2026-10-29
+BOSN,BOSSARD HOLDING AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,320.49,0.02,"1,443,822.94",,,ishares_ieur_holdings_2026-10-29
+HTWS,HELIOS TOWERS PLC,Communication,United Kingdom,London Stock Exchange,GBP,2.74,0.02,"1,444,094.34",,,ishares_ieur_holdings_2026-10-29
+ZEAL,ZEALAND PHARMA,Health Care,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,34.65,0.02,"1,438,354.61",,,ishares_ieur_holdings_2026-10-29
+AMV0,AUMOVIO N,Consumer Discretionary,Germany,Xetra,EUR,38.29,0.02,"1,431,437.63",,,ishares_ieur_holdings_2026-10-29
+CURY,CURRYS PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,1.96,0.01,"1,424,553.10",,,ishares_ieur_holdings_2026-10-29
+SVS,SAVILLS PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,14.47,0.01,"1,419,027.47",,,ishares_ieur_holdings_2026-10-29
+OCDO,OCADO GROUP PLC,Consumer Staples,United Kingdom,London Stock Exchange,GBP,4.31,0.01,"1,416,183.31",,,ishares_ieur_holdings_2026-10-29
+SSAB A,SSAB A,Materials,Sweden,Nasdaq Omx Nordic,SEK,9.71,0.01,"1,416,480.21",,,ishares_ieur_holdings_2026-10-29
+SRAIL,STADLER RAIL AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,39.14,0.01,"1,404,647.47",,,ishares_ieur_holdings_2026-10-29
+RF,EURAZEO,Financials,France,Nyse Euronext - Euronext Paris,EUR,54.70,0.01,"1,405,154.90",sector_financials,,ishares_ieur_holdings_2026-10-29
+MF,WENDEL,Financials,France,Nyse Euronext - Euronext Paris,EUR,94.89,0.01,"1,401,648.61",sector_financials,,ishares_ieur_holdings_2026-10-29
+C5H,CAIRN HOMES PLC,Consumer Discretionary,Ireland,Irish Stock Exchange - All Market,EUR,3.11,0.01,"1,402,264.21",,,ishares_ieur_holdings_2026-10-29
+SOL,SOL,Materials,Italy,Borsa Italiana,EUR,67.31,0.01,"1,396,742.47",,,ishares_ieur_holdings_2026-10-29
+FAGR,FAGRON NV,Health Care,Belgium,Nyse Euronext - Euronext Brussels,EUR,26.12,0.01,"1,391,697.01",,,ishares_ieur_holdings_2026-10-29
+JET2,JET2 PLC,Industrials,United Kingdom,London Stock Exchange,GBP,18.96,0.01,"1,390,773.15",,,ishares_ieur_holdings_2026-10-29
+LRE,LANCASHIRE HOLDINGS,Financials,United Kingdom,London Stock Exchange,GBP,9.15,0.01,"1,389,171.99",sector_financials,,ishares_ieur_holdings_2026-10-29
+WIHL,WIHLBORGS FASTIGHETER,Real Estate,Sweden,Nasdaq Omx Nordic,SEK,6.90,0.01,"1,387,963.78",,,ishares_ieur_holdings_2026-10-29
+BNOR,BLUENORD,Energy,Norway,Oslo Bors Asa,NOK,66.90,0.01,"1,382,728.52",,,ishares_ieur_holdings_2026-10-29
+PAG,PARAGON GROUP OF COMPANIES,Financials,United Kingdom,London Stock Exchange,GBP,9.96,0.01,"1,382,930.03",sector_financials,,ishares_ieur_holdings_2026-10-29
+PAAL B,PER AARSLEFF HOLDING CLASS B,Industrials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,105.75,0.01,"1,372,843.52",,,ishares_ieur_holdings_2026-10-29
+PNDX B,PANDOX,Real Estate,Sweden,Nasdaq Omx Nordic,SEK,16.74,0.01,"1,371,346.17",,,ishares_ieur_holdings_2026-10-29
+BURE,BURE EQUITY,Financials,Sweden,Nasdaq Omx Nordic,SEK,31.43,0.01,"1,368,328.52",sector_financials,,ishares_ieur_holdings_2026-10-29
+HMSO,HAMMERSON REIT PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,4.74,0.01,"1,365,878.56",,,ishares_ieur_holdings_2026-10-29
+HOC,HOCHSCHILD MINING PLC,Materials,United Kingdom,London Stock Exchange,GBP,5.97,0.01,"1,364,519.28",,,ishares_ieur_holdings_2026-10-29
+GNS,GENUS PLC,Health Care,United Kingdom,London Stock Exchange,GBP,30.57,0.01,"1,359,070.30",,,ishares_ieur_holdings_2026-10-29
+GRNG,GRANGES,Materials,Sweden,Nasdaq Omx Nordic,SEK,17.43,0.01,"1,356,898.83",,,ishares_ieur_holdings_2026-10-29
+KIT,KITRON,Information Technology,Norway,Oslo Bors Asa,NOK,10.07,0.01,"1,351,279.85",,,ishares_ieur_holdings_2026-10-29
+FGP,FIRSTGROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,2.90,0.01,"1,350,540.38",,,ishares_ieur_holdings_2026-10-29
+CRBN,CORBION NV CLASS C,Materials,Netherlands,Euronext Amsterdam,EUR,28.93,0.01,"1,346,553.57",,,ishares_ieur_holdings_2026-10-29
+TGYM,TECHNOGYM,Consumer Discretionary,Italy,Borsa Italiana,EUR,15.55,0.01,"1,345,857.61",,,ishares_ieur_holdings_2026-10-29
+EFGN,EFG INTERNATIONAL AG,Financials,Switzerland,SIX Swiss Exchange,CHF,19.52,0.01,"1,345,016.27",sector_financials,,ishares_ieur_holdings_2026-10-29
+COFA,COFACE SA,Financials,France,Nyse Euronext - Euronext Paris,EUR,17.35,0.01,"1,343,739.36",sector_financials,,ishares_ieur_holdings_2026-10-29
+BOY,BODYCOTE PLC,Industrials,United Kingdom,London Stock Exchange,GBP,12.25,0.01,"1,330,473.93",,,ishares_ieur_holdings_2026-10-29
+KINV B,KINNEVIK CLASS B,Financials,Sweden,Nasdaq Omx Nordic,SEK,7.12,0.01,"1,329,386.33",sector_financials,,ishares_ieur_holdings_2026-10-29
+GNC,GREENCORE GROUP PLC,Consumer Staples,United Kingdom,London Stock Exchange,GBP,3.92,0.01,"1,328,982.02",,,ishares_ieur_holdings_2026-10-29
+SSPG,SSP GROUP PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,2.46,0.01,"1,323,419.20",,,ishares_ieur_holdings_2026-10-29
+APAM,APERAM SA,Materials,France,Euronext Amsterdam,EUR,39.58,0.01,"1,320,245.09",,,ishares_ieur_holdings_2026-10-29
+OUT1V,OUTOKUMPU,Materials,Finland,Nasdaq Omx Helsinki Ltd.,EUR,5.20,0.01,"1,319,061.30",,,ishares_ieur_holdings_2026-10-29
+ELUX B,ELECTROLUX CLASS B,Consumer Discretionary,Sweden,Nasdaq Omx Nordic,SEK,2.86,0.01,"1,317,545.09",,,ishares_ieur_holdings_2026-10-29
+TYRES,NOKIAN RENKAAT,Consumer Discretionary,Finland,Nasdaq Omx Helsinki Ltd.,EUR,15.35,0.01,"1,315,466.06",,,ishares_ieur_holdings_2026-10-29
+VLK,VAN LANSCHOT KEMPEN NV,Financials,Netherlands,Euronext Amsterdam,EUR,71.16,0.01,"1,312,764.61",sector_financials,,ishares_ieur_holdings_2026-10-29
+BONEX,BONESUPPORT HOLDING,Health Care,Sweden,Nasdaq Omx Nordic,SEK,32.55,0.01,"1,310,899.65",,,ishares_ieur_holdings_2026-10-29
+MONT,MONTEA NV,Real Estate,Belgium,Nyse Euronext - Euronext Brussels,EUR,72.34,0.01,"1,298,869.53",,,ishares_ieur_holdings_2026-10-29
+MTRS,MUNTERS GROUP,Industrials,Sweden,Nasdaq Omx Nordic,SEK,14.41,0.01,"1,299,327.19",,,ishares_ieur_holdings_2026-10-29
+CE,CREDITO EMILIANO,Financials,Italy,Borsa Italiana,EUR,22.12,0.01,"1,295,112.86",sector_financials,,ishares_ieur_holdings_2026-10-29
+KARN,KARDEX HOLDING AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,310.82,0.01,"1,292,692.75",,,ishares_ieur_holdings_2026-10-29
+BEKB,BEKAERT (D) SA,Materials,Belgium,Nyse Euronext - Euronext Brussels,EUR,45.04,0.01,"1,279,978.55",,,ishares_ieur_holdings_2026-10-29
+WAWI,WALLENIUS WILHELMSEN,Industrials,Norway,Oslo Bors Asa,NOK,18.45,0.01,"1,280,530.25",,,ishares_ieur_holdings_2026-10-29
+IWG,INTERNATIONAL WORKPLACE GROUP PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,2.56,0.01,"1,277,721.11",,,ishares_ieur_holdings_2026-10-29
+FDR,FLUIDRA SA,Industrials,Spain,Bolsa De Madrid,EUR,21.11,0.01,"1,278,375.15",,,ishares_ieur_holdings_2026-10-29
+CHG,CHEMRING GROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,7.61,0.01,"1,272,981.63",,,ishares_ieur_holdings_2026-10-29
+DEZ,DEUTZ AG,Industrials,Germany,Xetra,EUR,11.34,0.01,"1,273,753.31",,,ishares_ieur_holdings_2026-10-29
+AMP,AMPLIFON,Health Care,Italy,Borsa Italiana,EUR,14.58,0.01,"1,272,377.42",,,ishares_ieur_holdings_2026-10-29
+HIAB,HIAB CORPORATION CLASS B,Industrials,Finland,Nasdaq Omx Helsinki Ltd.,EUR,51.93,0.01,"1,269,902.97",,,ishares_ieur_holdings_2026-10-29
+LAND,LANDIS+GYR GROUP AG,Information Technology,Switzerland,SIX Swiss Exchange,CHF,64.95,0.01,"1,254,482.92",,,ishares_ieur_holdings_2026-10-29
+BFIT,BASIC-FIT,Consumer Discretionary,Netherlands,Euronext Amsterdam,EUR,33.04,0.01,"1,252,210.86",,,ishares_ieur_holdings_2026-10-29
+CAN,CANAL+ SA,Communication,United Kingdom,London Stock Exchange,GBP,2.97,0.01,"1,247,577.78",,,ishares_ieur_holdings_2026-10-29
+CRL,CAREL,Industrials,Italy,Borsa Italiana,EUR,31.26,0.01,"1,240,066.41",,,ishares_ieur_holdings_2026-10-29
+SOLB,SOLVAY SA,Materials,Belgium,Nyse Euronext - Euronext Brussels,EUR,26.59,0.01,"1,240,249.78",,,ishares_ieur_holdings_2026-10-29
+KRN,KRONES AG,Industrials,Germany,Xetra,EUR,127.48,0.01,"1,239,374.75",,,ishares_ieur_holdings_2026-10-29
+EXENS,EXOSENS SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,64.86,0.01,"1,235,591.28",,,ishares_ieur_holdings_2026-10-29
+CKN,CLARKSON PLC,Industrials,United Kingdom,London Stock Exchange,GBP,68.07,0.01,"1,233,448.60",,,ishares_ieur_holdings_2026-10-29
+KEMIRA,KEMIRA,Materials,Finland,Nasdaq Omx Helsinki Ltd.,EUR,16.95,0.01,"1,226,866.37",,,ishares_ieur_holdings_2026-10-29
+PEAB B,PEAB CLASS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,9.46,0.01,"1,222,259.74",,,ishares_ieur_holdings_2026-10-29
+VIRP,VIRBAC SA,Health Care,France,Nyse Euronext - Euronext Paris,EUR,384.56,0.01,"1,216,764.77",,,ishares_ieur_holdings_2026-10-29
+DOC,DO & CO AKTIENGESELLSCHAFT,Industrials,Austria,Wiener Boerse Ag,EUR,230.52,0.01,"1,216,893.70",,,ishares_ieur_holdings_2026-10-29
+COL,COLONIAL SFL SOCIMI SA,Real Estate,Spain,Bolsa De Madrid,EUR,5.69,0.01,"1,217,191.19",,,ishares_ieur_holdings_2026-10-29
+CATE,CATENA,Real Estate,Sweden,Nasdaq Omx Nordic,SEK,35.59,0.01,"1,215,622.60",,,ishares_ieur_holdings_2026-10-29
+ATEA,ATEA,Information Technology,Norway,Oslo Bors Asa,NOK,18.47,0.01,"1,213,564.94",,,ishares_ieur_holdings_2026-10-29
+DIA,DIASORIN,Health Care,Italy,Borsa Italiana,EUR,89.97,0.01,"1,210,957.11",,,ishares_ieur_holdings_2026-10-29
+ALSN,ALSO HOLDING AG,Information Technology,Switzerland,SIX Swiss Exchange,CHF,257.00,0.01,"1,201,215.46",,,ishares_ieur_holdings_2026-10-29
+SCATC,SCATEC SOLAR,Utilities,Norway,Oslo Bors Asa,NOK,9.06,0.01,"1,198,298.31",,,ishares_ieur_holdings_2026-10-29
+SRE,SIRIUS REAL ESTATE LIMITED,Real Estate,United Kingdom,London Stock Exchange,GBP,1.31,0.01,"1,189,530.74",,,ishares_ieur_holdings_2026-10-29
+NCC B,NCC B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,18.49,0.01,"1,185,716.54",,,ishares_ieur_holdings_2026-10-29
+RENE,REN REDES ENERGETICAS NACIONAIS SA,Utilities,Portugal,Nyse Euronext - Euronext Lisbon,EUR,4.01,0.01,"1,181,728.60",,,ishares_ieur_holdings_2026-10-29
+CHEMM,CHEMOMETEC,Health Care,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,92.76,0.01,"1,178,360.73",,,ishares_ieur_holdings_2026-10-29
+MCOV B,MEDICOVER CLASS B,Health Care,Sweden,Nasdaq Omx Nordic,SEK,28.36,0.01,"1,177,128.68",,,ishares_ieur_holdings_2026-10-29
+SCHO,SCHOUW AND CO,Consumer Staples,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,123.97,0.01,"1,175,752.23",,,ishares_ieur_holdings_2026-10-29
+ALMB,ALM BRAND,Financials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,2.56,0.01,"1,175,119.46",sector_financials,,ishares_ieur_holdings_2026-10-29
+IRE,IREN,Utilities,Italy,Borsa Italiana,EUR,2.76,0.01,"1,174,396.32",,,ishares_ieur_holdings_2026-10-29
+ODL,ODFJELL DRILLING,Energy,Norway,Oslo Bors Asa,NOK,11.74,0.01,"1,165,497.09",,,ishares_ieur_holdings_2026-10-29
+DANR,DANIELI & C OFFICINE MECCANICHE SA,Industrials,Italy,Borsa Italiana,EUR,41.15,0.01,"1,157,830.31",,,ishares_ieur_holdings_2026-10-29
+YCA,YELLOW CAKE PLC,Energy,United Kingdom,London Stock Exchange,GBP,7.15,0.01,"1,155,568.23",,,ishares_ieur_holdings_2026-10-29
+DEC,JCDECAUX,Communication,France,Nyse Euronext - Euronext Paris,EUR,26.88,0.01,"1,153,630.59",,,ishares_ieur_holdings_2026-10-29
+GPE,GREAT PORTLAND ESTATES REIT PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,4.51,0.01,"1,145,789.50",,,ishares_ieur_holdings_2026-10-29
+BRE,FRENI BREMBO NV,Consumer Discretionary,Italy,Borsa Italiana,EUR,11.92,0.01,"1,144,484.30",,,ishares_ieur_holdings_2026-10-29
+COA,COATS GROUP PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,1.13,0.01,"1,142,003.01",,,ishares_ieur_holdings_2026-10-29
+ZIG,ZIGUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,6.18,0.01,"1,134,803.21",,,ishares_ieur_holdings_2026-10-29
+FRVIA,FORVIA,Consumer Discretionary,France,Nyse Euronext - Euronext Paris,EUR,9.58,0.01,"1,131,298.19",,,ishares_ieur_holdings_2026-10-29
+BILL,BILLERUD KORSNAS,Materials,Sweden,Nasdaq Omx Nordic,SEK,8.74,0.01,"1,126,175.84",,,ishares_ieur_holdings_2026-10-29
+GRI,GRAINGER REIT PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,2.42,0.01,"1,124,303.93",,,ishares_ieur_holdings_2026-10-29
+IOS,IONOS GROUP N,Information Technology,Germany,Xetra,EUR,39.70,0.01,"1,124,775.62",,,ishares_ieur_holdings_2026-10-29
+TRE,TECNICAS REUNIDAS SA,Energy,Spain,Bolsa De Madrid,EUR,32.89,0.01,"1,105,305.11",,,ishares_ieur_holdings_2026-10-29
+SESG,SES SA FDR,Communication,France,Nyse Euronext - Euronext Paris,EUR,4.82,0.01,"1,105,085.76",,,ishares_ieur_holdings_2026-10-29
+WALL B,WALLENSTAM CLASS B,Real Estate,Sweden,Nasdaq Omx Nordic,SEK,3.78,0.01,"1,099,124.36",,,ishares_ieur_holdings_2026-10-29
+IMPN,IMPLENIA AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,81.03,0.01,"1,096,908.75",,,ishares_ieur_holdings_2026-10-29
+PFD,PREMIER FOODS PLC,Consumer Staples,United Kingdom,London Stock Exchange,GBP,2.67,0.01,"1,093,822.45",,,ishares_ieur_holdings_2026-10-29
+MONY,MONY GROUP PLC,Communication,United Kingdom,London Stock Exchange,GBP,2.68,0.01,"1,089,188.67",,,ishares_ieur_holdings_2026-10-29
+EXA,EXAIL TECHNOLOGIES SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,140.32,0.01,"1,081,437.84",,,ishares_ieur_holdings_2026-10-29
+TPK,TRAVIS PERKINS PLC,Industrials,United Kingdom,London Stock Exchange,GBP,8.10,0.01,"1,080,882.99",,,ishares_ieur_holdings_2026-10-29
+SFQ,SAF-HOLLAND,Consumer Discretionary,Germany,Xetra,EUR,23.55,0.01,"1,068,783.13",,,ishares_ieur_holdings_2026-10-29
+WCH,WACKER CHEMIE AG,Materials,Germany,Xetra,EUR,94.66,0.01,"1,067,600.74",,,ishares_ieur_holdings_2026-10-29
+BB,BIC SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,71.00,0.01,"1,065,021.20",,,ishares_ieur_holdings_2026-10-29
+ALHG,LOUIS HACHETTE GROUP SA,Communication,France,Nyse Euronext - Euronext Paris,EUR,1.98,0.01,"1,062,726.79",,,ishares_ieur_holdings_2026-10-29
+FOUR,4IMPRINT GROUP PLC,Communication,United Kingdom,London Stock Exchange,GBP,60.13,0.01,"1,063,230.27",,,ishares_ieur_holdings_2026-10-29
+FCT,FINCANTIERI,Industrials,Italy,Borsa Italiana,EUR,14.23,0.01,"1,061,355.99",,,ishares_ieur_holdings_2026-10-29
+BPT,BRIDGEPOINT GROUP PLC,Financials,United Kingdom,London Stock Exchange,GBP,5.55,0.01,"1,061,138.28",sector_financials,,ishares_ieur_holdings_2026-10-29
+SAX,STROEER SE,Communication,Germany,Xetra,EUR,41.73,0.01,"1,057,536.54",,,ishares_ieur_holdings_2026-10-29
+FABG,FABEGE,Real Estate,Sweden,Nasdaq Omx Nordic,SEK,6.52,0.01,"1,057,323.41",,,ishares_ieur_holdings_2026-10-29
+SWON,SOFTWAREONE HOLDING AG,Information Technology,Switzerland,SIX Swiss Exchange,CHF,11.51,0.01,"1,041,161.13",,,ishares_ieur_holdings_2026-10-29
+POST,OSTERREICHISCHE POST AG,Industrials,Austria,Wiener Boerse Ag,EUR,35.00,0.01,"1,031,402.26",,,ishares_ieur_holdings_2026-10-29
+BOSS,HUGO BOSS N AG,Consumer Discretionary,Germany,Xetra,EUR,43.01,0.01,"1,028,867.06",,,ishares_ieur_holdings_2026-10-29
+BFSA,BEFESA SA,Industrials,Germany,Xetra,EUR,41.53,0.01,"1,028,898.62",,,ishares_ieur_holdings_2026-10-29
+SZG,SALZGITTER AG,Materials,Germany,Xetra,EUR,54.34,0.01,"1,025,152.10",,,ishares_ieur_holdings_2026-10-29
+AUTO,AUTOSTORE HOLDINGS LTD,Industrials,Norway,Oslo Bors Asa,NOK,1.63,0.01,"1,015,215.00",,,ishares_ieur_holdings_2026-10-29
+IPS,IPSOS SA,Communication,France,Nyse Euronext - Euronext Paris,EUR,39.47,0.01,"1,013,847.77",,,ishares_ieur_holdings_2026-10-29
+PETS,PETS AT HOME PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,3.28,0.01,"1,013,470.23",,,ishares_ieur_holdings_2026-10-29
+SLR,SOLARIA ENERGIA Y MEDIO AMBIENTE S,Utilities,Spain,Bolsa De Madrid,EUR,17.17,0.01,"1,011,081.56",,,ishares_ieur_holdings_2026-10-29
+FRAS,FRASERS GROUP PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,11.88,0.01,"1,005,453.43",,,ishares_ieur_holdings_2026-10-29
+IHP,INTEGRAFIN HOLDINGS,Financials,United Kingdom,London Stock Exchange,GBP,5.14,0.01,"1,003,359.14",sector_financials,,ishares_ieur_holdings_2026-10-29
+BIOA B,BIOARCTIC CLASS B,Health Care,Sweden,Nasdaq Omx Nordic,SEK,32.41,0.01,"1,003,821.63",,,ishares_ieur_holdings_2026-10-29
+LLBN,LIECHTENSTEINISCHE LANDESBANK,Financials,Switzerland,SIX Swiss Exchange,CHF,139.81,0.01,"1,000,743.54",sector_financials,,ishares_ieur_holdings_2026-10-29
+PUUILO,PUUILO,Consumer Discretionary,Finland,Nasdaq Omx Helsinki Ltd.,EUR,20.90,0.01,"999,656.29",,,ishares_ieur_holdings_2026-10-29
+HUFV A,HUFVUDSTADEN CLASS A,Real Estate,Sweden,Nasdaq Omx Nordic,SEK,11.12,0.01,"996,900.45",,,ishares_ieur_holdings_2026-10-29
+AF,AIR FRANCE-KLM SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,11.73,0.01,"997,270.07",,,ishares_ieur_holdings_2026-10-29
+SAFE,SAFESTORE HOLDINGS REIT PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,7.38,0.01,"991,868.63",,,ishares_ieur_holdings_2026-10-29
+BCHN,BURCKHARDT COMPRESSION HOLDING AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,577.49,0.01,"992,132.79",,,ishares_ieur_holdings_2026-10-29
+DNLM,DUNELM GROUP PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,11.62,0.01,"986,915.47",,,ishares_ieur_holdings_2026-10-29
+BREE,BREEDON GROUP PLC,Materials,United Kingdom,London Stock Exchange,GBP,4.44,0.01,"985,443.45",,,ishares_ieur_holdings_2026-10-29
+COLR,COLRUYT GROUP NV,Consumer Staples,Belgium,Nyse Euronext - Euronext Brussels,EUR,38.69,0.01,"976,675.85",,,ishares_ieur_holdings_2026-10-29
+CIE,CIE AUTOMOTIVE SA,Consumer Discretionary,Spain,Bolsa De Madrid,EUR,28.19,0.01,"977,284.93",,,ishares_ieur_holdings_2026-10-29
+ROVI,LABORATORIOS FARMACEUTICOS ROVI,Health Care,Spain,Bolsa De Madrid,EUR,68.71,0.01,"972,496.78",,,ishares_ieur_holdings_2026-10-29
+ENAV,ENAV SPA,Industrials,Italy,Borsa Italiana,EUR,5.72,0.01,"971,204.58",,,ishares_ieur_holdings_2026-10-29
+ELM,ELEMENTIS PLC,Materials,United Kingdom,London Stock Exchange,GBP,2.54,0.01,"968,965.22",,,ishares_ieur_holdings_2026-10-29
+ATT,ATTENDO,Health Care,Sweden,Nasdaq Omx Nordic,SEK,11.85,0.01,"962,332.69",,,ishares_ieur_holdings_2026-10-29
+FAN,VOLUTION GROUP PLCINARY,Industrials,United Kingdom,London Stock Exchange,GBP,8.72,0.01,"960,673.34",,,ishares_ieur_holdings_2026-10-29
+ERG,ERG,Utilities,Italy,Borsa Italiana,EUR,24.36,0.01,"957,061.41",,,ishares_ieur_holdings_2026-10-29
+ASHM,ASHMORE GROUP PLC,Financials,United Kingdom,London Stock Exchange,GBP,3.01,0.01,"952,981.03",sector_financials,,ishares_ieur_holdings_2026-10-29
+MAB,MITCHELLS AND BUTLERS PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,4.25,0.01,"952,592.47",,,ishares_ieur_holdings_2026-10-29
+HMS,HMS NETWORKS,Information Technology,Sweden,Nasdaq Omx Nordic,SEK,49.98,0.01,"951,337.89",,,ishares_ieur_holdings_2026-10-29
+ELK,ELKEM,Materials,Norway,Oslo Bors Asa,NOK,3.46,0.01,"949,183.29",,,ishares_ieur_holdings_2026-10-29
+SUPR,SUPERMARKET INCOME REIT PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,1.12,0.01,"947,286.91",,,ishares_ieur_holdings_2026-10-29
+JDW,WETHERSPOON(J.D.) PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,14.04,0.01,"945,206.88",,,ishares_ieur_holdings_2026-10-29
+MPCC,MPC CONTAINER SHIPS,Industrials,Norway,Oslo Bors Asa,NOK,3.02,0.01,"940,965.21",,,ishares_ieur_holdings_2026-10-29
+MELE,MELEXIS NV,Information Technology,Belgium,Nyse Euronext - Euronext Brussels,EUR,64.19,0.01,"936,363.60",,,ishares_ieur_holdings_2026-10-29
+ENOG,ENERGEAN PLC,Energy,United Kingdom,London Stock Exchange,GBP,10.04,0.01,"935,330.49",,,ishares_ieur_holdings_2026-10-29
+ALTRA,ALTRA FASTIGHETER,Real Estate,Sweden,Nasdaq Omx Nordic,SEK,7.88,0.01,"932,556.35",,,ishares_ieur_holdings_2026-10-29
+GAMA,GAMMA COMMUNICATIONS,Communication,United Kingdom,London Stock Exchange,GBP,14.59,0.01,"931,340.06",,,ishares_ieur_holdings_2026-10-29
+NONG,SPAREBANK NORD-NORGE,Financials,Norway,Oslo Bors Asa,NOK,19.46,0.01,"929,408.92",sector_financials,,ishares_ieur_holdings_2026-10-29
+HAS,HAYS,Industrials,United Kingdom,London Stock Exchange,GBP,0.79,0.01,"924,313.75",,,ishares_ieur_holdings_2026-10-29
+IPO,IP GROUP FUND PLC,Financials,United Kingdom,London Stock Exchange,GBP,0.99,0.01,"923,223.18",sector_financials,,ishares_ieur_holdings_2026-10-29
+SK,SEB SA,Consumer Discretionary,France,Nyse Euronext - Euronext Paris,EUR,59.16,0.01,"918,105.40",,,ishares_ieur_holdings_2026-10-29
+HUSQ B,HUSQVARNA,Industrials,Sweden,Nasdaq Omx Nordic,SEK,3.25,0.01,"915,513.81",,,ishares_ieur_holdings_2026-10-29
+AFX,CARL ZEISS MEDITEC AG,Health Care,Germany,Xetra,EUR,38.80,0.01,"914,809.81",,,ishares_ieur_holdings_2026-10-29
+CGEO,GEORGIA CAPITAL PLC,Financials,United Kingdom,London Stock Exchange,GBP,60.85,0.01,"910,855.04",sector_financials,,ishares_ieur_holdings_2026-10-29
+TMV,TEAMVIEWER,Information Technology,Germany,Xetra,EUR,8.23,0.01,"903,009.90",,,ishares_ieur_holdings_2026-10-29
+SIX2,SIXT,Industrials,Germany,Xetra,EUR,82.77,0.01,"901,818.86",,,ishares_ieur_holdings_2026-10-29
+AT1,AROUNDTOWN SA,Real Estate,Germany,Xetra,EUR,1.64,0.01,"900,891.32",,,ishares_ieur_holdings_2026-10-29
+STOR B,STORSKOGEN GROUP CLASS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,1.13,0.01,"899,708.74",,,ishares_ieur_holdings_2026-10-29
+PTEC,PLAYTECH PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,4.75,0.01,"894,955.09",,,ishares_ieur_holdings_2026-10-29
+VCT,VICAT SA,Materials,France,Nyse Euronext - Euronext Paris,EUR,67.54,0.01,"888,100.37",,,ishares_ieur_holdings_2026-10-29
+KIE,KIER GROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,4.19,0.01,"887,343.15",,,ishares_ieur_holdings_2026-10-29
+RAT,RATHBONES GROUP PLC,Financials,United Kingdom,London Stock Exchange,GBP,23.24,0.01,"886,493.47",sector_financials,,ishares_ieur_holdings_2026-10-29
+ACE,ACEA,Utilities,Italy,Borsa Italiana,EUR,23.26,0.01,"885,578.96",,,ishares_ieur_holdings_2026-10-29
+CVSG,CVS GROUP PLC,Health Care,United Kingdom,London Stock Exchange,GBP,17.59,0.01,"883,246.92",,,ishares_ieur_holdings_2026-10-29
+NOBA,NOBA BANK GROUP,Financials,Sweden,Nasdaq Omx Nordic,SEK,9.37,0.01,"880,412.25",sector_financials,,ishares_ieur_holdings_2026-10-29
+LSG,LEROY SEAFOOD GROUP,Consumer Staples,Norway,Oslo Bors Asa,NOK,4.64,0.01,"880,211.71",,,ishares_ieur_holdings_2026-10-29
+MEL,MELIA HOTELS INTERNATIONAL SA,Consumer Discretionary,Spain,Bolsa De Madrid,EUR,11.65,0.01,"877,337.72",,,ishares_ieur_holdings_2026-10-29
+VIT B,VITEC SOFTWARE GROUP CLASS B,Information Technology,Sweden,Nasdaq Omx Nordic,SEK,30.70,0.01,"875,769.21",,,ishares_ieur_holdings_2026-10-29
+OERL,OC OERLIKON CORPORATION,Industrials,Switzerland,SIX Swiss Exchange,CHF,6.68,0.01,"866,430.04",,,ishares_ieur_holdings_2026-10-29
+SRC,SIGMAROC PLC,Materials,United Kingdom,London Stock Exchange,GBP,1.66,0.01,"865,185.77",,,ishares_ieur_holdings_2026-10-29
+NOS,NOS SGPS SA,Communication,Portugal,Nyse Euronext - Euronext Lisbon,EUR,5.68,0.01,"860,085.03",,,ishares_ieur_holdings_2026-10-29
+VITR,VITROLIFE,Health Care,Sweden,Nasdaq Omx Nordic,SEK,11.61,0.01,"854,551.14",,,ishares_ieur_holdings_2026-10-29
+FII,LISI SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,72.00,0.01,"853,216.00",,,ishares_ieur_holdings_2026-10-29
+ELG,ELMOS SEMICONDUCTOR,Information Technology,Germany,Xetra,EUR,145.12,0.01,"850,832.70",,,ishares_ieur_holdings_2026-10-29
+RDC,REDCARE PHARMACY NV,Consumer Staples,Germany,Xetra,EUR,82.94,0.01,"851,141.47",,,ishares_ieur_holdings_2026-10-29
+TRI,TRIGANO SA,Consumer Discretionary,France,Nyse Euronext - Euronext Paris,EUR,142.55,0.01,"849,607.00",,,ishares_ieur_holdings_2026-10-29
+BUFAB,BUFAB,Industrials,Sweden,Nasdaq Omx Nordic,SEK,13.80,0.01,"847,951.70",,,ishares_ieur_holdings_2026-10-29
+JUN3,JUNGHEINRICH PREF AG,Industrials,Germany,Xetra,EUR,24.56,0.01,"841,377.64",,,ishares_ieur_holdings_2026-10-29
+VSVS,VESUVIUS,Industrials,United Kingdom,London Stock Exchange,GBP,6.34,0.01,"840,638.98",,,ishares_ieur_holdings_2026-10-29
+N91,NINETY ONE PLC,Financials,United Kingdom,London Stock Exchange,GBP,2.72,0.01,"837,183.97",sector_financials,,ishares_ieur_holdings_2026-10-29
+SMHN,SUSS MICROTEC N,Information Technology,Germany,Xetra,EUR,61.40,0.01,"830,449.06",,,ishares_ieur_holdings_2026-10-29
+ITP,INTERPARFUMS SA,Consumer Staples,France,Nyse Euronext - Euronext Paris,EUR,37.62,0.01,"827,925.77",,,ishares_ieur_holdings_2026-10-29
+WAF,SILTRONIC N AG,Information Technology,Germany,Xetra,EUR,70.33,0.01,"820,503.94",,,ishares_ieur_holdings_2026-10-29
+MOVE,MEDACTA GROUP SA,Health Care,Switzerland,SIX Swiss Exchange,CHF,146.34,0.01,"812,617.77",,,ishares_ieur_holdings_2026-10-29
+DNORD,DAMPSKIBSSELSKABET NORDEN,Industrials,Denmark,Omx Nordic Exchange Copenhagen A/S,DKK,58.01,0.01,"806,032.76",,,ishares_ieur_holdings_2026-10-29
+TRN,TRAINLINE PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,2.80,0.01,"804,132.38",,,ishares_ieur_holdings_2026-10-29
+ACT0,ALZCHEM GROUP N AG,Materials,Germany,Deutsche Boerse Xetra,EUR,180.39,0.01,"804,557.60",,,ishares_ieur_holdings_2026-10-29
+AVIO,AVIO,Industrials,Italy,Borsa Italiana,EUR,36.74,0.01,"803,778.30",,,ishares_ieur_holdings_2026-10-29
+EPRO B,ELECTROLUX PROFESSIONAL CLASS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,5.19,0.01,"797,692.96",,,ishares_ieur_holdings_2026-10-29
+AOF,ATOSS SOFTWARE,Information Technology,Germany,Xetra,EUR,102.59,0.01,"796,390.41",,,ishares_ieur_holdings_2026-10-29
+SENS,SENSIRION HOLDING AG,Information Technology,Switzerland,SIX Swiss Exchange,CHF,106.07,0.01,"794,110.06",,,ishares_ieur_holdings_2026-10-29
+LKFT,LAKEFRONT BIOTHER NV,Health Care,Belgium,Euronext Amsterdam,EUR,32.26,0.01,"792,557.71",,,ishares_ieur_holdings_2026-10-29
+SHA0,SCHAEFFLER N AG,Consumer Discretionary,Germany,Xetra,EUR,6.73,0.01,"791,108.20",,,ishares_ieur_holdings_2026-10-29
+GXI,GERRESHEIMER AG,Health Care,Germany,Xetra,EUR,35.61,0.01,"789,935.96",,,ishares_ieur_holdings_2026-10-29
+BOOZT,BOOZT,Consumer Discretionary,Sweden,Nasdaq Omx Nordic,SEK,15.90,0.01,"786,508.95",,,ishares_ieur_holdings_2026-10-29
+LXS,LANXESS AG,Materials,Germany,Xetra,EUR,12.99,0.01,"785,601.04",,,ishares_ieur_holdings_2026-10-29
+RCO,REMY COINTREAU SA,Consumer Staples,France,Nyse Euronext - Euronext Paris,EUR,55.03,0.01,"784,063.56",,,ishares_ieur_holdings_2026-10-29
+EMEIS,EMEIS SA,Health Care,France,Nyse Euronext - Euronext Paris,EUR,11.64,0.01,"778,451.58",,,ishares_ieur_holdings_2026-10-29
+CLA B,CLOETTA,Consumer Staples,Sweden,Nasdaq Omx Nordic,SEK,5.72,0.01,"778,479.90",,,ishares_ieur_holdings_2026-10-29
+RRTL,RTL GROUP SA,Communication,Germany,Xetra,EUR,34.55,0.01,"778,883.59",,,ishares_ieur_holdings_2026-10-29
+KNOS,KAINOS GROUP PLC,Information Technology,United Kingdom,London Stock Exchange,GBP,17.21,0.01,"777,297.34",,,ishares_ieur_holdings_2026-10-29
+TIP,TAMBURI INVESTMENT PARTNERS,Financials,Italy,Borsa Italiana,EUR,10.01,0.01,"775,523.19",sector_financials,,ishares_ieur_holdings_2026-10-29
+LUMO,LUMO HOMES,Real Estate,Finland,Nasdaq Omx Helsinki Ltd.,EUR,7.81,0.01,"774,939.93",,,ishares_ieur_holdings_2026-10-29
+VU,VUSIONGROUP SA,Information Technology,France,Nyse Euronext - Euronext Paris,EUR,149.81,0.01,"772,706.88",,,ishares_ieur_holdings_2026-10-29
+FIE,FIELMANN GROUP AG,Consumer Discretionary,Germany,Xetra,EUR,43.81,0.01,"770,964.78",,,ishares_ieur_holdings_2026-10-29
+BILI A,BILIA CLASS A,Consumer Discretionary,Sweden,Nasdaq Omx Nordic,SEK,14.06,0.01,"766,088.18",,,ishares_ieur_holdings_2026-10-29
+PHARM,PHARMING GROUP,Health Care,Netherlands,Euronext Amsterdam,EUR,1.21,0.01,"766,286.70",,,ishares_ieur_holdings_2026-10-29
+MERY,MERCIALYS REIT SA,Real Estate,France,Nyse Euronext - Euronext Paris,EUR,10.49,0.01,"758,250.57",,,ishares_ieur_holdings_2026-10-29
+KTN,KONTRON AG,Information Technology,Germany,Xetra,EUR,22.79,0.01,"754,623.38",,,ishares_ieur_holdings_2026-10-29
+DAE,DAETWYLER HOLDING INC,Industrials,Switzerland,SIX Swiss Exchange,CHF,159.88,0.01,"754,811.88",,,ishares_ieur_holdings_2026-10-29
+ARJO B,ARJO CLASS B,Health Care,Sweden,Nasdaq Omx Nordic,SEK,3.43,0.01,"742,933.20",,,ishares_ieur_holdings_2026-10-29
+NVG,THE NAVIGATOR COMPANY SA,Materials,Portugal,Nyse Euronext - Euronext Lisbon,EUR,3.44,0.01,"739,520.69",,,ishares_ieur_holdings_2026-10-29
+DUE,DUERR AG,Industrials,Germany,Xetra,EUR,18.64,0.01,"731,688.10",,,ishares_ieur_holdings_2026-10-29
+ONT,OXFORD NANOPORE TECHNOLOGIES PLC,Health Care,United Kingdom,London Stock Exchange,GBP,3.12,0.01,"726,637.35",,,ishares_ieur_holdings_2026-10-29
+SHOT,SCANDIC HOTELS GROUP,Consumer Discretionary,Sweden,Nasdaq Omx Nordic,SEK,10.48,0.01,"719,523.29",,,ishares_ieur_holdings_2026-10-29
+ALIG,ALIMAK GROUP,Industrials,Sweden,Nasdaq Omx Nordic,SEK,12.11,0.01,"710,736.35",,,ishares_ieur_holdings_2026-10-29
+MIPS,MIPS,Consumer Discretionary,Sweden,Nasdaq Omx Nordic,SEK,41.70,0.01,"710,927.94",,,ishares_ieur_holdings_2026-10-29
+VCT,VICTREX PLC,Materials,United Kingdom,London Stock Exchange,GBP,12.17,0.01,"708,640.23",,,ishares_ieur_holdings_2026-10-29
+LIAB,LINDAB INTERNATIONAL,Industrials,Sweden,Nasdaq Omx Nordic,SEK,13.26,0.01,"705,301.93",,,ishares_ieur_holdings_2026-10-29
+FORN,FORBO HOLDING AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,"1,071.54",0.01,"702,927.98",,,ishares_ieur_holdings_2026-10-29
+ALLEI,ALLEIMA,Materials,Sweden,Nasdaq Omx Nordic,SEK,9.18,0.01,"700,327.63",,,ishares_ieur_holdings_2026-10-29
+ATYM,ATALAYA MINING COPPER SA,Materials,United Kingdom,London Stock Exchange,GBP,11.57,0.01,"696,904.98",,,ishares_ieur_holdings_2026-10-29
+IVSO,INVISIO,Industrials,Sweden,Nasdaq Omx Nordic,SEK,25.99,0.01,"684,005.84",,,ishares_ieur_holdings_2026-10-29
+GIMB,GIMV NV,Financials,Belgium,Nyse Euronext - Euronext Brussels,EUR,55.03,0.01,"684,342.69",sector_financials,,ishares_ieur_holdings_2026-10-29
+AUSS,AUSTEVOLL SEAFOOD,Consumer Staples,Norway,Oslo Bors Asa,NOK,8.78,0.01,"680,094.44",,,ishares_ieur_holdings_2026-10-29
+VGP,VGP NV,Real Estate,Belgium,Nyse Euronext - Euronext Brussels,EUR,68.76,0.01,"680,283.04",,,ishares_ieur_holdings_2026-10-29
+WBD,WEBUILD,Industrials,Italy,Borsa Italiana,EUR,2.34,0.01,"677,291.60",,,ishares_ieur_holdings_2026-10-29
+VIV,VIVENDI,Communication,France,Nyse Euronext - Euronext Paris,EUR,1.70,0.01,"675,323.64",,,ishares_ieur_holdings_2026-10-29
+VTY,VISTRY GROUP PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,3.43,0.01,"675,241.24",,,ishares_ieur_holdings_2026-10-29
+JM,JM,Consumer Discretionary,Sweden,Nasdaq Omx Nordic,SEK,12.60,0.01,"670,918.80",,,ishares_ieur_holdings_2026-10-29
+ASKER,ASKER HEALTHCARE GROUP,Health Care,Sweden,Nasdaq Omx Nordic,SEK,7.23,0.01,"671,347.31",,,ishares_ieur_holdings_2026-10-29
+BRKN,BURKHALTER HOLDING AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,158.92,0.01,"661,568.85",,,ishares_ieur_holdings_2026-10-29
+NANO,NANOBIOTIX SA,Health Care,France,Nyse Euronext - Euronext Paris,EUR,33.85,0.01,"660,915.06",,,ishares_ieur_holdings_2026-10-29
+BITTI,BITTIUM,Information Technology,Finland,Nasdaq Omx Helsinki Ltd.,EUR,44.32,0.01,"657,798.86",,,ishares_ieur_holdings_2026-10-29
+RNWH,RENEW HOLDINGS PLC,Industrials,United Kingdom,London Stock Exchange,GBP,14.23,0.01,"648,320.11",,,ishares_ieur_holdings_2026-10-29
+EMBRAC B,EMBRACER GROUP CLASS B,Communication,Sweden,Nasdaq Omx Nordic,SEK,9.60,0.01,"642,109.37",,,ishares_ieur_holdings_2026-10-29
+GEN,GENUIT GROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,3.48,0.01,"641,488.55",,,ishares_ieur_holdings_2026-10-29
+DNO,DNO,Energy,Norway,Oslo Bors Asa,NOK,2.60,0.01,"639,818.17",,,ishares_ieur_holdings_2026-10-29
+SNI,STOLT-NIELSEN LTD,Industrials,Norway,Oslo Bors Asa,NOK,36.96,0.01,"635,528.15",,,ishares_ieur_holdings_2026-10-29
+PROX,PROXIMUS NV,Communication,Belgium,Nyse Euronext - Euronext Brussels,EUR,6.20,0.01,"635,557.66",,,ishares_ieur_holdings_2026-10-29
+CAI,CA IMMOBILIEN ANLAGEN AG,Real Estate,Austria,Wiener Boerse Ag,EUR,23.22,0.01,"631,279.26",,,ishares_ieur_holdings_2026-10-29
+INRN,INTERROLL HOLDING AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,"1,758.48",0.01,"631,294.67",,,ishares_ieur_holdings_2026-10-29
+CARM,CARMILA SA,Real Estate,France,Nyse Euronext - Euronext Paris,EUR,16.32,0.01,"628,380.74",,,ishares_ieur_holdings_2026-10-29
+EUZ,ECKERT & ZIEGLER,Health Care,Germany,Xetra,EUR,14.76,0.01,"617,748.36",,,ishares_ieur_holdings_2026-10-29
+JST,JOST WERKE,Industrials,Germany,Xetra,EUR,64.63,0.01,"615,959.83",,,ishares_ieur_holdings_2026-10-29
+KALMAR,KALMAR CORPORATION CLASS B,Industrials,Finland,Nasdaq Omx Helsinki Ltd.,EUR,40.86,0.01,"613,502.41",,,ishares_ieur_holdings_2026-10-29
+GRE,GRENERGY RENOVABLES,Utilities,Spain,Bolsa De Madrid,EUR,74.12,0.01,"605,653.48",,,ishares_ieur_holdings_2026-10-29
+MRN,MERSEN SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,49.07,0.01,"602,659.96",,,ishares_ieur_holdings_2026-10-29
+CAF,CONSTRUCCIONES Y AUXILIAR DE FERRO,Industrials,Spain,Bolsa De Madrid,EUR,87.41,0.01,"597,072.37",,,ishares_ieur_holdings_2026-10-29
+COK,CANCOM,Information Technology,Germany,Xetra,EUR,24.00,0.01,"595,331.16",,,ishares_ieur_holdings_2026-10-29
+IDL,ID LOGISTICS,Industrials,France,Nyse Euronext - Euronext Paris,EUR,404.66,0.01,"596,062.34",,,ishares_ieur_holdings_2026-10-29
+PAGE,MICHAEL PAGE PLC,Industrials,United Kingdom,London Stock Exchange,GBP,2.86,0.01,"586,269.79",,,ishares_ieur_holdings_2026-10-29
+GROW,MOLTEN VENTURES PLC,Financials,United Kingdom,London Stock Exchange,GBP,9.16,0.01,"586,486.62",sector_financials,,ishares_ieur_holdings_2026-10-29
+SES,SESA,Information Technology,Italy,Borsa Italiana,EUR,103.98,0.01,"584,178.43",,,ishares_ieur_holdings_2026-10-29
+MEDCL,MEDINCELL SA,Health Care,France,Nyse Euronext - Euronext Paris,EUR,29.31,0.01,"582,997.59",,,ishares_ieur_holdings_2026-10-29
+AMS,ADVANCED MEDICAL SOLUTIONS GROUP P,Health Care,United Kingdom,London Stock Exchange,GBP,3.78,0.01,"582,324.15",,,ishares_ieur_holdings_2026-10-29
+IDIA,IDORSIA N LTD,Health Care,Switzerland,SIX Swiss Exchange,CHF,5.54,0.01,"581,698.16",,,ishares_ieur_holdings_2026-10-29
+SDIP B,SDIPTECH CLASS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,26.08,0.01,"573,570.96",,,ishares_ieur_holdings_2026-10-29
+RKH,ROCKHOPPER EXPLORATION PLC,Energy,United Kingdom,London Stock Exchange,GBP,0.88,0.01,"572,648.98",,,ishares_ieur_holdings_2026-10-29
+NK,IMERYS SA,Materials,France,Nyse Euronext - Euronext Paris,EUR,24.85,0.01,"560,639.48",,,ishares_ieur_holdings_2026-10-29
+SIX3,SIXT PREF,Industrials,Germany,Xetra,EUR,65.86,0.01,"556,531.36",,,ishares_ieur_holdings_2026-10-29
+DSCV,DISCOVERIE GROUP,Industrials,United Kingdom,London Stock Exchange,GBP,11.31,0.01,"554,905.51",,,ishares_ieur_holdings_2026-10-29
+SMWH,WH SMITH PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,5.79,0.01,"552,665.41",,,ishares_ieur_holdings_2026-10-29
+TEP,TELECOM PLUS PLC,Utilities,United Kingdom,London Stock Exchange,GBP,12.01,0.01,"548,757.66",,,ishares_ieur_holdings_2026-10-29
+MTG B,MODERN TIMES GROUP MTG CLASS B,Communication,Sweden,Nasdaq Omx Nordic,SEK,12.40,0.01,"546,665.45",,,ishares_ieur_holdings_2026-10-29
+NAS,NORWEGIAN AIR SHUTTLE,Industrials,Norway,Oslo Bors Asa,NOK,1.24,0.01,"543,866.68",,,ishares_ieur_holdings_2026-10-29
+NORBT,NORBIT,Information Technology,Norway,Oslo Bors Asa,NOK,18.05,0.01,"542,773.17",,,ishares_ieur_holdings_2026-10-29
+PLEJD,PLEJD,Industrials,Sweden,AKT,SEK,86.75,0.01,"533,607.79",,,ishares_ieur_holdings_2026-10-29
+SZU,SUEDZUCKER AG,Consumer Staples,Germany,Xetra,EUR,12.32,0.01,"532,394.73",,,ishares_ieur_holdings_2026-10-29
+XVIVO,XVIVO PERFUSION,Health Care,Sweden,Nasdaq Omx Nordic,SEK,20.72,0.01,"526,280.01",,,ishares_ieur_holdings_2026-10-29
+ETL,EUTELSAT COMMUNICATIONS SA,Communication,France,Nyse Euronext - Euronext Paris,EUR,2.24,0.01,"524,239.93",,,ishares_ieur_holdings_2026-10-29
+S92,SMA SOLAR TECHNOLOGY AG,Industrials,Germany,Xetra,EUR,56.04,0.01,"522,949.04",,,ishares_ieur_holdings_2026-10-29
+FNAC,FNAC DARTY SA,Consumer Discretionary,France,Nyse Euronext - Euronext Paris,EUR,38.96,0.01,"520,490.50",,,ishares_ieur_holdings_2026-10-29
+CADLR,CADELER,Industrials,Norway,Oslo Bors Asa,NOK,6.37,0.01,"518,224.40",,,ishares_ieur_holdings_2026-10-29
+HOME,NEINOR HOMES SA,Consumer Discretionary,Spain,Bolsa De Madrid,EUR,18.97,0.01,"517,808.01",,,ishares_ieur_holdings_2026-10-29
+RAY B,RAYSEARCH LABORATORIES CLASS B,Health Care,Sweden,Nasdaq Omx Nordic,SEK,20.54,0.01,"514,555.91",,,ishares_ieur_holdings_2026-10-29
+DOM,DOMETIC GROUPINARY SHARES,Consumer Discretionary,Sweden,Nasdaq Omx Nordic,SEK,2.27,0.01,"507,883.34",,,ishares_ieur_holdings_2026-10-29
+VBK,VERBIO,Energy,Germany,Xetra,EUR,32.04,0.01,"507,030.38",,,ishares_ieur_holdings_2026-10-29
+DRW3,DRAEGERWERK PREF AG,Health Care,Germany,Xetra,EUR,117.66,0.01,"504,517.59",,,ishares_ieur_holdings_2026-10-29
+GVR,GLENVEAGH PROPERTIES PLC,Consumer Discretionary,Ireland,Irish Stock Exchange - All Market,EUR,2.75,0.01,"503,181.27",,,ishares_ieur_holdings_2026-10-29
+UBI,UBISOFT ENTERTAINMENT SA CAT A,Communication,France,Nyse Euronext - Euronext Paris,EUR,4.72,0.01,"502,123.35",,,ishares_ieur_holdings_2026-10-29
+AMG,AMG CRITICAL MATERIALS NV,Materials,Netherlands,Euronext Amsterdam,EUR,27.30,0.01,"501,341.56",,,ishares_ieur_holdings_2026-10-29
+HEM,HEMNET GROUP,Communication,Sweden,Nasdaq Omx Nordic,SEK,7.29,0.01,"497,658.89",,,ishares_ieur_holdings_2026-10-29
+SER,SERICA ENERGY PLC,Energy,United Kingdom,London Stock Exchange,GBP,3.61,0.01,"498,011.35",,,ishares_ieur_holdings_2026-10-29
+KURN,KUROS BIOSCIENCES AG,Health Care,Switzerland,SIX Swiss Exchange,CHF,25.20,0.01,"493,117.98",,,ishares_ieur_holdings_2026-10-29
+HARVIA,HARVIA,Consumer Discretionary,Finland,Nasdaq Omx Helsinki Ltd.,EUR,42.59,0.01,"491,622.54",,,ishares_ieur_holdings_2026-10-29
+SPOL,SPAREBANK OSTLANDET,Financials,Norway,Oslo Bors Asa,NOK,21.78,0.00,"474,801.52",sector_financials,,ishares_ieur_holdings_2026-10-29
+TROAX,TROAX GROUP,Industrials,Sweden,Nasdaq Omx Nordic,SEK,15.24,0.00,"473,425.46",,,ishares_ieur_holdings_2026-10-29
+VLX,VOLEX PLC,Industrials,United Kingdom,London Stock Exchange,GBP,7.89,0.00,"471,867.50",,,ishares_ieur_holdings_2026-10-29
+TKCC,TK ACCELIS GROUP AG & CO KGAA,Other,Germany,Xetra,EUR,30.14,0.00,"470,667.80",,,ishares_ieur_holdings_2026-10-29
+FUR,FUGRO CLASS C,Industrials,Netherlands,Euronext Amsterdam,EUR,9.01,0.00,"469,426.06",,,ishares_ieur_holdings_2026-10-29
+WAC,WACKER NEUSON N,Industrials,Germany,Xetra,EUR,24.73,0.00,"467,989.85",,,ishares_ieur_holdings_2026-10-29
+METSB,METSA BOARD CLASS B,Materials,Finland,Nasdaq Omx Helsinki Ltd.,EUR,3.43,0.00,"467,492.94",,,ishares_ieur_holdings_2026-10-29
+JFN,JUNGFRAUBAHN HOLDING AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,313.24,0.00,"462,024.55",,,ishares_ieur_holdings_2026-10-29
+JSG,JOHNSON SERVICE GROUP PLC,Industrials,United Kingdom,London Stock Exchange,GBP,1.91,0.00,"456,296.97",,,ishares_ieur_holdings_2026-10-29
+BSLN,BASILEA PHARMACEUTICA,Health Care,Switzerland,SIX Swiss Exchange,CHF,86.47,0.00,"452,079.58",,,ishares_ieur_holdings_2026-10-29
+AFRY,AFRY CLASS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,12.99,0.00,"448,686.71",,,ishares_ieur_holdings_2026-10-29
+BAG,A G BARR,Consumer Staples,United Kingdom,London Stock Exchange,GBP,7.72,0.00,"447,295.19",,,ishares_ieur_holdings_2026-10-29
+HTG,HUNTING PLC,Energy,United Kingdom,London Stock Exchange,GBP,5.16,0.00,"442,532.27",,,ishares_ieur_holdings_2026-10-29
+SIVE,SIVERS SEMICONDUCTORS,Information Technology,Sweden,Nasdaq Omx Nordic,SEK,2.35,0.00,"426,848.81",,,ishares_ieur_holdings_2026-10-29
+DIOS,DIOS FASTIGHETER,Real Estate,Sweden,Nasdaq Omx Nordic,SEK,5.80,0.00,"423,241.99",,,ishares_ieur_holdings_2026-10-29
+CPI,CPI EUROPE AGE AG,Real Estate,Austria,Wiener Boerse Ag,EUR,16.99,0.00,"421,863.84",,,ishares_ieur_holdings_2026-10-29
+WKP,WORKSPACE GROUP REIT PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,4.59,0.00,"421,619.67",,,ishares_ieur_holdings_2026-10-29
+HFG,HILTON FOOD GROUP PLC,Consumer Staples,United Kingdom,London Stock Exchange,GBP,9.57,0.00,"417,627.62",,,ishares_ieur_holdings_2026-10-29
+CIBUS,CIBUS REAL ESTATE,Real Estate,Sweden,Nasdaq Omx Nordic,SEK,13.09,0.00,"412,703.14",,,ishares_ieur_holdings_2026-10-29
+AERO,MONTANA N AG,Industrials,Switzerland,SIX Swiss Exchange,CHF,28.66,0.00,"409,450.93",,,ishares_ieur_holdings_2026-10-29
+SKAN,SKAN N AG,Health Care,Switzerland,SIX Swiss Exchange,CHF,92.28,0.00,"409,252.59",,,ishares_ieur_holdings_2026-10-29
+MOON,MOONPIG GROUP PLC,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,3.81,0.00,"405,779.04",,,ishares_ieur_holdings_2026-10-29
+VOS,VOSSLOH AG,Industrials,Germany,Xetra,EUR,56.54,0.00,"405,226.44",,,ishares_ieur_holdings_2026-10-29
+DBG,DERICHEBOURG SA,Industrials,France,Nyse Euronext - Euronext Paris,EUR,8.92,0.00,"403,158.43",,,ishares_ieur_holdings_2026-10-29
+CWR,CERES POWER HOLDINGS PLC,Industrials,United Kingdom,London Stock Exchange,GBP,3.72,0.00,"402,079.92",,,ishares_ieur_holdings_2026-10-29
+WHA,WERELDHAVE NV,Real Estate,Netherlands,Euronext Amsterdam,EUR,19.02,0.00,"400,179.62",,,ishares_ieur_holdings_2026-10-29
+MFEA,MFE-MEDIAFOREUROPE NV,Communication,Italy,Borsa Italiana,EUR,2.37,0.00,"391,642.91",,,ishares_ieur_holdings_2026-10-29
+EVT,EVOTEC,Health Care,Germany,Xetra,EUR,3.27,0.00,"391,702.83",,,ishares_ieur_holdings_2026-10-29
+CBG,CLOSE BROS GROUP PLC,Financials,United Kingdom,London Stock Exchange,GBP,5.30,0.00,"391,036.50",sector_financials,,ishares_ieur_holdings_2026-10-29
+UPR,UNIPHAR PLC,Health Care,Ireland,Irish Stock Exchange - All Market,EUR,4.51,0.00,"389,556.51",,,ishares_ieur_holdings_2026-10-29
+VOLCAR B,VOLVO CAR CLASS B,Consumer Discretionary,Sweden,Nasdaq Omx Nordic,SEK,1.18,0.00,"385,332.79",,,ishares_ieur_holdings_2026-10-29
+POLR,POLAR CAPITAL HOLDINGS PLC,Financials,United Kingdom,London Stock Exchange,GBP,10.36,0.00,"380,562.33",sector_financials,,ishares_ieur_holdings_2026-10-29
+CHRT,COHORT PLC,Industrials,United Kingdom,London Stock Exchange,GBP,19.12,0.00,"378,619.03",,,ishares_ieur_holdings_2026-10-29
+INWI,INWIDO,Industrials,Sweden,Nasdaq Omx Nordic,SEK,19.22,0.00,"377,906.40",,,ishares_ieur_holdings_2026-10-29
+OXB,OXFORD BIOMEDICA PLC,Health Care,United Kingdom,London Stock Exchange,GBP,7.11,0.00,"374,340.05",,,ishares_ieur_holdings_2026-10-29
+ICAD,ICADE REIT SA,Real Estate,France,Nyse Euronext - Euronext Paris,EUR,16.47,0.00,"374,588.42",,,ishares_ieur_holdings_2026-10-29
+VBG B,VBG GROUP CLASS B,Industrials,Sweden,Nasdaq Omx Nordic,SEK,29.63,0.00,"371,764.30",,,ishares_ieur_holdings_2026-10-29
+SFER,SALVATORE FERRAGAMO,Consumer Discretionary,Italy,Borsa Italiana,EUR,7.01,0.00,"369,579.38",,,ishares_ieur_holdings_2026-10-29
+TPE,PVA TEPLA AG,Information Technology,Germany,Xetra,EUR,35.94,0.00,"366,853.24",,,ishares_ieur_holdings_2026-10-29
+GBG,GB GROUP PLC,Information Technology,United Kingdom,London Stock Exchange,GBP,2.16,0.00,"365,499.30",,,ishares_ieur_holdings_2026-10-29
+ROKO B,ROKO CLASS B,Financials,Sweden,Nasdaq Omx Nordic,SEK,208.00,0.00,"360,672.70",sector_financials,,ishares_ieur_holdings_2026-10-29
+ALM,ALMIRALL,Health Care,Spain,Bolsa De Madrid,EUR,11.74,0.00,"357,013.41",,,ishares_ieur_holdings_2026-10-29
+FLOW,FLOW TRADERS,Financials,Netherlands,Euronext Amsterdam,EUR,26.61,0.00,"347,028.20",sector_financials,,ishares_ieur_holdings_2026-10-29
+INSTAL,INSTALCO,Industrials,Sweden,Nasdaq Omx Nordic,SEK,4.09,0.00,"340,059.12",,,ishares_ieur_holdings_2026-10-29
+TXGN,TX GROUP AG,Communication,Switzerland,SIX Swiss Exchange,CHF,220.11,0.00,"335,891.64",,,ishares_ieur_holdings_2026-10-29
+GYC,GRAND CITY PROPERTIES SA,Real Estate,Germany,Xetra,EUR,7.93,0.00,"325,462.18",,,ishares_ieur_holdings_2026-10-29
+1SXP,SCHOTT PHARMA AG,Health Care,Germany,Xetra,EUR,28.24,0.00,"319,845.07",,,ishares_ieur_holdings_2026-10-29
+ARG,ARGAN SA,Real Estate,France,Nyse Euronext - Euronext Paris,EUR,74.23,0.00,"317,053.20",,,ishares_ieur_holdings_2026-10-29
+DOCS,DR. MARTENS,Consumer Discretionary,United Kingdom,London Stock Exchange,GBP,0.88,0.00,"311,045.22",,,ishares_ieur_holdings_2026-10-29
+ITM,ITM POWER PLC,Industrials,United Kingdom,London Stock Exchange,GBP,1.09,0.00,"309,107.42",,,ishares_ieur_holdings_2026-10-29
+INTEA B,INTEA FASTIGHETER CLASS B,Real Estate,Sweden,Nasdaq Omx Nordic,SEK,6.41,0.00,"305,529.99",,,ishares_ieur_holdings_2026-10-29
+XPS,XPS PENSIONS GROUP PLC,Financials,United Kingdom,London Stock Exchange,GBP,4.61,0.00,"291,208.23",sector_financials,,ishares_ieur_holdings_2026-10-29
+POS,PORR AG,Industrials,Austria,Wiener Boerse Ag,EUR,35.72,0.00,"275,127.76",,,ishares_ieur_holdings_2026-10-29
+2GB,2G ENERGY AG,Industrials,Germany,Xetra,EUR,54.16,0.00,"272,547.59",,,ishares_ieur_holdings_2026-10-29
+AL2SI,2CRSI SA,Information Technology,France,Nyse Euronext - Euronext Paris,EUR,29.92,0.00,"271,405.57",,,ishares_ieur_holdings_2026-10-29
+FPE,FUCHS N,Materials,Germany,Xetra,EUR,42.70,0.00,"267,505.95",,,ishares_ieur_holdings_2026-10-29
+VH2,FRIEDRICH VORWERK GROUP,Energy,Germany,Xetra,EUR,80.82,0.00,"265,817.37",,,ishares_ieur_holdings_2026-10-29
+FEVR,FEVERTREE DRINKS PLC,Consumer Staples,United Kingdom,London Stock Exchange,GBP,12.18,0.00,"264,011.21",,,ishares_ieur_holdings_2026-10-29
+HACK,HACKSAW,Communication,Sweden,Nasdaq Omx Nordic,SEK,5.52,0.00,"262,290.36",,,ishares_ieur_holdings_2026-10-29
+CSN,CHESNARA PLC,Financials,United Kingdom,London Stock Exchange,GBP,4.62,0.00,"256,292.35",sector_financials,,ishares_ieur_holdings_2026-10-29
+LNZ,LENZING AG,Materials,Austria,Wiener Boerse Ag,EUR,12.37,0.00,"254,286.13",,,ishares_ieur_holdings_2026-10-29
+BETCO,BETTER COLLECTIVE,Consumer Discretionary,Sweden,Nasdaq Omx Nordic,SEK,6.43,0.00,"240,676.52",,,ishares_ieur_holdings_2026-10-29
+PHVS,PHARVARIS N V,Health Care,Netherlands,NASDAQ,USD,33.58,0.00,"238,585.90",,,ishares_ieur_holdings_2026-10-29
+QTCOM,QT GROUP,Information Technology,Finland,Nasdaq Omx Helsinki Ltd.,EUR,41.04,0.00,"231,848.81",,,ishares_ieur_holdings_2026-10-29
+CLARI,CLARIANE,Health Care,France,Nyse Euronext - Euronext Paris,EUR,3.75,0.00,"231,868.73",,,ishares_ieur_holdings_2026-10-29
+INTRUM,INTRUM JUSTITIA,Industrials,Sweden,Nasdaq Omx Nordic,SEK,0.20,0.00,"227,048.81",,,ishares_ieur_holdings_2026-10-29
+XFAB,X-FAB SILICON FOUNDRIES,Information Technology,France,Nyse Euronext - Euronext Paris,EUR,6.21,0.00,"226,057.81",,,ishares_ieur_holdings_2026-10-29
+ISN,INTERSHOP HOLDING N AG,Real Estate,Switzerland,SIX Swiss Exchange,CHF,186.01,0.00,"224,696.62",,,ishares_ieur_holdings_2026-10-29
+SBB B,SAMHALLSBYGGNADSBOLAGET I NORDEN C,Real Estate,Sweden,Nasdaq Omx Nordic,SEK,0.23,0.00,"219,967.48",,,ishares_ieur_holdings_2026-10-29
+JUP,JUPITER FUND MANAGEMENT PLC,Financials,United Kingdom,London Stock Exchange,GBP,2.36,0.00,"212,215.95",sector_financials,,ishares_ieur_holdings_2026-10-29
+ERA,ERAMET,Materials,France,Nyse Euronext - Euronext Paris,EUR,41.17,0.00,"210,621.34",,,ishares_ieur_holdings_2026-10-29
+CTT,CTT CORREIOS DE PORTUGAL,Industrials,Portugal,Nyse Euronext - Euronext Lisbon,EUR,6.06,0.00,"203,933.41",,,ishares_ieur_holdings_2026-10-29
+HYQ,HYPOPORT N,Financials,Germany,Xetra,EUR,90.92,0.00,"202,575.63",sector_financials,,ishares_ieur_holdings_2026-10-29
+CEM,CEMENTIR HOLDING NV,Materials,Italy,Borsa Italiana,EUR,15.38,0.00,"191,559.69",,,ishares_ieur_holdings_2026-10-29
+HAVAS,HAVAS NV,Communication,Netherlands,Euronext Amsterdam,EUR,19.31,0.00,"190,860.40",,,ishares_ieur_holdings_2026-10-29
+OPM,OPMOBILITY,Consumer Discretionary,France,Nyse Euronext - Euronext Paris,EUR,10.37,0.00,"157,360.86",,,ishares_ieur_holdings_2026-10-29
+THRL,TARGET HEALTHCARE REIT PLC,Real Estate,United Kingdom,London Stock Exchange,GBP,1.57,0.00,"144,799.33",,,ishares_ieur_holdings_2026-10-29
+PFS0,PFISTERER N,Industrials,Germany,Xetra,EUR,67.54,0.00,"135,409.98",,,ishares_ieur_holdings_2026-10-29
+PSM,PROSIEBEN SAT.1 MEDIA N,Communication,Germany,Xetra,EUR,3.52,0.00,"119,671.77",,,ishares_ieur_holdings_2026-10-29
+HBH,HORNBACH HOLDING AG,Consumer Discretionary,Germany,Xetra,EUR,100.35,0.00,"105,975.27",,,ishares_ieur_holdings_2026-10-29
+KOF,KAUFMAN & BROAD SA,Consumer Discretionary,France,Nyse Euronext - Euronext Paris,EUR,21.68,0.00,"98,095.42",,,ishares_ieur_holdings_2026-10-29
+VAHN,VAUDOISE ASSURANCES SA,Financials,Switzerland,SIX Swiss Exchange,CHF,896.17,0.00,"91,409.57",sector_financials,,ishares_ieur_holdings_2026-10-29
+ELIOR,ELIOR GROUP SA,Consumer Discretionary,France,Nyse Euronext - Euronext Paris,EUR,2.08,0.00,"88,243.18",,,ishares_ieur_holdings_2026-10-29
+VID.D,DERECHOS VIDRALA SA,Materials,Spain,Bolsa De Madrid,EUR,4.84,0.00,"75,878.35",,,ishares_ieur_holdings_2026-10-29
+NMC,NMC HEALTH PLC,Health Care,United Kingdom,London Stock Exchange,GBP,0.00,0.00,0.56,,,ishares_ieur_holdings_2026-10-29
+LNZB,"LENZING AG, BEZUGSRECHTE RIGHTS AG",Materials,Austria,Wiener Boerse Ag,EUR,0.89,0.00,13.40,,,ishares_ieur_holdings_2026-10-29
+UNIAXA,UNIPOL AXA,Financials,Italy,Borsa Italiana,EUR,0.90,0.00,25.27,sector_financials,,ishares_ieur_holdings_2026-10-29

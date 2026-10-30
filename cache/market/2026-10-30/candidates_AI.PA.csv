@@ -1,0 +1,31 @@
+ticker,slug,name,tier,hypothesis,world_expansion_flag
+SOL,bit/SOL,SOL SpA,1,Industrial and medical gases Europe,no
+LIN,LIN,Linde plc,1,Global industrial gases leader (US-listed after DAX exit),yes
+APD,APD,Air Products & Chemicals,1,Global industrial gases (US-listed),yes
+4091,tyo/4091,Nippon Sanso Holdings,1,Industrial gases Japan (developed market),yes
+BAS,etr/BAS,BASF,2,Commodity chemicals similar capital intensity,no
+GIVN,swx/GIVN,Givaudan,2,Specialty chemicals high margin,no
+SIKA,swx/SIKA,Sika,2,Specialty construction chemicals,no
+NSIS.B,cph/NSIS.B,Novonesis (Novozymes),2,Industrial biotech/enzymes,no
+DSFIR,ams/DSFIR,DSM-Firmenich,2,Specialty nutrition/health chemicals,no
+SY1,etr/SY1,Symrise,2,Specialty chemicals flavours,no
+AKZA,ams/AKZA,Akzo Nobel,2,Coatings/specialty chemicals,no
+EMSN,swx/EMSN,EMS-Chemie,2,Specialty polymers,no
+YAR,osl/YAR,Yara International,2,Commodity chemicals gas-intensive,no
+EVK,etr/EVK,Evonik Industries,2,Specialty chemicals,no
+CRDA,lon/CRDA,Croda International,2,Specialty chemicals,no
+SYENS,ebr/SYENS,Syensqo,2,Specialty chemicals (Solvay spinoff),no
+UMI,ebr/UMI,Umicore,2,Materials technology,no
+JMAT,lon/JMAT,Johnson Matthey,2,Specialty chemicals catalysts,no
+AKE,epa/AKE,Arkema,2,Specialty chemicals France,no
+CLN,swx/CLN,Clariant,2,Specialty chemicals,no
+KEMIRA,hel/KEMIRA,Kemira,2,Water/specialty chemicals,no
+SOLB,ebr/SOLB,Solvay,2,Commodity chemicals,no
+WCH,etr/WCH,Wacker Chemie,2,Specialty chemicals silicones,no
+LXS,etr/LXS,Lanxess,2,Specialty chemicals,no
+NK,epa/NK,Imerys,2,Mineral-based specialty solutions France,no
+VCT,lon/VCT,Victrex,2,Specialty polymers,no
+ELM,lon/ELM,Elementis,2,Specialty chemicals small,no
+CRBN,ams/CRBN,Corbion,2,Bio-based ingredients,no
+ACT0,etr/ACT0,AlzChem,2,Specialty chemicals niche gases-related,no
+ALFA,sto/ALFA,Alfa Laval,2,Industrials machinery (also a batch target),no

@@ -1,0 +1,41 @@
+{
+  "valuation_date": "2026-10-30",
+  "built_at": "2026-10-30",
+  "risk_free": {
+    "EUR": {
+      "yield": 0.0338,
+      "instrument": "German Bund 10y (Bundesbank BBSIS: Aus der Zinsstruktur abgeleitete Renditen fuer Bundeswertpapiere, RLZ 10 Jahre, daily)",
+      "series_key": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A",
+      "source": "https://api.statistiken.bundesbank.de/rest/data/BBSIS/D.I.ZAR.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A",
+      "obs_date": "2026-10-30",
+      "access_date": "2026-10-30"
+    }
+  },
+  "sovereign_default_spreads": {
+    "note": "rating-based default spreads from the registered country-risk dataset; Germany is the EUR benchmark issuer (Aaa, spread 0)",
+    "France": {"rating": "Aa3", "default_spread": 0.0048, "crp": 0.0074, "total_erp": 0.0494, "region": "Western Europe"},
+    "Germany": {"rating": "Aaa", "default_spread": 0.0, "crp": 0.0, "total_erp": 0.042, "region": "Western Europe"},
+    "source": "dataset ctryprem_global_2026-07 (data/damodaran/2026-07/ctryprem_global.md, as_of 2026-07-09, sha256 71a63dba...)",
+    "access_date": "2026-10-30"
+  },
+  "mature_erp": {
+    "value": 0.042,
+    "source": "dataset ctryprem_global_2026-07 (mature market equity risk premium)",
+    "obs_date": "2026-07-09",
+    "access_date": "2026-10-30"
+  },
+  "fx_ecb_reference": {
+    "quotation": "units of foreign currency per 1 EUR",
+    "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+    "obs_date": "2026-10-30",
+    "access_date": "2026-10-30",
+    "rates": {
+      "USD": 1.1172, "JPY": 175.68, "CZK": 24.353, "DKK": 7.4735, "GBP": 0.8338,
+      "HUF": 366.33, "PLN": 4.4038, "RON": 5.3447, "SEK": 10.978, "CHF": 0.9194,
+      "ISK": 136.0, "NOK": 10.312, "TRY": 55.8015, "AUD": 1.5904, "BRL": 6.0692,
+      "CAD": 1.5606, "CNY": 7.4326, "HKD": 8.7652, "IDR": 20275.17, "ILS": 3.495,
+      "INR": 106.084, "KRW": 1491.76, "MXN": 21.1237, "MYR": 4.5325, "NZD": 1.9823,
+      "PHP": 71.143, "SGD": 1.4282, "THB": 37.683, "ZAR": 18.6455
+    }
+  }
+}
