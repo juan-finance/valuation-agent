@@ -20,7 +20,7 @@ WEIGHTS: dict[str, float] = {
     "growth": 0.30, "beta": 0.15, "net_debt_ebitda": 0.10, "roe": 0.10,
     "ebitda_margin": 0.10, "payout": 0.075, "capex_sales": 0.075, "ln_mcap": 0.10,
 }
-SELECTION_CONFIG = dict(n=20, min_n=15, min_tier_1_2=12, max_tier_3=4, relaxed_max_tier_3=8, min_europe=10,
+SELECTION_CONFIG = dict(n=10, min_n=8, min_tier_1_2=6, max_tier_3=2, relaxed_max_tier_3=4, min_europe=5,
                         score_winsor=(0.05, 0.95), max_missing_dims=2)
 
 
