@@ -61,3 +61,14 @@
 - [x] dcf_model.xlsx, dcf_decisions.md, source_log.csv (validated), qa_results.md, dcf_summary.png all exist and reconcile.
 
 **Unresolved**: external Ke comparison unavailable (marked); pension/provision bridge treatment conservative; NCI at book proxy. None blocking; label: base result stands, note -55% vs market is a stage-4 discussion item.
+
+## QA block C — relative valuation (stage 3, 2026-10-30)
+- [x] Exactly 10 peers selected (all T1–T2, ≥8 required; 7 Europe-listed ≥5); selection scored per comparables_procedure, pool winsorized 5/95.
+- [x] Hard filters applied: size band 0.05–20× relaxed invoked for 3 peers (flagged `relaxed`); <€1bn dropped; restructuring exclusions NSIS.B, SYENS documented; world expansion only for Tier-1 LIN/APD/4091; T3 cap not invoked (0 used).
+- [x] ≥6 valid observations on every multiple used (PE n=8, others n=10); min_valid=6 passed explicitly to multiple_stats and scaled_multiple.
+- [x] One primary multiple per sector mapping: PE for industrial gases (sector_adjustments); EV/EBIT and EV/EBITDA as cross-checks only.
+- [x] EV→equity inverse recomputed exactly; spot-check EV for LIN/GIVN/YAR diff ≤0.2% (comparables_audit.xlsx).
+- [x] Published-route sub-block: `datasets.equation_for` used for all three dependents; dataset id regressions_multi_2026-01 + vintage Jan-2026 + warnings logged; inputs per file definitions, decimals (as_published_note, approved); beta observed 0.612 (≤2.5, kept); no SEy-based outputs (n/a_published_route); no PS equation (documented limitation); vintage ~10-month staleness and section-7 limitations stated in valuation_summary.md.
+- [x] Deliverables present: comparables.csv, multiples_summary.csv, comparables_report.md, comparables_audit.xlsx, regression_valuation.xlsx, valuation_multiples.csv, valuation_summary.md; no DATA_BASE_MSCI.xlsx (published route); source_log.csv extended and validates clean.
+
+**Open**: manual Spot_check human review pending (schedules generated; flagged in comparables_report.md). APD FY-end Sep (recorded). Two peer PEs unavailable (loss-making) — min_valid still met.

@@ -33,10 +33,22 @@
       "elapsed_min": 50
     },
     "stage3_relative": {
-      "status": "pending",
-      "notes": [],
-      "outputs": [],
-      "next_step": ""
+      "status": "done",
+      "notes": [
+        "10 peers (all T1-2,7 EU); published route PE/PBV/EVEBITDA; min_valid=6"
+      ],
+      "outputs": [
+        "relative/comparables.csv",
+        "relative/multiples_summary.csv",
+        "relative/comparables_report.md",
+        "relative/comparables_audit.xlsx",
+        "relative/regression_valuation.xlsx",
+        "relative/valuation_multiples.csv",
+        "relative/valuation_summary.md"
+      ],
+      "next_step": "stage4_recommendation",
+      "finished": "2026-10-30",
+      "elapsed_min": 60
     },
     "stage4_recommendation": {
       "status": "pending",

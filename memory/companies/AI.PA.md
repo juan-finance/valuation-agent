@@ -18,3 +18,9 @@ Company facts (verify against `valid_until`; last update 2026-10-30, confidence 
 - Ke 8.24% / WACC 7.70% / Kd 4.16%. OIR margin 20.7%, sales +4%, NCE/NOPAT 38%, r_NWC 7.74% (course avg forces €2.3bn year-1 WC build).
 - Result €81.4/sh vs ~€181 (−55%); TV share 85.7%; range 58–113. Bridge: −debt+leases 13,637 −NCI 733 −pensions/prov 2,422 +cash 3,962 +assoc 175.
 - Gotchas: NWC/Sales slightly negative (−0.58%) — course avg dominates forecast; DIG Airgas closes 2026 — keep interim debt in mind for stage 4 equity story.
+
+## Stage 3 relative (2026-10-30, published_damodaran)
+- Peers (10, all T1-2): LIN, APD, 4091 (world expansion), GIVN, BAS, ALFA, EMSN, SY1, YAR, DSFIR. SOL excluded: €5.4bn < relaxed band floor €5.75bn. Restructuring exclusions: NSIS.B, SYENS.
+- Comparables: PE median 30.9 → €171/sh; growth-scaled PE 16.4 → €91/sh; EV/EBIT 27.0 → €201; EV/EBITDA 18.7 → €199. APD/DSFIR no valid PE.
+- Regression (EUROPE Jan-2026, decimals): PE 19.14 → €105.8; PBV 2.36 → €97.3; EV/EBITDA 19.73 → €211.6. Inputs β0.612, g_eps 5.28% (fundamental substituted), payout 62.25%, ROE 13.97%, g_rev 4.0%, dfr 0.130, tax 25.82%, ROIC 9.30%.
+- Published-route `predict` unit policy = 'as_published_note' (decimal). RunState needs the .json path.
