@@ -30,7 +30,7 @@ Do not download a family the library already has. For families the library lacks
   findings, the equations used and any anomaly that blocks an equation into `cache/market/<date>/MANIFEST.md`.
 - Candidate universe for comparables: obtain ONE dated membership list (MSCI Europe holdings file, plus World only if the relaxation may need it), reconcile counts, label proxy
   coverage, apply the classification and exclusion screens that need no per-company reading. Save as `cache/market/<date>/universe.csv`.
-- Candidate data are collected in stage 3B only for the 40-60 candidates of each target, with `CachedFetcher`, and cached in `cache/market/<date>/candidates/<ticker>.csv` so overlapping
+- Candidate data are collected in stage 3B only for the 20-30 candidates of each target, with `CachedFetcher`, and cached in `cache/market/<date>/candidates/<ticker>.csv` so overlapping
   peers of other targets cost nothing.
 
 **0.3 Route `own_estimation`.** Follow `regression_procedure.md` sections 1-4 and 9.
