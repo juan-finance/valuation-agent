@@ -6,14 +6,16 @@
   "created": "2026-10-30T19:42:58+00:00",
   "stages": {
     "stage1_data": {
-      "status": "in_progress",
+      "status": "done",
       "notes": [
-        "2026-10-30T19:42:58+00:00 Stage 0 market cache built: macro/2026-10-30.json, market/2026-10-30/{universe.csv,candidates_AI.PA.csv,MANIFEST.md}; candidate pages cached under cache/web/2026-10-30/"
+        "2026-10-30T19:42:58+00:00 Stage 0 market cache built: macro/2026-10-30.json, market/2026-10-30/{universe.csv,candidates_AI.PA.csv,MANIFEST.md}; candidate pages cached under cache/web/2026-10-30/",
+        "2026-10-30T19:48:48+00:00 5y AR-sourced pack + interim, anomaly report, source_log validated, QA block A pass"
       ],
       "outputs": [],
       "next_step": "start of stage",
-      "started": "2026-10-30T19:45:30+00:00",
-      "_t0": 1793389530.9051216
+      "started": "2026-10-30T19:48:48+00:00",
+      "finished": "2026-10-30T19:48:48+00:00",
+      "elapsed_min": 45
     },
     "stage2_dcf": {
       "status": "pending",
