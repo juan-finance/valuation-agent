@@ -18,10 +18,19 @@
       "elapsed_min": 45
     },
     "stage2_dcf": {
-      "status": "pending",
-      "notes": [],
-      "outputs": [],
-      "next_step": ""
+      "status": "done",
+      "notes": [
+        "FCFF two-stage; WACC 7.70%, Ke 8.24%, g 3%; EUR81.4/sh vs ~181 (-55%); QA block B pass"
+      ],
+      "outputs": [
+        "dcf_model.xlsx",
+        "dcf_decisions.md",
+        "dcf_summary.png",
+        "qa_results.md"
+      ],
+      "next_step": "",
+      "finished": "2026-10-30",
+      "elapsed_min": 50
     },
     "stage3_relative": {
       "status": "pending",
