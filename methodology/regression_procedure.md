@@ -294,7 +294,7 @@ The following are implementation resolutions, not claims that ambiguous instruct
 - Source-unit evidence overrides the unsafe median>1 percentage heuristic; transformations are disclosed whole-column/mapped-source conversions.
 - Separate raw ratios from winsorized estimation columns resolves “Y=price/EPS” versus “winsorize Y.” Dummy variables remain binary.
 - A validity/primary scope is tested per model before adjusted-R² ranking. B/C share each model's market row set; C stays dummy-free even on World.
-- Companion method outputs total seven core files, not one workbook and not a weighted aggregate. Spot-check and peer scoring schedules fit in the shared data workbook.
+- Companion method outputs total seven core files under route own_estimation (six under published_damodaran, which has no DATA_BASE_MSCI.xlsx), not one workbook and not a weighted aggregate. Spot-check and peer scoring schedules fit in the shared data workbook.
 - Structural constant/rank corrections are logged exceptions; an otherwise nonsignificant or wrong-sign X stays in the base model.
 - Interpret band labels cautiously; no claim that ±2SEy is an exact 95% interval. A−C is not mechanically the sector dummy coefficient.
 - Method-level stop rules protect affected results, while specific fallback/continue rules permit valid other models. Statistical failure restricts conclusions rather than requiring a significant result to be manufactured.

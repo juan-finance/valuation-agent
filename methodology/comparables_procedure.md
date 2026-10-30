@@ -18,9 +18,9 @@ Select a defensible peer group separately for each target, then value the target
 Scope follows SKILL-RELATIVE.md: ONE target when called from the company-valuation orchestrator (output in outputs/<ticker>_<date>/relative/); all 20 targets for a direct whole-assignment run (outputs/relative_<date>/); a subset only if explicitly requested. Peer lists are always built per target. Record:
 
 ```yaml
-comparables_per_target: 20
-minimum_comparables_with_reason: 15
-min_valid_values_per_multiple: 10
+comparables_per_target: 10
+minimum_comparables_with_reason: 8
+min_valid_values_per_multiple: 6
 valuation_date: required_common_date
 earnings_basis: FY2025
 forward_basis: separate_NTM_if_available
@@ -28,10 +28,10 @@ comparison_currency: EUR
 min_market_cap_eur: 1000000000
 size_band: [0.1, 10]
 relaxed_size_band: [0.05, 20]
-min_tier_1_2: 12
-max_tier_3: 4
-relaxed_max_tier_3: 8
-min_europe_listed: 10
+min_tier_1_2: 6        # absolute floor, reached only when the Tier 3 cap is relaxed; with the default cap the effective minimum is comparables_per_target - max_tier_3 = 8
+max_tier_3: 2
+relaxed_max_tier_3: 4
+min_europe_listed: 5
 score_winsorization: [0.05, 0.95]
 ```
 
@@ -66,13 +66,13 @@ Before selection/valuation:
 ## 3. Selection funnel
 
 1. Profile each target: main activity (at least 50% of revenue or EBITDA), business mix, sub-industry, regulation/contracts/cycle, capital intensity and eight scoring metrics. If no segment reaches 50%, record conglomerate/multi-sector status and justify the economic peer profile; do not invent a dominant business.
-2. Start with 40–60 candidates, expanding where needed. Tier 1 = same main business; Tier 2 = adjacent business with similar cash-flow economics; Tier 3 = other nonfinancial firms, only when Tiers 1–2 cannot supply 20 qualified peers. Use MSCI Europe first, verified membership at the cutoff. Permit developed-market MSCI World expansion only under the ordered relaxation below. Include eligible other targets, but never the target itself.
+2. Start with 20–30 candidates, expanding where needed. Tier 1 = same main business; Tier 2 = adjacent business with similar cash-flow economics; Tier 3 = other nonfinancial firms, only when Tiers 1–2 cannot supply 10 qualified peers. Use MSCI Europe first, verified membership at the cutoff. Permit developed-market MSCI World expansion only under the ordered relaxation below. Include eligible other targets, but never the target itself.
 3. Apply hard exclusions: emerging-market classification; bank, insurer or holding company; cap below EUR1bn; cap outside allowed target-relative band; target/parent/subsidiary or ownership above 20% in either direction; merger/spin-off/restructuring in the comparison period (default FY2024–25) that makes figures noncomparable; less than two years trading history; more than two missing scoring dimensions after allowed fallbacks. Do not interpret “holding company” to exclude every operating group with a legal holding parent; distinguish passive investment holdings from consolidated operating businesses and document borderline cases. REITs/other financial businesses are unsuitable for this nonfinancial peer method and must not enter as Tier 3.
 4. Score eligible candidates under section 4. Preserve rejected candidates and rule-specific reasons.
-5. Choose the lowest-score feasible set of 20, satisfying at least 12 Tier 1–2, at most 4 Tier 3, and at least 10 Europe-listed. With only these three tiers, the default cap of 4 actually implies at least 16 Tier 1–2 for a set of 20. Replace the worst-ranked violating member with the best-ranked eligible replacement; never sacrifice a harder constraint to fix another. A constrained minimum-total-score selection is an equivalent implementation if all constraints are explicit.
-6. If 20 cannot be obtained, relax in this order, rechecking feasibility each time: (a) add developed-market MSCI World constituents outside Europe; (b) widen size band to 0.05–20×; (c) increase Tier 3 limit to 8. Keep EUR1bn minimum, at least 12 Tier 1–2, at least 10 Europe-listed and all other hard filters. Recompute pool percentiles/scores after expansion; log membership changes. Do not relax earnings/definition validity or source quality to fill a quota.
+5. Choose the lowest-score feasible set of 10, satisfying at least 6 Tier 1–2 (absolute floor), at most 2 Tier 3, and at least 5 Europe-listed. With only these three tiers, the default cap of 2 actually implies at least 8 Tier 1–2 for a set of 10; the floor of 6 only becomes binding once the Tier 3 cap is relaxed to 4. Replace the worst-ranked violating member with the best-ranked eligible replacement; never sacrifice a harder constraint to fix another. A constrained minimum-total-score selection is an equivalent implementation if all constraints are explicit.
+6. If 10 cannot be obtained, relax in this order, rechecking feasibility each time: (a) add developed-market MSCI World constituents outside Europe; (b) widen size band to 0.05–20×; (c) increase Tier 3 limit to 4. Keep EUR1bn minimum, at least 6 Tier 1–2, at least 5 Europe-listed and all other hard filters. Recompute pool percentiles/scores after expansion; log membership changes. Do not relax earnings/definition validity or source quality to fill a quota.
 7. Read each selected business description. Replace clearly unrelated economic profiles despite numerical similarity; record evidence and next-ranked replacement. Review listing/ownership and index eligibility rather than trusting example names.
-8. If 20 remain infeasible but 15–19 satisfy ALL remaining constraints, deliver the documented shortfall. For m peers the Tier 3 cap is also limited by m−12. Below 15, stop that target's comparable valuation; do not pad the list or reuse a company twice. Other targets may continue.
+8. If 10 remain infeasible but 8–9 satisfy ALL remaining constraints, deliver the documented shortfall. For m peers the Tier 3 cap is also limited by m−6. Below 8, stop that target's comparable valuation; do not pad the list or reuse a company twice. Other targets may continue.
 
 Selection examples and primary multiples are in [sector adjustments](sector_adjustments.md); examples are search seeds requiring current verification.
 
@@ -105,7 +105,7 @@ Compute PE, PEG, relative PE, EV/EBIT, EV/EBITDA, EV/CF, PBV, EV/assets, Tobin's
 
 Mark an observation unavailable or NM if source evidence is missing or its denominator is zero/negative. Negative target earnings do not require deleting the company from every peer list: it may still supply usable other multiples and sufficient scoring metrics. Keep high positive peer multiples; do NOT import the regression PE>100 exclusion, 1%/99% winsorization or the old skill's generic trimming into peer aggregation.
 
-For every target/multiple report n_valid, median, mean, PERCENTILE.INC 25% and 75%. At least 10 valid values are needed for use. Flag abs(mean/median−1)>25%. These are peer dispersion ranges, not statistical confidence intervals.
+For every target/multiple report n_valid, median, mean, PERCENTILE.INC 25% and 75%. At least 6 valid values are needed for use (with a 10-peer set this tolerates at most four missing). With 6–10 observations p25/p75 rest on very few points: say so next to the range. Flag abs(mean/median−1)>25%. These are peer dispersion ranges, not statistical confidence intervals.
 
 Fundamental-adjusted multiples:
 
@@ -117,7 +117,7 @@ Fundamental-adjusted multiples:
 | EV/Sales | Median(peer EV/Sales / peer EBITDA margin) × target EBITDA margin |
 | EV/EBITDA, EV/EBIT, EV/CF | Unscaled peer median; compare target growth to peer median growth |
 
-Use the same growth/earnings definition in the scaled series; a TTM PEG cannot adjust FY PE. Each scaled ratio needs a positive meaningful driver for peer and target and at least 10 valid scaled peer observations; otherwise show adjustment unavailable and retain only a valid unadjusted cross-check. Compute low/high adjusted values from p25/p75 of the PE/driver, PBV/driver etc. ratios, multiplied by the target driver. Do not multiply quartiles from different populations or relabel raw quartiles as adjusted ones.
+Use the same growth/earnings definition in the scaled series; a TTM PEG cannot adjust FY PE. Each scaled ratio needs a positive meaningful driver for peer and target and at least 6 valid scaled peer observations; otherwise show adjustment unavailable and retain only a valid unadjusted cross-check. Compute low/high adjusted values from p25/p75 of the PE/driver, PBV/driver etc. ratios, multiplied by the target driver. Do not multiply quartiles from different populations or relabel raw quartiles as adjusted ones.
 
 These are prescribed proportional adjustment heuristics, not comprehensive causal corrections. For example PS/net margin effectively behaves like PE when the accounting bases match; EV/Sales divided by EBITDA margin behaves like EV/EBITDA. Show both raw and adjusted values, model limitations and overlap; do not count them as independent evidence. For positive drivers use the adjusted version as the primary-method point estimate when applicable; if invalid, disclose the unadjusted fallback. Do not choose adjusted versus raw according to proximity to DCF.
 
@@ -137,13 +137,13 @@ Include any additional claims/assets only through a consistently defined expande
 
 Convert the final per-share value from comparison EUR into the target's actual quote currency, checking pence/GBP and ADR ratios. All raw values/FX dates remain traceable. Upside = fair value/current comparable price−1; show currency gap too.
 
-Choose one primary multiple using the business mapping in sector_adjustments.md. If its target denominator is nonpositive/near-zero, or fewer than 10 usable peers exist, try the listed cross-checks in order. Define and justify near-zero materiality before viewing valuations. If no suitable multiple passes, mark not valued. Retain other results as cross-checks. Never weight toward DCF, toward higher values for larger firms, or combine mechanically correlated multiples.
+Choose one primary multiple using the business mapping in sector_adjustments.md. If its target denominator is nonpositive/near-zero, or fewer than 6 usable peers exist, try the listed cross-checks in order. Define and justify near-zero materiality before viewing valuations. If no suitable multiple passes, mark not valued. Retain other results as cross-checks. Never weight toward DCF, toward higher values for larger firms, or combine mechanically correlated multiples.
 
 ## 7. Output schemas and audit evidence
 
 Deliver these three core files. Append fields if needed; do not drop required columns.
 
-**comparables.csv** — one row per target/selected peer (400 only when 20 targets each have 20 peers):
+**comparables.csv** — one row per target/selected peer (200 only when 20 targets each have 10 peers):
 
 ```text
 target_ticker,rank,comp_name,comp_ticker,comp_isin,country,tier,distance_score,growth,beta,net_debt_ebitda,roe,ebitda_margin,payout,capex_sales,market_cap_eur,pe,peg,relative_pe,ev_ebit,ev_ebitda,ev_cf,pbv,ev_assets,tobins_q,ps,ev_sales,flags,inclusion_reason,source_urls
@@ -161,12 +161,12 @@ Append n_valid_adjusted, adjusted_p25, adjusted_p75, unadjusted_value_low/mid/hi
 
 **comparables_report.md** — per target: profile/industry, route/date/basis, selected peers and rationale, primary multiple, value range/point, target fundamentals versus peer medians, raw versus adjusted results, sensitivity to peer composition/quartile/multiple, every exclusion/relaxation/replacement and limitation, market conditions, and exact Sources.
 
-For the joint run place Candidate_Pool, Peer_Scores, Peer_Selection, Peer_Multiples, Peer_Spot_check and peer QA sheets in DATA_BASE_MSCI.xlsx as a separate audit section. They must not be pooled into regression Data. Include rejected candidates, formulas, immutable raw inputs, all scores and constraints, and a manual EV recomputation for three reproducibly random selected peers. This reconciles the source's three-file output with its Spot_check-sheet requirement. For standalone comparables use the disclosed audit workbook exception in the skill.
+For the joint run (route own_estimation) place Candidate_Pool, Peer_Scores, Peer_Selection, Peer_Multiples, Peer_Spot_check and peer QA sheets in DATA_BASE_MSCI.xlsx as a separate audit section. Under route published_damodaran no DATA_BASE_MSCI.xlsx exists, so these sheets go in the labelled comparables_audit.xlsx (same exception as a standalone comparables run; it is not an additional core file). They must not be pooled into regression Data. Include rejected candidates, formulas, immutable raw inputs, all scores and constraints, and a manual EV recomputation for three reproducibly random selected peers. This reconciles the source's three-file output with its Spot_check-sheet requirement. For standalone comparables use the disclosed audit workbook exception in the skill.
 
 Every figure links field→exact URL and access date, or terminal/ticker/field/export date; each judgment links evidence. Use the shared source log. Include a one-line economic inclusion reason for every peer. For source conflicts >2%, link both and state the resolution.
 
 ## 8. Stops and explicit interpretations
 
-Stop the affected target if fewer than 15 compliant peers remain, required data/units cannot be established, no common price date is possible, or fewer than 10 valid observations support every suitable multiple. Do not invent figures. Keep blocked target/status rows and continue other targets. A >30% consensus gap triggers the whole-pool fallback and notification, not abandonment if the fallback is feasible.
+Stop the affected target if fewer than 8 compliant peers remain, required data/units cannot be established, no common price date is possible, or fewer than 6 valid observations support every suitable multiple. Do not invent figures. Keep blocked target/status rows and continue other targets. A >30% consensus gap triggers the whole-pool fallback and notification, not abandonment if the fallback is feasible.
 
 Resolve validation gaps before final use. Human Spot_check review is a distinct evidence gate: generate the reviewable schedules first, then request that review if not already provided. Pending review must be visible; it is not automated approval. Final QA applies relaxed Tier 3 limits only where the permitted relaxation was actually invoked; it does not incorrectly reimpose the default cap of four.

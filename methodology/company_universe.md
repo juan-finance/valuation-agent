@@ -35,14 +35,14 @@ The original 20 companies, tickers, buckets and indicative reporting currencies 
 
 ## Relative valuation universes
 
-The table above is the TARGET list. It is neither a list of 20 preapproved peers nor the regression estimation universe. Preserve all 20 rows; do not add peers to the target list or relabel them is_sample=TRUE.
+The table above is the TARGET list. It is neither a list of preapproved peers nor the regression estimation universe. Preserve all 20 rows; do not add peers to the target list or relabel them is_sample=TRUE.
 
 | Use | Selection basis | Membership and exclusions |
 | --- | --- | --- |
-| Comparable candidates | 40–60 initial candidates per target; expand, filter, score and select 20 | MSCI Europe first, then permitted MSCI World developed-market relaxation; target/parent/subsidiary and >20% cross-holdings excluded |
+| Comparable candidates | 20–30 initial candidates per target; expand, filter, score and select 10 | MSCI Europe first, then permitted MSCI World developed-market relaxation; target/parent/subsidiary and >20% cross-holdings excluded |
 | Regression full route | All nonfinancial constituents, not selected peers | MSCI Europe, then model-specific World fallback; exclude financials and REITs; retain parent/subsidiary pairs with dependence flagged |
 | Regression web-minimum route | All eligible constituents in Utilities, Energy, Industrials and Materials | Same geography fallback, explicitly reduced-market coverage |
-| Regression A | Industry → Industry Group with specified Europe/World ladder; World Sector last | At least 30 valid observations per fitted model; not a 20-peer regression |
+| Regression A | Industry → Industry Group with specified Europe/World ladder; World Sector last | At least 30 valid observations per fitted model; not a peer-set regression |
 | Regression B/C | Same market rows per multiple model | B has sector and applicable region dummies; C none |
 
 Verify GICS Sector/Industry Group/Industry as dated fields. Internal buckets A–F are not GICS and must not become regression dummy values. For web mappings, distinguish inferred classifications from verified codes; ambiguous classification must not silently determine sector selection or typicality. Record both MSCI market classification and listing location because developed-market eligibility and the at-least-ten-Europe-listed peer rule are different tests.

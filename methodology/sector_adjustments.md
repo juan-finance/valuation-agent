@@ -55,7 +55,7 @@ These are project business defaults, not verified current company metrics or uni
 | Gases/machinery: Air Liquide, Alfa Laval | PE | EV/EBIT | Match recurring earnings and business-specific margins |
 | Steel: ArcelorMittal | EV/EBITDA | PBV | Show cycle-normalized sensitivity separately from common FY base |
 
-If denominator is nonpositive/near-zero or valid peer count<10, try cross-checks in order and document; do not override with an attractive valuation. Regression selection remains its four-model typicality/adjusted-R² procedure and may choose a different multiple from this peer-method default. Keep both results visible.
+If denominator is nonpositive/near-zero or valid peer count<6, try cross-checks in order and document; do not override with an attractive valuation. Regression selection remains its four-model typicality/adjusted-R² procedure and may choose a different multiple from this peer-method default. Keep both results visible.
 
 ## Candidate business tiers
 
