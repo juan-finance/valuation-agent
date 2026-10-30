@@ -106,10 +106,12 @@ missing and answered nowhere in memory/standing_approvals.md.
   scope/outline; otherwise ask the user and keep doing independent work (QA, figures,
   workbooks) while waiting. Build the final report once approved, or once the user
   explicitly authorizes proceeding (see methodology/report_template.md).
-- Finish with the report, the Excel models (data_pack.xlsx, dcf_model.xlsx), the seven
-  stage 3 core files (comparables.csv, multiples_summary.csv, comparables_report.md,
-  DATA_BASE_MSCI.xlsx, regression_valuation.xlsx, valuation_multiples.csv,
-  valuation_summary.md), the figures and the source log, plus case_summary.md when it applies.
+- Finish with the report, the Excel models (data_pack.xlsx, dcf_model.xlsx), the stage 3
+  core files for the configured regression_route (comparables.csv, multiples_summary.csv,
+  comparables_report.md, regression_valuation.xlsx, valuation_multiples.csv,
+  valuation_summary.md, plus DATA_BASE_MSCI.xlsx only under own_estimation: seven files
+  under own_estimation, six under published_damodaran, whose current setting is in
+  memory/standing_approvals.md), the figures and the source log, plus case_summary.md when it applies.
   relative_model.xlsx no longer exists.
 - Consistency: apply the same method, thresholds and report structure to every company so
   that the recommendations can be compared in the portfolio stage. Any deviation must be
