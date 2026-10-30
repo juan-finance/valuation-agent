@@ -38,8 +38,9 @@ Lectures still outrank this file. The equations come from the registered dataset
 Inputs are entered as DECIMALS (25% = 0.25). Never clip or repair an input to make an equation run; unavailable stays unavailable.
 
 ## 4. Units: an unresolved issue that must be settled per run
-The file says to enter decimals. The coefficients on DFR and Tax rate (for example -0.11 and -0.12 with t-statistics of 5 to 90) have the scale of
-percentage points (0 to 100), not decimals. This is an inference from the coefficient scale, not something the files confirm.
+**Resolved 2026-10-30:** user set `damodaran_dfr_tax_units: decimal` in `memory/standing_approvals.md`. DFR and tax_rate are entered as decimals (30% = 0.30), like all other inputs (section 3). `predict` uses the decimal policy, `units_unverified = no`, and the steps below apply only if that field is changed back to `TBD` or `unverified`.
+
+The file says to enter decimals. The coefficients on DFR and Tax rate (for example -0.11 and -0.12 with t-statistics of 5 to 90) have the scale of percentage points (0 to 100), not decimals. This is an inference from the coefficient scale, not something the files confirm.
 `published_regressions.predict` therefore has no default unit policy.
 - Run `predict_both_policies` for every equation that uses DFR or tax_rate. Where the two predictions differ by more than 10% (relative),
   the unit question is material: verify against Damodaran's variable-definition page or his dataset, and run the plausibility check below.
