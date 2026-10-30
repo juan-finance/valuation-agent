@@ -1,5 +1,7 @@
 # Synthetic Rating & Cost of Debt Estimation
 
+**Date updated:** 5-ene-26
+
 *Reference source for spreads: [BondsOnline](http://www.bondsonline.com)*
 
 > **Instructions & Setup:**
