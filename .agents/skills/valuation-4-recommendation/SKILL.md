@@ -56,8 +56,8 @@ keep the structure easy to change.
   recommendation_summary.csv) in the meantime. Build report.pdf once the outline is
   approved or the user explicitly authorizes proceeding without it. Deliver the Excel
   models (data_pack.xlsx, dcf_model.xlsx), the stage 3 core files already produced
-  (comparables.csv, multiples_summary.csv, comparables_report.md, DATA_BASE_MSCI.xlsx,
-  regression_valuation.xlsx, valuation_multiples.csv, valuation_summary.md) and all
+  for the configured regression_route (comparables.csv, multiples_summary.csv, comparables_report.md,
+  DATA_BASE_MSCI.xlsx (own_estimation only), regression_valuation.xlsx, valuation_multiples.csv, valuation_summary.md) and all
   figures as PNG. relative_model.xlsx no longer exists.
 
 # End of stage
