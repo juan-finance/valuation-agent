@@ -30,6 +30,10 @@ Use this file with [DCF procedure](dcf_procedure.md), [comparables procedure](co
 | Nonoperating bridge | Cash, financial assets, associates/JVs, pensions, NCI, provisions and overlap with cash flows | Report financial instruments, investments, pensions and provision notes |
 | Distress | Going concern, liquidity, covenant/coverage and rating concerns | Reports and rating commentary |
 
+## Local data library first
+
+Damodaran datasets supplied by the user are registered in `data/registry.csv` (see `data/README.md`). Before downloading anything from the entry points below, call `datasets.resolve(family, country=..., valuation_date=...)`. It returns the registered file for the company's region and vintage (never later than the valuation date), its match level (exact or fallback) and warnings, or states what is missing. Use the web entry points only for families the library lacks, and register what you obtain (`datasets add`) so the next run does not download it again. Source-log rows for library data cite the dataset id, vintage, file path, sha256, the logical column and the actual header. Header names can differ by vintage (for example "Rating-based Default Spread" for the "Adj. Default Spread" named in the input map): record each mapping in the decisions file; a header the column map cannot find is a stop, not a guess.
+
 ## Dataset entry points
 
 These links guide Devin's retrieval; individual spreadsheet contents must be opened and verified during the valuation. Do not assume a legacy filename or an example percentage is current.

@@ -109,6 +109,22 @@ Record pass / fail / fixed / not applicable, evidence, reason and unresolved imp
 - [ ] Spot_check contains targets plus 20 reproducibly random non-target rows; >2 confirmed errors repaired before final use.
 - [ ] Four core regression files exist, report headings/values match workbook, one CSV row per requested target, review/model-quality statuses explicit.
 
+### Published-regression route (only when regression_route = published_damodaran)
+
+- [ ] Equation obtained through `datasets.equation_for`; dataset id, vintage, as-of date, region used, match level and warnings recorded. As-of date not after the valuation date; age versus valuation date stated.
+- [ ] Integrity check of the regressions dataset run; every warning (sign anomalies, identical t-statistics, units) addressed; an equation flagged as an anomaly is not used until verified.
+- [ ] Every input follows the FILE's definition (analyst g_eps / g_rev, observed beta, payout >= 0). Any substituted input is labelled `substituted_input` and was approved in standing approvals.
+- [ ] Unit policy handled: both policies computed where DFR or tax rate is used, plausibility check against the sector median recorded, chosen policy justified or `units_unverified` shown.
+- [ ] No SEy-based output appears: classification, std residual, adjusted R2, p-values, A/B/C and D1-D10 are `n/a_published_route`; deviation and equation R2 shown instead.
+- [ ] Workbook predictions equal `published_regressions.predict` to 1e-9 after recalculation; no PS equation invented; supplementary multiples (PEG, EV/IC, EV/Sales) labelled and not primary.
+- [ ] Summary states the limitations of section 7 of regression_published_route.md (market-wide scope, low R2, analyst-growth definition, vintage, undocumented EV definition).
+
+### Data library (any stage that uses a Damodaran dataset)
+
+- [ ] Dataset chosen by `datasets.resolve`, not by file name; fallback matches justified; vintage not after the valuation date; dataset id and sha256 in `source_log.csv`.
+- [ ] Logical-to-actual column mapping recorded; industry mapping uses exact industry names (`industry_row` raised no suggestion error); not-meaningful cells (for example Net CapEx/EBIT(1-t) of Steel and Railroads) not used.
+- [ ] Low-confidence country mappings (`regions.csv`) acknowledged.
+
 ## D. Recommendation and report (stage 4)
 - [ ] Comparable primary estimate, regression selected estimate and DCF are shown independently before reconciliation; any final synthesis is justified without retroactive tuning.
 - [ ] Final value is compared with the current market price. Any gap above 25% is explained.

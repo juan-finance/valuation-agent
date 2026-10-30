@@ -2,6 +2,8 @@
 
 Build a broad-market dataset and estimate your own regressions. This is separate from selected-peer medians and the optional one-driver peer fit in [comparables procedure](comparables_procedure.md). Do not hand-pick the market sample or replace estimation with published coefficients. The rules here are self-contained; no external instruction attachment is needed.
 
+> **Route note (added 2026-10-30, user decision).** This procedure governs `regression_route: own_estimation`. When `memory/standing_approvals.md` sets `regression_route: published_damodaran`, the regression method follows [regression_published_route.md](regression_published_route.md) instead of sections 2-9, and the registered Damodaran equations are the model rather than a benchmark. The prohibition on replacing estimation with published coefficients applies to the own-estimation route. In both routes the Damodaran benchmark fields of section 10 are filled from the local data library (`data/README.md`), not from a live download.
+
 ## Contents
 
 1. Configuration and data universes
