@@ -1,6 +1,6 @@
 ---
 name: valuation-3-relative
-description: Stage 3 relative valuation for European energy-transition companies. Selects 20 fundamental comparables per target and separately builds sector and market regressions with live Excel formulas, diagnostics, and one primary multiple per method. Use after the source data pack; compare with the DCF only after independent relative estimates are complete.
+description: Stage 3 relative valuation for European energy-transition companies. Selects 10 fundamental comparables per target and separately builds sector and market regressions with live Excel formulas, diagnostics, and one primary multiple per method. Use after the source data pack; compare with the DCF only after independent relative estimates are complete.
 ---
 
 # Goal and required reading
@@ -13,10 +13,10 @@ Run two distinct methods for the targets in [company universe](../../../methodol
 Read this skill, [methodology README](../../../methodology/README.md), the full [comparables procedure](../../../methodology/comparables_procedure.md) and [regression procedure](../../../methodology/regression_procedure.md). Also read [data sources](../../../methodology/data_sources.md), [sector adjustments](../../../methodology/sector_adjustments.md), [QA](../../../methodology/qa_checklist.md) and [report template](../../../methodology/report_template.md). These Markdown files contain the execution rules; no separate Word/PDF instruction file is needed. The professor's lecture notes still rank above them (precedence rules: company-valuation skill); if a lecture contradicts a procedure or one of its recorded corrections of the PDFs, follow the lecture and record the conflict in the method report/Log.
 
 Scope depends on how stage 3 is invoked:
-- **Called from the company-valuation orchestrator (default for this agent):** ONE company. Run both methods for that target only, write to outputs/<ticker>_<valuation-date>/relative/, and reuse an existing dated DATA_BASE_MSCI.xlsx (e.g. from outputs/relative_<date>/) if one exists for the same cutoff. The regression market is still built/used in full with all 20 target rows retained; only the requested target is valued.
+- **Called from the company-valuation orchestrator (default for this agent):** ONE company. Run both methods for that target only, write to outputs/<ticker>_<valuation-date>/relative/, and reuse the dated market assets in cache/market/<valuation-date>/ built by stage 0 (never rebuild them inside a company run; if they are missing, follow the orchestrator rule: ask once and stop the affected work). Under route own_estimation these include DATA_BASE_MSCI.xlsx and the regression market is used in full with all 20 target rows retained; under route published_damodaran no market dataset and no DATA_BASE_MSCI.xlsx exist. Only the requested target is valued.
 - **Direct request for the whole assignment:** the full 20-company batch, written to outputs/relative_<valuation-date>/.
 - **A subset requested directly:** run that subset in batch layout and state it.
-Never label a partial run as 400 peer rows or 20 completed targets. Reuse one dated market dataset across targets. The 20 targets, each target's 20 peers and the regression universe are different sets.
+Never label a partial run as 200 peer rows or 20 completed targets. Reuse one dated market dataset across targets. The 20 targets, each target's 10 peers and the regression universe are different sets.
 
 # Execution architecture (efficiency; no method change)
 The broad market dataset and the A/B/C regression fits do not depend on the target company. They are built ONCE per valuation date by
@@ -47,8 +47,8 @@ deviation (for example lazy ownership verification) in memory/standing_approvals
 
 # Method 1 — comparables
 
-6. Profile each target; construct 40–60 initial candidates and expand as needed. Use the tier, hard-filter, score and composition rules in comparables_procedure.md. Select exactly 20 peers, or 15–19 only with a documented permitted shortfall. Never use the regression market indiscriminately as a peer list.
-7. Compute the complete prescribed multiple set with aligned definitions. Keep positive extremes in peer statistics; exclude only unavailable/not-meaningful observations under the rules. Require at least 10 valid observations separately for each raw or scaled multiple used.
+6. Profile each target; construct 20–30 initial candidates and expand as needed. Use the tier, hard-filter, score and composition rules in comparables_procedure.md. Select exactly 10 peers, or 8–9 only with a documented permitted shortfall. Never use the regression market indiscriminately as a peer list.
+7. Compute the complete prescribed multiple set with aligned definitions. Keep positive extremes in peer statistics; exclude only unavailable/not-meaningful observations under the rules. Require at least 6 valid observations separately for each raw or scaled multiple used.
 8. Show median, mean, p25, p75, unadjusted and permitted fundamental-adjusted values. Select one business-appropriate primary multiple, with the rest as cross-checks; no DCF-dependent weights. Apply the matched EV-to-equity bridge and convert to the target's quote currency.
 
 # Method 2 — regressions
@@ -71,13 +71,13 @@ estimation, no residual bands; unit policy and input definitions per that file).
 
 # Deliverables
 
-Single-target (orchestrator) run: outputs/<ticker>_<valuation-date>/relative/. Batch/subset run: outputs/relative_<valuation-date>/ (repository-relative). Same seven file names in both layouts. Preserve stage 1/2 files.
+Single-target (orchestrator) run: outputs/<ticker>_<valuation-date>/relative/. Batch/subset run: outputs/relative_<valuation-date>/ (repository-relative). Same file names in both layouts (seven under route own_estimation, six under published_damodaran). Preserve stage 1/2 files.
 
 **Comparables — three core files:** comparables.csv, multiples_summary.csv, comparables_report.md.
 
 **Regression — four core files:** DATA_BASE_MSCI.xlsx, regression_valuation.xlsx, valuation_multiples.csv, valuation_summary.md (route `published_damodaran`: three files,
 no DATA_BASE_MSCI.xlsx, contents per regression_published_route.md section 7).
 
-The procedures specify exact schemas, workbook sheets, diagnostics and report headings. Put peer-selection audit/Spot_check schedules in DATA_BASE_MSCI.xlsx when both methods run, separated from regression input; put charts in workbooks. Continue the shared source_log.csv and qa_results.md. These shared audit files are not additional valuation-method outputs. For a comparables-only run, an explicitly labelled comparables_audit.xlsx is permitted to satisfy the audit-sheet requirement; do not create fake regression outputs.
+The procedures specify exact schemas, workbook sheets, diagnostics and report headings. Put peer-selection audit/Spot_check schedules in DATA_BASE_MSCI.xlsx when both methods run under route own_estimation, separated from regression input (under published_damodaran use the labelled comparables_audit.xlsx, which is not an additional core file); put charts in workbooks. Continue the shared source_log.csv and qa_results.md. These shared audit files are not additional valuation-method outputs. For a comparables-only run, an explicitly labelled comparables_audit.xlsx is permitted to satisfy the audit-sheet requirement; do not create fake regression outputs.
 
 The old relative_model.xlsx, weights_table and relative_decisions.md contract is superseded everywhere in the repository (orchestrator, stage 4, report template, QA): all decisions now live in the method reports and workbook Log. No weights_table, DCF-proximity/size weighting or 30% cap applies. Stage 4 may build its own reasoned synthesis from the preserved estimates (see stage 4). Cite only opened evidence; distinguish assignment thresholds from general valuation theory. Test material calculations and workbook/model equivalence when executing valuations, and report actual results rather than claiming unrun checks.
