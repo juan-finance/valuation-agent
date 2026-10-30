@@ -4,15 +4,17 @@ description: Stage 1 of a company valuation. Confirms company identity, ticker a
 ---
 
 # Goal
-Produce a verified, normalized data pack for ONE company. Read lecture_notes/ first for
-any definitions. Where my rules and the lecture notes differ, the lecture notes win; next
+Produce a verified, normalized data pack for ONE company. Setup (few minutes): follow AGENTS.md section 1, read
+memory/companies/<ticker>.md, and read only methodology/data_sources.md (input map and source_log fields) and qa_checklist.md block A.
+For definitions, grep knowledge/lecture_digest/ (do not open the PPTX files unless a doubt remains).
+Use src/valuation_agent: anomaly.anomaly_table for step 5, sourcelog.SourceLog for step 6, runstate.RunState for checkpoints. Where my rules and the lecture notes differ, the lecture notes win; next
 come the methodology procedures (methodology/dcf_procedure.md, which encodes Steps in Company
 Valuation.docx together with its recorded corrections). See the precedence rules in the
 company-valuation skill.
 
 # Procedure
-0. Read methodology/data_sources.md. These are indicative sources; others are allowed.
-   Replace US-only sources with the European equivalents listed there.
+0. These are indicative sources; others are allowed. Replace US-only sources with the European equivalents listed in
+   methodology/data_sources.md. Damodaran data comes from the data library (resolve with `datasets.resolve`, see data/README.md); families it lacks come from cache/damodaran/ (stage 0 step 0.1).
 1. Identify the company. Confirm legal name, ISIN, ticker, exchange, country, reporting
    currency and fiscal year-end. Make sure it is exactly the company named by the user
    (not a subsidiary, ADR or similarly named firm). Write company_identity.md.
@@ -47,8 +49,10 @@ company-valuation skill.
    file and preserve these entries.
 
 # Outputs (in outputs/<ticker>_<date>/)
-company_identity.md, data_pack.xlsx, anomaly_report.md, source_log.csv.
-Post a short summary to the user. If any anomaly is material, say so clearly.
+company_identity.md, data_pack.xlsx, anomaly_report.md, source_log.csv (validate with sourcelog.validate), run_state.json.
+Run the qa_checklist block A once. Write memory/companies/<ticker>.md (identity, perimeter, quirks, which sources worked) and
+memory/source_playbook.md entries. Post a short summary to the user (include elapsed minutes). If any anomaly is material, say so clearly.
+Then end the session; stage 2 starts fresh from the files.
 
 # Rules
 - Prefer annual reports over aggregators. Cite source and date for every number.
