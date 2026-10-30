@@ -6,12 +6,14 @@
   "created": "2026-10-30T19:42:58+00:00",
   "stages": {
     "stage1_data": {
-      "status": "pending",
+      "status": "in_progress",
       "notes": [
         "2026-10-30T19:42:58+00:00 Stage 0 market cache built: macro/2026-10-30.json, market/2026-10-30/{universe.csv,candidates_AI.PA.csv,MANIFEST.md}; candidate pages cached under cache/web/2026-10-30/"
       ],
       "outputs": [],
-      "next_step": "start of stage"
+      "next_step": "start of stage",
+      "started": "2026-10-30T19:45:30+00:00",
+      "_t0": 1793389530.9051216
     },
     "stage2_dcf": {
       "status": "pending",
