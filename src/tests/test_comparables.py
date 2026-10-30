@@ -90,7 +90,7 @@ def synth_candidates(n=60, seed=1, p_t3=.35, p_eu=.6):
                         index=[f"C{i}" for i in range(n)])
 
 
-def milp_optimum(df, n=20, min12=12, max3=4, min_eu=10):
+def milp_optimum(df, n=10, min12=6, max3=2, min_eu=5):
     cap3 = min(max3, n - min12)
     d = df["distance"].to_numpy(); t3 = (df["tier"] >= 3).to_numpy().astype(float); eu = df["europe"].to_numpy().astype(float)
     A = np.vstack([np.ones(len(df)), 1 - t3, t3, eu])
@@ -107,9 +107,9 @@ def test_selection_equals_integer_program_optimum(seed):
     if best is None:
         assert sel is None and not info["feasible"]
         return
-    assert len(sel) == 20 and info["total_score"] == pytest.approx(best, rel=1e-9)
-    assert (sel["tier"] <= 2).sum() >= 12 and (sel["tier"] >= 3).sum() <= 4 and sel["europe"].sum() >= 10
-    assert sel["rank"].tolist() == list(range(1, 21)) and sel["distance"].is_monotonic_increasing
+    assert len(sel) == 10 and info["total_score"] == pytest.approx(best, rel=1e-9)
+    assert (sel["tier"] <= 2).sum() >= 6 and (sel["tier"] >= 3).sum() <= 2 and sel["europe"].sum() >= 5
+    assert sel["rank"].tolist() == list(range(1, 11)) and sel["distance"].is_monotonic_increasing
 
 
 def test_selection_tie_break_is_deterministic():
@@ -128,14 +128,14 @@ def test_infeasible_when_europe_or_tier_constraints_cannot_hold():
     assert C.select_peers(df2)[0] is None
 
 
-def test_tier3_cap_is_also_limited_by_n_minus_12():
+def test_tier3_cap_is_also_limited_by_n_minus_6():
     df = synth_candidates(n=80, seed=4)
-    sel, info = C.select_peers(df, n=15)
-    assert info["constraints"]["max_tier_3"] == 3 and (sel["tier"] >= 3).sum() <= 3
+    sel, info = C.select_peers(df, n=7)
+    assert info["constraints"]["max_tier_3"] == 1 and (sel["tier"] >= 3).sum() <= 1
 
 
 def test_relaxation_order_and_shortfall_marking():
-    tight = synth_candidates(n=40, seed=2); tight["europe"] = tight["europe"] & (np.arange(40) < 9)   # only 9 Europe -> infeasible
+    tight = synth_candidates(n=40, seed=2); tight["europe"] = tight["europe"] & (np.arange(40) < 4)   # only 4 Europe -> infeasible
     relaxed = synth_candidates(n=60, seed=3)
     sel, info, label = C.select_with_relaxation([("strict", tight, {}), ("a: add World", relaxed, {})])
     assert label == "a: add World" and info["relaxation_step"] == "a: add World" and not info["shortfall"]
