@@ -51,10 +51,22 @@
       "elapsed_min": 60
     },
     "stage4_recommendation": {
-      "status": "pending",
-      "notes": [],
-      "outputs": [],
-      "next_step": ""
+      "status": "done",
+      "notes": [
+        "Sell, fair value 80/110/170, target EUR110; report.pdf + 4 figures"
+      ],
+      "outputs": [
+        "report.pdf",
+        "report_outline.md",
+        "recommendation_summary.csv",
+        "relative/football_field.png",
+        "relative/tornado.png",
+        "relative/valuation_scale.png",
+        "relative/segments.png"
+      ],
+      "next_step": "",
+      "finished": "2026-10-30",
+      "elapsed_min": 35
     }
   }
 }

@@ -72,3 +72,17 @@
 - [x] Deliverables present: comparables.csv, multiples_summary.csv, comparables_report.md, comparables_audit.xlsx, regression_valuation.xlsx, valuation_multiples.csv, valuation_summary.md; no DATA_BASE_MSCI.xlsx (published route); source_log.csv extended and validates clean.
 
 **Open**: manual Spot_check human review pending (schedules generated; flagged in comparables_report.md). APD FY-end Sep (recorded). Two peer PEs unavailable (loss-making) — min_valid still met.
+
+## QA block D — recommendation and report (stage 4, 2026-10-30)
+- [x] DCF €81.4, comparable primary €170.8 (raw PE median) and regression selected €105.8 (PE) shown independently before reconciliation; synthesis weights (DCF + growth-adjusted PE) stated and justified on accounting-basis suitability, not tuned to market.
+- [x] Final value vs market: €110 vs €180.9 = −39.2% (>25% gap explained in §9-10: discount-rate and margin-durability assumptions).
+- [x] Fair value range €80/110/170 and ONE recommended price €110; mispricing −39.2% / −€71.
+- [x] Recommendation (Sell) tied to AR narrative (DIG Airgas synergies, efficiency) and one mispriced parameter: margin durability / implied ~5% Ke.
+- [x] Market expectations and current conditions discussed (§10).
+- [x] Extraordinary items commented (§4: cash +107%, WC flips, M&A, buyback pause — kept as reported).
+- [x] recommendation_summary.csv written (one row, pool schema).
+- [x] Same methods/thresholds as configured route; deviations n/a.
+- [x] No relative_model.xlsx / weights_table / relative_decisions.md references; synthesis weights disclosed in §11.
+- [x] Outline approved by user (commit 1b90b76); work proceeded on approval.
+- [x] Data gaps section in report §11 + appendices.
+- [x] Plain-English summary first; glossary; academic disclaimer on report.

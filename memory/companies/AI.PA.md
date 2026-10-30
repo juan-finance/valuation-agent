@@ -24,3 +24,8 @@ Company facts (verify against `valid_until`; last update 2026-10-30, confidence 
 - Comparables: PE median 30.9 → €171/sh; growth-scaled PE 16.4 → €91/sh; EV/EBIT 27.0 → €201; EV/EBITDA 18.7 → €199. APD/DSFIR no valid PE.
 - Regression (EUROPE Jan-2026, decimals): PE 19.14 → €105.8; PBV 2.36 → €97.3; EV/EBITDA 19.73 → €211.6. Inputs β0.612, g_eps 5.28% (fundamental substituted), payout 62.25%, ROE 13.97%, g_rev 4.0%, dfr 0.130, tax 25.82%, ROIC 9.30%.
 - Published-route `predict` unit policy = 'as_published_note' (decimal). RunState needs the .json path.
+
+## Stage 4 recommendation (2026-10-30)
+- Sell, fair value €80/110/170, 12-m target €110 vs market €180.9 (−39%). Synthesis weighted to DCF + growth-scaled PE (accounting consistency), stated ex ante.
+- What the market may be mispricing: margin durability + implied ~5% Ke; consensus "Strong Buy" target €200.29 (stockanalysis aggregator, single source).
+- Open: Spot_check human review pending; FY2021 aggregator-only; external Ke unavailable.

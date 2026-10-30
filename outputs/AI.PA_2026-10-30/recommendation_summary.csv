@@ -1,0 +1,2 @@
+ticker,company,exchange,currency,valuation_date,current_price,fair_value_low,fair_value_base,fair_value_high,recommended_price,upside_pct,rating,model_used,cost_of_equity,key_driver,confidence
+AI.PA,L'Air Liquide SA,Euronext Paris,EUR,2026-10-30,180.9,80.0,110.0,170.0,110.0,-39.2,Sell,"FCFF DCF + peer comparables (PE) + published EUROPE regressions (PE/PBV/EV-EBITDA)",8.24%,"WACC and OIR margin durability vs priced-in growth",medium
