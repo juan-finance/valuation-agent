@@ -3,6 +3,11 @@ name: valuation-4-recommendation
 description: Stage 4 of a company valuation. Combines the DCF and relative valuations with scenario and sensitivity analysis, reconciles the differences, discusses market expectations, compares with analyst recommendations and gives a fair value range, a recommended price and a Buy/Hold/Sell recommendation with visuals. Use after stages 2 and 3.
 ---
 
+# Setup
+Follow AGENTS.md section 1 and resume from run_state.json. Read only methodology/report_template.md, the scenario-driver part of
+sector_adjustments.md and qa_checklist.md block D, plus the files stages 1-3 produced (they are the evidence; do not recollect data).
+The report outline approval is read from memory/standing_approvals.md (`report_outline`); ask only if it says `not yet`.
+
 # Goal
 Final analyst recommendation for investors with medium to low technical knowledge. Academic
 exercise: the work is judged on the consistency and correctness of the decisions, not on
@@ -46,7 +51,7 @@ keep the structure easy to change.
   investment advice.
 - Run methodology/qa_checklist.md before delivering. Report data gaps.
 - Before writing the report, follow methodology/report_template.md: propose the outline in
-  report_outline.md. If the user already approved scope/outline, reuse that approval;
+  report_outline.md. If the user already approved scope/outline (see memory/standing_approvals.md), reuse that approval;
   otherwise ask for approval and keep doing independent work (QA, figures, workbooks,
   recommendation_summary.csv) in the meantime. Build report.pdf once the outline is
   approved or the user explicitly authorizes proceeding without it. Deliver the Excel
@@ -54,3 +59,7 @@ keep the structure easy to change.
   (comparables.csv, multiples_summary.csv, comparables_report.md, DATA_BASE_MSCI.xlsx,
   regression_valuation.xlsx, valuation_multiples.csv, valuation_summary.md) and all
   figures as PNG. relative_model.xlsx no longer exists.
+
+# End of stage
+Update run_state.json, write memory/companies/<ticker>.md (final result pointer, what the market may be mispricing, open questions) and memory/lessons.md
+(four questions in memory/README.md), append timings to memory/run_log.csv, commit, and post the short final message.
