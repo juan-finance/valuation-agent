@@ -8,7 +8,7 @@ and write your answer back here.
 - mode: standard                       # standard | full   (see AGENTS.md section 2)
 - regression_route: published_damodaran   # published_damodaran | own_estimation. Set 2026-10-30 at the user's request: use the registered Damodaran equations instead of estimating
                                           # own regressions (methodology/regression_published_route.md). Change to own_estimation to re-enable the full regression procedure.
-- published_route_allow_fundamental_growth: TBD   # yes | no. The published equations need ANALYST growth (g_eps, g_rev). yes = may substitute our fundamental growth, labelled; no = unavailable.
+- published_route_allow_fundamental_growth: yes   # yes | no. The published equations need ANALYST growth (g_eps, g_rev). yes = may substitute our fundamental growth, labelled; no = unavailable.
 - damodaran_dfr_tax_units: decimal      # DFR = total debt/(total debt + market equity); tax_rate = effective tax rate. Enter as decimals (30% = 0.30), same as all other inputs (section 3). Basis: Facebook example. Set by user 2026-10-30.
 - data_route_stage3: TBD               # terminal_export | web_full | web_minimum. Needed for own_estimation and for collecting comparable-candidate data; web_minimum = Utilities, Energy, Industrials, Materials only
 - terminal_export_available: TBD       # yes/no. If yes, put the export file in cache/market/<date>/export/ and name the terminal below
