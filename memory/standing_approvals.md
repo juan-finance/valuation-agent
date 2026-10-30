@@ -22,7 +22,7 @@ and write your answer back here.
 - proceed_without_waiting_when_non_critical: yes
 
 ## Approved deviations from the procedures (each must be explicit; empty = none)
-<!-- Example: "lazy_exclusion_check: verify ownership/restructuring exclusions only for candidates that would enter the selected 20"
+<!-- Example: "lazy_exclusion_check: verify ownership/restructuring exclusions only for candidates that would enter the selected peer set"
      Without an entry here, the agent applies every rule as written. -->
 - regression_route: published_damodaran (user request 2026-10-30; replaces own estimation of the regressions, with the limits listed in methodology/regression_published_route.md section 6)
 
