@@ -18,9 +18,28 @@ Scope depends on how stage 3 is invoked:
 - **A subset requested directly:** run that subset in batch layout and state it.
 Never label a partial run as 400 peer rows or 20 completed targets. Reuse one dated market dataset across targets. The 20 targets, each target's 20 peers and the regression universe are different sets.
 
+# Execution architecture (efficiency; no method change)
+The broad market dataset and the A/B/C regression fits do not depend on the target company. They are built ONCE per valuation date by
+stage 0 (`valuation-0-market-refresh`) and stored in `cache/market/<valuation date>/`. A company run (this stage, "3B") reads them.
+
+| Work | Where | Frequency |
+|---|---|---|
+| Market universe, DATA_BASE_MSCI.xlsx, all regression fits, all-target regression predictions, regression_valuation.xlsx, independent LINEST check | stage 0 | once per date |
+| Comparable candidate pool and scoring metrics | read from cached DATA_BASE_MSCI.xlsx (collect fresh data only for candidates outside the cache, e.g. World relaxation) | per target, no re-collection |
+| Tiers, hard exclusions, similarity scores, constrained selection, multiple statistics, adjustments | `src/valuation_agent/comparables.py` once tiers/exclusions are decided by you | per target |
+| Business-description review, ownership/restructuring checks, ISIN verification, pure-play segment test, primary multiple choice, report text | agent judgement, recorded in the method reports | per target |
+| Regression deliverable for the target | copy the cached workbook, extract the target's rows into valuation_multiples.csv, apply the target-level pure-play and typicality routing, write valuation_summary.md | per target |
+
+Rules (route `own_estimation`; under `published_damodaran` no regression cache is needed, and comparable-candidate data collected for one target is cached in
+`cache/market/<valuation date>/candidates/<ticker>.csv` and reused by the next target): if `cache/market/<valuation date>/MANIFEST.md` is missing, stop the affected work and ask the user once whether to run stage 0 now (default: in
+a separate session); never rebuild the market dataset inside a company run. Do NOT re-estimate the regressions in a company run unless the cached fits are missing
+or their manifest hash does not match; if you do, say why. Inherit the cache's human-review status (Spot_check pending = draft). In `standard` mode skip the optional
+one-driver peer fit and supplementary multiples; `full` mode includes them. Apply the exclusion screens exactly as written unless the user listed an approved
+deviation (for example lazy ownership verification) in memory/standing_approvals.md. Read map: AGENTS.md section 3.
+
 # Shared setup
 
-1. Inventory the target list, source data pack, available terminal exports and the existing DCF. There is no group workbook and none will be supplied: do your own research. Build peer candidates from issuer-named competitors, same-industry screens and your own searches as data_sources.md specifies, and cross-check target figures against the annual reports. Do not ask the user for a group workbook and never reconstruct or invent one. Reuse an already agreed data route; otherwise ask whether a terminal export is available before collecting market data. Terminal access in general is not proof that an export exists. Continue dataset/schema preparation while awaiting a required input.
+1. Inventory the target list, source data pack, available terminal exports and the existing DCF. There is no group workbook and none will be supplied: do your own research. Build peer candidates from issuer-named competitors, same-industry screens and your own searches as data_sources.md specifies, and cross-check target figures against the annual reports. Do not ask the user for a group workbook and never reconstruct or invent one. The data route is in memory/standing_approvals.md and in the cache manifest; ask only if both are blank. Terminal access in general is not proof that an export exists. Continue dataset/schema preparation while awaiting a required input.
 2. Prefer one terminal export; if unavailable, use the specified single-source web route and reduced regression universe. Follow the stage 3 source rules, which override the generic DCF source flexibility for these datasets.
 3. Record valuation date, information cutoff, FX convention, fiscal/TTM/forward basis, common share perimeter, raw and normalized units, route and all thresholds before calculations. Default earnings basis is FY2025; keep separately named TTM and forward series. Never combine them in a statistic or equation.
 4. Compute ratios from raw fields. Preserve observations and original sources; apply only the documented fallbacks, with original/replacement values logged. Do not impute other missing data or change sources for one web row.
@@ -34,9 +53,13 @@ Never label a partial run as 400 peer rows or 20 completed targets. Reuse one da
 
 # Method 2 — regressions
 
+**Route first.** Read `regression_route` in memory/standing_approvals.md. `published_damodaran`: skip steps 9-13 below and follow
+[regression_published_route.md](../../../methodology/regression_published_route.md) (equations from the data library via `datasets.equation_for`; no market dataset, no
+estimation, no residual bands; unit policy and input definitions per that file). `own_estimation`: steps 9-13 as written. If the field is `TBD`, ask once and write the answer back.
+
 9. Build DATA_BASE_MSCI.xlsx once from the full permitted market; retain all target rows. Do not use the hand-selected peer lists as the estimation sample. Apply model-specific eligibility, beta replacement, 1%/99% continuous-variable winsorization and count gates.
 10. Estimate PE, PBV, PS and EVEBITDA in A, B and C wherever valid. B and C must share the same model-specific market rows and transformed continuous data. Follow the Europe-to-World ladder and dummy coding; C never has sector or region dummies.
-11. Use live Excel formulas for transformations, OLS statistics, diagnostics and valuations. Extract LINEST coefficients in reverse X order; recalculate and independently check the same fitted design outside Excel. Never substitute a published Damodaran equation for estimating these models.
+11. Use live Excel formulas for transformations, OLS statistics, diagnostics and valuations. Extract LINEST coefficients in reverse X order; recalculate and independently check the same fitted design outside Excel. In this route never substitute a published Damodaran equation for estimating these models (the published route is a separate, user-approved route).
 12. For each target/model, apply the pure-play, percentile and sector-model-validity tests to select A or B. Rank eligible routed models by adjusted R² under the project's selection rule; output one chosen prediction and the next two eligible alternatives. Show A/B/C predictions for the same chosen multiple and explain differences without claiming they prove causality.
 13. Apply residual-band classifications and D1–D10 diagnostics. Keep failed/low-quality models visible but restrict conclusions as required. Run triggered outlier/VIF robustness models separately. Benchmark matching equations against Damodaran; unavailable matching equations remain unavailable.
 
@@ -44,7 +67,7 @@ Never label a partial run as 400 peer rows or 20 completed targets. Reuse one da
 
 14. Report comparables and regression point estimates separately, then compare with the existing DCF and current price. Explain differences in earnings basis, universe, margin/growth/risk, EV adjustments and market conditions. Never choose peers, models, multiples or weights because they move a result toward DCF.
 15. Preserve peer-set, quartile and multiple sensitivities, distribution/football-field charts and industry discussion from the former skill. Do not average all multiples or rank higher valuations merely because the target is large. A combined final recommendation requires an explicit stage 4 rationale; it does not overwrite either independent method.
-16. Run the stage 3 QA checklist. Stop only the affected work when an input/method is blocked; complete independent work. Do not mark an unrecalculated workbook, unresolved data failure or pending required human review as final/verified.
+16. Run the stage 3 QA checklist (block C, once; items already verified at stage 0 are cited from the cache MANIFEST, not repeated). After delivery update run_state.json, write memory/companies/<ticker>.md and memory/sectors/ entries (peer-set rationale, primary multiple, quirks), append timings to memory/run_log.csv, post the short message and end the session. Stop only the affected work when an input/method is blocked; complete independent work. Do not mark an unrecalculated workbook, unresolved data failure or pending required human review as final/verified.
 
 # Deliverables
 
@@ -52,7 +75,8 @@ Single-target (orchestrator) run: outputs/<ticker>_<valuation-date>/relative/. B
 
 **Comparables — three core files:** comparables.csv, multiples_summary.csv, comparables_report.md.
 
-**Regression — four core files:** DATA_BASE_MSCI.xlsx, regression_valuation.xlsx, valuation_multiples.csv, valuation_summary.md.
+**Regression — four core files:** DATA_BASE_MSCI.xlsx, regression_valuation.xlsx, valuation_multiples.csv, valuation_summary.md (route `published_damodaran`: three files,
+no DATA_BASE_MSCI.xlsx, contents per regression_published_route.md section 7).
 
 The procedures specify exact schemas, workbook sheets, diagnostics and report headings. Put peer-selection audit/Spot_check schedules in DATA_BASE_MSCI.xlsx when both methods run, separated from regression input; put charts in workbooks. Continue the shared source_log.csv and qa_results.md. These shared audit files are not additional valuation-method outputs. For a comparables-only run, an explicitly labelled comparables_audit.xlsx is permitted to satisfy the audit-sheet requirement; do not create fake regression outputs.
 
