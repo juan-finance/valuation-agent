@@ -1,0 +1,33 @@
+# Standing approvals and run parameters (USER EDITS THIS FILE; the agent only reads it)
+
+The agent must not ask again for anything answered here. Leave a field as `TBD` if you have not decided; the agent will then ask once
+and write your answer back here.
+
+## Run parameters
+- batch_valuation_date: TBD            # one common date for all companies, YYYY-MM-DD. Market data is built once per date.
+- mode: standard                       # standard | full   (see AGENTS.md section 2)
+- regression_route: published_damodaran   # published_damodaran | own_estimation. Set 2026-10-30 at the user's request: use the registered Damodaran equations instead of estimating
+                                          # own regressions (methodology/regression_published_route.md). Change to own_estimation to re-enable the full regression procedure.
+- published_route_allow_fundamental_growth: TBD   # yes | no. The published equations need ANALYST growth (g_eps, g_rev). yes = may substitute our fundamental growth, labelled; no = unavailable.
+- damodaran_dfr_tax_units: TBD          # decimal | percent_points | unverified. How DFR and Tax rate enter the published equations (see regression_published_route.md section 4). Fill once verified.
+- data_route_stage3: TBD               # terminal_export | web_full | web_minimum. Needed for own_estimation and for collecting comparable-candidate data; web_minimum = Utilities, Energy, Industrials, Materials only
+- terminal_export_available: TBD       # yes/no. If yes, put the export file in cache/market/<date>/export/ and name the terminal below
+- terminal_name: TBD                   # Bloomberg | LSEG Workspace | Capital IQ
+- companies_in_scope: TBD              # all 20, or list tickers; order of valuation
+- report_language_and_format: TBD      # e.g. English, PDF
+
+## Approvals already given (the agent reuses these instead of asking)
+- report_outline: TBD                  # approved | approved with changes: <...> | not yet. If approved, the agent builds the report after stage 3.
+- scope_one_company_per_run: yes
+- proceed_without_waiting_when_non_critical: yes
+
+## Approved deviations from the procedures (each must be explicit; empty = none)
+<!-- Example: "lazy_exclusion_check: verify ownership/restructuring exclusions only for candidates that would enter the selected 20"
+     Without an entry here, the agent applies every rule as written. -->
+- regression_route: published_damodaran (user request 2026-10-30; replaces own estimation of the regressions, with the limits listed in methodology/regression_published_route.md section 6)
+
+## Stage 4 calibration (the professor will calibrate later)
+- stage4_calibration_notes: TBD
+
+## Authorized extra data the agent may use
+- user-attached files: list them here with what they contain (LSEG normalised values, analyst reports, ...)

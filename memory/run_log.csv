@@ -1,0 +1,5 @@
+run_id,company,mode,stage,status,elapsed_min,finished
+pilot_1company,(not recorded),unknown,stage1_data,done,9,n/a
+pilot_1company,(not recorded),unknown,stage2_dcf,done,17,n/a
+pilot_1company,(not recorded),unknown,stage3_relative,not_finished,>40,n/a
+pilot_1company,(not recorded),unknown,stage4_recommendation,not_run_quota,,n/a
