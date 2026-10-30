@@ -1,0 +1,179 @@
+country,rp_region,region_code,preferred_regions,confidence,note
+Abu Dhabi,Middle East,GLOBAL,,medium,Middle East: no regional group in the supplied files; Global is the fallback.
+Albania,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Andorra (Principality of),Western Europe,EUROPE,,high,
+Angola,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Argentina,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Armenia,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Aruba,Caribbean,GLOBAL,,medium,Caribbean: no regional group in the supplied files; Global is the fallback.
+Australia,Australia & New Zealand,ANZCA,,high,
+Austria,Western Europe,EUROPE,,high,
+Azerbaijan,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Bahamas,Caribbean,GLOBAL,,medium,Caribbean: no regional group in the supplied files; Global is the fallback.
+Bahrain,Middle East,GLOBAL,,medium,Middle East: no regional group in the supplied files; Global is the fallback.
+Bangladesh,Asia,EM,,medium,
+Barbados,Caribbean,GLOBAL,,medium,Caribbean: no regional group in the supplied files; Global is the fallback.
+Belarus,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Belgium,Western Europe,EUROPE,,high,
+Belize,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Benin,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Bermuda,Caribbean,GLOBAL,,medium,Caribbean: no regional group in the supplied files; Global is the fallback.
+Bolivia,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Bosnia and Herzegovina,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Botswana,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Brazil,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Bulgaria,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Burkina Faso,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Cambodia,Asia,EM,,medium,
+Cameroon,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Canada,North America,ANZCA,ANZCA|US|GLOBAL,medium,The published regressions group Canada with Australia and NZ; US is a separate set.
+Cape Verde,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Cayman Islands,Caribbean,GLOBAL,,medium,Caribbean: no regional group in the supplied files; Global is the fallback.
+Chile,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+China,Asia,EM,CHINA|EM|GLOBAL,medium,Uses a dedicated China dataset if one is registered.
+Colombia,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Congo (Democratic Republic of),Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Congo (Republic of),Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Cook Islands,Australia & New Zealand,ANZCA,,low,Tiny territory; grouping assumed.
+Costa Rica,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Côte d'Ivoire,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Croatia,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Cuba,Caribbean,GLOBAL,,medium,Caribbean: no regional group in the supplied files; Global is the fallback.
+Curacao,Caribbean,GLOBAL,,medium,Caribbean: no regional group in the supplied files; Global is the fallback.
+Cyprus,Western Europe,EUROPE,,high,
+Czech Republic,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Denmark,Western Europe,EUROPE,,high,
+Dominican Republic,Caribbean,GLOBAL,,medium,Caribbean: no regional group in the supplied files; Global is the fallback.
+Ecuador,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Egypt,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+El Salvador,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Estonia,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Ethiopia,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Fiji,Asia,EM,,medium,
+Finland,Western Europe,EUROPE,,high,
+France,Western Europe,EUROPE,,high,
+Gabon,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Georgia,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Germany,Western Europe,EUROPE,,high,
+Ghana,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Greece,Western Europe,EUROPE,,high,
+Guatemala,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Guernsey (States of),Western Europe,EUROPE,,high,
+Honduras,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Hong Kong,Asia,EM,,low,Developed or semi-developed Asian market: whether Damodaran includes it in the emerging-markets group is not stated in the files.
+Hungary,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Iceland,Western Europe,EUROPE,,high,
+India,Asia,EM,INDIA|EM|GLOBAL,medium,Uses a dedicated India dataset if one is registered.
+Indonesia,Asia,EM,,medium,
+Iraq,Middle East,GLOBAL,,medium,Middle East: no regional group in the supplied files; Global is the fallback.
+Ireland,Western Europe,EUROPE,,high,
+Isle of Man,Western Europe,EUROPE,,high,
+Israel,Middle East,GLOBAL,,medium,Middle East: no regional group in the supplied files; Global is the fallback.
+Italy,Western Europe,EUROPE,,high,
+Jamaica,Caribbean,GLOBAL,,medium,Caribbean: no regional group in the supplied files; Global is the fallback.
+Japan,Asia,JAPAN,,high,
+Jersey (States of),Western Europe,EUROPE,,high,
+Jordan,Middle East,GLOBAL,,medium,Middle East: no regional group in the supplied files; Global is the fallback.
+Kazakhstan,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Kenya,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Korea,Asia,EM,,low,Developed or semi-developed Asian market: whether Damodaran includes it in the emerging-markets group is not stated in the files.
+Kuwait,Middle East,GLOBAL,,medium,Middle East: no regional group in the supplied files; Global is the fallback.
+Kyrgyzstan,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Laos,Asia,EM,,medium,
+Latvia,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Lebanon,Middle East,GLOBAL,,medium,Middle East: no regional group in the supplied files; Global is the fallback.
+Liechtenstein,Western Europe,EUROPE,,high,
+Lithuania,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Luxembourg,Western Europe,EUROPE,,high,
+Macao,Asia,EM,,low,Developed or semi-developed Asian market: whether Damodaran includes it in the emerging-markets group is not stated in the files.
+Macedonia,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Malaysia,Asia,EM,,medium,
+Maldives,Asia,EM,,medium,
+Mali,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Malta,Western Europe,EUROPE,,high,
+Mauritius,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Mexico,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Moldova,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Mongolia,Asia,EM,,medium,
+Montenegro,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Montserrat,Caribbean,GLOBAL,,medium,Caribbean: no regional group in the supplied files; Global is the fallback.
+Morocco,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Mozambique,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Namibia,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Nepal,Asia,EM,,medium,
+Netherlands,Western Europe,EUROPE,,high,
+New Zealand,Australia & New Zealand,ANZCA,,high,
+Nicaragua,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Niger,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Nigeria,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Norway,Western Europe,EUROPE,,high,
+Oman,Middle East,GLOBAL,,medium,Middle East: no regional group in the supplied files; Global is the fallback.
+Pakistan,Asia,EM,,medium,
+Panama,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Papua New Guinea,Asia,EM,,medium,
+Paraguay,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Peru,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Philippines,Asia,EM,,medium,
+Poland,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Portugal,Western Europe,EUROPE,,high,
+Qatar,Middle East,GLOBAL,,medium,Middle East: no regional group in the supplied files; Global is the fallback.
+Ras Al Khaimah (Emirate of),Middle East,GLOBAL,,medium,Middle East: no regional group in the supplied files; Global is the fallback.
+Romania,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Rwanda,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Saudi Arabia,Middle East,GLOBAL,,medium,Middle East: no regional group in the supplied files; Global is the fallback.
+Senegal,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Serbia,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Sharjah,Middle East,GLOBAL,,medium,Middle East: no regional group in the supplied files; Global is the fallback.
+Singapore,Asia,EM,,low,Developed or semi-developed Asian market: whether Damodaran includes it in the emerging-markets group is not stated in the files.
+Slovakia,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Slovenia,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Solomon Islands,Asia,EM,,medium,
+South Africa,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Spain,Western Europe,EUROPE,,high,
+Sri Lanka,Asia,EM,,medium,
+St. Maarten,Caribbean,GLOBAL,,medium,Caribbean: no regional group in the supplied files; Global is the fallback.
+St. Vincent & the Grenadines,Caribbean,GLOBAL,,medium,Caribbean: no regional group in the supplied files; Global is the fallback.
+Suriname,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Swaziland,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Sweden,Western Europe,EUROPE,,high,
+Switzerland,Western Europe,EUROPE,,high,
+Taiwan,Asia,EM,,low,Developed or semi-developed Asian market: whether Damodaran includes it in the emerging-markets group is not stated in the files.
+Tajikistan,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Tanzania,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Thailand,Asia,EM,,medium,
+Togo,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Trinidad and Tobago,Caribbean,GLOBAL,,medium,Caribbean: no regional group in the supplied files; Global is the fallback.
+Tunisia,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Turkey,Western Europe,EUROPE,,low,Listed under Western Europe in the risk-premium file; Turkey is usually treated as an emerging market. Confirm before using a Europe dataset.
+Turks and Caicos Islands,Caribbean,GLOBAL,,medium,Caribbean: no regional group in the supplied files; Global is the fallback.
+Uganda,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Ukraine,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+United Arab Emirates,Middle East,GLOBAL,,medium,Middle East: no regional group in the supplied files; Global is the fallback.
+United Kingdom,Western Europe,EUROPE,,high,
+United States,North America,US,,high,
+Uruguay,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Uzbekistan,Eastern Europe & Russia,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Venezuela,Central and South America,EM,,medium,"Regression file describes emerging markets as Asia, Eastern Europe and Latin America."
+Vietnam,Asia,EM,,medium,
+Zambia,Africa,GLOBAL,,medium,Africa: no regional group in the supplied files; Global is the fallback.
+Algeria,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Brunei,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Gambia,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Guinea,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Guinea-Bissau,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Guyana,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Haiti,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Iran,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+"Korea, D.P.R.",n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Liberia,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Libya,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Madagascar,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Malawi,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Myanmar,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Russia,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Sierra Leone,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Somalia,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Sudan,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Syria,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+"Yemen, Republic",n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."
+Zimbabwe,n/a (frontier table has no Region column),GLOBAL,,low,"Frontier market, regional group not assigned in the file."

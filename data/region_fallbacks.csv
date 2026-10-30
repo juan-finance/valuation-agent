@@ -1,0 +1,9 @@
+region_code,fallback_chain,note
+US,US|GLOBAL,
+EUROPE,EUROPE|GLOBAL,Damodaran Europe = Western Europe and UK
+JAPAN,JAPAN|GLOBAL,
+ANZCA,ANZCA|GLOBAL,"Australia, New Zealand and Canada"
+EM,EM|GLOBAL,"Asia, Eastern Europe and Latin America"
+INDIA,INDIA|EM|GLOBAL,reserved: add a dataset with region INDIA
+CHINA,CHINA|EM|GLOBAL,reserved: add a dataset with region CHINA
+GLOBAL,GLOBAL,

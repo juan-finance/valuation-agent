@@ -1,0 +1,24 @@
+family,logical_name,header_aliases,kind,note
+beta,n_firms,Number of firms,count,
+beta,beta_levered,Beta,number,
+beta,de_ratio,D/E Ratio,pct,market D/E of the industry aggregate
+beta,effective_tax,Effective Tax rate,pct,not the marginal rate used for unlevering
+beta,beta_unlevered,Unlevered beta,number,
+beta,cash_firm_value,Cash/Firm value,pct,
+beta,beta_unlevered_cash_corrected,Unlevered beta corrected for cash,number,the bottom-up beta input of dcf_procedure.md section 7
+beta,std_dev_equity,Standard deviation of equity,pct,
+capex,n_firms,Number of Firms,count,
+capex,capex_usd_m,Capital Expenditures (US $ millions),usd_m,aggregate
+capex,da_usd_m,Depreciation & Amort (US $ millions),usd_m,aggregate
+capex,capex_to_depreciation,Cap Ex / Deprecn,pct,
+capex,net_capex_to_sales,Net Cap Ex / Sales,pct,
+capex,net_capex_to_ebit_1mt,Net Cap Ex / EBIT (1-t),pct,dcf_procedure.md section 3 benchmark; extreme values are not meaningful (see check_dataset)
+capex,sales_to_invested_capital,Sales / Invested Capital (LTM),number,
+ctryprem,rating,Moody's Rating,text,
+ctryprem,region,Region,text,file-specific region label
+ctryprem,default_spread,Rating-based Default Spread|Adj. Default Spread|Default Spread,pct,"This vintage has no column named ""Adj. Default Spread"" (the procedure's wording). The rating-based spread equals the rating lookup table (checked). Record this mapping in dcf_decisions.md."
+ctryprem,total_erp,Total ERP|Total Equity Risk Premium|ERP,pct,
+ctryprem,crp,Country Risk Premium (CRP)|Country Risk Premium|CRP,pct,"equity CRP, the column used in Ke (not the default spread)"
+ctryprem,cds_net_swiss,Sovereign CDS net of Swiss,pct,
+ctryprem,total_erp_cds,Total ERP (CDS based),pct,
+ctryprem,crp_cds,CRP (CDS based),pct,
