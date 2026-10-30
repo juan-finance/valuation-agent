@@ -6,7 +6,7 @@ description: Stage 1 of a company valuation. Confirms company identity, ticker a
 # Goal
 Produce a verified, normalized data pack for ONE company. Setup (few minutes): follow AGENTS.md section 1, read
 memory/companies/<ticker>.md, and read only methodology/data_sources.md (input map and source_log fields) and qa_checklist.md block A.
-For definitions, grep knowledge/lecture-digest/ (do not open the PPTX files unless a doubt remains).
+For definitions, grep knowledge/lecture_digest/ (do not open the PPTX files unless a doubt remains).
 Use src/valuation_agent: anomaly.anomaly_table for step 5, sourcelog.SourceLog for step 6, runstate.RunState for checkpoints. Where my rules and the lecture notes differ, the lecture notes win; next
 come the methodology procedures (methodology/dcf_procedure.md, which encodes Steps in Company
 Valuation.docx together with its recorded corrections). See the precedence rules in the
@@ -29,8 +29,10 @@ company-valuation skill.
 4. For missing or unusable values, normalize in this order:
    - a. Normalized value from Thomson Reuters/LSEG, ONLY if the user attached it.
    - b. Average of past years' ROE or debt ratio, if that ratio is stable. State the test used.
-   - c. If not stable, Damodaran industry data (Europe first, then global):
-      https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html
+   - c. If not stable, Damodaran industry data (Europe first, then global), obtained ONLY via
+      `datasets.resolve` (families it lacks come from cache/damodaran/, see step 1). If the resolver
+      reports the dataset missing, ask the user to supply it; never read it straight from the website.
+      (For locating the file only: https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html)
 5. ANOMALY CHECK (very important). For each line item compute the year-on-year change and
    the deviation from the 5-year average. Flag changes above +/-30% (default threshold).
    For each flag, in this order:
