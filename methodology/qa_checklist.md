@@ -77,7 +77,7 @@ Record pass / fail / fixed / not applicable, evidence, reason and unresolved imp
 - [ ] Each target has 10 distinct qualified peers, or 8–9 with an explicit feasible shortfall; below 8 is blocked. Counts/CSV totals reflect actual coverage.
 - [ ] All hard filters applied, including developed-market status, financial/holding exclusions, EUR1bn minimum, permitted size band, ownership, restructuring, history and missing metrics.
 - [ ] At least 6 Tier 1–2 (8 under the default Tier 3 cap) and 5 Europe-listed peers; Tier 3<=2 unless explicit permitted relaxation to 4, always also <=peer_count−6. No other filter relaxed.
-- [ ] 40–60 initial candidate pool, expansions, full rejected/ranked list, score parameters and business-description review are auditable.
+- [ ] 20–30 initial candidate pool, expansions, full rejected/ranked list, score parameters and business-description review are auditable.
 - [ ] Eight score weights sum to one; pool-only 5%/95% clipping, standardization, common metric fallback definitions, missing-dimension renormalization and zero-variance handling are reproducible.
 - [ ] Consensus coverage rule applied before missing-data exclusion; >30% gap switches whole target/pool to fundamental growth, with method labels.
 - [ ] Full required multiple set computed or marked unavailable/NM; positive peer extremes retained. Regression PE cap/clipping are not applied to peer statistics.

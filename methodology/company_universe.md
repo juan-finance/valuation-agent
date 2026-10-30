@@ -45,7 +45,7 @@ The table above is the TARGET list. It is neither a list of preapproved peers no
 | Regression A | Industry → Industry Group with specified Europe/World ladder; World Sector last | At least 30 valid observations per fitted model; not a peer-set regression |
 | Regression B/C | Same market rows per multiple model | B has sector and applicable region dummies; C none |
 
-Verify GICS Sector/Industry Group/Industry as dated fields. Internal buckets A–F are not GICS and must not become regression dummy values. For web mappings, distinguish inferred classifications from verified codes; ambiguous classification must not silently determine sector selection or typicality. Record both MSCI market classification and listing location because developed-market eligibility and the at-least-ten-Europe-listed peer rule are different tests.
+Verify GICS Sector/Industry Group/Industry as dated fields. Internal buckets A–F are not GICS and must not become regression dummy values. For web mappings, distinguish inferred classifications from verified codes; ambiguous classification must not silently determine sector selection or typicality. Record both MSCI market classification and listing location because developed-market eligibility and the at-least-five-Europe-listed peer rule are different tests.
 
 Relative-method business mapping: EDPR/Ørsted = renewable power; Iberdrola/Enel/SSE/ENGIE/Verbund = utilities; Vestas/Siemens Energy = power equipment; Schneider/Prysmian/NKT = electrical equipment and cables; TotalEnergies/Shell/BP/Equinor = oil/gas; Neste = renewable fuels; Air Liquide = gases; Alfa Laval = machinery; ArcelorMittal = steel. Verify main business/segment mix rather than asserting every issuer is a pure play.
 
