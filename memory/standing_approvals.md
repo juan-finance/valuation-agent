@@ -25,6 +25,7 @@ and write your answer back here.
 <!-- Example: "lazy_exclusion_check: verify ownership/restructuring exclusions only for candidates that would enter the selected peer set"
      Without an entry here, the agent applies every rule as written. -->
 - regression_route: published_damodaran (user request 2026-10-30; replaces own estimation of the regressions, with the limits listed in methodology/regression_published_route.md section 6)
+- one_session_per_company: run stages 1-4 for one company in a single session, checkpointing run_state.json and committing after each stage. QA checklist blocks run once, at the end of the company, and only failures are fixed.
 
 ## Stage 4 calibration (the professor will calibrate later)
 - stage4_calibration_notes: TBD
