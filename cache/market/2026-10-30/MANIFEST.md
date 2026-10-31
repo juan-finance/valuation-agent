@@ -42,3 +42,11 @@ check_dataset findings (regressions_multi_2026-01): warnings — GLOBAL PEG ln(g
 - Spot_check: pending (no human review claimed).
 - ratings fallback to GLOBAL recorded; regressions vintage flag recorded.
 - MSCI World membership list NOT fetched (only needed if candidate relaxation reaches step (a)); Japan candidate Nippon Sanso fetched but needs World-membership verification if used.
+
+## MT.AS-only top-up — 2026-10-31
+- User changed companies_in_scope to MT.AS only; existing AI.PA assets, universe list, FX and EUR yield preserved. No candidate data collected in stage 0.
+- Country Luxembourg, reporting currency USD. Added Luxembourg Aaa/default spread 0/CRP 0 and USD benchmark issuer United States Aa1/default spread 0.22%/CRP 0.22%, from registered ctryprem_global_2026-07. These are not substitutes for the company's revenue-weighted CRP.
+- Added Treasury 10-year par yield **4.94%**, observation 2026-10-30, accessed 2026-10-31 (official Treasury CSV; exact URL in macro snapshot). Default-free USD Rf **4.72%** after subtracting benchmark-issuer spread 0.22%. FRED's then-latest observation was Oct 29 (4.98%); not used because same-day Treasury data is available.
+- Country-specific resolutions and EUROPE PE/PBV/EV-EBITDA equations saved in topup_MT.AS.json. Existing completed library integrity checks reused; no library dataset redownloaded. Ratings GLOBAL fallback is representative as a common corporate coverage-to-spread cross-check, not as a European industry debt ratio.
+- Existing regression warnings/Jan-2026 vintage limitations and Spot_check pending status remain unchanged. No universe rebuild or own-estimation work.
+- Reproducible top-up: PYTHONPATH=src python cache/market/2026-10-30/topup_mt.py; assertions verify old EUR, ERP, FX and other snapshot fields unchanged.

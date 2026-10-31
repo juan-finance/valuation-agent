@@ -13,7 +13,7 @@ and write your answer back here.
 - data_route_stage3: web_minimum       # terminal_export | web_full | web_minimum. Needed for own_estimation and for collecting comparable-candidate data; web_minimum = Utilities, Energy, Industrials, Materials only. Set 2026-10-30: AI.PA is bucket D (industrials), inside web_minimum coverage.
 - terminal_export_available: no        # yes/no. If yes, put the export file in cache/market/<date>/export/ and name the terminal below
 - terminal_name: n/a                   # Bloomberg | LSEG Workspace | Capital IQ (no terminal export available)
-- companies_in_scope: AI.PA only (pilot)  # all 20, or list tickers; order of valuation
+- companies_in_scope: MT.AS  # user confirmed MT.AS-only stage-0 top-up and stages 1-4 on 2026-10-31
 - report_language_and_format: English, PDF
 
 ## Approvals already given (the agent reuses these instead of asking)
