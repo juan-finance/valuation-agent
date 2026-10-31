@@ -39,10 +39,34 @@
       "elapsed_min": 5.0
     },
     "stage3_relative": {
-      "status": "pending",
-      "notes": [],
-      "outputs": [],
-      "next_step": ""
+      "status": "provisional",
+      "notes": [
+        "2026-10-31T16:34:07+00:00 Provisional peer PBV/ROE EUR76.7521277; published PBV EUR112.25839335; nine peers6Tier1/2,3Tier3,6Europe. EV primary unavailable. Ownership/event/classification audit, exact cutoff shares/close, benchmark median and human review remain open. Both live predictions and peer scores match <1e-9."
+      ],
+      "outputs": [
+        "relative/prepare_pool.py",
+        "relative/candidate_fetch_manifest.json",
+        "relative/multiples_summary.csv",
+        "relative/collect_candidates.py",
+        "relative/comparables_report.md",
+        "relative/candidate_raw.csv",
+        "relative/research_checkpoint.md",
+        "relative/comparables_audit.xlsx",
+        "relative/regression_results.json",
+        "relative/build_relative.py",
+        "relative/model_checks.json",
+        "relative/world_candidate_membership.csv",
+        "relative/candidate_gates.csv",
+        "relative/valuation_summary.md",
+        "relative/regression_valuation.xlsx",
+        "relative/comparables.csv",
+        "relative/peer_selection.json",
+        "relative/valuation_multiples.csv"
+      ],
+      "next_step": "stage4 report and final QA; resolve remaining evidence gates",
+      "started": "2026-10-31T16:19:23+00:00",
+      "finished": "2026-10-31T16:34:07+00:00",
+      "elapsed_min": 14.7
     },
     "stage4_recommendation": {
       "status": "pending",

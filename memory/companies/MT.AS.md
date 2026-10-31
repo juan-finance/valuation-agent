@@ -25,3 +25,10 @@ Status: sourced pack and provisional FCFF completed for2026-10-30. Exact cutoff 
 
 ## Open questions for the user
 -
+
+
+### MT stage3 checkpoint (added 2026-10-31, run MT.AS_2026-10-30)
+- fact / lesson: Stage3 uses nine preliminary peers after World/size/Tier3 relaxations: PBV/ROE76.75, published PBV112.26 EUR. These are not verified fair values; peer ownership/event/classification review and matching industry median remain open. EV associates not imputable. Source: outputs/MT.AS_2026-10-30/relative/comparables_report.md and valuation_summary.md.
+- confidence: medium; status: unverified
+- valid_until: vintage 2026-10-30
+- used for: relative valuation and final QA

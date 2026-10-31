@@ -1,0 +1,11 @@
+{
+  "formula_errors": 0,
+  "max_score_difference": 3.9968028886505635e-15,
+  "regression_differences": [
+    1.3322676295501878e-15,
+    3.197442310920451e-14
+  ],
+  "peer_PBV_difference": 5.684341886080802e-14,
+  "human_review": "pending",
+  "evidence_status": "provisional"
+}

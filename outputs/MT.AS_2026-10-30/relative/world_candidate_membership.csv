@@ -1,0 +1,11 @@
+Ticker,Name,Sector,Asset Class,Market Value,Weight (%),Notional Value,Quantity,Price,Location,Exchange,Currency,FX Rate,Market Currency,Accrual Date
+BHP,BHP GROUP LTD,Materials,Equity,"20,705,434.23",0.23,"20,705,434.23","511,429.00",40.49,Australia,Asx - All Markets,USD,1.42,AUD,-
+NUE,NUCOR,Materials,Equity,"6,179,709.92",0.07,"6,179,709.92","22,448.00",275.29,United States,NYSE,USD,1.0,USD,-
+STLD,STEEL DYNAMICS INC,Materials,Equity,"3,521,531.70",0.04,"3,521,531.70","13,890.00",253.53,United States,NASDAQ,USD,1.0,USD,-
+HEI,HEIDELBERG MATERIALS AG,Materials,Equity,"2,233,019.73",0.02,"2,233,019.73","13,230.00",168.78,Germany,Xetra,USD,0.9,EUR,-
+FMG,FORTESCUE LTD,Materials,Equity,"1,719,552.23",0.02,"1,719,552.23","167,448.00",10.27,Australia,Asx - All Markets,USD,1.42,AUD,-
+ANTO,ANTOFAGASTA PLC,Materials,Equity,"1,605,765.19",0.02,"1,605,765.19","36,674.00",43.78,United Kingdom,London Stock Exchange,USD,0.75,GBP,-
+HEI,HEICO,Industrials,Equity,"1,529,276.10",0.02,"1,529,276.10","4,686.00",326.35,United States,NYSE,USD,1.0,USD,-
+NHY,NORSK HYDRO,Materials,Equity,"945,766.31",0.01,"945,766.31","128,064.00",7.39,Norway,Oslo Bors Asa,USD,9.27,NOK,-
+YAR,YARA INTERNATIONAL,Materials,Equity,"661,046.91",0.01,"661,046.91","15,600.00",42.37,Norway,Oslo Bors Asa,USD,9.27,NOK,-
+BZU,BUZZI,Materials,Equity,"360,319.98",0.0,"360,319.98","7,844.00",45.94,Italy,Borsa Italiana,USD,0.9,EUR,-

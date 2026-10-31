@@ -20,3 +20,10 @@ What took longest? What did I do twice? Which rule was ambiguous? What would I t
 
 ## Proposed rule changes (the USER decides; the agent never edits methodology/)
 - (none yet)
+
+
+### MT stage3 checkpoint (added 2026-10-31, run MT.AS_2026-10-30)
+- fact / lesson: Longest: membership/ownership checks, not arithmetic. Repeated: SSAB class and GBP conversion fixed in cached parser; no refetch needed. Ambiguous: industry median unavailable, so never relabel regional aggregate as median. Next run: use dated standard-index proxy before scoring; provisional evidence is not a completed audit.
+- confidence: medium; status: unverified
+- valid_until: vintage 2026-10-30
+- used for: relative valuation and final QA

@@ -16,3 +16,10 @@ Fill after the FIRST real use of each source. Nothing below is assumed to work u
 | 10-year government yields (Bund, Gilt, ...) | Bundesbank BBSIS REST: `https://api.statistiken.bundesbank.de/rest/data/BBSIS/D.I.ZAR.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A?startPeriod=...&endPeriod=...` (csv via Accept: text/csv) | Bund 10y = 3.38% on 2026-10-30 | daily yield-curve-implied Bund 10y | param names are `startPeriod`/`endPeriod` (startDate returns full history); weekends show `.` | verified |
 
 | airliquide.com press-release PDFs | `https://www.airliquide.com/sites/airliquide.com/files/YYYY-MM/<slug>.pdf` | FY2025 + FY2023 PR PDFs fetched 2026-10-30 (200, ~0.7-1.5MB) | full consolidated IS/BS/CF inside (pp.36-39), net-debt bridge p.39 | plain curl or Chrome UA both work (403 only without UA header); 8-42 pages, pdftotext -layout extracts cleanly | verified (fetch) |
+
+
+### MT stage3 checkpoint (added 2026-10-31, run MT.AS_2026-10-30)
+- fact / lesson: Dated URTH (World standard) holdings distinguish standard large/mid members from IEUR IMI small caps. JFE was deleted Aug31 2026 in MSCI review. StockAnalysis SSAB.A route works; SSAB.B financial routes404; London history price is GBX even with GBP statistics. Normalized numerical snippets only, no redistribution of raw pages. Sources in MT relative/research_checkpoint.md.
+- confidence: medium; status: unverified
+- valid_until: vintage 2026-10-30
+- used for: relative valuation and final QA

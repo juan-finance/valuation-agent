@@ -11,3 +11,4 @@ AI.PA,stage4_recommendation,2026-10-30,35
 MT.AS_2026-10-30,ArcelorMittal,standard,stage0_market,done,0.7,2026-10-31
 MT.AS_2026-10-30,ArcelorMittal S.A.,standard,stage1_data,done,3.2,2026-10-31T16:13:33+00:00
 MT.AS_2026-10-30,ArcelorMittal S.A.,standard,stage2_dcf,provisional,5.0,2026-10-31T16:19:02+00:00
+MT.AS_2026-10-30,ArcelorMittal S.A.,standard,stage3_relative,provisional,14.7,2026-10-31T16:34:07+00:00
