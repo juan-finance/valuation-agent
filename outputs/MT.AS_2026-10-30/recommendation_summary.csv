@@ -1,0 +1,2 @@
+ticker,company,exchange,currency,valuation_date,current_price,fair_value_low,fair_value_base,fair_value_high,recommended_price,upside_pct,rating,model_used,cost_of_equity,key_driver,confidence,qa_status,portfolio_eligible
+MT.AS,ArcelorMittal S.A.,Euronext Amsterdam,EUR,2026-10-30,53.6,13.50351448319822,35.51164419483617,60.92154005654947,36.0,-32.835820895522396,Sell,"FCFF DCF (100%); provisional, not investment-ready",0.10902932612501742,midcycle EBITDA margin and reinvestment,low,provisional; material evidence gates unresolved,False

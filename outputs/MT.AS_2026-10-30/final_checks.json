@@ -1,0 +1,31 @@
+{
+  "status": "provisional",
+  "verified_complete": false,
+  "portfolio_eligible": false,
+  "checklist_counts": {
+    "PASS": 75,
+    "FAIL_OPEN": 14,
+    "N/A_PUBLISHED_ROUTE": 12
+  },
+  "open_failures": {
+    "A04": "Exact October30 common/diluted shares and independent exchange-close reconciliation unavailable. DCF estimates basic749.710746m plus3m dilution; vendor basic754.04m retained separately.",
+    "B03": "Signed EBIT reconciliation supplied, but NI tax/NCI allocation is estimated25%, not item-specific verified. NI estimates do not drive FCFF.",
+    "B09": "Existing lease debt/DA/ROU convention disclosed, but full additions/payment/current-scope reconciliation remains imperfect. No unqualified pass.",
+    "B25": "Actual and synthetic rating/spread checks supplied; current comparable bond YTM/CDS missing.",
+    "B28": "No double counting detected. Associates9937, NCI2003, pension1821 and debt fair premium295 use book/estimated-tax/fair-value proxies; material current claim valuation unverified.",
+    "B29": "FX/units and arithmetic reconcile, but cutoff shares/dilution are estimates and exchange close independently unavailable.",
+    "C03": "Selected numeric cap checks within2%; quote/report FX and GBX fixed. All class/treasury-share/ADR/perimeter evidence not independently completed.",
+    "C04": "Field extracts and dates supplied; primary industry/classification and some identifier/ownership evidence not fully verified. Source-policy conflict1667 versus3628 EBIT retained.",
+    "C05": "A matched industry median from the registered reference assets is unavailable. Regional aggregate is not mislabeled median; cannot complete benchmark-gap resolution.",
+    "C08": "Nine preliminary candidates satisfy count constraints after all ordered relaxations. They are NOT nine fully qualified audited peers yet; no padding.",
+    "C09": "Ownership >20%, FY24-25 restructuring and some classification/primary identifier checks not complete for every selected peer. Preliminary gates cannot be treated as passes.",
+    "C13": "Uniform approved fundamental proxy used; no verified whole-pool consensus-coverage percentage audit. No claimed analyst five-year growth.",
+    "C18": "EV before associates only. Required matched associate/perimeter adjustments cannot be completed; EV numbers are qualified checks, not primary fair values.",
+    "C19": "Three seeded mechanical EV checks present, but not all selected primary ISIN and inclusion evidence verified; human Spot_check pending."
+  },
+  "human_review": "pending",
+  "PDF_pages": 19,
+  "company_tests_passed": 15,
+  "workbook_errors": 0,
+  "registered_regression_sha256": "a894ea86f209d59c68c57ba5674ee096ee875cf9726af2cfe84ec212af1d9bf5"
+}

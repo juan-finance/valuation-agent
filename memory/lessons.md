@@ -27,3 +27,10 @@ What took longest? What did I do twice? Which rule was ambiguous? What would I t
 - confidence: medium; status: unverified
 - valid_until: vintage 2026-10-30
 - used for: relative valuation and final QA
+
+
+### MT report handoff (added 2026-10-31, run MT.AS_2026-10-30)
+- fact / lesson: Longest work: standard-index and hard-gate peer evidence. Repeated work: metadata field dates/currencies corrected at finalQA, preserving source policy. Ambiguity: PBV/ROE can proxy PE and amplifies reported one-off NI; isolated bargain-gain stress is not full peer normalization. Next run: collect normalized peer evidence and consensus-coverage audit before scoring; stop provisional rather than pad unverified peers. Evidence: MT.AS report chapters7–10 and finalQA.
+- confidence: low; status: unverified
+- valid_until: vintage 2026-10-30
+- used for: company evidence review

@@ -69,10 +69,35 @@
       "elapsed_min": 14.7
     },
     "stage4_recommendation": {
-      "status": "pending",
-      "notes": [],
-      "outputs": [],
-      "next_step": ""
+      "status": "provisional",
+      "notes": [
+        "2026-10-31T16:41:57+00:00 Provisional report19pages; academic Sell EUR36 vs53.60 (-32.8358%); intrinsic base35.511644, bear/bull13.50/60.92. Independent peers76.752128 and published PBV112.258393. Final QA75pass14FAIL_OPEN12n/a; no verified completion; portfolio_eligible=False."
+      ],
+      "outputs": [
+        "report.pdf",
+        "report.md",
+        "report_outline.md",
+        "recommendation_summary.csv",
+        "qa_results.md",
+        "qa_results.csv",
+        "final_checks.json",
+        "scenarios.csv",
+        "wacc_growth_sensitivity.csv",
+        "method_reconciliation.csv",
+        "synthesis_sensitivity.csv",
+        "one_off_sensitivity.csv",
+        "peer_variant.csv",
+        "dcf_implied_multiples.csv",
+        "build_report.py",
+        "final_qa.py"
+      ],
+      "next_step": "Review final QA evidence gaps; human Spot_check required. Do not rebuild prior analytical models.",
+      "started": "2026-10-31T16:34:32+00:00",
+      "finished": "2026-10-31T16:41:57+00:00",
+      "elapsed_min": 7.4
     }
-  }
+  },
+  "final_status": "provisional",
+  "verified_complete": false,
+  "human_review": "pending"
 }

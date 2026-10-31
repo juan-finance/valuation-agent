@@ -1,0 +1,4 @@
+method,value,weight,basis,DCF_margin_if_other_inputs_fixed
+DCF,35.51164419483617,1.0,adjusted midcycle consolidated FCFF; latest bridge; diluted estimate,0.14885661567422226
+Peer PBV/ROE,76.75212769963294,0.0,reported FY25 parent NI; average-equity ROE; vendor current basic shares,0.24468895883314024
+Published PBV,112.25839334998706,0.0,market-wide Western Europe; closing ROE; fundamental growth; basic shares,0.3271964452863645

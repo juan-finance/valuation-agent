@@ -32,3 +32,10 @@ Status: sourced pack and provisional FCFF completed for2026-10-30. Exact cutoff 
 - confidence: medium; status: unverified
 - valid_until: vintage 2026-10-30
 - used for: relative valuation and final QA
+
+
+### MT report handoff (added 2026-10-31, run MT.AS_2026-10-30)
+- fact / lesson: Academic FCFF100% recommendation Sell, EUR36 target, intrinsic35.51, range13.50–60.92; peers76.75, publishedPBV112.26 kept independent. Sustainable margin/cash reinvestment may be mispriced, not a verified market error.14 open finalQA checks and human review prevent verified completion; portfolio row excluded. Evidence: outputs/MT.AS_2026-10-30/report.pdf, qa_results.md.
+- confidence: low; status: unverified
+- valid_until: vintage 2026-10-30
+- used for: company evidence review
