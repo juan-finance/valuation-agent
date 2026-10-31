@@ -1,0 +1,9 @@
+{
+  "workbook_formula_errors": [],
+  "library_EUR_per_share": 35.51164419483617,
+  "workbook_EUR_per_share": 35.5116441948362,
+  "absolute_difference": 2.842170943040401e-14,
+  "terminal_reinvestment_difference": 0,
+  "checklist_status": "deferred to company end under approved deviation",
+  "unresolved": "shares, bond YTM, claim fair values, human spot-check; valuation provisional"
+}

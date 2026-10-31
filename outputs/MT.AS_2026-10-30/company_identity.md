@@ -1,7 +1,7 @@
 # ArcelorMittal — MT.AS
 
 - Legal entity: ArcelorMittal S.A., Luxembourg incorporated parent; consolidated steel and mining group including controlled subsidiaries. Associates/JVs are equity accounted, not proportionally consolidated.
-- Ordinary share ISIN: LU1598757687; Euronext Amsterdam ticker MT (vendor MT.AS). Euronext locator: https://live.euronext.com/en/product/equities/LU1598757687-XAMS . Not the NYSE USD ADR quote.
+- Ordinary share ISIN: LU1598757687; Euronext Amsterdam ticker MT (vendor MT.AS). Euronext locator: https://live.euronext.com/en/product/equities/LU1598757687-XAMS . NYSE USD quotes are not used; no assumed ADR conversion.
 - Reporting: IFRS as issued by IASB; USD millions. Financial year ends December 31. Valuation/market cutoff: October 30, 2026. Access date: October 31, 2026.
 - Annual evidence: FY2025 PDF 172–176 covers 2023–25 income/cash flows and 2024–25 balance sheets; FY2023 PDF 246–250 covers 2021–23 flows and 2022–23 balances; FY2021 PDF 244 supplies 2021 balances. Latest available interim: H1 2026, published July 31, 2026, PDF 34/36/38. Annual-report publication dates were not independently established; no post-cutoff financial period used.
 - FY2025: 775m issued, 13.874181m treasury, 761.125819m outstanding. H1 2026: 754.041698m outstanding, after 8m repurchases and 0.915879m employee deliveries (interim PDF 30). These are NOT current EPS weighted-average shares.

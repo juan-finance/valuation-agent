@@ -1,0 +1,148 @@
+{
+  "beta": {
+    "resolution": "beta_europe_2026-01 [exact: wanted EUROPE, got EUROPE] vintage 2026-01, as_of 2026-01-05, damodaran/2026-01/beta_europe.md",
+    "rows": [
+      {
+        "Industry Name": "Metals & Mining",
+        "Number of firms": 118.0,
+        "Beta": 1.12,
+        "D/E Ratio": 0.3062,
+        "Effective Tax rate": 0.0699,
+        "Unlevered beta": 0.91,
+        "Cash/Firm value": 0.0528,
+        "Unlevered beta corrected for cash": 0.96,
+        "HiLo Risk": 0.496,
+        "Standard deviation of equity": 0.5642,
+        "Standard deviation in operating income (last 10 years)": 0.5487,
+        "2022": 1.16,
+        "2023": 1.14,
+        "2024": 0.93,
+        "2025": 0.92,
+        "Average: 2021-2026": 1.02,
+        "is_aggregate": false
+      },
+      {
+        "Industry Name": "Steel",
+        "Number of firms": 57.0,
+        "Beta": 0.91,
+        "D/E Ratio": 0.4097,
+        "Effective Tax rate": 0.13949999999999999,
+        "Unlevered beta": 0.69,
+        "Cash/Firm value": 0.19,
+        "Unlevered beta corrected for cash": 0.85,
+        "HiLo Risk": 0.356,
+        "Standard deviation of equity": 0.3347,
+        "Standard deviation in operating income (last 10 years)": 0.9139,
+        "2022": 1.12,
+        "2023": 1.08,
+        "2024": 1.0,
+        "2025": 0.93,
+        "Average: 2021-2026": 1.0,
+        "is_aggregate": false
+      }
+    ],
+    "path": "/home/ubuntu/repos/valuation-agent/data/damodaran/2026-01/beta_europe.md",
+    "sha256": "466d60e5b2c62c18dde7cf74bb9468cf31b286617296c623007ec8f72ce0974e"
+  },
+  "capex": {
+    "resolution": "capex_europe_2026-01 [exact: wanted EUROPE, got EUROPE] vintage 2026-01, as_of 2026-01-05, damodaran/2026-01/capex_europe.md",
+    "rows": [
+      {
+        "Industry Name": "Metals & Mining",
+        "Number of Firms": 118.0,
+        "Capital Expenditures (US $ millions)": 32515.69,
+        "Depreciation & Amort (US $ millions)": 9999.52,
+        "Cap Ex / Deprecn": 3.2517,
+        "Acquisitions (US $ millions)": 15431.11,
+        "Net R&D (US $ millions)": 95.58,
+        "Net Cap Ex / Sales": 0.0889,
+        "Net Cap Ex / EBIT (1-t)": 1.7725,
+        "Sales / Invested Capital (LTM)": 1.82,
+        "is_aggregate": false
+      },
+      {
+        "Industry Name": "Steel",
+        "Number of Firms": 57.0,
+        "Capital Expenditures (US $ millions)": 13269.49,
+        "Depreciation & Amort (US $ millions)": 4028.41,
+        "Cap Ex / Deprecn": 3.2939999999999996,
+        "Acquisitions (US $ millions)": 1703.22,
+        "Net R&D (US $ millions)": 97.68,
+        "Net Cap Ex / Sales": 0.0584,
+        "Net Cap Ex / EBIT (1-t)": 8.8356,
+        "Sales / Invested Capital (LTM)": 1.48,
+        "is_aggregate": false
+      }
+    ],
+    "path": "/home/ubuntu/repos/valuation-agent/data/damodaran/2026-01/capex_europe.md",
+    "sha256": "761b10ac676bee2af79714193a7de548abdeb5a566890fd088737540d4d57c25"
+  },
+  "dbtfund": {
+    "resolution": "dbtfund_europe_2026-01 [exact: wanted EUROPE, got EUROPE] vintage 2026-01, as_of 2026-01-05, damodaran/2026-01/dbtfund_europe.md",
+    "rows": [
+      {
+        "Industry Name": "Metals & Mining",
+        "Number of firms": 118.0,
+        "Book Debt to Capital": 0.3762,
+        "Market Debt to Capital (Unadjusted)": 0.23079999999999998,
+        "Market D/E (Unadjusted)": 0.30010000000000003,
+        "Market Debt to Capital (Adjusted for Leases)": 0.23440000000000003,
+        "Market D/E (Adjusted for Leases)": 0.3062,
+        "Interest Coverage Ratio": 4.26,
+        "Debt to EBITDA": 2.22,
+        "Effective Tax Rate": 0.0699,
+        "Institutional Holdings": 0.31489999999999996,
+        "Std Dev in Stock Prices": 0.5642,
+        "EBITDA / EV": 0.1112,
+        "Net PP&E / Total Assets": 0.5092,
+        "Capital Spending / Total Assets": 0.07339999999999999,
+        "is_aggregate": false
+      },
+      {
+        "Industry Name": "Steel",
+        "Number of firms": 57.0,
+        "Book Debt to Capital": 0.2275,
+        "Market Debt to Capital (Unadjusted)": 0.29109999999999997,
+        "Market D/E (Unadjusted)": 0.4106,
+        "Market Debt to Capital (Adjusted for Leases)": 0.29059999999999997,
+        "Market D/E (Adjusted for Leases)": 0.4097,
+        "Interest Coverage Ratio": 1.36,
+        "Debt to EBITDA": 3.48,
+        "Effective Tax Rate": 0.13949999999999999,
+        "Institutional Holdings": 0.21289999999999998,
+        "Std Dev in Stock Prices": 0.3347,
+        "EBITDA / EV": 0.0933,
+        "Net PP&E / Total Assets": 0.3618,
+        "Capital Spending / Total Assets": 0.0553,
+        "is_aggregate": false
+      }
+    ],
+    "path": "/home/ubuntu/repos/valuation-agent/data/damodaran/2026-01/dbtfund_europe.md",
+    "sha256": "4eff86f4c2a05f0fb2a0246ddf1fa6ed6acb228e6fd3c36a28e73bff5755c42c"
+  },
+  "wcdata": {
+    "resolution": "wcdata_europe_2026-01 [exact: wanted EUROPE, got EUROPE] vintage 2026-01, as_of 2026-01-05, damodaran/2026-01/wcdata_europe.md",
+    "rows": [
+      {
+        "Industry Name": "Metals & Mining",
+        "Number of firms": 118.0,
+        "Acc Rec / Sales": 0.0652,
+        "Inventory / Sales": 0.1407,
+        "Acc Pay / Sales": 0.07629999999999999,
+        "Non-cash WC / Sales": 0.08839999999999999,
+        "is_aggregate": false
+      },
+      {
+        "Industry Name": "Steel",
+        "Number of firms": 57.0,
+        "Acc Rec / Sales": 0.1081,
+        "Inventory / Sales": 0.2828,
+        "Acc Pay / Sales": 0.1709,
+        "Non-cash WC / Sales": 0.1984,
+        "is_aggregate": false
+      }
+    ],
+    "path": "/home/ubuntu/repos/valuation-agent/data/damodaran/2026-01/wcdata_europe.md",
+    "sha256": "19fcf64486d8d5cf6d96987bc1acbd8beab3693446cb1c150f990904a1436418"
+  }
+}

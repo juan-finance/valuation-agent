@@ -22,10 +22,21 @@
       "elapsed_min": 3.2
     },
     "stage2_dcf": {
-      "status": "pending",
-      "notes": [],
-      "outputs": [],
-      "next_step": ""
+      "status": "provisional",
+      "notes": [
+        "2026-10-31T16:19:02+00:00 Provisional EUR35.51; 78.72% terminal dependence. LibreOffice/model difference2.84e-14;9 company tests pass. Shares/claim fair values/human review unresolved; final QA deferred."
+      ],
+      "outputs": [
+        "dcf_model.xlsx",
+        "dcf_decisions.md",
+        "dcf_summary.png",
+        "dcf_results.json",
+        "model_checks.json"
+      ],
+      "next_step": "Stage3 independent comparables and published regressions",
+      "started": "2026-10-31T16:14:00+00:00",
+      "finished": "2026-10-31T16:19:02+00:00",
+      "elapsed_min": 5.0
     },
     "stage3_relative": {
       "status": "pending",
