@@ -1,0 +1,43 @@
+{
+  "company": "ArcelorMittal S.A.",
+  "ticker": "MT.AS",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-10-31T16:10:23+00:00",
+  "stages": {
+    "stage1_data": {
+      "status": "done",
+      "notes": [
+        "2026-10-31T16:13:33+00:00 253 source entries, 84 flags investigated; exact cutoff shares/exchange quote unverified. QA deferred to company end per approval."
+      ],
+      "outputs": [
+        "company_identity.md",
+        "data_pack.xlsx",
+        "anomaly_report.md",
+        "source_log.csv"
+      ],
+      "next_step": "Stage2 DCF: resolve industry inputs and construct model",
+      "started": "2026-10-31T16:10:23+00:00",
+      "finished": "2026-10-31T16:13:33+00:00",
+      "elapsed_min": 3.2
+    },
+    "stage2_dcf": {
+      "status": "pending",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage3_relative": {
+      "status": "pending",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage4_recommendation": {
+      "status": "pending",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    }
+  }
+}

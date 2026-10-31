@@ -1,0 +1,17 @@
+# ArcelorMittal — MT.AS
+
+- Legal entity: ArcelorMittal S.A., Luxembourg incorporated parent; consolidated steel and mining group including controlled subsidiaries. Associates/JVs are equity accounted, not proportionally consolidated.
+- Ordinary share ISIN: LU1598757687; Euronext Amsterdam ticker MT (vendor MT.AS). Euronext locator: https://live.euronext.com/en/product/equities/LU1598757687-XAMS . Not the NYSE USD ADR quote.
+- Reporting: IFRS as issued by IASB; USD millions. Financial year ends December 31. Valuation/market cutoff: October 30, 2026. Access date: October 31, 2026.
+- Annual evidence: FY2025 PDF 172–176 covers 2023–25 income/cash flows and 2024–25 balance sheets; FY2023 PDF 246–250 covers 2021–23 flows and 2022–23 balances; FY2021 PDF 244 supplies 2021 balances. Latest available interim: H1 2026, published July 31, 2026, PDF 34/36/38. Annual-report publication dates were not independently established; no post-cutoff financial period used.
+- FY2025: 775m issued, 13.874181m treasury, 761.125819m outstanding. H1 2026: 754.041698m outstanding, after 8m repurchases and 0.915879m employee deliveries (interim PDF 30). These are NOT current EPS weighted-average shares.
+- Issuer September 30, 2026 shareholding disclosure: 775m issued, 24.314527m treasury, 750.685473m outstanding. Source: https://corporate.arcelormittal.com/investors/corporate-governance/shareholding-structure .
+- Buyback page records 433,212 shares October 12–16 and 541,515 October 5–9; September 28–October 2 straddles the shareholding date. Do not deduct its full week twice. Latest two weeks are not published on the accessed page. Its repeated cumulative 46.06% is inconsistent with its weekly flows. Source: https://corporate.arcelormittal.com/investors/equity-investors/share-buyback-program .
+- Denominator policy: September verified 750.685473m, less the two wholly post-September disclosed weeks = **749.710746m estimate**, not falsely presented as exact October 30 shares. Further repurchases/employee deliveries and exchange reconciliation remain unverified. Use additional 3m-share dilution reserve as a disclosed conservative valuation assumption; no separate option-claim subtraction. Show share-count sensitivity. June 754.04m aggregator is stale.
+- October 30 Amsterdam close **EUR53.60** from https://stockanalysis.com/quote/ams/MT/history/ ; statistics page October 29 intraday EUR54.38 and overview September 24 EUR62.00 are not contemporaneous prices. Exact exchange close independent cross-check remains unavailable; disclose this data gap.
+- FX: cached ECB 1 EUR = 1.1172 USD at October 30. Model all operations in USD then divide equity per share by 1.1172 once.
+
+## Sources and access
+Primary statement and derived input locators are in source_log.csv (21 fields). StockAnalysis historical statements provide independent checks on sales, NI, cash, debt, CFO, capex and equity. Its operating income is a recurring-vendor construct, NOT reported IFRS EBIT. Full copyrighted issuer PDFs and full extracted text remain local supporting cache, not redistributed in git. Issuer terms restrict redistribution; output contains transcribed analytical data and citations only. StockAnalysis terms allow AI agents complying with robots; quoted financial paths are allowed. No blocked website was bypassed.
+
+Academic analysis only; not personalized investment advice. Missing evidence is disclosed, never invented.
