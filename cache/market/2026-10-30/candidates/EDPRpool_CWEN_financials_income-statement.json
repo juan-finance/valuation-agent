@@ -1,0 +1,270 @@
+[
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Revenue",
+        "1429",
+        "1371"
+      ],
+      [
+        "Revenue Growth",
+        "4.23%",
+        "4.34%"
+      ],
+      [
+        "Selling, General & Admin",
+        "41",
+        "39"
+      ],
+      [
+        "Depreciation & Amortization",
+        "660",
+        "627"
+      ],
+      [
+        "Other Operating Expenses",
+        "530",
+        "501"
+      ],
+      [
+        "Total Operating Expenses",
+        "1231",
+        "1167"
+      ],
+      [
+        "Operating Income",
+        "198",
+        "204"
+      ],
+      [
+        "Interest Expense",
+        "-387",
+        "-307"
+      ],
+      [
+        "Net Interest Expense",
+        "-387",
+        "-307"
+      ],
+      [
+        "Income (Loss) on Equity Investments",
+        "31",
+        "35"
+      ],
+      [
+        "Other Non-Operating Income (Expenses)",
+        "29",
+        "48"
+      ],
+      [
+        "EBT Excluding Unusual Items",
+        "-129",
+        "-20"
+      ],
+      [
+        "Total Merger & Restructuring Charges",
+        "-16",
+        "-8"
+      ],
+      [
+        "Gain (Loss) on Sale of Assets",
+        "-",
+        "-"
+      ],
+      [
+        "Asset Writedown",
+        "-22",
+        "-"
+      ],
+      [
+        "Other Unusual Items",
+        "-8",
+        "-5"
+      ],
+      [
+        "Pretax Income",
+        "-175",
+        "-33"
+      ],
+      [
+        "Income Tax Expense",
+        "56",
+        "30"
+      ],
+      [
+        "Earnings From Continuing Ops.",
+        "-231",
+        "-63"
+      ],
+      [
+        "Minority Interest in Earnings",
+        "400",
+        "151"
+      ],
+      [
+        "Net Income",
+        "169",
+        "88"
+      ],
+      [
+        "Net Income to Common",
+        "169",
+        "88"
+      ],
+      [
+        "Net Income Growth",
+        "92.05%",
+        "11.39%"
+      ],
+      [
+        "Shares Outstanding (Basic)",
+        "119",
+        "118"
+      ],
+      [
+        "Shares Outstanding (Diluted)",
+        "119",
+        "118"
+      ],
+      [
+        "Shares Change",
+        "0.85%",
+        "0.85%"
+      ],
+      [
+        "EPS (Basic)",
+        "1.42",
+        "0.75"
+      ],
+      [
+        "EPS (Diluted)",
+        "1.42",
+        "0.75"
+      ],
+      [
+        "EPS Growth",
+        "90.43%",
+        "10.45%"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Free Cash Flow",
+        "342",
+        "483"
+      ],
+      [
+        "Free Cash Flow Per Share",
+        "2.87",
+        "4.09"
+      ],
+      [
+        "Dividend Per Share",
+        "1.768",
+        "1.655"
+      ],
+      [
+        "Dividend Growth",
+        "6.85%",
+        "7.32%"
+      ],
+      [
+        "Profit Margin",
+        "11.83%",
+        "6.42%"
+      ],
+      [
+        "Free Cash Flow Margin",
+        "23.93%",
+        "35.23%"
+      ],
+      [
+        "EBITDA",
+        "1045",
+        "1013"
+      ],
+      [
+        "EBITDA Margin",
+        "73.13%",
+        "73.89%"
+      ],
+      [
+        "D&A For EBITDA",
+        "847",
+        "809"
+      ],
+      [
+        "EBIT",
+        "198",
+        "204"
+      ],
+      [
+        "EBIT Margin",
+        "13.86%",
+        "14.88%"
+      ],
+      [
+        "Effective Tax Rate",
+        "-",
+        "-"
+      ]
+    ]
+  }
+]

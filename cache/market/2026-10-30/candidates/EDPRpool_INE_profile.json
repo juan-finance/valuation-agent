@@ -1,0 +1,112 @@
+[
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Market Cap",
+        "2.79B"
+      ],
+      [
+        "Revenue (ttm)",
+        "1.06B -0.5%"
+      ],
+      [
+        "Net Income",
+        "39.73M"
+      ],
+      [
+        "EPS",
+        "0.19"
+      ],
+      [
+        "Shares Out",
+        "203.13M"
+      ],
+      [
+        "PE Ratio",
+        "72.01"
+      ],
+      [
+        "Forward PE",
+        NaN
+      ],
+      [
+        "Dividend",
+        "0.36 (2.62%)"
+      ],
+      [
+        "Ex-Dividend Date",
+        "Jun 30, 2025"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Volume",
+        "1939855"
+      ],
+      [
+        "Open",
+        "13.74"
+      ],
+      [
+        "Previous Close",
+        "13.74"
+      ],
+      [
+        "Day's Range",
+        "13.74 - 13.75"
+      ],
+      [
+        "52-Week Range",
+        "6.98 - 13.85"
+      ],
+      [
+        "Beta",
+        "0.39"
+      ],
+      [
+        "Analysts",
+        NaN
+      ],
+      [
+        "Price Target",
+        NaN
+      ],
+      [
+        "Earnings Date",
+        "Aug 6, 2025"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,264 @@
+[
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Operating Revenue",
+        "167.94",
+        "126.46"
+      ],
+      [
+        "Revenue",
+        "167.94",
+        "126.46"
+      ],
+      [
+        "Revenue Growth",
+        "32.80%",
+        "-47.70%"
+      ],
+      [
+        "Operations & Maintenance",
+        "10.38",
+        "10.66"
+      ],
+      [
+        "Selling, General & Admin",
+        "1.65",
+        "2.76"
+      ],
+      [
+        "Depreciation & Amortization",
+        "20.71",
+        "23.07"
+      ],
+      [
+        "Other Operating Expenses",
+        "72.21",
+        "52.58"
+      ],
+      [
+        "Total Operating Expenses",
+        "104.96",
+        "89.07"
+      ],
+      [
+        "Operating Income",
+        "62.99",
+        "37.4"
+      ],
+      [
+        "Interest Expense",
+        "-27.2",
+        "-19.16"
+      ],
+      [
+        "Interest Income",
+        "2.33",
+        "5.52"
+      ],
+      [
+        "Net Interest Expense",
+        "-24.87",
+        "-13.64"
+      ],
+      [
+        "Currency Exchange Gain (Loss)",
+        "1.36",
+        "0.36"
+      ],
+      [
+        "Other Non-Operating Income (Expenses)",
+        "-0",
+        "-"
+      ],
+      [
+        "EBT Excluding Unusual Items",
+        "39.48",
+        "24.13"
+      ],
+      [
+        "Insurance Settlements",
+        "1.04",
+        "12.04"
+      ],
+      [
+        "Pretax Income",
+        "40.52",
+        "36.16"
+      ],
+      [
+        "Income Tax Expense",
+        "-0.44",
+        "13.6"
+      ],
+      [
+        "Net Income",
+        "40.96",
+        "22.56"
+      ],
+      [
+        "Net Income to Common",
+        "40.96",
+        "22.56"
+      ],
+      [
+        "Net Income Growth",
+        "81.51%",
+        "-72.92%"
+      ],
+      [
+        "Shares Outstanding (Basic)",
+        "14",
+        "14"
+      ],
+      [
+        "Shares Outstanding (Diluted)",
+        "14",
+        "14"
+      ],
+      [
+        "Shares Change",
+        "0.01%",
+        "-0.25%"
+      ],
+      [
+        "EPS (Basic)",
+        "2.94",
+        "1.62"
+      ],
+      [
+        "EPS (Diluted)",
+        "2.92",
+        "1.61"
+      ],
+      [
+        "EPS Growth",
+        "81.37%",
+        "-72.85%"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Free Cash Flow",
+        "-58.02",
+        "-49.65"
+      ],
+      [
+        "Free Cash Flow Per Share",
+        "-4.14",
+        "-3.54"
+      ],
+      [
+        "Dividend Per Share",
+        "1.000",
+        "0.500"
+      ],
+      [
+        "Dividend Growth",
+        "100.00%",
+        "-58.33%"
+      ],
+      [
+        "Profit Margin",
+        "24.39%",
+        "17.84%"
+      ],
+      [
+        "Free Cash Flow Margin",
+        "-34.55%",
+        "-39.26%"
+      ],
+      [
+        "EBITDA",
+        "83.61",
+        "60.33"
+      ],
+      [
+        "EBITDA Margin",
+        "49.78%",
+        "47.70%"
+      ],
+      [
+        "D&A For EBITDA",
+        "20.62",
+        "22.93"
+      ],
+      [
+        "EBIT",
+        "62.99",
+        "37.4"
+      ],
+      [
+        "EBIT Margin",
+        "37.51%",
+        "29.57%"
+      ],
+      [
+        "Effective Tax Rate",
+        "-",
+        "37.60%"
+      ],
+      [
+        "Revenue as Reported",
+        "344.67",
+        "216.81"
+      ]
+    ]
+  }
+]

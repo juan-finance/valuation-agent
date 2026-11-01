@@ -1,0 +1,282 @@
+[
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Cash & Equivalents",
+        181.28
+      ],
+      [
+        "Accounts Receivable",
+        147.55
+      ],
+      [
+        "Other Receivables",
+        138.97
+      ],
+      [
+        "Prepaid Expenses",
+        30.72
+      ],
+      [
+        "Restricted Cash",
+        37.86
+      ],
+      [
+        "Other Current Assets",
+        43.87
+      ],
+      [
+        "Total Current Assets",
+        580.25
+      ],
+      [
+        "Property, Plant & Equipment",
+        7032.0
+      ],
+      [
+        "Goodwill",
+        138.77
+      ],
+      [
+        "Other Intangible Assets",
+        1176.0
+      ],
+      [
+        "Long-Term Investments",
+        149.95
+      ],
+      [
+        "Long-Term Deferred Tax Assets",
+        163.07
+      ],
+      [
+        "Other Long-Term Assets",
+        201.45
+      ],
+      [
+        "Total Assets",
+        9441.0
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Accounts Payable",
+        146.16
+      ],
+      [
+        "Accrued Expenses",
+        62.11
+      ],
+      [
+        "Current Portion of Long-Term Debt",
+        604.04
+      ],
+      [
+        "Current Portion of Leases",
+        6.49
+      ],
+      [
+        "Current Income Taxes Payable",
+        7.73
+      ],
+      [
+        "Other Current Liabilities",
+        90.39
+      ],
+      [
+        "Total Current Liabilities",
+        916.92
+      ],
+      [
+        "Long-Term Debt",
+        5958.0
+      ],
+      [
+        "Long-Term Leases",
+        292.06
+      ],
+      [
+        "Long-Term Deferred Tax Liabilities",
+        483.22
+      ],
+      [
+        "Other Long-Term Liabilities",
+        272.1
+      ],
+      [
+        "Total Liabilities",
+        7923.0
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Preferred Stock, Redeemable",
+        131.07
+      ],
+      [
+        "Total Preferred Equity",
+        131.07
+      ],
+      [
+        "Common Stock",
+        2.01
+      ],
+      [
+        "Additional Paid-In Capital",
+        2571.0
+      ],
+      [
+        "Retained Earnings",
+        -1781.0
+      ],
+      [
+        "Comprehensive Income & Other",
+        203.09
+      ],
+      [
+        "Total Common Equity",
+        994.57
+      ],
+      [
+        "Minority Interest",
+        393.03
+      ],
+      [
+        "Shareholders' Equity",
+        1519.0
+      ],
+      [
+        "Total Liabilities & Equity",
+        9441.0
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Total Debt",
+        "6861"
+      ],
+      [
+        "Net Cash (Debt)",
+        "-6680"
+      ],
+      [
+        "Net Cash Growth",
+        "-"
+      ],
+      [
+        "Net Cash Per Share",
+        "-32.77"
+      ],
+      [
+        "Filing Date Shares Outstanding",
+        "203.13"
+      ],
+      [
+        "Total Common Shares Outstanding",
+        "203.13"
+      ],
+      [
+        "Working Capital",
+        "-336.67"
+      ],
+      [
+        "Book Value Per Share",
+        "4.90"
+      ],
+      [
+        "Tangible Book Value",
+        "-319.71"
+      ],
+      [
+        "Tangible Book Value Per Share",
+        "-1.57"
+      ],
+      [
+        "Land",
+        "39.06"
+      ],
+      [
+        "Construction In Progress",
+        "254.14"
+      ]
+    ]
+  }
+]

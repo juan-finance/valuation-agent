@@ -1,0 +1,112 @@
+[
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Market Cap",
+        "174.25B +10.8%"
+      ],
+      [
+        "Revenue (ttm)",
+        "83.67B +12.0%"
+      ],
+      [
+        "Net Income",
+        "-3.12B"
+      ],
+      [
+        "EPS",
+        "-2.41"
+      ],
+      [
+        "Shares Out",
+        "1.32B"
+      ],
+      [
+        "PE Ratio",
+        NaN
+      ],
+      [
+        "Forward PE",
+        "12.86"
+      ],
+      [
+        "Dividend",
+        NaN
+      ],
+      [
+        "Ex-Dividend Date",
+        NaN
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Volume",
+        "804247"
+      ],
+      [
+        "Open",
+        "133.60"
+      ],
+      [
+        "Previous Close",
+        "134.15"
+      ],
+      [
+        "Day's Range",
+        "131.75 - 133.70"
+      ],
+      [
+        "52-Week Range",
+        "111.00 - 172.20"
+      ],
+      [
+        "Beta",
+        "0.58"
+      ],
+      [
+        "Analysts",
+        "Buy"
+      ],
+      [
+        "Price Target",
+        "170.08 (+28.95%)"
+      ],
+      [
+        "Earnings Date",
+        "Nov 5, 2026"
+      ]
+    ]
+  }
+]

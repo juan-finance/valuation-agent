@@ -1,0 +1,394 @@
+[
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Cash & Equivalents",
+        3930.0,
+        3631.0
+      ],
+      [
+        "Short-Term Investments",
+        10.69,
+        11.0
+      ],
+      [
+        "Trading Asset Securities",
+        3.94,
+        0.31
+      ],
+      [
+        "Accounts Receivable",
+        2241.0,
+        2487.0
+      ],
+      [
+        "Other Receivables",
+        2716.0,
+        3400.0
+      ],
+      [
+        "Inventory",
+        503.61,
+        589.93
+      ],
+      [
+        "Loans Receivable Current",
+        239.56,
+        194.73
+      ],
+      [
+        "Other Current Assets",
+        1142.0,
+        1747.0
+      ],
+      [
+        "Total Current Assets",
+        10787.0,
+        12061.0
+      ],
+      [
+        "Property, Plant & Equipment",
+        27895.0,
+        29239.0
+      ],
+      [
+        "Goodwill",
+        3263.0,
+        3418.0
+      ],
+      [
+        "Other Intangible Assets",
+        5418.0,
+        4657.0
+      ],
+      [
+        "Long-Term Investments",
+        1691.0,
+        1838.0
+      ],
+      [
+        "Long-Term Loans Receivable",
+        468.97,
+        453.16
+      ],
+      [
+        "Long-Term Deferred Tax Assets",
+        1020.0,
+        1221.0
+      ],
+      [
+        "Long-Term Deferred Charges",
+        74.46,
+        75.12
+      ],
+      [
+        "Long-Term Accounts Receivable",
+        976.57,
+        681.6
+      ],
+      [
+        "Other Long-Term Assets",
+        3363.0,
+        2787.0
+      ],
+      [
+        "Total Assets",
+        54956.0,
+        56431.0
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Accounts Payable",
+        949.63,
+        1079.0
+      ],
+      [
+        "Accrued Expenses",
+        934.06,
+        1141.0
+      ],
+      [
+        "Short-Term Debt",
+        4.34,
+        6.84
+      ],
+      [
+        "Current Portion of Long-Term Debt",
+        3298.0,
+        3378.0
+      ],
+      [
+        "Current Unearned Revenue",
+        46.26,
+        631.96
+      ],
+      [
+        "Current Portion of Leases",
+        127.32,
+        130.23
+      ],
+      [
+        "Current Income Taxes Payable",
+        620.57,
+        528.48
+      ],
+      [
+        "Other Current Liabilities",
+        3375.0,
+        4160.0
+      ],
+      [
+        "Total Current Liabilities",
+        9355.0,
+        11055.0
+      ],
+      [
+        "Long-Term Debt",
+        19109.0,
+        18901.0
+      ],
+      [
+        "Long-Term Leases",
+        1092.0,
+        1192.0
+      ],
+      [
+        "Long-Term Unearned Revenue",
+        2600.0,
+        2433.0
+      ],
+      [
+        "Pension & Post-Retirement Benefits",
+        373.77,
+        388.81
+      ],
+      [
+        "Long-Term Deferred Tax Liabilities",
+        1559.0,
+        1567.0
+      ],
+      [
+        "Other Long-Term Liabilities",
+        4360.0,
+        4689.0
+      ],
+      [
+        "Total Liabilities",
+        38450.0,
+        40225.0
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Common Stock",
+        4184.0,
+        4184.0
+      ],
+      [
+        "Additional Paid-In Capital",
+        1971.0,
+        1971.0
+      ],
+      [
+        "Retained Earnings",
+        2143.0,
+        1701.0
+      ],
+      [
+        "Treasury Stock",
+        -156.59,
+        -63.03
+      ],
+      [
+        "Comprehensive Income & Other",
+        3200.0,
+        3755.0
+      ],
+      [
+        "Total Common Equity",
+        11342.0,
+        11548.0
+      ],
+      [
+        "Minority Interest",
+        5165.0,
+        4657.0
+      ],
+      [
+        "Shareholders' Equity",
+        16506.0,
+        16205.0
+      ],
+      [
+        "Total Liabilities & Equity",
+        54956.0,
+        56431.0
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Total Debt",
+        "23631",
+        "23608"
+      ],
+      [
+        "Net Cash (Debt)",
+        "-19686",
+        "-19965"
+      ],
+      [
+        "Net Cash Growth",
+        "-",
+        "-"
+      ],
+      [
+        "Net Cash Per Share",
+        "-4.76",
+        "-4.84"
+      ],
+      [
+        "Filing Date Shares Outstanding",
+        "4134",
+        "4164"
+      ],
+      [
+        "Total Common Shares Outstanding",
+        "4134",
+        "4164"
+      ],
+      [
+        "Working Capital",
+        "1432",
+        "1006"
+      ],
+      [
+        "Book Value Per Share",
+        "2.74",
+        "2.77"
+      ],
+      [
+        "Tangible Book Value",
+        "2661",
+        "3473"
+      ],
+      [
+        "Tangible Book Value Per Share",
+        "0.64",
+        "0.83"
+      ],
+      [
+        "Land",
+        "173.57",
+        "187.58"
+      ],
+      [
+        "Buildings",
+        "324.67",
+        "467.87"
+      ],
+      [
+        "Machinery",
+        "42278",
+        "42559"
+      ],
+      [
+        "Construction In Progress",
+        "4914",
+        "5901"
+      ]
+    ]
+  }
+]

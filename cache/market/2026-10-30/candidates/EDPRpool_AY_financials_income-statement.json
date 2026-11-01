@@ -1,0 +1,196 @@
+[
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "columns": [
+      "Fiscal Year"
+    ],
+    "data": [
+      [
+        "Operating Revenue"
+      ],
+      [
+        "Other Revenue"
+      ],
+      [
+        "Revenue"
+      ],
+      [
+        "Revenue Growth"
+      ],
+      [
+        "Depreciation & Amortization"
+      ],
+      [
+        "Other Operating Expenses"
+      ],
+      [
+        "Total Operating Expenses"
+      ],
+      [
+        "Operating Income"
+      ],
+      [
+        "Interest Expense"
+      ],
+      [
+        "Interest Income"
+      ],
+      [
+        "Net Interest Expense"
+      ],
+      [
+        "Income (Loss) on Equity Investments"
+      ],
+      [
+        "Currency Exchange Gain (Loss)"
+      ],
+      [
+        "Other Non-Operating Income (Expenses)"
+      ],
+      [
+        "EBT Excluding Unusual Items"
+      ],
+      [
+        "Gain (Loss) on Sale of Investments"
+      ],
+      [
+        "Asset Writedown"
+      ],
+      [
+        "Insurance Settlements"
+      ],
+      [
+        "Other Unusual Items"
+      ],
+      [
+        "Pretax Income"
+      ],
+      [
+        "Income Tax Expense"
+      ],
+      [
+        "Earnings From Continuing Ops."
+      ],
+      [
+        "Minority Interest in Earnings"
+      ],
+      [
+        "Net Income"
+      ],
+      [
+        "Net Income to Common"
+      ],
+      [
+        "Net Income Growth"
+      ],
+      [
+        "Shares Outstanding (Basic)"
+      ],
+      [
+        "Shares Outstanding (Diluted)"
+      ],
+      [
+        "Shares Change"
+      ],
+      [
+        "EPS (Basic)"
+      ],
+      [
+        "EPS (Diluted)"
+      ],
+      [
+        "EPS Growth"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "columns": [
+      "Fiscal Year"
+    ],
+    "data": [
+      [
+        "Free Cash Flow"
+      ],
+      [
+        "Free Cash Flow Per Share"
+      ],
+      [
+        "Dividend Per Share"
+      ],
+      [
+        "Dividend Growth"
+      ],
+      [
+        "Profit Margin"
+      ],
+      [
+        "Free Cash Flow Margin"
+      ],
+      [
+        "EBITDA"
+      ],
+      [
+        "EBITDA Margin"
+      ],
+      [
+        "D&A For EBITDA"
+      ],
+      [
+        "EBIT"
+      ],
+      [
+        "EBIT Margin"
+      ],
+      [
+        "Effective Tax Rate"
+      ]
+    ]
+  }
+]

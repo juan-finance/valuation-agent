@@ -1,0 +1,114 @@
+{
+  "inputs": {
+    "g_eps": 0.2042,
+    "beta": 0.72,
+    "roe": 0.02100447732139381,
+    "payout": 0.6121016051899907,
+    "g_rev": 0.0851,
+    "dfr": 0.4142869772787552,
+    "tax_rate": 0.3536959260814784,
+    "roic": 0.010618278076786813
+  },
+  "predictions": [
+    {
+      "model": "PE",
+      "predicted": 26.930614809416127,
+      "published_r2": 0.201,
+      "value_per_share": 5.482666675350944,
+      "actual": 61.399443929564406,
+      "deviation": 1.2799124477505974,
+      "unit_alternative": {
+        "as_published_note": 26.930614809416127,
+        "dfr_tax_percent_points": 26.930614809416127,
+        "max_abs_difference": 0.0,
+        "max_relative_difference": 0.0,
+        "uses_dfr_or_tax": false
+      },
+      "equation": "$\\text{PE} = \\underset{(8.29)}{9.72} + \\underset{(4.85)}{2.99} \\, \\text{Beta} + \\underset{(11.95)}{49.82} \\, g_{\\text{EPS}} + \\underset{(9.22)}{7.98} \\, \\text{Payout}$",
+      "dataset": "regressions_multi_2026-01",
+      "region": {
+        "region_used": "EUROPE",
+        "level": "exact"
+      },
+      "integrity": [
+        "36 equations in the by-multiple view, 30 in the by-region view",
+        "in the by-multiple view only: ['ANZCA'] (the file's intro lists five groupings)",
+        "the two printed views agree for 30/30 equations; mismatches: []",
+        "('PEG', 'GLOBAL'): identical t-stats [12.83] on different terms (possible transcription error in the source)",
+        "PEG / ln(g_eps) in GLOBAL: coefficient +0.48 (t=12.8) has the opposite sign of all other regions; verify against Damodaran's original before use",
+        "PBV / beta in GLOBAL: coefficient -0.12 (t=2.6) has the opposite sign of all other regions; verify against Damodaran's original before use",
+        "EV/EBITDA / roic in EM: coefficient -4.88 (t=7.0) has the opposite sign of all other regions; verify against Damodaran's original before use",
+        "PEG: R2 41.4% appears for ['US', 'GLOBAL']",
+        "DFR and Tax rate coefficients (e.g. -0.11, -0.12, t-stats 5-90) look like percentage points, while the file says decimals. predict() requires an explicit unit policy; resolve with Damodaran's variable page and a sector-median plausibility check.",
+        "the file publishes coefficients, t-stats and R2 only: no n, SEy or p-values, so residual-band classification and D1-D10 diagnostics are not available"
+      ]
+    },
+    {
+      "model": "PBV",
+      "predicted": 1.6968367299074856,
+      "published_r2": 0.423,
+      "value_per_share": 16.446509965159912,
+      "actual": 1.2896632275647264,
+      "deviation": -0.23996033039958942,
+      "unit_alternative": {
+        "as_published_note": 1.6968367299074856,
+        "dfr_tax_percent_points": 1.6968367299074856,
+        "max_abs_difference": 0.0,
+        "max_relative_difference": 0.0,
+        "uses_dfr_or_tax": false
+      },
+      "equation": "$\\text{PBV} = \\underset{(3.70)}{0.73} + \\underset{(5.87)}{3.92} \\, g_{\\text{EPS}} + \\underset{(1.38)}{0.13} \\, \\text{Beta} + \\underset{(24.81)}{10.75} \\, \\text{ROE} - \\underset{(2.43)}{0.25} \\, \\text{Payout Ratio}$",
+      "dataset": "regressions_multi_2026-01",
+      "region": {
+        "region_used": "EUROPE",
+        "level": "exact"
+      },
+      "integrity": [
+        "36 equations in the by-multiple view, 30 in the by-region view",
+        "in the by-multiple view only: ['ANZCA'] (the file's intro lists five groupings)",
+        "the two printed views agree for 30/30 equations; mismatches: []",
+        "('PEG', 'GLOBAL'): identical t-stats [12.83] on different terms (possible transcription error in the source)",
+        "PEG / ln(g_eps) in GLOBAL: coefficient +0.48 (t=12.8) has the opposite sign of all other regions; verify against Damodaran's original before use",
+        "PBV / beta in GLOBAL: coefficient -0.12 (t=2.6) has the opposite sign of all other regions; verify against Damodaran's original before use",
+        "EV/EBITDA / roic in EM: coefficient -4.88 (t=7.0) has the opposite sign of all other regions; verify against Damodaran's original before use",
+        "PEG: R2 41.4% appears for ['US', 'GLOBAL']",
+        "DFR and Tax rate coefficients (e.g. -0.11, -0.12, t-stats 5-90) look like percentage points, while the file says decimals. predict() requires an explicit unit policy; resolve with Damodaran's variable page and a sector-median plausibility check.",
+        "the file publishes coefficients, t-stats and R2 only: no n, SEy or p-values, so residual-band classification and D1-D10 diagnostics are not available"
+      ]
+    },
+    {
+      "model": "EV/EBITDA",
+      "predicted": 21.086075778165398,
+      "published_r2": 0.262,
+      "value_per_share": 14.103935800643706,
+      "actual": 19.65374894692502,
+      "deviation": -0.06792761471167386,
+      "unit_alternative": {
+        "as_published_note": 21.086075778165398,
+        "dfr_tax_percent_points": 12.372582993751793,
+        "max_abs_difference": 8.713492784413605,
+        "max_relative_difference": 0.41323444324507336,
+        "uses_dfr_or_tax": true
+      },
+      "equation": "$\\text{EV/EBITDA} = \\underset{(28.40)}{18.15} + \\underset{(13.96)}{35.25} \\, g - \\underset{(10.65)}{0.11} \\, \\text{DFR} - \\underset{(5.19)}{0.12} \\, \\text{Tax Rate} + \\underset{(5.06)}{2.29} \\, \\text{ROIC}$",
+      "dataset": "regressions_multi_2026-01",
+      "region": {
+        "region_used": "EUROPE",
+        "level": "exact"
+      },
+      "integrity": [
+        "36 equations in the by-multiple view, 30 in the by-region view",
+        "in the by-multiple view only: ['ANZCA'] (the file's intro lists five groupings)",
+        "the two printed views agree for 30/30 equations; mismatches: []",
+        "('PEG', 'GLOBAL'): identical t-stats [12.83] on different terms (possible transcription error in the source)",
+        "PEG / ln(g_eps) in GLOBAL: coefficient +0.48 (t=12.8) has the opposite sign of all other regions; verify against Damodaran's original before use",
+        "PBV / beta in GLOBAL: coefficient -0.12 (t=2.6) has the opposite sign of all other regions; verify against Damodaran's original before use",
+        "EV/EBITDA / roic in EM: coefficient -4.88 (t=7.0) has the opposite sign of all other regions; verify against Damodaran's original before use",
+        "PEG: R2 41.4% appears for ['US', 'GLOBAL']",
+        "DFR and Tax rate coefficients (e.g. -0.11, -0.12, t-stats 5-90) look like percentage points, while the file says decimals. predict() requires an explicit unit policy; resolve with Damodaran's variable page and a sector-median plausibility check.",
+        "the file publishes coefficients, t-stats and R2 only: no n, SEy or p-values, so residual-band classification and D1-D10 diagnostics are not available"
+      ]
+    }
+  ],
+  "status": "provisional"
+}

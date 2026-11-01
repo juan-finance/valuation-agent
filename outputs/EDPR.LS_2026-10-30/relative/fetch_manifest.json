@@ -1,0 +1,2936 @@
+[
+  {
+    "ticker": "EDPR",
+    "name": "EDP Renovaveis",
+    "route": "quote/eli/EDPR",
+    "tier": 0,
+    "reason": "target",
+    "url": "https://stockanalysis.com/quote/eli/EDPR/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "EDPR",
+    "name": "EDP Renovaveis",
+    "route": "quote/eli/EDPR",
+    "tier": 0,
+    "reason": "target",
+    "url": "https://stockanalysis.com/quote/eli/EDPR/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "EDPR",
+    "name": "EDP Renovaveis",
+    "route": "quote/eli/EDPR",
+    "tier": 0,
+    "reason": "target",
+    "url": "https://stockanalysis.com/quote/eli/EDPR/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "EDPR",
+    "name": "EDP Renovaveis",
+    "route": "quote/eli/EDPR",
+    "tier": 0,
+    "reason": "target",
+    "url": "https://stockanalysis.com/quote/eli/EDPR/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue EDP",
+      "Market Cap13.25BEnterp"
+    ]
+  },
+  {
+    "ticker": "EDPR",
+    "name": "EDP Renovaveis",
+    "route": "quote/eli/EDPR",
+    "tier": 0,
+    "reason": "target",
+    "url": "https://stockanalysis.com/quote/eli/EDPR/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "EDPR",
+    "name": "EDP Renovaveis",
+    "route": "quote/eli/EDPR",
+    "tier": 0,
+    "reason": "target",
+    "url": "https://stockanalysis.com/quote/eli/EDPR/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap13.25B -1.7%"
+    ]
+  },
+  {
+    "ticker": "ORSTED",
+    "name": "Orsted",
+    "route": "quote/cph/ORSTED",
+    "tier": 1,
+    "reason": "offshore/onshore wind developer-operator; also batch target",
+    "url": "https://stockanalysis.com/quote/cph/ORSTED/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions DKK"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ORSTED",
+    "name": "Orsted",
+    "route": "quote/cph/ORSTED",
+    "tier": 1,
+    "reason": "offshore/onshore wind developer-operator; also batch target",
+    "url": "https://stockanalysis.com/quote/cph/ORSTED/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions DKK"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ORSTED",
+    "name": "Orsted",
+    "route": "quote/cph/ORSTED",
+    "tier": 1,
+    "reason": "offshore/onshore wind developer-operator; also batch target",
+    "url": "https://stockanalysis.com/quote/cph/ORSTED/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions DKK"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ORSTED",
+    "name": "Orsted",
+    "route": "quote/cph/ORSTED",
+    "tier": 1,
+    "reason": "offshore/onshore wind developer-operator; also batch target",
+    "url": "https://stockanalysis.com/quote/cph/ORSTED/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue \u00d8rs",
+      "Market Cap174.25BEnter"
+    ]
+  },
+  {
+    "ticker": "ORSTED",
+    "name": "Orsted",
+    "route": "quote/cph/ORSTED",
+    "tier": 1,
+    "reason": "offshore/onshore wind developer-operator; also batch target",
+    "url": "https://stockanalysis.com/quote/cph/ORSTED/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "ORSTED",
+    "name": "Orsted",
+    "route": "quote/cph/ORSTED",
+    "tier": 1,
+    "reason": "offshore/onshore wind developer-operator; also batch target",
+    "url": "https://stockanalysis.com/quote/cph/ORSTED/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap174.25B +10."
+    ]
+  },
+  {
+    "ticker": "ANE",
+    "name": "Acciona Energia",
+    "route": "quote/bme/ANE",
+    "tier": 1,
+    "reason": "renewable developer-operator (wind/solar)",
+    "url": "https://stockanalysis.com/quote/bme/ANE/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ANE",
+    "name": "Acciona Energia",
+    "route": "quote/bme/ANE",
+    "tier": 1,
+    "reason": "renewable developer-operator (wind/solar)",
+    "url": "https://stockanalysis.com/quote/bme/ANE/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ANE",
+    "name": "Acciona Energia",
+    "route": "quote/bme/ANE",
+    "tier": 1,
+    "reason": "renewable developer-operator (wind/solar)",
+    "url": "https://stockanalysis.com/quote/bme/ANE/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ANE",
+    "name": "Acciona Energia",
+    "route": "quote/bme/ANE",
+    "tier": 1,
+    "reason": "renewable developer-operator (wind/solar)",
+    "url": "https://stockanalysis.com/quote/bme/ANE/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue BME",
+      "Market Cap6.81BEnterpr"
+    ]
+  },
+  {
+    "ticker": "ANE",
+    "name": "Acciona Energia",
+    "route": "quote/bme/ANE",
+    "tier": 1,
+    "reason": "renewable developer-operator (wind/solar)",
+    "url": "https://stockanalysis.com/quote/bme/ANE/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "ANE",
+    "name": "Acciona Energia",
+    "route": "quote/bme/ANE",
+    "tier": 1,
+    "reason": "renewable developer-operator (wind/solar)",
+    "url": "https://stockanalysis.com/quote/bme/ANE/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap6.81B -13.5%"
+    ]
+  },
+  {
+    "ticker": "ERG",
+    "name": "ERG",
+    "route": "quote/bit/ERG",
+    "tier": 1,
+    "reason": "European wind/solar IPP",
+    "url": "https://stockanalysis.com/quote/bit/ERG/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ERG",
+    "name": "ERG",
+    "route": "quote/bit/ERG",
+    "tier": 1,
+    "reason": "European wind/solar IPP",
+    "url": "https://stockanalysis.com/quote/bit/ERG/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ERG",
+    "name": "ERG",
+    "route": "quote/bit/ERG",
+    "tier": 1,
+    "reason": "European wind/solar IPP",
+    "url": "https://stockanalysis.com/quote/bit/ERG/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ERG",
+    "name": "ERG",
+    "route": "quote/bit/ERG",
+    "tier": 1,
+    "reason": "European wind/solar IPP",
+    "url": "https://stockanalysis.com/quote/bit/ERG/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue ERG",
+      "Market Cap3.16BEnterpr"
+    ]
+  },
+  {
+    "ticker": "ERG",
+    "name": "ERG",
+    "route": "quote/bit/ERG",
+    "tier": 1,
+    "reason": "European wind/solar IPP",
+    "url": "https://stockanalysis.com/quote/bit/ERG/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "ERG",
+    "name": "ERG",
+    "route": "quote/bit/ERG",
+    "tier": 1,
+    "reason": "European wind/solar IPP",
+    "url": "https://stockanalysis.com/quote/bit/ERG/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap3.16B -3.9%R"
+    ]
+  },
+  {
+    "ticker": "SLR",
+    "name": "Solaria",
+    "route": "quote/bme/SLR",
+    "tier": 1,
+    "reason": "Spanish solar PV developer-operator",
+    "url": "https://stockanalysis.com/quote/bme/SLR/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "SLR",
+    "name": "Solaria",
+    "route": "quote/bme/SLR",
+    "tier": 1,
+    "reason": "Spanish solar PV developer-operator",
+    "url": "https://stockanalysis.com/quote/bme/SLR/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "SLR",
+    "name": "Solaria",
+    "route": "quote/bme/SLR",
+    "tier": 1,
+    "reason": "Spanish solar PV developer-operator",
+    "url": "https://stockanalysis.com/quote/bme/SLR/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "SLR",
+    "name": "Solaria",
+    "route": "quote/bme/SLR",
+    "tier": 1,
+    "reason": "Spanish solar PV developer-operator",
+    "url": "https://stockanalysis.com/quote/bme/SLR/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue BME",
+      "Market Cap1.92BEnterpr"
+    ]
+  },
+  {
+    "ticker": "SLR",
+    "name": "Solaria",
+    "route": "quote/bme/SLR",
+    "tier": 1,
+    "reason": "Spanish solar PV developer-operator",
+    "url": "https://stockanalysis.com/quote/bme/SLR/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "SLR",
+    "name": "Solaria",
+    "route": "quote/bme/SLR",
+    "tier": 1,
+    "reason": "Spanish solar PV developer-operator",
+    "url": "https://stockanalysis.com/quote/bme/SLR/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap1.92B +3.7%R"
+    ]
+  },
+  {
+    "ticker": "NEOEN",
+    "name": "Neoen",
+    "route": "quote/epa/NEOEN",
+    "tier": 1,
+    "reason": "French renewables IPP (solar/wind/storage)",
+    "url": "https://stockanalysis.com/quote/epa/NEOEN/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "NEOEN",
+    "name": "Neoen",
+    "route": "quote/epa/NEOEN",
+    "tier": 1,
+    "reason": "French renewables IPP (solar/wind/storage)",
+    "url": "https://stockanalysis.com/quote/epa/NEOEN/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "NEOEN",
+    "name": "Neoen",
+    "route": "quote/epa/NEOEN",
+    "tier": 1,
+    "reason": "French renewables IPP (solar/wind/storage)",
+    "url": "https://stockanalysis.com/quote/epa/NEOEN/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "NEOEN",
+    "name": "Neoen",
+    "route": "quote/epa/NEOEN",
+    "tier": 1,
+    "reason": "French renewables IPP (solar/wind/storage)",
+    "url": "https://stockanalysis.com/quote/epa/NEOEN/statistics/",
+    "page": "statistics/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "NEOEN",
+    "name": "Neoen",
+    "route": "quote/epa/NEOEN",
+    "tier": 1,
+    "reason": "French renewables IPP (solar/wind/storage)",
+    "url": "https://stockanalysis.com/quote/epa/NEOEN/history/",
+    "page": "history/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "NEOEN",
+    "name": "Neoen",
+    "route": "quote/epa/NEOEN",
+    "tier": 1,
+    "reason": "French renewables IPP (solar/wind/storage)",
+    "url": "https://stockanalysis.com/quote/epa/NEOEN/",
+    "page": "",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "GRE",
+    "name": "Grenergy",
+    "route": "quote/bme/GRE",
+    "tier": 1,
+    "reason": "Spanish solar/storage developer",
+    "url": "https://stockanalysis.com/quote/bme/GRE/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "GRE",
+    "name": "Grenergy",
+    "route": "quote/bme/GRE",
+    "tier": 1,
+    "reason": "Spanish solar/storage developer",
+    "url": "https://stockanalysis.com/quote/bme/GRE/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "GRE",
+    "name": "Grenergy",
+    "route": "quote/bme/GRE",
+    "tier": 1,
+    "reason": "Spanish solar/storage developer",
+    "url": "https://stockanalysis.com/quote/bme/GRE/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "GRE",
+    "name": "Grenergy",
+    "route": "quote/bme/GRE",
+    "tier": 1,
+    "reason": "Spanish solar/storage developer",
+    "url": "https://stockanalysis.com/quote/bme/GRE/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue Gre",
+      "Market Cap1.80BEnterpr"
+    ]
+  },
+  {
+    "ticker": "GRE",
+    "name": "Grenergy",
+    "route": "quote/bme/GRE",
+    "tier": 1,
+    "reason": "Spanish solar/storage developer",
+    "url": "https://stockanalysis.com/quote/bme/GRE/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "GRE",
+    "name": "Grenergy",
+    "route": "quote/bme/GRE",
+    "tier": 1,
+    "reason": "Spanish solar/storage developer",
+    "url": "https://stockanalysis.com/quote/bme/GRE/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap1.80B -15.6%"
+    ]
+  },
+  {
+    "ticker": "SCATC",
+    "name": "Scatec",
+    "route": "quote/osl/SCATC",
+    "tier": 1,
+    "reason": "Norwegian renewables developer (solar/hydro/wind)",
+    "url": "https://stockanalysis.com/quote/osl/SCATC/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions NOK"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "SCATC",
+    "name": "Scatec",
+    "route": "quote/osl/SCATC",
+    "tier": 1,
+    "reason": "Norwegian renewables developer (solar/hydro/wind)",
+    "url": "https://stockanalysis.com/quote/osl/SCATC/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions NOK"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "SCATC",
+    "name": "Scatec",
+    "route": "quote/osl/SCATC",
+    "tier": 1,
+    "reason": "Norwegian renewables developer (solar/hydro/wind)",
+    "url": "https://stockanalysis.com/quote/osl/SCATC/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions NOK"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "SCATC",
+    "name": "Scatec",
+    "route": "quote/osl/SCATC",
+    "tier": 1,
+    "reason": "Norwegian renewables developer (solar/hydro/wind)",
+    "url": "https://stockanalysis.com/quote/osl/SCATC/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue Sca",
+      "Market Cap13.53BEnterp"
+    ]
+  },
+  {
+    "ticker": "SCATC",
+    "name": "Scatec",
+    "route": "quote/osl/SCATC",
+    "tier": 1,
+    "reason": "Norwegian renewables developer (solar/hydro/wind)",
+    "url": "https://stockanalysis.com/quote/osl/SCATC/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "SCATC",
+    "name": "Scatec",
+    "route": "quote/osl/SCATC",
+    "tier": 1,
+    "reason": "Norwegian renewables developer (solar/hydro/wind)",
+    "url": "https://stockanalysis.com/quote/osl/SCATC/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap13.53B -20.5"
+    ]
+  },
+  {
+    "ticker": "EKT",
+    "name": "Energiekontor",
+    "route": "quote/etr/EKT",
+    "tier": 1,
+    "reason": "German wind/solar project developer-operator",
+    "url": "https://stockanalysis.com/quote/etr/EKT/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "EKT",
+    "name": "Energiekontor",
+    "route": "quote/etr/EKT",
+    "tier": 1,
+    "reason": "German wind/solar project developer-operator",
+    "url": "https://stockanalysis.com/quote/etr/EKT/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "EKT",
+    "name": "Energiekontor",
+    "route": "quote/etr/EKT",
+    "tier": 1,
+    "reason": "German wind/solar project developer-operator",
+    "url": "https://stockanalysis.com/quote/etr/EKT/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "EKT",
+    "name": "Energiekontor",
+    "route": "quote/etr/EKT",
+    "tier": 1,
+    "reason": "German wind/solar project developer-operator",
+    "url": "https://stockanalysis.com/quote/etr/EKT/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue Ene",
+      "Market Cap326.50MEnter"
+    ]
+  },
+  {
+    "ticker": "EKT",
+    "name": "Energiekontor",
+    "route": "quote/etr/EKT",
+    "tier": 1,
+    "reason": "German wind/solar project developer-operator",
+    "url": "https://stockanalysis.com/quote/etr/EKT/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "EKT",
+    "name": "Energiekontor",
+    "route": "quote/etr/EKT",
+    "tier": 1,
+    "reason": "German wind/solar project developer-operator",
+    "url": "https://stockanalysis.com/quote/etr/EKT/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap326.50M -34."
+    ]
+  },
+  {
+    "ticker": "PNE3",
+    "name": "PNE",
+    "route": "quote/etr/PNE3",
+    "tier": 1,
+    "reason": "German wind farm developer",
+    "url": "https://stockanalysis.com/quote/etr/PNE3/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "PNE3",
+    "name": "PNE",
+    "route": "quote/etr/PNE3",
+    "tier": 1,
+    "reason": "German wind farm developer",
+    "url": "https://stockanalysis.com/quote/etr/PNE3/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "PNE3",
+    "name": "PNE",
+    "route": "quote/etr/PNE3",
+    "tier": 1,
+    "reason": "German wind farm developer",
+    "url": "https://stockanalysis.com/quote/etr/PNE3/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "PNE3",
+    "name": "PNE",
+    "route": "quote/etr/PNE3",
+    "tier": 1,
+    "reason": "German wind farm developer",
+    "url": "https://stockanalysis.com/quote/etr/PNE3/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue PNE",
+      "Market Cap420.55MEnter"
+    ]
+  },
+  {
+    "ticker": "PNE3",
+    "name": "PNE",
+    "route": "quote/etr/PNE3",
+    "tier": 1,
+    "reason": "German wind farm developer",
+    "url": "https://stockanalysis.com/quote/etr/PNE3/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "PNE3",
+    "name": "PNE",
+    "route": "quote/etr/PNE3",
+    "tier": 1,
+    "reason": "German wind farm developer",
+    "url": "https://stockanalysis.com/quote/etr/PNE3/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap420.55M -51."
+    ]
+  },
+  {
+    "ticker": "OX2",
+    "name": "OX2",
+    "route": "quote/sto/OX2",
+    "tier": 1,
+    "reason": "Swedish wind/solar developer",
+    "url": "https://stockanalysis.com/quote/sto/OX2/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "OX2",
+    "name": "OX2",
+    "route": "quote/sto/OX2",
+    "tier": 1,
+    "reason": "Swedish wind/solar developer",
+    "url": "https://stockanalysis.com/quote/sto/OX2/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "OX2",
+    "name": "OX2",
+    "route": "quote/sto/OX2",
+    "tier": 1,
+    "reason": "Swedish wind/solar developer",
+    "url": "https://stockanalysis.com/quote/sto/OX2/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "OX2",
+    "name": "OX2",
+    "route": "quote/sto/OX2",
+    "tier": 1,
+    "reason": "Swedish wind/solar developer",
+    "url": "https://stockanalysis.com/quote/sto/OX2/statistics/",
+    "page": "statistics/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "OX2",
+    "name": "OX2",
+    "route": "quote/sto/OX2",
+    "tier": 1,
+    "reason": "Swedish wind/solar developer",
+    "url": "https://stockanalysis.com/quote/sto/OX2/history/",
+    "page": "history/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "OX2",
+    "name": "OX2",
+    "route": "quote/sto/OX2",
+    "tier": 1,
+    "reason": "Swedish wind/solar developer",
+    "url": "https://stockanalysis.com/quote/sto/OX2/",
+    "page": "",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "AY",
+    "name": "Atlantica Sustainable",
+    "route": "stocks/ay",
+    "tier": 1,
+    "reason": "renewables IPP (World relaxation candidate; US listing)",
+    "url": "https://stockanalysis.com/stocks/ay/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "AY",
+    "name": "Atlantica Sustainable",
+    "route": "stocks/ay",
+    "tier": 1,
+    "reason": "renewables IPP (World relaxation candidate; US listing)",
+    "url": "https://stockanalysis.com/stocks/ay/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "AY",
+    "name": "Atlantica Sustainable",
+    "route": "stocks/ay",
+    "tier": 1,
+    "reason": "renewables IPP (World relaxation candidate; US listing)",
+    "url": "https://stockanalysis.com/stocks/ay/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "AY",
+    "name": "Atlantica Sustainable",
+    "route": "stocks/ay",
+    "tier": 1,
+    "reason": "renewables IPP (World relaxation candidate; US listing)",
+    "url": "https://stockanalysis.com/stocks/ay/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue AY ",
+      "Market Cap2.55BEnterpr"
+    ]
+  },
+  {
+    "ticker": "AY",
+    "name": "Atlantica Sustainable",
+    "route": "stocks/ay",
+    "tier": 1,
+    "reason": "renewables IPP (World relaxation candidate; US listing)",
+    "url": "https://stockanalysis.com/stocks/ay/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "AY",
+    "name": "Atlantica Sustainable",
+    "route": "stocks/ay",
+    "tier": 1,
+    "reason": "renewables IPP (World relaxation candidate; US listing)",
+    "url": "https://stockanalysis.com/stocks/ay/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap2.55B Revenu"
+    ]
+  },
+  {
+    "ticker": "BEPC",
+    "name": "Brookfield Renewable Corp",
+    "route": "stocks/bepc",
+    "tier": 1,
+    "reason": "global renewables IPP (World relaxation; dedup vs BEP)",
+    "url": "https://stockanalysis.com/stocks/bepc/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "BEPC",
+    "name": "Brookfield Renewable Corp",
+    "route": "stocks/bepc",
+    "tier": 1,
+    "reason": "global renewables IPP (World relaxation; dedup vs BEP)",
+    "url": "https://stockanalysis.com/stocks/bepc/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "BEPC",
+    "name": "Brookfield Renewable Corp",
+    "route": "stocks/bepc",
+    "tier": 1,
+    "reason": "global renewables IPP (World relaxation; dedup vs BEP)",
+    "url": "https://stockanalysis.com/stocks/bepc/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "BEPC",
+    "name": "Brookfield Renewable Corp",
+    "route": "stocks/bepc",
+    "tier": 1,
+    "reason": "global renewables IPP (World relaxation; dedup vs BEP)",
+    "url": "https://stockanalysis.com/stocks/bepc/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue Bro",
+      "Market Cap10.07BEnterp"
+    ]
+  },
+  {
+    "ticker": "BEPC",
+    "name": "Brookfield Renewable Corp",
+    "route": "stocks/bepc",
+    "tier": 1,
+    "reason": "global renewables IPP (World relaxation; dedup vs BEP)",
+    "url": "https://stockanalysis.com/stocks/bepc/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "BEPC",
+    "name": "Brookfield Renewable Corp",
+    "route": "stocks/bepc",
+    "tier": 1,
+    "reason": "global renewables IPP (World relaxation; dedup vs BEP)",
+    "url": "https://stockanalysis.com/stocks/bepc/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap10.07B -30.5"
+    ]
+  },
+  {
+    "ticker": "CWEN",
+    "name": "Clearway Energy",
+    "route": "stocks/cwen",
+    "tier": 1,
+    "reason": "US renewables IPP (World relaxation)",
+    "url": "https://stockanalysis.com/stocks/cwen/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "CWEN",
+    "name": "Clearway Energy",
+    "route": "stocks/cwen",
+    "tier": 1,
+    "reason": "US renewables IPP (World relaxation)",
+    "url": "https://stockanalysis.com/stocks/cwen/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "CWEN",
+    "name": "Clearway Energy",
+    "route": "stocks/cwen",
+    "tier": 1,
+    "reason": "US renewables IPP (World relaxation)",
+    "url": "https://stockanalysis.com/stocks/cwen/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "CWEN",
+    "name": "Clearway Energy",
+    "route": "stocks/cwen",
+    "tier": 1,
+    "reason": "US renewables IPP (World relaxation)",
+    "url": "https://stockanalysis.com/stocks/cwen/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue Cle",
+      "Market Cap6.57BEnterpr"
+    ]
+  },
+  {
+    "ticker": "CWEN",
+    "name": "Clearway Energy",
+    "route": "stocks/cwen",
+    "tier": 1,
+    "reason": "US renewables IPP (World relaxation)",
+    "url": "https://stockanalysis.com/stocks/cwen/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "CWEN",
+    "name": "Clearway Energy",
+    "route": "stocks/cwen",
+    "tier": 1,
+    "reason": "US renewables IPP (World relaxation)",
+    "url": "https://stockanalysis.com/stocks/cwen/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap6.57B +2.1%R"
+    ]
+  },
+  {
+    "ticker": "ORA",
+    "name": "Ormat Technologies",
+    "route": "stocks/ora",
+    "tier": 1,
+    "reason": "geothermal IPP (World relaxation)",
+    "url": "https://stockanalysis.com/stocks/ora/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ORA",
+    "name": "Ormat Technologies",
+    "route": "stocks/ora",
+    "tier": 1,
+    "reason": "geothermal IPP (World relaxation)",
+    "url": "https://stockanalysis.com/stocks/ora/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ORA",
+    "name": "Ormat Technologies",
+    "route": "stocks/ora",
+    "tier": 1,
+    "reason": "geothermal IPP (World relaxation)",
+    "url": "https://stockanalysis.com/stocks/ora/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ORA",
+    "name": "Ormat Technologies",
+    "route": "stocks/ora",
+    "tier": 1,
+    "reason": "geothermal IPP (World relaxation)",
+    "url": "https://stockanalysis.com/stocks/ora/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue Orm",
+      "Market Cap5.52BEnterpr"
+    ]
+  },
+  {
+    "ticker": "ORA",
+    "name": "Ormat Technologies",
+    "route": "stocks/ora",
+    "tier": 1,
+    "reason": "geothermal IPP (World relaxation)",
+    "url": "https://stockanalysis.com/stocks/ora/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "ORA",
+    "name": "Ormat Technologies",
+    "route": "stocks/ora",
+    "tier": 1,
+    "reason": "geothermal IPP (World relaxation)",
+    "url": "https://stockanalysis.com/stocks/ora/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap5.52B -15.3%"
+    ]
+  },
+  {
+    "ticker": "BLX",
+    "name": "Boralex",
+    "route": "quote/tsx/BLX",
+    "tier": 1,
+    "reason": "Canadian wind/solar IPP (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/BLX/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions CAD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "BLX",
+    "name": "Boralex",
+    "route": "quote/tsx/BLX",
+    "tier": 1,
+    "reason": "Canadian wind/solar IPP (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/BLX/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions CAD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "BLX",
+    "name": "Boralex",
+    "route": "quote/tsx/BLX",
+    "tier": 1,
+    "reason": "Canadian wind/solar IPP (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/BLX/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions CAD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "BLX",
+    "name": "Boralex",
+    "route": "quote/tsx/BLX",
+    "tier": 1,
+    "reason": "Canadian wind/solar IPP (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/BLX/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue Bor",
+      "Market Cap3.83BEnterpr"
+    ]
+  },
+  {
+    "ticker": "BLX",
+    "name": "Boralex",
+    "route": "quote/tsx/BLX",
+    "tier": 1,
+    "reason": "Canadian wind/solar IPP (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/BLX/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "BLX",
+    "name": "Boralex",
+    "route": "quote/tsx/BLX",
+    "tier": 1,
+    "reason": "Canadian wind/solar IPP (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/BLX/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap3.83B +25.3%"
+    ]
+  },
+  {
+    "ticker": "NPI",
+    "name": "Northland Power",
+    "route": "quote/tsx/NPI",
+    "tier": 1,
+    "reason": "Canadian offshore/onshore renewables (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/NPI/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions CAD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "NPI",
+    "name": "Northland Power",
+    "route": "quote/tsx/NPI",
+    "tier": 1,
+    "reason": "Canadian offshore/onshore renewables (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/NPI/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions CAD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "NPI",
+    "name": "Northland Power",
+    "route": "quote/tsx/NPI",
+    "tier": 1,
+    "reason": "Canadian offshore/onshore renewables (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/NPI/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions CAD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "NPI",
+    "name": "Northland Power",
+    "route": "quote/tsx/NPI",
+    "tier": 1,
+    "reason": "Canadian offshore/onshore renewables (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/NPI/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue Nor",
+      "Market Cap5.66BEnterpr"
+    ]
+  },
+  {
+    "ticker": "NPI",
+    "name": "Northland Power",
+    "route": "quote/tsx/NPI",
+    "tier": 1,
+    "reason": "Canadian offshore/onshore renewables (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/NPI/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "NPI",
+    "name": "Northland Power",
+    "route": "quote/tsx/NPI",
+    "tier": 1,
+    "reason": "Canadian offshore/onshore renewables (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/NPI/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap5.66B -14.9%"
+    ]
+  },
+  {
+    "ticker": "INE",
+    "name": "Innergex",
+    "route": "quote/tsx/INE",
+    "tier": 1,
+    "reason": "Canadian hydro/wind/solar IPP (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/INE/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions CAD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "INE",
+    "name": "Innergex",
+    "route": "quote/tsx/INE",
+    "tier": 1,
+    "reason": "Canadian hydro/wind/solar IPP (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/INE/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions CAD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "INE",
+    "name": "Innergex",
+    "route": "quote/tsx/INE",
+    "tier": 1,
+    "reason": "Canadian hydro/wind/solar IPP (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/INE/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions CAD"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "INE",
+    "name": "Innergex",
+    "route": "quote/tsx/INE",
+    "tier": 1,
+    "reason": "Canadian hydro/wind/solar IPP (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/INE/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue Inn",
+      "Market Cap2.79BEnterpr"
+    ]
+  },
+  {
+    "ticker": "INE",
+    "name": "Innergex",
+    "route": "quote/tsx/INE",
+    "tier": 1,
+    "reason": "Canadian hydro/wind/solar IPP (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/INE/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "INE",
+    "name": "Innergex",
+    "route": "quote/tsx/INE",
+    "tier": 1,
+    "reason": "Canadian hydro/wind/solar IPP (World relaxation)",
+    "url": "https://stockanalysis.com/quote/tsx/INE/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap2.79B Revenu"
+    ]
+  },
+  {
+    "ticker": "IBE",
+    "name": "Iberdrola",
+    "route": "quote/bme/IBE",
+    "tier": 2,
+    "reason": "integrated utility, large renewables; batch target",
+    "url": "https://stockanalysis.com/quote/bme/IBE/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "IBE",
+    "name": "Iberdrola",
+    "route": "quote/bme/IBE",
+    "tier": 2,
+    "reason": "integrated utility, large renewables; batch target",
+    "url": "https://stockanalysis.com/quote/bme/IBE/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "IBE",
+    "name": "Iberdrola",
+    "route": "quote/bme/IBE",
+    "tier": 2,
+    "reason": "integrated utility, large renewables; batch target",
+    "url": "https://stockanalysis.com/quote/bme/IBE/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "IBE",
+    "name": "Iberdrola",
+    "route": "quote/bme/IBE",
+    "tier": 2,
+    "reason": "integrated utility, large renewables; batch target",
+    "url": "https://stockanalysis.com/quote/bme/IBE/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue Ibe",
+      "Market Cap147.94BEnter"
+    ]
+  },
+  {
+    "ticker": "IBE",
+    "name": "Iberdrola",
+    "route": "quote/bme/IBE",
+    "tier": 2,
+    "reason": "integrated utility, large renewables; batch target",
+    "url": "https://stockanalysis.com/quote/bme/IBE/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "IBE",
+    "name": "Iberdrola",
+    "route": "quote/bme/IBE",
+    "tier": 2,
+    "reason": "integrated utility, large renewables; batch target",
+    "url": "https://stockanalysis.com/quote/bme/IBE/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap147.94B +27."
+    ]
+  },
+  {
+    "ticker": "ENEL",
+    "name": "Enel",
+    "route": "quote/bit/ENEL",
+    "tier": 2,
+    "reason": "integrated utility, large renewables; batch target",
+    "url": "https://stockanalysis.com/quote/bit/ENEL/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ENEL",
+    "name": "Enel",
+    "route": "quote/bit/ENEL",
+    "tier": 2,
+    "reason": "integrated utility, large renewables; batch target",
+    "url": "https://stockanalysis.com/quote/bit/ENEL/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ENEL",
+    "name": "Enel",
+    "route": "quote/bit/ENEL",
+    "tier": 2,
+    "reason": "integrated utility, large renewables; batch target",
+    "url": "https://stockanalysis.com/quote/bit/ENEL/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ENEL",
+    "name": "Enel",
+    "route": "quote/bit/ENEL",
+    "tier": 2,
+    "reason": "integrated utility, large renewables; batch target",
+    "url": "https://stockanalysis.com/quote/bit/ENEL/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue Ene",
+      "Market Cap92.46BEnterp"
+    ]
+  },
+  {
+    "ticker": "ENEL",
+    "name": "Enel",
+    "route": "quote/bit/ENEL",
+    "tier": 2,
+    "reason": "integrated utility, large renewables; batch target",
+    "url": "https://stockanalysis.com/quote/bit/ENEL/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "ENEL",
+    "name": "Enel",
+    "route": "quote/bit/ENEL",
+    "tier": 2,
+    "reason": "integrated utility, large renewables; batch target",
+    "url": "https://stockanalysis.com/quote/bit/ENEL/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap92.46B +4.5%"
+    ]
+  },
+  {
+    "ticker": "SSE",
+    "name": "SSE",
+    "route": "quote/lon/SSE",
+    "tier": 2,
+    "reason": "UK utility, wind-heavy; batch target",
+    "url": "https://stockanalysis.com/quote/lon/SSE/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions GBP"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "SSE",
+    "name": "SSE",
+    "route": "quote/lon/SSE",
+    "tier": 2,
+    "reason": "UK utility, wind-heavy; batch target",
+    "url": "https://stockanalysis.com/quote/lon/SSE/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions GBP"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "SSE",
+    "name": "SSE",
+    "route": "quote/lon/SSE",
+    "tier": 2,
+    "reason": "UK utility, wind-heavy; batch target",
+    "url": "https://stockanalysis.com/quote/lon/SSE/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions GBP"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "SSE",
+    "name": "SSE",
+    "route": "quote/lon/SSE",
+    "tier": 2,
+    "reason": "UK utility, wind-heavy; batch target",
+    "url": "https://stockanalysis.com/quote/lon/SSE/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue SSE",
+      "Market Cap31.69BEnterp"
+    ]
+  },
+  {
+    "ticker": "SSE",
+    "name": "SSE",
+    "route": "quote/lon/SSE",
+    "tier": 2,
+    "reason": "UK utility, wind-heavy; batch target",
+    "url": "https://stockanalysis.com/quote/lon/SSE/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "SSE",
+    "name": "SSE",
+    "route": "quote/lon/SSE",
+    "tier": 2,
+    "reason": "UK utility, wind-heavy; batch target",
+    "url": "https://stockanalysis.com/quote/lon/SSE/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap31.69B +51.6"
+    ]
+  },
+  {
+    "ticker": "ENGI",
+    "name": "ENGIE",
+    "route": "quote/epa/ENGI",
+    "tier": 2,
+    "reason": "integrated utility, renewables fleet; batch target",
+    "url": "https://stockanalysis.com/quote/epa/ENGI/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ENGI",
+    "name": "ENGIE",
+    "route": "quote/epa/ENGI",
+    "tier": 2,
+    "reason": "integrated utility, renewables fleet; batch target",
+    "url": "https://stockanalysis.com/quote/epa/ENGI/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ENGI",
+    "name": "ENGIE",
+    "route": "quote/epa/ENGI",
+    "tier": 2,
+    "reason": "integrated utility, renewables fleet; batch target",
+    "url": "https://stockanalysis.com/quote/epa/ENGI/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ENGI",
+    "name": "ENGIE",
+    "route": "quote/epa/ENGI",
+    "tier": 2,
+    "reason": "integrated utility, renewables fleet; batch target",
+    "url": "https://stockanalysis.com/quote/epa/ENGI/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue Eng",
+      "Market Cap56.98BEnterp"
+    ]
+  },
+  {
+    "ticker": "ENGI",
+    "name": "ENGIE",
+    "route": "quote/epa/ENGI",
+    "tier": 2,
+    "reason": "integrated utility, renewables fleet; batch target",
+    "url": "https://stockanalysis.com/quote/epa/ENGI/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "ENGI",
+    "name": "ENGIE",
+    "route": "quote/epa/ENGI",
+    "tier": 2,
+    "reason": "integrated utility, renewables fleet; batch target",
+    "url": "https://stockanalysis.com/quote/epa/ENGI/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap56.98B +16.7"
+    ]
+  },
+  {
+    "ticker": "VER",
+    "name": "Verbund",
+    "route": "quote/vie/VER",
+    "tier": 2,
+    "reason": "Austrian hydro/wind utility; batch target",
+    "url": "https://stockanalysis.com/quote/vie/VER/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "VER",
+    "name": "Verbund",
+    "route": "quote/vie/VER",
+    "tier": 2,
+    "reason": "Austrian hydro/wind utility; batch target",
+    "url": "https://stockanalysis.com/quote/vie/VER/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "VER",
+    "name": "Verbund",
+    "route": "quote/vie/VER",
+    "tier": 2,
+    "reason": "Austrian hydro/wind utility; batch target",
+    "url": "https://stockanalysis.com/quote/vie/VER/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "VER",
+    "name": "Verbund",
+    "route": "quote/vie/VER",
+    "tier": 2,
+    "reason": "Austrian hydro/wind utility; batch target",
+    "url": "https://stockanalysis.com/quote/vie/VER/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue VER",
+      "Market Cap24.15BEnterp"
+    ]
+  },
+  {
+    "ticker": "VER",
+    "name": "Verbund",
+    "route": "quote/vie/VER",
+    "tier": 2,
+    "reason": "Austrian hydro/wind utility; batch target",
+    "url": "https://stockanalysis.com/quote/vie/VER/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "VER",
+    "name": "Verbund",
+    "route": "quote/vie/VER",
+    "tier": 2,
+    "reason": "Austrian hydro/wind utility; batch target",
+    "url": "https://stockanalysis.com/quote/vie/VER/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap24.15B +6.4%"
+    ]
+  },
+  {
+    "ticker": "RWE",
+    "name": "RWE",
+    "route": "quote/etr/RWE",
+    "tier": 2,
+    "reason": "German utility, large renewables build-out",
+    "url": "https://stockanalysis.com/quote/etr/RWE/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "RWE",
+    "name": "RWE",
+    "route": "quote/etr/RWE",
+    "tier": 2,
+    "reason": "German utility, large renewables build-out",
+    "url": "https://stockanalysis.com/quote/etr/RWE/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "RWE",
+    "name": "RWE",
+    "route": "quote/etr/RWE",
+    "tier": 2,
+    "reason": "German utility, large renewables build-out",
+    "url": "https://stockanalysis.com/quote/etr/RWE/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "RWE",
+    "name": "RWE",
+    "route": "quote/etr/RWE",
+    "tier": 2,
+    "reason": "German utility, large renewables build-out",
+    "url": "https://stockanalysis.com/quote/etr/RWE/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue RWE",
+      "Market Cap40.89BEnterp"
+    ]
+  },
+  {
+    "ticker": "RWE",
+    "name": "RWE",
+    "route": "quote/etr/RWE",
+    "tier": 2,
+    "reason": "German utility, large renewables build-out",
+    "url": "https://stockanalysis.com/quote/etr/RWE/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "RWE",
+    "name": "RWE",
+    "route": "quote/etr/RWE",
+    "tier": 2,
+    "reason": "German utility, large renewables build-out",
+    "url": "https://stockanalysis.com/quote/etr/RWE/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap40.89B +34.3"
+    ]
+  },
+  {
+    "ticker": "FORTUM",
+    "name": "Fortum",
+    "route": "quote/hel/FORTUM",
+    "tier": 2,
+    "reason": "Nordic utility, hydro/nuclear/renewables",
+    "url": "https://stockanalysis.com/quote/hel/FORTUM/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "FORTUM",
+    "name": "Fortum",
+    "route": "quote/hel/FORTUM",
+    "tier": 2,
+    "reason": "Nordic utility, hydro/nuclear/renewables",
+    "url": "https://stockanalysis.com/quote/hel/FORTUM/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "FORTUM",
+    "name": "Fortum",
+    "route": "quote/hel/FORTUM",
+    "tier": 2,
+    "reason": "Nordic utility, hydro/nuclear/renewables",
+    "url": "https://stockanalysis.com/quote/hel/FORTUM/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "FORTUM",
+    "name": "Fortum",
+    "route": "quote/hel/FORTUM",
+    "tier": 2,
+    "reason": "Nordic utility, hydro/nuclear/renewables",
+    "url": "https://stockanalysis.com/quote/hel/FORTUM/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue For",
+      "Market Cap20.63BEnterp"
+    ]
+  },
+  {
+    "ticker": "FORTUM",
+    "name": "Fortum",
+    "route": "quote/hel/FORTUM",
+    "tier": 2,
+    "reason": "Nordic utility, hydro/nuclear/renewables",
+    "url": "https://stockanalysis.com/quote/hel/FORTUM/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "FORTUM",
+    "name": "Fortum",
+    "route": "quote/hel/FORTUM",
+    "tier": 2,
+    "reason": "Nordic utility, hydro/nuclear/renewables",
+    "url": "https://stockanalysis.com/quote/hel/FORTUM/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap20.63B +22.7"
+    ]
+  },
+  {
+    "ticker": "DRX",
+    "name": "Drax",
+    "route": "quote/lon/DRX",
+    "tier": 2,
+    "reason": "UK biomass/renewables generator",
+    "url": "https://stockanalysis.com/quote/lon/DRX/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions GBP"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "DRX",
+    "name": "Drax",
+    "route": "quote/lon/DRX",
+    "tier": 2,
+    "reason": "UK biomass/renewables generator",
+    "url": "https://stockanalysis.com/quote/lon/DRX/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions GBP"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "DRX",
+    "name": "Drax",
+    "route": "quote/lon/DRX",
+    "tier": 2,
+    "reason": "UK biomass/renewables generator",
+    "url": "https://stockanalysis.com/quote/lon/DRX/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions GBP"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "DRX",
+    "name": "Drax",
+    "route": "quote/lon/DRX",
+    "tier": 2,
+    "reason": "UK biomass/renewables generator",
+    "url": "https://stockanalysis.com/quote/lon/DRX/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue Dra",
+      "Market Cap2.72BEnterpr"
+    ]
+  },
+  {
+    "ticker": "DRX",
+    "name": "Drax",
+    "route": "quote/lon/DRX",
+    "tier": 2,
+    "reason": "UK biomass/renewables generator",
+    "url": "https://stockanalysis.com/quote/lon/DRX/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "DRX",
+    "name": "Drax",
+    "route": "quote/lon/DRX",
+    "tier": 2,
+    "reason": "UK biomass/renewables generator",
+    "url": "https://stockanalysis.com/quote/lon/DRX/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap2.72B +8.2%R"
+    ]
+  },
+  {
+    "ticker": "EOAN",
+    "name": "E.ON",
+    "route": "quote/etr/EOAN",
+    "tier": 2,
+    "reason": "German utility (networks/retail; renewables legacy)",
+    "url": "https://stockanalysis.com/quote/etr/EOAN/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "EOAN",
+    "name": "E.ON",
+    "route": "quote/etr/EOAN",
+    "tier": 2,
+    "reason": "German utility (networks/retail; renewables legacy)",
+    "url": "https://stockanalysis.com/quote/etr/EOAN/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "EOAN",
+    "name": "E.ON",
+    "route": "quote/etr/EOAN",
+    "tier": 2,
+    "reason": "German utility (networks/retail; renewables legacy)",
+    "url": "https://stockanalysis.com/quote/etr/EOAN/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "EOAN",
+    "name": "E.ON",
+    "route": "quote/etr/EOAN",
+    "tier": 2,
+    "reason": "German utility (networks/retail; renewables legacy)",
+    "url": "https://stockanalysis.com/quote/etr/EOAN/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue E.O",
+      "Market Cap49.42BEnterp"
+    ]
+  },
+  {
+    "ticker": "EOAN",
+    "name": "E.ON",
+    "route": "quote/etr/EOAN",
+    "tier": 2,
+    "reason": "German utility (networks/retail; renewables legacy)",
+    "url": "https://stockanalysis.com/quote/etr/EOAN/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "EOAN",
+    "name": "E.ON",
+    "route": "quote/etr/EOAN",
+    "tier": 2,
+    "reason": "German utility (networks/retail; renewables legacy)",
+    "url": "https://stockanalysis.com/quote/etr/EOAN/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap49.42B +16.3"
+    ]
+  },
+  {
+    "ticker": "ELE",
+    "name": "Endesa",
+    "route": "quote/bme/ELE",
+    "tier": 2,
+    "reason": "Spanish utility (Enel subsidiary; renewables fleet)",
+    "url": "https://stockanalysis.com/quote/bme/ELE/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ELE",
+    "name": "Endesa",
+    "route": "quote/bme/ELE",
+    "tier": 2,
+    "reason": "Spanish utility (Enel subsidiary; renewables fleet)",
+    "url": "https://stockanalysis.com/quote/bme/ELE/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ELE",
+    "name": "Endesa",
+    "route": "quote/bme/ELE",
+    "tier": 2,
+    "reason": "Spanish utility (Enel subsidiary; renewables fleet)",
+    "url": "https://stockanalysis.com/quote/bme/ELE/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "ELE",
+    "name": "Endesa",
+    "route": "quote/bme/ELE",
+    "tier": 2,
+    "reason": "Spanish utility (Enel subsidiary; renewables fleet)",
+    "url": "https://stockanalysis.com/quote/bme/ELE/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue End",
+      "Market Cap44.50BEnterp"
+    ]
+  },
+  {
+    "ticker": "ELE",
+    "name": "Endesa",
+    "route": "quote/bme/ELE",
+    "tier": 2,
+    "reason": "Spanish utility (Enel subsidiary; renewables fleet)",
+    "url": "https://stockanalysis.com/quote/bme/ELE/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "ELE",
+    "name": "Endesa",
+    "route": "quote/bme/ELE",
+    "tier": 2,
+    "reason": "Spanish utility (Enel subsidiary; renewables fleet)",
+    "url": "https://stockanalysis.com/quote/bme/ELE/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap44.50B +39.2"
+    ]
+  },
+  {
+    "ticker": "NTGY",
+    "name": "Naturgy",
+    "route": "quote/bme/NTGY",
+    "tier": 2,
+    "reason": "Spanish gas/power utility with renewables",
+    "url": "https://stockanalysis.com/quote/bme/NTGY/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "NTGY",
+    "name": "Naturgy",
+    "route": "quote/bme/NTGY",
+    "tier": 2,
+    "reason": "Spanish gas/power utility with renewables",
+    "url": "https://stockanalysis.com/quote/bme/NTGY/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "NTGY",
+    "name": "Naturgy",
+    "route": "quote/bme/NTGY",
+    "tier": 2,
+    "reason": "Spanish gas/power utility with renewables",
+    "url": "https://stockanalysis.com/quote/bme/NTGY/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "NTGY",
+    "name": "Naturgy",
+    "route": "quote/bme/NTGY",
+    "tier": 2,
+    "reason": "Spanish gas/power utility with renewables",
+    "url": "https://stockanalysis.com/quote/bme/NTGY/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue Nat",
+      "Market Cap27.49BEnterp"
+    ]
+  },
+  {
+    "ticker": "NTGY",
+    "name": "Naturgy",
+    "route": "quote/bme/NTGY",
+    "tier": 2,
+    "reason": "Spanish gas/power utility with renewables",
+    "url": "https://stockanalysis.com/quote/bme/NTGY/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "NTGY",
+    "name": "Naturgy",
+    "route": "quote/bme/NTGY",
+    "tier": 2,
+    "reason": "Spanish gas/power utility with renewables",
+    "url": "https://stockanalysis.com/quote/bme/NTGY/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap27.49B +7.6%"
+    ]
+  },
+  {
+    "ticker": "CNA",
+    "name": "Centrica",
+    "route": "quote/lon/CNA",
+    "tier": 2,
+    "reason": "UK utility, generation stake",
+    "url": "https://stockanalysis.com/quote/lon/CNA/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions GBP"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "CNA",
+    "name": "Centrica",
+    "route": "quote/lon/CNA",
+    "tier": 2,
+    "reason": "UK utility, generation stake",
+    "url": "https://stockanalysis.com/quote/lon/CNA/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions GBP"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "CNA",
+    "name": "Centrica",
+    "route": "quote/lon/CNA",
+    "tier": 2,
+    "reason": "UK utility, generation stake",
+    "url": "https://stockanalysis.com/quote/lon/CNA/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions GBP"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "CNA",
+    "name": "Centrica",
+    "route": "quote/lon/CNA",
+    "tier": 2,
+    "reason": "UK utility, generation stake",
+    "url": "https://stockanalysis.com/quote/lon/CNA/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue Cen",
+      "Market Cap6.92BEnterpr"
+    ]
+  },
+  {
+    "ticker": "CNA",
+    "name": "Centrica",
+    "route": "quote/lon/CNA",
+    "tier": 2,
+    "reason": "UK utility, generation stake",
+    "url": "https://stockanalysis.com/quote/lon/CNA/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "CNA",
+    "name": "Centrica",
+    "route": "quote/lon/CNA",
+    "tier": 2,
+    "reason": "UK utility, generation stake",
+    "url": "https://stockanalysis.com/quote/lon/CNA/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap6.92B -15.2%"
+    ]
+  },
+  {
+    "ticker": "A2A",
+    "name": "A2A",
+    "route": "quote/bit/A2A",
+    "tier": 2,
+    "reason": "Italian multi-utility with hydro/renewables",
+    "url": "https://stockanalysis.com/quote/bit/A2A/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "A2A",
+    "name": "A2A",
+    "route": "quote/bit/A2A",
+    "tier": 2,
+    "reason": "Italian multi-utility with hydro/renewables",
+    "url": "https://stockanalysis.com/quote/bit/A2A/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "A2A",
+    "name": "A2A",
+    "route": "quote/bit/A2A",
+    "tier": 2,
+    "reason": "Italian multi-utility with hydro/renewables",
+    "url": "https://stockanalysis.com/quote/bit/A2A/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "A2A",
+    "name": "A2A",
+    "route": "quote/bit/A2A",
+    "tier": 2,
+    "reason": "Italian multi-utility with hydro/renewables",
+    "url": "https://stockanalysis.com/quote/bit/A2A/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue A2A",
+      "Market Cap7.52BEnterpr"
+    ]
+  },
+  {
+    "ticker": "A2A",
+    "name": "A2A",
+    "route": "quote/bit/A2A",
+    "tier": 2,
+    "reason": "Italian multi-utility with hydro/renewables",
+    "url": "https://stockanalysis.com/quote/bit/A2A/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "A2A",
+    "name": "A2A",
+    "route": "quote/bit/A2A",
+    "tier": 2,
+    "reason": "Italian multi-utility with hydro/renewables",
+    "url": "https://stockanalysis.com/quote/bit/A2A/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap7.52B -4.3%R"
+    ]
+  },
+  {
+    "ticker": "IREN",
+    "name": "Iren",
+    "route": "quote/bit/IREN",
+    "tier": 2,
+    "reason": "Italian multi-utility with hydro",
+    "url": "https://stockanalysis.com/quote/bit/IREN/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "IREN",
+    "name": "Iren",
+    "route": "quote/bit/IREN",
+    "tier": 2,
+    "reason": "Italian multi-utility with hydro",
+    "url": "https://stockanalysis.com/quote/bit/IREN/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "IREN",
+    "name": "Iren",
+    "route": "quote/bit/IREN",
+    "tier": 2,
+    "reason": "Italian multi-utility with hydro",
+    "url": "https://stockanalysis.com/quote/bit/IREN/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "IREN",
+    "name": "Iren",
+    "route": "quote/bit/IREN",
+    "tier": 2,
+    "reason": "Italian multi-utility with hydro",
+    "url": "https://stockanalysis.com/quote/bit/IREN/statistics/",
+    "page": "statistics/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "IREN",
+    "name": "Iren",
+    "route": "quote/bit/IREN",
+    "tier": 2,
+    "reason": "Italian multi-utility with hydro",
+    "url": "https://stockanalysis.com/quote/bit/IREN/history/",
+    "page": "history/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "IREN",
+    "name": "Iren",
+    "route": "quote/bit/IREN",
+    "tier": 2,
+    "reason": "Italian multi-utility with hydro",
+    "url": "https://stockanalysis.com/quote/bit/IREN/",
+    "page": "",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "HERA",
+    "name": "Hera",
+    "route": "quote/bit/HERA",
+    "tier": 2,
+    "reason": "Italian multi-utility",
+    "url": "https://stockanalysis.com/quote/bit/HERA/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "HERA",
+    "name": "Hera",
+    "route": "quote/bit/HERA",
+    "tier": 2,
+    "reason": "Italian multi-utility",
+    "url": "https://stockanalysis.com/quote/bit/HERA/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "HERA",
+    "name": "Hera",
+    "route": "quote/bit/HERA",
+    "tier": 2,
+    "reason": "Italian multi-utility",
+    "url": "https://stockanalysis.com/quote/bit/HERA/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "HERA",
+    "name": "Hera",
+    "route": "quote/bit/HERA",
+    "tier": 2,
+    "reason": "Italian multi-utility",
+    "url": "https://stockanalysis.com/quote/bit/HERA/statistics/",
+    "page": "statistics/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "HERA",
+    "name": "Hera",
+    "route": "quote/bit/HERA",
+    "tier": 2,
+    "reason": "Italian multi-utility",
+    "url": "https://stockanalysis.com/quote/bit/HERA/history/",
+    "page": "history/",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "HERA",
+    "name": "Hera",
+    "route": "quote/bit/HERA",
+    "tier": 2,
+    "reason": "Italian multi-utility",
+    "url": "https://stockanalysis.com/quote/bit/HERA/",
+    "page": "",
+    "status": 404,
+    "access_date": "2026-11-01"
+  },
+  {
+    "ticker": "EDP",
+    "name": "EDP",
+    "route": "quote/eli/EDP",
+    "tier": 0,
+    "reason": "PARENT of EDPR (~71% stake) -> hard exclusion evidence row",
+    "url": "https://stockanalysis.com/quote/eli/EDP/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "EDP",
+    "name": "EDP",
+    "route": "quote/eli/EDP",
+    "tier": 0,
+    "reason": "PARENT of EDPR (~71% stake) -> hard exclusion evidence row",
+    "url": "https://stockanalysis.com/quote/eli/EDP/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "EDP",
+    "name": "EDP",
+    "route": "quote/eli/EDP",
+    "tier": 0,
+    "reason": "PARENT of EDPR (~71% stake) -> hard exclusion evidence row",
+    "url": "https://stockanalysis.com/quote/eli/EDP/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ],
+    "mcap": []
+  },
+  {
+    "ticker": "EDP",
+    "name": "EDP",
+    "route": "quote/eli/EDP",
+    "tier": 0,
+    "reason": "PARENT of EDPR (~71% stake) -> hard exclusion evidence row",
+    "url": "https://stockanalysis.com/quote/eli/EDP/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap Revenue EDP",
+      "Market Cap20.12BEnterp"
+    ]
+  },
+  {
+    "ticker": "EDP",
+    "name": "EDP",
+    "route": "quote/eli/EDP",
+    "tier": 0,
+    "reason": "PARENT of EDPR (~71% stake) -> hard exclusion evidence row",
+    "url": "https://stockanalysis.com/quote/eli/EDP/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": []
+  },
+  {
+    "ticker": "EDP",
+    "name": "EDP",
+    "route": "quote/eli/EDP",
+    "tier": 0,
+    "reason": "PARENT of EDPR (~71% stake) -> hard exclusion evidence row",
+    "url": "https://stockanalysis.com/quote/eli/EDP/",
+    "page": "",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [],
+    "mcap": [
+      "Market Cap20.12B +12.0"
+    ]
+  }
+]

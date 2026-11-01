@@ -1,0 +1,192 @@
+[
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "columns": [
+      "Fiscal Year"
+    ],
+    "data": [
+      [
+        "Net Income"
+      ],
+      [
+        "Depreciation & Amortization"
+      ],
+      [
+        "Loss (Gain) on Equity Investments"
+      ],
+      [
+        "Asset Writedown"
+      ],
+      [
+        "Change in Accounts Receivable"
+      ],
+      [
+        "Change in Inventory"
+      ],
+      [
+        "Change in Accounts Payable"
+      ],
+      [
+        "Change in Other Net Operating Assets"
+      ],
+      [
+        "Other Operating Activities"
+      ],
+      [
+        "Operating Cash Flow"
+      ],
+      [
+        "Operating Cash Flow Growth"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "columns": [
+      "Fiscal Year"
+    ],
+    "data": [
+      [
+        "Capital Expenditures"
+      ],
+      [
+        "Cash Acquisitions"
+      ],
+      [
+        "Sale (Purchase) of Intangibles"
+      ],
+      [
+        "Investment in Securities"
+      ],
+      [
+        "Other Investing Activities"
+      ],
+      [
+        "Investing Cash Flow"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "columns": [
+      "Fiscal Year"
+    ],
+    "data": [
+      [
+        "Long-Term Debt Issued"
+      ],
+      [
+        "Long-Term Debt Repaid"
+      ],
+      [
+        "Net Debt Issued (Repaid)"
+      ],
+      [
+        "Issuance of Common Stock"
+      ],
+      [
+        "Common Dividends Paid"
+      ],
+      [
+        "Other Financing Activities"
+      ],
+      [
+        "Financing Cash Flow"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1
+    ],
+    "columns": [
+      "Fiscal Year"
+    ],
+    "data": [
+      [
+        "Foreign Exchange Rate Adjustments"
+      ],
+      [
+        "Net Cash Flow"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "columns": [
+      "Fiscal Year"
+    ],
+    "data": [
+      [
+        "Free Cash Flow"
+      ],
+      [
+        "Free Cash Flow Growth"
+      ],
+      [
+        "Free Cash Flow Margin"
+      ],
+      [
+        "Free Cash Flow Per Share"
+      ],
+      [
+        "Levered Free Cash Flow"
+      ],
+      [
+        "Unlevered Free Cash Flow"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1
+    ],
+    "columns": [
+      "Fiscal Year"
+    ],
+    "data": [
+      [
+        "Cash Interest Paid"
+      ],
+      [
+        "Cash Income Tax Paid"
+      ]
+    ]
+  }
+]

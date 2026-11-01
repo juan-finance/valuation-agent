@@ -1,0 +1,332 @@
+[
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Net Income",
+        "6285",
+        "5612"
+      ],
+      [
+        "Depreciation & Amortization",
+        "4917",
+        "4761"
+      ],
+      [
+        "Other Amortization",
+        "329",
+        "266"
+      ],
+      [
+        "Loss (Gain) on Sale of Assets",
+        "-261",
+        "-1717"
+      ],
+      [
+        "Loss (Gain) on Sale of Investments",
+        "2",
+        "4"
+      ],
+      [
+        "Loss (Gain) on Equity Investments",
+        "-96",
+        "37"
+      ],
+      [
+        "Asset Writedown",
+        "524",
+        "1568"
+      ],
+      [
+        "Restructuring Activities",
+        "83",
+        "81"
+      ],
+      [
+        "Change in Accounts Receivable",
+        "-2454",
+        "-1760"
+      ],
+      [
+        "Change in Inventory",
+        "-644",
+        "-620"
+      ],
+      [
+        "Change in Accounts Payable",
+        "58",
+        "1262"
+      ],
+      [
+        "Other Operating Activities",
+        "2497",
+        "150"
+      ],
+      [
+        "Net Cash from Discontinued Operations",
+        "395",
+        "2281"
+      ],
+      [
+        "Operating Cash Flow",
+        "11635",
+        "11925"
+      ],
+      [
+        "Operating Cash Flow Growth",
+        "-2.43%",
+        "-1.69%"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Capital Expenditures",
+        -8081,
+        -8209
+      ],
+      [
+        "Cash Acquisitions",
+        -70,
+        -243
+      ],
+      [
+        "Divestitures",
+        1582,
+        5680
+      ],
+      [
+        "Sale (Purchase) of Intangibles",
+        -711,
+        -710
+      ],
+      [
+        "Investment in Securities",
+        -2540,
+        -4340
+      ],
+      [
+        "Other Investing Activities",
+        -1348,
+        -567
+      ],
+      [
+        "Investing Cash Flow",
+        -11177,
+        -8397
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Long-Term Debt Issued",
+        16069,
+        19060
+      ],
+      [
+        "Long-Term Debt Repaid",
+        -13655,
+        -13486
+      ],
+      [
+        "Lease Payments",
+        -178,
+        -182
+      ],
+      [
+        "Net Debt Issued (Repaid)",
+        2414,
+        5574
+      ],
+      [
+        "Issuance of Common Stock",
+        5107,
+        79
+      ],
+      [
+        "Repurchase of Common Stock",
+        -3017,
+        -2076
+      ],
+      [
+        "Common Dividends Paid",
+        -1275,
+        -1166
+      ],
+      [
+        "Other Financing Activities",
+        -3858,
+        -4678
+      ],
+      [
+        "Financing Cash Flow",
+        -629,
+        -2267
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Foreign Exchange Rate Adjustments",
+        -95,
+        "-198"
+      ],
+      [
+        "Miscellaneous Cash Flow Adjustments",
+        -146,
+        "-"
+      ],
+      [
+        "Net Cash Flow",
+        -412,
+        "1063"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Free Cash Flow",
+        "3554",
+        "3716"
+      ],
+      [
+        "Free Cash Flow Growth",
+        "-4.36%",
+        "-15.79%"
+      ],
+      [
+        "Free Cash Flow Margin",
+        "8.06%",
+        "8.64%"
+      ],
+      [
+        "Free Cash Flow Per Share",
+        "0.53",
+        "0.56"
+      ],
+      [
+        "Levered Free Cash Flow",
+        "-1719",
+        "3595"
+      ],
+      [
+        "Unlevered Free Cash Flow",
+        "-361.13",
+        "4825"
+      ],
+      [
+        "Free Cash Flow After Leases",
+        "3376",
+        "3534"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Cash Interest Paid",
+        2238,
+        1917
+      ],
+      [
+        "Cash Income Tax Paid",
+        1570,
+        1940
+      ],
+      [
+        "Change in Working Capital",
+        -3040,
+        -1118
+      ]
+    ]
+  }
+]

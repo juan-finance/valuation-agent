@@ -1,0 +1,312 @@
+[
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Revenue",
+        "71944",
+        "73812"
+      ],
+      [
+        "Revenue Growth",
+        "-2.53%",
+        "-10.60%"
+      ],
+      [
+        "Selling, General & Admin",
+        "174",
+        "169"
+      ],
+      [
+        "Depreciation & Amortization",
+        "5392",
+        "5547"
+      ],
+      [
+        "Other Operating Expenses",
+        "58039",
+        "59282"
+      ],
+      [
+        "Total Operating Expenses",
+        "63605",
+        "64998"
+      ],
+      [
+        "Operating Income",
+        "8339",
+        "8814"
+      ],
+      [
+        "Interest Expense",
+        "-1837",
+        "-1925"
+      ],
+      [
+        "Interest Income",
+        "64",
+        "306"
+      ],
+      [
+        "Net Interest Expense",
+        "-1773",
+        "-1619"
+      ],
+      [
+        "Income (Loss) on Equity Investments",
+        "622",
+        "850"
+      ],
+      [
+        "Currency Exchange Gain (Loss)",
+        "-41",
+        "-12"
+      ],
+      [
+        "Other Non-Operating Income (Expenses)",
+        "-576",
+        "-905"
+      ],
+      [
+        "EBT Excluding Unusual Items",
+        "6571",
+        "7128"
+      ],
+      [
+        "Restructuring Charges",
+        "-303",
+        "-369"
+      ],
+      [
+        "Impairment of Goodwill",
+        "-105",
+        "-66"
+      ],
+      [
+        "Gain (Loss) on Sale of Investments",
+        "713",
+        "1060"
+      ],
+      [
+        "Gain (Loss) on Sale of Assets",
+        "60",
+        "-"
+      ],
+      [
+        "Asset Writedown",
+        "-673",
+        "-853"
+      ],
+      [
+        "Other Unusual Items",
+        "55",
+        "288"
+      ],
+      [
+        "Pretax Income",
+        "6318",
+        "7188"
+      ],
+      [
+        "Income Tax Expense",
+        "1570",
+        "2215"
+      ],
+      [
+        "Earnings From Continuing Ops.",
+        "4748",
+        "4973"
+      ],
+      [
+        "Earnings From Discontinued Ops.",
+        "-",
+        "-"
+      ],
+      [
+        "Net Income to Company",
+        "4748",
+        "4973"
+      ],
+      [
+        "Minority Interest in Earnings",
+        "-921",
+        "-867"
+      ],
+      [
+        "Net Income",
+        "3827",
+        "4106"
+      ],
+      [
+        "Preferred Dividends & Other Adjustments",
+        "140",
+        "76"
+      ],
+      [
+        "Net Income to Common",
+        "3687",
+        "4030"
+      ],
+      [
+        "Net Income Growth",
+        "-8.51%",
+        "89.38%"
+      ],
+      [
+        "Shares Outstanding (Basic)",
+        "2429",
+        "2426"
+      ],
+      [
+        "Shares Outstanding (Diluted)",
+        "2443",
+        "2436"
+      ],
+      [
+        "Shares Change",
+        "0.29%",
+        "0.12%"
+      ],
+      [
+        "EPS (Basic)",
+        "1.52",
+        "1.66"
+      ],
+      [
+        "EPS (Diluted)",
+        "1.51",
+        "1.65"
+      ],
+      [
+        "EPS Growth",
+        "-8.48%",
+        "89.66%"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Free Cash Flow",
+        "-8743",
+        "3759"
+      ],
+      [
+        "Free Cash Flow Per Share",
+        "-3.58",
+        "1.54"
+      ],
+      [
+        "Dividend Per Share",
+        "1.350",
+        "1.480"
+      ],
+      [
+        "Dividend Growth",
+        "-8.78%",
+        "3.50%"
+      ],
+      [
+        "Profit Margin",
+        "5.13%",
+        "5.46%"
+      ],
+      [
+        "Free Cash Flow Margin",
+        "-12.15%",
+        "5.09%"
+      ],
+      [
+        "EBITDA",
+        "13012",
+        "13943"
+      ],
+      [
+        "EBITDA Margin",
+        "18.09%",
+        "18.89%"
+      ],
+      [
+        "D&A For EBITDA",
+        "4673",
+        "5129"
+      ],
+      [
+        "EBIT",
+        "8339",
+        "8814"
+      ],
+      [
+        "EBIT Margin",
+        "11.59%",
+        "11.94%"
+      ],
+      [
+        "Effective Tax Rate",
+        "24.85%",
+        "30.81%"
+      ]
+    ]
+  }
+]

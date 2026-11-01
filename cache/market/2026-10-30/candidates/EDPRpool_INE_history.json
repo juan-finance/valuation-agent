@@ -1,0 +1,16 @@
+[
+  {
+    "index": [],
+    "columns": [
+      "Date",
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "Adj. Close",
+      "Change",
+      "Volume"
+    ],
+    "data": []
+  }
+]
