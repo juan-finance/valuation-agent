@@ -1,0 +1,49 @@
+{
+  "company": "Iberdrola S.A.",
+  "ticker": "IBE.MC",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-11-01T17:15:00+00:00",
+  "stages": {
+    "stage1_data": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report",
+        "Reduced input step done: price/shares/EV bridge/FY2025 fundamentals collected into relative_inputs.md; cross-checked vs Iberdrola FY2025 CNMV results (equity/NCI/assets exact, group NI exact; revenue/EBITDA/EBIT basis gaps documented).",
+        "Stage 0 top-up: Spain was missing from the dated cache -> country-only top-up (Spain A3, spread 0.95%, CRP 1.48%, ERP 5.68%; EUROPE equations) committed; no rebuild."
+      ],
+      "outputs": [
+        "relative_inputs.md",
+        "source_log.csv"
+      ],
+      "next_step": ""
+    },
+    "stage2_dcf": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report"
+      ],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage3_relative": {
+      "status": "in_progress",
+      "notes": [
+        "Cache 2026-10-30 reused; Spain/EUR covered (Bund Rf, ECB FX, EUROPE equations). Route published_damodaran."
+      ],
+      "outputs": [],
+      "next_step": "stage 3 relative valuation",
+      "started": "2026-11-01T17:15:00+00:00"
+    },
+    "stage4_recommendation": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report"
+      ],
+      "outputs": [],
+      "next_step": ""
+    }
+  },
+  "final_status": "in_progress",
+  "human_review": "pending"
+}
