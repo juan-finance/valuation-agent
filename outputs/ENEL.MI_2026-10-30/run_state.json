@@ -25,13 +25,21 @@
       "next_step": ""
     },
     "stage3_relative": {
-      "status": "in_progress",
+      "status": "provisional",
       "notes": [
-        "2026-11-01T16:05:00+00:00 Cache 2026-10-30 reused; Italy/EUR covered (ECB FX, EUROPE equations). Route published_damodaran."
+        "2026-11-01T16:05:00+00:00 Cache 2026-10-30 reused; Italy/EUR covered (ECB FX, EUROPE equations). Route published_damodaran.",
+        "2026-11-01T16:25:00+00:00 Provisional: peer EV/EBITDA median 12.56x -> EUR17.79/share (vendor EBITDA 20,311m; issuer-reported sens ~20.6); published PBV EUR6.95, EV/EBITDA EUR31.81, PE EUR10.41. 10 peers (8 T1 + 2 T2, all Europe). ISIN verify + human Spot_check + ownership audit pending. Live formulas verified vs predict <1e-9. QA block C: no failures."
       ],
-      "outputs": [],
-      "next_step": "peer pool, selection, multiples, published regressions, QA-C",
-      "started": "2026-11-01T16:05:00+00:00"
+      "outputs": [
+        "relative/",
+        "relative_report_ENEL.MI.pdf",
+        "relative_summary.md",
+        "qa_results.md"
+      ],
+      "next_step": "",
+      "started": "2026-11-01T16:05:00+00:00",
+      "finished": "2026-11-01T16:25:00+00:00",
+      "elapsed_min": 20.0
     },
     "stage4_recommendation": {
       "status": "skipped_by_deviation",
@@ -42,6 +50,6 @@
       "next_step": ""
     }
   },
-  "final_status": "in_progress",
+  "final_status": "provisional_relative_only",
   "human_review": "pending"
 }
