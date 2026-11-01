@@ -1,0 +1,55 @@
+{
+  "company": "EDP Renovaveis S.A.",
+  "ticker": "EDPR.LS",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-11-01T15:57:59+00:00",
+  "stages": {
+    "stage1_data": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report",
+        "Reduced input step done: price/shares/EV bridge/FY2025 fundamentals collected into relative_inputs.md; cross-checked vs EDPR FY25 Results Report (equity exact, NI <0.1%; EBITDA/revenue definition differences documented)."
+      ],
+      "outputs": [
+        "relative_inputs.md"
+      ],
+      "next_step": ""
+    },
+    "stage2_dcf": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report"
+      ],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage3_relative": {
+      "status": "provisional",
+      "notes": [
+        "2026-11-01T15:57:59+00:00 Cache 2026-10-30 reused; Portugal/EUR covered (ECB FX, EUROPE equations). Route published_damodaran.",
+        "2026-11-01T15:57:59+00:00 Provisional: peer EV/EBITDA EUR3.92 (vendor basis; issuer-EBITDA sens ~12.6); published PBV EUR16.45, EV/EBITDA EUR14.10, PE EUR5.48. 10 peers (10 T1-2, 10 Europe). ISIN verify + human Spot_check + ownership audit pending. Live formulas match predict <1e-9. QA block C: no failures."
+      ],
+      "outputs": [
+        "relative/",
+        "relative_report_EDPR.LS.pdf",
+        "relative_summary.md",
+        "qa_results.md"
+      ],
+      "next_step": "",
+      "started": "2026-11-01T15:00:00+00:00",
+      "finished": "2026-11-01T15:57:59+00:00",
+      "elapsed_min": 12.0
+    },
+    "stage4_recommendation": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report"
+      ],
+      "outputs": [],
+      "next_step": ""
+    }
+  },
+  "final_status": "provisional_relative_only",
+  "human_review": "pending"
+}
