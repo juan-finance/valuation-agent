@@ -1,0 +1,41 @@
+{
+  "company": "Neste Oyj",
+  "ticker": "NESTE.HE",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-11-01T17:08:58+00:00",
+  "stages": {
+    "stage1_data": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report",
+        "Reduced input step done: price/shares/EV bridge/FY2025 fundamentals collected into relative_inputs.md; cross-checked vs Neste FY2025 financial statements release (revenue, net profit, equity, CFO exact; EBIT/EBITDA definition gaps documented).",
+        "Stage 0 top-up: Finland was missing from the dated cache -> country-only top-up (Finland Aa1, spread 0.22%, CRP 0.34%, ERP 4.54%; EUROPE equations) committed; no rebuild."
+      ],
+      "outputs": [
+        "relative_inputs.md",
+        "source_log.csv"
+      ],
+      "next_step": ""
+    },
+    "stage2_dcf": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation"
+      ]
+    },
+    "stage3_relative": {
+      "status": "pending",
+      "notes": [],
+      "outputs": []
+    },
+    "stage4_recommendation": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation; short PDF report written instead"
+      ]
+    }
+  },
+  "final_status": "in_progress",
+  "human_review": "pending"
+}
