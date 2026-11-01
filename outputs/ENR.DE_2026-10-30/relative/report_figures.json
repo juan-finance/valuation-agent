@@ -1,0 +1,23 @@
+{
+  "ticker": "ENR.DE",
+  "valuation_date": "2026-10-30",
+  "current_price": 126.92,
+  "shares_m": 855.34,
+  "issuer_issued_shares_m": 850,
+  "peer_count": 10,
+  "tier12": 7,
+  "tier3": 3,
+  "europe": 9,
+  "raw_pe_median": 31.24335311094687,
+  "scaled_pe_median": 43.233905213429125,
+  "peer_indicative": 71.47186144900131,
+  "peer_iqr_low": 60.5601661851123,
+  "peer_iqr_high": 104.06721236771976,
+  "peer_upside": -0.4368747128190883,
+  "regression_pbv": 35.939510019407486,
+  "qa": {
+    "PASS": 29,
+    "FAIL": 10,
+    "N/A": 9
+  }
+}

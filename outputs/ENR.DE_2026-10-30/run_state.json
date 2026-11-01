@@ -18,10 +18,11 @@
       "next_step": ""
     },
     "stage3_relative": {
-      "status": "provisional",
+      "status": "blocked",
       "notes": [
         "2026-11-01T16:33:19+00:00 10 numerical peers; 7 Tier1/2,3 Tier3,9Europe, cap4 relaxation. PE fallback; regression PBV. Not an unqualified final valuation.",
-        "2026-11-01T16:33:19+00:00 Numerical deliverables complete/recalculated; candidate-source qualification, normalization and human Spot_check not complete."
+        "2026-11-01T16:33:19+00:00 Numerical deliverables complete/recalculated; candidate-source qualification, normalization and human Spot_check not complete.",
+        "QA-C:10 unresolved source/qualification failures; no certified >=8 peer count, so comparable conclusion blocked. Published-regression diagnostics retained; PDF/plaintext produced provisional."
       ],
       "outputs": [
         "outputs/ENR.DE_2026-10-30/relative/finalize_stage3.py",
@@ -51,7 +52,7 @@
         "outputs/ENR.DE_2026-10-30/relative/peer_selection.json",
         "outputs/ENR.DE_2026-10-30/relative/valuation_multiples.csv"
       ],
-      "next_step": "QA block C once, then required PDF/plaintext; evidence gates and human review remain unresolved",
+      "next_step": "Do not issue qualified comparable conclusion until QA source failures are resolved; human Spot_check pending.",
       "started": "2026-11-01T16:24:24+00:00",
       "finished": "2026-11-01T16:33:19+00:00",
       "elapsed_min": 8.9
@@ -69,5 +70,28 @@
     "elapsed_min": 5.32,
     "finished": "2026-11-01T16:23:59.673847+00:00",
     "timing_note": "approximate start reconstructed at initialization; elapsed thereafter measured"
-  }
+  },
+  "qa_C": {
+    "status": "failed_provisional",
+    "executions": 1,
+    "counts": {
+      "PASS": 29,
+      "FAIL": 10,
+      "N/A": 9
+    },
+    "human_spot_check": "pending",
+    "evidence_failures_waived": false,
+    "finished": "2026-11-01T16:35:09+00:00",
+    "unresolved_failures": 10,
+    "next_step": "Complete candidate source qualification, outstanding shares, matching medians, normalization and EV claim/lease review; human Spot_check pending. No waiver requested or assumed."
+  },
+  "short_report": {
+    "status": "done_provisional",
+    "pdf": "outputs/ENR.DE_2026-10-30/relative_report_ENR.DE.pdf",
+    "plaintext": "outputs/ENR.DE_2026-10-30/relative_summary.md",
+    "same_figures": true,
+    "elapsed_min": 2.65,
+    "finished": "2026-11-01T16:35:58+00:00"
+  },
+  "session_status": "provisional_artifacts_delivered; unqualified comparable valuation blocked by QA evidence"
 }

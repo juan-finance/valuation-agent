@@ -1,5 +1,9 @@
 # Source playbook: what worked, what failed, what columns mean
 
+### Standard index versus IMI; vendor EBIT definitions (2026-11-01)
+- Fact / lesson: Cached URTH World-standard holdings are not IEUR Europe-IMI membership. Match issuer/name/country, not ticker alone: SU France Schneider collides with Canada Suncor; SUN Australia Suncorp is not Switzerland Sulzer. Preserve the dated header and exclusion evidence. Nordex FY2025 vendor operating551.31 minus FX69.71 minus disposal31.81 reconciles statutory449.8; standardized vendor EBIT is not automatically statutory EBIT.
+- Source: URTH holdings asof2026-10-29; Nordex FY2025 annual report; outputs/ENR.DE_2026-10-30/relative/evidence_review.md. Confidence high for observed definitions; valid_until dated FY2025/2026-10-30 snapshot, reverify at new vintages; status verified observations, not methodology exceptions.
+
 Fill after the FIRST real use of each source. Nothing below is assumed to work until a row says `verified`.
 
 | Source / dataset | Exact URL or file | Access result (date) | Verified columns / fields and their meaning | Quirks | Status |
