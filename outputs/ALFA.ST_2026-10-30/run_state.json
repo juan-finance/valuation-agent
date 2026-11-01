@@ -25,14 +25,16 @@
       "next_step": ""
     },
     "stage3_relative": {
-      "status": "in_progress",
+      "status": "provisional",
       "notes": [
-        "2026-11-01T14:16:17+00:00 Cache 2026-10-30 reused; Sweden/SEK covered (ECB FX, EUROPE datasets). Route published_damodaran."
+        "2026-11-01T14:16:17+00:00 Cache 2026-10-30 reused; Sweden/SEK covered (ECB FX, EUROPE datasets). Route published_damodaran.",
+        "2026-11-01T14:24:37+00:00 Provisional: peer PE(g-scaled) SEK665.01, published PBV SEK343.26, EV/EBITDA SEK710.47. 10 peers (9 T1-2,1 T3,10 Europe). ISIN verify + human Spot_check + ownership audit pending. Live formulas match predict <1e-9."
       ],
       "outputs": [],
       "next_step": "comparables pool + selection",
       "started": "2026-11-01T14:16:17+00:00",
-      "_t0": 1793542577.0984814
+      "finished": "2026-11-01T14:24:37+00:00",
+      "elapsed_min": 8.3
     },
     "stage4_recommendation": {
       "status": "skipped_by_deviation",
@@ -42,5 +44,7 @@
       "outputs": [],
       "next_step": ""
     }
-  }
+  },
+  "final_status": "provisional_relative_only",
+  "human_review": "pending"
 }

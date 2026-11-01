@@ -1,0 +1,5 @@
+Ticker,Name,Sector,Asset Class,Market Value,Weight (%),Notional Value,Quantity,Price,Location,Exchange,Currency,FX Rate,Market Currency,Accrual Date
+IR,INGERSOLL RAND,Industrials,Equity,"3,204,320.49",0.03,"3,204,320.49","40,049.00",80.01,United States,NYSE,USD,1.0,USD,-
+DOV,DOVER,Industrials,Equity,"2,882,489.74",0.03,"2,882,489.74","13,702.00",210.37,United States,NYSE,USD,1.0,USD,-
+XYL,XYLEM INC,Industrials,Equity,"2,275,716.24",0.02,"2,275,716.24","25,074.00",90.76,United States,NYSE,USD,1.0,USD,-
+IEX,IDEX,Industrials,Equity,"1,759,314.83",0.02,"1,759,314.83","7,351.00",239.33,United States,NYSE,USD,1.0,USD,-

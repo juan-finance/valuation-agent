@@ -1,0 +1,2481 @@
+[
+  {
+    "ticker": "ALFA",
+    "name": "Alfa Laval",
+    "tier": 1,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/sto/ALFA/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Alfa Laval AB (publ) (STO:ALFA) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Alfa Laval AB (STO:ALFA) Statistics & Valuation Metrics",
+    "headings": [
+      "Alfa Laval AB Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "ALFA",
+    "name": "Alfa Laval",
+    "tier": 1,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/sto/ALFA/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Alfa Laval AB (STO:ALFA) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Alfa Laval AB (STO:ALFA) Financials Overview",
+    "headings": [
+      "Alfa Laval AB Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "ALFA",
+    "name": "Alfa Laval",
+    "tier": 1,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/sto/ALFA/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Alfa Laval AB (STO:ALFA), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Alfa Laval AB (STO:ALFA) Balance Sheet",
+    "headings": [
+      "Alfa Laval AB Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "ALFA",
+    "name": "Alfa Laval",
+    "tier": 1,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/sto/ALFA/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Alfa Laval AB (STO:ALFA), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Alfa Laval AB (STO:ALFA) Cash Flow Statement",
+    "headings": [
+      "Alfa Laval AB Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "ALFA",
+    "name": "Alfa Laval",
+    "tier": 1,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/sto/ALFA/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest Alfa Laval AB (publ) (STO:ALFA) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "Alfa Laval AB (STO:ALFA) Stock Price, Chart & News",
+    "headings": [
+      "Alfa Laval AB (publ) (STO:ALFA)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "G1A",
+    "name": "GEA Group",
+    "tier": 1,
+    "hypothesis": "process engineering/machinery for food & pharma; named ALFA competitor",
+    "url": "https://stockanalysis.com/quote/etr/G1A/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for GEA Group Aktiengesellschaft (ETR:G1A) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "GEA Group Aktiengesellschaft (ETR:G1A) Statistics & Valuation Metrics",
+    "headings": [
+      "ETR:G1A Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "G1A",
+    "name": "GEA Group",
+    "tier": 1,
+    "hypothesis": "process engineering/machinery for food & pharma; named ALFA competitor",
+    "url": "https://stockanalysis.com/quote/etr/G1A/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for GEA Group Aktiengesellschaft (ETR:G1A) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "GEA Group Aktiengesellschaft (ETR:G1A) Financials Overview",
+    "headings": [
+      "ETR:G1A Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "G1A",
+    "name": "GEA Group",
+    "tier": 1,
+    "hypothesis": "process engineering/machinery for food & pharma; named ALFA competitor",
+    "url": "https://stockanalysis.com/quote/etr/G1A/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for GEA Group Aktiengesellschaft (ETR:G1A), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "GEA Group Aktiengesellschaft (ETR:G1A) Balance Sheet",
+    "headings": [
+      "ETR:G1A Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "G1A",
+    "name": "GEA Group",
+    "tier": 1,
+    "hypothesis": "process engineering/machinery for food & pharma; named ALFA competitor",
+    "url": "https://stockanalysis.com/quote/etr/G1A/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for GEA Group Aktiengesellschaft (ETR:G1A), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "GEA Group Aktiengesellschaft (ETR:G1A) Cash Flow Statement",
+    "headings": [
+      "ETR:G1A Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "G1A",
+    "name": "GEA Group",
+    "tier": 1,
+    "hypothesis": "process engineering/machinery for food & pharma; named ALFA competitor",
+    "url": "https://stockanalysis.com/quote/etr/G1A/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest GEA Group Aktiengesellschaft (ETR:G1A) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "GEA Group Aktiengesellschaft (ETR:G1A) Stock Price, Chart & News",
+    "headings": [
+      "GEA Group Aktiengesellschaft (ETR:G1A)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "ATCO.A",
+    "name": "Atlas Copco A",
+    "tier": 1,
+    "hypothesis": "compressors/vacuum machinery; sector_adjustments machinery seed",
+    "url": "https://stockanalysis.com/quote/sto/ATCO.A/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Atlas Copco AB (publ) (STO:ATCO.A) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Atlas Copco AB (STO:ATCO.A) Statistics & Valuation Metrics",
+    "headings": [
+      "Atlas Copco AB Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "ATCO.A",
+    "name": "Atlas Copco A",
+    "tier": 1,
+    "hypothesis": "compressors/vacuum machinery; sector_adjustments machinery seed",
+    "url": "https://stockanalysis.com/quote/sto/ATCO.A/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Atlas Copco AB (STO:ATCO.A) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Atlas Copco AB (STO:ATCO.A) Financials Overview",
+    "headings": [
+      "Atlas Copco AB Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "ATCO.A",
+    "name": "Atlas Copco A",
+    "tier": 1,
+    "hypothesis": "compressors/vacuum machinery; sector_adjustments machinery seed",
+    "url": "https://stockanalysis.com/quote/sto/ATCO.A/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Atlas Copco AB (STO:ATCO.A), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Atlas Copco AB (STO:ATCO.A) Balance Sheet",
+    "headings": [
+      "Atlas Copco AB Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "ATCO.A",
+    "name": "Atlas Copco A",
+    "tier": 1,
+    "hypothesis": "compressors/vacuum machinery; sector_adjustments machinery seed",
+    "url": "https://stockanalysis.com/quote/sto/ATCO.A/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Atlas Copco AB (STO:ATCO.A), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Atlas Copco AB (STO:ATCO.A) Cash Flow Statement",
+    "headings": [
+      "Atlas Copco AB Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "ATCO.A",
+    "name": "Atlas Copco A",
+    "tier": 1,
+    "hypothesis": "compressors/vacuum machinery; sector_adjustments machinery seed",
+    "url": "https://stockanalysis.com/quote/sto/ATCO.A/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest Atlas Copco AB (publ) (STO:ATCO.A) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "Atlas Copco AB (STO:ATCO.A) Stock Price, Chart & News",
+    "headings": [
+      "Atlas Copco AB (publ) (STO:ATCO.A)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "EPI.A",
+    "name": "Epiroc A",
+    "tier": 1,
+    "hypothesis": "mining/infrastructure equipment machinery",
+    "url": "https://stockanalysis.com/quote/sto/EPI.A/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Epiroc AB (publ) (STO:EPI.A) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Epiroc AB (STO:EPI.A) Statistics & Valuation Metrics",
+    "headings": [
+      "Epiroc AB Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "EPI.A",
+    "name": "Epiroc A",
+    "tier": 1,
+    "hypothesis": "mining/infrastructure equipment machinery",
+    "url": "https://stockanalysis.com/quote/sto/EPI.A/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Epiroc AB (STO:EPI.A) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Epiroc AB (STO:EPI.A) Financials Overview",
+    "headings": [
+      "Epiroc AB Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "EPI.A",
+    "name": "Epiroc A",
+    "tier": 1,
+    "hypothesis": "mining/infrastructure equipment machinery",
+    "url": "https://stockanalysis.com/quote/sto/EPI.A/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Epiroc AB (STO:EPI.A), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Epiroc AB (STO:EPI.A) Balance Sheet",
+    "headings": [
+      "Epiroc AB Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "EPI.A",
+    "name": "Epiroc A",
+    "tier": 1,
+    "hypothesis": "mining/infrastructure equipment machinery",
+    "url": "https://stockanalysis.com/quote/sto/EPI.A/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Epiroc AB (STO:EPI.A), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Epiroc AB (STO:EPI.A) Cash Flow Statement",
+    "headings": [
+      "Epiroc AB Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "EPI.A",
+    "name": "Epiroc A",
+    "tier": 1,
+    "hypothesis": "mining/infrastructure equipment machinery",
+    "url": "https://stockanalysis.com/quote/sto/EPI.A/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest Epiroc AB (publ) (STO:EPI.A) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "Epiroc AB (STO:EPI.A) Stock Price, Chart & News",
+    "headings": [
+      "Epiroc AB (publ) (STO:EPI.A)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "SAND",
+    "name": "Sandvik",
+    "tier": 1,
+    "hypothesis": "engineering/machinery (machining, mining equipment)",
+    "url": "https://stockanalysis.com/quote/sto/SAND/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Sandvik AB (publ) (STO:SAND) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Sandvik AB (STO:SAND) Statistics & Valuation Metrics",
+    "headings": [
+      "Sandvik AB Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "SAND",
+    "name": "Sandvik",
+    "tier": 1,
+    "hypothesis": "engineering/machinery (machining, mining equipment)",
+    "url": "https://stockanalysis.com/quote/sto/SAND/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Sandvik AB (STO:SAND) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Sandvik AB (STO:SAND) Financials Overview",
+    "headings": [
+      "Sandvik AB Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "SAND",
+    "name": "Sandvik",
+    "tier": 1,
+    "hypothesis": "engineering/machinery (machining, mining equipment)",
+    "url": "https://stockanalysis.com/quote/sto/SAND/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Sandvik AB (STO:SAND), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Sandvik AB (STO:SAND) Balance Sheet",
+    "headings": [
+      "Sandvik AB Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "SAND",
+    "name": "Sandvik",
+    "tier": 1,
+    "hypothesis": "engineering/machinery (machining, mining equipment)",
+    "url": "https://stockanalysis.com/quote/sto/SAND/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Sandvik AB (STO:SAND), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Sandvik AB (STO:SAND) Cash Flow Statement",
+    "headings": [
+      "Sandvik AB Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "SAND",
+    "name": "Sandvik",
+    "tier": 1,
+    "hypothesis": "engineering/machinery (machining, mining equipment)",
+    "url": "https://stockanalysis.com/quote/sto/SAND/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest Sandvik AB (publ) (STO:SAND) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "Sandvik AB (STO:SAND) Stock Price & Overview",
+    "headings": [
+      "Sandvik AB (publ) (STO:SAND)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "WRT1V",
+    "name": "Wartsila",
+    "tier": 1,
+    "hypothesis": "marine/energy machinery; sector_adjustments machinery seed",
+    "url": "https://stockanalysis.com/quote/hel/WRT1V/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for W\u00e4rtsil\u00e4 Oyj Abp (HEL:WRT1V) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "W\u00e4rtsil\u00e4 Oyj Abp (HEL:WRT1V) Statistics & Valuation Metrics",
+    "headings": [
+      "W\u00e4rtsil\u00e4 Oyj Abp Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "WRT1V",
+    "name": "Wartsila",
+    "tier": 1,
+    "hypothesis": "marine/energy machinery; sector_adjustments machinery seed",
+    "url": "https://stockanalysis.com/quote/hel/WRT1V/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for W\u00e4rtsil\u00e4 Oyj Abp (HEL:WRT1V) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "W\u00e4rtsil\u00e4 Oyj Abp (HEL:WRT1V) Financials Overview",
+    "headings": [
+      "W\u00e4rtsil\u00e4 Oyj Abp Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "WRT1V",
+    "name": "Wartsila",
+    "tier": 1,
+    "hypothesis": "marine/energy machinery; sector_adjustments machinery seed",
+    "url": "https://stockanalysis.com/quote/hel/WRT1V/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for W\u00e4rtsil\u00e4 Oyj Abp (HEL:WRT1V), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "W\u00e4rtsil\u00e4 Oyj Abp (HEL:WRT1V) Balance Sheet",
+    "headings": [
+      "W\u00e4rtsil\u00e4 Oyj Abp Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "WRT1V",
+    "name": "Wartsila",
+    "tier": 1,
+    "hypothesis": "marine/energy machinery; sector_adjustments machinery seed",
+    "url": "https://stockanalysis.com/quote/hel/WRT1V/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for W\u00e4rtsil\u00e4 Oyj Abp (HEL:WRT1V), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "W\u00e4rtsil\u00e4 Oyj Abp (HEL:WRT1V) Cash Flow Statement",
+    "headings": [
+      "W\u00e4rtsil\u00e4 Oyj Abp Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "WRT1V",
+    "name": "Wartsila",
+    "tier": 1,
+    "hypothesis": "marine/energy machinery; sector_adjustments machinery seed",
+    "url": "https://stockanalysis.com/quote/hel/WRT1V/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest W\u00e4rtsil\u00e4 Oyj Abp (HEL:WRT1V) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "W\u00e4rtsil\u00e4 Oyj Abp (HEL:WRT1V) Stock Price & Overview",
+    "headings": [
+      "W\u00e4rtsil\u00e4 Oyj Abp (HEL:WRT1V)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "METSO",
+    "name": "Metso",
+    "tier": 1,
+    "hypothesis": "minerals processing machinery",
+    "url": "https://stockanalysis.com/quote/hel/METSO/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Metso Oyj (HEL:METSO) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Metso Oyj (HEL:METSO) Statistics & Valuation Metrics",
+    "headings": [
+      "Metso Oyj Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "METSO",
+    "name": "Metso",
+    "tier": 1,
+    "hypothesis": "minerals processing machinery",
+    "url": "https://stockanalysis.com/quote/hel/METSO/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Metso Oyj (HEL:METSO) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Metso Oyj (HEL:METSO) Financials Overview",
+    "headings": [
+      "Metso Oyj Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "METSO",
+    "name": "Metso",
+    "tier": 1,
+    "hypothesis": "minerals processing machinery",
+    "url": "https://stockanalysis.com/quote/hel/METSO/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Metso Oyj (HEL:METSO), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Metso Oyj (HEL:METSO) Balance Sheet",
+    "headings": [
+      "Metso Oyj Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "METSO",
+    "name": "Metso",
+    "tier": 1,
+    "hypothesis": "minerals processing machinery",
+    "url": "https://stockanalysis.com/quote/hel/METSO/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Metso Oyj (HEL:METSO), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Metso Oyj (HEL:METSO) Cash Flow Statement",
+    "headings": [
+      "Metso Oyj Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "METSO",
+    "name": "Metso",
+    "tier": 1,
+    "hypothesis": "minerals processing machinery",
+    "url": "https://stockanalysis.com/quote/hel/METSO/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest Metso Oyj (HEL:METSO) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "Metso Oyj (HEL:METSO) Stock Price, Chart & News",
+    "headings": [
+      "Metso Oyj (HEL:METSO)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 1,
+    "hypothesis": "fluid handling pumps/separation machinery",
+    "url": "https://stockanalysis.com/quote/six/SUN/statistics/",
+    "status": 404,
+    "page": "statistics"
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 1,
+    "hypothesis": "fluid handling pumps/separation machinery",
+    "url": "https://stockanalysis.com/quote/six/SUN/financials/",
+    "status": 404,
+    "page": "financials"
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 1,
+    "hypothesis": "fluid handling pumps/separation machinery",
+    "url": "https://stockanalysis.com/quote/six/SUN/financials/balance-sheet/",
+    "status": 404,
+    "page": "financials_balance-sheet"
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 1,
+    "hypothesis": "fluid handling pumps/separation machinery",
+    "url": "https://stockanalysis.com/quote/six/SUN/financials/cash-flow-statement/",
+    "status": 404,
+    "page": "financials_cash-flow-statement"
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 1,
+    "hypothesis": "fluid handling pumps/separation machinery",
+    "url": "https://stockanalysis.com/quote/six/SUN/",
+    "status": 404,
+    "page": "profile"
+  },
+  {
+    "ticker": "ANDR",
+    "name": "Andritz",
+    "tier": 1,
+    "hypothesis": "process machinery (pulp, separation)",
+    "url": "https://stockanalysis.com/quote/vie/ANDR/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Andritz AG (VIE:ANDR) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Andritz AG (VIE:ANDR) Statistics & Valuation Metrics",
+    "headings": [
+      "Andritz AG Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "ANDR",
+    "name": "Andritz",
+    "tier": 1,
+    "hypothesis": "process machinery (pulp, separation)",
+    "url": "https://stockanalysis.com/quote/vie/ANDR/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Andritz AG (VIE:ANDR) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Andritz AG (VIE:ANDR) Financials Overview",
+    "headings": [
+      "Andritz AG Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "ANDR",
+    "name": "Andritz",
+    "tier": 1,
+    "hypothesis": "process machinery (pulp, separation)",
+    "url": "https://stockanalysis.com/quote/vie/ANDR/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Andritz AG (VIE:ANDR), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Andritz AG (VIE:ANDR) Balance Sheet",
+    "headings": [
+      "Andritz AG Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "ANDR",
+    "name": "Andritz",
+    "tier": 1,
+    "hypothesis": "process machinery (pulp, separation)",
+    "url": "https://stockanalysis.com/quote/vie/ANDR/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Andritz AG (VIE:ANDR), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Andritz AG (VIE:ANDR) Cash Flow Statement",
+    "headings": [
+      "Andritz AG Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "ANDR",
+    "name": "Andritz",
+    "tier": 1,
+    "hypothesis": "process machinery (pulp, separation)",
+    "url": "https://stockanalysis.com/quote/vie/ANDR/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest Andritz AG (VIE:ANDR) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "Andritz AG (VIE:ANDR) Stock Price, Chart & News",
+    "headings": [
+      "Andritz AG (VIE:ANDR)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "FLS",
+    "name": "FLSmidth",
+    "tier": 1,
+    "hypothesis": "cement/minerals process machinery",
+    "url": "https://stockanalysis.com/quote/cph/FLS/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for FLSmidth & Co. A/S (CPH:FLS) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "FLSmidth & Co. (CPH:FLS) Statistics & Valuation Metrics",
+    "headings": [
+      "FLSmidth & Co. Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "FLS",
+    "name": "FLSmidth",
+    "tier": 1,
+    "hypothesis": "cement/minerals process machinery",
+    "url": "https://stockanalysis.com/quote/cph/FLS/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for FLSmidth & Co. (CPH:FLS) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "FLSmidth & Co. (CPH:FLS) Financials Overview",
+    "headings": [
+      "FLSmidth & Co. Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "FLS",
+    "name": "FLSmidth",
+    "tier": 1,
+    "hypothesis": "cement/minerals process machinery",
+    "url": "https://stockanalysis.com/quote/cph/FLS/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for FLSmidth & Co. (CPH:FLS), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "FLSmidth & Co. (CPH:FLS) Balance Sheet",
+    "headings": [
+      "FLSmidth & Co. Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "FLS",
+    "name": "FLSmidth",
+    "tier": 1,
+    "hypothesis": "cement/minerals process machinery",
+    "url": "https://stockanalysis.com/quote/cph/FLS/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for FLSmidth & Co. (CPH:FLS), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "FLSmidth & Co. (CPH:FLS) Cash Flow Statement",
+    "headings": [
+      "FLSmidth & Co. Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "FLS",
+    "name": "FLSmidth",
+    "tier": 1,
+    "hypothesis": "cement/minerals process machinery",
+    "url": "https://stockanalysis.com/quote/cph/FLS/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest FLSmidth & Co. A/S (CPH:FLS) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "FLSmidth & Co. (CPH:FLS) Stock Price, Chart & News",
+    "headings": [
+      "FLSmidth & Co. A/S (CPH:FLS)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "KSB",
+    "name": "KSB",
+    "tier": 1,
+    "hypothesis": "pumps/valves fluid handling machinery",
+    "url": "https://stockanalysis.com/quote/etr/KSB/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for KSB SE & Co. KGaA (ETR:KSB) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "KSB SE & Co. KGaA (ETR:KSB) Statistics & Valuation Metrics",
+    "headings": [
+      "KSB SE & Co. KGaA Statistics"
+    ],
+    "tables": 18
+  },
+  {
+    "ticker": "KSB",
+    "name": "KSB",
+    "tier": 1,
+    "hypothesis": "pumps/valves fluid handling machinery",
+    "url": "https://stockanalysis.com/quote/etr/KSB/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for KSB SE & Co. KGaA (ETR:KSB) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "KSB SE & Co. KGaA (ETR:KSB) Financials Overview",
+    "headings": [
+      "KSB SE & Co. KGaA Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "KSB",
+    "name": "KSB",
+    "tier": 1,
+    "hypothesis": "pumps/valves fluid handling machinery",
+    "url": "https://stockanalysis.com/quote/etr/KSB/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for KSB SE & Co. KGaA (ETR:KSB), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "KSB SE & Co. KGaA (ETR:KSB) Balance Sheet",
+    "headings": [
+      "KSB SE & Co. KGaA Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "KSB",
+    "name": "KSB",
+    "tier": 1,
+    "hypothesis": "pumps/valves fluid handling machinery",
+    "url": "https://stockanalysis.com/quote/etr/KSB/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for KSB SE & Co. KGaA (ETR:KSB), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "KSB SE & Co. KGaA (ETR:KSB) Cash Flow Statement",
+    "headings": [
+      "KSB SE & Co. KGaA Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "KSB",
+    "name": "KSB",
+    "tier": 1,
+    "hypothesis": "pumps/valves fluid handling machinery",
+    "url": "https://stockanalysis.com/quote/etr/KSB/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest KSB SE & Co. KGaA (ETR:KSB) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "KSB SE & Co. KGaA (ETR:KSB) Stock Price, Chart & News",
+    "headings": [
+      "KSB SE & Co. KGaA (ETR:KSB)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "BCHN",
+    "name": "Burckhardt Compression",
+    "tier": 1,
+    "hypothesis": "compression machinery",
+    "url": "https://stockanalysis.com/quote/six/BCHN/statistics/",
+    "status": 404,
+    "page": "statistics"
+  },
+  {
+    "ticker": "BCHN",
+    "name": "Burckhardt Compression",
+    "tier": 1,
+    "hypothesis": "compression machinery",
+    "url": "https://stockanalysis.com/quote/six/BCHN/financials/",
+    "status": 404,
+    "page": "financials"
+  },
+  {
+    "ticker": "BCHN",
+    "name": "Burckhardt Compression",
+    "tier": 1,
+    "hypothesis": "compression machinery",
+    "url": "https://stockanalysis.com/quote/six/BCHN/financials/balance-sheet/",
+    "status": 404,
+    "page": "financials_balance-sheet"
+  },
+  {
+    "ticker": "BCHN",
+    "name": "Burckhardt Compression",
+    "tier": 1,
+    "hypothesis": "compression machinery",
+    "url": "https://stockanalysis.com/quote/six/BCHN/financials/cash-flow-statement/",
+    "status": 404,
+    "page": "financials_cash-flow-statement"
+  },
+  {
+    "ticker": "BCHN",
+    "name": "Burckhardt Compression",
+    "tier": 1,
+    "hypothesis": "compression machinery",
+    "url": "https://stockanalysis.com/quote/six/BCHN/",
+    "status": 404,
+    "page": "profile"
+  },
+  {
+    "ticker": "WEIR",
+    "name": "Weir Group",
+    "tier": 1,
+    "hypothesis": "mining/minerals machinery",
+    "url": "https://stockanalysis.com/quote/lon/WEIR/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Weir PLC (LON:WEIR) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Weir PLC (LON:WEIR) Statistics & Valuation Metrics",
+    "headings": [
+      "Weir PLC Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "WEIR",
+    "name": "Weir Group",
+    "tier": 1,
+    "hypothesis": "mining/minerals machinery",
+    "url": "https://stockanalysis.com/quote/lon/WEIR/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Weir PLC (LON:WEIR) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Weir PLC (LON:WEIR) Financials Overview",
+    "headings": [
+      "Weir PLC Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "WEIR",
+    "name": "Weir Group",
+    "tier": 1,
+    "hypothesis": "mining/minerals machinery",
+    "url": "https://stockanalysis.com/quote/lon/WEIR/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Weir PLC (LON:WEIR), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Weir PLC (LON:WEIR) Balance Sheet",
+    "headings": [
+      "Weir PLC Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "WEIR",
+    "name": "Weir Group",
+    "tier": 1,
+    "hypothesis": "mining/minerals machinery",
+    "url": "https://stockanalysis.com/quote/lon/WEIR/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Weir PLC (LON:WEIR), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Weir PLC (LON:WEIR) Cash Flow Statement",
+    "headings": [
+      "Weir PLC Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "WEIR",
+    "name": "Weir Group",
+    "tier": 1,
+    "hypothesis": "mining/minerals machinery",
+    "url": "https://stockanalysis.com/quote/lon/WEIR/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest Weir PLC (LON:WEIR) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "Weir PLC (LON:WEIR) Stock Price & Overview",
+    "headings": [
+      "Weir PLC (LON:WEIR)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "ROR",
+    "name": "Rotork",
+    "tier": 1,
+    "hypothesis": "flow-control actuators machinery",
+    "url": "https://stockanalysis.com/quote/lon/ROR/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Rotork plc (LON:ROR) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Rotork (LON:ROR) Statistics & Valuation Metrics",
+    "headings": [
+      "Rotork Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "ROR",
+    "name": "Rotork",
+    "tier": 1,
+    "hypothesis": "flow-control actuators machinery",
+    "url": "https://stockanalysis.com/quote/lon/ROR/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Rotork (LON:ROR) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Rotork (LON:ROR) Financials Overview",
+    "headings": [
+      "Rotork Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "ROR",
+    "name": "Rotork",
+    "tier": 1,
+    "hypothesis": "flow-control actuators machinery",
+    "url": "https://stockanalysis.com/quote/lon/ROR/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Rotork (LON:ROR), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Rotork (LON:ROR) Balance Sheet",
+    "headings": [
+      "Rotork Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "ROR",
+    "name": "Rotork",
+    "tier": 1,
+    "hypothesis": "flow-control actuators machinery",
+    "url": "https://stockanalysis.com/quote/lon/ROR/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Rotork (LON:ROR), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Rotork (LON:ROR) Cash Flow Statement",
+    "headings": [
+      "Rotork Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "ROR",
+    "name": "Rotork",
+    "tier": 1,
+    "hypothesis": "flow-control actuators machinery",
+    "url": "https://stockanalysis.com/quote/lon/ROR/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest Rotork plc (LON:ROR) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "Rotork (LON:ROR) Stock Price & Overview",
+    "headings": [
+      "Rotork plc (LON:ROR)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "IMI",
+    "name": "IMI",
+    "tier": 1,
+    "hypothesis": "precision fluid/motion engineering",
+    "url": "https://stockanalysis.com/quote/lon/IMI/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for IMI plc (LON:IMI) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "IMI plc (LON:IMI) Statistics & Valuation Metrics",
+    "headings": [
+      "IMI plc Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "IMI",
+    "name": "IMI",
+    "tier": 1,
+    "hypothesis": "precision fluid/motion engineering",
+    "url": "https://stockanalysis.com/quote/lon/IMI/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for IMI plc (LON:IMI) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "IMI plc (LON:IMI) Financials Overview",
+    "headings": [
+      "IMI plc Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "IMI",
+    "name": "IMI",
+    "tier": 1,
+    "hypothesis": "precision fluid/motion engineering",
+    "url": "https://stockanalysis.com/quote/lon/IMI/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for IMI plc (LON:IMI), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "IMI plc (LON:IMI) Balance Sheet",
+    "headings": [
+      "IMI plc Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "IMI",
+    "name": "IMI",
+    "tier": 1,
+    "hypothesis": "precision fluid/motion engineering",
+    "url": "https://stockanalysis.com/quote/lon/IMI/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for IMI plc (LON:IMI), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "IMI plc (LON:IMI) Cash Flow Statement",
+    "headings": [
+      "IMI plc Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "IMI",
+    "name": "IMI",
+    "tier": 1,
+    "hypothesis": "precision fluid/motion engineering",
+    "url": "https://stockanalysis.com/quote/lon/IMI/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest IMI plc (LON:IMI) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "IMI plc (LON:IMI) Stock Price, Chart & News",
+    "headings": [
+      "IMI plc (LON:IMI)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "SPX",
+    "name": "Spirax Group",
+    "tier": 1,
+    "hypothesis": "steam/thermal machinery",
+    "url": "https://stockanalysis.com/quote/lon/SPX/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Spirax Group plc (LON:SPX) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Spirax Group (LON:SPX) Statistics & Valuation Metrics",
+    "headings": [
+      "Spirax Group Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "SPX",
+    "name": "Spirax Group",
+    "tier": 1,
+    "hypothesis": "steam/thermal machinery",
+    "url": "https://stockanalysis.com/quote/lon/SPX/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Spirax Group (LON:SPX) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Spirax Group (LON:SPX) Financials Overview",
+    "headings": [
+      "Spirax Group Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "SPX",
+    "name": "Spirax Group",
+    "tier": 1,
+    "hypothesis": "steam/thermal machinery",
+    "url": "https://stockanalysis.com/quote/lon/SPX/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Spirax Group (LON:SPX), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Spirax Group (LON:SPX) Balance Sheet",
+    "headings": [
+      "Spirax Group Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "SPX",
+    "name": "Spirax Group",
+    "tier": 1,
+    "hypothesis": "steam/thermal machinery",
+    "url": "https://stockanalysis.com/quote/lon/SPX/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Spirax Group (LON:SPX), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Spirax Group (LON:SPX) Cash Flow Statement",
+    "headings": [
+      "Spirax Group Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "SPX",
+    "name": "Spirax Group",
+    "tier": 1,
+    "hypothesis": "steam/thermal machinery",
+    "url": "https://stockanalysis.com/quote/lon/SPX/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest Spirax Group plc (LON:SPX) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "Spirax Group (LON:SPX) Stock Price & Overview",
+    "headings": [
+      "Spirax Group plc (LON:SPX)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "SMIN",
+    "name": "Smiths Group",
+    "tier": 2,
+    "hypothesis": "diversified industrial engineering",
+    "url": "https://stockanalysis.com/quote/lon/SMIN/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Smiths Group plc (LON:SMIN) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Smiths Group (LON:SMIN) Statistics & Valuation Metrics",
+    "headings": [
+      "Smiths Group Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "SMIN",
+    "name": "Smiths Group",
+    "tier": 2,
+    "hypothesis": "diversified industrial engineering",
+    "url": "https://stockanalysis.com/quote/lon/SMIN/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Smiths Group (LON:SMIN) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Smiths Group (LON:SMIN) Financials Overview",
+    "headings": [
+      "Smiths Group Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "SMIN",
+    "name": "Smiths Group",
+    "tier": 2,
+    "hypothesis": "diversified industrial engineering",
+    "url": "https://stockanalysis.com/quote/lon/SMIN/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Smiths Group (LON:SMIN), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Smiths Group (LON:SMIN) Balance Sheet",
+    "headings": [
+      "Smiths Group Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "SMIN",
+    "name": "Smiths Group",
+    "tier": 2,
+    "hypothesis": "diversified industrial engineering",
+    "url": "https://stockanalysis.com/quote/lon/SMIN/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Smiths Group (LON:SMIN), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Smiths Group (LON:SMIN) Cash Flow Statement",
+    "headings": [
+      "Smiths Group Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "SMIN",
+    "name": "Smiths Group",
+    "tier": 2,
+    "hypothesis": "diversified industrial engineering",
+    "url": "https://stockanalysis.com/quote/lon/SMIN/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest Smiths Group plc (LON:SMIN) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "Smiths Group (LON:SMIN) Stock Price & Overview",
+    "headings": [
+      "Smiths Group plc (LON:SMIN)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "SKF.B",
+    "name": "SKF B",
+    "tier": 2,
+    "hypothesis": "bearings/rotating machinery components",
+    "url": "https://stockanalysis.com/quote/sto/SKF.B/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for AB SKF (publ) (STO:SKF.B) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "AB SKF (STO:SKF.B) Statistics & Valuation Metrics",
+    "headings": [
+      "AB SKF Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "SKF.B",
+    "name": "SKF B",
+    "tier": 2,
+    "hypothesis": "bearings/rotating machinery components",
+    "url": "https://stockanalysis.com/quote/sto/SKF.B/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for AB SKF (STO:SKF.B) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "AB SKF (STO:SKF.B) Financials Overview",
+    "headings": [
+      "AB SKF Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "SKF.B",
+    "name": "SKF B",
+    "tier": 2,
+    "hypothesis": "bearings/rotating machinery components",
+    "url": "https://stockanalysis.com/quote/sto/SKF.B/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for AB SKF (STO:SKF.B), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "AB SKF (STO:SKF.B) Balance Sheet",
+    "headings": [
+      "AB SKF Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "SKF.B",
+    "name": "SKF B",
+    "tier": 2,
+    "hypothesis": "bearings/rotating machinery components",
+    "url": "https://stockanalysis.com/quote/sto/SKF.B/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for AB SKF (STO:SKF.B), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "AB SKF (STO:SKF.B) Cash Flow Statement",
+    "headings": [
+      "AB SKF Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "SKF.B",
+    "name": "SKF B",
+    "tier": 2,
+    "hypothesis": "bearings/rotating machinery components",
+    "url": "https://stockanalysis.com/quote/sto/SKF.B/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest AB SKF (publ) (STO:SKF.B) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "AB SKF (STO:SKF.B) Stock Price & Overview",
+    "headings": [
+      "AB SKF (publ) (STO:SKF.B)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "IP",
+    "name": "Interpump",
+    "tier": 2,
+    "hypothesis": "hydraulic/water-jetting machinery",
+    "url": "https://stockanalysis.com/quote/bit/IP/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Interpump Group S.p.A. (BIT:IP) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Interpump Group (BIT:IP) Statistics & Valuation Metrics",
+    "headings": [
+      "Interpump Group Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "IP",
+    "name": "Interpump",
+    "tier": 2,
+    "hypothesis": "hydraulic/water-jetting machinery",
+    "url": "https://stockanalysis.com/quote/bit/IP/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Interpump Group (BIT:IP) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Interpump Group (BIT:IP) Financials Overview",
+    "headings": [
+      "Interpump Group Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "IP",
+    "name": "Interpump",
+    "tier": 2,
+    "hypothesis": "hydraulic/water-jetting machinery",
+    "url": "https://stockanalysis.com/quote/bit/IP/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Interpump Group (BIT:IP), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Interpump Group (BIT:IP) Balance Sheet",
+    "headings": [
+      "Interpump Group Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "IP",
+    "name": "Interpump",
+    "tier": 2,
+    "hypothesis": "hydraulic/water-jetting machinery",
+    "url": "https://stockanalysis.com/quote/bit/IP/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Interpump Group (BIT:IP), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Interpump Group (BIT:IP) Cash Flow Statement",
+    "headings": [
+      "Interpump Group Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "IP",
+    "name": "Interpump",
+    "tier": 2,
+    "hypothesis": "hydraulic/water-jetting machinery",
+    "url": "https://stockanalysis.com/quote/bit/IP/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest Interpump Group S.p.A. (BIT:IP) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "Interpump Group (BIT:IP) Stock Price, Chart & News",
+    "headings": [
+      "Interpump Group S.p.A. (BIT:IP)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "BUCN",
+    "name": "Bucher Industries",
+    "tier": 2,
+    "hypothesis": "specialized machinery",
+    "url": "https://stockanalysis.com/quote/six/BUCN/statistics/",
+    "status": 404,
+    "page": "statistics"
+  },
+  {
+    "ticker": "BUCN",
+    "name": "Bucher Industries",
+    "tier": 2,
+    "hypothesis": "specialized machinery",
+    "url": "https://stockanalysis.com/quote/six/BUCN/financials/",
+    "status": 404,
+    "page": "financials"
+  },
+  {
+    "ticker": "BUCN",
+    "name": "Bucher Industries",
+    "tier": 2,
+    "hypothesis": "specialized machinery",
+    "url": "https://stockanalysis.com/quote/six/BUCN/financials/balance-sheet/",
+    "status": 404,
+    "page": "financials_balance-sheet"
+  },
+  {
+    "ticker": "BUCN",
+    "name": "Bucher Industries",
+    "tier": 2,
+    "hypothesis": "specialized machinery",
+    "url": "https://stockanalysis.com/quote/six/BUCN/financials/cash-flow-statement/",
+    "status": 404,
+    "page": "financials_cash-flow-statement"
+  },
+  {
+    "ticker": "BUCN",
+    "name": "Bucher Industries",
+    "tier": 2,
+    "hypothesis": "specialized machinery",
+    "url": "https://stockanalysis.com/quote/six/BUCN/",
+    "status": 404,
+    "page": "profile"
+  },
+  {
+    "ticker": "KRN",
+    "name": "Krones",
+    "tier": 2,
+    "hypothesis": "packaging/process machinery",
+    "url": "https://stockanalysis.com/quote/etr/KRN/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Krones AG (ETR:KRN) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Krones AG (ETR:KRN) Statistics & Valuation Metrics",
+    "headings": [
+      "Krones AG Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "KRN",
+    "name": "Krones",
+    "tier": 2,
+    "hypothesis": "packaging/process machinery",
+    "url": "https://stockanalysis.com/quote/etr/KRN/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Krones AG (ETR:KRN) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Krones AG (ETR:KRN) Financials Overview",
+    "headings": [
+      "Krones AG Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "KRN",
+    "name": "Krones",
+    "tier": 2,
+    "hypothesis": "packaging/process machinery",
+    "url": "https://stockanalysis.com/quote/etr/KRN/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Krones AG (ETR:KRN), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Krones AG (ETR:KRN) Balance Sheet",
+    "headings": [
+      "Krones AG Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "KRN",
+    "name": "Krones",
+    "tier": 2,
+    "hypothesis": "packaging/process machinery",
+    "url": "https://stockanalysis.com/quote/etr/KRN/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Krones AG (ETR:KRN), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Krones AG (ETR:KRN) Cash Flow Statement",
+    "headings": [
+      "Krones AG Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "KRN",
+    "name": "Krones",
+    "tier": 2,
+    "hypothesis": "packaging/process machinery",
+    "url": "https://stockanalysis.com/quote/etr/KRN/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest Krones AG (ETR:KRN) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "Krones AG (ETR:KRN) Stock Price, Chart & News",
+    "headings": [
+      "Krones AG (ETR:KRN)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "INDT",
+    "name": "Indutrade",
+    "tier": 2,
+    "hypothesis": "industrial components/flow technology",
+    "url": "https://stockanalysis.com/quote/sto/INDT/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Indutrade AB (publ) (STO:INDT) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Indutrade AB (STO:INDT) Statistics & Valuation Metrics",
+    "headings": [
+      "Indutrade AB Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "INDT",
+    "name": "Indutrade",
+    "tier": 2,
+    "hypothesis": "industrial components/flow technology",
+    "url": "https://stockanalysis.com/quote/sto/INDT/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Indutrade AB (STO:INDT) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Indutrade AB (STO:INDT) Financials Overview",
+    "headings": [
+      "Indutrade AB Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "INDT",
+    "name": "Indutrade",
+    "tier": 2,
+    "hypothesis": "industrial components/flow technology",
+    "url": "https://stockanalysis.com/quote/sto/INDT/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Indutrade AB (STO:INDT), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Indutrade AB (STO:INDT) Balance Sheet",
+    "headings": [
+      "Indutrade AB Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "INDT",
+    "name": "Indutrade",
+    "tier": 2,
+    "hypothesis": "industrial components/flow technology",
+    "url": "https://stockanalysis.com/quote/sto/INDT/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Indutrade AB (STO:INDT), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Indutrade AB (STO:INDT) Cash Flow Statement",
+    "headings": [
+      "Indutrade AB Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "INDT",
+    "name": "Indutrade",
+    "tier": 2,
+    "hypothesis": "industrial components/flow technology",
+    "url": "https://stockanalysis.com/quote/sto/INDT/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest Indutrade AB (publ) (STO:INDT) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "Indutrade AB (STO:INDT) Stock Price, Chart & News",
+    "headings": [
+      "Indutrade AB (publ) (STO:INDT)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification/automation industrial group",
+    "url": "https://stockanalysis.com/quote/six/ABBN/statistics/",
+    "status": 404,
+    "page": "statistics"
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification/automation industrial group",
+    "url": "https://stockanalysis.com/quote/six/ABBN/financials/",
+    "status": 404,
+    "page": "financials"
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification/automation industrial group",
+    "url": "https://stockanalysis.com/quote/six/ABBN/financials/balance-sheet/",
+    "status": 404,
+    "page": "financials_balance-sheet"
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification/automation industrial group",
+    "url": "https://stockanalysis.com/quote/six/ABBN/financials/cash-flow-statement/",
+    "status": 404,
+    "page": "financials_cash-flow-statement"
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification/automation industrial group",
+    "url": "https://stockanalysis.com/quote/six/ABBN/",
+    "status": 404,
+    "page": "profile"
+  },
+  {
+    "ticker": "RAA",
+    "name": "Rational",
+    "tier": 2,
+    "hypothesis": "food-preparation machinery; niche",
+    "url": "https://stockanalysis.com/quote/etr/RAA/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for RATIONAL Aktiengesellschaft (ETR:RAA) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "RATIONAL Aktiengesellschaft (ETR:RAA) Statistics & Valuation Metrics",
+    "headings": [
+      "ETR:RAA Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "RAA",
+    "name": "Rational",
+    "tier": 2,
+    "hypothesis": "food-preparation machinery; niche",
+    "url": "https://stockanalysis.com/quote/etr/RAA/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for RATIONAL Aktiengesellschaft (ETR:RAA) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "RATIONAL Aktiengesellschaft (ETR:RAA) Financials Overview",
+    "headings": [
+      "ETR:RAA Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "RAA",
+    "name": "Rational",
+    "tier": 2,
+    "hypothesis": "food-preparation machinery; niche",
+    "url": "https://stockanalysis.com/quote/etr/RAA/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for RATIONAL Aktiengesellschaft (ETR:RAA), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "RATIONAL Aktiengesellschaft (ETR:RAA) Balance Sheet",
+    "headings": [
+      "ETR:RAA Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "RAA",
+    "name": "Rational",
+    "tier": 2,
+    "hypothesis": "food-preparation machinery; niche",
+    "url": "https://stockanalysis.com/quote/etr/RAA/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for RATIONAL Aktiengesellschaft (ETR:RAA), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "RATIONAL Aktiengesellschaft (ETR:RAA) Cash Flow Statement",
+    "headings": [
+      "ETR:RAA Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "RAA",
+    "name": "Rational",
+    "tier": 2,
+    "hypothesis": "food-preparation machinery; niche",
+    "url": "https://stockanalysis.com/quote/etr/RAA/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest RATIONAL Aktiengesellschaft (ETR:RAA) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "RATIONAL Aktiengesellschaft (ETR:RAA) Stock Price & Overview",
+    "headings": [
+      "RATIONAL Aktiengesellschaft (ETR:RAA)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "KGX",
+    "name": "KION",
+    "tier": 3,
+    "hypothesis": "industrial trucks/supply chain; tier3 fallback only",
+    "url": "https://stockanalysis.com/quote/etr/KGX/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for KION GROUP AG (ETR:KGX) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "KION GROUP AG (ETR:KGX) Statistics & Valuation Metrics",
+    "headings": [
+      "KION GROUP AG Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "KGX",
+    "name": "KION",
+    "tier": 3,
+    "hypothesis": "industrial trucks/supply chain; tier3 fallback only",
+    "url": "https://stockanalysis.com/quote/etr/KGX/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for KION GROUP AG (ETR:KGX) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "KION GROUP AG (ETR:KGX) Financials Overview",
+    "headings": [
+      "KION GROUP AG Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "KGX",
+    "name": "KION",
+    "tier": 3,
+    "hypothesis": "industrial trucks/supply chain; tier3 fallback only",
+    "url": "https://stockanalysis.com/quote/etr/KGX/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for KION GROUP AG (ETR:KGX), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "KION GROUP AG (ETR:KGX) Balance Sheet",
+    "headings": [
+      "KION GROUP AG Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "KGX",
+    "name": "KION",
+    "tier": 3,
+    "hypothesis": "industrial trucks/supply chain; tier3 fallback only",
+    "url": "https://stockanalysis.com/quote/etr/KGX/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for KION GROUP AG (ETR:KGX), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "KION GROUP AG (ETR:KGX) Cash Flow Statement",
+    "headings": [
+      "KION GROUP AG Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "KGX",
+    "name": "KION",
+    "tier": 3,
+    "hypothesis": "industrial trucks/supply chain; tier3 fallback only",
+    "url": "https://stockanalysis.com/quote/etr/KGX/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest KION GROUP AG (ETR:KGX) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "KION GROUP AG (ETR:KGX) Stock Price, Chart & News",
+    "headings": [
+      "KION GROUP AG (ETR:KGX)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "HLMA",
+    "name": "Halma",
+    "tier": 3,
+    "hypothesis": "safety/environment technology group; tier3 fallback only",
+    "url": "https://stockanalysis.com/quote/lon/HLMA/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Halma plc (LON:HLMA) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Halma (LON:HLMA) Statistics & Valuation Metrics",
+    "headings": [
+      "Halma Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "HLMA",
+    "name": "Halma",
+    "tier": 3,
+    "hypothesis": "safety/environment technology group; tier3 fallback only",
+    "url": "https://stockanalysis.com/quote/lon/HLMA/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Halma (LON:HLMA) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Halma (LON:HLMA) Financials Overview",
+    "headings": [
+      "Halma Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "HLMA",
+    "name": "Halma",
+    "tier": 3,
+    "hypothesis": "safety/environment technology group; tier3 fallback only",
+    "url": "https://stockanalysis.com/quote/lon/HLMA/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Halma (LON:HLMA), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Halma (LON:HLMA) Balance Sheet",
+    "headings": [
+      "Halma Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "HLMA",
+    "name": "Halma",
+    "tier": 3,
+    "hypothesis": "safety/environment technology group; tier3 fallback only",
+    "url": "https://stockanalysis.com/quote/lon/HLMA/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Halma (LON:HLMA), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Halma (LON:HLMA) Cash Flow Statement",
+    "headings": [
+      "Halma Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "HLMA",
+    "name": "Halma",
+    "tier": 3,
+    "hypothesis": "safety/environment technology group; tier3 fallback only",
+    "url": "https://stockanalysis.com/quote/lon/HLMA/",
+    "status": 200,
+    "page": "profile",
+    "description": "Get the latest Halma plc (LON:HLMA) stock price quote with financials, statistics, dividends, charts, historical data and more.",
+    "page_title": "Halma (LON:HLMA) Stock Price, Chart & News",
+    "headings": [
+      "Halma plc (LON:HLMA)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "XYL",
+    "name": "Xylem",
+    "tier": 1,
+    "hypothesis": "US water technology/pumps; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/xyl/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Xylem Inc. (XYL) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Xylem (XYL) Statistics & Valuation",
+    "headings": [
+      "Xylem Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "XYL",
+    "name": "Xylem",
+    "tier": 1,
+    "hypothesis": "US water technology/pumps; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/xyl/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Xylem (XYL) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Xylem (XYL) Financials Overview",
+    "headings": [
+      "Xylem Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "XYL",
+    "name": "Xylem",
+    "tier": 1,
+    "hypothesis": "US water technology/pumps; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/xyl/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Xylem (XYL), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Xylem (XYL) Balance Sheet",
+    "headings": [
+      "Xylem Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "XYL",
+    "name": "Xylem",
+    "tier": 1,
+    "hypothesis": "US water technology/pumps; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/xyl/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Xylem (XYL), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Xylem (XYL) Cash Flow Statement",
+    "headings": [
+      "Xylem Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "XYL",
+    "name": "Xylem",
+    "tier": 1,
+    "hypothesis": "US water technology/pumps; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/xyl/",
+    "status": 200,
+    "page": "profile",
+    "description": "A detailed overview of Xylem Inc. (XYL) stock, including real-time price, chart, key statistics, news, and more.",
+    "page_title": "Xylem (XYL) Stock Price & Overview",
+    "headings": [
+      "Xylem Inc. (XYL)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "IR",
+    "name": "Ingersoll Rand",
+    "tier": 1,
+    "hypothesis": "US compressors/fluid machinery; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/ir/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Ingersoll Rand Inc. (IR) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Ingersoll Rand (IR) Statistics & Valuation",
+    "headings": [
+      "Ingersoll Rand Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "IR",
+    "name": "Ingersoll Rand",
+    "tier": 1,
+    "hypothesis": "US compressors/fluid machinery; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/ir/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Ingersoll Rand (IR) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Ingersoll Rand (IR) Financials Overview",
+    "headings": [
+      "Ingersoll Rand Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "IR",
+    "name": "Ingersoll Rand",
+    "tier": 1,
+    "hypothesis": "US compressors/fluid machinery; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/ir/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Ingersoll Rand (IR), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Ingersoll Rand (IR) Balance Sheet",
+    "headings": [
+      "Ingersoll Rand Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "IR",
+    "name": "Ingersoll Rand",
+    "tier": 1,
+    "hypothesis": "US compressors/fluid machinery; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/ir/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Ingersoll Rand (IR), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Ingersoll Rand (IR) Cash Flow Statement",
+    "headings": [
+      "Ingersoll Rand Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "IR",
+    "name": "Ingersoll Rand",
+    "tier": 1,
+    "hypothesis": "US compressors/fluid machinery; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/ir/",
+    "status": 200,
+    "page": "profile",
+    "description": "A detailed overview of Ingersoll Rand Inc. (IR) stock, including real-time price, chart, key statistics, news, and more.",
+    "page_title": "Ingersoll Rand (IR) Stock Price, Chart & News",
+    "headings": [
+      "Ingersoll Rand Inc. (IR)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "October 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "DOV",
+    "name": "Dover",
+    "tier": 2,
+    "hypothesis": "US diversified industrial machinery; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/dov/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for Dover Corporation (DOV) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "Dover (DOV) Statistics & Valuation",
+    "headings": [
+      "Dover Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "DOV",
+    "name": "Dover",
+    "tier": 2,
+    "hypothesis": "US diversified industrial machinery; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/dov/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for Dover (DOV) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "Dover (DOV) Financials Overview",
+    "headings": [
+      "Dover Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "DOV",
+    "name": "Dover",
+    "tier": 2,
+    "hypothesis": "US diversified industrial machinery; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/dov/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for Dover (DOV), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "Dover (DOV) Balance Sheet",
+    "headings": [
+      "Dover Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "DOV",
+    "name": "Dover",
+    "tier": 2,
+    "hypothesis": "US diversified industrial machinery; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/dov/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for Dover (DOV), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "Dover (DOV) Cash Flow Statement",
+    "headings": [
+      "Dover Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "DOV",
+    "name": "Dover",
+    "tier": 2,
+    "hypothesis": "US diversified industrial machinery; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/dov/",
+    "status": 200,
+    "page": "profile",
+    "description": "A detailed overview of Dover Corporation (DOV) stock, including real-time price, chart, key statistics, news, and more.",
+    "page_title": "Dover (DOV) Stock Price, Chart & News",
+    "headings": [
+      "Dover Corporation (DOV)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "IEX",
+    "name": "IDEX",
+    "tier": 1,
+    "hypothesis": "US fluidics/precision machinery; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/iex/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "description": "Detailed statistics for IDEX Corporation (IEX) stock, including valuation metrics, financial numbers, share information and more.",
+    "page_title": "IDEX Corporation (IEX) Statistics & Valuation",
+    "headings": [
+      "IDEX Corporation Statistics"
+    ],
+    "tables": 19
+  },
+  {
+    "ticker": "IEX",
+    "name": "IDEX",
+    "tier": 1,
+    "hypothesis": "US fluidics/precision machinery; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/iex/financials/",
+    "status": 200,
+    "page": "financials",
+    "description": "Financials overview for IDEX Corporation (IEX) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends.",
+    "page_title": "IDEX Corporation (IEX) Financials Overview",
+    "headings": [
+      "IDEX Corporation Financials Overview"
+    ],
+    "tables": 7
+  },
+  {
+    "ticker": "IEX",
+    "name": "IDEX",
+    "tier": 1,
+    "hypothesis": "US fluidics/precision machinery; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/iex/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "description": "Detailed annual and quarterly balance sheet for IDEX Corporation (IEX), including cash, debt, assets, liabilities, and book value.",
+    "page_title": "IDEX Corporation (IEX) Balance Sheet",
+    "headings": [
+      "IDEX Corporation Balance Sheet"
+    ],
+    "tables": 4
+  },
+  {
+    "ticker": "IEX",
+    "name": "IDEX",
+    "tier": 1,
+    "hypothesis": "US fluidics/precision machinery; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/iex/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "description": "Detailed annual and quarterly cash flow statements for IDEX Corporation (IEX), including operating cash flow, capital expenditures and free cash flow.",
+    "page_title": "IDEX Corporation (IEX) Cash Flow Statement",
+    "headings": [
+      "IDEX Corporation Cash Flow Statement"
+    ],
+    "tables": 6
+  },
+  {
+    "ticker": "IEX",
+    "name": "IDEX",
+    "tier": 1,
+    "hypothesis": "US fluidics/precision machinery; World relaxation only",
+    "url": "https://stockanalysis.com/stocks/iex/",
+    "status": 200,
+    "page": "profile",
+    "description": "A detailed overview of IDEX Corporation (IEX) stock, including real-time price, chart, key statistics, news, and more.",
+    "page_title": "IDEX Corporation (IEX) Stock Price, Chart & News",
+    "headings": [
+      "IDEX Corporation (IEX)"
+    ],
+    "date_currency_matches": [
+      "Oct 30, 2026",
+      "Oct 30, 2026"
+    ],
+    "tables": 2
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 1,
+    "hypothesis": "fluid handling pumps/separation machinery",
+    "url": "https://stockanalysis.com/quote/swx/SUN/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "corrected": "swx route",
+    "tables": 19
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 1,
+    "hypothesis": "fluid handling pumps/separation machinery",
+    "url": "https://stockanalysis.com/quote/swx/SUN/financials/",
+    "status": 200,
+    "page": "financials",
+    "corrected": "swx route",
+    "tables": 7
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 1,
+    "hypothesis": "fluid handling pumps/separation machinery",
+    "url": "https://stockanalysis.com/quote/swx/SUN/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "corrected": "swx route",
+    "tables": 4
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 1,
+    "hypothesis": "fluid handling pumps/separation machinery",
+    "url": "https://stockanalysis.com/quote/swx/SUN/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "corrected": "swx route",
+    "tables": 6
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 1,
+    "hypothesis": "fluid handling pumps/separation machinery",
+    "url": "https://stockanalysis.com/quote/swx/SUN/",
+    "status": 200,
+    "page": "profile",
+    "corrected": "swx route",
+    "tables": 2
+  },
+  {
+    "ticker": "BCHN",
+    "name": "Burckhardt Compression",
+    "tier": 1,
+    "hypothesis": "compression machinery",
+    "url": "https://stockanalysis.com/quote/swx/BCHN/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "corrected": "swx route",
+    "tables": 19
+  },
+  {
+    "ticker": "BCHN",
+    "name": "Burckhardt Compression",
+    "tier": 1,
+    "hypothesis": "compression machinery",
+    "url": "https://stockanalysis.com/quote/swx/BCHN/financials/",
+    "status": 200,
+    "page": "financials",
+    "corrected": "swx route",
+    "tables": 7
+  },
+  {
+    "ticker": "BCHN",
+    "name": "Burckhardt Compression",
+    "tier": 1,
+    "hypothesis": "compression machinery",
+    "url": "https://stockanalysis.com/quote/swx/BCHN/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "corrected": "swx route",
+    "tables": 4
+  },
+  {
+    "ticker": "BCHN",
+    "name": "Burckhardt Compression",
+    "tier": 1,
+    "hypothesis": "compression machinery",
+    "url": "https://stockanalysis.com/quote/swx/BCHN/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "corrected": "swx route",
+    "tables": 6
+  },
+  {
+    "ticker": "BCHN",
+    "name": "Burckhardt Compression",
+    "tier": 1,
+    "hypothesis": "compression machinery",
+    "url": "https://stockanalysis.com/quote/swx/BCHN/",
+    "status": 200,
+    "page": "profile",
+    "corrected": "swx route",
+    "tables": 2
+  },
+  {
+    "ticker": "BUCN",
+    "name": "Bucher Industries",
+    "tier": 2,
+    "hypothesis": "specialized machinery",
+    "url": "https://stockanalysis.com/quote/swx/BUCN/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "corrected": "swx route",
+    "tables": 19
+  },
+  {
+    "ticker": "BUCN",
+    "name": "Bucher Industries",
+    "tier": 2,
+    "hypothesis": "specialized machinery",
+    "url": "https://stockanalysis.com/quote/swx/BUCN/financials/",
+    "status": 200,
+    "page": "financials",
+    "corrected": "swx route",
+    "tables": 7
+  },
+  {
+    "ticker": "BUCN",
+    "name": "Bucher Industries",
+    "tier": 2,
+    "hypothesis": "specialized machinery",
+    "url": "https://stockanalysis.com/quote/swx/BUCN/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "corrected": "swx route",
+    "tables": 4
+  },
+  {
+    "ticker": "BUCN",
+    "name": "Bucher Industries",
+    "tier": 2,
+    "hypothesis": "specialized machinery",
+    "url": "https://stockanalysis.com/quote/swx/BUCN/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "corrected": "swx route",
+    "tables": 6
+  },
+  {
+    "ticker": "BUCN",
+    "name": "Bucher Industries",
+    "tier": 2,
+    "hypothesis": "specialized machinery",
+    "url": "https://stockanalysis.com/quote/swx/BUCN/",
+    "status": 200,
+    "page": "profile",
+    "corrected": "swx route",
+    "tables": 2
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification/automation industrial group",
+    "url": "https://stockanalysis.com/quote/swx/ABBN/statistics/",
+    "status": 200,
+    "page": "statistics",
+    "corrected": "swx route",
+    "tables": 19
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification/automation industrial group",
+    "url": "https://stockanalysis.com/quote/swx/ABBN/financials/",
+    "status": 200,
+    "page": "financials",
+    "corrected": "swx route",
+    "tables": 7
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification/automation industrial group",
+    "url": "https://stockanalysis.com/quote/swx/ABBN/financials/balance-sheet/",
+    "status": 200,
+    "page": "financials_balance-sheet",
+    "corrected": "swx route",
+    "tables": 4
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification/automation industrial group",
+    "url": "https://stockanalysis.com/quote/swx/ABBN/financials/cash-flow-statement/",
+    "status": 200,
+    "page": "financials_cash-flow-statement",
+    "corrected": "swx route",
+    "tables": 6
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification/automation industrial group",
+    "url": "https://stockanalysis.com/quote/swx/ABBN/",
+    "status": 200,
+    "page": "profile",
+    "corrected": "swx route",
+    "tables": 2
+  }
+]
