@@ -1,0 +1,40 @@
+{
+  "company": "Siemens Energy AG",
+  "ticker": "ENR.DE",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-11-01T16:20:40+00:00",
+  "stages": {
+    "stage1_data": {
+      "status": "skipped_by_deviation",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage2_dcf": {
+      "status": "skipped_by_deviation",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage3_relative": {
+      "status": "pending",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage4_recommendation": {
+      "status": "skipped_by_deviation",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    }
+  },
+  "reduced_input_step": {
+    "status": "done",
+    "started": "2026-11-01T16:19:00+00:00",
+    "elapsed_min": 5.32,
+    "finished": "2026-11-01T16:23:59.673847+00:00",
+    "timing_note": "approximate start reconstructed at initialization; elapsed thereafter measured"
+  }
+}
