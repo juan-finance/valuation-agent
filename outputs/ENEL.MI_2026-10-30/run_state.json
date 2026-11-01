@@ -1,0 +1,47 @@
+{
+  "company": "Enel S.p.A.",
+  "ticker": "ENEL.MI",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-11-01T16:05:00+00:00",
+  "stages": {
+    "stage1_data": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report",
+        "Reduced input step done: price/shares/EV bridge/FY2025 fundamentals collected into relative_inputs.md; cross-checked vs Enel FY2025 results press release (equity/NCI exact, group NI exact, revenue as-reported exact; EBITDA basis differences documented)."
+      ],
+      "outputs": [
+        "relative_inputs.md"
+      ],
+      "next_step": ""
+    },
+    "stage2_dcf": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report"
+      ],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage3_relative": {
+      "status": "in_progress",
+      "notes": [
+        "2026-11-01T16:05:00+00:00 Cache 2026-10-30 reused; Italy/EUR covered (ECB FX, EUROPE equations). Route published_damodaran."
+      ],
+      "outputs": [],
+      "next_step": "peer pool, selection, multiples, published regressions, QA-C",
+      "started": "2026-11-01T16:05:00+00:00"
+    },
+    "stage4_recommendation": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report"
+      ],
+      "outputs": [],
+      "next_step": ""
+    }
+  },
+  "final_status": "in_progress",
+  "human_review": "pending"
+}

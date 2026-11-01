@@ -1,0 +1,4 @@
+S1,stockanalysis ENEL uniform vendor extract,https://stockanalysis.com/quote/bit/ENEL/,2026-11-01
+S2,Enel FY2025 results press release,https://www.enel.com/content/dam/enel-common/press/en/2026-march/Enel results FY2025.pdf,2026-11-01
+S3,universe.csv IEUR proxy membership,cache/market/2026-10-30/universe.csv,2026-10-30
+S4,macro snapshot ECB FX,cache/macro/2026-10-30.json,2026-10-30
