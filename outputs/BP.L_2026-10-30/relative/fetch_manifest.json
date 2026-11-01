@@ -1,0 +1,68 @@
+[
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "route": "quote/lon/BP",
+    "tier": 1,
+    "reason": "target",
+    "url": "https://stockanalysis.com/quote/lon/BP/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "route": "quote/lon/BP",
+    "tier": 1,
+    "reason": "target",
+    "url": "https://stockanalysis.com/quote/lon/BP/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "route": "quote/lon/BP",
+    "tier": 1,
+    "reason": "target",
+    "url": "https://stockanalysis.com/quote/lon/BP/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "route": "quote/lon/BP",
+    "tier": 1,
+    "reason": "target",
+    "url": "https://stockanalysis.com/quote/lon/BP/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "route": "quote/lon/BP",
+    "tier": 1,
+    "reason": "target",
+    "url": "https://stockanalysis.com/quote/lon/BP/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  }
+]

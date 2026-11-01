@@ -1,0 +1,45 @@
+{
+  "company": "BP p.l.c.",
+  "ticker": "BP.L",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-11-01T14:48:23+00:00",
+  "stages": {
+    "stage1_data": {
+      "status": "skipped_by_deviation",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage2_dcf": {
+      "status": "skipped_by_deviation",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage3_relative": {
+      "status": "pending",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage4_recommendation": {
+      "status": "skipped_by_deviation",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "reduced_input_step": {
+      "status": "done",
+      "notes": [
+        "2026-11-01T14:48:23+00:00 Uniform FY2025 extract and issuer conflicts retained; no full stage1"
+      ],
+      "outputs": [],
+      "next_step": "",
+      "started": "2026-11-01T14:48:23+00:00",
+      "finished": "2026-11-01T14:48:23+00:00",
+      "elapsed_min": 10.0
+    }
+  },
+  "deviation": "relative_only; session-authorized UK/GBP-only topup and short PDF/plaintext report; no DCF or recommendation"
+}
