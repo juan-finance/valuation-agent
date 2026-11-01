@@ -45,7 +45,15 @@ def collect(target_only=False):
    record=dict(ticker=ticker,name=name,route=route,tier=tier,reason=reason,url=url,page=page,status=r.status,access_date='2026-11-01')
    if r.ok:
     key=page.strip('/').replace('/','_')
-    for i,t in enumerate(html_tables(r.text())): t.to_csv(C/f'BPpool_{ticker}_{key}_{i}.csv',index=False)
+    tables=[]
+    for t in html_tables(r.text()):
+     if getattr(t.columns,'nlevels',1)>1:t.columns=[str(x[0]) for x in t.columns]
+     if page.startswith('financials'):
+      t=t[[t.columns[0]]+[k for k in ['FY 2025','FY 2024'] if k in t.columns]]
+     elif page=='history/':
+      if 'Date' in t:t=t[t.Date.eq('Oct 30, 2026')]
+     tables.append(t.to_dict(orient='split'))
+    (C/f'BPpool_{ticker}_{key}.json').write_text(json.dumps(tables,indent=2)+'\n')
     tree=html.fromstring(r.text());[x.drop_tree() for x in tree.xpath('//script|//style')]
     text=tree.text_content()
     import re

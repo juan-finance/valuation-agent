@@ -1,0 +1,427 @@
+{
+  "status": "blocked",
+  "qualified_count": 0,
+  "steps": [
+    {
+      "step": "Europe",
+      "n_numeric": 10,
+      "numeric_feasibility": {
+        "n_requested": 10,
+        "available": {
+          "T12_nonEU": 0,
+          "T12_EU": 10,
+          "T3_nonEU": 0,
+          "T3_EU": 0
+        },
+        "constraints": {
+          "min_tier_1_2": 6,
+          "max_tier_3": 2,
+          "min_europe": 5
+        },
+        "feasible": true,
+        "total_score": 129.9126011301066,
+        "counts": {
+          "T12_EU": 10,
+          "T12_nonEU": 0,
+          "T3_EU": 0,
+          "T3_nonEU": 0
+        }
+      },
+      "qualified_feasibility": {
+        "n_requested": 10,
+        "available": {
+          "T12_nonEU": 0,
+          "T12_EU": 0,
+          "T3_nonEU": 0,
+          "T3_EU": 0
+        },
+        "constraints": {
+          "min_tier_1_2": 6,
+          "max_tier_3": 2,
+          "min_europe": 5
+        },
+        "feasible": false
+      },
+      "scoring": {
+        "target_missing_dims": [],
+        "zero_sd_dims": [],
+        "params": {
+          "growth": {
+            "mean": 0.029267720666903942,
+            "sd": 0.03841219267627749,
+            "p_lo": 0.0,
+            "p_hi": 0.10993493548152473
+          },
+          "beta": {
+            "mean": 0.4791553792207967,
+            "sd": 0.24251769742333812,
+            "p_lo": 0.11649999999999999,
+            "p_hi": 0.8340825464273595
+          },
+          "net_debt_ebitda": {
+            "mean": 1.3742775745797808,
+            "sd": 0.8504563361351543,
+            "p_lo": 0.6293000876964714,
+            "p_hi": 3.0016324196503086
+          },
+          "roe": {
+            "mean": 0.09312866392232846,
+            "sd": 0.05486924592774257,
+            "p_lo": 0.02918543276606759,
+            "p_hi": 0.20251103610879562
+          },
+          "ebitda_margin": {
+            "mean": 0.29880694504471533,
+            "sd": 0.28524633741643707,
+            "p_lo": 0.0693757918004898,
+            "p_hi": 0.8285272007547505
+          },
+          "payout": {
+            "mean": 1.6198727986073025,
+            "sd": 2.05868418186352,
+            "p_lo": 0.44944977935110797,
+            "p_hi": 7.345457829149348
+          },
+          "capex_sales": {
+            "mean": 0.15960480400054902,
+            "sd": 0.15017199067609846,
+            "p_lo": 0.05054201522946603,
+            "p_hi": 0.5035415808403532
+          },
+          "ln_mcap": {
+            "mean": 10.714009713728576,
+            "sd": 1.0325729469251992,
+            "p_lo": 9.591188363272423,
+            "p_hi": 12.35717073686668
+          }
+        }
+      },
+      "warning": "numeric ranking not membership, ownership, event or accounting approval"
+    },
+    {
+      "step": "World",
+      "n_numeric": 21,
+      "numeric_feasibility": {
+        "n_requested": 10,
+        "available": {
+          "T12_nonEU": 11,
+          "T12_EU": 10,
+          "T3_nonEU": 0,
+          "T3_EU": 0
+        },
+        "constraints": {
+          "min_tier_1_2": 6,
+          "max_tier_3": 2,
+          "min_europe": 5
+        },
+        "feasible": true,
+        "total_score": 463.3371469482899,
+        "counts": {
+          "T12_EU": 6,
+          "T12_nonEU": 4,
+          "T3_EU": 0,
+          "T3_nonEU": 0
+        }
+      },
+      "qualified_feasibility": {
+        "n_requested": 10,
+        "available": {
+          "T12_nonEU": 0,
+          "T12_EU": 0,
+          "T3_nonEU": 0,
+          "T3_EU": 0
+        },
+        "constraints": {
+          "min_tier_1_2": 6,
+          "max_tier_3": 2,
+          "min_europe": 5
+        },
+        "feasible": false
+      },
+      "scoring": {
+        "target_missing_dims": [],
+        "zero_sd_dims": [],
+        "params": {
+          "growth": {
+            "mean": 0.04431107764560372,
+            "sd": 0.048259238632510575,
+            "p_lo": 0.0,
+            "p_hi": 0.14805701958489118
+          },
+          "beta": {
+            "mean": 0.4868000082769335,
+            "sd": 0.21564238453526174,
+            "p_lo": 0.2015,
+            "p_hi": 0.8442833198821323
+          },
+          "net_debt_ebitda": {
+            "mean": 1.3818811947852243,
+            "sd": 0.9095066842877947,
+            "p_lo": 0.537456285661697,
+            "p_hi": 3.2399957765811425
+          },
+          "roe": {
+            "mean": 0.10710234673662075,
+            "sd": 0.05801479261530943,
+            "p_lo": 0.04019666157039215,
+            "p_hi": 0.2344642433046204
+          },
+          "ebitda_margin": {
+            "mean": 0.3001448661203033,
+            "sd": 0.23669682967138309,
+            "p_lo": 0.059108119478334,
+            "p_hi": 0.8132061260356516
+          },
+          "payout": {
+            "mean": 0.8327297051168303,
+            "sd": 0.49457389518588196,
+            "p_lo": 0.42124129889403195,
+            "p_hi": 2.1283928320590846
+          },
+          "capex_sales": {
+            "mean": 0.17449390538509335,
+            "sd": 0.17409120763184624,
+            "p_lo": 0.0168686166676739,
+            "p_hi": 0.6141404805914972
+          },
+          "ln_mcap": {
+            "mean": 11.215506978703049,
+            "sd": 0.9964822567538496,
+            "p_lo": 9.617123544389155,
+            "p_hi": 12.92655493200942
+          }
+        }
+      },
+      "warning": "numeric ranking not membership, ownership, event or accounting approval"
+    },
+    {
+      "step": "size",
+      "n_numeric": 22,
+      "numeric_feasibility": {
+        "n_requested": 10,
+        "available": {
+          "T12_nonEU": 11,
+          "T12_EU": 11,
+          "T3_nonEU": 0,
+          "T3_EU": 0
+        },
+        "constraints": {
+          "min_tier_1_2": 6,
+          "max_tier_3": 2,
+          "min_europe": 5
+        },
+        "feasible": true,
+        "total_score": 413.12812424799847,
+        "counts": {
+          "T12_EU": 7,
+          "T12_nonEU": 3,
+          "T3_EU": 0,
+          "T3_nonEU": 0
+        }
+      },
+      "qualified_feasibility": {
+        "n_requested": 10,
+        "available": {
+          "T12_nonEU": 0,
+          "T12_EU": 0,
+          "T3_nonEU": 0,
+          "T3_EU": 0
+        },
+        "constraints": {
+          "min_tier_1_2": 6,
+          "max_tier_3": 2,
+          "min_europe": 5
+        },
+        "feasible": false
+      },
+      "scoring": {
+        "target_missing_dims": [],
+        "zero_sd_dims": [],
+        "params": {
+          "growth": {
+            "mean": 0.04431107764560372,
+            "sd": 0.048259238632510575,
+            "p_lo": 0.0,
+            "p_hi": 0.14805701958489118
+          },
+          "beta": {
+            "mean": 0.5133436593169779,
+            "sd": 0.23947270672358664,
+            "p_lo": 0.21,
+            "p_hi": 0.94
+          },
+          "net_debt_ebitda": {
+            "mean": 1.3522230574357008,
+            "sd": 0.8960027156952369,
+            "p_lo": 0.5440981044571155,
+            "p_hi": 3.2313982659295433
+          },
+          "roe": {
+            "mean": 0.09976503215895904,
+            "sd": 0.0628693771900384,
+            "p_lo": 0.003778945853637923,
+            "p_hi": 0.23369935037546274
+          },
+          "ebitda_margin": {
+            "mean": 0.3156873245166571,
+            "sd": 0.24165734677178832,
+            "p_lo": 0.0594298678700751,
+            "p_hi": 0.805398368218422
+          },
+          "payout": {
+            "mean": 0.8327297051168303,
+            "sd": 0.49457389518588196,
+            "p_lo": 0.42124129889403195,
+            "p_hi": 2.1283928320590846
+          },
+          "capex_sales": {
+            "mean": 0.17338708042954376,
+            "sd": 0.16666195357682845,
+            "p_lo": 0.017333999867059358,
+            "p_hi": 0.6011336825222535
+          },
+          "ln_mcap": {
+            "mean": 11.136968862087869,
+            "sd": 1.0335670650812487,
+            "p_lo": 9.572326413369346,
+            "p_hi": 12.906624497419202
+          }
+        }
+      },
+      "warning": "numeric ranking not membership, ownership, event or accounting approval"
+    },
+    {
+      "step": "Tier3",
+      "n_numeric": 22,
+      "numeric_feasibility": {
+        "n_requested": 10,
+        "available": {
+          "T12_nonEU": 11,
+          "T12_EU": 11,
+          "T3_nonEU": 0,
+          "T3_EU": 0
+        },
+        "constraints": {
+          "min_tier_1_2": 6,
+          "max_tier_3": 4,
+          "min_europe": 5
+        },
+        "feasible": true,
+        "total_score": 413.12812424799847,
+        "counts": {
+          "T12_EU": 7,
+          "T12_nonEU": 3,
+          "T3_EU": 0,
+          "T3_nonEU": 0
+        }
+      },
+      "qualified_feasibility": {
+        "n_requested": 10,
+        "available": {
+          "T12_nonEU": 0,
+          "T12_EU": 0,
+          "T3_nonEU": 0,
+          "T3_EU": 0
+        },
+        "constraints": {
+          "min_tier_1_2": 6,
+          "max_tier_3": 4,
+          "min_europe": 5
+        },
+        "feasible": false
+      },
+      "scoring": {
+        "target_missing_dims": [],
+        "zero_sd_dims": [],
+        "params": {
+          "growth": {
+            "mean": 0.04431107764560372,
+            "sd": 0.048259238632510575,
+            "p_lo": 0.0,
+            "p_hi": 0.14805701958489118
+          },
+          "beta": {
+            "mean": 0.5133436593169779,
+            "sd": 0.23947270672358664,
+            "p_lo": 0.21,
+            "p_hi": 0.94
+          },
+          "net_debt_ebitda": {
+            "mean": 1.3522230574357008,
+            "sd": 0.8960027156952369,
+            "p_lo": 0.5440981044571155,
+            "p_hi": 3.2313982659295433
+          },
+          "roe": {
+            "mean": 0.09976503215895904,
+            "sd": 0.0628693771900384,
+            "p_lo": 0.003778945853637923,
+            "p_hi": 0.23369935037546274
+          },
+          "ebitda_margin": {
+            "mean": 0.3156873245166571,
+            "sd": 0.24165734677178832,
+            "p_lo": 0.0594298678700751,
+            "p_hi": 0.805398368218422
+          },
+          "payout": {
+            "mean": 0.8327297051168303,
+            "sd": 0.49457389518588196,
+            "p_lo": 0.42124129889403195,
+            "p_hi": 2.1283928320590846
+          },
+          "capex_sales": {
+            "mean": 0.17338708042954376,
+            "sd": 0.16666195357682845,
+            "p_lo": 0.017333999867059358,
+            "p_hi": 0.6011336825222535
+          },
+          "ln_mcap": {
+            "mean": 11.136968862087869,
+            "sd": 1.0335670650812487,
+            "p_lo": 9.572326413369346,
+            "p_hi": 12.906624497419202
+          }
+        }
+      },
+      "warning": "numeric ranking not membership, ownership, event or accounting approval"
+    },
+    {
+      "step": "qualified_shortfall_9",
+      "result": {
+        "n_requested": 9,
+        "available": {
+          "T12_nonEU": 0,
+          "T12_EU": 0,
+          "T3_nonEU": 0,
+          "T3_EU": 0
+        },
+        "constraints": {
+          "min_tier_1_2": 6,
+          "max_tier_3": 3,
+          "min_europe": 5
+        },
+        "feasible": false
+      }
+    },
+    {
+      "step": "qualified_shortfall_8",
+      "result": {
+        "n_requested": 8,
+        "available": {
+          "T12_nonEU": 0,
+          "T12_EU": 0,
+          "T3_nonEU": 0,
+          "T3_EU": 0
+        },
+        "constraints": {
+          "min_tier_1_2": 6,
+          "max_tier_3": 2,
+          "min_europe": 5
+        },
+        "feasible": false
+      }
+    }
+  ],
+  "benchmark_resolution": "NOT FOUND: no 'ev_ebitda' dataset registered. Ask the user to supply the Damodaran 'ev_ebitda' file for that region (Markdown), then run `python -m valuation_agent.datasets add <file>`. Do not substitute another family or an unverified web number."
+}

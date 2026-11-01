@@ -1,0 +1,4 @@
+scenario,Brent_USD_bbl,Henry_Hub_USD_mmbtu,calibration,EBITDA_mapping
+low,55,2.5,"analyst-set scenario assumptions, not observed prices or forecasts",not available; no sourced commodity sensitivity model
+base,70,4.0,"analyst-set scenario assumptions, not observed prices or forecasts",not available; no sourced commodity sensitivity model
+high,85,5.5,"analyst-set scenario assumptions, not observed prices or forecasts",not available; no sourced commodity sensitivity model

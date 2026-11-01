@@ -21,8 +21,10 @@ def num(v):
 
 def fields(ticker,page):
  out={}
- for f in sorted(C.glob(f'BPpool_{ticker}_{page}_*.csv')):
-  t=pd.read_csv(f).fillna('')
+ p=C/f'BPpool_{ticker}_{page}.json'
+ tables=[pd.DataFrame(x['data'],columns=x['columns']).fillna('') for x in json.loads(p.read_text())] if p.exists() else [pd.read_csv(f).fillna('') for f in sorted(C.glob(f'BPpool_{ticker}_{page}_*.csv'))]
+ for t in tables:
+  t.columns=t.columns.map(str)
   for _,r in t.iterrows():out[str(r.iloc[0])]={k:r[k] for k in t.columns[1:]}
  return out
 
@@ -51,8 +53,9 @@ def normalize():
   country={'lon':'United Kingdom','epa':'France','osl':'Norway','bit':'Italy','bme':'Spain','vie':'Austria','eli':'Portugal','hel':'Finland','wse':'Poland','asx':'Australia','US':'United States'}[exchange]
   if ticker in ('SU','CNQ'):country='Canada'
   price=np.nan
-  for path in C.glob(f'BPpool_{ticker}_history_*.csv'):
-   h=pd.read_csv(path)
+  hp=C/f'BPpool_{ticker}_history.json'
+  histories=[pd.DataFrame(x['data'],columns=x['columns']) for x in json.loads(hp.read_text())] if hp.exists() else [pd.read_csv(path) for path in C.glob(f'BPpool_{ticker}_history_*.csv')]
+  for h in histories:
    if 'Date' in h and 'Close' in h:
     x=h[h.Date.eq('Oct 30, 2026')]
     if len(x):price=num(x.iloc[0]['Close'])
@@ -68,9 +71,13 @@ def normalize():
   growth=roe*(1-min(payout,1)) if roe>0 and payout>=0 else np.nan
   beta_raw=get(s,'Beta (5Y)','1');beta=beta_raw;beta_note='observed vendor 5Y, index/frequency unavailable'
   if not np.isfinite(beta) or beta<0 or beta>2.5:
-   r=datasets.resolve('beta',country=country,valuation_date='2026-10-30');df=datasets.load_industry(r.dataset)
+   r=datasets.resolve('beta',country=country,valuation_date='2026-10-30')
+   if not r.found:
+    beta=np.nan;beta_note='invalid observed beta; no registered country-industry beta fallback'
+    df=None
+   else:df=datasets.load_industry(r.dataset)
    industry='Oil/Gas (Integrated)' if tier==1 else 'Oil/Gas (Production and Exploration)'
-   bu=datasets.get_value(df,'beta',industry,'beta_unlevered_cash_corrected')
+   bu=datasets.get_value(df,'beta',industry,'beta_unlevered_cash_corrected') if df is not None else np.nan
    # Registered Europe marginal tax convention, not effective tax rate.
    tax=0.2471  # Resolved beta Europe dataset metadata: Marginal Tax Rate Used, 24.71%.
    beta,_,beta_note=replace_beta(beta_raw,bu,tax,debt/fin_eq)

@@ -64,5 +64,1589 @@
     "status": 200,
     "access_date": "2026-11-01",
     "units": []
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "route": "quote/lon/SHEL",
+    "tier": 1,
+    "reason": "integrated oil/gas and LNG",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "route": "quote/lon/SHEL",
+    "tier": 1,
+    "reason": "integrated oil/gas and LNG",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "route": "quote/lon/SHEL",
+    "tier": 1,
+    "reason": "integrated oil/gas and LNG",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "route": "quote/lon/SHEL",
+    "tier": 1,
+    "reason": "integrated oil/gas and LNG",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "route": "quote/lon/SHEL",
+    "tier": 1,
+    "reason": "integrated oil/gas and LNG",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "route": "quote/epa/TTE",
+    "tier": 1,
+    "reason": "integrated oil/gas and LNG",
+    "url": "https://stockanalysis.com/quote/epa/TTE/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "route": "quote/epa/TTE",
+    "tier": 1,
+    "reason": "integrated oil/gas and LNG",
+    "url": "https://stockanalysis.com/quote/epa/TTE/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "route": "quote/epa/TTE",
+    "tier": 1,
+    "reason": "integrated oil/gas and LNG",
+    "url": "https://stockanalysis.com/quote/epa/TTE/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "route": "quote/epa/TTE",
+    "tier": 1,
+    "reason": "integrated oil/gas and LNG",
+    "url": "https://stockanalysis.com/quote/epa/TTE/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "route": "quote/epa/TTE",
+    "tier": 1,
+    "reason": "integrated oil/gas and LNG",
+    "url": "https://stockanalysis.com/quote/epa/TTE/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "route": "quote/osl/EQNR",
+    "tier": 1,
+    "reason": "integrated upstream and European gas",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "route": "quote/osl/EQNR",
+    "tier": 1,
+    "reason": "integrated upstream and European gas",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "route": "quote/osl/EQNR",
+    "tier": 1,
+    "reason": "integrated upstream and European gas",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "route": "quote/osl/EQNR",
+    "tier": 1,
+    "reason": "integrated upstream and European gas",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "route": "quote/osl/EQNR",
+    "tier": 1,
+    "reason": "integrated upstream and European gas",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "route": "quote/bit/ENI",
+    "tier": 1,
+    "reason": "integrated upstream refining and gas",
+    "url": "https://stockanalysis.com/quote/bit/ENI/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "route": "quote/bit/ENI",
+    "tier": 1,
+    "reason": "integrated upstream refining and gas",
+    "url": "https://stockanalysis.com/quote/bit/ENI/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "route": "quote/bit/ENI",
+    "tier": 1,
+    "reason": "integrated upstream refining and gas",
+    "url": "https://stockanalysis.com/quote/bit/ENI/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "route": "quote/bit/ENI",
+    "tier": 1,
+    "reason": "integrated upstream refining and gas",
+    "url": "https://stockanalysis.com/quote/bit/ENI/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "route": "quote/bit/ENI",
+    "tier": 1,
+    "reason": "integrated upstream refining and gas",
+    "url": "https://stockanalysis.com/quote/bit/ENI/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "route": "quote/bme/REP",
+    "tier": 1,
+    "reason": "integrated oil refining and upstream",
+    "url": "https://stockanalysis.com/quote/bme/REP/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "route": "quote/bme/REP",
+    "tier": 1,
+    "reason": "integrated oil refining and upstream",
+    "url": "https://stockanalysis.com/quote/bme/REP/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "route": "quote/bme/REP",
+    "tier": 1,
+    "reason": "integrated oil refining and upstream",
+    "url": "https://stockanalysis.com/quote/bme/REP/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "route": "quote/bme/REP",
+    "tier": 1,
+    "reason": "integrated oil refining and upstream",
+    "url": "https://stockanalysis.com/quote/bme/REP/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "route": "quote/bme/REP",
+    "tier": 1,
+    "reason": "integrated oil refining and upstream",
+    "url": "https://stockanalysis.com/quote/bme/REP/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "route": "quote/vie/OMV",
+    "tier": 1,
+    "reason": "integrated gas refining chemicals",
+    "url": "https://stockanalysis.com/quote/vie/OMV/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "route": "quote/vie/OMV",
+    "tier": 1,
+    "reason": "integrated gas refining chemicals",
+    "url": "https://stockanalysis.com/quote/vie/OMV/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "route": "quote/vie/OMV",
+    "tier": 1,
+    "reason": "integrated gas refining chemicals",
+    "url": "https://stockanalysis.com/quote/vie/OMV/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "route": "quote/vie/OMV",
+    "tier": 1,
+    "reason": "integrated gas refining chemicals",
+    "url": "https://stockanalysis.com/quote/vie/OMV/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "route": "quote/vie/OMV",
+    "tier": 1,
+    "reason": "integrated gas refining chemicals",
+    "url": "https://stockanalysis.com/quote/vie/OMV/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "GALP",
+    "name": "Galp",
+    "route": "quote/eli/GALP",
+    "tier": 1,
+    "reason": "integrated upstream and refining",
+    "url": "https://stockanalysis.com/quote/eli/GALP/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "GALP",
+    "name": "Galp",
+    "route": "quote/eli/GALP",
+    "tier": 1,
+    "reason": "integrated upstream and refining",
+    "url": "https://stockanalysis.com/quote/eli/GALP/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "GALP",
+    "name": "Galp",
+    "route": "quote/eli/GALP",
+    "tier": 1,
+    "reason": "integrated upstream and refining",
+    "url": "https://stockanalysis.com/quote/eli/GALP/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "GALP",
+    "name": "Galp",
+    "route": "quote/eli/GALP",
+    "tier": 1,
+    "reason": "integrated upstream and refining",
+    "url": "https://stockanalysis.com/quote/eli/GALP/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "GALP",
+    "name": "Galp",
+    "route": "quote/eli/GALP",
+    "tier": 1,
+    "reason": "integrated upstream and refining",
+    "url": "https://stockanalysis.com/quote/eli/GALP/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "route": "quote/hel/NESTE",
+    "tier": 2,
+    "reason": "renewable/conventional refining",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "route": "quote/hel/NESTE",
+    "tier": 2,
+    "reason": "renewable/conventional refining",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "route": "quote/hel/NESTE",
+    "tier": 2,
+    "reason": "renewable/conventional refining",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "route": "quote/hel/NESTE",
+    "tier": 2,
+    "reason": "renewable/conventional refining",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "route": "quote/hel/NESTE",
+    "tier": 2,
+    "reason": "renewable/conventional refining",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "ORLEN",
+    "name": "Orlen",
+    "route": "quote/wse/PKN",
+    "tier": 2,
+    "reason": "integrated European refining and gas; Poland not developed market",
+    "url": "https://stockanalysis.com/quote/wse/PKN/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions PLN"
+    ]
+  },
+  {
+    "ticker": "ORLEN",
+    "name": "Orlen",
+    "route": "quote/wse/PKN",
+    "tier": 2,
+    "reason": "integrated European refining and gas; Poland not developed market",
+    "url": "https://stockanalysis.com/quote/wse/PKN/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions PLN"
+    ]
+  },
+  {
+    "ticker": "ORLEN",
+    "name": "Orlen",
+    "route": "quote/wse/PKN",
+    "tier": 2,
+    "reason": "integrated European refining and gas; Poland not developed market",
+    "url": "https://stockanalysis.com/quote/wse/PKN/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions PLN"
+    ]
+  },
+  {
+    "ticker": "ORLEN",
+    "name": "Orlen",
+    "route": "quote/wse/PKN",
+    "tier": 2,
+    "reason": "integrated European refining and gas; Poland not developed market",
+    "url": "https://stockanalysis.com/quote/wse/PKN/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "ORLEN",
+    "name": "Orlen",
+    "route": "quote/wse/PKN",
+    "tier": 2,
+    "reason": "integrated European refining and gas; Poland not developed market",
+    "url": "https://stockanalysis.com/quote/wse/PKN/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "VARE",
+    "name": "Var Energi",
+    "route": "quote/osl/VAR",
+    "tier": 2,
+    "reason": "Norwegian upstream",
+    "url": "https://stockanalysis.com/quote/osl/VAR/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "VARE",
+    "name": "Var Energi",
+    "route": "quote/osl/VAR",
+    "tier": 2,
+    "reason": "Norwegian upstream",
+    "url": "https://stockanalysis.com/quote/osl/VAR/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "VARE",
+    "name": "Var Energi",
+    "route": "quote/osl/VAR",
+    "tier": 2,
+    "reason": "Norwegian upstream",
+    "url": "https://stockanalysis.com/quote/osl/VAR/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "VARE",
+    "name": "Var Energi",
+    "route": "quote/osl/VAR",
+    "tier": 2,
+    "reason": "Norwegian upstream",
+    "url": "https://stockanalysis.com/quote/osl/VAR/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "VARE",
+    "name": "Var Energi",
+    "route": "quote/osl/VAR",
+    "tier": 2,
+    "reason": "Norwegian upstream",
+    "url": "https://stockanalysis.com/quote/osl/VAR/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "route": "quote/osl/AKRBP",
+    "tier": 2,
+    "reason": "Norwegian upstream",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "route": "quote/osl/AKRBP",
+    "tier": 2,
+    "reason": "Norwegian upstream",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "route": "quote/osl/AKRBP",
+    "tier": 2,
+    "reason": "Norwegian upstream",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "route": "quote/osl/AKRBP",
+    "tier": 2,
+    "reason": "Norwegian upstream",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "route": "quote/osl/AKRBP",
+    "tier": 2,
+    "reason": "Norwegian upstream",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "route": "quote/lon/HBR",
+    "tier": 2,
+    "reason": "upstream oil/gas",
+    "url": "https://stockanalysis.com/quote/lon/HBR/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "route": "quote/lon/HBR",
+    "tier": 2,
+    "reason": "upstream oil/gas",
+    "url": "https://stockanalysis.com/quote/lon/HBR/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "route": "quote/lon/HBR",
+    "tier": 2,
+    "reason": "upstream oil/gas",
+    "url": "https://stockanalysis.com/quote/lon/HBR/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "route": "quote/lon/HBR",
+    "tier": 2,
+    "reason": "upstream oil/gas",
+    "url": "https://stockanalysis.com/quote/lon/HBR/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "route": "quote/lon/HBR",
+    "tier": 2,
+    "reason": "upstream oil/gas",
+    "url": "https://stockanalysis.com/quote/lon/HBR/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "route": "stocks/xom",
+    "tier": 1,
+    "reason": "global integrated upstream/refining",
+    "url": "https://stockanalysis.com/stocks/xom/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "route": "stocks/xom",
+    "tier": 1,
+    "reason": "global integrated upstream/refining",
+    "url": "https://stockanalysis.com/stocks/xom/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "route": "stocks/xom",
+    "tier": 1,
+    "reason": "global integrated upstream/refining",
+    "url": "https://stockanalysis.com/stocks/xom/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "route": "stocks/xom",
+    "tier": 1,
+    "reason": "global integrated upstream/refining",
+    "url": "https://stockanalysis.com/stocks/xom/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "route": "stocks/xom",
+    "tier": 1,
+    "reason": "global integrated upstream/refining",
+    "url": "https://stockanalysis.com/stocks/xom/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "route": "stocks/cvx",
+    "tier": 1,
+    "reason": "global integrated upstream/refining",
+    "url": "https://stockanalysis.com/stocks/cvx/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "route": "stocks/cvx",
+    "tier": 1,
+    "reason": "global integrated upstream/refining",
+    "url": "https://stockanalysis.com/stocks/cvx/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "route": "stocks/cvx",
+    "tier": 1,
+    "reason": "global integrated upstream/refining",
+    "url": "https://stockanalysis.com/stocks/cvx/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "route": "stocks/cvx",
+    "tier": 1,
+    "reason": "global integrated upstream/refining",
+    "url": "https://stockanalysis.com/stocks/cvx/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "route": "stocks/cvx",
+    "tier": 1,
+    "reason": "global integrated upstream/refining",
+    "url": "https://stockanalysis.com/stocks/cvx/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "route": "stocks/cop",
+    "tier": 2,
+    "reason": "large developed-market E&P",
+    "url": "https://stockanalysis.com/stocks/cop/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "route": "stocks/cop",
+    "tier": 2,
+    "reason": "large developed-market E&P",
+    "url": "https://stockanalysis.com/stocks/cop/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "route": "stocks/cop",
+    "tier": 2,
+    "reason": "large developed-market E&P",
+    "url": "https://stockanalysis.com/stocks/cop/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "route": "stocks/cop",
+    "tier": 2,
+    "reason": "large developed-market E&P",
+    "url": "https://stockanalysis.com/stocks/cop/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "route": "stocks/cop",
+    "tier": 2,
+    "reason": "large developed-market E&P",
+    "url": "https://stockanalysis.com/stocks/cop/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "route": "stocks/eog",
+    "tier": 2,
+    "reason": "large developed-market E&P",
+    "url": "https://stockanalysis.com/stocks/eog/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "route": "stocks/eog",
+    "tier": 2,
+    "reason": "large developed-market E&P",
+    "url": "https://stockanalysis.com/stocks/eog/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "route": "stocks/eog",
+    "tier": 2,
+    "reason": "large developed-market E&P",
+    "url": "https://stockanalysis.com/stocks/eog/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "route": "stocks/eog",
+    "tier": 2,
+    "reason": "large developed-market E&P",
+    "url": "https://stockanalysis.com/stocks/eog/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "route": "stocks/eog",
+    "tier": 2,
+    "reason": "large developed-market E&P",
+    "url": "https://stockanalysis.com/stocks/eog/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "route": "stocks/oxy",
+    "tier": 2,
+    "reason": "large developed-market E&P chemicals",
+    "url": "https://stockanalysis.com/stocks/oxy/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "route": "stocks/oxy",
+    "tier": 2,
+    "reason": "large developed-market E&P chemicals",
+    "url": "https://stockanalysis.com/stocks/oxy/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "route": "stocks/oxy",
+    "tier": 2,
+    "reason": "large developed-market E&P chemicals",
+    "url": "https://stockanalysis.com/stocks/oxy/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "route": "stocks/oxy",
+    "tier": 2,
+    "reason": "large developed-market E&P chemicals",
+    "url": "https://stockanalysis.com/stocks/oxy/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "route": "stocks/oxy",
+    "tier": 2,
+    "reason": "large developed-market E&P chemicals",
+    "url": "https://stockanalysis.com/stocks/oxy/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "SU",
+    "name": "Suncor",
+    "route": "stocks/su",
+    "tier": 1,
+    "reason": "Canadian integrated oil refining",
+    "url": "https://stockanalysis.com/stocks/su/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions CAD"
+    ]
+  },
+  {
+    "ticker": "SU",
+    "name": "Suncor",
+    "route": "stocks/su",
+    "tier": 1,
+    "reason": "Canadian integrated oil refining",
+    "url": "https://stockanalysis.com/stocks/su/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions CAD"
+    ]
+  },
+  {
+    "ticker": "SU",
+    "name": "Suncor",
+    "route": "stocks/su",
+    "tier": 1,
+    "reason": "Canadian integrated oil refining",
+    "url": "https://stockanalysis.com/stocks/su/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions CAD"
+    ]
+  },
+  {
+    "ticker": "SU",
+    "name": "Suncor",
+    "route": "stocks/su",
+    "tier": 1,
+    "reason": "Canadian integrated oil refining",
+    "url": "https://stockanalysis.com/stocks/su/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "SU",
+    "name": "Suncor",
+    "route": "stocks/su",
+    "tier": 1,
+    "reason": "Canadian integrated oil refining",
+    "url": "https://stockanalysis.com/stocks/su/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural",
+    "route": "stocks/cnq",
+    "tier": 2,
+    "reason": "Canadian oil sands and upstream",
+    "url": "https://stockanalysis.com/stocks/cnq/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions CAD"
+    ]
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural",
+    "route": "stocks/cnq",
+    "tier": 2,
+    "reason": "Canadian oil sands and upstream",
+    "url": "https://stockanalysis.com/stocks/cnq/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions CAD"
+    ]
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural",
+    "route": "stocks/cnq",
+    "tier": 2,
+    "reason": "Canadian oil sands and upstream",
+    "url": "https://stockanalysis.com/stocks/cnq/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions CAD"
+    ]
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural",
+    "route": "stocks/cnq",
+    "tier": 2,
+    "reason": "Canadian oil sands and upstream",
+    "url": "https://stockanalysis.com/stocks/cnq/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural",
+    "route": "stocks/cnq",
+    "tier": 2,
+    "reason": "Canadian oil sands and upstream",
+    "url": "https://stockanalysis.com/stocks/cnq/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "route": "stocks/vlo",
+    "tier": 2,
+    "reason": "US refining",
+    "url": "https://stockanalysis.com/stocks/vlo/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "route": "stocks/vlo",
+    "tier": 2,
+    "reason": "US refining",
+    "url": "https://stockanalysis.com/stocks/vlo/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "route": "stocks/vlo",
+    "tier": 2,
+    "reason": "US refining",
+    "url": "https://stockanalysis.com/stocks/vlo/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "route": "stocks/vlo",
+    "tier": 2,
+    "reason": "US refining",
+    "url": "https://stockanalysis.com/stocks/vlo/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "route": "stocks/vlo",
+    "tier": 2,
+    "reason": "US refining",
+    "url": "https://stockanalysis.com/stocks/vlo/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "route": "stocks/mpc",
+    "tier": 2,
+    "reason": "US refining",
+    "url": "https://stockanalysis.com/stocks/mpc/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "route": "stocks/mpc",
+    "tier": 2,
+    "reason": "US refining",
+    "url": "https://stockanalysis.com/stocks/mpc/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "route": "stocks/mpc",
+    "tier": 2,
+    "reason": "US refining",
+    "url": "https://stockanalysis.com/stocks/mpc/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "route": "stocks/mpc",
+    "tier": 2,
+    "reason": "US refining",
+    "url": "https://stockanalysis.com/stocks/mpc/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "route": "stocks/mpc",
+    "tier": 2,
+    "reason": "US refining",
+    "url": "https://stockanalysis.com/stocks/mpc/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "route": "stocks/psx",
+    "tier": 2,
+    "reason": "US refining and midstream",
+    "url": "https://stockanalysis.com/stocks/psx/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "route": "stocks/psx",
+    "tier": 2,
+    "reason": "US refining and midstream",
+    "url": "https://stockanalysis.com/stocks/psx/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "route": "stocks/psx",
+    "tier": 2,
+    "reason": "US refining and midstream",
+    "url": "https://stockanalysis.com/stocks/psx/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "route": "stocks/psx",
+    "tier": 2,
+    "reason": "US refining and midstream",
+    "url": "https://stockanalysis.com/stocks/psx/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "route": "stocks/psx",
+    "tier": 2,
+    "reason": "US refining and midstream",
+    "url": "https://stockanalysis.com/stocks/psx/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "WDS",
+    "name": "Woodside Energy",
+    "route": "quote/asx/WDS",
+    "tier": 2,
+    "reason": "Australian LNG/upstream",
+    "url": "https://stockanalysis.com/quote/asx/WDS/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "WDS",
+    "name": "Woodside Energy",
+    "route": "quote/asx/WDS",
+    "tier": 2,
+    "reason": "Australian LNG/upstream",
+    "url": "https://stockanalysis.com/quote/asx/WDS/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "WDS",
+    "name": "Woodside Energy",
+    "route": "quote/asx/WDS",
+    "tier": 2,
+    "reason": "Australian LNG/upstream",
+    "url": "https://stockanalysis.com/quote/asx/WDS/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "WDS",
+    "name": "Woodside Energy",
+    "route": "quote/asx/WDS",
+    "tier": 2,
+    "reason": "Australian LNG/upstream",
+    "url": "https://stockanalysis.com/quote/asx/WDS/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "WDS",
+    "name": "Woodside Energy",
+    "route": "quote/asx/WDS",
+    "tier": 2,
+    "reason": "Australian LNG/upstream",
+    "url": "https://stockanalysis.com/quote/asx/WDS/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "STO",
+    "name": "Santos",
+    "route": "quote/asx/STO",
+    "tier": 2,
+    "reason": "Australian LNG/upstream",
+    "url": "https://stockanalysis.com/quote/asx/STO/financials/income-statement/",
+    "page": "financials/income-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "STO",
+    "name": "Santos",
+    "route": "quote/asx/STO",
+    "tier": 2,
+    "reason": "Australian LNG/upstream",
+    "url": "https://stockanalysis.com/quote/asx/STO/financials/balance-sheet/",
+    "page": "financials/balance-sheet/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "STO",
+    "name": "Santos",
+    "route": "quote/asx/STO",
+    "tier": 2,
+    "reason": "Australian LNG/upstream",
+    "url": "https://stockanalysis.com/quote/asx/STO/financials/cash-flow-statement/",
+    "page": "financials/cash-flow-statement/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "STO",
+    "name": "Santos",
+    "route": "quote/asx/STO",
+    "tier": 2,
+    "reason": "Australian LNG/upstream",
+    "url": "https://stockanalysis.com/quote/asx/STO/statistics/",
+    "page": "statistics/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
+  },
+  {
+    "ticker": "STO",
+    "name": "Santos",
+    "route": "quote/asx/STO",
+    "tier": 2,
+    "reason": "Australian LNG/upstream",
+    "url": "https://stockanalysis.com/quote/asx/STO/history/",
+    "page": "history/",
+    "status": 200,
+    "access_date": "2026-11-01",
+    "units": []
   }
 ]

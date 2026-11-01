@@ -1,0 +1,12 @@
+target_ticker,multiple,n_valid,usable,adjusted_multiple,adjusted_n_valid,value_per_share_mid,value_per_share_low,value_per_share_high,status,basis,primary_requested
+BP.L,pe,0,False,,0,,,,"blocked: fewer than8 qualified peers, incomplete bridge/benchmark evidence",FY2025,False
+BP.L,peg,0,False,,0,,,,"blocked: fewer than8 qualified peers, incomplete bridge/benchmark evidence",FY2025,False
+BP.L,relative_pe,0,False,,0,,,,"blocked: fewer than8 qualified peers, incomplete bridge/benchmark evidence",FY2025,False
+BP.L,ev_ebit,0,False,,0,,,,"blocked: fewer than8 qualified peers, incomplete bridge/benchmark evidence",FY2025,False
+BP.L,ev_ebitda,0,False,,0,,,,"blocked: fewer than8 qualified peers, incomplete bridge/benchmark evidence",FY2025,True
+BP.L,ev_cf,0,False,,0,,,,"blocked: fewer than8 qualified peers, incomplete bridge/benchmark evidence",FY2025,False
+BP.L,pbv,0,False,,0,,,,"blocked: fewer than8 qualified peers, incomplete bridge/benchmark evidence",FY2025,False
+BP.L,ev_assets,0,False,,0,,,,"blocked: fewer than8 qualified peers, incomplete bridge/benchmark evidence",FY2025,False
+BP.L,tobins_q,0,False,,0,,,,"blocked: fewer than8 qualified peers, incomplete bridge/benchmark evidence",FY2025,False
+BP.L,ps,0,False,,0,,,,"blocked: fewer than8 qualified peers, incomplete bridge/benchmark evidence",FY2025,False
+BP.L,ev_sales,0,False,,0,,,,"blocked: fewer than8 qualified peers, incomplete bridge/benchmark evidence",FY2025,False

@@ -1,0 +1,328 @@
+[
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Cash & Equivalents",
+        "2344",
+        "4147"
+      ],
+      [
+        "Short-Term Investments",
+        "300",
+        "-"
+      ],
+      [
+        "Cash & Short-Term Investments",
+        "2644",
+        "4147"
+      ],
+      [
+        "Cash Growth",
+        "-36.24%",
+        "22.38%"
+      ],
+      [
+        "Accounts Receivable",
+        "830.1",
+        "1013"
+      ],
+      [
+        "Other Receivables",
+        "385.5",
+        "307.7"
+      ],
+      [
+        "Receivables",
+        "1216",
+        "1321"
+      ],
+      [
+        "Inventory",
+        "552.3",
+        "305.9"
+      ],
+      [
+        "Prepaid Expenses",
+        "672.5",
+        "390.8"
+      ],
+      [
+        "Other Current Assets",
+        "60.3",
+        "0.4"
+      ],
+      [
+        "Total Current Assets",
+        "5145",
+        "6165"
+      ],
+      [
+        "Property, Plant & Equipment",
+        "26412",
+        "20817"
+      ],
+      [
+        "Long-Term Investments",
+        "2.8",
+        "2.8"
+      ],
+      [
+        "Goodwill",
+        "11268",
+        "12757"
+      ],
+      [
+        "Other Intangible Assets",
+        "1826",
+        "2358"
+      ],
+      [
+        "Long-Term Deferred Charges",
+        "5.8",
+        "12.3"
+      ],
+      [
+        "Other Long-Term Assets",
+        "146.9",
+        "81.5"
+      ],
+      [
+        "Total Assets",
+        "44806",
+        "42193"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Accounts Payable",
+        692.6,
+        329.1
+      ],
+      [
+        "Accrued Expenses",
+        295.2,
+        232.3
+      ],
+      [
+        "Current Portion of Long-Term Debt",
+        307.2,
+        160.8
+      ],
+      [
+        "Current Portion of Leases",
+        359.4,
+        217.7
+      ],
+      [
+        "Current Income Taxes Payable",
+        1053.0,
+        2434.0
+      ],
+      [
+        "Other Current Liabilities",
+        1224.0,
+        1141.0
+      ],
+      [
+        "Total Current Liabilities",
+        3931.0,
+        4514.0
+      ],
+      [
+        "Long-Term Debt",
+        8359.0,
+        7337.0
+      ],
+      [
+        "Long-Term Leases",
+        712.7,
+        458.0
+      ],
+      [
+        "Long-Term Deferred Tax Liabilities",
+        16001.0,
+        12990.0
+      ],
+      [
+        "Other Long-Term Liabilities",
+        4577.0,
+        4203.0
+      ],
+      [
+        "Total Liabilities",
+        33580.0,
+        29502.0
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Common Stock",
+        84.3,
+        84.3
+      ],
+      [
+        "Additional Paid-In Capital",
+        13520.0,
+        13520.0
+      ],
+      [
+        "Retained Earnings",
+        -2558.0,
+        -1093.0
+      ],
+      [
+        "Comprehensive Income & Other",
+        179.7,
+        179.8
+      ],
+      [
+        "Shareholders' Equity",
+        11226.0,
+        12691.0
+      ],
+      [
+        "Total Liabilities & Equity",
+        44806.0,
+        42193.0
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "columns": [
+      "Fiscal Year",
+      "FY 2025",
+      "FY 2024"
+    ],
+    "data": [
+      [
+        "Total Debt",
+        "9738",
+        "8173"
+      ],
+      [
+        "Net Cash (Debt)",
+        "-7094",
+        "-4026"
+      ],
+      [
+        "Net Cash Growth",
+        "-",
+        "-"
+      ],
+      [
+        "Net Cash Per Share",
+        "-11.24",
+        "-6.38"
+      ],
+      [
+        "Filing Date Shares Outstanding",
+        "631.74",
+        "631.97"
+      ],
+      [
+        "Total Common Shares Outstanding",
+        "631.74",
+        "631.97"
+      ],
+      [
+        "Working Capital",
+        "1214",
+        "1651"
+      ],
+      [
+        "Book Value Per Share",
+        "17.77",
+        "20.08"
+      ],
+      [
+        "Tangible Book Value",
+        "-1868",
+        "-2424"
+      ],
+      [
+        "Tangible Book Value Per Share",
+        "-2.96",
+        "-3.83"
+      ],
+      [
+        "Machinery",
+        "386.5",
+        "307.9"
+      ]
+    ]
+  }
+]

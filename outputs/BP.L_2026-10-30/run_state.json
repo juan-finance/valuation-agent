@@ -18,10 +18,12 @@
       "next_step": ""
     },
     "stage3_relative": {
-      "status": "pending",
+      "status": "in_progress",
       "notes": [],
       "outputs": [],
-      "next_step": ""
+      "next_step": "",
+      "started": "2026-11-01T14:48:41+00:00",
+      "_t0": 1793544521.8708372
     },
     "stage4_recommendation": {
       "status": "skipped_by_deviation",

@@ -47,3 +47,11 @@ Stage0 exception: added only UK and GBP, no universe/candidate rebuild. GBP offi
 - Resolved beta_europe_2026-01; ctryprem_global_2026-07; cache/macro/2026-10-30.json; dated market MANIFEST.
 
 Academic analysis only; not personal investment advice. This is an input checkpoint, not a valuation conclusion.
+
+## Stage3 issuer-bridge resolution (supplemental cross-check, not vendor overwrites)
+
+Issuer FY balance sheet R5 confirms debt including leases = 3,356+54,602+2,832+11,739 =72,529; cash36,556 and NCI20,948 agree. R4 splits NCI into hybrids15,955 and other NCI4,993: subtract the total only once. Issuer parent equity53,052 less vendor common equity53,031 gives preference carrying-equity proxy21, separately disclosed (not a quoted preference market value). Regression EV retains equity-accounted investments, per sector_adjustments; its inverse does not add associates. Issuer JV carrying13,400 and associate carrying7,325 are now sourced, but cannot be selectively applied to an otherwise unharmonized peer panel.
+
+Issuer EBITDA proxy12,642+17,822=30,464 is 0.97% above vendor30,168; standardized EBIT/D&A reclassifications largely offset at EBITDA. The EBIT perimeter difference remains explicit. A separate, simplistic impairment-addback alternative is issuer EBIT18,679 and EBITDA36,501 (adds6,037, before tax). This is not a silently adjusted base or a cycle-normal forecast. Issuer underlying RC parent NI reconciles55+1,017 inventory losses+6,413 other adverse adjusting items=7,485; common sensitivity7,484. No uniform peer normalization is available.
+
+Additional sources, all accessed2026-11-01: R5 https://www.sec.gov/Archives/edgar/data/313807/000031380726000006/R5.htm ; R4 https://www.sec.gov/Archives/edgar/data/313807/000031380726000006/R4.htm ; https://www.bp.com/press-and-publications/press-releases/fourth-quarter-2025-results ; issuer identity https://www.bp.com/en/global/corporate/investors/shareholder-and-dividend-information/share-listing-information.html (GB0007980591, six ordinary shares per ADS).

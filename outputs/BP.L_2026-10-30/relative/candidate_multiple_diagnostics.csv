@@ -1,0 +1,12 @@
+multiple,n_valid,usable,median,mean,p25,p75,skew_flag,scaled_median,scaled_n,status
+pe,9,True,33.30974272458879,43.4041363973279,22.88068653028485,39.68794044665013,True,,4,"UNQUALIFIED candidate diagnostics, not used in valuation; EV BEFORE associates"
+peg,4,False,9.816417568641764,15.29575111531047,6.517447656965742,18.59472102698649,True,,0,"UNQUALIFIED candidate diagnostics, not used in valuation; EV BEFORE associates"
+relative_pe,0,False,,,,,,,0,"UNQUALIFIED candidate diagnostics, not used in valuation; EV BEFORE associates"
+ev_ebit,9,True,18.740311986863716,16.559145438386693,9.67565072587532,23.085427189682967,False,,0,"UNQUALIFIED candidate diagnostics, not used in valuation; EV BEFORE associates"
+ev_ebitda,9,True,7.634292314526878,8.623420756136495,6.256315295416897,11.52522090381217,False,,0,"UNQUALIFIED candidate diagnostics, not used in valuation; EV BEFORE associates"
+ev_cf,9,True,8.246541635408853,9.7357357933441,7.092599377709005,9.098734416852576,False,,0,"UNQUALIFIED candidate diagnostics, not used in valuation; EV BEFORE associates"
+pbv,10,True,2.070873563615435,2.341891450702117,1.6846745300057562,2.756619714574548,False,0.03263749300819675,9,"UNQUALIFIED candidate diagnostics, not used in valuation; EV BEFORE associates"
+ev_assets,9,True,0.8547755412550893,1.044975573547109,0.7681799824998318,1.0753019667359505,False,,0,"UNQUALIFIED candidate diagnostics, not used in valuation; EV BEFORE associates"
+tobins_q,0,False,,,,,,,0,"UNQUALIFIED candidate diagnostics, not used in valuation; EV BEFORE associates"
+ps,10,True,1.0708291728559705,1.3217839319948763,0.9488312317917541,1.1538142553617123,False,0.009586201586719365,9,"UNQUALIFIED candidate diagnostics, not used in valuation; EV BEFORE associates"
+ev_sales,9,True,1.364381033431317,1.7305657442151952,1.3148461796086313,1.438875714346188,True,1.2274302538659583,9,"UNQUALIFIED candidate diagnostics, not used in valuation; EV BEFORE associates"

@@ -1,0 +1,25 @@
+{
+  "engine": "LibreOffice Calc headless",
+  "tolerance": 1e-09,
+  "checks": [
+    {
+      "model": "PE",
+      "python": 758.9213208673718,
+      "recalculated": 758.921320867372,
+      "absolute_difference": 1.1368683772161603e-13
+    },
+    {
+      "model": "PBV",
+      "python": -22.60001063617623,
+      "recalculated": -22.6000106361762,
+      "absolute_difference": 2.842170943040401e-14
+    },
+    {
+      "model": "EV/EBITDA",
+      "python": 18.07278499767111,
+      "recalculated": 18.0727849976711,
+      "absolute_difference": 1.0658141036401503e-14
+    }
+  ],
+  "expected_error": "PBV negative prediction: deviation cell =NA(), not used"
+}

@@ -1,0 +1,8 @@
+scenario,EBITDA_usdm,multiple_held_fixed,GBP_per_share,note
+EBITDA -20% mechanical stress,24134.4,18.07278499767111,18.319328197412762,"mechanical conditional sensitivity, not commodity forecast or peer dispersion"
+base vendor EBITDA,30168.0,18.07278499767111,23.586822531233473,"mechanical conditional sensitivity, not commodity forecast or peer dispersion"
+EBITDA +20% mechanical stress,36201.6,18.07278499767111,28.854316865054194,"mechanical conditional sensitivity, not commodity forecast or peer dispersion"
+issuer PBIT + DDA parallel,30464.0,18.07278499767111,23.8452384558574,"mechanical conditional sensitivity, not commodity forecast or peer dispersion"
+issuer impairment-addback parallel,36501.0,18.07278499767111,29.11570108070421,"mechanical conditional sensitivity, not commodity forecast or peer dispersion"
+full FY decommissioning provision as incremental debt-like claim,30168.0,18.07278499767111,22.994927201137546,"conservative stress only; may double-count operating provision economics, not base"
+percentage-point DFR/tax unit alternative,30168.0,4.27671633435448,3.481810071231778,not user-approved base; illustrative unit risk

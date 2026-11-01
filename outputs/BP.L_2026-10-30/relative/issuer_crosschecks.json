@@ -1,0 +1,12 @@
+{
+  "access_date": "2026-11-01",
+  "fiscal_year": "2025-12-31",
+  "units": "USD millions unless stated",
+  "income": {"revenue":189335,"EBIT":12642,"DA":17822,"EBITDA_proxy":30464,"net_impairment_and_losses":6037,"normalized_EBIT_addback_only":18679,"normalized_EBITDA_addback_only":36501,"parent_NI":55,"common_NI":54,"tax":6451,"pretax":7746,"equity_accounted_income":618,"source":"https://www.sec.gov/Archives/edgar/data/313807/000031380726000006/R2.htm"},
+  "balance": {"cash":36556,"finance_debt_current":3356,"finance_debt_noncurrent":54602,"leases_current":2832,"leases_noncurrent":11739,"NCI_including_hybrids":20948,"parent_equity":53052,"common_equity_vendor":53031,"preference_equity_difference":21,"joint_ventures_carrying":13400,"associates_carrying":7325,"source":"https://www.sec.gov/Archives/edgar/data/313807/000031380726000006/R5.htm"},
+  "claims": {"hybrids_in_NCI":15955,"other_NCI":4993,"source":"https://www.sec.gov/Archives/edgar/data/313807/000031380726000006/R4.htm"},
+  "decommissioning": {"total":12253,"current":824,"noncurrent":11429,"source":"https://www.sec.gov/Archives/edgar/data/313807/000031380726000006/R29.htm"},
+  "normalization": {"reported_parent_NI":55,"inventory_loss_net_tax":1017,"net_adverse_adjusting_items_after_tax":6413,"underlying_RC_parent_NI":7485,"source":"https://www.bp.com/press-and-publications/press-releases/fourth-quarter-2025-results","note":"55+1017+6413=7485; underlying RC is not IFRS NI or a forecast. Subtract preference dividend 1 for common sensitivity only."},
+  "identity": {"isin":"GB0007980591","ADS_ordinary_ratio":6,"source":"https://www.bp.com/en/global/corporate/investors/shareholder-and-dividend-information/share-listing-information.html"},
+  "cautions": ["Regression base EV does not subtract associates (sector_adjustments). Comparable EV must exclude associates consistently across all peers and target; source supplemental carrying values are not automatic market values.","Vendor EBITDA 30168 is 0.97295% below issuer PBIT+DDA proxy30464; vendor standardized EBIT14446 is 14.27% above issuer PBIT12642. Preserve both, do not selectively overwrite production fields.","Hybrids15955 are ALREADY inside NCI20948. Never subtract twice. Preference21 is separate from ordinary equity, a disclosed carrying-value claim proxy."]
+}
