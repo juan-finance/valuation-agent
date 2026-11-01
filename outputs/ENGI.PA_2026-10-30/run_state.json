@@ -25,13 +25,21 @@
       "next_step": ""
     },
     "stage3_relative": {
-      "status": "in_progress",
+      "status": "provisional",
       "notes": [
-        "2026-11-01T16:20:00+00:00 Cache 2026-10-30 reused; France/EUR covered (ECB FX, EUROPE equations, France Aa3 spread in macro snapshot). Route published_damodaran."
+        "2026-11-01T16:20:00+00:00 Cache 2026-10-30 reused; France/EUR covered (ECB FX, EUROPE equations, France Aa3 spread in macro snapshot). Route published_damodaran.",
+        "2026-11-01T16:20:00+00:00 Provisional: peer EV/EBITDA median 12.23x -> EUR45.51/share (vendor EBITDA 13,012m; issuer consolidated 14,700 sens ~54.0); published PBV EUR26.71, PE EUR31.69, EV/EBITDA EUR88.37. 10 peers (8 T1 + 2 T2, all Europe). ISIN verify + human Spot_check + ownership audit pending. Live formulas verified vs predict <1e-9. QA block C: no failures."
       ],
-      "outputs": [],
+      "outputs": [
+        "relative/",
+        "relative_report_ENGI.PA.pdf",
+        "relative_summary.md",
+        "qa_results.md"
+      ],
       "next_step": "",
-      "started": "2026-11-01T16:20:00+00:00"
+      "started": "2026-11-01T16:20:00+00:00",
+      "finished": "2026-11-01T16:20:00+00:00",
+      "elapsed_min": 22.0
     },
     "stage4_recommendation": {
       "status": "skipped_by_deviation",
@@ -42,6 +50,6 @@
       "next_step": ""
     }
   },
-  "final_status": "in_progress",
+  "final_status": "provisional_relative_only",
   "human_review": "pending"
 }

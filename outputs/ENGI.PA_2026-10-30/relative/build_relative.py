@@ -1,4 +1,4 @@
-"""Company-local, reproducible provisional analysis for ENEL.MI. Never changes source-library code."""
+"""Company-local, reproducible provisional analysis for ENGI.PA. Never changes source-library code."""
 import json, math, random
 from pathlib import Path
 import numpy as np
@@ -13,7 +13,7 @@ ROOT=P.parents[2]
 D=pd.read_csv(P/'candidate_raw.csv').set_index('ticker',drop=False)
 D['period_end']=pd.to_datetime(D.financial_period_end.astype(str).str.extract(r'([A-Z][a-z]{2} \d{1,2}, \d{4})',expand=False),format='%b %d, %Y').dt.strftime('%Y-%m-%d')
 D['period_start']=(pd.to_datetime(D.period_end)-pd.DateOffset(years=1)+pd.Timedelta(days=1)).dt.strftime('%Y-%m-%d')
-T=D.loc['ENEL']
+T=D.loc['ENGI']
 
 ISINS={'ENEL':'IT0003128367','IBE':'ES0144580Y14','EOAN':'DE000ENAG999','ENGI':'FR0010208488',
  'RWE':'DE0007037129','NTGY':'ES0116870314','EDP':'PTEDP0AM0009','SSE':'GB0007908733',
@@ -24,16 +24,15 @@ ISINS={'ENEL':'IT0003128367','IBE':'ES0144580Y14','EOAN':'DE000ENAG999','ENGI':'
  'IG':'IT0005211237','AY':'US19508P1075','BEPC':'US16984A1051','CWEN':'US18539C1053',
  'ORA':'US6866881021','BLX':'CA09950M1032','NPI':'CA6665111002','INE':'CA45790E1043',
  'ELE':'ES0130670112','CEZ':'CZ0005112300'}
-# Gates fixed before any valuation. ELE is the ~70%-owned subsidiary: hard exclusion.
+# Gates fixed before any valuation. ELE is eligible for ENGI (subsidiary of Enel, not of the target).
 reasons={
- 'ELE':'hard exclusion: subsidiary of ENEL (~70% owned by target), comparables procedure section 3',
  'CEZ':'uniform web source unavailable (404); Czech listing is MSCI EM in any case - hard exclusion',
  'ORA':'membership mislabeled by name match; US listed, kept for World relaxation only',
  'AY':'no common 2026-10-30 price date (vendor history gap); freshness gate fails',
  'BLX':'no common 2026-10-30 price date (vendor history gap); freshness gate fails',
  'INE':'no common 2026-10-30 price date (vendor history gap); freshness gate fails',
 }
-pool=D.loc[[t for t in D.index if t not in ('ENEL',)+tuple(reasons)]].copy()
+pool=D.loc[[t for t in D.index if t not in ('ENGI',)+tuple(reasons)]].copy()
 pool['isin']=[ISINS.get(t,'unverified') for t in pool.index]
 pool['europe']=pool.europe.astype(bool)
 assert (pool.market_cap_check.abs()<=.05).all(), 'cap checks beyond flag threshold need review'
@@ -53,7 +52,7 @@ if sel is None:
   sel,info=c.select_peers(x,n=n,max_tier_3=4)
   if sel is not None:break
 assert sel is not None
-sel['target_ticker']='ENEL.MI'
+sel['target_ticker']='ENGI.PA'
 sel['comp_name']=sel.name
 sel['comp_ticker']=sel.ticker
 sel['comp_isin']=sel['isin']
@@ -63,7 +62,7 @@ sel['inclusion_reason']=sel.hypothesis
 sel['flags']='provisional ownership/events/classification audit; human Spot_check pending; associates proxied by long-term investments where present; non-Dec periods uncalendarized; beta benchmark/frequency unavailable; ISINs registry-mapped pending issuer verification'
 sel.to_csv(P/'comparables.csv',index=False)
 json.dump(steps,open(P/'peer_selection.json','w'),indent=2,default=str)
-candidate=D.copy();candidate['gate_result']=[reasons.get(t,'preliminary eligible; audit pending') if t!='ENEL' else 'target' for t in candidate.index]
+candidate=D.copy();candidate['gate_result']=[reasons.get(t,'preliminary eligible; audit pending') if t!='ENGI' else 'target' for t in candidate.index]
 candidate['isin']=[ISINS.get(t,'unverified') for t in candidate.index]
 candidate.to_csv(P/'candidate_gates.csv',index=False)
 
@@ -84,7 +83,7 @@ for name in ['pe','peg','relative_pe','ev_ebit','ev_ebitda','ev_cf','pbv','ev_as
  adj=c.scaled_multiple(vals,sel[driver],T[driver],driver_scale=100 if name=='pe' else 1,min_valid=6) if driver else {'available':False,'n_valid':0}
  base=adj if adj['available'] else stats
  usable=stats['usable']
- row={'target_ticker':'ENEL.MI','multiple':name,**stats,'adjusted_multiple':adj.get('median',np.nan),'adjusted_n_valid':adj['n_valid'],'currency':'EUR','is_primary':name=='ev_ebitda','basis':'FY2025','status':'provisional' if usable else 'not valued (<6 valid or unsupported denominator)','flags':'EV before associates for peers (LT investments proxied for target); not fully harmonized' if name.startswith('ev_') else 'relative PE/index denominator unavailable' if name=='relative_pe' else 'replacement costs unavailable' if name=='tobins_q' else ''}
+ row={'target_ticker':'ENGI.PA','multiple':name,**stats,'adjusted_multiple':adj.get('median',np.nan),'adjusted_n_valid':adj['n_valid'],'currency':'EUR','is_primary':name=='ev_ebitda','basis':'FY2025','status':'provisional' if usable else 'not valued (<6 valid or unsupported denominator)','flags':'EV before associates for peers (LT investments proxied for target); not fully harmonized' if name.startswith('ev_') else 'relative PE/index denominator unavailable' if name=='relative_pe' else 'replacement costs unavailable' if name=='tobins_q' else ''}
  for q,suffix in [('p25','low'),('median','mid'),('p75','high')]:
   row['value_per_share_'+suffix]=price(name,base.get(q,np.nan)) if usable else np.nan
   row['raw_value_'+suffix]=price(name,stats.get(q,np.nan)) if usable else np.nan
@@ -106,31 +105,33 @@ add_frame(wb,'Peer_Selection',sel.reset_index(drop=True))
 add_frame(wb,'Peer_Multiples',summary)
 add_frame(wb,'Peer_Spot_check',pd.DataFrame({'ticker':sorted(random.Random(20261030).sample(list(sel.ticker),min(3,len(sel)))),'review_status':'pending human review; no assertion of verification'}))
 checks=[]
+FXc=json.loads((ROOT/'cache/macro/2026-10-30.json').read_text())['fx_ecb_reference']['rates']; FXc['EUR']=1
 for t in sorted(random.Random(20261030).sample(list(sel.ticker),min(3,len(sel)))):
- r=sel[sel.ticker.eq(t)].iloc[0];raw=r.pe*r.ni if np.isfinite(r.ni) and r.ni>0 else r.market_cap_eur_m
- ev=c.comparable_ev(r.pe*r.ni if np.isfinite(r.ni) and r.ni>0 else np.nan,r.debt,r.NCI,r.cash,0)
+ r=sel[sel.ticker.eq(t)].iloc[0]
+ market_fin=r.market_cap_quote_m*FXc[r.report_currency]/FXc[r.quote_currency]
+ ev=c.comparable_ev(market_fin,r.debt,r.NCI,r.cash,0)
  checks.append(dict(ticker=t,debt=r.debt,NCI=r.NCI,cash=r.cash,EV_before_associates=ev,recorded=r.EV_before_associates,recompute_match=bool(np.isfinite(ev) and np.isfinite(r.EV_before_associates) and abs(ev-r.EV_before_associates)<1e-6*max(1,abs(r.EV_before_associates))),human_status='pending; not performed'))
 add_frame(wb,'EV_check',pd.DataFrame(checks))
 qa=wb.create_sheet('QA');qa.append(['Status','Evidence']);qa.append(['PROVISIONAL','Ownership/events/classification audit incomplete; industry median check pending; human review pending'])
 wb.save(P/'comparables_audit.xlsx')
 
-# Published FY regressions — Italy lists EUROPE equations via resolver.
-tax_rate=T.tax_rate  # 0.3305 effective FY2025
+# Published FY regressions — France lists EUROPE equations via resolver.
+tax_rate=T.tax_rate  # 0.2485 effective FY2025
 mkt_eq=T.market_cap_quote_m  # EUR m, Oct-30 close basis
 dfr=T.debt/(T.debt+mkt_eq)
 ic=T.equity+T.debt-T.cash
 roic=T.EBIT*(1-tax_rate)/ic
-inputs={'g_eps':float(T.g_eps),'beta':float(T.beta),'roe':T.ni/T.equity,'payout':4982.0/3959.0,'g_rev':float(T.g_rev),'dfr':dfr,'tax_rate':tax_rate,'roic':roic}
-g_eps_source='analyst consensus 3Y EPS growth forecast 7.63% (stockanalysis statistics, accessed 2026-11-01)'
-g_rev_source='analyst consensus 3Y revenue growth forecast 3.17% (same source)'
+inputs={'g_eps':float(T.g_eps),'beta':float(T.beta),'roe':T.ni/T.equity,'payout':3283.0/3687.0,'g_rev':float(T.g_rev),'dfr':dfr,'tax_rate':tax_rate,'roic':roic}
+g_eps_source='analyst consensus 3Y EPS growth forecast 4.73% (stockanalysis statistics, accessed 2026-11-01)'
+g_rev_source='analyst consensus 3Y revenue growth forecast 5.60% (same source)'
 reg=Workbook();ws=reg.active;ws.title='Inputs';ws.append(['Variable','value','source'])
 for k,v in inputs.items():
- src={'g_eps':g_eps_source,'g_rev':g_rev_source,'beta':'StockAnalysis Beta(5Y) 0.84','roe':'NI to common/parent common equity FY2025 (closing)','payout':'declared FY2025 dividend 4,982m / vendor NI to common 3,959m = 1.26 (dividend part-funded from retained earnings; declared/group-NI 4,225 = 1.18 flagged)','dfr':'total debt/(debt+market equity) at 2026-10-30','tax_rate':'FY2025 effective 33.05%','roic':'EBIT(1-tax)/(equity+debt-cash)'}[k]
+ src={'g_eps':g_eps_source,'g_rev':g_rev_source,'beta':'StockAnalysis Beta(5Y) 0.57','roe':'NI to common/parent common equity FY2025 (closing)','payout':'proposed FY2025 dividend ~3,283m (EUR1.35/sh, issuer-stated 67% of NRIgs) / vendor NI to common 3,687m = 0.89; paid-cash basis 4,529/3,687 = 1.23 flagged','dfr':'total debt/(debt+market equity) at 2026-10-30','tax_rate':'FY2025 effective 24.85%','roic':'EBIT(1-tax)/(equity+debt-cash)'}[k]
  ws.append([k,float(v),src])
-ws.append(['book',T.equity,'S3_ENEL_equity']);ws.append(['NI',T.ni,'S3_ENEL_ni']);ws.append(['EBITDA',T.EBITDA,'S3_ENEL_EBITDA']);ws.append(['debt',T.debt,'S3_ENEL_debt']);ws.append(['NCI',T.NCI,'S3_ENEL_NCI']);ws.append(['cash',T.cash,'S3_ENEL_cash']);ws.append(['associates',T.associates,'S3_ENEL_assoc']);ws.append(['shares',T.current_shares_m,'S3_ENEL_current_shares_m'])
+ws.append(['book',T.equity,'S3_ENGI_equity']);ws.append(['NI',T.ni,'S3_ENGI_ni']);ws.append(['EBITDA',T.EBITDA,'S3_ENGI_EBITDA']);ws.append(['debt',T.debt,'S3_ENGI_debt']);ws.append(['NCI',T.NCI,'S3_ENGI_NCI']);ws.append(['cash',T.cash,'S3_ENGI_cash']);ws.append(['associates',T.associates,'S3_ENGI_assoc']);ws.append(['shares',T.current_shares_m,'S3_ENGI_current_shares_m'])
 preds=[];eqws=reg.create_sheet('Equations');eqws.append(['Model','constant','pred_terms','predicted','published R2','EUR/share','dataset'])
 for i,dep in enumerate(['PE','PBV','EV/EBITDA'],2):
- eq,res,region=datasets.equation_for('Italy',dep,'2026-10-30')
+ eq,res,region=datasets.equation_for('France',dep,'2026-10-30')
  check=datasets.check_dataset(res.dataset)
  value=pr.predict(eq,inputs,unit_policy='as_published_note')
  inrow={k:i2 for i2,k in enumerate(inputs.keys(),2)}
@@ -152,25 +153,25 @@ for i,dep in enumerate(['PE','PBV','EV/EBITDA'],2):
 reg.save(P/'regression_valuation.xlsx')
 json.dump({'inputs':inputs,'predictions':preds,'status':'provisional'},open(P/'regression_results.json','w'),indent=2,default=str)
 chosen=max(preds,key=lambda p:p['published_r2'])
-r={'company':'Enel','ticker':'ENEL.MI','isin':'IT0003128367','gics_sector':'Utilities (web mapping)','typicality_result':'n/a_published_route','primary_regression':'published_damodaran_EUROPE_2026-01','chosen_model':chosen['model'],'predicted_primary':chosen['predicted'],'actual_multiple':chosen['actual'],'deviation':chosen['deviation'],'published_r2':chosen['published_r2'],'implied_value_per_share':chosen['value_per_share'],'currency':'EUR','current_price':T.price,'upside':chosen['value_per_share']/T.price-1 if np.isfinite(chosen['value_per_share']) else None,'second_model':[p['model'] for p in preds if p is not chosen][0],'second_predicted':[p['predicted'] for p in preds if p is not chosen][0],'third_model':[p['model'] for p in preds if p is not chosen][1],'third_predicted':[p['predicted'] for p in preds if p is not chosen][1],'classification':'Not classified (no SEy published)','units_policy':'as_published_note (decimal; user-approved)','units_unverified':'no','substituted_input':'none (sourced analyst consensus g_eps/g_rev used)','damodaran_global':'not used until verified (GLOBAL anomalies recorded at stage 0)','damodaran_western_europe_uk':chosen['predicted'],'flags':'old vintage; low R2; human review pending; effective tax 33.05%; payout>1 (dividend part-funded from reserves)','source_urls':T.source_urls}
+r={'company':'ENGIE','ticker':'ENGI.PA','isin':'FR0010208488','gics_sector':'Utilities (web mapping)','typicality_result':'n/a_published_route','primary_regression':'published_damodaran_EUROPE_2026-01','chosen_model':chosen['model'],'predicted_primary':chosen['predicted'],'actual_multiple':chosen['actual'],'deviation':chosen['deviation'],'published_r2':chosen['published_r2'],'implied_value_per_share':chosen['value_per_share'],'currency':'EUR','current_price':T.price,'upside':chosen['value_per_share']/T.price-1 if np.isfinite(chosen['value_per_share']) else None,'second_model':[p['model'] for p in preds if p is not chosen][0],'second_predicted':[p['predicted'] for p in preds if p is not chosen][0],'third_model':[p['model'] for p in preds if p is not chosen][1],'third_predicted':[p['predicted'] for p in preds if p is not chosen][1],'classification':'Not classified (no SEy published)','units_policy':'as_published_note (decimal; user-approved)','units_unverified':'no','substituted_input':'none (sourced analyst consensus g_eps/g_rev used)','damodaran_global':'not used until verified (GLOBAL anomalies recorded at stage 0)','damodaran_western_europe_uk':chosen['predicted'],'flags':'old vintage; low R2; human review pending; effective tax 24.85%; vendor EBITDA/CFO basis caveats (issuer EBITDA 14.7bn; CFFO 13.6bn)','source_urls':T.source_urls}
 for k in ['failed_test','adj_r2','predicted_A','predicted_B','predicted_C','residual','std_residual','damodaran_predicted','sector_dummy_coef','SEy','p_values','D1_D10']:r[k]='n/a_published_route'
 r['rationale']=f"{chosen['model']} highest published R2 among eligible models; peer-method primary EV/EBITDA kept separately in comparables"
 pd.DataFrame([r]).to_csv(P/'valuation_multiples.csv',index=False)
 
 # Sensitivities: peer-set composition, quartiles already in summary; EBITDA basis (issuer reported/ordinary vs vendor) and NI basis.
 sens=[]
-for label,metric in [('vendor FY2025 EBITDA',T.EBITDA),('issuer reported EBITDA 22,073',22073),('issuer ordinary EBITDA 22,874',22874)]:
+for label,metric in [('vendor FY2025 EBITDA',T.EBITDA),('issuer consolidated EBITDA 14,700',14700),('issuer EBITDA ex-nuclear 13,400',13400)]:
  med=primary['median']
  eqv=c.implied_equity_from_ev(med,metric,T.debt,T.NCI,T.cash,0)
  sens.append(dict(scenario=label,EBITDA_eurm=metric,peer_median_ev_ebitda=med,EUR_per_share=eqv/T.current_shares_m if eqv>0 else np.nan,note='mechanical median-held-fixed sensitivity; EBITDA definitions differ (vendor excludes items issuer includes in ordinary EBITDA)'))
-for label,ni in [('vendor NI to common',T.ni),('issuer group net income 4,225',4225),('issuer ordinary net income 7,011',7011)]:
+for label,ni in [('vendor NI to common',T.ni),('issuer net income group share 3,827',3827),('issuer NRIgs 4,900',4900)]:
  pe_med=summary[summary.multiple.eq('pe')].iloc[0]['median']
  sens.append(dict(scenario='PE x '+label,EBITDA_eurm=np.nan,peer_median_ev_ebitda=pe_med,EUR_per_share=pe_med*ni/T.current_shares_m,note='peer median PE applied to alternative NI basis'))
 pd.DataFrame(sens).to_csv(P/'sensitivities.csv',index=False)
 
 log=SourceLog(P.parent/'source_log.csv');existing={r['input_id'] for r in log.rows}
 if 'S3_equations' not in existing:
- log.add(input_id='S3_equations',company='Enel S.p.A.',metric='published PE/PBV/EVEBITDA equation coefficients',value='see Coefficients sheets',unit='equation',as_of_date=str(dataset_res.dataset.as_of_date),access_date='2026-11-01',source_name='registered Damodaran equations',url_or_local_file=dataset_res.dataset.path,dataset_vintage=dataset_res.dataset.vintage,page_note_sheet_cell='EUROPE PE/PBV/EV-EBITDA',reported_or_adjusted='reported',consolidation_scope='market-wide regional',method_or_formula='datasets.equation_for(Italy,dependent,2026-10-30)',status='sourced',limitation='sha256 '+dataset_res.dataset.sha256+'; about10 months old; decimal units approved')
+ log.add(input_id='S3_equations',company='ENGIE SA',metric='published PE/PBV/EVEBITDA equation coefficients',value='see Coefficients sheets',unit='equation',as_of_date=str(dataset_res.dataset.as_of_date),access_date='2026-11-01',source_name='registered Damodaran equations',url_or_local_file=dataset_res.dataset.path,dataset_vintage=dataset_res.dataset.vintage,page_note_sheet_cell='EUROPE PE/PBV/EV-EBITDA',reported_or_adjusted='reported',consolidation_scope='market-wide regional',method_or_formula='datasets.equation_for(France,dependent,2026-10-30)',status='sourced',limitation='sha256 '+dataset_res.dataset.sha256+'; about10 months old; decimal units approved')
 for _,r in D.iterrows():
  for k in ['price','current_shares_m','ni','sales','EBIT','EBITDA','equity','equity_prior','debt','cash','NCI','associates','payout','beta','growth','roe','capex','cfo']:
   rid=f'S3_{r.ticker}_{k}'

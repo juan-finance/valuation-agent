@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build relative_report_ENEL.MI.pdf from existing stage-3 output files. No new research."""
+"""Build relative_report_ENGI.PA.pdf from existing stage-3 output files. No new research."""
 from fpdf import FPDF
 import pandas as pd, json, os
 
@@ -42,7 +42,7 @@ def table(headers, rows, widths):
 
 pdf.add_page()
 pdf.set_font(**H)
-pdf.cell(0, 9, "Enel (ENEL.MI) - Relative Valuation Report", new_x="LMARGIN", new_y="NEXT")
+pdf.cell(0, 9, "ENGIE (ENGI.PA) - Relative Valuation Report", new_x="LMARGIN", new_y="NEXT")
 pdf.set_font("Helvetica", size=8)
 pdf.cell(0, 5, "Valuation date: 2026-10-30 | Mode: relative_only deviation (no DCF, no stage 2/4) | Status: PROVISIONAL", new_x="LMARGIN", new_y="NEXT")
 pdf.ln(2)
@@ -52,27 +52,29 @@ sect("1. Valuation summary")
 reg_val = vm["implied_value_per_share"]
 rows = [
     ["Currency", "EUR (reporting FY2025: EUR millions)"],
-    ["Current price (close 2026-10-30)", "9.32"],
+    ["Current price (close 2026-10-30)", "23.43"],
     ["Primary multiple (comparables)", "EV/EBITDA (bucket-A integrated utility); peer median "
-     "12.56x, n = 10"],
+     "12.23x, n = 10"],
     ["Comparables, p25 - median - p75 per share", f"{prim.value_per_share_low:.2f} - {prim.value_per_share_mid:.2f} - {prim.value_per_share_high:.2f}"],
-    ["Median vs price", f"{prim.value_per_share_mid:.2f} vs 9.32 = {prim.value_per_share_mid/9.32-1:+.1%} (vendor EBITDA basis)"],
-    ["Issuer-EBITDA sensitivity (median)", f"{sens.iloc[1].EUR_per_share:.2f} vs 9.32 = {sens.iloc[1].EUR_per_share/9.32-1:+.1%} (reported) / {sens.iloc[2].EUR_per_share:.2f} (ordinary)"],
+    ["Median vs price", f"{prim.value_per_share_mid:.2f} vs 23.43 = {prim.value_per_share_mid/23.43-1:+.1%} (vendor EBITDA basis)"],
+    ["Issuer-EBITDA sensitivity (median)", f"{sens.iloc[1].EUR_per_share:.2f} vs 23.43 = {sens.iloc[1].EUR_per_share/23.43-1:+.1%} (consolidated) / {sens.iloc[2].EUR_per_share:.2f} (ex-nuclear)"],
     ["Regression estimate per share", f"{reg_val:.2f} (published EUROPE regression, chosen model: PBV, R2 = 0.423)"],
-    ["Regression vs price", f"{reg_val:.2f} vs 9.32 = {reg_val/9.32-1:+.1%}"],
+    ["Regression vs price", f"{reg_val:.2f} vs 23.43 = {reg_val/23.43-1:+.1%}"],
 ]
 table(["Item", "Value"], rows, [60, 120])
 pdf.ln(1)
-line("Peer-multiple cross-checks (medians, per share): PE 7.11; PBV ROE-scaled 6.90; "
-     "EV/EBIT 22.34; EV/CF 12.21; EV/Assets 10.79; EV/Sales-scaled/PS 7.11/17.79. Published EUROPE "
-     "regressions: PE (R2 0.201) 10.41; EV/EBITDA (R2 0.262) 31.81. Peer EV multiples read ENEL cheap "
-     "(actual EV/EBITDA 8.4x vs peer median 12.6x); the published PBV equation reads it ~25% rich. The two "
-     "methods bracket the price in opposite directions; both are shown, none reconciled under relative_only.")
-line("Basis notes: vendor FY2025 EBITDA 20,311m sits below issuer reported EBITDA 22,073m / ordinary "
-     "22,874m (definition scope; sensitivity retained). Vendor NI to common 3,959m vs issuer group net "
-     "income 4,225m (a further 266m 'preferred/other' vendor deduction though Enel has no preferred - "
-     "flagged). Declared FY2025 dividend 4,982m (0.49/share, part-funded from retained earnings) implies "
-     "payout >100% - fundamental growth = 0, so PEG and growth-scaled PE adjustment are not meaningful.")
+line("Peer-multiple cross-checks (medians, per share): PE 35.44; PBV ROE-scaled 34.55; "
+     "EV/EBIT 52.31; EV/CF NM (target FY2025 vendor CFO negative); EV/Assets 49.71; "
+     "PS raw/EV-Sales-scaled 35.44/73.41. Published EUROPE regressions: PE (R2 0.201) 31.69; "
+     "EV/EBITDA (R2 0.262) 88.37. Peer EV multiples read ENGIE cheap (actual EV/EBITDA 8.1x vs "
+     "peer median 12.2x); the published PBV equation reads it ~12% cheap. Both methods point the "
+     "same direction; none reconciled under relative_only.")
+line("Basis notes: vendor FY2025 EBITDA 13,012m sits below issuer consolidated EBITDA 14,700m / "
+     "ex-nuclear 13,400m (definition scope; sensitivity retained). Vendor NI to common 3,687m vs "
+     "issuer net income Group share 3,827m (further ~140m hybrid-coupon deduction - flagged). "
+     "Proposed FY2025 dividend EUR1.35/share (~3,283m, issuer-stated 67% of NRIgs) -> payout 0.89 "
+     "declared basis; paid-cash basis 1.23 makes scoring growth 0, so PEG and growth-scaled PE "
+     "adjustment are not meaningful.")
 line("No intrinsic (DCF) estimate is produced under the relative_only deviation; stages 1, 2 and 4 are "
      "marked skipped_by_deviation in run_state.json.")
 
@@ -86,14 +88,16 @@ table(["Name", "Ticker", "Country", "Tier", "EV/EBITDA / PBV"], rows, [52, 22, 4
 pdf.ln(1)
 line("Composition: 10 peers Tier 1-2 (8 integrated/regulated utilities, 2 grid/renewable operators), "
      "10/10 Europe-listed - all requirements met at the first (strictest) selection step; no size-band or "
-     "region relaxation. Pool of 33 candidates + 1 subsidiary evidence row built from issuer-named "
-     "competitors, sector_adjustments Tier-1 seeds and own research.")
-line("Exclusions documented: Endesa (~70% subsidiary of ENEL, hard gate); CEZ (uniform web source "
-     "unavailable; MSCI EM listing anyway); CNA/A2A/REE/IG and small IPPs (below size-band floor "
-     "EUR 9.25bn); AY/BLX/INE (no common 2026-10-30 price date); ORA (US-listed, World-only pool never "
-     "reached). Iberdrola and RWE scored above the selected set.")
-line("ENEL vs selected-peer medians: actual EV/EBITDA 8.4x vs 12.6x; PE 23.4x vs 17.8x; ROE 12.0% vs "
-     "~10%; net debt/EBITDA 3.1x vs ~4.3x; EBITDA margin 25.6% vs ~34%; beta 0.84 vs ~0.6.")
+     "region relaxation. Pool of 34 candidates built from issuer-named competitors, sector_adjustments "
+     "Tier-1 seeds and own research.")
+line("Exclusions documented: CEZ (uniform web source unavailable; MSCI EM listing anyway); A2A/REE/IG "
+     "and small IPPs (below size-band floor EUR 5.70bn); AY/BLX/INE (no common 2026-10-30 price date); "
+     "ORA (US-listed, World-only pool never reached). Endesa eligible for ENGIE (Enel subsidiary, not a "
+     "target relationship - flagged for pending ownership audit). Iberdrola, RWE, NTGY, ELE, A2A scored "
+     "above the selected set.")
+line("ENGI vs selected-peer medians: actual EV/EBITDA 8.1x vs 12.2x; PE 15.5x vs 23.4x; ROE 10.9% vs "
+     "~9.7%; net debt/EBITDA 3.1x vs ~3.3x; EBITDA margin 18.1% vs ~27.8% (vendor scope); beta 0.57 "
+     "vs ~0.57.")
 
 # --- 3. Method notes and caveats ---------------------------------------------
 pdf.add_page()
@@ -102,27 +106,27 @@ for t in [
  "Comparable companies: similarity scoring on 8 dimensions; pool-only 5/95% winsorization; Europe step "
  "feasible at default caps; per-share values in EUR on uniform vendor FY2025 fundamentals; EV basis = "
  "before associates (peers and target inverse both exclude the associates adjustment).",
- "Primary multiple: EV/EBITDA; min_valid = 6 per standing approval (ev_cf n = 9, all others 10; peg "
- "NM for target with zero fundamental growth).",
+ "Primary multiple: EV/EBITDA; min_valid = 6 per standing approval (pe n = 9, all others 10; ev_cf "
+ "NM for target - vendor FY2025 CFO -1,476m vs issuer CFFO 13,600m; peg NM with zero scoring growth).",
  "Published regressions: Damodaran regressions_multi_2026-01, EUROPE equations, decimal unit policy for "
- "DFR/tax (user-approved). EV/EBITDA percent-point alternative gives predicted 10.83x vs 19.41x decimal "
- "(44% divergence); decimal policy applied, both recorded. Chosen model = highest published R2 (PBV).",
- "Regression inputs: beta 0.84 (5Y observed); g_eps 7.63% and g_rev 3.17% analyst consensus (sourced, "
- "consistent with Enel plan EPS ~6% CAGR); ROE 0.124 closing book; payout 1.26 declared-dividend basis "
- "(1.18 on issuer group NI, flagged); dfr 0.427; effective tax 0.3305; roic 0.0994.",
+ "DFR/tax (user-approved). EV/EBITDA percent-point alternative gives predicted 11.92x vs 20.23x decimal "
+ "(41% divergence); decimal policy applied, both recorded. Chosen model = highest published R2 (PBV).",
+ "Regression inputs: beta 0.57 (5Y observed); g_eps 4.73% and g_rev 5.60% analyst consensus (sourced, "
+ "consistent with issuer NRIgs 2026 guidance EUR4.6-5.2bn); ROE 0.1119 closing book; payout 0.89 "
+ "declared-dividend basis (1.23 paid-cash, flagged); dfr 0.492; effective tax 0.2485; roic 0.0851.",
  "Caveats: (a) regression file ~10 months older than valuation date; (b) published file gives no n, SEy "
  "or p-values - residual-band/diagnostic fields n/a_published_route; (c) GLOBAL-equation sign warnings "
  "recorded at stage 0, EUROPE equations unaffected but noted; (d) market-wide equations, low R2 - "
- "deviation is not proof of mispricing; (e) market-wide EV/EBITDA prediction (19.4x) sits above the "
- "European utility peer median (12.6x) - recorded, not resolved.",
+ "deviation is not proof of mispricing; (e) market-wide EV/EBITDA prediction (20.2x) sits above the "
+ "European utility peer median (12.2x) - recorded, not resolved.",
  "QA block C: PROVISIONAL - human Spot_check PENDING (recorded, not claimed); ISIN issuer-page "
  "verification PENDING; ownership/event audit outstanding. EV-to-equity inverse check passed "
  "(associates = 0 on both sides); three reproducibly random EV recomputes matched. No failures; "
  "warned items disclosed.",
  "Data route: stockanalysis.com uniform web route (profile/statistics/financials/history); all figures "
- "from the 2026-10-30 cache and fetched candidate tables; vendor figures cross-checked against the Enel "
- "FY2025 results press release (equity/NCI exact; group NI exact; revenue as-reported exact; "
- "EBITDA definition differences documented).",
+ "from the 2026-10-30 cache and fetched candidate tables; vendor figures cross-checked against the "
+ "ENGIE FY2025 results press release (revenue ~exact; NIGs exact 3,827m; EBITDA scope differences "
+ "and CFO/CFFO definitional gap documented).",
 ]:
     line("- " + t, h=4.6)
 
@@ -132,13 +136,15 @@ for t in [
  "Market data: cache/market/2026-10-30/ (universe.csv = IEUR MSCI Europe IMI proxy; per-candidate "
  "EDPRpool_*/ENELpool_* fetches in candidates/; fetch_manifest.json).",
  "Macro/FX: cache/macro/2026-10-30.json (ECB FX snapshot; Bund 10y; mature ERP).",
- "Company fundamentals: Enel FY2025 results press release (revenues 80,346m; ordinary EBITDA 22,874m; "
- "reported EBITDA 22,073m; group NI 4,225m; net financial debt 57,182m; DPS 0.49) via relative_inputs.md, "
- "cross-checked vs vendor extracts.",
- "Vendor route: stockanalysis.com bit/ENEL and per-candidate pages (fetched 2026-10-30/11-01).",
+ "Company fundamentals: ENGIE FY2025 results press release (revenue 71.9bn; EBITDA 14.7bn / ex-nuclear "
+ "13.4bn; EBIT 9,471m / ex-nuclear 8,757m; NIGs 3,827m; NRIgs 4.9bn; net financial debt 38.9bn; "
+ "net economic debt 45.2bn; DPS EUR1.35, 67% NRIgs payout) via relative_inputs.md, cross-checked vs "
+ "vendor extracts.",
+ "Vendor route: stockanalysis.com epa/ENGI and per-candidate pages (cached 2026-10-30, accessed "
+ "2026-11-01).",
  "Published regressions: Damodaran regressions_multi_2026-01 (EUROPE), PE / PBV / EV/EBITDA equations, "
  "sha256 a894ea86...",
- "Working files: outputs/ENEL.MI_2026-10-30/relative/ (comparables.csv, multiples_summary.csv, "
+ "Working files: outputs/ENGI.PA_2026-10-30/relative/ (comparables.csv, multiples_summary.csv, "
  "comparables_audit.xlsx, regression_valuation.xlsx with live formulas, qa_results.md, source_log.csv).",
 ]:
     line("- " + t, h=4.6)
@@ -148,6 +154,6 @@ pdf.set_font("Helvetica", "I", 7.5)
 pdf.multi_cell(0, 4, "Academic analysis produced by an automated valuation agent. Not investment advice. "
                      "All figures cited from the files listed in section 4; nothing recomputed for this report.")
 
-out = f"{D}/relative_report_ENEL.MI.pdf"
+out = f"{D}/relative_report_ENGI.PA.pdf"
 pdf.output(out)
 print(out)

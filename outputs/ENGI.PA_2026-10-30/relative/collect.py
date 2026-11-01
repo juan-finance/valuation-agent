@@ -1,6 +1,6 @@
-"""Dated, robots-compliant minimal source extracts for ENEL.MI relative analysis.
+"""Dated, robots-compliant minimal source extracts for ENGI.PA relative analysis.
 
-Reuses the EDPRpool_* vendor extracts already cached for this valuation date
+Reuses the EDPRpool_*/ENELpool_* vendor extracts already cached for this valuation date
 (shared market data rule); fetches only candidates missing from the cache."""
 import json, re
 from pathlib import Path
@@ -14,11 +14,12 @@ F=CachedFetcher(ROOT/'cache/web/2026-10-30', min_delay=1.1, user_agent='Valuatio
 ACCESS='2026-11-01'
 # (ticker, name, route, tier, hypothesis, cache_prefix)
 CANDIDATES=[
- ('ENEL','Enel','quote/bit/ENEL',0,'target','EDPRpool'),
+ ('ENGI','ENGIE','quote/epa/ENGI',0,'target','EDPRpool'),
+ ('ENEL','Enel','quote/bit/ENEL',1,'integrated utility, generation+grids+retail; batch target','EDPRpool'),
+ ('ELE','Endesa','quote/bme/ELE',1,'Spanish integrated utility (~70% Enel-owned; not a target subsidiary)','EDPRpool'),
  # Tier 1: integrated / regulated European utilities
  ('IBE','Iberdrola','quote/bme/IBE',1,'integrated utility, networks+renewables; batch target','EDPRpool'),
  ('EOAN','E.ON','quote/etr/EOAN',1,'German utility (networks/retail)','EDPRpool'),
- ('ENGI','ENGIE','quote/epa/ENGI',1,'integrated utility, gas+renewables; batch target','EDPRpool'),
  ('RWE','RWE','quote/etr/RWE',1,'German utility, generation+renewables','EDPRpool'),
  ('NTGY','Naturgy','quote/bme/NTGY',1,'Spanish gas/power utility','EDPRpool'),
  ('EDP','EDP','quote/eli/EDP',1,'Portuguese integrated utility','EDPRpool'),
@@ -49,24 +50,21 @@ CANDIDATES=[
  ('BLX','Boralex','quote/tsx/BLX',2,'Canadian renewables IPP (World relaxation)','EDPRpool'),
  ('NPI','Northland Power','quote/tsx/NPI',2,'Canadian renewables (World relaxation)','EDPRpool'),
  ('INE','Innergex','quote/tsx/INE',2,'Canadian IPP (World relaxation)','EDPRpool'),
- # hard-exclusion evidence rows
- ('ELE','Endesa','quote/bme/ELE',0,'SUBSIDIARY of ENEL (~70%) -> hard exclusion evidence row','EDPRpool'),
 ]
 
 def collect():
  manifest=[]
  for ticker,name,route,tier,reason,prefix in CANDIDATES:
-  if prefix=='EDPRpool':
-   # reuse dated cache if all page extracts exist
-   keys=['financials_income-statement','financials_balance-sheet','financials_cash-flow-statement','statistics','history','profile']
-   if all((C/f'EDPRpool_{ticker}_{k}.json').exists() for k in keys):
-    for page in keys:
-     manifest.append(dict(ticker=ticker,name=name,route=route,tier=tier,reason=reason,url='https://stockanalysis.com/'+route,page=page,status=200,access_date=ACCESS,units=[],cache='reused EDPRpool extract'))
-    print(ticker,'reused');continue
+  keys=['financials_income-statement','financials_balance-sheet','financials_cash-flow-statement','statistics','history','profile']
+  # reuse dated cache if all page extracts exist under the recorded prefix
+  if all((C/f'{prefix}_{ticker}_{k}.json').exists() for k in keys):
+   for page in keys:
+    manifest.append(dict(ticker=ticker,name=name,route=route,tier=tier,reason=reason,url='https://stockanalysis.com/'+route,page=page,status=200,access_date=ACCESS,units=[],cache=f'reused {prefix} extract'))
+   print(ticker,'reused');continue
   for page in ['financials/income-statement/','financials/balance-sheet/','financials/cash-flow-statement/','statistics/','history/','']:
    url='https://stockanalysis.com/'+route+'/'+page
    r=F.get(url)
-   record=dict(ticker=ticker,name=name,route=route,tier=tier,reason=reason,url=url,page=page,status=r.status,access_date=ACCESS,cache='ENELpool')
+   record=dict(ticker=ticker,name=name,route=route,tier=tier,reason=reason,url=url,page=page,status=r.status,access_date=ACCESS,cache='ENGIpool')
    if r.ok:
     key=(page.strip('/').replace('/','_') or 'profile')
     tables=[]
@@ -77,7 +75,7 @@ def collect():
      elif page=='history/':
       if 'Date' in t:t=t[t.Date.astype(str).str.contains('Oct 30, 2026')]
      tables.append(t.to_dict(orient='split'))
-    (C/f'ENELpool_{ticker}_{key}.json').write_text(json.dumps(tables,indent=2)+'\n')
+    (C/f'ENGIpool_{ticker}_{key}.json').write_text(json.dumps(tables,indent=2)+'\n')
     tree=html.fromstring(r.text());[x.drop_tree() for x in tree.xpath('//script|//style')]
     text=re.sub(r'\s+',' ',tree.text_content())
     record['units']=re.findall(r'Financials in (?:millions|billions) [A-Z]{3}|Currency in [A-Z]{3}',text)

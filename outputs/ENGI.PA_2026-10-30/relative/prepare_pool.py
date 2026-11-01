@@ -1,4 +1,4 @@
-"""Normalize ENEL candidate pool (EDPRpool_ and ENELpool_ prefixes) from cached stockanalysis JSON extracts."""
+"""Normalize ENGI candidate pool (EDPRpool_ and ENGIpool_ prefixes) from cached stockanalysis JSON extracts."""
 import json, re, io
 from pathlib import Path
 import numpy as np
@@ -102,7 +102,7 @@ def prepare():
   row['peg']=row['pe']/(100*growth) if np.isfinite(growth) and growth>0 and np.isfinite(row['pe']) else np.nan
   row['relative_pe']=np.nan;row['tobins_q']=np.nan
   rows.append(row)
-  pd.DataFrame([row]).to_csv(C/f'ENELpool_{ticker}.csv',index=False)
+  pd.DataFrame([row]).to_csv(C/f'ENGIpool_{ticker}.csv',index=False)
   print(ticker,'capEUR',round(capeur) if np.isfinite(capeur) else None,'q',qccy,'r',fccy,'price',price,'chk',None if not np.isfinite(capchk) else round(capchk,4),'g',None if not np.isfinite(growth) else round(growth,4),'member',row['membership'][:20],flush=True)
  pd.DataFrame(rows).to_csv(P/'candidate_raw.csv',index=False)
 
