@@ -1,0 +1,3394 @@
+[
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Equinor ASA (OSL:EQNR) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Equinor ASA (OSL:EQNR) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Equinor ASA (OSL:EQNR). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Equinor ASA (OSL:EQNR), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Equinor ASA (OSL:EQNR), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for OSL:EQNR (Equinor ASA), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Equinor ASA (OSL:EQNR) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Shell plc (LON:SHEL) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Shell (LON:SHEL) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Shell (LON:SHEL). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Shell (LON:SHEL), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Shell (LON:SHEL), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for LON:SHEL (Shell), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Shell plc (LON:SHEL) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/lon/BP/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for BP p.l.c. (LON:BP) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/lon/BP/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for BP p.l.c. (LON:BP) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/lon/BP/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for BP p.l.c. (LON:BP). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/lon/BP/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for BP p.l.c. (LON:BP), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/lon/BP/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for BP p.l.c. (LON:BP), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/lon/BP/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for LON:BP (BP p.l.c.), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/lon/BP/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest BP p.l.c. (LON:BP) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/epa/TTE/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for TotalEnergies SE (EPA:TTE) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/epa/TTE/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for TotalEnergies SE (EPA:TTE) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/epa/TTE/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for TotalEnergies SE (EPA:TTE). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/epa/TTE/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for TotalEnergies SE (EPA:TTE), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/epa/TTE/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for TotalEnergies SE (EPA:TTE), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/epa/TTE/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for EPA:TTE (TotalEnergies SE), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/epa/TTE/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest TotalEnergies SE (EPA:TTE) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/bit/ENI/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Eni S.p.A. (BIT:ENI) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/bit/ENI/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Eni S.p.A. (BIT:ENI) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/bit/ENI/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Eni S.p.A. (BIT:ENI). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/bit/ENI/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Eni S.p.A. (BIT:ENI), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/bit/ENI/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Eni S.p.A. (BIT:ENI), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/bit/ENI/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for BIT:ENI (Eni S.p.A.), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major",
+    "url": "https://stockanalysis.com/quote/bit/ENI/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Eni S.p.A. (BIT:ENI) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas, Iberia",
+    "url": "https://stockanalysis.com/quote/bme/REP/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Repsol, S.A. (BME:REP) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas, Iberia",
+    "url": "https://stockanalysis.com/quote/bme/REP/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Repsol (BME:REP) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas, Iberia",
+    "url": "https://stockanalysis.com/quote/bme/REP/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Repsol (BME:REP). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas, Iberia",
+    "url": "https://stockanalysis.com/quote/bme/REP/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Repsol (BME:REP), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas, Iberia",
+    "url": "https://stockanalysis.com/quote/bme/REP/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Repsol (BME:REP), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas, Iberia",
+    "url": "https://stockanalysis.com/quote/bme/REP/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for BME:REP (Repsol), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas, Iberia",
+    "url": "https://stockanalysis.com/quote/bme/REP/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Repsol, S.A. (BME:REP) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "tier": 1,
+    "hypothesis": "integrated oil, gas and chemicals",
+    "url": "https://stockanalysis.com/quote/vie/OMV/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for OMV Aktiengesellschaft (VIE:OMV) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "tier": 1,
+    "hypothesis": "integrated oil, gas and chemicals",
+    "url": "https://stockanalysis.com/quote/vie/OMV/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for OMV Aktiengesellschaft (VIE:OMV) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "tier": 1,
+    "hypothesis": "integrated oil, gas and chemicals",
+    "url": "https://stockanalysis.com/quote/vie/OMV/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for OMV Aktiengesellschaft (VIE:OMV). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "tier": 1,
+    "hypothesis": "integrated oil, gas and chemicals",
+    "url": "https://stockanalysis.com/quote/vie/OMV/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for OMV Aktiengesellschaft (VIE:OMV), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "tier": 1,
+    "hypothesis": "integrated oil, gas and chemicals",
+    "url": "https://stockanalysis.com/quote/vie/OMV/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for OMV Aktiengesellschaft (VIE:OMV), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "tier": 1,
+    "hypothesis": "integrated oil, gas and chemicals",
+    "url": "https://stockanalysis.com/quote/vie/OMV/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for VIE:OMV (OMV Aktiengesellschaft), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "tier": 1,
+    "hypothesis": "integrated oil, gas and chemicals",
+    "url": "https://stockanalysis.com/quote/vie/OMV/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest OMV Aktiengesellschaft (VIE:OMV) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "tier": 1,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Aker BP ASA (OSL:AKRBP) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "tier": 1,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Aker BP ASA (OSL:AKRBP) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "tier": 1,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Aker BP ASA (OSL:AKRBP). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "tier": 1,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Aker BP ASA (OSL:AKRBP), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "tier": 1,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Aker BP ASA (OSL:AKRBP), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "tier": 1,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for OSL:AKRBP (Aker BP ASA), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "tier": 1,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Aker BP ASA (OSL:AKRBP) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "VAR",
+    "name": "Var Energi",
+    "tier": 1,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/VAR/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for V\u00e5r Energi ASA (OSL:VAR) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "VAR",
+    "name": "Var Energi",
+    "tier": 1,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/VAR/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for V\u00e5r Energi ASA (OSL:VAR) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "VAR",
+    "name": "Var Energi",
+    "tier": 1,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/VAR/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for V\u00e5r Energi ASA (OSL:VAR). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "VAR",
+    "name": "Var Energi",
+    "tier": 1,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/VAR/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for V\u00e5r Energi ASA (OSL:VAR), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "VAR",
+    "name": "Var Energi",
+    "tier": 1,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/VAR/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for V\u00e5r Energi ASA (OSL:VAR), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "VAR",
+    "name": "Var Energi",
+    "tier": 1,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/VAR/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for OSL:VAR (V\u00e5r Energi ASA), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "VAR",
+    "name": "Var Energi",
+    "tier": 1,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/VAR/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest V\u00e5r Energi ASA (OSL:VAR) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "tier": 1,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/HBR/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Harbour Energy plc (LON:HBR) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "tier": 1,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/HBR/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Harbour Energy (LON:HBR) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "tier": 1,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/HBR/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Harbour Energy (LON:HBR). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "tier": 1,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/HBR/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Harbour Energy (LON:HBR), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "tier": 1,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/HBR/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Harbour Energy (LON:HBR), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "tier": 1,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/HBR/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for LON:HBR (Harbour Energy), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "tier": 1,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/HBR/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Harbour Energy plc (LON:HBR) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ITH",
+    "name": "Ithaca Energy",
+    "tier": 1,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/ITH/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Ithaca Energy plc (LON:ITH) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ITH",
+    "name": "Ithaca Energy",
+    "tier": 1,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/ITH/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Ithaca Energy (LON:ITH) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "ITH",
+    "name": "Ithaca Energy",
+    "tier": 1,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/ITH/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Ithaca Energy (LON:ITH). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "ITH",
+    "name": "Ithaca Energy",
+    "tier": 1,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/ITH/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Ithaca Energy (LON:ITH), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "ITH",
+    "name": "Ithaca Energy",
+    "tier": 1,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/ITH/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Ithaca Energy (LON:ITH), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "ITH",
+    "name": "Ithaca Energy",
+    "tier": 1,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/ITH/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for LON:ITH (Ithaca Energy), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ITH",
+    "name": "Ithaca Energy",
+    "tier": 1,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/ITH/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Ithaca Energy plc (LON:ITH) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ENOG",
+    "name": "Energean",
+    "tier": 1,
+    "hypothesis": "Mediterranean gas E&P",
+    "url": "https://stockanalysis.com/quote/lon/ENOG/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Energean plc (LON:ENOG) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ENOG",
+    "name": "Energean",
+    "tier": 1,
+    "hypothesis": "Mediterranean gas E&P",
+    "url": "https://stockanalysis.com/quote/lon/ENOG/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Energean (LON:ENOG) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "ENOG",
+    "name": "Energean",
+    "tier": 1,
+    "hypothesis": "Mediterranean gas E&P",
+    "url": "https://stockanalysis.com/quote/lon/ENOG/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Energean (LON:ENOG). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "ENOG",
+    "name": "Energean",
+    "tier": 1,
+    "hypothesis": "Mediterranean gas E&P",
+    "url": "https://stockanalysis.com/quote/lon/ENOG/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Energean (LON:ENOG), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "ENOG",
+    "name": "Energean",
+    "tier": 1,
+    "hypothesis": "Mediterranean gas E&P",
+    "url": "https://stockanalysis.com/quote/lon/ENOG/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Energean (LON:ENOG), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "ENOG",
+    "name": "Energean",
+    "tier": 1,
+    "hypothesis": "Mediterranean gas E&P",
+    "url": "https://stockanalysis.com/quote/lon/ENOG/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for LON:ENOG (Energean), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ENOG",
+    "name": "Energean",
+    "tier": 1,
+    "hypothesis": "Mediterranean gas E&P",
+    "url": "https://stockanalysis.com/quote/lon/ENOG/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Energean plc (LON:ENOG) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "DNO",
+    "name": "DNO",
+    "tier": 1,
+    "hypothesis": "North Sea / Middle East E&P",
+    "url": "https://stockanalysis.com/quote/osl/DNO/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for DNO ASA (OSL:DNO) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "DNO",
+    "name": "DNO",
+    "tier": 1,
+    "hypothesis": "North Sea / Middle East E&P",
+    "url": "https://stockanalysis.com/quote/osl/DNO/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for DNO ASA (OSL:DNO) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "DNO",
+    "name": "DNO",
+    "tier": 1,
+    "hypothesis": "North Sea / Middle East E&P",
+    "url": "https://stockanalysis.com/quote/osl/DNO/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for DNO ASA (OSL:DNO). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "DNO",
+    "name": "DNO",
+    "tier": 1,
+    "hypothesis": "North Sea / Middle East E&P",
+    "url": "https://stockanalysis.com/quote/osl/DNO/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for DNO ASA (OSL:DNO), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "DNO",
+    "name": "DNO",
+    "tier": 1,
+    "hypothesis": "North Sea / Middle East E&P",
+    "url": "https://stockanalysis.com/quote/osl/DNO/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for DNO ASA (OSL:DNO), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "DNO",
+    "name": "DNO",
+    "tier": 1,
+    "hypothesis": "North Sea / Middle East E&P",
+    "url": "https://stockanalysis.com/quote/osl/DNO/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for OSL:DNO (DNO ASA), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "DNO",
+    "name": "DNO",
+    "tier": 1,
+    "hypothesis": "North Sea / Middle East E&P",
+    "url": "https://stockanalysis.com/quote/osl/DNO/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest DNO ASA (OSL:DNO) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "BWO",
+    "name": "BW Energy",
+    "tier": 1,
+    "hypothesis": "offshore E&P",
+    "url": "https://stockanalysis.com/quote/osl/BWO/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for BW Offshore Limited (OSL:BWO) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "BWO",
+    "name": "BW Energy",
+    "tier": 1,
+    "hypothesis": "offshore E&P",
+    "url": "https://stockanalysis.com/quote/osl/BWO/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for BW Offshore (OSL:BWO) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "BWO",
+    "name": "BW Energy",
+    "tier": 1,
+    "hypothesis": "offshore E&P",
+    "url": "https://stockanalysis.com/quote/osl/BWO/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for BW Offshore (OSL:BWO). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "BWO",
+    "name": "BW Energy",
+    "tier": 1,
+    "hypothesis": "offshore E&P",
+    "url": "https://stockanalysis.com/quote/osl/BWO/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for BW Offshore (OSL:BWO), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "BWO",
+    "name": "BW Energy",
+    "tier": 1,
+    "hypothesis": "offshore E&P",
+    "url": "https://stockanalysis.com/quote/osl/BWO/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for BW Offshore (OSL:BWO), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "BWO",
+    "name": "BW Energy",
+    "tier": 1,
+    "hypothesis": "offshore E&P",
+    "url": "https://stockanalysis.com/quote/osl/BWO/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for OSL:BWO (BW Offshore), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "BWO",
+    "name": "BW Energy",
+    "tier": 1,
+    "hypothesis": "offshore E&P",
+    "url": "https://stockanalysis.com/quote/osl/BWO/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest BW Offshore Limited (OSL:BWO) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "GENL",
+    "name": "Genel Energy",
+    "tier": 1,
+    "hypothesis": "Kurdistan E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/GENL/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Genel Energy plc (LON:GENL) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "GENL",
+    "name": "Genel Energy",
+    "tier": 1,
+    "hypothesis": "Kurdistan E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/GENL/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Genel Energy (LON:GENL) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "GENL",
+    "name": "Genel Energy",
+    "tier": 1,
+    "hypothesis": "Kurdistan E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/GENL/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Genel Energy (LON:GENL). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "GENL",
+    "name": "Genel Energy",
+    "tier": 1,
+    "hypothesis": "Kurdistan E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/GENL/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Genel Energy (LON:GENL), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "GENL",
+    "name": "Genel Energy",
+    "tier": 1,
+    "hypothesis": "Kurdistan E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/GENL/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Genel Energy (LON:GENL), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "GENL",
+    "name": "Genel Energy",
+    "tier": 1,
+    "hypothesis": "Kurdistan E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/GENL/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for LON:GENL (Genel Energy), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "GENL",
+    "name": "Genel Energy",
+    "tier": 1,
+    "hypothesis": "Kurdistan E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/GENL/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Genel Energy plc (LON:GENL) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "TLW",
+    "name": "Tullow Oil",
+    "tier": 1,
+    "hypothesis": "West Africa E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/TLW/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Tullow Oil plc (LON:TLW) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "TLW",
+    "name": "Tullow Oil",
+    "tier": 1,
+    "hypothesis": "West Africa E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/TLW/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Tullow Oil (LON:TLW) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "TLW",
+    "name": "Tullow Oil",
+    "tier": 1,
+    "hypothesis": "West Africa E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/TLW/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Tullow Oil (LON:TLW). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "TLW",
+    "name": "Tullow Oil",
+    "tier": 1,
+    "hypothesis": "West Africa E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/TLW/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Tullow Oil (LON:TLW), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "TLW",
+    "name": "Tullow Oil",
+    "tier": 1,
+    "hypothesis": "West Africa E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/TLW/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Tullow Oil (LON:TLW), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "TLW",
+    "name": "Tullow Oil",
+    "tier": 1,
+    "hypothesis": "West Africa E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/TLW/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for LON:TLW (Tullow Oil), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "TLW",
+    "name": "Tullow Oil",
+    "tier": 1,
+    "hypothesis": "West Africa E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/TLW/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Tullow Oil plc (LON:TLW) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "tier": 2,
+    "hypothesis": "renewable fuels and oil refining",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Neste Oyj (HEL:NESTE) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "tier": 2,
+    "hypothesis": "renewable fuels and oil refining",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Neste Oyj (HEL:NESTE) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "tier": 2,
+    "hypothesis": "renewable fuels and oil refining",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Neste Oyj (HEL:NESTE). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "tier": 2,
+    "hypothesis": "renewable fuels and oil refining",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Neste Oyj (HEL:NESTE), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "tier": 2,
+    "hypothesis": "renewable fuels and oil refining",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Neste Oyj (HEL:NESTE), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "tier": 2,
+    "hypothesis": "renewable fuels and oil refining",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for HEL:NESTE (Neste Oyj), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "tier": 2,
+    "hypothesis": "renewable fuels and oil refining",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Neste Oyj (HEL:NESTE) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SUBC",
+    "name": "Subsea 7",
+    "tier": 3,
+    "hypothesis": "offshore energy services; not E&P",
+    "url": "https://stockanalysis.com/quote/osl/SUBC/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Subsea 7 S.A. (OSL:SUBC) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SUBC",
+    "name": "Subsea 7",
+    "tier": 3,
+    "hypothesis": "offshore energy services; not E&P",
+    "url": "https://stockanalysis.com/quote/osl/SUBC/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Subsea 7 (OSL:SUBC) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "SUBC",
+    "name": "Subsea 7",
+    "tier": 3,
+    "hypothesis": "offshore energy services; not E&P",
+    "url": "https://stockanalysis.com/quote/osl/SUBC/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Subsea 7 (OSL:SUBC). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "SUBC",
+    "name": "Subsea 7",
+    "tier": 3,
+    "hypothesis": "offshore energy services; not E&P",
+    "url": "https://stockanalysis.com/quote/osl/SUBC/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Subsea 7 (OSL:SUBC), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "SUBC",
+    "name": "Subsea 7",
+    "tier": 3,
+    "hypothesis": "offshore energy services; not E&P",
+    "url": "https://stockanalysis.com/quote/osl/SUBC/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Subsea 7 (OSL:SUBC), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "SUBC",
+    "name": "Subsea 7",
+    "tier": 3,
+    "hypothesis": "offshore energy services; not E&P",
+    "url": "https://stockanalysis.com/quote/osl/SUBC/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for OSL:SUBC (Subsea 7), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SUBC",
+    "name": "Subsea 7",
+    "tier": 3,
+    "hypothesis": "offshore energy services; not E&P",
+    "url": "https://stockanalysis.com/quote/osl/SUBC/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Subsea 7 S.A. (OSL:SUBC) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SPM",
+    "name": "Saipem",
+    "tier": 3,
+    "hypothesis": "oil and gas engineering and drilling services",
+    "url": "https://stockanalysis.com/quote/bit/SPM/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Saipem SpA (BIT:SPM) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SPM",
+    "name": "Saipem",
+    "tier": 3,
+    "hypothesis": "oil and gas engineering and drilling services",
+    "url": "https://stockanalysis.com/quote/bit/SPM/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Saipem SpA (BIT:SPM) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "SPM",
+    "name": "Saipem",
+    "tier": 3,
+    "hypothesis": "oil and gas engineering and drilling services",
+    "url": "https://stockanalysis.com/quote/bit/SPM/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Saipem SpA (BIT:SPM). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "SPM",
+    "name": "Saipem",
+    "tier": 3,
+    "hypothesis": "oil and gas engineering and drilling services",
+    "url": "https://stockanalysis.com/quote/bit/SPM/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Saipem SpA (BIT:SPM), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "SPM",
+    "name": "Saipem",
+    "tier": 3,
+    "hypothesis": "oil and gas engineering and drilling services",
+    "url": "https://stockanalysis.com/quote/bit/SPM/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Saipem SpA (BIT:SPM), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "SPM",
+    "name": "Saipem",
+    "tier": 3,
+    "hypothesis": "oil and gas engineering and drilling services",
+    "url": "https://stockanalysis.com/quote/bit/SPM/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for BIT:SPM (Saipem SpA), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SPM",
+    "name": "Saipem",
+    "tier": 3,
+    "hypothesis": "oil and gas engineering and drilling services",
+    "url": "https://stockanalysis.com/quote/bit/SPM/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Saipem SpA (BIT:SPM) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "TE",
+    "name": "Technip Energies",
+    "tier": 3,
+    "hypothesis": "LNG/energy engineering services",
+    "url": "https://stockanalysis.com/quote/epa/TE/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Technip Energies N.V. (EPA:TE) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "TE",
+    "name": "Technip Energies",
+    "tier": 3,
+    "hypothesis": "LNG/energy engineering services",
+    "url": "https://stockanalysis.com/quote/epa/TE/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Technip Energies (EPA:TE) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "TE",
+    "name": "Technip Energies",
+    "tier": 3,
+    "hypothesis": "LNG/energy engineering services",
+    "url": "https://stockanalysis.com/quote/epa/TE/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Technip Energies (EPA:TE). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "TE",
+    "name": "Technip Energies",
+    "tier": 3,
+    "hypothesis": "LNG/energy engineering services",
+    "url": "https://stockanalysis.com/quote/epa/TE/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Technip Energies (EPA:TE), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "TE",
+    "name": "Technip Energies",
+    "tier": 3,
+    "hypothesis": "LNG/energy engineering services",
+    "url": "https://stockanalysis.com/quote/epa/TE/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Technip Energies (EPA:TE), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "TE",
+    "name": "Technip Energies",
+    "tier": 3,
+    "hypothesis": "LNG/energy engineering services",
+    "url": "https://stockanalysis.com/quote/epa/TE/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for EPA:TE (Technip Energies), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "TE",
+    "name": "Technip Energies",
+    "tier": 3,
+    "hypothesis": "LNG/energy engineering services",
+    "url": "https://stockanalysis.com/quote/epa/TE/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Technip Energies N.V. (EPA:TE) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "TGS",
+    "name": "TGS",
+    "tier": 3,
+    "hypothesis": "energy data and seismic services",
+    "url": "https://stockanalysis.com/quote/osl/TGS/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for TGS ASA (OSL:TGS) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "TGS",
+    "name": "TGS",
+    "tier": 3,
+    "hypothesis": "energy data and seismic services",
+    "url": "https://stockanalysis.com/quote/osl/TGS/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for TGS ASA (OSL:TGS) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "TGS",
+    "name": "TGS",
+    "tier": 3,
+    "hypothesis": "energy data and seismic services",
+    "url": "https://stockanalysis.com/quote/osl/TGS/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for TGS ASA (OSL:TGS). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "TGS",
+    "name": "TGS",
+    "tier": 3,
+    "hypothesis": "energy data and seismic services",
+    "url": "https://stockanalysis.com/quote/osl/TGS/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for TGS ASA (OSL:TGS), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "TGS",
+    "name": "TGS",
+    "tier": 3,
+    "hypothesis": "energy data and seismic services",
+    "url": "https://stockanalysis.com/quote/osl/TGS/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for TGS ASA (OSL:TGS), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "TGS",
+    "name": "TGS",
+    "tier": 3,
+    "hypothesis": "energy data and seismic services",
+    "url": "https://stockanalysis.com/quote/osl/TGS/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for OSL:TGS (TGS ASA), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "TGS",
+    "name": "TGS",
+    "tier": 3,
+    "hypothesis": "energy data and seismic services",
+    "url": "https://stockanalysis.com/quote/osl/TGS/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest TGS ASA (OSL:TGS) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SBMO",
+    "name": "SBM Offshore",
+    "tier": 3,
+    "hypothesis": "FPSO leasing and services",
+    "url": "https://stockanalysis.com/quote/ams/SBMO/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for SBM Offshore N.V. (AMS:SBMO) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SBMO",
+    "name": "SBM Offshore",
+    "tier": 3,
+    "hypothesis": "FPSO leasing and services",
+    "url": "https://stockanalysis.com/quote/ams/SBMO/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for SBM Offshore (AMS:SBMO) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "SBMO",
+    "name": "SBM Offshore",
+    "tier": 3,
+    "hypothesis": "FPSO leasing and services",
+    "url": "https://stockanalysis.com/quote/ams/SBMO/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for SBM Offshore (AMS:SBMO). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "SBMO",
+    "name": "SBM Offshore",
+    "tier": 3,
+    "hypothesis": "FPSO leasing and services",
+    "url": "https://stockanalysis.com/quote/ams/SBMO/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for SBM Offshore (AMS:SBMO), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "SBMO",
+    "name": "SBM Offshore",
+    "tier": 3,
+    "hypothesis": "FPSO leasing and services",
+    "url": "https://stockanalysis.com/quote/ams/SBMO/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for SBM Offshore (AMS:SBMO), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "SBMO",
+    "name": "SBM Offshore",
+    "tier": 3,
+    "hypothesis": "FPSO leasing and services",
+    "url": "https://stockanalysis.com/quote/ams/SBMO/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for AMS:SBMO (SBM Offshore), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SBMO",
+    "name": "SBM Offshore",
+    "tier": 3,
+    "hypothesis": "FPSO leasing and services",
+    "url": "https://stockanalysis.com/quote/ams/SBMO/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest SBM Offshore N.V. (AMS:SBMO) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "AKSO",
+    "name": "Aker Solutions",
+    "tier": 3,
+    "hypothesis": "oilfield engineering services",
+    "url": "https://stockanalysis.com/quote/osl/AKSO/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Aker Solutions ASA (OSL:AKSO) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "AKSO",
+    "name": "Aker Solutions",
+    "tier": 3,
+    "hypothesis": "oilfield engineering services",
+    "url": "https://stockanalysis.com/quote/osl/AKSO/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Aker Solutions ASA (OSL:AKSO) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions NOK"
+    ]
+  },
+  {
+    "ticker": "AKSO",
+    "name": "Aker Solutions",
+    "tier": 3,
+    "hypothesis": "oilfield engineering services",
+    "url": "https://stockanalysis.com/quote/osl/AKSO/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Aker Solutions ASA (OSL:AKSO). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions NOK"
+    ]
+  },
+  {
+    "ticker": "AKSO",
+    "name": "Aker Solutions",
+    "tier": 3,
+    "hypothesis": "oilfield engineering services",
+    "url": "https://stockanalysis.com/quote/osl/AKSO/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Aker Solutions ASA (OSL:AKSO), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions NOK"
+    ]
+  },
+  {
+    "ticker": "AKSO",
+    "name": "Aker Solutions",
+    "tier": 3,
+    "hypothesis": "oilfield engineering services",
+    "url": "https://stockanalysis.com/quote/osl/AKSO/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Aker Solutions ASA (OSL:AKSO), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions NOK"
+    ]
+  },
+  {
+    "ticker": "AKSO",
+    "name": "Aker Solutions",
+    "tier": 3,
+    "hypothesis": "oilfield engineering services",
+    "url": "https://stockanalysis.com/quote/osl/AKSO/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for OSL:AKSO (Aker Solutions ASA), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "AKSO",
+    "name": "Aker Solutions",
+    "tier": 3,
+    "hypothesis": "oilfield engineering services",
+    "url": "https://stockanalysis.com/quote/osl/AKSO/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Aker Solutions ASA (OSL:AKSO) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/xom/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for ExxonMobil Holdings Corporation (XOM) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/xom/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for ExxonMobil Holdings (XOM) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/xom/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for ExxonMobil Holdings (XOM). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/xom/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for ExxonMobil Holdings (XOM), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/xom/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for ExxonMobil Holdings (XOM), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/xom/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A complete stock price history for ExxonMobil Holdings Corporation (XOM) stock, starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/xom/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A detailed overview of ExxonMobil Holdings Corporation (XOM) stock, including real-time price, chart, key statistics, news, and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cvx/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Chevron Corporation (CVX) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cvx/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Chevron (CVX) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cvx/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Chevron (CVX). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cvx/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Chevron (CVX), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cvx/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Chevron (CVX), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cvx/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A complete stock price history for Chevron Corporation (CVX) stock, starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "tier": 1,
+    "hypothesis": "integrated oil and gas major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cvx/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A detailed overview of Chevron Corporation (CVX) stock, including real-time price, chart, key statistics, news, and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "tier": 1,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cop/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for ConocoPhillips (COP) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "tier": 1,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cop/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for ConocoPhillips (COP) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "tier": 1,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cop/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for ConocoPhillips (COP). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "tier": 1,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cop/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for ConocoPhillips (COP), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "tier": 1,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cop/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for ConocoPhillips (COP), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "tier": 1,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cop/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A complete stock price history for ConocoPhillips (COP) stock, starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "tier": 1,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cop/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A detailed overview of ConocoPhillips (COP) stock, including real-time price, chart, key statistics, news, and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "tier": 1,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/eog/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for EOG Resources, Inc. (EOG) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "tier": 1,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/eog/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for EOG Resources (EOG) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "tier": 1,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/eog/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for EOG Resources (EOG). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "tier": 1,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/eog/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for EOG Resources (EOG), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "tier": 1,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/eog/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for EOG Resources (EOG), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "tier": 1,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/eog/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A complete stock price history for EOG Resources, Inc. (EOG) stock, starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "tier": 1,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/eog/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A detailed overview of EOG Resources, Inc. (EOG) stock, including real-time price, chart, key statistics, news, and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "tier": 1,
+    "hypothesis": "E&P and chemicals; World expansion only",
+    "url": "https://stockanalysis.com/stocks/oxy/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Occidental Petroleum Corporation (OXY) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "tier": 1,
+    "hypothesis": "E&P and chemicals; World expansion only",
+    "url": "https://stockanalysis.com/stocks/oxy/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Occidental Petroleum (OXY) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "tier": 1,
+    "hypothesis": "E&P and chemicals; World expansion only",
+    "url": "https://stockanalysis.com/stocks/oxy/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Occidental Petroleum (OXY). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "tier": 1,
+    "hypothesis": "E&P and chemicals; World expansion only",
+    "url": "https://stockanalysis.com/stocks/oxy/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Occidental Petroleum (OXY), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "tier": 1,
+    "hypothesis": "E&P and chemicals; World expansion only",
+    "url": "https://stockanalysis.com/stocks/oxy/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Occidental Petroleum (OXY), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "tier": 1,
+    "hypothesis": "E&P and chemicals; World expansion only",
+    "url": "https://stockanalysis.com/stocks/oxy/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A complete stock price history for Occidental Petroleum Corporation (OXY) stock, starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "tier": 1,
+    "hypothesis": "E&P and chemicals; World expansion only",
+    "url": "https://stockanalysis.com/stocks/oxy/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A detailed overview of Occidental Petroleum Corporation (OXY) stock, including real-time price, chart, key statistics, news, and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources",
+    "tier": 1,
+    "hypothesis": "oil sands E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cnq/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Canadian Natural Resources Limited (CNQ) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources",
+    "tier": 1,
+    "hypothesis": "oil sands E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cnq/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Canadian Natural Resources (CNQ) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions CAD"
+    ]
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources",
+    "tier": 1,
+    "hypothesis": "oil sands E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cnq/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Canadian Natural Resources (CNQ). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions CAD"
+    ]
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources",
+    "tier": 1,
+    "hypothesis": "oil sands E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cnq/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Canadian Natural Resources (CNQ), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions CAD"
+    ]
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources",
+    "tier": 1,
+    "hypothesis": "oil sands E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cnq/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Canadian Natural Resources (CNQ), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions CAD"
+    ]
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources",
+    "tier": 1,
+    "hypothesis": "oil sands E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cnq/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A complete stock price history for Canadian Natural Resources Limited (CNQ) stock, starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources",
+    "tier": 1,
+    "hypothesis": "oil sands E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cnq/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A detailed overview of Canadian Natural Resources Limited (CNQ) stock, including real-time price, chart, key statistics, news, and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "IMO",
+    "name": "Imperial Oil",
+    "tier": 1,
+    "hypothesis": "integrated oil, Exxon-controlled; World expansion only",
+    "url": "https://stockanalysis.com/stocks/imo/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Imperial Oil Limited (IMO) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "IMO",
+    "name": "Imperial Oil",
+    "tier": 1,
+    "hypothesis": "integrated oil, Exxon-controlled; World expansion only",
+    "url": "https://stockanalysis.com/stocks/imo/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Imperial Oil (IMO) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions CAD"
+    ]
+  },
+  {
+    "ticker": "IMO",
+    "name": "Imperial Oil",
+    "tier": 1,
+    "hypothesis": "integrated oil, Exxon-controlled; World expansion only",
+    "url": "https://stockanalysis.com/stocks/imo/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Imperial Oil (IMO). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions CAD"
+    ]
+  },
+  {
+    "ticker": "IMO",
+    "name": "Imperial Oil",
+    "tier": 1,
+    "hypothesis": "integrated oil, Exxon-controlled; World expansion only",
+    "url": "https://stockanalysis.com/stocks/imo/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Imperial Oil (IMO), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions CAD"
+    ]
+  },
+  {
+    "ticker": "IMO",
+    "name": "Imperial Oil",
+    "tier": 1,
+    "hypothesis": "integrated oil, Exxon-controlled; World expansion only",
+    "url": "https://stockanalysis.com/stocks/imo/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Imperial Oil (IMO), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions CAD"
+    ]
+  },
+  {
+    "ticker": "IMO",
+    "name": "Imperial Oil",
+    "tier": 1,
+    "hypothesis": "integrated oil, Exxon-controlled; World expansion only",
+    "url": "https://stockanalysis.com/stocks/imo/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A complete stock price history for Imperial Oil Limited (IMO) stock, starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "IMO",
+    "name": "Imperial Oil",
+    "tier": 1,
+    "hypothesis": "integrated oil, Exxon-controlled; World expansion only",
+    "url": "https://stockanalysis.com/stocks/imo/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A detailed overview of Imperial Oil Limited (IMO) stock, including real-time price, chart, key statistics, news, and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "tier": 2,
+    "hypothesis": "refining and midstream; World expansion only",
+    "url": "https://stockanalysis.com/stocks/psx/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Phillips 66 (PSX) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "tier": 2,
+    "hypothesis": "refining and midstream; World expansion only",
+    "url": "https://stockanalysis.com/stocks/psx/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Phillips 66 (PSX) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "tier": 2,
+    "hypothesis": "refining and midstream; World expansion only",
+    "url": "https://stockanalysis.com/stocks/psx/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Phillips 66 (PSX). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "tier": 2,
+    "hypothesis": "refining and midstream; World expansion only",
+    "url": "https://stockanalysis.com/stocks/psx/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Phillips 66 (PSX), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "tier": 2,
+    "hypothesis": "refining and midstream; World expansion only",
+    "url": "https://stockanalysis.com/stocks/psx/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Phillips 66 (PSX), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "tier": 2,
+    "hypothesis": "refining and midstream; World expansion only",
+    "url": "https://stockanalysis.com/stocks/psx/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A complete stock price history for Phillips 66 (PSX) stock, starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "tier": 2,
+    "hypothesis": "refining and midstream; World expansion only",
+    "url": "https://stockanalysis.com/stocks/psx/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A detailed overview of Phillips 66 (PSX) stock, including real-time price, chart, key statistics, news, and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "tier": 2,
+    "hypothesis": "refining; World expansion only",
+    "url": "https://stockanalysis.com/stocks/vlo/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Valero Energy Corporation (VLO) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "tier": 2,
+    "hypothesis": "refining; World expansion only",
+    "url": "https://stockanalysis.com/stocks/vlo/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Valero Energy (VLO) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "tier": 2,
+    "hypothesis": "refining; World expansion only",
+    "url": "https://stockanalysis.com/stocks/vlo/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Valero Energy (VLO). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "tier": 2,
+    "hypothesis": "refining; World expansion only",
+    "url": "https://stockanalysis.com/stocks/vlo/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Valero Energy (VLO), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "tier": 2,
+    "hypothesis": "refining; World expansion only",
+    "url": "https://stockanalysis.com/stocks/vlo/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Valero Energy (VLO), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "tier": 2,
+    "hypothesis": "refining; World expansion only",
+    "url": "https://stockanalysis.com/stocks/vlo/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A complete stock price history for Valero Energy Corporation (VLO) stock, starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "tier": 2,
+    "hypothesis": "refining; World expansion only",
+    "url": "https://stockanalysis.com/stocks/vlo/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A detailed overview of Valero Energy Corporation (VLO) stock, including real-time price, chart, key statistics, news, and more."
+    ],
+    "units": []
+  }
+]

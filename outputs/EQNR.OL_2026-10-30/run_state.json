@@ -18,10 +18,39 @@
       "next_step": ""
     },
     "stage3_relative": {
-      "status": "pending",
-      "notes": [],
-      "outputs": [],
-      "next_step": "peer collection"
+      "status": "provisional",
+      "notes": [
+        "2026-11-01T16:53:32+00:00 10 numerical peers; Tier3 cap 4 relaxation used; regression PBV chosen by published R2. Not an unqualified final valuation.",
+        "2026-11-01T16:53:32+00:00 Numerical deliverables complete/recalculated; candidate-source qualification and human Spot_check not complete."
+      ],
+      "outputs": [
+        "outputs/EQNR.OL_2026-10-30/relative/finalize_stage3.py",
+        "outputs/EQNR.OL_2026-10-30/relative/candidate_fetch_manifest.json",
+        "outputs/EQNR.OL_2026-10-30/relative/multiples_summary.csv",
+        "outputs/EQNR.OL_2026-10-30/relative/source_log.csv",
+        "outputs/EQNR.OL_2026-10-30/relative/comparables_report.md",
+        "outputs/EQNR.OL_2026-10-30/relative/candidate_raw.csv",
+        "outputs/EQNR.OL_2026-10-30/relative/industry_benchmarks.json",
+        "outputs/EQNR.OL_2026-10-30/relative/world_pool_membership.csv",
+        "outputs/EQNR.OL_2026-10-30/relative/comparables_audit.xlsx",
+        "outputs/EQNR.OL_2026-10-30/relative/normalize.py",
+        "outputs/EQNR.OL_2026-10-30/relative/peer_ev_checks.csv",
+        "outputs/EQNR.OL_2026-10-30/relative/regression_results.json",
+        "outputs/EQNR.OL_2026-10-30/relative/build.py",
+        "outputs/EQNR.OL_2026-10-30/relative/sensitivities.csv",
+        "outputs/EQNR.OL_2026-10-30/relative/world_candidate_membership.csv",
+        "outputs/EQNR.OL_2026-10-30/relative/collect.py",
+        "outputs/EQNR.OL_2026-10-30/relative/candidate_gates.csv",
+        "outputs/EQNR.OL_2026-10-30/relative/formula_checks.json",
+        "outputs/EQNR.OL_2026-10-30/relative/valuation_summary.md",
+        "outputs/EQNR.OL_2026-10-30/relative/evidence_review.md",
+        "outputs/EQNR.OL_2026-10-30/relative/regression_valuation.xlsx",
+        "outputs/EQNR.OL_2026-10-30/relative/comparables.csv",
+        "outputs/EQNR.OL_2026-10-30/relative/peer_selection.json",
+        "outputs/EQNR.OL_2026-10-30/relative/valuation_multiples.csv"
+      ],
+      "next_step": "QA block C once, then required PDF/plaintext; evidence gates and human review remain unresolved",
+      "finished": "2026-11-01T16:53:32+00:00"
     },
     "stage4_recommendation": {
       "status": "skipped_by_deviation",

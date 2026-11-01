@@ -1,0 +1,13 @@
+sensitivity,removed,value_per_share,n_valid
+leave-one-out selected peer,REP,1712.8045103874604,9.0
+leave-one-out selected peer,SHEL,1712.8045103874604,9.0
+leave-one-out selected peer,TTE,1712.8045103874604,9.0
+leave-one-out selected peer,OMV,1858.0889195591228,9.0
+leave-one-out selected peer,ENI,1712.8045103874604,9.0
+leave-one-out selected peer,XOM,1712.8045103874604,9.0
+leave-one-out selected peer,BP,1858.0889195591228,9.0
+leave-one-out selected peer,AKRBP,1858.0889195591228,9.0
+leave-one-out selected peer,COP,1858.0889195591228,9.0
+leave-one-out selected peer,VAR,1858.0889195591228,9.0
+target EBITDA -10% cyclicality diagnostic (not normalized),,874.0938408991977,
+cash & ST investments only vs vendor broader cash definition; EV +USD 5.6bn sensitivity,,976.3699946750418,
