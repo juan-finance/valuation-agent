@@ -1,0 +1,7 @@
+scenario,EBITDA_eurm,peer_median_ev_ebitda,EUR_per_share,note
+vendor FY2025 EBITDA,20311.0,12.560770360853198,17.786170040250937,mechanical median-held-fixed sensitivity; EBITDA definitions differ (vendor excludes items issuer includes in ordinary EBITDA)
+"issuer reported EBITDA 22,073",22073.0,12.560770360853198,20.017226227329903,mechanical median-held-fixed sensitivity; EBITDA definitions differ (vendor excludes items issuer includes in ordinary EBITDA)
+"issuer ordinary EBITDA 22,874",22874.0,12.560770360853198,21.03145778570121,mechanical median-held-fixed sensitivity; EBITDA definitions differ (vendor excludes items issuer includes in ordinary EBITDA)
+PE x vendor NI to common,,17.807092314614096,7.106681297737621,peer median PE applied to alternative NI basis
+"PE x issuer group net income 4,225",,17.807092314614096,7.584169861819008,peer median PE applied to alternative NI basis
+"PE x issuer ordinary net income 7,011",,17.807092314614096,12.585234296145103,peer median PE applied to alternative NI basis

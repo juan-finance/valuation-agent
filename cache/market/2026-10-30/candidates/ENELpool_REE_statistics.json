@@ -1,0 +1,722 @@
+[
+  {
+    "index": [
+      0,
+      1
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Market Cap",
+        "8.34B"
+      ],
+      [
+        "Enterprise Value",
+        "13.94B"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Earnings Date",
+        "Oct 28, 2026"
+      ],
+      [
+        "Ex-Dividend Date",
+        "Jan 5, 2027"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Current Share Class",
+        "540.92M"
+      ],
+      [
+        "Shares Outstanding",
+        "540.92M"
+      ],
+      [
+        "Shares Change (YoY)",
+        NaN
+      ],
+      [
+        "Shares Change (QoQ)",
+        NaN
+      ],
+      [
+        "Owned by Insiders (%)",
+        "0.01%"
+      ],
+      [
+        "Owned by Institutions (%)",
+        "25.34%"
+      ],
+      [
+        "Float",
+        "405.62M"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "PE Ratio",
+        16.45
+      ],
+      [
+        "Forward PE",
+        16.1
+      ],
+      [
+        "PS Ratio",
+        4.75
+      ],
+      [
+        "PB Ratio",
+        1.41
+      ],
+      [
+        "P/TBV Ratio",
+        1.41
+      ],
+      [
+        "P/FCF Ratio",
+        NaN
+      ],
+      [
+        "P/OCF Ratio",
+        8.28
+      ],
+      [
+        "PEG Ratio",
+        4.14
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "EV / Earnings",
+        27.4
+      ],
+      [
+        "EV / Sales",
+        7.95
+      ],
+      [
+        "EV / EBITDA",
+        11.76
+      ],
+      [
+        "EV / EBIT",
+        20.23
+      ],
+      [
+        "EV / FCF",
+        NaN
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Current Ratio",
+        1.14
+      ],
+      [
+        "Quick Ratio",
+        0.15
+      ],
+      [
+        "Debt / Equity",
+        1.01
+      ],
+      [
+        "Debt / EBITDA",
+        5.28
+      ],
+      [
+        "Debt / FCF",
+        NaN
+      ],
+      [
+        "Interest Coverage",
+        5.08
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Return on Equity (ROE)",
+        "9.78%"
+      ],
+      [
+        "Return on Assets (ROA)",
+        "2.53%"
+      ],
+      [
+        "Return on Invested Capital (ROIC)",
+        "3.40%"
+      ],
+      [
+        "Return on Capital Employed (ROCE)",
+        "4.66%"
+      ],
+      [
+        "Weighted Average Cost of Capital (WACC)",
+        "4.72%"
+      ],
+      [
+        "Revenue Per Employee",
+        "829857"
+      ],
+      [
+        "Profits Per Employee",
+        "240680"
+      ],
+      [
+        "Employee Count",
+        "2114"
+      ],
+      [
+        "Asset Turnover",
+        "0.11"
+      ],
+      [
+        "Inventory Turnover",
+        NaN
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Income Tax",
+        "166.66M"
+      ],
+      [
+        "Effective Tax Rate",
+        "23.20%"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Beta (5Y)",
+        "0.49"
+      ],
+      [
+        "52-Week Price Change",
+        "-5.34%"
+      ],
+      [
+        "50-Day Moving Average",
+        "14.95"
+      ],
+      [
+        "200-Day Moving Average",
+        "15.06"
+      ],
+      [
+        "Relative Strength Index (RSI)",
+        "69.27"
+      ],
+      [
+        "Average Volume (20 Days)",
+        "1287390"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Short Interest",
+        NaN
+      ],
+      [
+        "Short Previous Month",
+        NaN
+      ],
+      [
+        "Short % of Shares Out",
+        NaN
+      ],
+      [
+        "Short % of Float",
+        NaN
+      ],
+      [
+        "Short Ratio (days to cover)",
+        NaN
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Revenue",
+        "1.75B"
+      ],
+      [
+        "Gross Profit",
+        "1.72B"
+      ],
+      [
+        "Operating Income",
+        "636.94M"
+      ],
+      [
+        "Pretax Income",
+        "718.33M"
+      ],
+      [
+        "Net Income",
+        "508.80M"
+      ],
+      [
+        "EBITDA",
+        "1.13B"
+      ],
+      [
+        "EBIT",
+        "636.94M"
+      ],
+      [
+        "Earnings Per Share (EPS)",
+        "0.94"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Cash & Cash Equivalents",
+        "381.70M"
+      ],
+      [
+        "Total Debt",
+        "5.98B"
+      ],
+      [
+        "Net Cash",
+        "-5.60B"
+      ],
+      [
+        "Net Cash Per Share",
+        "-10.35"
+      ],
+      [
+        "Equity (Book Value)",
+        "5.94B"
+      ],
+      [
+        "Book Value Per Share",
+        "10.97"
+      ],
+      [
+        "Working Capital",
+        "353.40M"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Operating Cash Flow",
+        "1.01B"
+      ],
+      [
+        "Capital Expenditures",
+        "-1.41B"
+      ],
+      [
+        "Depreciation & Amortization",
+        "522.79M"
+      ],
+      [
+        "Net Borrowing",
+        "-1.45B"
+      ],
+      [
+        "Free Cash Flow",
+        "-399.73M"
+      ],
+      [
+        "FCF Per Share",
+        "-0.74"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Gross Margin",
+        "98.25%"
+      ],
+      [
+        "Operating Margin",
+        "36.31%"
+      ],
+      [
+        "Pretax Margin",
+        "40.95%"
+      ],
+      [
+        "Profit Margin",
+        "29.99%"
+      ],
+      [
+        "EBITDA Margin",
+        "64.32%"
+      ],
+      [
+        "EBIT Margin",
+        "36.31%"
+      ],
+      [
+        "FCF Margin",
+        NaN
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Dividend Per Share",
+        "0.80"
+      ],
+      [
+        "Dividend Yield",
+        "5.19%"
+      ],
+      [
+        "Dividend Growth (YoY)",
+        "0.50%"
+      ],
+      [
+        "Years of Dividend Growth",
+        NaN
+      ],
+      [
+        "Payout Ratio",
+        "87.10%"
+      ],
+      [
+        "FCF Payout Ratio",
+        NaN
+      ],
+      [
+        "Buyback Yield",
+        NaN
+      ],
+      [
+        "Shareholder Yield",
+        "5.19%"
+      ],
+      [
+        "Earnings Yield",
+        "6.08%"
+      ],
+      [
+        "FCF Yield",
+        "-4.79%"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Lynch Fair Value",
+        "Upgrade"
+      ],
+      [
+        "Lynch Upside",
+        "Upgrade"
+      ],
+      [
+        "Graham Number",
+        "Upgrade"
+      ],
+      [
+        "Graham Upside",
+        "Upgrade"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Price Target",
+        "16.51"
+      ],
+      [
+        "Price Target Difference",
+        "7.07%"
+      ],
+      [
+        "Analyst Consensus",
+        "Buy"
+      ],
+      [
+        "Analyst Count",
+        "22"
+      ],
+      [
+        "Revenue Growth Forecast (3Y)",
+        "5.17%"
+      ],
+      [
+        "EPS Growth Forecast (3Y)",
+        "3.30%"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1,
+      2
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Last Split Date",
+        "Jul 11, 2016"
+      ],
+      [
+        "Split Type",
+        "Forward"
+      ],
+      [
+        "Split Ratio",
+        "4"
+      ]
+    ]
+  },
+  {
+    "index": [
+      0,
+      1
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "data": [
+      [
+        "Altman Z-Score",
+        NaN
+      ],
+      [
+        "Piotroski F-Score",
+        6.0
+      ]
+    ]
+  }
+]
