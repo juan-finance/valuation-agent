@@ -71,3 +71,8 @@ check_dataset findings (regressions_multi_2026-01): warnings — GLOBAL PEG ln(g
 - Finland was the only missing country for NESTE.HE (reports and trades EUR — Bund 10y risk-free and ECB FX already in the snapshot). Added Finland Aa1, default spread 0.22%, CRP 0.34%, total ERP 4.54% from registered ctryprem_global_2026-07. Stage 3 does not discount, so no additional instrument was required.
 - All datasets resolve for Finland: EUROPE exact for beta/capex/dbtfund/wcdata/regressions/pbv_industry/evebitda_industry; ratings GLOBAL fallback unchanged (same warning as prior top-ups). EUROPE PE/PBV/EV-EBITDA equations resolved in topup_NESTE.HE.json.
 - Reproducible script topup_neste.py asserts all existing countries, currencies, FX and snapshot fields unchanged. No universe rebuild, candidate collection, or other-country changes.
+
+## NKT.CO-only top-up — 2026-11-01
+- Denmark was the only missing country for NKT.CO (reports and trades DKK — ECB FX DKK per EUR already in the snapshot). Added Denmark Aaa, default spread 0, CRP 0, total ERP 4.20% from registered ctryprem_global_2026-07. Stage 3 does not discount, so no Denmark-specific instrument was required.
+- All datasets resolve for Denmark: EUROPE exact for beta/capex/dbtfund/wcdata/regressions/pbv_industry/evebitda_industry; ratings GLOBAL fallback unchanged (same warning as prior top-ups). EUROPE PE/PBV/EV-EBITDA equations resolved in topup_NKT.CO.json.
+- Reproducible script topup_nkt.py asserts all existing countries, currencies, FX and snapshot fields unchanged. No universe rebuild, candidate collection, or other-country changes.

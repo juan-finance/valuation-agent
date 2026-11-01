@@ -1,0 +1,39 @@
+{
+  "ticker": "NKT.CO",
+  "valuation_date": "2026-10-30",
+  "country": "Denmark",
+  "currency": "DKK (reporting and trading)",
+  "resolutions": {
+    "beta": "beta_europe_2026-01 [exact] vintage 2026-01, as_of 2026-01-05",
+    "capex": "capex_europe_2026-01 [exact] vintage 2026-01, as_of 2026-01-05",
+    "ctryprem": "ctryprem_global_2026-07 [exact] vintage 2026-07, as_of 2026-07-09",
+    "dbtfund": "dbtfund_europe_2026-01 [exact] vintage 2026-01, as_of 2026-01-05",
+    "wcdata": "wcdata_europe_2026-01 [exact] vintage 2026-01, as_of 2026-01-05",
+    "regressions": "regressions_multi_2026-01 [exact] vintage 2026-01, as_of 2026-01-01",
+    "ratings": "ratings_global_2026-01 [fallback] vintage 2026-01, as_of 2026-01-05",
+    "pbv_industry": "pbv_industry_europe_2026-01 [exact] vintage 2026-01, as_of 2026-01-05",
+    "evebitda_industry": "evebitda_industry_europe_2026-01 [exact] vintage 2026-01, as_of 2026-01-05"
+  },
+  "equations": {
+    "PE": {
+      "equation": "$\\text{PE} = \\underset{(8.29)}{9.72} + \\underset{(4.85)}{2.99} \\, \\text{Beta} + \\underset{(11.95)}{49.82} \\, g_{\\text{EPS}} + \\underset{(9.22)}{7.98} \\, \\text{Payout}$",
+      "r2": 0.201,
+      "region_used": "EUROPE",
+      "level": "exact"
+    },
+    "PBV": {
+      "equation": "$\\text{PBV} = \\underset{(3.70)}{0.73} + \\underset{(5.87)}{3.92} \\, g_{\\text{EPS}} + \\underset{(1.38)}{0.13} \\, \\text{Beta} + \\underset{(24.81)}{10.75} \\, \\text{ROE} - \\underset{(2.43)}{0.25} \\, \\text{Payout Ratio}$",
+      "r2": 0.423,
+      "region_used": "EUROPE",
+      "level": "exact"
+    },
+    "EV/EBITDA": {
+      "equation": "$\\text{EV/EBITDA} = \\underset{(28.40)}{18.15} + \\underset{(13.96)}{35.25} \\, g - \\underset{(10.65)}{0.11} \\, \\text{DFR} - \\underset{(5.19)}{0.12} \\, \\text{Tax Rate} + \\underset{(5.06)}{2.29} \\, \\text{ROIC}$",
+      "r2": 0.262,
+      "region_used": "EUROPE",
+      "level": "exact"
+    }
+  },
+  "existing_assets_preserved": true,
+  "candidate_data_collected": false
+}

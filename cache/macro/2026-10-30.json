@@ -108,6 +108,16 @@
       "total_erp": 0.0454,
       "region": "Western Europe",
       "warnings": []
+    },
+    "Denmark": {
+      "country": "Denmark",
+      "table": "rated",
+      "rating": "Aaa",
+      "default_spread": 0.0,
+      "crp": 0.0,
+      "total_erp": 0.042,
+      "region": "Western Europe",
+      "warnings": []
     }
   },
   "mature_erp": {
