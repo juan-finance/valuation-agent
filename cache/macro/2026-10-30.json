@@ -19,6 +19,16 @@
       "obs_date": "2026-10-30",
       "access_date": "2026-10-31",
       "note": "Treasury same-day observation used; FRED latest available was Oct 29 (4.98%)."
+    },
+    "GBP": {
+      "yield_value": 0.053087,
+      "instrument": "UK government securities 10-year nominal par yield, BoE IUDMNPY",
+      "sovereign_default_spread": 0.0048,
+      "default_free_rate": 0.048287000000000004,
+      "source": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=26/Oct/2026&Dateto=30/Oct/2026&SeriesCodes=IUDMNPY&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N",
+      "obs_date": "2026-10-28",
+      "access_date": "2026-11-01",
+      "note": "Latest observation returned by official endpoint through valuation date; Oct 29/30 unavailable. Not represented as a same-day quote."
     }
   },
   "sovereign_default_spreads": {
@@ -57,6 +67,16 @@
       "crp": 0.0022,
       "total_erp": 0.044199999999999996,
       "region": "North America",
+      "warnings": []
+    },
+    "United Kingdom": {
+      "country": "United Kingdom",
+      "table": "rated",
+      "rating": "Aa3",
+      "default_spread": 0.0048,
+      "crp": 0.0074,
+      "total_erp": 0.049400000000000006,
+      "region": "Western Europe",
       "warnings": []
     }
   },

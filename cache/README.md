@@ -1,5 +1,7 @@
 # Shared cache: build once per valuation date, reuse for every company
 
+2026-11-01: authorized BP.L-only top-up adds UK country-risk coverage and GBP 10-year yield to the 2026-10-30 macro snapshot. BoE latest returned observation is 2026-10-28, not Oct 30; see dated MANIFEST and topup_BP.L.json. All other coverage, FX and universe preserved; no candidate collection in top-up.
+
 Everything here is independent of which company is being valued. It is produced by
 `.agents/skills/valuation-0-market-refresh/SKILL.md` and consumed by stages 1-3. Check this file at the start of every session.
 

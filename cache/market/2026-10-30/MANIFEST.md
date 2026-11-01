@@ -1,5 +1,11 @@
 # Market cache manifest — valuation date 2026-10-30
 
+## BP.L-only authorized top-up — 2026-11-01
+- Added United Kingdom Aa3, default spread 0.48%, CRP 0.74%, ERP 4.94%, from resolved ctryprem_global_2026-07.
+- GBP: BoE IUDMNPY 10-year nominal par yield 5.3087%, observation 2026-10-28 (latest returned through Oct 30); default-free 4.8287% after UK spread. Oct 29/30 observations not returned; not a same-day yield. Exact official URL/access date in macro snapshot and topup_BP.L.json.
+- UK published EUROPE PE/PBV/EV-EBITDA equations resolved. Existing integrity findings reused; vintage and pending human-review limitations unchanged.
+- Reproducible script topup_bp.py asserts all existing countries, currencies and FX unchanged. No universe rebuild, candidate collection, or other-country changes. Elapsed: 4 minutes.
+
 Built by `.agents/skills/valuation-0-market-refresh/SKILL.md` on 2026-10-30.
 Route: `published_damodaran` (standing approvals). Scope: AI.PA pilot. Mode: standard.
 
