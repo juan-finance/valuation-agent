@@ -1,0 +1,18 @@
+{
+  "PDF_exists": true,
+  "pages": 2,
+  "figures_match_plaintext": [
+    "23.5868",
+    "18.072785",
+    "6.274",
+    "758.921321",
+    "22.600011",
+    "3.4818"
+  ],
+  "visual_review": "both pages rendered and inspected; readable, no clipping",
+  "lint": "ruff E9,F63,F7,F82,F401 passed",
+  "typecheck": "mypy --follow-imports=skip --ignore-missing-imports passed",
+  "src_tests": "not rerun; src unchanged",
+  "elapsed_stage3_min": 10.0,
+  "timing_caveat": "reduced input10min estimated, not a measured interval"
+}

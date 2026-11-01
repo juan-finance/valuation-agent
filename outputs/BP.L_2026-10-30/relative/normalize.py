@@ -1,5 +1,5 @@
 """Preserve raw vendor fiscal fields; no selective issuer overwrites."""
-import json, re
+import json
 from pathlib import Path
 import numpy as np
 import pandas as pd

@@ -18,12 +18,41 @@
       "next_step": ""
     },
     "stage3_relative": {
-      "status": "in_progress",
-      "notes": [],
-      "outputs": [],
-      "next_step": "",
+      "status": "provisional",
+      "notes": [
+        "2026-11-01T14:58:44+00:00 QA C executed once, provisional with open failures. Conditional published EV/EBITDA result is not a verified fair-value conclusion.",
+        "2026-11-01T14:58:44+00:00 Published workbook actually recalculated; matching PDF/plain text complete. Qualified comparable method remains blocked, not certified complete."
+      ],
+      "outputs": [
+        "outputs/BP.L_2026-10-30/relative/multiples_summary.csv",
+        "outputs/BP.L_2026-10-30/relative/candidate_scores.csv",
+        "outputs/BP.L_2026-10-30/relative/comparables_report.md",
+        "outputs/BP.L_2026-10-30/relative/candidate_raw.csv",
+        "outputs/BP.L_2026-10-30/relative/EV_spot_checks.csv",
+        "outputs/BP.L_2026-10-30/relative/comparables_audit.xlsx",
+        "outputs/BP.L_2026-10-30/relative/numeric_prospects_NOT_QUALIFIED.csv",
+        "outputs/BP.L_2026-10-30/relative/candidate_multiple_diagnostics.csv",
+        "outputs/BP.L_2026-10-30/relative/fetch_manifest.json",
+        "outputs/BP.L_2026-10-30/relative/regression_results.json",
+        "outputs/BP.L_2026-10-30/relative/formula_verification.json",
+        "outputs/BP.L_2026-10-30/relative/sensitivities.csv",
+        "outputs/BP.L_2026-10-30/relative/candidate_gates.csv",
+        "outputs/BP.L_2026-10-30/relative/build_result.json",
+        "outputs/BP.L_2026-10-30/relative/valuation_summary.md",
+        "outputs/BP.L_2026-10-30/relative/commodity_deck.csv",
+        "outputs/BP.L_2026-10-30/relative/issuer_crosschecks.json",
+        "outputs/BP.L_2026-10-30/relative/regression_valuation.xlsx",
+        "outputs/BP.L_2026-10-30/relative/qa_results.md",
+        "outputs/BP.L_2026-10-30/relative/comparables.csv",
+        "outputs/BP.L_2026-10-30/relative/peer_selection.json",
+        "outputs/BP.L_2026-10-30/relative/valuation_multiples.csv",
+        "outputs/BP.L_2026-10-30/relative_report_BP.L.pdf",
+        "outputs/BP.L_2026-10-30/relative_summary.md"
+      ],
+      "next_step": "Supply/register verified Damodaran Europe industry-median data; finish peer ownership/events/history, uniform associates/NCI/claims and human Spot_check; then resume only failed QA items.",
       "started": "2026-11-01T14:48:41+00:00",
-      "_t0": 1793544521.8708372
+      "finished": "2026-11-01T14:58:44+00:00",
+      "elapsed_min": 10.0
     },
     "stage4_recommendation": {
       "status": "skipped_by_deviation",
@@ -36,12 +65,27 @@
       "notes": [
         "2026-11-01T14:48:23+00:00 Uniform FY2025 extract and issuer conflicts retained; no full stage1"
       ],
-      "outputs": [],
+      "outputs": [
+        "outputs/BP.L_2026-10-30/relative_inputs.md"
+      ],
       "next_step": "",
       "started": "2026-11-01T14:48:23+00:00",
       "finished": "2026-11-01T14:48:23+00:00",
-      "elapsed_min": 10.0
+      "elapsed_min": 10.0,
+      "timing_basis": "10min retrospective estimate, NOT measured; started/finished fields are checkpoint recording times, not the collection interval."
     }
   },
-  "deviation": "relative_only; session-authorized UK/GBP-only topup and short PDF/plaintext report; no DCF or recommendation"
+  "deviation": "relative_only; session-authorized UK/GBP-only topup and short PDF/plaintext report; no DCF or recommendation",
+  "qa_block_C": {
+    "executions": 1,
+    "status": "provisional_not_all_pass",
+    "record": "outputs/BP.L_2026-10-30/relative/qa_results.md"
+  },
+  "report": {
+    "status": "done",
+    "pdf": "outputs/BP.L_2026-10-30/relative_report_BP.L.pdf",
+    "plaintext": "outputs/BP.L_2026-10-30/relative_summary.md",
+    "pages": 2,
+    "scope": "conditional regression and blocked comparable method; no stage4 recommendation"
+  }
 }

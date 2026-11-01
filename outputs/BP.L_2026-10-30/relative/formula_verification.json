@@ -1,25 +1,54 @@
 {
-  "engine": "LibreOffice Calc headless",
+  "engine": "LibreOffice Calc headless, formulas preserved",
   "tolerance": 1e-09,
   "checks": [
     {
       "model": "PE",
-      "python": 758.9213208673718,
+      "column": 4,
+      "expected": 758.9213208673718,
       "recalculated": 758.921320867372,
-      "absolute_difference": 1.1368683772161603e-13
+      "difference": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "model": "PE",
+      "column": 5,
+      "expected": 758.9213208673718,
+      "recalculated": 758.921320867372,
+      "difference": 1.1368683772161603e-13,
+      "passed": true
     },
     {
       "model": "PBV",
-      "python": -22.60001063617623,
+      "column": 4,
+      "expected": -22.60001063617623,
       "recalculated": -22.6000106361762,
-      "absolute_difference": 2.842170943040401e-14
+      "difference": 2.842170943040401e-14,
+      "passed": true
+    },
+    {
+      "model": "PBV",
+      "column": 5,
+      "expected": -22.60001063617623,
+      "recalculated": -22.6000106361762,
+      "difference": 2.842170943040401e-14,
+      "passed": true
     },
     {
       "model": "EV/EBITDA",
-      "python": 18.07278499767111,
+      "column": 4,
+      "expected": 18.07278499767111,
       "recalculated": 18.0727849976711,
-      "absolute_difference": 1.0658141036401503e-14
+      "difference": 1.0658141036401503e-14,
+      "passed": true
+    },
+    {
+      "model": "EV/EBITDA",
+      "column": 5,
+      "expected": 4.27671633435448,
+      "recalculated": 4.27671633435448,
+      "difference": 0.0,
+      "passed": true
     }
-  ],
-  "expected_error": "PBV negative prediction: deviation cell =NA(), not used"
+  ]
 }

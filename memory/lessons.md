@@ -1,6 +1,10 @@
 # Lessons and proposed rule changes
 
 ## Lessons (newest first)
+### Relative-route implementation gotchas (added2026-11-01, BP.L)
+- lesson: RunState.append_run_log only covers its fixed STAGES; a deviation custom input stage needs its own append. Retrospective elapsed estimates must be explicitly labelled, not presented as measured. pandas statistics columns can deserialize as integer1; stringify keys before looking up '1', or cap/beta silently become missing. Check reference availability before lengthy candidate sourcing.
+- source: src/valuation_agent/runstate.py; outputs/BP.L_2026-10-30/relative/normalize.py and peer_selection.json
+- confidence: high; status: verified implementation; valid_until: current source version; used for: efficient relative-only orchestration.
 ### Market data is date-keyed and company-independent  (added 2026-10-29, repo review)
 - lesson: The MSCI market dataset, its A/B/C regressions and the Damodaran files are the same for every company valued on the same
   date. Rebuilding them per company is the main cause of the 40+ minute stage 3 in the pilot.

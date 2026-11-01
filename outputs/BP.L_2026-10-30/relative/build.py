@@ -1,5 +1,5 @@
 """Published-route calculations; fail closed on unverified comparable evidence."""
-import json, math, random
+import json, random
 from pathlib import Path
 import numpy as np
 import pandas as pd
@@ -88,6 +88,7 @@ for label,world,lo,hi,cap in [('Europe',False,.1,10,2),('World',True,.1,10,2),('
  steps.append(dict(step=label,n_numeric=len(pool),numeric_feasibility=info,qualified_feasibility=qinfo,scoring=log,warning='numeric ranking not membership, ownership, event or accounting approval'))
  last=scored;numeric=tentative
  if selected is not None:raise AssertionError('Unexpected qualified selection')
+assert last is not None
 for n in (9,8):
  _,info=c.select_peers(last[last.qualified],n=n,max_tier_3=4);steps.append(dict(step=f'qualified_shortfall_{n}',result=info))
 last.to_csv(P/'candidate_scores.csv',index=False)
@@ -116,6 +117,7 @@ for dep in ['PE','PBV','EV/EBITDA']:
  actual={'PE':T.pe,'PBV':T.pbv,'EV/EBITDA':reg_ev/T.EBITDA}[dep]
  status='conditional point estimate' if dep=='EV/EBITDA' else 'not selected: near-zero reported NI and extreme payout' if dep=='PE' else 'not valued: negative prediction'
  preds.append(dict(model=dep,predicted=val,published_r2=eq.r2,actual=actual,deviation=actual/val-1 if val>0 else None,value_per_share_gbp=share(dep,val) if val>0 else np.nan,unit_policies=both,status=status,equation=eq.raw,dataset=res.dataset.dataset_id,as_of=str(res.dataset.as_of_date),vintage=res.dataset.vintage,sha256=res.dataset.sha256,region=meta,integrity=[dict(severity=f.severity,code=f.code,message=f.message) for f in datasets.check_dataset(res.dataset)]))
+assert res is not None
 chosen=next(p for p in preds if p['model']=='EV/EBITDA')
 dump('regression_results.json',dict(inputs=inputs,predictions=preds,chosen=chosen['model'],status='provisional',substituted_input='approved fundamental closing-common ROE x capped retention g_eps=0; g_rev=g_eps fallback; 3Y analyst fields retained separately, NOT passed as 5Y'))
 
