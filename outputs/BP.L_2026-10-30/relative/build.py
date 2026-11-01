@@ -10,6 +10,8 @@ from valuation_agent import comparables as c, datasets, published_regressions as
 from valuation_agent.sourcelog import SourceLog
 
 P=Path(__file__).resolve().parent;ROOT=P.parents[2];DATE='2026-10-30'
+if (P/'repair_result.json').exists():
+ raise SystemExit('Original builder superseded; do not overwrite repaired audit/status with original provisional outputs.')
 D=pd.read_csv(P/'candidate_raw.csv').set_index('ticker',drop=False);T=D.loc['BP']
 FX=json.loads((ROOT/'cache/macro'/f'{DATE}.json').read_text())['fx_ecb_reference']['rates']
 X=json.loads((P/'issuer_crosschecks.json').read_text())

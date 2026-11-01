@@ -1,0 +1,17 @@
+{
+  "status": "PASS arithmetic only; estimate NOT USABLE",
+  "USD_per_EUR": 1.1172,
+  "GBP_per_EUR": 0.8338,
+  "GBP_per_USD": 0.7463301109917652,
+  "raw_close_GBX": 627.4,
+  "close_GBP": 6.274,
+  "current_ordinary_shares_m": 15450.0,
+  "market_equity_usdm": 129879.92655313025,
+  "inverse_equity_usdm": 488277.777809742,
+  "mechanical_USD_per_ordinary": 31.60373966406097,
+  "mechanical_GBP_per_ordinary": 23.586822531233473,
+  "ADS_ordinary_ratio": 6,
+  "ADS_ratio_applied": false,
+  "double_pence_conversion": false,
+  "note": "USD million / million current London ordinary shares = USD/ordinary; multiply GBP_per_EUR / USD_per_EUR. Neither divide by100 again nor multiply/divide by6. Historical arithmetic, withdrawn as valuation."
+}

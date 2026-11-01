@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-11-01T15:32:11+00:00",
+  "original_prospects": [
+    "OXY",
+    "HBR",
+    "OMV",
+    "ENI",
+    "NESTE",
+    "CVX",
+    "EQNR",
+    "REP",
+    "TTE",
+    "VLO"
+  ],
+  "substitutes": [
+    "SHEL",
+    "GALP",
+    "WDS",
+    "AKRBP"
+  ],
+  "reviewed": 14,
+  "rejected": [
+    "OXY",
+    "HBR",
+    "OMV",
+    "CVX"
+  ],
+  "qualified_count": 0,
+  "bridge_rows": 15,
+  "regression_status": "not_usable",
+  "full_QA_executions": 1,
+  "failed_items_rechecked": [
+    "C03",
+    "C04",
+    "C05",
+    "C08",
+    "C09",
+    "C10",
+    "C17",
+    "C18",
+    "C19",
+    "C20",
+    "C42"
+  ],
+  "current_statuses": {
+    "C03": "PROVISIONAL",
+    "C04": "PROVISIONAL",
+    "C05": "FAIL_OPEN",
+    "C08": "BLOCKED",
+    "C09": "BLOCKED",
+    "C10": "BLOCKED",
+    "C17": "BLOCKED",
+    "C18": "BLOCKED",
+    "C19": "BLOCKED",
+    "C20": "BLOCKED",
+    "C42": "FAIL_OPEN"
+  }
+}

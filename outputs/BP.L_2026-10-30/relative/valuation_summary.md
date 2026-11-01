@@ -1,53 +1,43 @@
-# Relative valuation by regression — BP.L, Europe, 2026-10-30
+# BP.L — relative valuation, 30 October 2026
 
+NO USABLE VALUATION RELEASED. Comparable valuation is BLOCKED; regression estimate is NOT USABLE. The prior GBP23.5868 conditional result is withdrawn as a valuation headline. No price target or recommendation is issued.
 
-## Headline
-Conditional market-wide EV/EBITDA 18.072785x, GBP23.5868/ordinary share; NOT a recommendation. Published R2 26.2%. Comparable method blocked, so no independent corroboration. The large gap to GBP6.274 is model/definition risk, not evidence of mispricing.
+## 1. Scope and basis
 
-## Data
-Uniform vendor FY2025 fields retained; issuer cross-checks and claim scope separate. Growth substitution is approved fundamental g_eps=0 (closing common ROE x capped retention), g_rev=g_eps fallback; sourced3Y consensus12.99%/2.45% does NOT meet next5Y definition and is not passed as such. Beta negative replaced using resolved cash-corrected unlevered industry beta .41 and source marginal tax24.71%. Payout93.6667 retained; only retention capped. Regression ROE closing common, peer ROE average common. DFR gross debt / debt+current equity. Effective tax expense/pretax. Fiscal bridge frozen at Dec31,2025; quote Oct30,2026, not a current net-debt estimate.
+BP p.l.c., London ordinary GB0007980591. Closing quote 627.4 GBX = GBP6.274; rounded current ordinary shares 15,450 million. Quote x shares GBP96,933.3 million is 0.0275% below vendor GBP96,960 million. FY2025 financials, not TTM/forward;30 October 2026 quote/FX. FY claims remain stale, not October balance sheets. Approved relative_only: no DCF or stage 4 recommendation. Human Spot_check remains pending.
 
-## Fitted model
-$\text{PE} = \underset{(8.29)}{9.72} + \underset{(4.85)}{2.99} \, \text{Beta} + \underset{(11.95)}{49.82} \, g_{\text{EPS}} + \underset{(9.22)}{7.98} \, \text{Payout}$
-Published R2=0.201; status=not selected: near-zero reported NI and extreme payout
+## 2. Qualification: no certified ten-peer panel
 
-$\text{PBV} = \underset{(3.70)}{0.73} + \underset{(5.87)}{3.92} \, g_{\text{EPS}} + \underset{(1.38)}{0.13} \, \text{Beta} + \underset{(24.81)}{10.75} \, \text{ROE} - \underset{(2.43)}{0.25} \, \text{Payout Ratio}$
-Published R2=0.423; status=not valued: negative prediction
+Correction: the prior ten names were numerical prospects, not selected qualified peers. Reassessed OXY,HBR,OMV,ENI,NESTE,CVX,EQNR,REP,TTE,VLO; investigated substitutes SHEL,GALP,WDS,AKRBP. Reject OXY (CrownRock 2024/OxyChem January 2026 perimeter), HBR (Wintershall Dea 2024 and LLOG2026), CVX (Hess July 2025, partial-year earnings/full closing claims), OMV (Borealis/Borouge disposal and 2026 combination). Matching pro formas were not established. Six original prospects and four substitutes remain on hold, not certified.
 
-$\text{EV/EBITDA} = \underset{(28.40)}{18.15} + \underset{(13.96)}{35.25} \, g - \underset{(10.65)}{0.11} \, \text{DFR} - \underset{(5.19)}{0.12} \, \text{Tax Rate} + \underset{(5.06)}{2.29} \, \text{ROIC}$
-Published R2=0.262; status=conditional point estimate
+Business review distinguishes integrated operators from upstream/LNG and refining/renewables. Neste/Valero are Tier 2 refiners, not integrated upstream pure-plays; Woodside/AkerBP are upstream/LNG. Galp's legal holding parent operates a consolidated energy business, not a passive investment vehicle. Unrelated state/BASF/ADNOC ownership does not itself trigger BP cross-holding exclusion. Issuer AkerBP ownership BP16% is below the >20% gate, but does not waive other checks. Complete current bidirectional ownership/history/identity certification remains outstanding where indicated in the audit.
 
-## Diagnostics
-n/a_published_route: n, SEy, p-values, adjustedR2, A/B/C, typicality, D1–D10, residual classification, own-estimation sample schema and LINEST. Integrity finds EUROPE views agree; flagged GLOBAL PEG sign/identical-t and GLOBAL PBV sign and EM EV/EBITDA sign are NOT used. DFR/tax ambiguity addressed by standing decimal approval, both policies disclosed. Recalculation/library comparison is saved separately.
+EQNR/SHEL December 2025 Adura deconsolidation requires an operating/associate bridge; ENI Neptune/satellite comparability remains unresolved. No panel is uniform-certified: qualified count 0, below the required eight minimum. Geographic/tier feasibility cannot substitute for qualification. All 11 multiple rows remain unavailable; no selected-peer quartiles or peer-implied price is asserted. Fourteen source-linked findings are recorded in comparables_audit.xlsx and peer_qualification_repair.csv.
 
-## Valuation results (sorted from most undervalued to most overvalued)
-| model     |   predicted |   published_r2 |     actual |   deviation |   value_per_share_gbp | status                                                 |
-|:----------|------------:|---------------:|-----------:|------------:|----------------------:|:-------------------------------------------------------|
-| EV/EBITDA |     18.0728 |          0.262 |    6.19272 |   -0.657346 |              23.5868  | conditional point estimate                             |
-| PE        |    758.921  |          0.201 | 2405.18    |    2.16921  |               1.97967 | not selected: near-zero reported NI and extreme payout |
-| PBV       |    -22.6    |          0.423 |    2.44913 |  nan        |             nan       | not valued: negative prediction                        |
+## 3. Uniform bridge: reconciliations and remaining blockers
 
-## Robustness
-| scenario                                                         |   EBITDA_usdm |   multiple_held_fixed |   GBP_per_share | note                                                                               |
-|:-----------------------------------------------------------------|--------------:|----------------------:|----------------:|:-----------------------------------------------------------------------------------|
-| EBITDA -20% mechanical stress                                    |       24134.4 |              18.0728  |        18.3193  | mechanical conditional sensitivity, not commodity forecast or peer dispersion      |
-| base vendor EBITDA                                               |       30168   |              18.0728  |        23.5868  | mechanical conditional sensitivity, not commodity forecast or peer dispersion      |
-| EBITDA +20% mechanical stress                                    |       36201.6 |              18.0728  |        28.8543  | mechanical conditional sensitivity, not commodity forecast or peer dispersion      |
-| issuer PBIT + DDA parallel                                       |       30464   |              18.0728  |        23.8452  | mechanical conditional sensitivity, not commodity forecast or peer dispersion      |
-| issuer impairment-addback parallel                               |       36501   |              18.0728  |        29.1157  | mechanical conditional sensitivity, not commodity forecast or peer dispersion      |
-| full FY decommissioning provision as incremental debt-like claim |       30168   |              18.0728  |        22.9949  | conservative stress only; may double-count operating provision economics, not base |
-| percentage-point DFR/tax unit alternative                        |       30168   |               4.27672 |         3.48181 | not user-approved base; illustrative unit risk                                     |
-Alternative policy numbers in regression_results.json. No fake Global-equation check or robustness refit. Peer plausibility check unavailable because the qualified sector median is blocked; candidate diagnostics explicitly unqualified.
+Fifteen rows cover BP, all ten prospects and four substitutes: FY2025 balance date,30 October 2026 price/FX, all component amounts converted to EUR. Required EV includes debt plus ALL leases once, NCI and other non-common claims, less cash and only matched excluded associates. Unknown claims are NA, not zero. Usable EV/inverse fields remain NA: the policy has not yet been satisfied uniformly.
 
-## Key warnings
-PROVISIONAL. Comparable valuation BLOCKED: no certified peer panel, missing uniform associate/other-claims adjustments and no registered matching Damodaran industry-median dataset. Human Spot_check pending, never asserted performed. No target peer price or upside is reported. Candidate scores are an audit, not a compliant selected panel.
-Regulatory/commodity exposure, extreme payout, tiny NI and high effective tax make extrapolation severe. Negative PBV never clipped to zero. PE considered but not primary for integrated oil earnings distorted by impairments.
+BP USDmillion debt 72,529 = financial debt 57,958 + leases 14,571; cash 36,556; NCI20,948 includes hybrid 15,955 ONCE; separate preference carrying proxy 21 is not market value. Verified debt including leases: ENI EUR34,202 (leases 5,700), EQNR USD31,221 (3,411), Neste EUR5,183 (740, issuer NCI0), Galp EUR4,899 (1,217), Woodside USD13,722 (1,759; NCI3,929). Reconciliation does not certify the operating denominator.
 
-## Limitations
-Equations Jan1,2026 are302 days old, >6months. Market-wide, lowR2, no sector structure or residual dispersion. Approved growth proxy differs from analyst5Y growth. Damodaran EV/invested-capital definitions undocumented. Regression EV retains associates; peer EV removes them only when earnings excluded. Debt72,529 includes leases14,571. NCI20,948 includes hybrid15,955; no double deduction. Preference21 carrying proxy deducted separately. No associates addback in regression inverse. Common equity53,031 excludes preference. Fiscal claims stale vs quote; current bridge and fair values could differ materially. No DCF-proximity tuning, blending, recommendation, stage4 or DATA_BASE_MSCI.xlsx.
+Chevron USD46,743 already equals issuer debt 40,758 + operating leases 5,985; finance leases 1,445 are already within 40,758. Valero USD11,703 already equals debt/finance leases 10,619 + operating leases 1,084. Do NOT add leases twice. US GAAP operating rent still reduces EBITDA unlike IFRS16. Unresolved vendor/issuer debt differences: Shell USD45, TTE USD388, HBR USD5. Additional carrying claims include OXY preferred 8,287, Repsol other equity 3,046 and OMV hybrid 1,985. TTE perpetual-note claim needs a separate bridge; Harbour 2,025 is subordinated investor equity, not ordinary NCI.
 
-## Sources
-https://stockanalysis.com/quote/lon/BP/financials/income-statement/ | https://stockanalysis.com/quote/lon/BP/financials/balance-sheet/ | https://stockanalysis.com/quote/lon/BP/financials/cash-flow-statement/ | https://stockanalysis.com/quote/lon/BP/statistics/ | https://stockanalysis.com/quote/lon/BP/history/
-https://www.sec.gov/Archives/edgar/data/313807/000031380726000006/R5.htm
-damodaran/2026-01/regressions_multi.md sha256 a894ea86f209d59c68c57ba5674ee096ee875cf9726af2cfe84ec212af1d9bf5
-See source_log.csv (one row/source) and issuer_crosschecks.json. Academic analysis only; not investment advice.
+BP vendor/issuer EBIT14,446/12,642 differs 14.27%; EBITDA30,168/30,464 differs 0.98% on issuer denominator. Neste reported issuer EBITDA1,438 versus vendor 1,124 differs 21.84%. BP impairment 6,037 exceeds 10% of EBIT; impairment-addback EBITDA36,501 remains an unharmonized sensitivity, not a base replacement. Associates and transaction/lease denominators remain unresolved; no selective source switching to force agreement.
+
+## 4. Regression check — NOT USABLE
+
+EUROPE January 2026 equation predicts 18.072785 x EV/EBITDA, published R-squared 26.2%, under approved decimal DFR/tax policy. Qualified-peer median: unavailable. Diagnostic ONLY: ten original unqualified prospects median 8.338633 x before associates/other claims; prediction 116.74% higher. It includes rejected companies and mixed lease EBITDA: NOT a qualified peer median or valuation basis.
+
+New registered January 2026 Europe integrated oil/gas industry ratios:5.94 x positive-EBITDA firms and 5.66 x all firms,12 firms.18.072785 x is 204.26% above 5.94 x. Supplied files do not establish genuine medians; no relabelling of an industry ratio as a median. Different benchmark vintage/period also remains. Sector plausibility is not validated.
+
+Currency/share mechanics PASS: USD1.1172 and GBP0.8338 per EUR imply 0.746330111 GBP/USD. Historical inverse equity USD488,277.777810 million /15,450 million ordinary shares = USD31.603739664/ordinary; x 0.8338/1.1172 = GBP23.586822531, NOT GBp. No second /100 and no six-for-one ADS adjustment: denominator is London ordinary shares. Correct arithmetic does NOT make GBP23.5868 usable fair value.
+
+Historical regression inverse: multiple x EBITDA -debt -NCI -preference +cash; associates retained, no carrying-value addback. Percentage-point DFR/tax alternative 4.276716 x materially differs: no justified unit change solely to fit sector values. Fundamental growth 0 substitutes are not five-year forecasts; effective tax 83.281694%, common NI54 and payout 93.666667 x imply severe extrapolation. PE758.921321 x is not selected; negative PBV-22.600011 x not valued. No blending, actionable range or upside.
+
+## 5. Failed-only QA and provenance
+
+QA block C full execution count remains 1; only 11 previously non-passing items reassessed. C03,C04 PROVISIONAL; C05,C42 FAIL_OPEN; C08,C09,C10,C17,C18,C19,C20 BLOCKED. C18 currency/share subcheck passes, overall uniform bridge does not. C42 is contained by marking NOT USABLE, not falsely passed. Original passing checks were not rerun; human review not performed.
+
+Accessed 1 November 2026: issuer FY2025 reports for original prospects/substitutes, Chevron Hess completion, BASF Wintershall completion and Valero 2026 proxy. Source URLs, PDF hashes, located extracts, reconciliation differences and unresolved gates are in the audit and source schedules. Vendor FY2025 StockAnalysis inputs retained unchanged. Registered industry datasets evebitda_industry_europe_2026-01 and pbv_industry_europe_2026-01 are as-of 5 January 2026; published regressions_multi_2026-01 exact EUROPE. No residual bands, own-estimation diagnostics or confidence intervals invented.
+
+Academic analysis only; not personal investment advice. No actionable valuation or Buy/Hold/Sell recommendation is supported by this incomplete evidence.

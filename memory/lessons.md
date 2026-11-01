@@ -1,5 +1,7 @@
 # Lessons and proposed rule changes
 
+- 2026-11-01 BP relative-only: industry families are evebitda_industry and pbv_industry; uploaded titles may require explicit --family/--region flags. Registration/exact-region resolution does not establish a median statistic. Reconcile issuer debt components before adding operating leases: vendor debt may already contain them. Source: BP issuer_evidence_repair.json and regression_plausibility_repair.json; confidence: low; valid_until: reverify schema on reuse.
+
 ## Lessons (newest first)
 ### Relative-route implementation gotchas (added2026-11-01, BP.L)
 - lesson: RunState.append_run_log only covers its fixed STAGES; a deviation custom input stage needs its own append. Retrospective elapsed estimates must be explicitly labelled, not presented as measured. pandas statistics columns can deserialize as integer1; stringify keys before looking up '1', or cap/beta silently become missing. Check reference availability before lengthy candidate sourcing.

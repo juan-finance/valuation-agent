@@ -423,5 +423,19 @@
       }
     }
   ],
-  "benchmark_resolution": "NOT FOUND: no 'ev_ebitda' dataset registered. Ask the user to supply the Damodaran 'ev_ebitda' file for that region (Markdown), then run `python -m valuation_agent.datasets add <file>`. Do not substitute another family or an unverified web number."
+  "benchmark_resolution": "NOT FOUND: no 'ev_ebitda' dataset registered. Ask the user to supply the Damodaran 'ev_ebitda' file for that region (Markdown), then run `python -m valuation_agent.datasets add <file>`. Do not substitute another family or an unverified web number.",
+  "current_repair": {
+    "qualified_count": 0,
+    "rejected": [
+      "OXY",
+      "HBR",
+      "OMV",
+      "CVX"
+    ],
+    "original_prospects_reviewed": 10,
+    "substitutes_investigated": 4,
+    "qualification_evidence": "peer_qualification_repair.csv",
+    "uniform_bridge_attempts": "uniform_bridge_repair.csv",
+    "historical_funnel_not_new_selection": true
+  }
 }

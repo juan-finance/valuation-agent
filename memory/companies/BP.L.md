@@ -2,6 +2,11 @@
 
 Status: relative-only research; valuation checkpoint and QA limitations in outputs/BP.L_2026-10-30/. Entry format: see memory/README.md.
 
+### FY2025 issuer bridge research (added 2026-11-01)
+- fact: CVX FY2025 debt40758USDm includes finance leases1445; add operating leases5985 only once to obtain vendor46743. VLO debt/finance leases10619 plus operating leases1084 equals vendor11703. This does not harmonize US GAAP operating-rent EBITDA with IFRS16 EBITDA. HBR equity2025USDm is subordinated-note investor equity, not ordinary NCI. REP other equity3046EURm, OMV hybrid1985EURm and OXY preferred8287USDm require separate non-common claim treatment. Carrying values are not market values.
+- source: outputs/BP.L_2026-10-30/relative/issuer_evidence_repair.json and uniform_bridge_repair.csv; Chevron SEC2025 R68, Valero SEC2025 R3/R56, issuer FY2025 reports with hashes/URLs.
+- confidence: high; status: verified issuer observations, NOT a uniform peer bridge; valid_until: FY2025, reverify for another date; used for: avoid duplicated lease/hybrid deductions and false NCI imputation.
+
 ## Identity and perimeter (stage 1)
 - verified ISIN / primary listing / share classes / fiscal year-end:
 - listed subsidiaries, parent, >20% stakes (affects peer exclusions):

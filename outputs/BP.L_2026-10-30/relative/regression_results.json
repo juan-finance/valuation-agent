@@ -178,7 +178,7 @@
         "max_relative_difference": 0.7633615220395981,
         "uses_dfr_or_tax": true
       },
-      "status": "conditional point estimate",
+      "status": "NOT USABLE: failed economic plausibility; arithmetic only, not price target",
       "equation": "$\\text{EV/EBITDA} = \\underset{(28.40)}{18.15} + \\underset{(13.96)}{35.25} \\, g - \\underset{(10.65)}{0.11} \\, \\text{DFR} - \\underset{(5.19)}{0.12} \\, \\text{Tax Rate} + \\underset{(5.06)}{2.29} \\, \\text{ROIC}$",
       "dataset": "regressions_multi_2026-01",
       "as_of": "2026-01-01",
@@ -242,7 +242,56 @@
       ]
     }
   ],
-  "chosen": "EV/EBITDA",
-  "status": "provisional",
-  "substituted_input": "approved fundamental closing-common ROE x capped retention g_eps=0; g_rev=g_eps fallback; 3Y analyst fields retained separately, NOT passed as 5Y"
+  "chosen": null,
+  "status": "not_usable",
+  "substituted_input": "approved fundamental closing-common ROE x capped retention g_eps=0; g_rev=g_eps fallback; 3Y analyst fields retained separately, NOT passed as 5Y",
+  "remediation": {
+    "status": "NOT USABLE",
+    "qualified_peer_median": null,
+    "reason": "No certified uniform peer panel; a numeric-prospect median cannot be promoted to a peer median.",
+    "original_numeric_prospect_diagnostic": {
+      "n_valid": 10,
+      "usable": true,
+      "median": 8.338633488622438,
+      "mean": 10.037685015042419,
+      "p25": 6.590212479801916,
+      "p75": 12.95491475001565,
+      "skew_flag": false
+    },
+    "diagnostic_members": [
+      "OXY",
+      "HBR",
+      "OMV",
+      "ENI",
+      "NESTE",
+      "CVX",
+      "EQNR",
+      "REP",
+      "TTE",
+      "VLO"
+    ],
+    "diagnostic_limit": "Contains excluded companies, before associates and other claims, mixed IFRS/US GAAP lease EBITDA. NOT valuation evidence.",
+    "published_prediction": 18.07278499767111,
+    "prediction_vs_diagnostic_median": 1.16735572109391,
+    "benchmark_dataset": "evebitda_industry_europe_2026-01",
+    "benchmark_sha256": "73d9607d318faba49b8571c13d4fd836176c658fc305be7644dfb8cf2c416972",
+    "benchmark_match": "evebitda_industry_europe_2026-01 [exact: wanted EUROPE, got EUROPE] vintage 2026-01, as_of 2026-01-05, damodaran/2026-01/evebitda_industry_europe.md",
+    "industry_row": {
+      "Industry Name": "Oil/Gas (Integrated)",
+      "Number of firms": "12.0",
+      "EV/EBITDAR&D (Pos. EBITDA)": "5.87",
+      "EV/EBITDA (Pos. EBITDA)": "5.94",
+      "EV/EBIT (Pos. EBITDA)": "7.75",
+      "EV/EBIT (1-t) (Pos. EBITDA)": "14.89",
+      "EV/EBITDAR&D (All firms)": "5.6",
+      "EV/EBITDA (All firms)": "5.66",
+      "EV/EBIT (All firms)": "7.75",
+      "EV/EBIT (1-t) (All firms)": "14.89",
+      "is_aggregate": "False"
+    },
+    "benchmark_statistic": "Industry multiple; median NOT established by supplied file",
+    "prediction_vs_industry_positive_EBITDA_ratio": 2.0425563969143283,
+    "alternative_unit_policy": 4.27671633435448,
+    "conclusion": "Large unexplained level and material unit ambiguity; no currency/per-share error found. No evidence supports changing approved decimal policy to force agreement. Withdraw regression point estimate rather than headline it."
+  }
 }

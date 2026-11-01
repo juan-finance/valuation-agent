@@ -1,18 +1,27 @@
 {
+  "status": "PASS artifact integrity; analytical QA remains non-passing",
   "PDF_exists": true,
   "pages": 2,
-  "figures_match_plaintext": [
-    "23.5868",
-    "18.072785",
-    "6.274",
-    "758.921321",
-    "22.600011",
-    "3.4818"
-  ],
-  "visual_review": "both pages rendered and inspected; readable, no clipping",
+  "narrative_identical_ignoring_whitespace_and_footer": true,
+  "visual_review": "Both final pages rendered and inspected; section4 begins page2; no clipping",
+  "pdf_sha256": "97b86b9b48a5eaa6b54abb198a47aa8ed2aa7307a52bd08efd43b571032cb177",
+  "summary_sha256": "a76b29a1a7acce6cd42e396ed827421d04eabde23ae617633f6009172a71c1f7",
+  "workbook_status": "NOT USABLE; unchanged historical formulas; cached values restored by LibreOffice after status edit",
   "lint": "ruff E9,F63,F7,F82,F401 passed",
-  "typecheck": "mypy --follow-imports=skip --ignore-missing-imports passed",
-  "src_tests": "not rerun; src unchanged",
-  "elapsed_stage3_min": 10.0,
-  "timing_caveat": "reduced input10min estimated, not a measured interval"
+  "typecheck": "mypy follow-imports=skip ignore-missing-imports passed",
+  "compileall": "passed",
+  "whitespace_check": "Changed analysis text/code passed with CSV CRLF permitted; binary PDF and byte-exact registered source Markdown (intentional hard breaks, SHA256 preserved) excluded.",
+  "source_log_preexisting_locator_findings": [
+    "line 2: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)",
+    "line 3: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)",
+    "line 4: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)",
+    "line 5: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)",
+    "line 6: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)",
+    "line 7: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)",
+    "line 8: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)",
+    "line 9: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)",
+    "line 10: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)"
+  ],
+  "source_log_new_rows": "all13new issuer rows have exact page locators",
+  "QA_execution_policy": "full block originally once; only eleven prior non-passing items reassessed; original passing items not rerun"
 }

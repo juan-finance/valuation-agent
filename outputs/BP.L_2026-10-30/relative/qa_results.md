@@ -1,5 +1,7 @@
 # QA block C — BP.L, 2026-10-30
 
+CURRENT STATUS: see qa_failed_item_recheck.md for the eleven failed-only reassessments. Regression is NOT USABLE, comparable valuation BLOCKED. Original full-block evidence below is historical and retained unchanged; no original passing item was rerun.
+
 Executed once 2026-11-01T14:56:42.846662+00:00
 
 PROVISIONAL / NOT ALL PASS. Comparable method BLOCKED; missing benchmark and hard-gate/bridge evidence require resolution. Do not promote conditional regression output to a verified price target.
@@ -198,3 +200,7 @@ Evidence: United Kingdom exact EUROPE route; no low-confidence fallback applied 
 
 ## Failure disposition
 No passing QA item rerun. Open failures are data/evidence gates, not arithmetic exceptions; no unsupported numbers inserted to make them pass. User must supply/register the matching industry-median dataset; uniform peer claims and hard-filter evidence need completion. PDF/plaintext are written after this single pass and retain these qualifications.
+
+## Failed-item remediation
+
+2026-11-01T15:32:11+00:00: see qa_failed_item_recheck.md for current findings; original statuses above retained as history. Regression is now NOT USABLE, not a conditional valuation headline. No original passing item rerun.

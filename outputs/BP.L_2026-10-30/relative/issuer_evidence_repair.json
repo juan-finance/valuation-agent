@@ -1,0 +1,679 @@
+[
+  {
+    "ticker": "SHEL",
+    "source_url": "https://www.shell.com/investors/results-and-reporting/annual-report/_jcr_content/root/main/section_2113846431/link_list/links/item4.stream/1773292255440/bc68032ad3986f04e8401c7f1d4d20885e16c950/consolidated-financial-statements-ar25.pdf",
+    "access_date": "2026-11-01",
+    "PDF_sha256": "a97d13136097d9e8e303d3361c5194ec861cd08ca33f3e4b100a9c6fed5d0e34",
+    "extracts": [
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 19,
+        "quote": "Other debt:\n   New borrowings                                                                                    2,920        363       1,029\n   Repayments                                                                                       (11,806)    (9,672)   (10,650)\nInterest paid                                                                                        (4,104)    (4,557)    (4,441)\nDerivative financial instruments                                                                      1,256       (594)       723"
+      },
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 65,
+        "quote": "   US shelf                            2,750            \u2014        1,500        1,500        3,100       20,150       29,000             (116)     28,884\nBank and other borrowings                596          167          530          230          263           178       1,964               \u2014        1,964\nTotal (excluding interest)              4,518       2,805        6,208        2,668        4,034       26,813       47,046            (336)      46,710\nInterest                                1,412        1,341       1,324         1,186        1,103       11,589      17,955\n"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 64,
+        "quote": "\n[A] Further analysis of lease liabilities is provided in Note 22.\n\n\nNet debt is the sum of current and non-current debt, less cash and cash equivalents, adjusted for the fair value of derivative financial instruments"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 64,
+        "quote": "\n[A] Further analysis of lease liabilities is provided in Note 22.\n\n\nBorrowing facilities and amounts undrawn"
+      },
+      {
+        "anchor": "Adura",
+        "PDF_page_number": 34,
+        "quote": "at December 31, 2025, shows recoverable amounts that are $13-17 billion (2024: $11-15 billion) and $3-5 billion (2024: $1-3 billion) lower,\nrespectively, than the carrying value as at December 31, 2025 (excluding Adura Energy Limited (Adura JV), see page 234).\n\n\n"
+      },
+      {
+        "anchor": "Adura",
+        "PDF_page_number": 35,
+        "quote": "as at December 31, 2025, shows recoverable amounts that are $9--13 billion (2024: $7-10 billion) and $1--3 billion (2024: up to $1 billion) lower,\nrespectively, than the carrying value as at December 31, 2025 (excluding Adura JV, see page 234).\n\nPriceline 3 \u2013 IEA NZE50: this priceline applies the International Energy Agency normative Net Zero Emissions by 2050 (IEA NZE50) scenario\nover the whole period under review. This priceline has been applied in order to also reflect the sensitivity to a pure net-zero emissions scenario"
+      }
+    ],
+    "limitation": "Located issuer evidence, not blanket certification of every hard filter or current ownership. PDF page number includes covers."
+  },
+  {
+    "ticker": "TTE",
+    "source_url": "https://totalenergies.com/system/files/documents/totalenergies_universal-registration-document-2025_2026_en.pdf",
+    "access_date": "2026-11-01",
+    "PDF_sha256": "6a15f2d83d5cb910cc7111f23715fec0f68ad00ee892a72042d59a8418c58ca7",
+    "extracts": [
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 63,
+        "quote": "(in millions of dollars)                                                                                                     2025               2024           2023\nCurrent borrowings*                                                                                                         10,162              7,929          7,869\nOther current financial liabilities                                                                                            388                664            446\nCurrent financial assets*,**                                                                                                 (3,093)           (6,536)         (6,256)\nNet financial assets classified as held for sale*                                                                                  7                 33           17"
+      },
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 455,
+        "quote": "Other creditors and accrued liabilities                                            (note 5)      36,344         35,961         36,727\nCurrent borrowings                                                               (note 15)       12,038         10,024          9,590\nOther current financial liabilities                                              (note 15)         388             664            446\nLiabilities directly associated with the assets classified as held for sale        (note 2)       5,728          1,379            687\nTotal current liabilities                                                                        92,563         87,960         88,785"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 514,
+        "quote": "      Less current portion of lease contracts (note 15)                                                                                                   (1,876)\n      Non-current lease liabilities                                                                                                                        8,051\n\n\n      For the year ended December 31, 2024 (M$)                                              Exempted contracts          Leases recorded in balance sheet"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 514,
+        "quote": "      Less current portion of lease contracts (note 15)                                                                                                   (2,095)\n      Non-current lease liabilities                                                                                                                        7,822\n\n\n      For the year ended December 31, 2023 (M$)                                              Exempted contracts          Leases recorded in balance sheet"
+      },
+      {
+        "anchor": "[Nn]on.controlling interests.*[0-9]",
+        "PDF_page_number": 58,
+        "quote": "     Adjusted items\n      Add: non-controlling interests                                                                       246         322         274\n      Add: income taxes                                                                                   9,587     11,209      12,939\n      Add: depreciation, depletion and impairment of tangible assets and mineral interests              12,565      11,667      12,012\n      Add: amortization and impairment of intangible assets                                                382         389         394"
+      },
+      {
+        "anchor": "[Nn]on.controlling interests.*[0-9]",
+        "PDF_page_number": 58,
+        "quote": "      Less: income taxes                                                                                 (9,587)    (11,209)    (12,939)\n      Less: non-controlling interests                                                                      (246)       (322)       (274)\n     Add: adjustment (TotalEnergies share)                                                               (2,460)     (2,506)     (1,792)\n     Net income (TotalEnergies share)                                                                   13,127      15,758      21,384\n"
+      },
+      {
+        "anchor": "[Pp]erpetual.*[0-9]",
+        "PDF_page_number": 66,
+        "quote": "     TotalEnergies SE has fully redeemed on February 26, 2025 the residual           Finally, since September 1, 2021, TotalEnergies has been applying\n     nominal amount of \u20ac1,082 million of perpetual deeply subordinated notes         Delegated Regulation (EU) N\u00b0 2016/2251 (supplementing Regulation\n     carrying a coupon of 2.625%, issued in February 2015, at first call date.       (EU) N\u00b0 648/2012), regarding initial margin calls on certain OTC\n     This issuance had already been subject of a partial buyback offer for an        derivatives not cleared by a central counterparty.\n     amount of \u20ac1,418 million on November 22, 2024. Thus, the outstanding"
+      },
+      {
+        "anchor": "[Pp]erpetual.*[0-9]",
+        "PDF_page_number": 456,
+        "quote": "      \u2013 Non-controlling interests                                                                      (482)      (322)      (311)\n      Net issuance of perpetual subordinated notes                                      (note 9)     (1,139)      (457)    (1,081)\n      Payments on perpetual subordinated notes                                          (note 9)       (303)      (314)      (314)\n      Other transactions with non-controlling interests                                                285         (67)      (126)\n      Net issuance (repayment) of non-current debt                                     (note 15)     7,981      7,532        130"
+      },
+      {
+        "anchor": "[Ss]ubordinated notes.*[0-9]",
+        "PDF_page_number": 66,
+        "quote": "                                                                                     TotalEnergies entity is now subject to central clearing.\n     subordinated notes as part of their early refinancing. Over the year 2025,\n     TotalEnergies SE has fully redeemed on February 26, 2025 the residual           Finally, since September 1, 2021, TotalEnergies has been applying\n     nominal amount of \u20ac1,082 million of perpetual deeply subordinated notes         Delegated Regulation (EU) N\u00b0 2016/2251 (supplementing Regulation\n     carrying a coupon of 2.625%, issued in February 2015, at first call date.       (EU) N\u00b0 648/2012), regarding initial margin calls on certain OTC"
+      },
+      {
+        "anchor": "[Ss]ubordinated notes.*[0-9]",
+        "PDF_page_number": 66,
+        "quote": "     TotalEnergies SE has fully redeemed on February 26, 2025 the residual           Finally, since September 1, 2021, TotalEnergies has been applying\n     nominal amount of \u20ac1,082 million of perpetual deeply subordinated notes         Delegated Regulation (EU) N\u00b0 2016/2251 (supplementing Regulation\n     carrying a coupon of 2.625%, issued in February 2015, at first call date.       (EU) N\u00b0 648/2012), regarding initial margin calls on certain OTC\n     This issuance had already been subject of a partial buyback offer for an        derivatives not cleared by a central counterparty.\n     amount of \u20ac1,418 million on November 22, 2024. Thus, the outstanding"
+      },
+      {
+        "anchor": "[Mm]ajor shareholders",
+        "PDF_page_number": 205,
+        "quote": "the members of the Board of Directors of TotalEnergies SE; there is no              or sanction pronounced by an administrative authority or professional\narrangement or agreement with the major shareholders, customers or                  body, nor have they been prohibited from managing a company or\nsuppliers under which a director was selected; and there is no service              disqualified as stipulated in item 12.1 of Annex I of Commission\nagreement that binds a director to TotalEnergies SE or to any of its                Delegated Regulation (EU) 2019/980 of March 14, 2019, over the last\nsubsidiaries and provides for special benefits under the terms thereof.             five years."
+      },
+      {
+        "anchor": "[Mm]ajor shareholders",
+        "PDF_page_number": 206,
+        "quote": "      Criterion 8: Status of the major shareholder\n      \u201cDirectors representing major shareholders of the corporation or its parent company may be considered independent, provided these shareholders do\n      not take part in the control of the corporation. Nevertheless, beyond a 10% threshold in capital or voting rights, the Board, upon a report from the\n      nominations committee, should systematically review the qualification of a director as independent in the light of the make-up of the corporation\u2019s\n      capital and the existence of a potential conflict of interest.\u201d"
+      },
+      {
+        "anchor": "Borealis",
+        "PDF_page_number": 9,
+        "quote": "    activities.\n(3) Including 50% of the joint-venture between TotalEnergies and Borealis.\n(4) Including interests in Qatar, 50% of the capacities of Hanwha TotalEnergies Petrochemical Co. Limited and 37.5% of SATORP in Saudi Arabia.\n(5) Olefins.\n(6) Excluding trading and bulk refining sales."
+      },
+      {
+        "anchor": "Borealis",
+        "PDF_page_number": 111,
+        "quote": "                                                                                                            Limited and 37.5% of SATORP in Saudi Arabia.\n                                                                                                        (b) Including 50% of the joint-venture between TotalEnergies and Borealis.\n\n\n"
+      }
+    ],
+    "limitation": "Located issuer evidence, not blanket certification of every hard filter or current ownership. PDF page number includes covers."
+  },
+  {
+    "ticker": "EQNR",
+    "source_url": "https://cdn.equinor.com/files/h61q9gi9/global/9b3eac2a01f1ce70efa5c751106472c1a59a0ee3.pdf?2025-annual-report-equinor.pdf=",
+    "access_date": "2026-11-01",
+    "PDF_sha256": "4266bb0b2f31bb9a8cc2ed11248cd579e0f98bb3c81fcffaf5c93a89e62e5d98",
+    "extracts": [
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 229,
+        "quote": "      contain provisions restricting future pledging of\n      assets to secure borrowings (negative pledge)         Total unsecured bonds                                                                                                        23,274              21,336                22,241             19,975\n      without granting a similar secured status to the\n      existing bondholders and lenders. Bonds issued        Unsecured loans\n      thereafter do not contain similar restrictions."
+      },
+      {
+        "anchor": "[Ff]inance debt.*[0-9]",
+        "PDF_page_number": 68,
+        "quote": "     2024. The increase includes the USD 5,574 million                                                                                                            and cash equivalents and financial investments.              cash and cash equivalents and financial investments\n     recognition of our interest in the Adura joint venture.                                                                                                      Current finance debt and lease liabilities decreased         of USD 1.9 billion.\n                                                                                                                                                                  by USD 3.2 billion, mainly due to a decrease in the\n                                                                                                                                                                  utilisation of the US Commercial Paper programme.            The 5.9% points increase in net debt to capital\n      Financial indicators                                                                                                                                        Non-current finance debt increased by USD 4.4 billion        employed ratio adjusted* from 2024 to 2025 was"
+      },
+      {
+        "anchor": "[Ff]inance debt.*[0-9]",
+        "PDF_page_number": 68,
+        "quote": "                                                                                                                                                                  utilisation of the US Commercial Paper programme.            The 5.9% points increase in net debt to capital\n      Financial indicators                                                                                                                                        Non-current finance debt increased by USD 4.4 billion        employed ratio adjusted* from 2024 to 2025 was\n                                                                                                                                                                  due to bond issuances of USD 3.3 billion and                 related to the increase in net interest-bearing debt\n                                                                                                                 For the year ended 31 December                   project-finance loan of USD 2.7 billion, partly offset by    adjusted* of USD 33.1 billion, mainly due to reduced\n      (in USD million)                                                                                                        2025                     2024       reclassification of non-current debt to current debt.        cash and cash equivalents and financial investments"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 68,
+        "quote": "     2024. The increase includes the USD 5,574 million                                                                                                            and cash equivalents and financial investments.              cash and cash equivalents and financial investments\n     recognition of our interest in the Adura joint venture.                                                                                                      Current finance debt and lease liabilities decreased         of USD 1.9 billion.\n                                                                                                                                                                  by USD 3.2 billion, mainly due to a decrease in the\n                                                                                                                                                                  utilisation of the US Commercial Paper programme.            The 5.9% points increase in net debt to capital\n      Financial indicators                                                                                                                                        Non-current finance debt increased by USD 4.4 billion        employed ratio adjusted* from 2024 to 2025 was"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 68,
+        "quote": "      Net debt to capital employed ratio* 2)                                                                                 22.7%                    17.3%                                                                    Cash and cash equivalents were USD 5.0 billion and\n      Net debt to capital employed ratio adjusted, including lease liabilities*             3)\n                                                                                                                             23.1%                    17.9%       Net interest-bearing debt before adjustments                 USD 5.9 billion at 31 December 2025 and 2024,\n                                                                                                                                                                  Net interest-bearing debt before adjustments was             respectively. See note 19 Cash and cash equivalents\n      Net debt to capital employed ratio adjusted*           3)"
+      },
+      {
+        "anchor": "[Nn]on.controlling interests.*[0-9]",
+        "PDF_page_number": 177,
+        "quote": "       Total operating expenses                                           (81,109)      (72,846)    (71,404)          Attributable to shareholders of the company               20                 5,043        8,806         11,885\n                                                                                                                      Attributable to non-controlling interests                                       15           23            19\n       Net operating income/(loss)                           5             25,352        30,927      35,770\n                                                                                                                      Basic earnings per share (in USD)                         20                  1.94          3.12          3.93\n"
+      },
+      {
+        "anchor": "[Nn]on.controlling interests.*[0-9]",
+        "PDF_page_number": 178,
+        "quote": "       Attributable to the shareholders of the company                                                             7,693           7,611       10,974\n       Attributable to non-controlling interests                                                                      15                23         19\n\n\n       1) Other Comprehensive Income (OCI)."
+      },
+      {
+        "anchor": "[Mm]ajor shareholders",
+        "PDF_page_number": 271,
+        "quote": "\n                                                                                                                                   For information regarding the 20 largest shareholders in Equinor ASA, please see Major shareholders in section 5.1\n                                                                                                                                   Shareholder information.\n\n"
+      },
+      {
+        "anchor": "[Mm]ajor shareholders",
+        "PDF_page_number": 282,
+        "quote": "                                                                                                                                                        Distribution of shareholders                                Free float breakdown\n            Major shareholders                                       State has the power to control any decision at a                                      (at year end 2025 - %)                                            (%)\n                                                                     general meeting that requires a majority vote,\n            The Norwegian state is the largest shareholder in        including approval of dividend proposed by the BoD                                                      1.6%                                  5.2%\n            Equinor. It has a direct ownership interest of 67%,      and election of the majority of the corporate                              10.3%"
+      },
+      {
+        "anchor": "Adura",
+        "PDF_page_number": 7,
+        "quote": "                                                                                                                                                                                        To our shareholders \u2013 thank you for your continued\n    Peregrino in Brazil and established the Adura joint                                                                   conditions are essential for long-term investments.\n    venture with Shell in the UK. These steps are expected\n                                                                positioned to contribute to                               Despite these challenges, the project remains on\n                                                                                                                                                                                        trust and support."
+      },
+      {
+        "anchor": "Adura",
+        "PDF_page_number": 8,
+        "quote": "                      Halten East tie-back.                                                                            stream, the largest international                      In the UK, we completed the\n                                                               Johan Castberg reached plateau                          field developed by Equinor.                            formation of the Adura joint\n                      Together with partners Shell and         after less than three months in                                                                                venture with Shell. We signed a\n                      TotalEnergies, we announced the          production.                                             We made seven commercial                               10-year gas sales agreement with\n                      final investment decision for                                                                    discoveries during near-                               Pra\u017esk\u00e1 plyn\u00e1rensk\u00e1, a Czech gas"
+      }
+    ],
+    "limitation": "Located issuer evidence, not blanket certification of every hard filter or current ownership. PDF page number includes covers."
+  },
+  {
+    "ticker": "ENI",
+    "source_url": "https://report.eni.com/annual-report-2025/en/_assets/downloads/entire-eni-ar25.pdf",
+    "access_date": "2026-11-01",
+    "PDF_sha256": "fbd02738708f7f39daa083066eaba8cc6456998a8b0b40f6f9ea281b95135114",
+    "extracts": [
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 20,
+        "quote": "                                                 Shareholders' equity including non-controlling interests at year end                             52,787    55,648      53,644\n                                                 Net borrowings at year end before IFRS 16                                                         9,386    12,175      10,899\n                                                 Net borrowings at year end after IFRS 16                                                         15,086    18,628      16,235\n                                                 Net capital employed at year end                                                                 67,873    74,276      69,879\n                                                    of which: Exploration & Production                                                            49,182    56,132      51,687"
+      },
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 20,
+        "quote": "                                                 Net borrowings at year end before IFRS 16                                                         9,386    12,175      10,899\n                                                 Net borrowings at year end after IFRS 16                                                         15,086    18,628      16,235\n                                                 Net capital employed at year end                                                                 67,873    74,276      69,879\n                                                    of which: Exploration & Production                                                            49,182    56,132      51,687\n                                                              Global Gas & LNG Portfolio and Power                                                 (683)   (1,322)       1,876"
+      },
+      {
+        "anchor": "[Ff]inance debt.*[0-9]",
+        "PDF_page_number": 102,
+        "quote": "\n      Total finance debt                                                                                                                                    28,464                                   30,348                (1,884)\n\n         - Short-term debt                                                                                                                                    8,363                                       8,820              (457)\n"
+      },
+      {
+        "anchor": "[Ff]inance debt.*[0-9]",
+        "PDF_page_number": 114,
+        "quote": "         - net change of securities and financing receivables held for non-operating purposes                         (1,339)                              (531)\n      Changes in short and long\u2010term finance debt                                                                                       (2,555)                            (1,293)\n         - increase in long-term debt                                                                                  1,884                              3,516\n         - repayments of long-term debt                                                                               (4,163)                            (4,748)\n         - increase (decrease) in short-term debt                                                                      (276)                                (61)"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 20,
+        "quote": "     cash flow and average number of shares\n     outstanding in the period. Dollar amounts   Gearing before lease liabilities ex IFRS 16(c)                                                      14        18          17\n     are converted on the basis of the average\n     EUR/USD exchange rate quoted by Reuters\n                                                 Coverage                                                                                            6.1       8.7        17.5"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 94,
+        "quote": "\n        - Interest expense for lease liabilities                                                                             (348)                 (314)           (267)              (34)\n\n        - Interest from banks                                                                                                 191                   294             356              (103)\n        - \u0007Interest and other income from receivables and securities for"
+      },
+      {
+        "anchor": "[Nn]on.controlling interests.*[0-9]",
+        "PDF_page_number": 20,
+        "quote": "                                                 Total assets at year end                                                                        137,069   146,939     142,606\n                                                 Shareholders' equity including non-controlling interests at year end                             52,787    55,648      53,644\n                                                 Net borrowings at year end before IFRS 16                                                         9,386    12,175      10,899\n                                                 Net borrowings at year end after IFRS 16                                                         15,086    18,628      16,235\n                                                 Net capital employed at year end                                                                 67,873    74,276      69,879"
+      },
+      {
+        "anchor": "[Nn]on.controlling interests.*[0-9]",
+        "PDF_page_number": 102,
+        "quote": "\n      Non-controlling interests2 as of December 31, 2025 of \u20ac4,847 million included: (i) a minority participating interest acquired by the private\n      equity fund KKR in the share capital of Enilive (\u20ac0.9 billion) as well as the EIP and Ares fund\u2019s interest in Plenitude of \u20ac1.8 billion; (ii) a perpetual\n      subordinated hybrid bond (\u20ac1.7 billion) issued by a Group subsidiary in 2024, classified as equity since the Group retains an unconditional\n      right to avoid transferring cash or other financial assets to the bondholders."
+      },
+      {
+        "anchor": "[Pp]erpetual.*[0-9]",
+        "PDF_page_number": 101,
+        "quote": "   Dividends distributed by consolidated subsidiaries                                                                                    (50)\n   Issue of perpetual hybrid bonds                                                                                                     1,848\n   Coupon of perpetual subordinated bonds                                                                                               (138)\n   Put option on Plenitude                                                                                                              (387)\n   Buy-back program                                                                                                                   (2,003)"
+      },
+      {
+        "anchor": "[Pp]erpetual.*[0-9]",
+        "PDF_page_number": 101,
+        "quote": "   Issue of perpetual hybrid bonds                                                                                                     1,848\n   Coupon of perpetual subordinated bonds                                                                                               (138)\n   Put option on Plenitude                                                                                                              (387)\n   Buy-back program                                                                                                                   (2,003)\n   Plenitude operation - disposal to EIP                                                                                                 588"
+      },
+      {
+        "anchor": "Neptune",
+        "PDF_page_number": 402,
+        "quote": "      (a) The amounts include net capitalized financial charges totalling \u20ac830 million for consolidates subsidiaries and \u20ac996 million for equity-accounted entities.\n      (b) Includes allocation at fair value of the assets of Neptune Energy Group.\n      (c) Includes allocation at fair value of the assets of Neptune Energy Group and of Ithaca Energy in UK."
+      },
+      {
+        "anchor": "Neptune",
+        "PDF_page_number": 402,
+        "quote": "      (b) Includes allocation at fair value of the assets of Neptune Energy Group.\n      (c) Includes allocation at fair value of the assets of Neptune Energy Group and of Ithaca Energy in UK."
+      }
+    ],
+    "limitation": "Located issuer evidence, not blanket certification of every hard filter or current ownership. PDF page number includes covers."
+  },
+  {
+    "ticker": "REP",
+    "source_url": "https://www.repsol.com/content/dam/repsol-corporate/en_gb/accionistas-e-inversores/informes-anuales/2025/consolidated-annual-financial-report-2025.pdf",
+    "access_date": "2026-11-01",
+    "PDF_sha256": "327faaafa8d2b1226917aa73053d39f8fcd8657bb418aee23913a2f82920045b",
+    "extracts": [
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 55,
+        "quote": " Lease liabilities                                                   \u2014           \u2014             \u2014             \u2014        2,340        2,986         2,340      2,986           \u2014             \u2014\n Bank borrowings                                                  399          408            \u2014             \u2014         1,800        1,105         2,199      1,513        2,235       1,510\n Derivatives                                                       44           68           192           454           \u2014            \u2014            236        522          236         522\n Other financial liabilities                                       \u2014            \u2014             \u2014             \u2014           \u2014                           \u2014          \u2014              \u2014           \u2014\n Non-current                                                      653          476           192           454      10,791         8,997        11,636      9,927"
+      },
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 55,
+        "quote": " Lease liabilities                                                   \u2014           \u2014             \u2014             \u2014          554         619           554          619            \u2014         \u2014\n Bank borrowings                                                    6            6            \u2014             \u2014           278         425           284          431           284       430\n Derivatives                                                      236          172           153           244           \u2014           \u2014            389          416           389       416\n Other financial liabilities                                         \u2014           \u2014             \u2014             \u2014             6            5             6           5           \u2014           \u2014\n Current                                                          242          178           153           244        1,838        2,779         2,233      3,201"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 55,
+        "quote": " Loans (2)                                                           \u2014           \u2014             \u2014             \u2014        1,065            3         1,065          3        1,154            3\n Lease liabilities                                                   \u2014           \u2014             \u2014             \u2014        2,340        2,986         2,340      2,986           \u2014             \u2014\n Bank borrowings                                                  399          408            \u2014             \u2014         1,800        1,105         2,199      1,513        2,235       1,510\n Derivatives                                                       44           68           192           454           \u2014            \u2014            236        522          236         522\n Other financial liabilities                                       \u2014            \u2014             \u2014             \u2014           \u2014                           \u2014          \u2014              \u2014           \u2014"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 55,
+        "quote": " Loans (2)                                                           \u2014           \u2014             \u2014             \u2014          242         181           242          181           242       181\n Lease liabilities                                                   \u2014           \u2014             \u2014             \u2014          554         619           554          619            \u2014         \u2014\n Bank borrowings                                                    6            6            \u2014             \u2014           278         425           284          431           284       430\n Derivatives                                                      236          172           153           244           \u2014           \u2014            389          416           389       416\n Other financial liabilities                                         \u2014           \u2014             \u2014             \u2014             6            5             6           5           \u2014           \u2014"
+      },
+      {
+        "anchor": "[Nn]on.controlling interests.*[0-9]",
+        "PDF_page_number": 16,
+        "quote": "\nNet income attributable to non-controlling interests                                                            11                   (201)              146\n\nTOTAL NET INCOME ATTRIBUTABLE TO THE PARENT                                                                                         1,899             1,756\n"
+      },
+      {
+        "anchor": "[Nn]on.controlling interests.*[0-9]",
+        "PDF_page_number": 17,
+        "quote": "a) Attributable to the parent                                                                                                       (216)              2,312\nb) Attributable to non-controlling interests                                                                                          (35)               (99)\n\n\n"
+      },
+      {
+        "anchor": "[Pp]erpetual.*[0-9]",
+        "PDF_page_number": 19,
+        "quote": " Transfers between equity line items\n Subordinated perpetual debentures                           \u2014           (61)           \u2014             2               \u2014              \u2014            \u2014          (59)\n Other changes                                               \u2014             9            \u2014             \u2014               \u2014              \u2014           (11)         (2)\n Closing balance at 12/31/2024                           1,157       20,681             (2)       2,291           1,756            606      2,610         29,099\n"
+      },
+      {
+        "anchor": "[Pp]erpetual.*[0-9]",
+        "PDF_page_number": 19,
+        "quote": " Transfers between equity line items\n Subordinated perpetual debentures                           \u2014           (72)           \u2014           750               \u2014              \u2014            \u2014          678\n Other changes                                               \u2014             1            \u2014            \u2014                \u2014              \u2014            (2)         (1)\n Closing balance at 12/31/2025                           1,105       20,607             (3)       3,046           1,899          (1,514)    2,478         27,618\n"
+      },
+      {
+        "anchor": "[Oo]ther equity instruments.*[0-9]",
+        "PDF_page_number": 20,
+        "quote": "Repayment and redemption                                                                                                        (13,844)            (12,309)\nPayments on shareholder remuneration and other equity instruments                                             11                 (1,197)             (1,153)\nOther cash flows from financing activities:                                                                                      (1,158)               (869)\nInterest paid                                                                                                                      (407)               (401)\nOther proceeds from/(payments for) financing activities                                                                            (751)               (468)"
+      },
+      {
+        "anchor": "[Oo]ther equity instruments.*[0-9]",
+        "PDF_page_number": 50,
+        "quote": " Net income for the period attributable to the parent                                                                                                   1,899                 1,756\n Other equity instruments                                                                                                                               3,046                 2,291\n Other cumulative comprehensive income:                                                                                                               (1,514)                   606\n Equity instruments through other comprehensive income                                                                                                    (18)                  (22)\n Hedging transactions                                                                                                                                    (446)                 (394)"
+      },
+      {
+        "anchor": "[Bb]eneficial [Oo]wners",
+        "PDF_page_number": 372,
+        "quote": " Dialogue with governments, business\n                                              \u2022 First non-mining EITI energy company(7) to sign the beneficial ownership transparency agreement.\n groups and civil society to support the\n                                              \u2022 Collaboration with international organizations (OECD, UN or EU), governments and NGOs. Taking part                GRI 207-3\n                                                 in debates and public consultation processes."
+      }
+    ],
+    "limitation": "Located issuer evidence, not blanket certification of every hard filter or current ownership. PDF page number includes covers."
+  },
+  {
+    "ticker": "OMV",
+    "source_url": "https://reports.omv.com/en/annual-report/2025/_assets/downloads/cfs-financial-statements-notes-omv-ar25.pdf",
+    "access_date": "2026-11-01",
+    "PDF_sha256": "418b0766116505eee6f1bb8a43802fd31cce54a13a0ebd96935fd0d918a4aab5",
+    "extracts": [
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 21,
+        "quote": " Increase hybrid bond                                                                         27               744        \u2014\n Increase in long-term borrowings                                                             27               977      990\n Repayments of long-term borrowings                                                           27            \u20131,455   \u20131,047\n Repayment hybrid bond                                                                        27             \u2013750     \u2013500\n Repurchase of own shares                                                                                      \u201362        \u2014"
+      },
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 21,
+        "quote": " Increase in long-term borrowings                                                             27               977      990\n Repayments of long-term borrowings                                                           27            \u20131,455   \u20131,047\n Repayment hybrid bond                                                                        27             \u2013750     \u2013500\n Repurchase of own shares                                                                                      \u201362        \u2014\n Increase (+)/decrease (\u2013) in short-term borrowings                                           27                \u20137    \u2013113"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 18,
+        "quote": " Bonds                                                                                26                    5,703    5,720\n Lease liabilities                                                                    26                      878    1,534\n Other interest-bearing debts                                                         26                        \u2014      717\n Provisions for decommissioning and restoration obligations                           25                    4,213    4,022\n Other provisions                                                                     25                      393      387"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 18,
+        "quote": " Bonds                                                                                26                    1,050      850\n Lease liabilities                                                                    26                      265      233\n Other interest-bearing debts                                                         26                      101      353\n Income tax liabilities                                                                                       506      679\n Provisions for decommissioning and restoration obligations                           25                       97       71"
+      },
+      {
+        "anchor": "[Hh]ybrid capital.*[0-9]",
+        "PDF_page_number": 16,
+        "quote": "    thereof attributable to stockholders of the parent                                                                                  1,017     1,389\n    thereof attributable to hybrid capital owners                                                                                          60        64\n    thereof attributable to non-controlling interests                                                                                     443       571\n\n Net income for the year from continuing operations attributable to"
+      },
+      {
+        "anchor": "[Hh]ybrid capital.*[0-9]",
+        "PDF_page_number": 17,
+        "quote": "   thereof attributable to stockholders of the parent                                                                                   123    1,808\n   thereof attributable to hybrid capital owners                                                                                         60       64\n   thereof attributable to non-controlling interests                                                                                    238      645\n\n Total comprehensive income for the year from continuing operations attributable to"
+      },
+      {
+        "anchor": "[Nn]on.controlling interests.*[0-9]",
+        "PDF_page_number": 16,
+        "quote": "    thereof attributable to hybrid capital owners                                                                                          60        64\n    thereof attributable to non-controlling interests                                                                                     443       571\n\n Net income for the year from continuing operations attributable to\n stockholders of the parent                                                                                                              789      1,324"
+      },
+      {
+        "anchor": "[Nn]on.controlling interests.*[0-9]",
+        "PDF_page_number": 17,
+        "quote": "   thereof attributable to hybrid capital owners                                                                                         60       64\n   thereof attributable to non-controlling interests                                                                                    238      645\n\n Total comprehensive income for the year from continuing operations attributable to\n stockholders of the parent                                                                                                            \u2013112    1,748"
+      },
+      {
+        "anchor": "Borealis",
+        "PDF_page_number": 10,
+        "quote": "\nAccounting for and presentation of Borealis disposal group as held for sale and discontinued operation\nRefer to Note 4 \u2013 OMV and ADNOC to Establish a New Polyolefins Joint Venture and Note 5 \u2013 Assets and Liabilities\nHeld for Sale.\n"
+      },
+      {
+        "anchor": "Borealis",
+        "PDF_page_number": 10,
+        "quote": "Risk for the Consolidated Financial Statements\nThe assets of Borealis disposal group (Borealis group excluding the Borouge investments) and the associated\nliabilities are presented in the consolidated statement of financial position separately from the Group\u2019s other assets\nand liabilities as of December 31, 2025, without restatement of the balance sheet as of December 31, 2024, for a\ncarrying amount of EUR 10,594 mn and EUR 3,510 mn, respectively."
+      }
+    ],
+    "limitation": "Located issuer evidence, not blanket certification of every hard filter or current ownership. PDF page number includes covers."
+  },
+  {
+    "ticker": "GALP",
+    "source_url": "https://www.galp.com/corp/Portals/0/Recursos/Investidores/IMR2025/ConsolidatedandIndividualFinancialStatements.pdf",
+    "access_date": "2026-11-01",
+    "PDF_sha256": "4967eef6645c55eebdad988dda07cacbb49bc9500ecbdbabd8082fdddf1508f9",
+    "extracts": [
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 3,
+        "quote": "  Financial debt                                                                   14                3,075                 3,125\n  Lease liabilities                                                                 7                1,003                 1,182\n  Other payables                                                                   15                  105                   109\n  Post-employment and other employee benefit liabilities                           17                  237                   221\n  Deferred tax liabilities                                                         16                  444                   579"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 3,
+        "quote": "  Financial debt                                                                   14                  607                   367\n  Lease liabilities                                                                 7                  214                   233\n  Trade payables                                                                   15                  860                   945\n  Other payables                                                                   15                1,783                 1,755\n  Other financial instruments                                                      19                  100                   111"
+      },
+      {
+        "anchor": "[Nn]on.controlling interests.*[0-9]",
+        "PDF_page_number": 3,
+        "quote": "  Total equity attributable to shareholders:                                                         4,419                 4,689\n  Non-controlling interests                                                        23                  761                   950\n  Total equity:                                                                                      5,179                 5,638\n  Liabilities:\n  Non-current liabilities:"
+      },
+      {
+        "anchor": "[Nn]on.controlling interests.*[0-9]",
+        "PDF_page_number": 4,
+        "quote": "    Galp Energia, SGPS, S.A. Shareholders                                                          1,120               1,040\n    Non-controlling interests                                                    23                  160                 186\n    Basic Earnings per share (in Euros)                                                             1.51                1.36\n    Diluted Earnings per share (in Euros)                                                           1.51                1.36\n"
+      },
+      {
+        "anchor": "[Pp]erpetual.*[0-9]",
+        "PDF_page_number": 76,
+        "quote": "projections for a 5-year period. The discount rate used to discount the cash flows [5.40%\u20138.30%] (2024: [5.40%\u2013\n8.30%]) reflects the risks inherent in the various cash-generating units. A perpetual growth rate of 2% (2024: 2%)          For comparative information, please refer to the financial statements for the year ended 31 December 2024.\nwas also used, reflecting the estimated long-term growth in the main markets where the subsidiaries operate.\nPerpetual cash flows were considered only in impairment tests where the valuation model accounts for perpetuity.            During the year ended 31 December 2025, the subsidiary Galp Energia E&P, B.V. reduced its share premium in the\n                                                                                                                            amount of \u20ac566,761k."
+      },
+      {
+        "anchor": "[Pp]erpetual.*[0-9]",
+        "PDF_page_number": 76,
+        "quote": "was also used, reflecting the estimated long-term growth in the main markets where the subsidiaries operate.\nPerpetual cash flows were considered only in impairment tests where the valuation model accounts for perpetuity.            During the year ended 31 December 2025, the subsidiary Galp Energia E&P, B.V. reduced its share premium in the\n                                                                                                                            amount of \u20ac566,761k.\nIn the financial year 2025, no impairments were recognized on financial investments in subsidiaries. For sensitivity\nanalysis purposes, the Company performs an assessment of its financial investments by applying a 10% decrease to            The amount of \u20ac566,483k, relating to dividends received from the subsidiary Galp Energia E&P, B.V., was settled by"
+      }
+    ],
+    "limitation": "Located issuer evidence, not blanket certification of every hard filter or current ownership. PDF page number includes covers."
+  },
+  {
+    "ticker": "NESTE",
+    "source_url": "https://www.neste.com/files/pdf/7218DC4287D4BDD7-Neste%20Financial%20Statements%20Release%202025.pdf",
+    "access_date": "2026-11-01",
+    "PDF_sha256": "66f0e4ee9047b2b9a214f3ca50263199f47673a56f5c1d6ccfbb497b44d07db1",
+    "extracts": [
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 20,
+        "quote": "            Net change in loans and other financing activities                                                                   -113         51        117          887\n            Repayments of lease liabilities                                                                                       -90        -71       -275         -278\n            Dividends paid to the owners of the parent                                                                              0       -461       -154         -922\n            Dividends paid to non-controlling interests                                                                             0          0         -1           -1\nCash flows from financing activities                                                                                             -203       -481       -312         -314"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 29,
+        "quote": "  Financial liabilities measured at amortized cost                                                                  -27       -22        -96       -87\n  Lease liabilities                                                                                                 -15       -16        -55       -60\nWrite-downs of loan receivables                                                                                     -50         0        -50         0\nOther financial expenses                                                                                             -1        -4         -5        -9\nTotal                                                                                                               -93       -43       -205      -156"
+      },
+      {
+        "anchor": "[Nn]on.controlling interests.*[0-9]",
+        "PDF_page_number": 18,
+        "quote": "Owners of the parent                                                                                     114      -135        144       -95\nNon-controlling interests                                                                                  0         0          0         0\n                                                                                                         114      -135        144       -95\n\nEarnings per share from profit attributable to the owners of the"
+      },
+      {
+        "anchor": "[Nn]on.controlling interests.*[0-9]",
+        "PDF_page_number": 18,
+        "quote": "Owners of the parent                                                                                      81      -127         47      -128\nNon-controlling interests                                                                                  0         0          0         0\n                                                                                                          81      -127         47      -128\n\n"
+      },
+      {
+        "anchor": "[Ss]tate of Finland",
+        "PDF_page_number": 13,
+        "quote": "\nAs of 31 December 2025, the State of Finland owned directly 44.22% (44.22% at the end of the third quarter) of\noutstanding shares, foreign institutions 26.36% (25.77%), Finnish institutions 17.74% (18.02%) and households\n11.69% (12.00%).\n"
+      },
+      {
+        "anchor": "[Ss]tate of Finland",
+        "PDF_page_number": 32,
+        "quote": "Parent company of Neste is Neste Corporation. The transactions between Neste, its subsidiaries and joint operations, which are related parties of the company, have\nbeen eliminated during consolidation and are not disclosed in this Note. All transactions between Neste and other companies controlled by the State of Finland are on\nan arm's length basis. Details of transactions between Neste and other related parties are disclosed below.\n\n                                                                                                                                                          31 Dec      31 Dec"
+      }
+    ],
+    "limitation": "Located issuer evidence, not blanket certification of every hard filter or current ownership. PDF page number includes covers."
+  },
+  {
+    "ticker": "WDS",
+    "source_url": "https://www.woodside.com/docs/default-source/investor-documents/major-reports-(static-pdfs)/2025-annual-report/annual-report-2025.pdf",
+    "access_date": "2026-11-01",
+    "PDF_sha256": "316ca7f3b8d28e5a3b669894bb030ee0d225e8e4e9ff5940e49dd0e94774a0be",
+    "extracts": [
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 182,
+        "quote": " Cash flows from/(used in) financing activities\n Proceeds from borrowings                                                                                C.2                              4,848                         5,114         \u2014\n Repayment of borrowings                                                                                 C.2                             (2,900)                         (169)     (284)\n Purchases of shares relating to employee share plans                                                                                       (53)                            \u2014         \u2014\n Borrowing costs relating to financing activities                                                                                             \u2014                            (2)       (4)"
+      },
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 182,
+        "quote": " Proceeds from borrowings                                                                                C.2                              4,848                         5,114         \u2014\n Repayment of borrowings                                                                                 C.2                             (2,900)                         (169)     (284)\n Purchases of shares relating to employee share plans                                                                                       (53)                            \u2014         \u2014\n Borrowing costs relating to financing activities                                                                                             \u2014                            (2)       (4)\n Repayment of the principal portion of lease liabilities                                                                                   (233)                         (278)     (340)"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 4,
+        "quote": "\n1. Includes lease assets of $1,428 million and lease liabilities of $1,759 million (2024: $1,291 million and $1,623 million) as a result of AASB 16 Leases.\n2. Net tangible assets per ordinary security is a non-IFRS measure. Refer to Section 6.6 \u2013 Alternative performance measures for a reconciliation of these measures to Woodside\u2019s financial statements"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 181,
+        "quote": " Tax payable                                                                                                                  539         308\n Lease liabilities                                                                                     D.7                    159         189\n Other liabilities                                                                                                            876         724\n Total current liabilities                                                                                                  5,417       5,857\n Non-current liabilities"
+      },
+      {
+        "anchor": "[Nn]on.controlling interests.*[0-9]",
+        "PDF_page_number": 19,
+        "quote": "   2023 comparatives have been restated to be presented on the same basis.\n6. Cash flow from operating activities less cash flow from investing activities, adjusted for contributions from/(to) non-controlling interests and lease repayments. The 2024 and 2023 comparatives have\n   been restated to be presented on the same basis.\n7. Includes production of 197.6 MMboe (2024: 192.7 MMboe) from Woodside reserves and 1.2 MMboe (2024: 1.2 MMboe) primarily from feed gas purchased from Pluto non-operating participants\n   processed through the Pluto-KGP Interconnector."
+      },
+      {
+        "anchor": "[Nn]on.controlling interests.*[0-9]",
+        "PDF_page_number": 182,
+        "quote": " Borrowing costs relating to lease liabilities                                                                                                \u2014                           (15)      (21)\n Contributions from/(distributions to) non-controlling interests1                                                                         2,841                          (100)      (98)\n Dividends paid                                                                                                                          (2,012)                       (2,449)   (4,253)\n Net cash from/(used in) financing activities                                                                                             2,491                         2,101    (5,000)\n Net increase/(decrease) in cash held                                                                                                     1,772                         2,201    (4,440)"
+      },
+      {
+        "anchor": "Tellurian",
+        "PDF_page_number": 211,
+        "quote": "B.7 SIGNIFICANT PRODUCTION AND GROWTH ASSET ACQUISITIONS (CONT.)\n(c) Acquisition of Tellurian Inc.                                        Asset acquisition accounting\nOn 22 July 2024, the Group entered into a definitive agreement to        Purchase consideration, including capitalised transaction cost,\nacquire all the issued and outstanding common stock of Tellurian         has been allocated against identifiable assets and liabilities\nInc. (subsequently renamed Woodside Energy (LA) Holdings Inc.),          acquired on the following basis:"
+      },
+      {
+        "anchor": "Tellurian",
+        "PDF_page_number": 211,
+        "quote": "On 22 July 2024, the Group entered into a definitive agreement to        Purchase consideration, including capitalised transaction cost,\nacquire all the issued and outstanding common stock of Tellurian         has been allocated against identifiable assets and liabilities\nInc. (subsequently renamed Woodside Energy (LA) Holdings Inc.),          acquired on the following basis:\nincluding its owned and operated Louisiana LNG development               \u2022 Assets and liabilities initially measured at an amount other\nopportunity for a cash payment for shares of $876 million. As part         than cost, are measured by the Group at the amounts"
+      }
+    ],
+    "limitation": "Located issuer evidence, not blanket certification of every hard filter or current ownership. PDF page number includes covers."
+  },
+  {
+    "ticker": "HBR",
+    "source_url": "https://www.harbourenergy.com/media/a11hxbdn/harbour-energy-annual-report-accounts-2025_web.pdf",
+    "access_date": "2026-11-01",
+    "PDF_sha256": "04f45bdef19e2efcc46ffdaee3a3c21dd0ab51c330afbefa81d67f4263a4017f",
+    "extracts": [
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 41,
+        "quote": "their cash dividend payments used to purchase the company\u2019s                           As at 31 December 2025, net debt was $4,305 million (2024:\nshares. More information can be found at shareview.co.uk/info/drip.                   $4,424 million). This consisted of borrowings amounting to $5,366\nStatement of financial position                                                       million (2024: $5,513 million) less unamortised fees of $215 million\n                                                                                      (2024: $284 million) less cash balances of $846 million (2024:\n                                                                             2024"
+      },
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 41,
+        "quote": "Liabilities and equity                                                                comprising the undrawn portion of the RCF facility of $2.3 billion\nBorrowings net of transaction fees                           5,151         5,229      (the $3.0 billion facility had not been drawn down and $0.7 billion\nProvisions                                                   7,413         7,521      letters of credit for decommissioning had been drawn) plus cash\nDeferred tax liabilities                                     6,491         6,177      balances of $0.8 billion (2024: $0.8 billion), was $3.1 billion\nLease liabilities                                               634           792     (2024: $2.7 billion) at the end of the year."
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 41,
+        "quote": "Deferred tax liabilities                                     6,491         6,177      balances of $0.8 billion (2024: $0.8 billion), was $3.1 billion\nLease liabilities                                               634           792     (2024: $2.7 billion) at the end of the year.\nOther financial liabilities                                      40           877\n                                                                                      As at 31 December 2025, the leverage ratio1 was 0.6x (2024: 1.1x)\nOther liabilities                                            2,944         3,197      which has decreased primarily as a result of the significant increase"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 136,
+        "quote": "Trade and other payables                                                                             20             68               30\nLease liabilities                                                                                    13            466              551\nOther financial liabilities                                                                          23             19              415\nTotal non-current liabilities                                                                                  18,926            18,412\nCurrent liabilities"
+      },
+      {
+        "anchor": "[Pp]erpetual.*[0-9]",
+        "PDF_page_number": 120,
+        "quote": "  accrued interest; and                                                                                       incentive schemes         pages 109, 110 and 115\n\u2022 the Group has outstanding perpetual subordinated notes                                       6.6.1R (4)     Waivers of emoluments Directors\u2019 remuneration report:\n  totalling c.\u20ac1.9 billion. Upon a change of control (save for certain                                        by a director         page 107\n  exceptions) and a negative rating event, unless the issuer\n  redeems the notes in whole, the applicable interest rate will                                Non-financial reporting"
+      },
+      {
+        "anchor": "[Ss]ubordinated notes.*[0-9]",
+        "PDF_page_number": 15,
+        "quote": "                                                           c.$1.9bn\n                                                           Of senior and subordinated notes issued during 2025,\n                                                           pre-funding all maturities to 2028 as at year end\n                            CCS\n            Building an advantaged CCS portfolio"
+      },
+      {
+        "anchor": "[Ss]ubordinated notes.*[0-9]",
+        "PDF_page_number": 20,
+        "quote": "                                                                     $1.9bn\n                                                                     Of senior and subordinated notes issued during 2025,\n                                                                     pre-funding all maturities to 2028 as at year end\n\n"
+      },
+      {
+        "anchor": "[Mm]ajor shareholders",
+        "PDF_page_number": 84,
+        "quote": "  D. In order for the company to meet its                 The Board seeks to engage actively with its stakeholders,           \u2022 Engaging with our stakeholders: P16\n  responsibilities to shareholders and stakeholders,      including major shareholders, employees, governments,               \u2022 Employee engagement: P91\n  the board should ensure effective engagement with,      regulators, partners and suppliers. Feedback from stakeholders      \u2022 Workforce engagement: P91\n  and encourage participation from, these parties.        is considered in the Board\u2019s decision-making processes.\n  E. The board should ensure that workforce policies      Our workforce policies and practices are aligned with our values,   \u2022 Audit and Risk Committee activities"
+      },
+      {
+        "anchor": "Wintershall",
+        "PDF_page_number": 5,
+        "quote": "       Harbour                                                   Acquisition       One of\n                       Shell UK    Conoco UK      Premier Oil   of Wintershall world\u2019s largest\n     founded by\n                     transaction   transaction      merger      Dea portfolio independents\n    private equity"
+      },
+      {
+        "anchor": "Wintershall",
+        "PDF_page_number": 8,
+        "quote": "                                       company, following the successful acquisition\n2025 is a testament to the quality     of Wintershall Dea in 2024.\nof the business we have built and      Harbour\u2019s business today is characterised by enhanced scale,\na tribute to the Leadership Team       a high-quality and diversified portfolio of producing assets, 2P\n                                       reserves and 2C resources, all underpinned by financial strength"
+      }
+    ],
+    "limitation": "Located issuer evidence, not blanket certification of every hard filter or current ownership. PDF page number includes covers."
+  },
+  {
+    "ticker": "OXY",
+    "source_url": "https://www.oxy.com/siteassets/documents/investors/2025-annual-report.pdf",
+    "access_date": "2026-11-01",
+    "PDF_sha256": "157b026b9d94b25da878bb35424569dbeb056a4828488aff52991bd2c5a241a8",
+    "extracts": [
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 51,
+        "quote": "      The Company\u2019s RCF expires on June 30, 2028, and has a borrowing capacity of $4.15 billion. There were no\nborrowings outstanding on the Company\u2019s RCF as of December 31, 2025. As of December 31, 2025, and through the date\nof this filing, the Company was in compliance with all covenants in its financing agreements.\n      The Company\u2019s planned 2026 capital expenditures are between $5.5 billion and $5.9 billion.\n      The Company is party to various purchase agreements that are not accounted for as leases or otherwise accrued as"
+      },
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 91,
+        "quote": "  7.250% debentures due 2096                                                                                    5              5\nTotal borrowings at face value                                                                      $      20,427 $       24,391\nAdjustments to book value:\n  Unamortized premium, net                                                                                  1,054          1,037\n  Debt issuance costs                                                                                         (84)          (104)"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 78,
+        "quote": "      Asset retirement obligations                                                                               381         388\n      Operating lease liabilities                                                                                350         334\n      Income tax payable                                                                                        159          471\n      Carbon Engineering acquisition payable                                                                     \u2014           393\n      Other                                                                                                     815          836"
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 78,
+        "quote": "      Pension and postretirement obligations                                                                    985        1,022\n      Operating lease liabilities                                                                               605          469\n      Other                                                                                                   1,609        1,361\n      Accrued liabilities - non-current                                                                 $     7,311 $      6,815\n(a) See Note 12 - Lawsuits, Claims, Commitments and Contingencies for additional information."
+      },
+      {
+        "anchor": "[Pp]referred stock,",
+        "PDF_page_number": 67,
+        "quote": "EQUITY\n  Preferred stock, at $1.00 per share par value, issued shares: 2025 \u2014 84,897 and 2024 \u2014\n    84,897                                                                                               8,287       8,287\n  Common stock, $0.20 per share par value, authorized shares: 1.5 billion, issued shares: 2025\n    \u2014 1,214,337,600 and 2024 \u2014 1,166,769,167                                                               243          233"
+      },
+      {
+        "anchor": "[Pp]referred stock,",
+        "PDF_page_number": 70,
+        "quote": "   $0.72 per share                           \u2014      \u2014          \u2014          \u2014       (646)             \u2014                \u2014      (646)\n  Dividends on preferred stock,\n   $8,000 per share                          \u2014      \u2014          \u2014          \u2014       (736)             \u2014                \u2014      (736)\n  Preferred stock redemption \u2013\n   face value                            (1,511)    \u2014          \u2014          \u2014         \u2014               \u2014                \u2014     (1,511)"
+      },
+      {
+        "anchor": "[Pp]erpetual.*[0-9]",
+        "PDF_page_number": 135,
+        "quote": "               the Current Report on Form 8-K of Occidental filed on November 12, 2024, File No. 1-9210).\n  3.(ii)(a)    Certificate of Designations with respect to the Cumulative Perpetual Preferred Stock, Series A (filed as Exhibit 3.1 to\n               the Current Report on Form 8-K of Occidental filed on August 8, 2019, File No. 1-9210).\n  3.(ii)(b)    Certificate of Designations with respect to the Junior Participating Preferred Stock, Series B (filed as Exhibit 3.1 to\n               the Current Report on Form 8-K of Occidental filed on March 13, 2020, File No. 1-9210)."
+      },
+      {
+        "anchor": "[Bb]eneficial [Oo]wners",
+        "PDF_page_number": 8,
+        "quote": "Item 11.      Executive Compensation                                                                   126\nItem 12.      Security Ownership of Certain Beneficial Owners and Management and Related               126\n              Stockholder Matters\nItem 13.      Certain Relationships and Related Transactions and Director Independence                 126\nItem 14.      Principal Accounting Fees and Services                                                   127"
+      },
+      {
+        "anchor": "[Bb]eneficial [Oo]wners",
+        "PDF_page_number": 27,
+        "quote": "     Occidental\u2019s common stock is listed and traded on the NYSE under the ticker symbol \u201cOXY.\u201d The common stock was\nheld by approximately 21,000 stockholders of record as of January 31, 2026, which does not include beneficial owners for\nwhom Cede and Co. or others act as nominees.\n     The Company declared dividends of $0.96 per share in 2025. On February 18, 2026, the Board of Directors declared a\nregular quarterly dividend of $0.26 per share on common stock, over an 8% increase from the previous quarter, payable in"
+      },
+      {
+        "anchor": "CrownRock",
+        "PDF_page_number": 2,
+        "quote": "3\n    Since 1/1/2025; with a >44% increase since Oxy announced it was acquiring CrownRock, L.P.\n4\n    Barrels of oil equivalent per day.\n5"
+      },
+      {
+        "anchor": "CrownRock",
+        "PDF_page_number": 3,
+        "quote": "safety performance record, a testament to our culture of delivering\n                                                                            than prior to the CrownRock acquisition. Over the past 20 months,\nresults while striving to work safely and responsibly.\n                                                                            we have retired over $15 billion of debt, materially improving our\nUnderpinned by high-quality resources, we believe our portfolio             leverage profile and financial flexibility."
+      }
+    ],
+    "limitation": "Located issuer evidence, not blanket certification of every hard filter or current ownership. PDF page number includes covers."
+  },
+  {
+    "ticker": "AKRBP",
+    "source_url": "https://akerbp.com/wp-content/uploads/2026/03/akerbp-annual-report-2025.pdf",
+    "access_date": "2026-11-01",
+    "PDF_sha256": "c5afca29558be6e5daf6cf8e31b378fdd2542bd29b847f3ec96fce10172a1a15",
+    "extracts": [
+      {
+        "anchor": "[Bb]orrowings.*[0-9]",
+        "PDF_page_number": 150,
+        "quote": "\nAll borrowings are initially recognised at transaction price, which equals the fair value of the amount                    1.13 Borrowing costs\nreceived net of costs directly related to the establishment of the loan or issuance of debt.                               Borrowing costs that can be directly ascribed to procurement, processing or production of a qualifying\n                                                                                                                           asset are capitalised as part of the asset\u2019s acquisition cost. Borrowing cost is only capitalised during the\nSubsequently, interest-bearing borrowings are valued at amortised cost using the effective interest method;                development phase. Other borrowing costs are expensed in the period in which they are incurred."
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 26,
+        "quote": "ratio of 25 (30) percent. Net interest-bearing                                                                    ACCOUNTING STANDARDS                                  is not aware of any factors that materially affect\ndebt, including lease debt, was USD 7,094 (4,026)         STATEMENT OF CASH FLOW                                                                                        the assessment of the company\u2019s position as of\nmillion.                                                                                                          The accounting principles used for the 2025           31 December 2025, or the result for 2025, other\n                                                          Net cash flow from operating activities amounted        annual financial statements are consistent with       than those presented in the BoD\u2019s report or that\nThe bond debt increased to USD 8.7 (7.5) billion.         to USD 6,958 million, an increase from USD 6,423        the principles used in the 2024 annual financial      otherwise follow from the financial statements."
+      },
+      {
+        "anchor": "[Ll]ease (?:liabilities|debt).*[0-9]",
+        "PDF_page_number": 140,
+        "quote": "   Long-term derivatives                                                                               note 24                       0.6              55.3             0.6                   55.3\n   Long-term lease debt                                                                                note 26                     712.7             458.0           712.7                  458.0\nTotal non-current liabilities                                                                                                29,649.0             24,987.8        29,649.0                24,987.8\n\n"
+      },
+      {
+        "anchor": "[Mm]ajor shareholders",
+        "PDF_page_number": 3,
+        "quote": "Aker BP is listed on the Oslo stock exchange\n(AKRBP), and major shareholders are Aker ASA (21\npercent), BP PLC (16 percent) and Nemesia S.A.R.L\n(14 percent).                                                                                                                                             Sandnessj\u00f8en\n                                                                             Skarv"
+      },
+      {
+        "anchor": "[Mm]ajor shareholders",
+        "PDF_page_number": 8,
+        "quote": " Member of the BoD since:                                        2016                    Member of the BoD since:                                   2013                    Member of the BoD since:                                       2013\n Independent of major shareholders:                                    No                Independent of major shareholders:                           Yes                   Independent of major shareholders:                              No\n Independent of the company**:                                         No                Independent of the company**:                                Yes                   Independent of the company**:                                   No\n Citizenship:                                              Norwegian                     Citizenship:                                              British                  Citizenship:                                            Norwegian\n Residency:                                                    Norway                    Residency:                                                   UK                    Residency:                                             Switzerland"
+      }
+    ],
+    "limitation": "Located issuer evidence, not blanket certification of every hard filter or current ownership. PDF page number includes covers."
+  },
+  {
+    "ticker": "VLO_PROXY",
+    "source_url": "https://s23.q4cdn.com/587626645/files/doc_downloads/2026/03/DEF-14A.pdf",
+    "access_date": "2026-11-01",
+    "PDF_sha256": "402eea07c4953be5b574fc3cac37f99825c760be6d4dfd5bc1b22e92cd06a6de",
+    "extracts": [
+      {
+        "anchor": "[Bb]eneficial [Oo]wners",
+        "PDF_page_number": 4,
+        "quote": "                                                               Additional Information\u2014Board Independence, Related\n    The Role of Our Independent Lead Director            17    Party Matters, and Beneficial Ownership                  81\n                                                               2026 Annual Meeting of Stockholders\u2014Important\n    Ongoing Evaluation and Consideration by the Board    17    Voting and Meeting Information                           84\n  How Our Board is Involved in CEO and Senior"
+      },
+      {
+        "anchor": "[Bb]eneficial [Oo]wners",
+        "PDF_page_number": 5,
+        "quote": "oversight and responsibility of our Board and its committees are discussed further under \u201cHow Our Board is Structured, Governed,\nand Operates\u201d and \u201cAdditional Information\u2014Board Independence, Related Party Matters, and Beneficial Ownership\u201d below.\n\n                                                            Full Board\n   \u2022 Risk management and oversight are responsibilities of the full Board. The full Board exercises such responsibilities"
+      }
+    ],
+    "limitation": "Located issuer evidence, not blanket certification of every hard filter or current ownership. PDF page number includes covers."
+  }
+]

@@ -1,50 +1,67 @@
-"""Render identical short-report content to plain Markdown and PDF."""
+"""One shared content stream for the revised BP PDF and plain summary."""
 import json
+import re
 from pathlib import Path
 from xml.sax.saxutils import escape
-import pandas as pd
+
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4
-from reportlab.lib.styles import getSampleStyleSheet,ParagraphStyle
-from reportlab.platypus import SimpleDocTemplate,Paragraph
-P=Path(__file__).resolve().parent;O=P.parent
-J=json.loads((P/'regression_results.json').read_text());E=J['predictions'][2];PE=J['predictions'][0];PBV=J['predictions'][1];S=pd.read_csv(P/'sensitivities.csv')
-fmt=lambda v:f'{v:,.4f}'
-blocks=[
- ('title','BP.L — relative valuation, 30 October 2026'),
- ('status','PROVISIONAL: QA block C did not fully pass. Comparable valuation is BLOCKED. The regression calculation below is conditional, not a verified fair-value conclusion or investment recommendation.'),
- ('h','1. Scope, quote and decision-use limits'),
- ('p','BP p.l.c., London ordinary share GB0007980591. GBP6.274 closing quote (627.4GBX); 15,450million rounded current shares. Quote x shares gives GBP96,933.3million, 0.0275% below vendor GBP96,960million. Fiscal inputs are FY2025, not TTM; all prices use30October2026. USD financials convert through cached USD1.1172 and GBP0.8338 per EUR. Each US ADS is six ordinary shares; this report values one London ordinary.'),
- ('p','The approved relative_only route excludes DCF and a stage4 recommendation. The limited UK/GBP cache top-up and reduced input checkpoint were pushed separately. GBP default-free rate4.8287% uses the latest returned BoE28October observation;29/30October were unavailable. This rate is background cache coverage, not an input to the published multiple equations.'),
- ('h','2. Comparable method: no compliant valuation released'),
- ('p','The initial researched pool contains24candidates, excluding BP. Europe-first scoring and ordered World, size and Tier3 relaxations are logged. Numeric rankings alone are not peer qualification. No complete panel is certified: ownership/restructuring/history and several common-equity/NCI definitions remain unverified, and associates/other claims are not harmonized across peers. The final qualified CSV therefore has0peers, not a padded10. Below8 blocks valuation; all11required multiple rows remain with unavailable reasons. No peer-implied share price, dispersion interval or peer upside is asserted.'),
- ('p','A matching Damodaran Europe industry-median benchmark is not registered, so its statistic/period comparability and >50% gap test cannot be completed. An aggregate ratio is not relabelled a median. IEUR29October holdings are only a dated membership proxy. Human Spot_check remains pending. To unblock: supply/register the verified matching industry-median dataset, then finish uniform claim bridges and all hard-filter/identity evidence. Unqualified candidate statistics are audit diagnostics only.'),
- ('h','3. Published-regression calculation (conditional)'),
- ('p',f'EUROPE January2026 EV/EBITDA equation predicts {E["predicted"]:.6f}x; published R-squared26.2%. BP actual regression-base EV/EBITDA is {E["actual"]:.6f}x; actual/predicted minus1 = {E["deviation"]:.2%}. The inverse bridge gives GBP{fmt(E["value_per_share_gbp"])} per ordinary share versus GBP6.274 ({E["value_per_share_gbp"]/6.274-1:+.2%}). This is an arithmetic conditional output, NOT evidence of mispricing or an actionable target.'),
- ('p','Equation:18.15 +35.25 x revenue growth -0.11 x DFR -0.12 x effective tax +2.29 x ROIC. DFR = gross debt/(gross debt+current common equity market cap). ROIC = EBIT(1-tax)/(common book equity+debt-cash). The user-approved as_published_note policy passes DFR and tax as decimals.'),
- ('p',f'Approved fundamental substitution: EPS growth0 and revenue-growth proxy0, not sourced5Y analyst consensus. Observed3Y analyst EPS12.99% and sales2.45% are not substituted silently for5Y. Closing-common ROE is {J["inputs"]["roe"]:.6%}; payout {J["inputs"]["payout"]:.6f}x is retained, capped only in growth retention. Original beta-0.25 is replaced by sourced cash-corrected unlevered beta0.41, relevered with24.71% source marginal tax to {J["inputs"]["beta"]:.6f}. Effective tax is {J["inputs"]["tax_rate"]:.6%}.'),
- ('p',f'Alternatives: PE prediction {PE["predicted"]:.6f}x, R-squared20.1%, conditional GBP{fmt(PE["value_per_share_gbp"])}; not selected because FY common NI is only USD54million and payout is extreme. PBV prediction {PBV["predicted"]:.6f}x, R-squared42.3%, is negative and not valued. Higher published R-squared does not rescue an economically invalid prediction; no clipping or invented PS equation.'),
- ('h','4. Bridge, normalization and sensitivity'),
- ('p','Base FY2025 USDmillion inputs: vendor EBITDA30,168, EBIT14,446, common NI54, common book53,031; debt72,529 includes leases14,571; cash36,556; NCI20,948 includes hybrid15,955 (deducted ONCE). Separate preference carrying-equity claim proxy21 is deducted. Regression EV retains associates; its inverse is multiple x EBITDA -debt -NCI -preference +cash. Do not add the JV13,400 or associate7,325 carrying values to this regression inverse. These carrying amounts would require uniform numerator/denominator reconciliation for the peer method.'),
- ('p','Issuer reported EBIT12,642 differs from vendor standardization by14.27%; issuer EBITDA proxy12,642+17,822=30,464 differs from vendor EBITDA by0.98% using issuer as denominator. Revenue189,335 minus production taxes1,698 reconciles vendor187,637. Material impairments6,037 exceed10% of reported EBIT. A separate issuer impairment-addback sensitivity has EBIT18,679 and EBITDA36,501; it is not an unexplained base replacement. Underlying replacement-cost parent NI55+1,017+6,413=7,485 (common sensitivity7,484) is not IFRS NI, an analyst forecast or a harmonized peer basis.'),
- ('p','Mechanical sensitivities at the unchanged base multiple: '+ '; '.join(f'{r.scenario}: GBP{fmt(r.GBP_per_share)}' for r in S.itertuples() if 'percentage-point' not in r.scenario)+'. Provision-as-debt is a conservative incremental claim stress, not the base; it may double-count operating economics. Neither these scenarios nor peer quartiles are confidence intervals.'),
- ('p',f'Unit sensitivity: percentage-point DFR/tax policy predicts {E["unit_policies"]["dfr_tax_percent_points"]:.6f}x and conditional GBP{fmt(S.iloc[-1].GBP_per_share)}. This materially different result is not selected; decimal base follows explicit approval, but sector-median plausibility remains an open QA failure. Analyst-set illustrative Brent low/base/high USD55/70/85 per barrel and Henry Hub USD2.5/4/5.5 per MMBtu are assumptions only. No sourced commodity-to-earnings calibration exists, so they are not mapped to invented EBITDA forecasts or weighted values.'),
- ('h','5. QA, provenance and limitations'),
- ('p','QA block C executed ONCE. Six live workbook predictions (three equations, both unit policies) were recalculated by LibreOffice Calc and match the Python library within1e-9. No own-estimation sample, LINEST, adjusted R-squared, SEy, p-values, A/B/C, D1-D10 or residual classification is fabricated. Three reproducibly random numeric candidate EV checks are not a certified selected-peer Spot_check. Overall QA remains provisional because the benchmark, qualified peer panel and uniform bridges are missing.'),
- ('p','Equations are302days old at valuation date, market-wide rather than industry fits, with low explanatory power and no published residual dispersion. Fundamental growth differs from the file analyst5Y definition; payout, effective tax and near-zero reported NI represent severe extrapolation. Damodaran EV/invested-capital perimeter is undocumented. FY bridge claims are stale relative to the quote date; carrying claim proxies are not market values. The large conditional EV result is unsupported by a qualified peer comparison. No blending, recommendation or precision claim is warranted.'),
- ('p','Sources accessed1November2026: StockAnalysis BP history/statistics and detailed FY statements (uniform candidate source); BP2025 SEC filing000031380726000006, R2 income, R4 hybrid/NCI, R5 balance and R29 provisions; BP fourth-quarter2025 results and issuer share-listing information. Published equations: regressions_multi_2026-01, exact EUROPE; beta: beta_europe_2026-01, exact Oil/Gas (Integrated). Full URLs, resolver metadata, hashes and source-level observations are in relative/source_log-equivalent schedules: ../source_log.csv, issuer_crosschecks.json and regression_results.json.'),
- ('p','Academic analysis only. Not personal investment advice. Figures are conditional model calculations, not forecasts or a Buy/Hold/Sell recommendation.')]
-plain='\n\n'.join(('# ' if t=='title' else '## ' if t=='h' else '')+v for t,v in blocks)+'\n'
-(O/'relative_summary.md').write_text(plain)
-styles=getSampleStyleSheet();styles.add(ParagraphStyle(name='BodyBP',fontName='Helvetica',fontSize=9.2,leading=12.8,spaceAfter=7,textColor=colors.HexColor('#243746')))
-styles.add(ParagraphStyle(name='AlertBP',parent=styles['BodyBP'],fontName='Helvetica-Bold',backColor=colors.HexColor('#FFF0D6'),borderPadding=7,spaceAfter=12))
-styles['Title'].fontSize=19;styles['Title'].leading=23;styles['Title'].textColor=colors.HexColor('#16445A')
-styles['Heading2'].fontSize=11;styles['Heading2'].leading=14
-story=[]
-for t,v in blocks:
- style=styles['Title' if t=='title' else 'Heading2' if t=='h' else 'AlertBP' if t=='status' else 'BodyBP']
- story.append(Paragraph(escape(v),style))
-def footer(canvas,doc):
- canvas.saveState();canvas.setFont('Helvetica',8);canvas.setFillColor(colors.grey);canvas.drawString(38,24,'BP.L | 2026-10-30 | PROVISIONAL academic analysis');canvas.drawRightString(A4[0]-38,24,str(doc.page));canvas.restoreState()
-SimpleDocTemplate(str(O/'relative_report_BP.L.pdf'),pagesize=A4,rightMargin=38,leftMargin=38,topMargin=35,bottomMargin=38,title='BP.L relative valuation — provisional',author='Valuation research').build(story,onFirstPage=footer,onLaterPages=footer)
-print(O/'relative_report_BP.L.pdf')
+from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate
+
+P = Path(__file__).resolve().parent
+O = P.parent
+U = json.loads((P / "currency_bridge_verification.json").read_text())
+V = json.loads((P / "regression_plausibility_repair.json").read_text())
+blocks = [
+    ("title", "BP.L — relative valuation, 30 October 2026"),
+    ("status", "NO USABLE VALUATION RELEASED. Comparable valuation is BLOCKED; regression estimate is NOT USABLE. The prior GBP23.5868 conditional result is withdrawn as a valuation headline. No price target or recommendation is issued."),
+    ("h", "1. Scope and basis"),
+    ("p", "BP p.l.c., London ordinary GB0007980591. Closing quote627.4GBX = GBP6.274; rounded current ordinary shares15,450million. Quote x shares GBP96,933.3million is0.0275% below vendor GBP96,960million. FY2025 financials, not TTM/forward;30October2026 quote/FX. FY claims remain stale, not October balance sheets. Approved relative_only: no DCF or stage4 recommendation. Human Spot_check remains pending."),
+    ("h", "2. Qualification: no certified ten-peer panel"),
+    ("p", "Correction: the prior ten names were numerical prospects, not selected qualified peers. Reassessed OXY,HBR,OMV,ENI,NESTE,CVX,EQNR,REP,TTE,VLO; investigated substitutes SHEL,GALP,WDS,AKRBP. Reject OXY (CrownRock2024/OxyChem January2026 perimeter), HBR (Wintershall Dea2024 and LLOG2026), CVX (Hess July2025, partial-year earnings/full closing claims), OMV (Borealis/Borouge disposal and2026 combination). Matching pro formas were not established. Six original prospects and four substitutes remain on hold, not certified."),
+    ("p", "Business review distinguishes integrated operators from upstream/LNG and refining/renewables. Neste/Valero are Tier2 refiners, not integrated upstream pure-plays; Woodside/AkerBP are upstream/LNG. Galp's legal holding parent operates a consolidated energy business, not a passive investment vehicle. Unrelated state/BASF/ADNOC ownership does not itself trigger BP cross-holding exclusion. Issuer AkerBP ownership BP16% is below the >20% gate, but does not waive other checks. Complete current bidirectional ownership/history/identity certification remains outstanding where indicated in the audit."),
+    ("p", "EQNR/SHEL December2025 Adura deconsolidation requires an operating/associate bridge; ENI Neptune/satellite comparability remains unresolved. No panel is uniform-certified: qualified count0, below the required eight minimum. Geographic/tier feasibility cannot substitute for qualification. All11 multiple rows remain unavailable; no selected-peer quartiles or peer-implied price is asserted. Fourteen source-linked findings are recorded in comparables_audit.xlsx and peer_qualification_repair.csv."),
+    ("h", "3. Uniform bridge: reconciliations and remaining blockers"),
+    ("p", "Fifteen rows cover BP, all ten prospects and four substitutes: FY2025 balance date,30October2026 price/FX, all component amounts converted to EUR. Required EV includes debt plus ALL leases once, NCI and other non-common claims, less cash and only matched excluded associates. Unknown claims are NA, not zero. Usable EV/inverse fields remain NA: the policy has not yet been satisfied uniformly."),
+    ("p", "BP USDmillion debt72,529 = financial debt57,958 + leases14,571; cash36,556; NCI20,948 includes hybrid15,955 ONCE; separate preference carrying proxy21 is not market value. Verified debt including leases: ENI EUR34,202 (leases5,700), EQNR USD31,221 (3,411), Neste EUR5,183 (740, issuer NCI0), Galp EUR4,899 (1,217), Woodside USD13,722 (1,759; NCI3,929). Reconciliation does not certify the operating denominator."),
+    ("p", "Chevron USD46,743 already equals issuer debt40,758 + operating leases5,985; finance leases1,445 are already within40,758. Valero USD11,703 already equals debt/finance leases10,619 + operating leases1,084. Do NOT add leases twice. US GAAP operating rent still reduces EBITDA unlike IFRS16. Unresolved vendor/issuer debt differences: Shell USD45, TTE USD388, HBR USD5. Additional carrying claims include OXY preferred8,287, Repsol other equity3,046 and OMV hybrid1,985. TTE perpetual-note claim needs a separate bridge; Harbour2,025 is subordinated investor equity, not ordinary NCI."),
+    ("p", "BP vendor/issuer EBIT14,446/12,642 differs14.27%; EBITDA30,168/30,464 differs0.98% on issuer denominator. Neste reported issuer EBITDA1,438 versus vendor1,124 differs21.84%. BP impairment6,037 exceeds10% of EBIT; impairment-addback EBITDA36,501 remains an unharmonized sensitivity, not a base replacement. Associates and transaction/lease denominators remain unresolved; no selective source switching to force agreement."),
+    ("h", "4. Regression check — NOT USABLE"),
+    ("p", f'EUROPE January2026 equation predicts18.072785x EV/EBITDA, published R-squared26.2%, under approved decimal DFR/tax policy. Qualified-peer median: unavailable. Diagnostic ONLY: ten original unqualified prospects median{V["original_numeric_prospect_diagnostic"]["median"]:.6f}x before associates/other claims; prediction{V["prediction_vs_diagnostic_median"]:.2%} higher. It includes rejected companies and mixed lease EBITDA: NOT a qualified peer median or valuation basis.'),
+    ("p", f'New registered January2026 Europe integrated oil/gas industry ratios:5.94x positive-EBITDA firms and5.66x all firms,12 firms.18.072785x is{V["prediction_vs_industry_positive_EBITDA_ratio"]:.2%} above5.94x. Supplied files do not establish genuine medians; no relabelling of an industry ratio as a median. Different benchmark vintage/period also remains. Sector plausibility is not validated.'),
+    ("p", f'Currency/share mechanics PASS: USD1.1172 and GBP0.8338 per EUR imply{U["GBP_per_USD"]:.9f} GBP/USD. Historical inverse equity USD{U["inverse_equity_usdm"]:,.6f}million /15,450million ordinary shares = USD{U["mechanical_USD_per_ordinary"]:.9f}/ordinary; x0.8338/1.1172 = GBP{U["mechanical_GBP_per_ordinary"]:.9f}, NOT GBp. No second /100 and no six-for-one ADS adjustment: denominator is London ordinary shares. Correct arithmetic does NOT make GBP23.5868 usable fair value.'),
+    ("p", "Historical regression inverse: multiple x EBITDA -debt -NCI -preference +cash; associates retained, no carrying-value addback. Percentage-point DFR/tax alternative4.276716x materially differs: no justified unit change solely to fit sector values. Fundamental growth0 substitutes are not five-year forecasts; effective tax83.281694%, common NI54 and payout93.666667x imply severe extrapolation. PE758.921321x is not selected; negative PBV-22.600011x not valued. No blending, actionable range or upside."),
+    ("h", "5. Failed-only QA and provenance"),
+    ("p", "QA block C full execution count remains1; only11 previously non-passing items reassessed. C03,C04 PROVISIONAL; C05,C42 FAIL_OPEN; C08,C09,C10,C17,C18,C19,C20 BLOCKED. C18 currency/share subcheck passes, overall uniform bridge does not. C42 is contained by marking NOT USABLE, not falsely passed. Original passing checks were not rerun; human review not performed."),
+    ("p", "Accessed1November2026: issuer FY2025 reports for original prospects/substitutes, Chevron Hess completion, BASF Wintershall completion and Valero2026 proxy. Source URLs, PDF hashes, located extracts, reconciliation differences and unresolved gates are in the audit and source schedules. Vendor FY2025 StockAnalysis inputs retained unchanged. Registered industry datasets evebitda_industry_europe_2026-01 and pbv_industry_europe_2026-01 are as-of5January2026; published regressions_multi_2026-01 exact EUROPE. No residual bands, own-estimation diagnostics or confidence intervals invented."),
+    ("p", "Academic analysis only; not personal investment advice. No actionable valuation or Buy/Hold/Sell recommendation is supported by this incomplete evidence."),
+]
+blocks = [(t, re.sub(r"(\d)(?=[A-Za-z])", r"\1 ", re.sub(r"([a-z])(?=\d)", r"\1 ", v))) for t, v in blocks]
+plain = "\n\n".join(("# " if t == "title" else "## " if t == "h" else "") + v for t, v in blocks) + "\n"
+(O / "relative_summary.md").write_text(plain)
+(P / "valuation_summary.md").write_text(plain)
+styles = getSampleStyleSheet()
+styles.add(ParagraphStyle(name="BodyBP", fontName="Helvetica", fontSize=9.2, leading=12.8, spaceAfter=7, textColor=colors.HexColor("#243746")))
+styles.add(ParagraphStyle(name="AlertBP", parent=styles["BodyBP"], fontName="Helvetica-Bold", backColor=colors.HexColor("#FFF0D6"), borderPadding=7, spaceAfter=12))
+styles["Title"].fontSize = 19
+styles["Title"].leading = 23
+styles["Heading2"].fontSize = 11
+styles["Heading2"].leading = 14
+story = []
+for t, v in blocks:
+    if t == "h" and v.startswith("4."):
+        story.append(PageBreak())
+    story.append(Paragraph(escape(v), styles["Title" if t == "title" else "Heading2" if t == "h" else "AlertBP" if t == "status" else "BodyBP"]))
+
+
+def footer(canvas, doc):
+    canvas.saveState()
+    canvas.setFont("Helvetica", 8)
+    canvas.drawString(38, 24, "BP.L | 2026-10-30 | NO USABLE VALUATION | Academic analysis")
+    canvas.drawRightString(A4[0] - 38, 24, str(doc.page))
+    canvas.restoreState()
+
+
+SimpleDocTemplate(str(O / "relative_report_BP.L.pdf"), pagesize=A4, rightMargin=38, leftMargin=38, topMargin=35, bottomMargin=38, title="BP.L relative valuation — regression NOT USABLE", author="Valuation research").build(story, onFirstPage=footer, onLaterPages=footer)
+print(O / "relative_report_BP.L.pdf")
