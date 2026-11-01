@@ -1,0 +1,24 @@
+{
+  "ticker": "EQNR.OL",
+  "valuation_date": "2026-10-30",
+  "current_price": 447.5,
+  "quote_currency": "NOK",
+  "shares_m": 2380,
+  "peer_count": 10,
+  "tier12": 10,
+  "tier3": 0,
+  "europe": 8,
+  "raw_evebitda_median": 7.46843061121943,
+  "scaled_evebitda_median": null,
+  "peer_indicative": 976.3699946750418,
+  "peer_iqr_low": 791.761389840307,
+  "peer_iqr_high": 1111.073256785453,
+  "peer_upside": 1.181832390335289,
+  "regression_pbv": 301.0085308327297,
+  "qa": {
+    "PASS": 30,
+    "FAIL": 9,
+    "N/A": 9
+  },
+  "adjustment": "not applicable: EV multiples unscaled per comparables_procedure rule 118"
+}

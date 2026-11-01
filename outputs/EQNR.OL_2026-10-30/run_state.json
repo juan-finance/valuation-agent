@@ -49,7 +49,7 @@
         "outputs/EQNR.OL_2026-10-30/relative/peer_selection.json",
         "outputs/EQNR.OL_2026-10-30/relative/valuation_multiples.csv"
       ],
-      "next_step": "QA block C once, then required PDF/plaintext; evidence gates and human review remain unresolved",
+      "next_step": "Do not issue qualified comparable conclusion until QA source failures are resolved; human Spot_check pending.",
       "finished": "2026-11-01T16:53:32+00:00"
     },
     "stage4_recommendation": {
@@ -66,5 +66,25 @@
     "finished": "2026-11-01T16:43:47.048982+00:00",
     "timing_note": "approximate start; thereafter measured"
   },
-  "session_status": "reduced inputs done; stage 3 next"
+  "session_status": "reduced inputs done; stage 3 next",
+  "qa_C": {
+    "status": "failed_provisional",
+    "executions": 1,
+    "counts": {
+      "PASS": 30,
+      "FAIL": 9,
+      "N/A": 9
+    },
+    "human_spot_check": "pending",
+    "evidence_failures_waived": false,
+    "finished": "2026-11-01T16:54:25+00:00"
+  },
+  "short_report": {
+    "status": "done_provisional",
+    "pdf": "outputs/EQNR.OL_2026-10-30/relative_report_EQNR.OL.pdf",
+    "plaintext": "outputs/EQNR.OL_2026-10-30/relative_summary.md",
+    "same_figures": true,
+    "elapsed_min": 0.88,
+    "finished": "2026-11-01T16:54:25+00:00"
+  }
 }
