@@ -25,7 +25,7 @@ and write your answer back here.
 <!-- Example: "lazy_exclusion_check: verify ownership/restructuring exclusions only for candidates that would enter the selected peer set"
      Without an entry here, the agent applies every rule as written. -->
 - regression_route: published_damodaran (user request 2026-10-30; replaces own estimation of the regressions, with the limits listed in methodology/regression_published_route.md section 6)
-- one_session_per_company: run stages 1-4 for one company in a single session, checkpointing run_state.json and committing after each stage. QA checklist blocks run once, at the end of the company, and only failures are fixed.
+- relative_only: for the remaining companies the DCF is produced outside this project. Run only stage 3 (published_damodaran route, standard mode). Skip stage 2 and stage 4 entirely (no DCF, no recommendation, no PDF report, no report_outline). Replace stage 1 by a reduced input step: collect only the target data stage 3 needs (price, shares and market cap, EV bridge items, FY2025 revenue, EBITDA, EBIT, net income, book equity, currencies, fiscal-year basis) into outputs/<ticker>_<date>/relative_inputs.md with sources; no data_pack.xlsx, no anomaly report, no source_log beyond one line per source. Mark stages 1-2-4 "skipped_by_deviation" in run_state.json. Read only: SKILL-RELATIVE.md, comparables_procedure.md, regression_published_route.md, sector_adjustments.md, company_universe.md, data_sources.md and QA checklist block C. Do not read regression_procedure.md or report_template.md. Pass min_valid=6 to multiple_stats and scaled_multiple.
 
 ## Stage 4 calibration (the professor will calibrate later)
 - stage4_calibration_notes: TBD
