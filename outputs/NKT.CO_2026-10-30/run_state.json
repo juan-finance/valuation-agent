@@ -1,0 +1,42 @@
+{
+  "company": "NKT A/S",
+  "ticker": "NKT.CO",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-11-01T18:40:00+00:00",
+  "stages": {
+    "stage1_data": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report",
+        "Reduced input step done: price/shares/EV bridge/FY2025 fundamentals collected into relative_inputs.md; cross-checked vs NKT FY2025 annual report (revenue, net result, equity, NIBD, CFO, CapEx exact; EBIT/EBITDA definition gaps documented; hybrid EUR 150m identified).",
+        "Stage 0 top-up: Denmark was missing from the dated cache -> country-only top-up (Denmark Aaa, spread 0, CRP 0, ERP 4.20%; EUROPE equations) committed; no rebuild."
+      ],
+      "outputs": [
+        "relative_inputs.md",
+        "source_log.csv"
+      ],
+      "next_step": ""
+    },
+    "stage2_dcf": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation"
+      ]
+    },
+    "stage3_relative": {
+      "status": "pending",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage4_recommendation": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation; short PDF report to be written instead"
+      ]
+    }
+  },
+  "final_status": "in_progress",
+  "human_review": "pending"
+}
