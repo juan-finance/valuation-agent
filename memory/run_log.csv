@@ -24,3 +24,5 @@ ENEL.MI_2026-10-30,Enel S.p.A.,standard,reduced_input_step,done,8.0,2026-11-01T1
 ENEL.MI_2026-10-30,Enel S.p.A.,standard,stage3_relative,provisional,20.0,2026-11-01T16:25:00+00:00
 ENGI.PA_2026-10-30,ENGIE SA,standard,reduced_input_step,done,9.0,2026-11-01T16:20:00+00:00
 ENGI.PA_2026-10-30,ENGIE SA,standard,stage3_relative,provisional,22.0,2026-11-01T16:20:00+00:00
+ENR.DE_2026-10-30,Siemens Energy AG,standard,reduced_input_step,done,5.32,2026-11-01T16:23:59.673847+00:00
+ENR.DE_2026-10-30,Siemens Energy AG,standard,stage3_relative,provisional,8.9,2026-11-01T16:33:19+00:00

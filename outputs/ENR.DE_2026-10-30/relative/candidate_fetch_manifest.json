@@ -1,0 +1,2398 @@
+[
+  {
+    "ticker": "ENR",
+    "name": "Siemens Energy",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/etr/ENR/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ENR",
+    "name": "Siemens Energy",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/etr/ENR/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Siemens Energy AG (ETR:ENR) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "ENR",
+    "name": "Siemens Energy",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/etr/ENR/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Siemens Energy AG (ETR:ENR), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "ENR",
+    "name": "Siemens Energy",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/etr/ENR/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Siemens Energy AG (ETR:ENR), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "ENR",
+    "name": "Siemens Energy",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/etr/ENR/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for ETR:ENR (Siemens Energy AG), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ENR",
+    "name": "Siemens Energy",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/etr/ENR/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Siemens Energy AG (ETR:ENR) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "VWS",
+    "name": "Vestas",
+    "tier": 1,
+    "hypothesis": "wind turbines and recurring services",
+    "url": "https://stockanalysis.com/quote/cph/VWS/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Vestas Wind Systems A/S (CPH:VWS) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "VWS",
+    "name": "Vestas",
+    "tier": 1,
+    "hypothesis": "wind turbines and recurring services",
+    "url": "https://stockanalysis.com/quote/cph/VWS/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Vestas Wind Systems (CPH:VWS) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "VWS",
+    "name": "Vestas",
+    "tier": 1,
+    "hypothesis": "wind turbines and recurring services",
+    "url": "https://stockanalysis.com/quote/cph/VWS/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Vestas Wind Systems (CPH:VWS), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "VWS",
+    "name": "Vestas",
+    "tier": 1,
+    "hypothesis": "wind turbines and recurring services",
+    "url": "https://stockanalysis.com/quote/cph/VWS/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Vestas Wind Systems (CPH:VWS), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "VWS",
+    "name": "Vestas",
+    "tier": 1,
+    "hypothesis": "wind turbines and recurring services",
+    "url": "https://stockanalysis.com/quote/cph/VWS/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for CPH:VWS (Vestas Wind Systems), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "VWS",
+    "name": "Vestas",
+    "tier": 1,
+    "hypothesis": "wind turbines and recurring services",
+    "url": "https://stockanalysis.com/quote/cph/VWS/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Vestas Wind Systems A/S (CPH:VWS) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "NDX1",
+    "name": "Nordex",
+    "tier": 1,
+    "hypothesis": "wind turbines",
+    "url": "https://stockanalysis.com/quote/etr/NDX1/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Nordex SE (ETR:NDX1) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "NDX1",
+    "name": "Nordex",
+    "tier": 1,
+    "hypothesis": "wind turbines",
+    "url": "https://stockanalysis.com/quote/etr/NDX1/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Nordex SE (ETR:NDX1) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "NDX1",
+    "name": "Nordex",
+    "tier": 1,
+    "hypothesis": "wind turbines",
+    "url": "https://stockanalysis.com/quote/etr/NDX1/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Nordex SE (ETR:NDX1), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "NDX1",
+    "name": "Nordex",
+    "tier": 1,
+    "hypothesis": "wind turbines",
+    "url": "https://stockanalysis.com/quote/etr/NDX1/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Nordex SE (ETR:NDX1), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "NDX1",
+    "name": "Nordex",
+    "tier": 1,
+    "hypothesis": "wind turbines",
+    "url": "https://stockanalysis.com/quote/etr/NDX1/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for ETR:NDX1 (Nordex SE), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "NDX1",
+    "name": "Nordex",
+    "tier": 1,
+    "hypothesis": "wind turbines",
+    "url": "https://stockanalysis.com/quote/etr/NDX1/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Nordex SE (ETR:NDX1) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification, drives and industrial automation",
+    "url": "https://stockanalysis.com/quote/swx/ABBN/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for ABB Ltd (SWX:ABBN) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification, drives and industrial automation",
+    "url": "https://stockanalysis.com/quote/swx/ABBN/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for ABB Ltd (SWX:ABBN) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification, drives and industrial automation",
+    "url": "https://stockanalysis.com/quote/swx/ABBN/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for ABB Ltd (SWX:ABBN), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification, drives and industrial automation",
+    "url": "https://stockanalysis.com/quote/swx/ABBN/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for ABB Ltd (SWX:ABBN), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification, drives and industrial automation",
+    "url": "https://stockanalysis.com/quote/swx/ABBN/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for SWX:ABBN (ABB Ltd), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification, drives and industrial automation",
+    "url": "https://stockanalysis.com/quote/swx/ABBN/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest ABB Ltd (SWX:ABBN) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SU",
+    "name": "Schneider Electric",
+    "tier": 2,
+    "hypothesis": "electrical power management and grid equipment",
+    "url": "https://stockanalysis.com/quote/epa/SU/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Schneider Electric S.E. (EPA:SU) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SU",
+    "name": "Schneider Electric",
+    "tier": 2,
+    "hypothesis": "electrical power management and grid equipment",
+    "url": "https://stockanalysis.com/quote/epa/SU/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Schneider Electric S.E. (EPA:SU) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "SU",
+    "name": "Schneider Electric",
+    "tier": 2,
+    "hypothesis": "electrical power management and grid equipment",
+    "url": "https://stockanalysis.com/quote/epa/SU/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Schneider Electric S.E. (EPA:SU), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "SU",
+    "name": "Schneider Electric",
+    "tier": 2,
+    "hypothesis": "electrical power management and grid equipment",
+    "url": "https://stockanalysis.com/quote/epa/SU/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Schneider Electric S.E. (EPA:SU), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "SU",
+    "name": "Schneider Electric",
+    "tier": 2,
+    "hypothesis": "electrical power management and grid equipment",
+    "url": "https://stockanalysis.com/quote/epa/SU/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for EPA:SU (Schneider Electric S.E.), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SU",
+    "name": "Schneider Electric",
+    "tier": 2,
+    "hypothesis": "electrical power management and grid equipment",
+    "url": "https://stockanalysis.com/quote/epa/SU/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Schneider Electric S.E. (EPA:SU) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "LR",
+    "name": "Legrand",
+    "tier": 2,
+    "hypothesis": "electrical infrastructure equipment",
+    "url": "https://stockanalysis.com/quote/epa/LR/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Legrand SA (EPA:LR) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "LR",
+    "name": "Legrand",
+    "tier": 2,
+    "hypothesis": "electrical infrastructure equipment",
+    "url": "https://stockanalysis.com/quote/epa/LR/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Legrand (EPA:LR) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "LR",
+    "name": "Legrand",
+    "tier": 2,
+    "hypothesis": "electrical infrastructure equipment",
+    "url": "https://stockanalysis.com/quote/epa/LR/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Legrand (EPA:LR), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "LR",
+    "name": "Legrand",
+    "tier": 2,
+    "hypothesis": "electrical infrastructure equipment",
+    "url": "https://stockanalysis.com/quote/epa/LR/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Legrand (EPA:LR), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "LR",
+    "name": "Legrand",
+    "tier": 2,
+    "hypothesis": "electrical infrastructure equipment",
+    "url": "https://stockanalysis.com/quote/epa/LR/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for EPA:LR (Legrand), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "LR",
+    "name": "Legrand",
+    "tier": 2,
+    "hypothesis": "electrical infrastructure equipment",
+    "url": "https://stockanalysis.com/quote/epa/LR/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Legrand SA (EPA:LR) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "PRY",
+    "name": "Prysmian",
+    "tier": 2,
+    "hypothesis": "power grid cables, electrification capital spending",
+    "url": "https://stockanalysis.com/quote/bit/PRY/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Prysmian S.p.A. (BIT:PRY) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "PRY",
+    "name": "Prysmian",
+    "tier": 2,
+    "hypothesis": "power grid cables, electrification capital spending",
+    "url": "https://stockanalysis.com/quote/bit/PRY/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Prysmian (BIT:PRY) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "PRY",
+    "name": "Prysmian",
+    "tier": 2,
+    "hypothesis": "power grid cables, electrification capital spending",
+    "url": "https://stockanalysis.com/quote/bit/PRY/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Prysmian (BIT:PRY), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "PRY",
+    "name": "Prysmian",
+    "tier": 2,
+    "hypothesis": "power grid cables, electrification capital spending",
+    "url": "https://stockanalysis.com/quote/bit/PRY/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Prysmian (BIT:PRY), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "PRY",
+    "name": "Prysmian",
+    "tier": 2,
+    "hypothesis": "power grid cables, electrification capital spending",
+    "url": "https://stockanalysis.com/quote/bit/PRY/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for BIT:PRY (Prysmian), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "PRY",
+    "name": "Prysmian",
+    "tier": 2,
+    "hypothesis": "power grid cables, electrification capital spending",
+    "url": "https://stockanalysis.com/quote/bit/PRY/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Prysmian S.p.A. (BIT:PRY) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "NKT",
+    "name": "NKT",
+    "tier": 2,
+    "hypothesis": "power transmission cables",
+    "url": "https://stockanalysis.com/quote/cph/NKT/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for NKT A/S (CPH:NKT) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "NKT",
+    "name": "NKT",
+    "tier": 2,
+    "hypothesis": "power transmission cables",
+    "url": "https://stockanalysis.com/quote/cph/NKT/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for NKT A/S (CPH:NKT) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "NKT",
+    "name": "NKT",
+    "tier": 2,
+    "hypothesis": "power transmission cables",
+    "url": "https://stockanalysis.com/quote/cph/NKT/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for NKT A/S (CPH:NKT), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "NKT",
+    "name": "NKT",
+    "tier": 2,
+    "hypothesis": "power transmission cables",
+    "url": "https://stockanalysis.com/quote/cph/NKT/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for NKT A/S (CPH:NKT), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "NKT",
+    "name": "NKT",
+    "tier": 2,
+    "hypothesis": "power transmission cables",
+    "url": "https://stockanalysis.com/quote/cph/NKT/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for CPH:NKT (NKT A/S), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "NKT",
+    "name": "NKT",
+    "tier": 2,
+    "hypothesis": "power transmission cables",
+    "url": "https://stockanalysis.com/quote/cph/NKT/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest NKT A/S (CPH:NKT) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "NEX",
+    "name": "Nexans",
+    "tier": 2,
+    "hypothesis": "power grid cables",
+    "url": "https://stockanalysis.com/quote/epa/NEX/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Nexans S.A. (EPA:NEX) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "NEX",
+    "name": "Nexans",
+    "tier": 2,
+    "hypothesis": "power grid cables",
+    "url": "https://stockanalysis.com/quote/epa/NEX/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Nexans (EPA:NEX) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "NEX",
+    "name": "Nexans",
+    "tier": 2,
+    "hypothesis": "power grid cables",
+    "url": "https://stockanalysis.com/quote/epa/NEX/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Nexans (EPA:NEX), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "NEX",
+    "name": "Nexans",
+    "tier": 2,
+    "hypothesis": "power grid cables",
+    "url": "https://stockanalysis.com/quote/epa/NEX/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Nexans (EPA:NEX), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "NEX",
+    "name": "Nexans",
+    "tier": 2,
+    "hypothesis": "power grid cables",
+    "url": "https://stockanalysis.com/quote/epa/NEX/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for EPA:NEX (Nexans), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "NEX",
+    "name": "Nexans",
+    "tier": 2,
+    "hypothesis": "power grid cables",
+    "url": "https://stockanalysis.com/quote/epa/NEX/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Nexans S.A. (EPA:NEX) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SIE",
+    "name": "Siemens",
+    "tier": 2,
+    "hypothesis": "industrial electrification and automation",
+    "url": "https://stockanalysis.com/quote/etr/SIE/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Siemens Aktiengesellschaft (ETR:SIE) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SIE",
+    "name": "Siemens",
+    "tier": 2,
+    "hypothesis": "industrial electrification and automation",
+    "url": "https://stockanalysis.com/quote/etr/SIE/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Siemens Aktiengesellschaft (ETR:SIE) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "SIE",
+    "name": "Siemens",
+    "tier": 2,
+    "hypothesis": "industrial electrification and automation",
+    "url": "https://stockanalysis.com/quote/etr/SIE/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Siemens Aktiengesellschaft (ETR:SIE), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "SIE",
+    "name": "Siemens",
+    "tier": 2,
+    "hypothesis": "industrial electrification and automation",
+    "url": "https://stockanalysis.com/quote/etr/SIE/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Siemens Aktiengesellschaft (ETR:SIE), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "SIE",
+    "name": "Siemens",
+    "tier": 2,
+    "hypothesis": "industrial electrification and automation",
+    "url": "https://stockanalysis.com/quote/etr/SIE/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for ETR:SIE (Siemens Aktiengesellschaft), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SIE",
+    "name": "Siemens",
+    "tier": 2,
+    "hypothesis": "industrial electrification and automation",
+    "url": "https://stockanalysis.com/quote/etr/SIE/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Siemens Aktiengesellschaft (ETR:SIE) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "WRT1V",
+    "name": "Wartsila",
+    "tier": 1,
+    "hypothesis": "power generation and marine engines/services",
+    "url": "https://stockanalysis.com/quote/hel/WRT1V/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for W\u00e4rtsil\u00e4 Oyj Abp (HEL:WRT1V) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "WRT1V",
+    "name": "Wartsila",
+    "tier": 1,
+    "hypothesis": "power generation and marine engines/services",
+    "url": "https://stockanalysis.com/quote/hel/WRT1V/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for W\u00e4rtsil\u00e4 Oyj Abp (HEL:WRT1V) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "WRT1V",
+    "name": "Wartsila",
+    "tier": 1,
+    "hypothesis": "power generation and marine engines/services",
+    "url": "https://stockanalysis.com/quote/hel/WRT1V/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for W\u00e4rtsil\u00e4 Oyj Abp (HEL:WRT1V), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "WRT1V",
+    "name": "Wartsila",
+    "tier": 1,
+    "hypothesis": "power generation and marine engines/services",
+    "url": "https://stockanalysis.com/quote/hel/WRT1V/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for W\u00e4rtsil\u00e4 Oyj Abp (HEL:WRT1V), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "WRT1V",
+    "name": "Wartsila",
+    "tier": 1,
+    "hypothesis": "power generation and marine engines/services",
+    "url": "https://stockanalysis.com/quote/hel/WRT1V/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for HEL:WRT1V (W\u00e4rtsil\u00e4 Oyj Abp), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "WRT1V",
+    "name": "Wartsila",
+    "tier": 1,
+    "hypothesis": "power generation and marine engines/services",
+    "url": "https://stockanalysis.com/quote/hel/WRT1V/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest W\u00e4rtsil\u00e4 Oyj Abp (HEL:WRT1V) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ANDR",
+    "name": "Andritz",
+    "tier": 2,
+    "hypothesis": "hydropower and industrial process equipment",
+    "url": "https://stockanalysis.com/quote/vie/ANDR/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Andritz AG (VIE:ANDR) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ANDR",
+    "name": "Andritz",
+    "tier": 2,
+    "hypothesis": "hydropower and industrial process equipment",
+    "url": "https://stockanalysis.com/quote/vie/ANDR/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Andritz AG (VIE:ANDR) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "ANDR",
+    "name": "Andritz",
+    "tier": 2,
+    "hypothesis": "hydropower and industrial process equipment",
+    "url": "https://stockanalysis.com/quote/vie/ANDR/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Andritz AG (VIE:ANDR), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "ANDR",
+    "name": "Andritz",
+    "tier": 2,
+    "hypothesis": "hydropower and industrial process equipment",
+    "url": "https://stockanalysis.com/quote/vie/ANDR/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Andritz AG (VIE:ANDR), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "ANDR",
+    "name": "Andritz",
+    "tier": 2,
+    "hypothesis": "hydropower and industrial process equipment",
+    "url": "https://stockanalysis.com/quote/vie/ANDR/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for VIE:ANDR (Andritz AG), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ANDR",
+    "name": "Andritz",
+    "tier": 2,
+    "hypothesis": "hydropower and industrial process equipment",
+    "url": "https://stockanalysis.com/quote/vie/ANDR/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Andritz AG (VIE:ANDR) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 2,
+    "hypothesis": "energy pumps and industrial flow equipment",
+    "url": "https://stockanalysis.com/quote/swx/SUN/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Sulzer AG (SWX:SUN) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 2,
+    "hypothesis": "energy pumps and industrial flow equipment",
+    "url": "https://stockanalysis.com/quote/swx/SUN/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Sulzer AG (SWX:SUN) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions CHF"
+    ]
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 2,
+    "hypothesis": "energy pumps and industrial flow equipment",
+    "url": "https://stockanalysis.com/quote/swx/SUN/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Sulzer AG (SWX:SUN), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions CHF"
+    ]
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 2,
+    "hypothesis": "energy pumps and industrial flow equipment",
+    "url": "https://stockanalysis.com/quote/swx/SUN/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Sulzer AG (SWX:SUN), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions CHF"
+    ]
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 2,
+    "hypothesis": "energy pumps and industrial flow equipment",
+    "url": "https://stockanalysis.com/quote/swx/SUN/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for SWX:SUN (Sulzer AG), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 2,
+    "hypothesis": "energy pumps and industrial flow equipment",
+    "url": "https://stockanalysis.com/quote/swx/SUN/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Sulzer AG (SWX:SUN) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ALFA",
+    "name": "Alfa Laval",
+    "tier": 2,
+    "hypothesis": "heat transfer and rotating equipment in energy/industry",
+    "url": "https://stockanalysis.com/quote/sto/ALFA/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ALFA",
+    "name": "Alfa Laval",
+    "tier": 2,
+    "hypothesis": "heat transfer and rotating equipment in energy/industry",
+    "url": "https://stockanalysis.com/quote/sto/ALFA/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ALFA",
+    "name": "Alfa Laval",
+    "tier": 2,
+    "hypothesis": "heat transfer and rotating equipment in energy/industry",
+    "url": "https://stockanalysis.com/quote/sto/ALFA/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ALFA",
+    "name": "Alfa Laval",
+    "tier": 2,
+    "hypothesis": "heat transfer and rotating equipment in energy/industry",
+    "url": "https://stockanalysis.com/quote/sto/ALFA/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ALFA",
+    "name": "Alfa Laval",
+    "tier": 2,
+    "hypothesis": "heat transfer and rotating equipment in energy/industry",
+    "url": "https://stockanalysis.com/quote/sto/ALFA/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ALFA",
+    "name": "Alfa Laval",
+    "tier": 2,
+    "hypothesis": "heat transfer and rotating equipment in energy/industry",
+    "url": "https://stockanalysis.com/quote/sto/ALFA/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ATCO.A",
+    "name": "Atlas Copco",
+    "tier": 2,
+    "hypothesis": "compressors and industrial energy equipment",
+    "url": "https://stockanalysis.com/quote/sto/ATCO.A/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Atlas Copco AB (publ) (STO:ATCO.A) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ATCO.A",
+    "name": "Atlas Copco",
+    "tier": 2,
+    "hypothesis": "compressors and industrial energy equipment",
+    "url": "https://stockanalysis.com/quote/sto/ATCO.A/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Atlas Copco AB (STO:ATCO.A) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions SEK"
+    ]
+  },
+  {
+    "ticker": "ATCO.A",
+    "name": "Atlas Copco",
+    "tier": 2,
+    "hypothesis": "compressors and industrial energy equipment",
+    "url": "https://stockanalysis.com/quote/sto/ATCO.A/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Atlas Copco AB (STO:ATCO.A), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions SEK"
+    ]
+  },
+  {
+    "ticker": "ATCO.A",
+    "name": "Atlas Copco",
+    "tier": 2,
+    "hypothesis": "compressors and industrial energy equipment",
+    "url": "https://stockanalysis.com/quote/sto/ATCO.A/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Atlas Copco AB (STO:ATCO.A), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions SEK"
+    ]
+  },
+  {
+    "ticker": "ATCO.A",
+    "name": "Atlas Copco",
+    "tier": 2,
+    "hypothesis": "compressors and industrial energy equipment",
+    "url": "https://stockanalysis.com/quote/sto/ATCO.A/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for STO:ATCO.A (Atlas Copco AB), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ATCO.A",
+    "name": "Atlas Copco",
+    "tier": 2,
+    "hypothesis": "compressors and industrial energy equipment",
+    "url": "https://stockanalysis.com/quote/sto/ATCO.A/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Atlas Copco AB (publ) (STO:ATCO.A) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SAND",
+    "name": "Sandvik",
+    "tier": 3,
+    "hypothesis": "mining and metal cutting equipment; different demand drivers",
+    "url": "https://stockanalysis.com/quote/sto/SAND/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Sandvik AB (publ) (STO:SAND) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SAND",
+    "name": "Sandvik",
+    "tier": 3,
+    "hypothesis": "mining and metal cutting equipment; different demand drivers",
+    "url": "https://stockanalysis.com/quote/sto/SAND/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Sandvik AB (STO:SAND) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions SEK"
+    ]
+  },
+  {
+    "ticker": "SAND",
+    "name": "Sandvik",
+    "tier": 3,
+    "hypothesis": "mining and metal cutting equipment; different demand drivers",
+    "url": "https://stockanalysis.com/quote/sto/SAND/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Sandvik AB (STO:SAND), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions SEK"
+    ]
+  },
+  {
+    "ticker": "SAND",
+    "name": "Sandvik",
+    "tier": 3,
+    "hypothesis": "mining and metal cutting equipment; different demand drivers",
+    "url": "https://stockanalysis.com/quote/sto/SAND/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Sandvik AB (STO:SAND), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions SEK"
+    ]
+  },
+  {
+    "ticker": "SAND",
+    "name": "Sandvik",
+    "tier": 3,
+    "hypothesis": "mining and metal cutting equipment; different demand drivers",
+    "url": "https://stockanalysis.com/quote/sto/SAND/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for STO:SAND (Sandvik AB), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SAND",
+    "name": "Sandvik",
+    "tier": 3,
+    "hypothesis": "mining and metal cutting equipment; different demand drivers",
+    "url": "https://stockanalysis.com/quote/sto/SAND/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Sandvik AB (publ) (STO:SAND) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "METSO",
+    "name": "Metso",
+    "tier": 3,
+    "hypothesis": "minerals processing; different end market",
+    "url": "https://stockanalysis.com/quote/hel/METSO/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Metso Oyj (HEL:METSO) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "METSO",
+    "name": "Metso",
+    "tier": 3,
+    "hypothesis": "minerals processing; different end market",
+    "url": "https://stockanalysis.com/quote/hel/METSO/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Metso Oyj (HEL:METSO) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "METSO",
+    "name": "Metso",
+    "tier": 3,
+    "hypothesis": "minerals processing; different end market",
+    "url": "https://stockanalysis.com/quote/hel/METSO/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Metso Oyj (HEL:METSO), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "METSO",
+    "name": "Metso",
+    "tier": 3,
+    "hypothesis": "minerals processing; different end market",
+    "url": "https://stockanalysis.com/quote/hel/METSO/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Metso Oyj (HEL:METSO), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "METSO",
+    "name": "Metso",
+    "tier": 3,
+    "hypothesis": "minerals processing; different end market",
+    "url": "https://stockanalysis.com/quote/hel/METSO/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for HEL:METSO (Metso Oyj), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "METSO",
+    "name": "Metso",
+    "tier": 3,
+    "hypothesis": "minerals processing; different end market",
+    "url": "https://stockanalysis.com/quote/hel/METSO/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Metso Oyj (HEL:METSO) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "WEIR",
+    "name": "Weir",
+    "tier": 3,
+    "hypothesis": "mining pumps; different end market",
+    "url": "https://stockanalysis.com/quote/lon/WEIR/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Weir PLC (LON:WEIR) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "WEIR",
+    "name": "Weir",
+    "tier": 3,
+    "hypothesis": "mining pumps; different end market",
+    "url": "https://stockanalysis.com/quote/lon/WEIR/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Weir PLC (LON:WEIR) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions GBP"
+    ]
+  },
+  {
+    "ticker": "WEIR",
+    "name": "Weir",
+    "tier": 3,
+    "hypothesis": "mining pumps; different end market",
+    "url": "https://stockanalysis.com/quote/lon/WEIR/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Weir PLC (LON:WEIR), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions GBP"
+    ]
+  },
+  {
+    "ticker": "WEIR",
+    "name": "Weir",
+    "tier": 3,
+    "hypothesis": "mining pumps; different end market",
+    "url": "https://stockanalysis.com/quote/lon/WEIR/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Weir PLC (LON:WEIR), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions GBP"
+    ]
+  },
+  {
+    "ticker": "WEIR",
+    "name": "Weir",
+    "tier": 3,
+    "hypothesis": "mining pumps; different end market",
+    "url": "https://stockanalysis.com/quote/lon/WEIR/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for LON:WEIR (Weir PLC), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "WEIR",
+    "name": "Weir",
+    "tier": 3,
+    "hypothesis": "mining pumps; different end market",
+    "url": "https://stockanalysis.com/quote/lon/WEIR/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Weir PLC (LON:WEIR) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "IMI",
+    "name": "IMI",
+    "tier": 2,
+    "hypothesis": "industrial and power flow control",
+    "url": "https://stockanalysis.com/quote/lon/IMI/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for IMI plc (LON:IMI) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "IMI",
+    "name": "IMI",
+    "tier": 2,
+    "hypothesis": "industrial and power flow control",
+    "url": "https://stockanalysis.com/quote/lon/IMI/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for IMI plc (LON:IMI) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions GBP"
+    ]
+  },
+  {
+    "ticker": "IMI",
+    "name": "IMI",
+    "tier": 2,
+    "hypothesis": "industrial and power flow control",
+    "url": "https://stockanalysis.com/quote/lon/IMI/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for IMI plc (LON:IMI), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions GBP"
+    ]
+  },
+  {
+    "ticker": "IMI",
+    "name": "IMI",
+    "tier": 2,
+    "hypothesis": "industrial and power flow control",
+    "url": "https://stockanalysis.com/quote/lon/IMI/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for IMI plc (LON:IMI), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions GBP"
+    ]
+  },
+  {
+    "ticker": "IMI",
+    "name": "IMI",
+    "tier": 2,
+    "hypothesis": "industrial and power flow control",
+    "url": "https://stockanalysis.com/quote/lon/IMI/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for LON:IMI (IMI plc), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "IMI",
+    "name": "IMI",
+    "tier": 2,
+    "hypothesis": "industrial and power flow control",
+    "url": "https://stockanalysis.com/quote/lon/IMI/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest IMI plc (LON:IMI) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ROR",
+    "name": "Rotork",
+    "tier": 2,
+    "hypothesis": "energy flow-control actuators",
+    "url": "https://stockanalysis.com/quote/lon/ROR/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Rotork plc (LON:ROR) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ROR",
+    "name": "Rotork",
+    "tier": 2,
+    "hypothesis": "energy flow-control actuators",
+    "url": "https://stockanalysis.com/quote/lon/ROR/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Rotork (LON:ROR) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions GBP"
+    ]
+  },
+  {
+    "ticker": "ROR",
+    "name": "Rotork",
+    "tier": 2,
+    "hypothesis": "energy flow-control actuators",
+    "url": "https://stockanalysis.com/quote/lon/ROR/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Rotork (LON:ROR), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions GBP"
+    ]
+  },
+  {
+    "ticker": "ROR",
+    "name": "Rotork",
+    "tier": 2,
+    "hypothesis": "energy flow-control actuators",
+    "url": "https://stockanalysis.com/quote/lon/ROR/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Rotork (LON:ROR), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions GBP"
+    ]
+  },
+  {
+    "ticker": "ROR",
+    "name": "Rotork",
+    "tier": 2,
+    "hypothesis": "energy flow-control actuators",
+    "url": "https://stockanalysis.com/quote/lon/ROR/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for LON:ROR (Rotork), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ROR",
+    "name": "Rotork",
+    "tier": 2,
+    "hypothesis": "energy flow-control actuators",
+    "url": "https://stockanalysis.com/quote/lon/ROR/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Rotork plc (LON:ROR) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SPX",
+    "name": "Spirax",
+    "tier": 2,
+    "hypothesis": "industrial thermal energy management",
+    "url": "https://stockanalysis.com/quote/lon/SPX/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Spirax Group plc (LON:SPX) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SPX",
+    "name": "Spirax",
+    "tier": 2,
+    "hypothesis": "industrial thermal energy management",
+    "url": "https://stockanalysis.com/quote/lon/SPX/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Spirax Group (LON:SPX) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions GBP"
+    ]
+  },
+  {
+    "ticker": "SPX",
+    "name": "Spirax",
+    "tier": 2,
+    "hypothesis": "industrial thermal energy management",
+    "url": "https://stockanalysis.com/quote/lon/SPX/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Spirax Group (LON:SPX), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions GBP"
+    ]
+  },
+  {
+    "ticker": "SPX",
+    "name": "Spirax",
+    "tier": 2,
+    "hypothesis": "industrial thermal energy management",
+    "url": "https://stockanalysis.com/quote/lon/SPX/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Spirax Group (LON:SPX), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions GBP"
+    ]
+  },
+  {
+    "ticker": "SPX",
+    "name": "Spirax",
+    "tier": 2,
+    "hypothesis": "industrial thermal energy management",
+    "url": "https://stockanalysis.com/quote/lon/SPX/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for LON:SPX (Spirax Group), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SPX",
+    "name": "Spirax",
+    "tier": 2,
+    "hypothesis": "industrial thermal energy management",
+    "url": "https://stockanalysis.com/quote/lon/SPX/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Spirax Group plc (LON:SPX) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "G1A",
+    "name": "GEA",
+    "tier": 3,
+    "hypothesis": "food processing equipment; different end market",
+    "url": "https://stockanalysis.com/quote/etr/G1A/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for GEA Group Aktiengesellschaft (ETR:G1A) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "G1A",
+    "name": "GEA",
+    "tier": 3,
+    "hypothesis": "food processing equipment; different end market",
+    "url": "https://stockanalysis.com/quote/etr/G1A/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for GEA Group Aktiengesellschaft (ETR:G1A) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "G1A",
+    "name": "GEA",
+    "tier": 3,
+    "hypothesis": "food processing equipment; different end market",
+    "url": "https://stockanalysis.com/quote/etr/G1A/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for GEA Group Aktiengesellschaft (ETR:G1A), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "G1A",
+    "name": "GEA",
+    "tier": 3,
+    "hypothesis": "food processing equipment; different end market",
+    "url": "https://stockanalysis.com/quote/etr/G1A/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for GEA Group Aktiengesellschaft (ETR:G1A), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "G1A",
+    "name": "GEA",
+    "tier": 3,
+    "hypothesis": "food processing equipment; different end market",
+    "url": "https://stockanalysis.com/quote/etr/G1A/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for ETR:G1A (GEA Group Aktiengesellschaft), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "G1A",
+    "name": "GEA",
+    "tier": 3,
+    "hypothesis": "food processing equipment; different end market",
+    "url": "https://stockanalysis.com/quote/etr/G1A/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest GEA Group Aktiengesellschaft (ETR:G1A) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SKF.B",
+    "name": "SKF",
+    "tier": 2,
+    "hypothesis": "bearings for wind and rotating industrial machinery",
+    "url": "https://stockanalysis.com/quote/sto/SKF.B/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for AB SKF (publ) (STO:SKF.B) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SKF.B",
+    "name": "SKF",
+    "tier": 2,
+    "hypothesis": "bearings for wind and rotating industrial machinery",
+    "url": "https://stockanalysis.com/quote/sto/SKF.B/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for AB SKF (STO:SKF.B) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions SEK"
+    ]
+  },
+  {
+    "ticker": "SKF.B",
+    "name": "SKF",
+    "tier": 2,
+    "hypothesis": "bearings for wind and rotating industrial machinery",
+    "url": "https://stockanalysis.com/quote/sto/SKF.B/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for AB SKF (STO:SKF.B), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions SEK"
+    ]
+  },
+  {
+    "ticker": "SKF.B",
+    "name": "SKF",
+    "tier": 2,
+    "hypothesis": "bearings for wind and rotating industrial machinery",
+    "url": "https://stockanalysis.com/quote/sto/SKF.B/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for AB SKF (STO:SKF.B), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions SEK"
+    ]
+  },
+  {
+    "ticker": "SKF.B",
+    "name": "SKF",
+    "tier": 2,
+    "hypothesis": "bearings for wind and rotating industrial machinery",
+    "url": "https://stockanalysis.com/quote/sto/SKF.B/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for STO:SKF.B (AB SKF), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SKF.B",
+    "name": "SKF",
+    "tier": 2,
+    "hypothesis": "bearings for wind and rotating industrial machinery",
+    "url": "https://stockanalysis.com/quote/sto/SKF.B/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest AB SKF (publ) (STO:SKF.B) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SMIN",
+    "name": "Smiths",
+    "tier": 3,
+    "hypothesis": "diversified technology; portfolio-change screen",
+    "url": "https://stockanalysis.com/quote/lon/SMIN/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Smiths Group plc (LON:SMIN) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SMIN",
+    "name": "Smiths",
+    "tier": 3,
+    "hypothesis": "diversified technology; portfolio-change screen",
+    "url": "https://stockanalysis.com/quote/lon/SMIN/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Smiths Group (LON:SMIN) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions GBP"
+    ]
+  },
+  {
+    "ticker": "SMIN",
+    "name": "Smiths",
+    "tier": 3,
+    "hypothesis": "diversified technology; portfolio-change screen",
+    "url": "https://stockanalysis.com/quote/lon/SMIN/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Smiths Group (LON:SMIN), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions GBP"
+    ]
+  },
+  {
+    "ticker": "SMIN",
+    "name": "Smiths",
+    "tier": 3,
+    "hypothesis": "diversified technology; portfolio-change screen",
+    "url": "https://stockanalysis.com/quote/lon/SMIN/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Smiths Group (LON:SMIN), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions GBP"
+    ]
+  },
+  {
+    "ticker": "SMIN",
+    "name": "Smiths",
+    "tier": 3,
+    "hypothesis": "diversified technology; portfolio-change screen",
+    "url": "https://stockanalysis.com/quote/lon/SMIN/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for LON:SMIN (Smiths Group), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SMIN",
+    "name": "Smiths",
+    "tier": 3,
+    "hypothesis": "diversified technology; portfolio-change screen",
+    "url": "https://stockanalysis.com/quote/lon/SMIN/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Smiths Group plc (LON:SMIN) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "EPI.A",
+    "name": "Epiroc",
+    "tier": 3,
+    "hypothesis": "mining equipment; different end market",
+    "url": "https://stockanalysis.com/quote/sto/EPI.A/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Epiroc AB (publ) (STO:EPI.A) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "EPI.A",
+    "name": "Epiroc",
+    "tier": 3,
+    "hypothesis": "mining equipment; different end market",
+    "url": "https://stockanalysis.com/quote/sto/EPI.A/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Epiroc AB (STO:EPI.A) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions SEK"
+    ]
+  },
+  {
+    "ticker": "EPI.A",
+    "name": "Epiroc",
+    "tier": 3,
+    "hypothesis": "mining equipment; different end market",
+    "url": "https://stockanalysis.com/quote/sto/EPI.A/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Epiroc AB (STO:EPI.A), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions SEK"
+    ]
+  },
+  {
+    "ticker": "EPI.A",
+    "name": "Epiroc",
+    "tier": 3,
+    "hypothesis": "mining equipment; different end market",
+    "url": "https://stockanalysis.com/quote/sto/EPI.A/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Epiroc AB (STO:EPI.A), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions SEK"
+    ]
+  },
+  {
+    "ticker": "EPI.A",
+    "name": "Epiroc",
+    "tier": 3,
+    "hypothesis": "mining equipment; different end market",
+    "url": "https://stockanalysis.com/quote/sto/EPI.A/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for STO:EPI.A (Epiroc AB), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "EPI.A",
+    "name": "Epiroc",
+    "tier": 3,
+    "hypothesis": "mining equipment; different end market",
+    "url": "https://stockanalysis.com/quote/sto/EPI.A/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Epiroc AB (publ) (STO:EPI.A) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "GEV",
+    "name": "GE Vernova",
+    "tier": 1,
+    "hypothesis": "power generation wind and grids; spin-off screen",
+    "url": "https://stockanalysis.com/stocks/gev/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for GE Vernova Inc. (GEV) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "GEV",
+    "name": "GE Vernova",
+    "tier": 1,
+    "hypothesis": "power generation wind and grids; spin-off screen",
+    "url": "https://stockanalysis.com/stocks/gev/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for GE Vernova (GEV) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "GEV",
+    "name": "GE Vernova",
+    "tier": 1,
+    "hypothesis": "power generation wind and grids; spin-off screen",
+    "url": "https://stockanalysis.com/stocks/gev/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for GE Vernova (GEV), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "GEV",
+    "name": "GE Vernova",
+    "tier": 1,
+    "hypothesis": "power generation wind and grids; spin-off screen",
+    "url": "https://stockanalysis.com/stocks/gev/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for GE Vernova (GEV), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "GEV",
+    "name": "GE Vernova",
+    "tier": 1,
+    "hypothesis": "power generation wind and grids; spin-off screen",
+    "url": "https://stockanalysis.com/stocks/gev/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A complete stock price history for GE Vernova Inc. (GEV) stock, starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "GEV",
+    "name": "GE Vernova",
+    "tier": 1,
+    "hypothesis": "power generation wind and grids; spin-off screen",
+    "url": "https://stockanalysis.com/stocks/gev/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A detailed overview of GE Vernova Inc. (GEV) stock, including real-time price, chart, key statistics, news, and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ETN",
+    "name": "Eaton",
+    "tier": 2,
+    "hypothesis": "power management; World expansion only",
+    "url": "https://stockanalysis.com/stocks/etn/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Eaton Corporation plc (ETN) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ETN",
+    "name": "Eaton",
+    "tier": 2,
+    "hypothesis": "power management; World expansion only",
+    "url": "https://stockanalysis.com/stocks/etn/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Eaton Corporation (ETN) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "ETN",
+    "name": "Eaton",
+    "tier": 2,
+    "hypothesis": "power management; World expansion only",
+    "url": "https://stockanalysis.com/stocks/etn/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Eaton Corporation (ETN), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "ETN",
+    "name": "Eaton",
+    "tier": 2,
+    "hypothesis": "power management; World expansion only",
+    "url": "https://stockanalysis.com/stocks/etn/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Eaton Corporation (ETN), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "ETN",
+    "name": "Eaton",
+    "tier": 2,
+    "hypothesis": "power management; World expansion only",
+    "url": "https://stockanalysis.com/stocks/etn/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A complete stock price history for Eaton Corporation plc (ETN) stock, starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ETN",
+    "name": "Eaton",
+    "tier": 2,
+    "hypothesis": "power management; World expansion only",
+    "url": "https://stockanalysis.com/stocks/etn/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A detailed overview of Eaton Corporation plc (ETN) stock, including real-time price, chart, key statistics, news, and more."
+    ],
+    "units": []
+  }
+]

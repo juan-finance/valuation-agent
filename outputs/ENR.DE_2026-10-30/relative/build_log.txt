@@ -1,0 +1,40 @@
+{
+  "peers": [
+    "WRT1V",
+    "VWS",
+    "SAND",
+    "ETN",
+    "SU",
+    "G1A",
+    "LR",
+    "METSO",
+    "ALFA",
+    "SPX"
+  ],
+  "primary_PE": 71.47186144900131,
+  "regression": {
+    "model": "PBV",
+    "predicted": 2.984224881079507,
+    "published_r2": 0.423,
+    "value_per_share": 35.939510019407486,
+    "actual": 10.538782642461896,
+    "actual_predicted_gap": 2.5314974783836064,
+    "unit_alternative": {
+      "as_published_note": 2.984224881079507,
+      "dfr_tax_percent_points": 2.984224881079507,
+      "max_abs_difference": 0.0,
+      "max_relative_difference": 0.0,
+      "uses_dfr_or_tax": false
+    },
+    "equation": "$\\text{PBV} = \\underset{(3.70)}{0.73} + \\underset{(5.87)}{3.92} \\, g_{\\text{EPS}} + \\underset{(1.38)}{0.13} \\, \\text{Beta} + \\underset{(24.81)}{10.75} \\, \\text{ROE} - \\underset{(2.43)}{0.25} \\, \\text{Payout Ratio}$",
+    "dataset": "regressions_multi_2026-01",
+    "sha256": "a894ea86f209d59c68c57ba5674ee096ee875cf9726af2cfe84ec212af1d9bf5",
+    "as_of": "2026-01-01",
+    "region": {
+      "region_used": "EUROPE",
+      "level": "exact"
+    },
+    "match_level": "exact",
+    "warnings": []
+  }
+}

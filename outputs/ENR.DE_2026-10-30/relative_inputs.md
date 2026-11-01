@@ -1,5 +1,7 @@
 # Siemens Energy AG (ENR.DE): reduced relative-only inputs
 
+Stage3 share check: issuer share page (https://www.siemens-energy.com/global/en/home/investor-relations/share.html, accessed2026-11-01) states850m issued asof2026-10-13 versus uniform vendor855.34m outstanding. Difference0.628235%; price×vendor shares reconciles rounded cap within0.00023%, but that does not validate the outstanding-share definition. Numerical base retains vendor for consistency;850m sensitivity raises every fixed-equity per-share output0.628235%. Treasury/outstanding reconciliation remains unresolved; outputs provisional.
+
 Valuation date: 2026-10-30. Accessed: 2026-11-01. EUR quotation on Xetra; consolidated financial reporting in EUR millions. Fiscal year 2025: 2024-10-01–2025-09-30; no calendarization or TTM/FY mixing. Germany/EUR already present in the dated cache; no stage-0 rebuild/top-up. Standard / published_damodaran / web_minimum. User explicitly requests a short PDF despite the standing no-PDF clause. No DCF or stage-4 recommendation.
 
 | Input | Value | Basis |

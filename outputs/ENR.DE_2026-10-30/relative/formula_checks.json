@@ -1,0 +1,73 @@
+[
+  {
+    "check": "PE",
+    "prediction_delta": 4.618527782440651e-14,
+    "share_value_delta": 4.263256414560601e-14,
+    "formula": "=9.72+(2.99)*Inputs!B3+(49.82)*Inputs!B2+(7.98)*Inputs!B5",
+    "status": "PASS"
+  },
+  {
+    "check": "PBV",
+    "prediction_delta": 3.1086244689504383e-15,
+    "share_value_delta": 1.4210854715202004e-14,
+    "formula": "=0.73+(3.92)*Inputs!B2+(0.13)*Inputs!B3+(10.75)*Inputs!B4+(-0.25)*Inputs!B5",
+    "status": "PASS"
+  },
+  {
+    "check": "EV/EBITDA",
+    "prediction_delta": 2.842170943040401e-14,
+    "share_value_delta": 2.842170943040401e-14,
+    "formula": "=18.15+(35.25)*Inputs!B6+(-0.11)*Inputs!B7+(-0.12)*Inputs!B8+(2.29)*Inputs!B9",
+    "status": "PASS"
+  },
+  {
+    "check": "score WRT1V",
+    "delta": 1.7763568394002505e-15,
+    "status": "PASS"
+  },
+  {
+    "check": "score VWS",
+    "delta": 2.6645352591003757e-15,
+    "status": "PASS"
+  },
+  {
+    "check": "score SAND",
+    "delta": 2.220446049250313e-15,
+    "status": "PASS"
+  },
+  {
+    "check": "score ETN",
+    "delta": 3.1086244689504383e-15,
+    "status": "PASS"
+  },
+  {
+    "check": "score SU",
+    "delta": 3.1086244689504383e-15,
+    "status": "PASS"
+  },
+  {
+    "check": "score G1A",
+    "delta": 8.881784197001252e-16,
+    "status": "PASS"
+  },
+  {
+    "check": "score LR",
+    "delta": 0.0,
+    "status": "PASS"
+  },
+  {
+    "check": "score METSO",
+    "delta": 3.9968028886505635e-15,
+    "status": "PASS"
+  },
+  {
+    "check": "score ALFA",
+    "delta": 4.440892098500626e-16,
+    "status": "PASS"
+  },
+  {
+    "check": "score SPX",
+    "delta": 2.220446049250313e-15,
+    "status": "PASS"
+  }
+]

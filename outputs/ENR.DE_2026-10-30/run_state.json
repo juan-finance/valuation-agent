@@ -18,10 +18,43 @@
       "next_step": ""
     },
     "stage3_relative": {
-      "status": "pending",
-      "notes": [],
-      "outputs": [],
-      "next_step": ""
+      "status": "provisional",
+      "notes": [
+        "2026-11-01T16:33:19+00:00 10 numerical peers; 7 Tier1/2,3 Tier3,9Europe, cap4 relaxation. PE fallback; regression PBV. Not an unqualified final valuation.",
+        "2026-11-01T16:33:19+00:00 Numerical deliverables complete/recalculated; candidate-source qualification, normalization and human Spot_check not complete."
+      ],
+      "outputs": [
+        "outputs/ENR.DE_2026-10-30/relative/finalize_stage3.py",
+        "outputs/ENR.DE_2026-10-30/relative/build_log.txt",
+        "outputs/ENR.DE_2026-10-30/relative/candidate_fetch_manifest.json",
+        "outputs/ENR.DE_2026-10-30/relative/multiples_summary.csv",
+        "outputs/ENR.DE_2026-10-30/relative/source_log.csv",
+        "outputs/ENR.DE_2026-10-30/relative/comparables_report.md",
+        "outputs/ENR.DE_2026-10-30/relative/candidate_raw.csv",
+        "outputs/ENR.DE_2026-10-30/relative/industry_benchmarks.json",
+        "outputs/ENR.DE_2026-10-30/relative/world_pool_membership.csv",
+        "outputs/ENR.DE_2026-10-30/relative/comparables_audit.xlsx",
+        "outputs/ENR.DE_2026-10-30/relative/normalize.py",
+        "outputs/ENR.DE_2026-10-30/relative/normalization_log.txt",
+        "outputs/ENR.DE_2026-10-30/relative/peer_ev_checks.csv",
+        "outputs/ENR.DE_2026-10-30/relative/regression_results.json",
+        "outputs/ENR.DE_2026-10-30/relative/build.py",
+        "outputs/ENR.DE_2026-10-30/relative/sensitivities.csv",
+        "outputs/ENR.DE_2026-10-30/relative/world_candidate_membership.csv",
+        "outputs/ENR.DE_2026-10-30/relative/collect.py",
+        "outputs/ENR.DE_2026-10-30/relative/candidate_gates.csv",
+        "outputs/ENR.DE_2026-10-30/relative/formula_checks.json",
+        "outputs/ENR.DE_2026-10-30/relative/valuation_summary.md",
+        "outputs/ENR.DE_2026-10-30/relative/evidence_review.md",
+        "outputs/ENR.DE_2026-10-30/relative/regression_valuation.xlsx",
+        "outputs/ENR.DE_2026-10-30/relative/comparables.csv",
+        "outputs/ENR.DE_2026-10-30/relative/peer_selection.json",
+        "outputs/ENR.DE_2026-10-30/relative/valuation_multiples.csv"
+      ],
+      "next_step": "QA block C once, then required PDF/plaintext; evidence gates and human review remain unresolved",
+      "started": "2026-11-01T16:24:24+00:00",
+      "finished": "2026-11-01T16:33:19+00:00",
+      "elapsed_min": 8.9
     },
     "stage4_recommendation": {
       "status": "skipped_by_deviation",

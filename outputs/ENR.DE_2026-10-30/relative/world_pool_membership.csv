@@ -1,0 +1,19 @@
+Ticker,Name,Sector,Asset Class,Market Value,Weight (%),Notional Value,Quantity,Price,Location,Exchange,Currency,FX Rate,Market Currency,Accrual Date
+GEV,GE VERNOVA,Industrials,Equity,"23,975,501.40",0.26,"23,975,501.40","27,004.00",887.85,United States,NYSE,USD,1.0,USD,-
+SIE,SIEMENS N AG,Industrials,Equity,"22,173,096.20",0.24,"22,173,096.20","72,559.00",305.59,Germany,Xetra,USD,0.9,EUR,-
+ETN,EATON PLC,Industrials,Equity,"15,279,485.76",0.17,"15,279,485.76","38,808.00",393.72,United States,NYSE,USD,1.0,USD,-
+SU,SCHNEIDER ELECTRIC,Industrials,Equity,"15,147,876.20",0.17,"15,147,876.20","54,805.00",276.39,France,Nyse Euronext - Euronext Paris,USD,0.9,EUR,-
+ABBN,ABB LTD,Industrials,Equity,"13,921,938.34",0.15,"13,921,938.34","157,431.00",88.43,Switzerland,SIX Swiss Exchange,USD,0.83,CHF,-
+ENR,SIEMENS ENERGY N AG,Industrials,Equity,"11,870,350.01",0.13,"11,870,350.01","78,028.00",152.13,Germany,Xetra,USD,0.9,EUR,-
+SU,SUNCOR ENERGY INC,Energy,Equity,"9,282,141.87",0.1,"9,282,141.87","119,412.00",77.73,Canada,Toronto Stock Exchange,USD,1.4,CAD,-
+SAND,SANDVIK,Industrials,Equity,"3,891,048.03",0.04,"3,891,048.03","105,326.00",36.94,Sweden,Nasdaq Omx Nordic,USD,9.86,SEK,-
+LR,LEGRAND SA,Industrials,Equity,"3,743,277.40",0.04,"3,743,277.40","24,913.00",150.25,France,Nyse Euronext - Euronext Paris,USD,0.9,EUR,-
+PRY,PRYSMIAN,Industrials,Equity,"3,655,107.01",0.04,"3,655,107.01","28,497.00",128.26,Italy,Borsa Italiana,USD,0.9,EUR,-
+VWS,VESTAS WIND SYSTEMS,Industrials,Equity,"2,724,320.61",0.03,"2,724,320.61","94,849.00",28.72,Denmark,Omx Nordic Exchange Copenhagen A/S,USD,6.7,DKK,-
+ALFA,ALFA LAVAL,Industrials,Equity,"1,614,884.71",0.02,"1,614,884.71","28,938.00",55.80,Sweden,Nasdaq Omx Nordic,USD,9.86,SEK,-
+SUN,SUNCORP GROUP,Financials,Equity,"1,514,129.14",0.02,"1,514,129.14","110,149.00",13.75,Australia,Asx - All Markets,USD,1.42,AUD,-
+WRT1V,WARTSILA,Industrials,Equity,"1,470,427.51",0.02,"1,470,427.51","49,632.00",29.63,Finland,Nasdaq Omx Helsinki Ltd.,USD,0.9,EUR,-
+SMIN,SMITHS GROUP PLC,Industrials,Equity,"1,310,660.77",0.01,"1,310,660.77","35,768.00",36.64,United Kingdom,London Stock Exchange,USD,0.75,GBP,-
+METSO,METSO CORPORATION,Industrials,Equity,"1,212,010.27",0.01,"1,212,010.27","62,687.00",19.33,Finland,Nasdaq Omx Helsinki Ltd.,USD,0.9,EUR,-
+G1A,GEA GROUP AG,Industrials,Equity,"1,086,094.26",0.01,"1,086,094.26","14,266.00",76.13,Germany,Xetra,USD,0.9,EUR,-
+SPX,SPIRAX GROUP PLC,Industrials,Equity,"660,981.23",0.01,"660,981.23","6,555.00",100.84,United Kingdom,London Stock Exchange,USD,0.75,GBP,-
