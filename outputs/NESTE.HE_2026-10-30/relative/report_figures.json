@@ -1,0 +1,23 @@
+{
+  "ticker": "NESTE.HE",
+  "valuation_date": "2026-10-30",
+  "current_price": 28.34,
+  "quote_currency": "EUR",
+  "shares_m": 768.28,
+  "peer_count": 10,
+  "tier12": 8,
+  "tier3": 2,
+  "europe": 8,
+  "raw_evebitda_median": 8.388417618412308,
+  "scaled_evebitda_median": NaN,
+  "peer_indicative": 7.305385280230431,
+  "peer_iqr_low": 4.564674461033476,
+  "peer_iqr_high": 9.56306561331822,
+  "peer_upside": -0.7422235257505141,
+  "regression_pbv": 7.277527984588953,
+  "qa": {
+    "PASS": 30,
+    "FAIL": 9,
+    "N/A": 9
+  }
+}

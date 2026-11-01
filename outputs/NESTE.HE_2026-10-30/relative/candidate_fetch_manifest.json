@@ -1,0 +1,2948 @@
+[
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "NESTE",
+    "name": "Neste",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/hel/NESTE/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "GALP",
+    "name": "Galp Energia",
+    "tier": 1,
+    "hypothesis": "integrated energy with refining and biofuels",
+    "url": "https://stockanalysis.com/quote/lis/GALP/statistics/",
+    "page": "statistics",
+    "status": 404,
+    "cache": "new extract"
+  },
+  {
+    "ticker": "GALP",
+    "name": "Galp Energia",
+    "tier": 1,
+    "hypothesis": "integrated energy with refining and biofuels",
+    "url": "https://stockanalysis.com/quote/lis/GALP/financials/",
+    "page": "financials",
+    "status": 404,
+    "cache": "new extract"
+  },
+  {
+    "ticker": "GALP",
+    "name": "Galp Energia",
+    "tier": 1,
+    "hypothesis": "integrated energy with refining and biofuels",
+    "url": "https://stockanalysis.com/quote/lis/GALP/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 404,
+    "cache": "new extract"
+  },
+  {
+    "ticker": "GALP",
+    "name": "Galp Energia",
+    "tier": 1,
+    "hypothesis": "integrated energy with refining and biofuels",
+    "url": "https://stockanalysis.com/quote/lis/GALP/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 404,
+    "cache": "new extract"
+  },
+  {
+    "ticker": "GALP",
+    "name": "Galp Energia",
+    "tier": 1,
+    "hypothesis": "integrated energy with refining and biofuels",
+    "url": "https://stockanalysis.com/quote/lis/GALP/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 404,
+    "cache": "new extract"
+  },
+  {
+    "ticker": "GALP",
+    "name": "Galp Energia",
+    "tier": 1,
+    "hypothesis": "integrated energy with refining and biofuels",
+    "url": "https://stockanalysis.com/quote/lis/GALP/history/",
+    "page": "history",
+    "status": 404,
+    "cache": "new extract"
+  },
+  {
+    "ticker": "GALP",
+    "name": "Galp Energia",
+    "tier": 1,
+    "hypothesis": "integrated energy with refining and biofuels",
+    "url": "https://stockanalysis.com/quote/lis/GALP/",
+    "page": "profile",
+    "status": 404,
+    "cache": "new extract"
+  },
+  {
+    "ticker": "VBK",
+    "name": "Verbio",
+    "tier": 1,
+    "hypothesis": "biofuels and renewable energy producer",
+    "url": "https://stockanalysis.com/quote/etr/VBK/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Verbio SE (ETR:VBK) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "VBK",
+    "name": "Verbio",
+    "tier": 1,
+    "hypothesis": "biofuels and renewable energy producer",
+    "url": "https://stockanalysis.com/quote/etr/VBK/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Verbio SE (ETR:VBK) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "VBK",
+    "name": "Verbio",
+    "tier": 1,
+    "hypothesis": "biofuels and renewable energy producer",
+    "url": "https://stockanalysis.com/quote/etr/VBK/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Verbio SE (ETR:VBK). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "VBK",
+    "name": "Verbio",
+    "tier": 1,
+    "hypothesis": "biofuels and renewable energy producer",
+    "url": "https://stockanalysis.com/quote/etr/VBK/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Verbio SE (ETR:VBK), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "VBK",
+    "name": "Verbio",
+    "tier": 1,
+    "hypothesis": "biofuels and renewable energy producer",
+    "url": "https://stockanalysis.com/quote/etr/VBK/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Verbio SE (ETR:VBK), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions EUR"
+    ]
+  },
+  {
+    "ticker": "VBK",
+    "name": "Verbio",
+    "tier": 1,
+    "hypothesis": "biofuels and renewable energy producer",
+    "url": "https://stockanalysis.com/quote/etr/VBK/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for ETR:VBK (Verbio SE), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "VBK",
+    "name": "Verbio",
+    "tier": 1,
+    "hypothesis": "biofuels and renewable energy producer",
+    "url": "https://stockanalysis.com/quote/etr/VBK/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Verbio SE (ETR:VBK) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "tier": 1,
+    "hypothesis": "refining and renewable diesel; World expansion only",
+    "url": "https://stockanalysis.com/stocks/vlo/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "tier": 1,
+    "hypothesis": "refining and renewable diesel; World expansion only",
+    "url": "https://stockanalysis.com/stocks/vlo/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "tier": 1,
+    "hypothesis": "refining and renewable diesel; World expansion only",
+    "url": "https://stockanalysis.com/stocks/vlo/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "tier": 1,
+    "hypothesis": "refining and renewable diesel; World expansion only",
+    "url": "https://stockanalysis.com/stocks/vlo/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "tier": 1,
+    "hypothesis": "refining and renewable diesel; World expansion only",
+    "url": "https://stockanalysis.com/stocks/vlo/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "tier": 1,
+    "hypothesis": "refining and renewable diesel; World expansion only",
+    "url": "https://stockanalysis.com/stocks/vlo/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero",
+    "tier": 1,
+    "hypothesis": "refining and renewable diesel; World expansion only",
+    "url": "https://stockanalysis.com/stocks/vlo/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "tier": 1,
+    "hypothesis": "refining and midstream; World expansion only",
+    "url": "https://stockanalysis.com/stocks/psx/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "tier": 1,
+    "hypothesis": "refining and midstream; World expansion only",
+    "url": "https://stockanalysis.com/stocks/psx/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "tier": 1,
+    "hypothesis": "refining and midstream; World expansion only",
+    "url": "https://stockanalysis.com/stocks/psx/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "tier": 1,
+    "hypothesis": "refining and midstream; World expansion only",
+    "url": "https://stockanalysis.com/stocks/psx/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "tier": 1,
+    "hypothesis": "refining and midstream; World expansion only",
+    "url": "https://stockanalysis.com/stocks/psx/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "tier": 1,
+    "hypothesis": "refining and midstream; World expansion only",
+    "url": "https://stockanalysis.com/stocks/psx/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "tier": 1,
+    "hypothesis": "refining and midstream; World expansion only",
+    "url": "https://stockanalysis.com/stocks/psx/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "tier": 1,
+    "hypothesis": "refining and marketing; World expansion only",
+    "url": "https://stockanalysis.com/stocks/mpc/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Marathon Petroleum Corporation (MPC) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "tier": 1,
+    "hypothesis": "refining and marketing; World expansion only",
+    "url": "https://stockanalysis.com/stocks/mpc/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Marathon Petroleum (MPC) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "tier": 1,
+    "hypothesis": "refining and marketing; World expansion only",
+    "url": "https://stockanalysis.com/stocks/mpc/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Marathon Petroleum (MPC). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "tier": 1,
+    "hypothesis": "refining and marketing; World expansion only",
+    "url": "https://stockanalysis.com/stocks/mpc/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Marathon Petroleum (MPC), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "tier": 1,
+    "hypothesis": "refining and marketing; World expansion only",
+    "url": "https://stockanalysis.com/stocks/mpc/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Marathon Petroleum (MPC), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "tier": 1,
+    "hypothesis": "refining and marketing; World expansion only",
+    "url": "https://stockanalysis.com/stocks/mpc/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A complete stock price history for Marathon Petroleum Corporation (MPC) stock, starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "tier": 1,
+    "hypothesis": "refining and marketing; World expansion only",
+    "url": "https://stockanalysis.com/stocks/mpc/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A detailed overview of Marathon Petroleum Corporation (MPC) stock, including real-time price, chart, key statistics, news, and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "HFC",
+    "name": "HF Sinclair",
+    "tier": 1,
+    "hypothesis": "refining and renewables; World expansion only",
+    "url": "https://stockanalysis.com/stocks/hfc/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for HF Sinclair Corporation (DINO) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "HFC",
+    "name": "HF Sinclair",
+    "tier": 1,
+    "hypothesis": "refining and renewables; World expansion only",
+    "url": "https://stockanalysis.com/stocks/hfc/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for HF Sinclair (DINO) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "HFC",
+    "name": "HF Sinclair",
+    "tier": 1,
+    "hypothesis": "refining and renewables; World expansion only",
+    "url": "https://stockanalysis.com/stocks/hfc/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for HF Sinclair (DINO). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "HFC",
+    "name": "HF Sinclair",
+    "tier": 1,
+    "hypothesis": "refining and renewables; World expansion only",
+    "url": "https://stockanalysis.com/stocks/hfc/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for HF Sinclair (DINO), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "HFC",
+    "name": "HF Sinclair",
+    "tier": 1,
+    "hypothesis": "refining and renewables; World expansion only",
+    "url": "https://stockanalysis.com/stocks/hfc/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for HF Sinclair (DINO), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "HFC",
+    "name": "HF Sinclair",
+    "tier": 1,
+    "hypothesis": "refining and renewables; World expansion only",
+    "url": "https://stockanalysis.com/stocks/hfc/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A complete stock price history for HF Sinclair Corporation (DINO) stock, starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "HFC",
+    "name": "HF Sinclair",
+    "tier": 1,
+    "hypothesis": "refining and renewables; World expansion only",
+    "url": "https://stockanalysis.com/stocks/hfc/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A detailed overview of HF Sinclair Corporation (DINO) stock, including real-time price, chart, key statistics, news, and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "PBF",
+    "name": "PBF Energy",
+    "tier": 1,
+    "hypothesis": "independent refining; World expansion only",
+    "url": "https://stockanalysis.com/stocks/pbf/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for PBF Energy Inc. (PBF) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "PBF",
+    "name": "PBF Energy",
+    "tier": 1,
+    "hypothesis": "independent refining; World expansion only",
+    "url": "https://stockanalysis.com/stocks/pbf/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for PBF Energy (PBF) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "PBF",
+    "name": "PBF Energy",
+    "tier": 1,
+    "hypothesis": "independent refining; World expansion only",
+    "url": "https://stockanalysis.com/stocks/pbf/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for PBF Energy (PBF). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "PBF",
+    "name": "PBF Energy",
+    "tier": 1,
+    "hypothesis": "independent refining; World expansion only",
+    "url": "https://stockanalysis.com/stocks/pbf/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for PBF Energy (PBF), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "PBF",
+    "name": "PBF Energy",
+    "tier": 1,
+    "hypothesis": "independent refining; World expansion only",
+    "url": "https://stockanalysis.com/stocks/pbf/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for PBF Energy (PBF), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "PBF",
+    "name": "PBF Energy",
+    "tier": 1,
+    "hypothesis": "independent refining; World expansion only",
+    "url": "https://stockanalysis.com/stocks/pbf/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A complete stock price history for PBF Energy Inc. (PBF) stock, starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "PBF",
+    "name": "PBF Energy",
+    "tier": 1,
+    "hypothesis": "independent refining; World expansion only",
+    "url": "https://stockanalysis.com/stocks/pbf/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A detailed overview of PBF Energy Inc. (PBF) stock, including real-time price, chart, key statistics, news, and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "DAR",
+    "name": "Darling Ingredients",
+    "tier": 1,
+    "hypothesis": "rendering/renewable diesel feedstock; World expansion only",
+    "url": "https://stockanalysis.com/stocks/dar/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Darling Ingredients Inc. (DAR) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "DAR",
+    "name": "Darling Ingredients",
+    "tier": 1,
+    "hypothesis": "rendering/renewable diesel feedstock; World expansion only",
+    "url": "https://stockanalysis.com/stocks/dar/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Darling Ingredients (DAR) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "DAR",
+    "name": "Darling Ingredients",
+    "tier": 1,
+    "hypothesis": "rendering/renewable diesel feedstock; World expansion only",
+    "url": "https://stockanalysis.com/stocks/dar/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Darling Ingredients (DAR). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "DAR",
+    "name": "Darling Ingredients",
+    "tier": 1,
+    "hypothesis": "rendering/renewable diesel feedstock; World expansion only",
+    "url": "https://stockanalysis.com/stocks/dar/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Darling Ingredients (DAR), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "DAR",
+    "name": "Darling Ingredients",
+    "tier": 1,
+    "hypothesis": "rendering/renewable diesel feedstock; World expansion only",
+    "url": "https://stockanalysis.com/stocks/dar/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Darling Ingredients (DAR), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions USD"
+    ]
+  },
+  {
+    "ticker": "DAR",
+    "name": "Darling Ingredients",
+    "tier": 1,
+    "hypothesis": "rendering/renewable diesel feedstock; World expansion only",
+    "url": "https://stockanalysis.com/stocks/dar/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A complete stock price history for Darling Ingredients Inc. (DAR) stock, starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "DAR",
+    "name": "Darling Ingredients",
+    "tier": 1,
+    "hypothesis": "rendering/renewable diesel feedstock; World expansion only",
+    "url": "https://stockanalysis.com/stocks/dar/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "A detailed overview of Darling Ingredients Inc. (DAR) stock, including real-time price, chart, key statistics, news, and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "PKN",
+    "name": "Orlen",
+    "tier": 1,
+    "hypothesis": "refining and petrochemicals; Poland MSCI EM screen",
+    "url": "https://stockanalysis.com/quote/wse/PKN/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed statistics for Orlen S.A. (WSE:PKN) stock, including valuation metrics, financial numbers, share information and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "PKN",
+    "name": "Orlen",
+    "tier": 1,
+    "hypothesis": "refining and petrochemicals; Poland MSCI EM screen",
+    "url": "https://stockanalysis.com/quote/wse/PKN/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Financials overview for Orlen (WSE:PKN) with charts and tables for revenue, profits, cash, debt, cash flow, margins and dividends."
+    ],
+    "units": [
+      "Financials in millions PLN"
+    ]
+  },
+  {
+    "ticker": "PKN",
+    "name": "Orlen",
+    "tier": 1,
+    "hypothesis": "refining and petrochemicals; Poland MSCI EM screen",
+    "url": "https://stockanalysis.com/quote/wse/PKN/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly income statement for Orlen (WSE:PKN). See many years of revenue, expenses and profits or losses."
+    ],
+    "units": [
+      "Financials in millions PLN"
+    ]
+  },
+  {
+    "ticker": "PKN",
+    "name": "Orlen",
+    "tier": 1,
+    "hypothesis": "refining and petrochemicals; Poland MSCI EM screen",
+    "url": "https://stockanalysis.com/quote/wse/PKN/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly balance sheet for Orlen (WSE:PKN), including cash, debt, assets, liabilities, and book value."
+    ],
+    "units": [
+      "Financials in millions PLN"
+    ]
+  },
+  {
+    "ticker": "PKN",
+    "name": "Orlen",
+    "tier": 1,
+    "hypothesis": "refining and petrochemicals; Poland MSCI EM screen",
+    "url": "https://stockanalysis.com/quote/wse/PKN/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Detailed annual and quarterly cash flow statements for Orlen (WSE:PKN), including operating cash flow, capital expenditures and free cash flow."
+    ],
+    "units": [
+      "Financials in millions PLN"
+    ]
+  },
+  {
+    "ticker": "PKN",
+    "name": "Orlen",
+    "tier": 1,
+    "hypothesis": "refining and petrochemicals; Poland MSCI EM screen",
+    "url": "https://stockanalysis.com/quote/wse/PKN/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get a complete stock price history for WSE:PKN (Orlen), starting from its first trading day. Includes open, high, low, close and volume."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "PKN",
+    "name": "Orlen",
+    "tier": 1,
+    "hypothesis": "refining and petrochemicals; Poland MSCI EM screen",
+    "url": "https://stockanalysis.com/quote/wse/PKN/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Orlen S.A. (WSE:PKN) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/lon/SHEL/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/lon/BP/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/lon/BP/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/lon/BP/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/lon/BP/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/lon/BP/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/lon/BP/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "BP",
+    "name": "BP",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/lon/BP/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/epa/TTE/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/epa/TTE/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/epa/TTE/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/epa/TTE/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/epa/TTE/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/epa/TTE/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/epa/TTE/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/bit/ENI/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/bit/ENI/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/bit/ENI/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/bit/ENI/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/bit/ENI/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/bit/ENI/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ENI",
+    "name": "Eni",
+    "tier": 2,
+    "hypothesis": "integrated oil major with refining exposure",
+    "url": "https://stockanalysis.com/quote/bit/ENI/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "tier": 2,
+    "hypothesis": "integrated oil, Iberia, refining exposure",
+    "url": "https://stockanalysis.com/quote/bme/REP/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "tier": 2,
+    "hypothesis": "integrated oil, Iberia, refining exposure",
+    "url": "https://stockanalysis.com/quote/bme/REP/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "tier": 2,
+    "hypothesis": "integrated oil, Iberia, refining exposure",
+    "url": "https://stockanalysis.com/quote/bme/REP/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "tier": 2,
+    "hypothesis": "integrated oil, Iberia, refining exposure",
+    "url": "https://stockanalysis.com/quote/bme/REP/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "tier": 2,
+    "hypothesis": "integrated oil, Iberia, refining exposure",
+    "url": "https://stockanalysis.com/quote/bme/REP/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "tier": 2,
+    "hypothesis": "integrated oil, Iberia, refining exposure",
+    "url": "https://stockanalysis.com/quote/bme/REP/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "REP",
+    "name": "Repsol",
+    "tier": 2,
+    "hypothesis": "integrated oil, Iberia, refining exposure",
+    "url": "https://stockanalysis.com/quote/bme/REP/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "tier": 2,
+    "hypothesis": "integrated oil, gas and chemicals/refining",
+    "url": "https://stockanalysis.com/quote/vie/OMV/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "tier": 2,
+    "hypothesis": "integrated oil, gas and chemicals/refining",
+    "url": "https://stockanalysis.com/quote/vie/OMV/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "tier": 2,
+    "hypothesis": "integrated oil, gas and chemicals/refining",
+    "url": "https://stockanalysis.com/quote/vie/OMV/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "tier": 2,
+    "hypothesis": "integrated oil, gas and chemicals/refining",
+    "url": "https://stockanalysis.com/quote/vie/OMV/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "tier": 2,
+    "hypothesis": "integrated oil, gas and chemicals/refining",
+    "url": "https://stockanalysis.com/quote/vie/OMV/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "tier": 2,
+    "hypothesis": "integrated oil, gas and chemicals/refining",
+    "url": "https://stockanalysis.com/quote/vie/OMV/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "OMV",
+    "name": "OMV",
+    "tier": 2,
+    "hypothesis": "integrated oil, gas and chemicals/refining",
+    "url": "https://stockanalysis.com/quote/vie/OMV/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "tier": 2,
+    "hypothesis": "integrated energy; mostly E&P mix",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "tier": 2,
+    "hypothesis": "integrated energy; mostly E&P mix",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "tier": 2,
+    "hypothesis": "integrated energy; mostly E&P mix",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "tier": 2,
+    "hypothesis": "integrated energy; mostly E&P mix",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "tier": 2,
+    "hypothesis": "integrated energy; mostly E&P mix",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "tier": 2,
+    "hypothesis": "integrated energy; mostly E&P mix",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor",
+    "tier": 2,
+    "hypothesis": "integrated energy; mostly E&P mix",
+    "url": "https://stockanalysis.com/quote/osl/EQNR/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "tier": 2,
+    "hypothesis": "integrated oil major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/xom/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "tier": 2,
+    "hypothesis": "integrated oil major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/xom/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "tier": 2,
+    "hypothesis": "integrated oil major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/xom/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "tier": 2,
+    "hypothesis": "integrated oil major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/xom/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "tier": 2,
+    "hypothesis": "integrated oil major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/xom/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "tier": 2,
+    "hypothesis": "integrated oil major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/xom/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "tier": 2,
+    "hypothesis": "integrated oil major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/xom/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "tier": 2,
+    "hypothesis": "integrated oil major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cvx/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "tier": 2,
+    "hypothesis": "integrated oil major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cvx/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "tier": 2,
+    "hypothesis": "integrated oil major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cvx/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "tier": 2,
+    "hypothesis": "integrated oil major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cvx/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "tier": 2,
+    "hypothesis": "integrated oil major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cvx/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "tier": 2,
+    "hypothesis": "integrated oil major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cvx/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "tier": 2,
+    "hypothesis": "integrated oil major; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cvx/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "tier": 3,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "tier": 3,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "tier": 3,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "tier": 3,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "tier": 3,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "tier": 3,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "AKRBP",
+    "name": "Aker BP",
+    "tier": 3,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/AKRBP/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "VAR",
+    "name": "Var Energi",
+    "tier": 3,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/VAR/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "VAR",
+    "name": "Var Energi",
+    "tier": 3,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/VAR/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "VAR",
+    "name": "Var Energi",
+    "tier": 3,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/VAR/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "VAR",
+    "name": "Var Energi",
+    "tier": 3,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/VAR/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "VAR",
+    "name": "Var Energi",
+    "tier": 3,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/VAR/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "VAR",
+    "name": "Var Energi",
+    "tier": 3,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/VAR/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "VAR",
+    "name": "Var Energi",
+    "tier": 3,
+    "hypothesis": "Norwegian continental shelf E&P",
+    "url": "https://stockanalysis.com/quote/osl/VAR/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "tier": 3,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/HBR/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "tier": 3,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/HBR/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "tier": 3,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/HBR/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "tier": 3,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/HBR/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "tier": 3,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/HBR/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "tier": 3,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/HBR/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "HBR",
+    "name": "Harbour Energy",
+    "tier": 3,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/HBR/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ITH",
+    "name": "Ithaca Energy",
+    "tier": 3,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/ITH/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ITH",
+    "name": "Ithaca Energy",
+    "tier": 3,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/ITH/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ITH",
+    "name": "Ithaca Energy",
+    "tier": 3,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/ITH/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ITH",
+    "name": "Ithaca Energy",
+    "tier": 3,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/ITH/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ITH",
+    "name": "Ithaca Energy",
+    "tier": 3,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/ITH/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ITH",
+    "name": "Ithaca Energy",
+    "tier": 3,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/ITH/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ITH",
+    "name": "Ithaca Energy",
+    "tier": 3,
+    "hypothesis": "North Sea E&P",
+    "url": "https://stockanalysis.com/quote/lon/ITH/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ENOG",
+    "name": "Energean",
+    "tier": 3,
+    "hypothesis": "Mediterranean gas E&P",
+    "url": "https://stockanalysis.com/quote/lon/ENOG/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ENOG",
+    "name": "Energean",
+    "tier": 3,
+    "hypothesis": "Mediterranean gas E&P",
+    "url": "https://stockanalysis.com/quote/lon/ENOG/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ENOG",
+    "name": "Energean",
+    "tier": 3,
+    "hypothesis": "Mediterranean gas E&P",
+    "url": "https://stockanalysis.com/quote/lon/ENOG/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ENOG",
+    "name": "Energean",
+    "tier": 3,
+    "hypothesis": "Mediterranean gas E&P",
+    "url": "https://stockanalysis.com/quote/lon/ENOG/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ENOG",
+    "name": "Energean",
+    "tier": 3,
+    "hypothesis": "Mediterranean gas E&P",
+    "url": "https://stockanalysis.com/quote/lon/ENOG/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ENOG",
+    "name": "Energean",
+    "tier": 3,
+    "hypothesis": "Mediterranean gas E&P",
+    "url": "https://stockanalysis.com/quote/lon/ENOG/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ENOG",
+    "name": "Energean",
+    "tier": 3,
+    "hypothesis": "Mediterranean gas E&P",
+    "url": "https://stockanalysis.com/quote/lon/ENOG/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "DNO",
+    "name": "DNO",
+    "tier": 3,
+    "hypothesis": "North Sea / Middle East E&P",
+    "url": "https://stockanalysis.com/quote/osl/DNO/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "DNO",
+    "name": "DNO",
+    "tier": 3,
+    "hypothesis": "North Sea / Middle East E&P",
+    "url": "https://stockanalysis.com/quote/osl/DNO/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "DNO",
+    "name": "DNO",
+    "tier": 3,
+    "hypothesis": "North Sea / Middle East E&P",
+    "url": "https://stockanalysis.com/quote/osl/DNO/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "DNO",
+    "name": "DNO",
+    "tier": 3,
+    "hypothesis": "North Sea / Middle East E&P",
+    "url": "https://stockanalysis.com/quote/osl/DNO/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "DNO",
+    "name": "DNO",
+    "tier": 3,
+    "hypothesis": "North Sea / Middle East E&P",
+    "url": "https://stockanalysis.com/quote/osl/DNO/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "DNO",
+    "name": "DNO",
+    "tier": 3,
+    "hypothesis": "North Sea / Middle East E&P",
+    "url": "https://stockanalysis.com/quote/osl/DNO/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "DNO",
+    "name": "DNO",
+    "tier": 3,
+    "hypothesis": "North Sea / Middle East E&P",
+    "url": "https://stockanalysis.com/quote/osl/DNO/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "BWO",
+    "name": "BW Energy",
+    "tier": 3,
+    "hypothesis": "offshore E&P",
+    "url": "https://stockanalysis.com/quote/osl/BWO/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "BWO",
+    "name": "BW Energy",
+    "tier": 3,
+    "hypothesis": "offshore E&P",
+    "url": "https://stockanalysis.com/quote/osl/BWO/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "BWO",
+    "name": "BW Energy",
+    "tier": 3,
+    "hypothesis": "offshore E&P",
+    "url": "https://stockanalysis.com/quote/osl/BWO/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "BWO",
+    "name": "BW Energy",
+    "tier": 3,
+    "hypothesis": "offshore E&P",
+    "url": "https://stockanalysis.com/quote/osl/BWO/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "BWO",
+    "name": "BW Energy",
+    "tier": 3,
+    "hypothesis": "offshore E&P",
+    "url": "https://stockanalysis.com/quote/osl/BWO/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "BWO",
+    "name": "BW Energy",
+    "tier": 3,
+    "hypothesis": "offshore E&P",
+    "url": "https://stockanalysis.com/quote/osl/BWO/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "BWO",
+    "name": "BW Energy",
+    "tier": 3,
+    "hypothesis": "offshore E&P",
+    "url": "https://stockanalysis.com/quote/osl/BWO/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "GENL",
+    "name": "Genel Energy",
+    "tier": 3,
+    "hypothesis": "Kurdistan E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/GENL/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "GENL",
+    "name": "Genel Energy",
+    "tier": 3,
+    "hypothesis": "Kurdistan E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/GENL/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "GENL",
+    "name": "Genel Energy",
+    "tier": 3,
+    "hypothesis": "Kurdistan E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/GENL/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "GENL",
+    "name": "Genel Energy",
+    "tier": 3,
+    "hypothesis": "Kurdistan E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/GENL/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "GENL",
+    "name": "Genel Energy",
+    "tier": 3,
+    "hypothesis": "Kurdistan E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/GENL/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "GENL",
+    "name": "Genel Energy",
+    "tier": 3,
+    "hypothesis": "Kurdistan E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/GENL/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "GENL",
+    "name": "Genel Energy",
+    "tier": 3,
+    "hypothesis": "Kurdistan E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/GENL/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TLW",
+    "name": "Tullow Oil",
+    "tier": 3,
+    "hypothesis": "West Africa E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/TLW/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TLW",
+    "name": "Tullow Oil",
+    "tier": 3,
+    "hypothesis": "West Africa E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/TLW/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TLW",
+    "name": "Tullow Oil",
+    "tier": 3,
+    "hypothesis": "West Africa E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/TLW/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TLW",
+    "name": "Tullow Oil",
+    "tier": 3,
+    "hypothesis": "West Africa E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/TLW/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TLW",
+    "name": "Tullow Oil",
+    "tier": 3,
+    "hypothesis": "West Africa E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/TLW/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TLW",
+    "name": "Tullow Oil",
+    "tier": 3,
+    "hypothesis": "West Africa E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/TLW/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TLW",
+    "name": "Tullow Oil",
+    "tier": 3,
+    "hypothesis": "West Africa E&P; small-cap screen",
+    "url": "https://stockanalysis.com/quote/lon/TLW/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SUBC",
+    "name": "Subsea 7",
+    "tier": 3,
+    "hypothesis": "offshore energy services; not E&P",
+    "url": "https://stockanalysis.com/quote/osl/SUBC/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SUBC",
+    "name": "Subsea 7",
+    "tier": 3,
+    "hypothesis": "offshore energy services; not E&P",
+    "url": "https://stockanalysis.com/quote/osl/SUBC/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SUBC",
+    "name": "Subsea 7",
+    "tier": 3,
+    "hypothesis": "offshore energy services; not E&P",
+    "url": "https://stockanalysis.com/quote/osl/SUBC/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SUBC",
+    "name": "Subsea 7",
+    "tier": 3,
+    "hypothesis": "offshore energy services; not E&P",
+    "url": "https://stockanalysis.com/quote/osl/SUBC/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SUBC",
+    "name": "Subsea 7",
+    "tier": 3,
+    "hypothesis": "offshore energy services; not E&P",
+    "url": "https://stockanalysis.com/quote/osl/SUBC/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SUBC",
+    "name": "Subsea 7",
+    "tier": 3,
+    "hypothesis": "offshore energy services; not E&P",
+    "url": "https://stockanalysis.com/quote/osl/SUBC/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SUBC",
+    "name": "Subsea 7",
+    "tier": 3,
+    "hypothesis": "offshore energy services; not E&P",
+    "url": "https://stockanalysis.com/quote/osl/SUBC/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SPM",
+    "name": "Saipem",
+    "tier": 3,
+    "hypothesis": "oil and gas engineering and drilling services",
+    "url": "https://stockanalysis.com/quote/bit/SPM/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SPM",
+    "name": "Saipem",
+    "tier": 3,
+    "hypothesis": "oil and gas engineering and drilling services",
+    "url": "https://stockanalysis.com/quote/bit/SPM/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SPM",
+    "name": "Saipem",
+    "tier": 3,
+    "hypothesis": "oil and gas engineering and drilling services",
+    "url": "https://stockanalysis.com/quote/bit/SPM/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SPM",
+    "name": "Saipem",
+    "tier": 3,
+    "hypothesis": "oil and gas engineering and drilling services",
+    "url": "https://stockanalysis.com/quote/bit/SPM/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SPM",
+    "name": "Saipem",
+    "tier": 3,
+    "hypothesis": "oil and gas engineering and drilling services",
+    "url": "https://stockanalysis.com/quote/bit/SPM/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SPM",
+    "name": "Saipem",
+    "tier": 3,
+    "hypothesis": "oil and gas engineering and drilling services",
+    "url": "https://stockanalysis.com/quote/bit/SPM/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SPM",
+    "name": "Saipem",
+    "tier": 3,
+    "hypothesis": "oil and gas engineering and drilling services",
+    "url": "https://stockanalysis.com/quote/bit/SPM/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TE",
+    "name": "Technip Energies",
+    "tier": 3,
+    "hypothesis": "LNG/energy engineering services",
+    "url": "https://stockanalysis.com/quote/epa/TE/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TE",
+    "name": "Technip Energies",
+    "tier": 3,
+    "hypothesis": "LNG/energy engineering services",
+    "url": "https://stockanalysis.com/quote/epa/TE/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TE",
+    "name": "Technip Energies",
+    "tier": 3,
+    "hypothesis": "LNG/energy engineering services",
+    "url": "https://stockanalysis.com/quote/epa/TE/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TE",
+    "name": "Technip Energies",
+    "tier": 3,
+    "hypothesis": "LNG/energy engineering services",
+    "url": "https://stockanalysis.com/quote/epa/TE/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TE",
+    "name": "Technip Energies",
+    "tier": 3,
+    "hypothesis": "LNG/energy engineering services",
+    "url": "https://stockanalysis.com/quote/epa/TE/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TE",
+    "name": "Technip Energies",
+    "tier": 3,
+    "hypothesis": "LNG/energy engineering services",
+    "url": "https://stockanalysis.com/quote/epa/TE/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TE",
+    "name": "Technip Energies",
+    "tier": 3,
+    "hypothesis": "LNG/energy engineering services",
+    "url": "https://stockanalysis.com/quote/epa/TE/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TGS",
+    "name": "TGS",
+    "tier": 3,
+    "hypothesis": "energy data and seismic services",
+    "url": "https://stockanalysis.com/quote/osl/TGS/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TGS",
+    "name": "TGS",
+    "tier": 3,
+    "hypothesis": "energy data and seismic services",
+    "url": "https://stockanalysis.com/quote/osl/TGS/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TGS",
+    "name": "TGS",
+    "tier": 3,
+    "hypothesis": "energy data and seismic services",
+    "url": "https://stockanalysis.com/quote/osl/TGS/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TGS",
+    "name": "TGS",
+    "tier": 3,
+    "hypothesis": "energy data and seismic services",
+    "url": "https://stockanalysis.com/quote/osl/TGS/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TGS",
+    "name": "TGS",
+    "tier": 3,
+    "hypothesis": "energy data and seismic services",
+    "url": "https://stockanalysis.com/quote/osl/TGS/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TGS",
+    "name": "TGS",
+    "tier": 3,
+    "hypothesis": "energy data and seismic services",
+    "url": "https://stockanalysis.com/quote/osl/TGS/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TGS",
+    "name": "TGS",
+    "tier": 3,
+    "hypothesis": "energy data and seismic services",
+    "url": "https://stockanalysis.com/quote/osl/TGS/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SBMO",
+    "name": "SBM Offshore",
+    "tier": 3,
+    "hypothesis": "FPSO leasing and services",
+    "url": "https://stockanalysis.com/quote/ams/SBMO/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SBMO",
+    "name": "SBM Offshore",
+    "tier": 3,
+    "hypothesis": "FPSO leasing and services",
+    "url": "https://stockanalysis.com/quote/ams/SBMO/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SBMO",
+    "name": "SBM Offshore",
+    "tier": 3,
+    "hypothesis": "FPSO leasing and services",
+    "url": "https://stockanalysis.com/quote/ams/SBMO/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SBMO",
+    "name": "SBM Offshore",
+    "tier": 3,
+    "hypothesis": "FPSO leasing and services",
+    "url": "https://stockanalysis.com/quote/ams/SBMO/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SBMO",
+    "name": "SBM Offshore",
+    "tier": 3,
+    "hypothesis": "FPSO leasing and services",
+    "url": "https://stockanalysis.com/quote/ams/SBMO/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SBMO",
+    "name": "SBM Offshore",
+    "tier": 3,
+    "hypothesis": "FPSO leasing and services",
+    "url": "https://stockanalysis.com/quote/ams/SBMO/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SBMO",
+    "name": "SBM Offshore",
+    "tier": 3,
+    "hypothesis": "FPSO leasing and services",
+    "url": "https://stockanalysis.com/quote/ams/SBMO/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "AKSO",
+    "name": "Aker Solutions",
+    "tier": 3,
+    "hypothesis": "oilfield engineering services",
+    "url": "https://stockanalysis.com/quote/osl/AKSO/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "AKSO",
+    "name": "Aker Solutions",
+    "tier": 3,
+    "hypothesis": "oilfield engineering services",
+    "url": "https://stockanalysis.com/quote/osl/AKSO/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "AKSO",
+    "name": "Aker Solutions",
+    "tier": 3,
+    "hypothesis": "oilfield engineering services",
+    "url": "https://stockanalysis.com/quote/osl/AKSO/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "AKSO",
+    "name": "Aker Solutions",
+    "tier": 3,
+    "hypothesis": "oilfield engineering services",
+    "url": "https://stockanalysis.com/quote/osl/AKSO/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "AKSO",
+    "name": "Aker Solutions",
+    "tier": 3,
+    "hypothesis": "oilfield engineering services",
+    "url": "https://stockanalysis.com/quote/osl/AKSO/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "AKSO",
+    "name": "Aker Solutions",
+    "tier": 3,
+    "hypothesis": "oilfield engineering services",
+    "url": "https://stockanalysis.com/quote/osl/AKSO/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "AKSO",
+    "name": "Aker Solutions",
+    "tier": 3,
+    "hypothesis": "oilfield engineering services",
+    "url": "https://stockanalysis.com/quote/osl/AKSO/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "tier": 3,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cop/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "tier": 3,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cop/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "tier": 3,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cop/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "tier": 3,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cop/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "tier": 3,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cop/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "tier": 3,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cop/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "tier": 3,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cop/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "tier": 3,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/eog/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "tier": 3,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/eog/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "tier": 3,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/eog/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "tier": 3,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/eog/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "tier": 3,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/eog/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "tier": 3,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/eog/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources",
+    "tier": 3,
+    "hypothesis": "independent E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/eog/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "tier": 3,
+    "hypothesis": "E&P and chemicals; World expansion only",
+    "url": "https://stockanalysis.com/stocks/oxy/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "tier": 3,
+    "hypothesis": "E&P and chemicals; World expansion only",
+    "url": "https://stockanalysis.com/stocks/oxy/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "tier": 3,
+    "hypothesis": "E&P and chemicals; World expansion only",
+    "url": "https://stockanalysis.com/stocks/oxy/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "tier": 3,
+    "hypothesis": "E&P and chemicals; World expansion only",
+    "url": "https://stockanalysis.com/stocks/oxy/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "tier": 3,
+    "hypothesis": "E&P and chemicals; World expansion only",
+    "url": "https://stockanalysis.com/stocks/oxy/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "tier": 3,
+    "hypothesis": "E&P and chemicals; World expansion only",
+    "url": "https://stockanalysis.com/stocks/oxy/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental",
+    "tier": 3,
+    "hypothesis": "E&P and chemicals; World expansion only",
+    "url": "https://stockanalysis.com/stocks/oxy/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources",
+    "tier": 3,
+    "hypothesis": "oil sands E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cnq/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources",
+    "tier": 3,
+    "hypothesis": "oil sands E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cnq/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources",
+    "tier": 3,
+    "hypothesis": "oil sands E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cnq/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources",
+    "tier": 3,
+    "hypothesis": "oil sands E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cnq/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources",
+    "tier": 3,
+    "hypothesis": "oil sands E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cnq/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources",
+    "tier": 3,
+    "hypothesis": "oil sands E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cnq/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources",
+    "tier": 3,
+    "hypothesis": "oil sands E&P; World expansion only",
+    "url": "https://stockanalysis.com/stocks/cnq/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "IMO",
+    "name": "Imperial Oil",
+    "tier": 3,
+    "hypothesis": "integrated oil, Exxon-controlled; World expansion only",
+    "url": "https://stockanalysis.com/stocks/imo/statistics/",
+    "page": "statistics",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "IMO",
+    "name": "Imperial Oil",
+    "tier": 3,
+    "hypothesis": "integrated oil, Exxon-controlled; World expansion only",
+    "url": "https://stockanalysis.com/stocks/imo/financials/",
+    "page": "financials",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "IMO",
+    "name": "Imperial Oil",
+    "tier": 3,
+    "hypothesis": "integrated oil, Exxon-controlled; World expansion only",
+    "url": "https://stockanalysis.com/stocks/imo/financials/income-statement/",
+    "page": "financials_income-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "IMO",
+    "name": "Imperial Oil",
+    "tier": 3,
+    "hypothesis": "integrated oil, Exxon-controlled; World expansion only",
+    "url": "https://stockanalysis.com/stocks/imo/financials/balance-sheet/",
+    "page": "financials_balance-sheet",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "IMO",
+    "name": "Imperial Oil",
+    "tier": 3,
+    "hypothesis": "integrated oil, Exxon-controlled; World expansion only",
+    "url": "https://stockanalysis.com/stocks/imo/financials/cash-flow-statement/",
+    "page": "financials_cash-flow-statement",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "IMO",
+    "name": "Imperial Oil",
+    "tier": 3,
+    "hypothesis": "integrated oil, Exxon-controlled; World expansion only",
+    "url": "https://stockanalysis.com/stocks/imo/history/",
+    "page": "history",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "IMO",
+    "name": "Imperial Oil",
+    "tier": 3,
+    "hypothesis": "integrated oil, Exxon-controlled; World expansion only",
+    "url": "https://stockanalysis.com/stocks/imo/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  }
+]

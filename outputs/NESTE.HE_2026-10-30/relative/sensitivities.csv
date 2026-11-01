@@ -1,0 +1,14 @@
+sensitivity,removed,value_per_share,n_valid
+leave-one-out selected peer,ENI,,9.0
+leave-one-out selected peer,PSX,,9.0
+leave-one-out selected peer,VLO,,9.0
+leave-one-out selected peer,REP,,9.0
+leave-one-out selected peer,SPM,,9.0
+leave-one-out selected peer,OMV,0.07429676076226957,9.0
+leave-one-out selected peer,TTE,0.07429676076226957,9.0
+leave-one-out selected peer,SUBC,0.07429676076226957,9.0
+leave-one-out selected peer,BP,0.07429676076226957,9.0
+leave-one-out selected peer,EQNR,0.07429676076226957,9.0
+target issuer reported EBITDA 1438 (vs vendor 1124 uniform basis),,10.733774841564143,
+target issuer comparable EBITDA 1683 (adjustments removed),,13.40879217445191,
+target EBITDA -10% cyclicality diagnostic (not normalized),,6.078152838530083,
