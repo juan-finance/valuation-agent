@@ -88,6 +88,16 @@
       "total_erp": 0.042,
       "region": "Western Europe",
       "warnings": []
+    },
+    "Spain": {
+      "country": "Spain",
+      "table": "rated",
+      "rating": "A3",
+      "default_spread": 0.0095,
+      "crp": 0.0148,
+      "total_erp": 0.056799999999999996,
+      "region": "Western Europe",
+      "warnings": []
     }
   },
   "mature_erp": {

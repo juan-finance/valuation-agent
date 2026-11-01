@@ -1,0 +1,31 @@
+{
+  "ticker": "IBE.MC",
+  "valuation_date": "2026-10-30",
+  "country": "Spain",
+  "currency": "EUR (reporting and trading)",
+  "resolutions": {
+    "note": "all datasets resolve for Spain: EUROPE exact for beta/capex/dbtfund/wcdata/regressions/pbv_industry/evebitda_industry; ctryprem GLOBAL exact; ratings GLOBAL fallback (same warning as prior top-ups)"
+  },
+  "equations": {
+    "PE": {
+      "equation": "$\\text{PE} = \\underset{(8.29)}{9.72} + \\underset{(4.85)}{2.99} \\, \\text{Beta} + \\underset{(11.95)}{49.82} \\, g_{\\text{EPS}} + \\underset{(9.22)}{7.98} \\, \\text{Payout}$",
+      "r2": 0.201,
+      "region_used": "EUROPE",
+      "level": "exact"
+    },
+    "PBV": {
+      "equation": "$\\text{PBV} = \\underset{(3.70)}{0.73} + \\underset{(5.87)}{3.92} \\, g_{\\text{EPS}} + \\underset{(1.38)}{0.13} \\, \\text{Beta} + \\underset{(24.81)}{10.75} \\, \\text{ROE} - \\underset{(2.43)}{0.25} \\, \\text{Payout Ratio}$",
+      "r2": 0.423,
+      "region_used": "EUROPE",
+      "level": "exact"
+    },
+    "EV/EBITDA": {
+      "equation": "$\\text{EV/EBITDA} = \\underset{(28.40)}{18.15} + \\underset{(13.96)}{35.25} \\, g - \\underset{(10.65)}{0.11} \\, \\text{DFR} - \\underset{(5.19)}{0.12} \\, \\text{Tax Rate} + \\underset{(5.06)}{2.29} \\, \\text{ROIC}$",
+      "r2": 0.262,
+      "region_used": "EUROPE",
+      "level": "exact"
+    }
+  },
+  "existing_assets_preserved": true,
+  "candidate_data_collected": false
+}

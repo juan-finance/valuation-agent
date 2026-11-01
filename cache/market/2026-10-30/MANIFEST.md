@@ -61,3 +61,8 @@ check_dataset findings (regressions_multi_2026-01): warnings — GLOBAL PEG ln(g
 - Norway was the only missing country for EQNR.OL (reports USD — already in risk_free; trades NOK — already in ECB FX 2026-10-30). Added Norway Aaa, default spread 0, CRP 0, total ERP 4.20% from registered ctryprem_global_2026-07. Stage 3 does not discount, so no NOK risk-free instrument was required.
 - All datasets resolve for Norway: EUROPE exact for beta/capex/dbtfund/wcdata/regressions/industry benchmarks; ratings GLOBAL fallback unchanged (same warning as prior top-ups). EUROPE PE/PBV/EV-EBITDA equations resolved in topup_EQNR.OL.json.
 - Reproducible script topup_eqnr.py asserts all existing countries, currencies, FX and snapshot fields unchanged. No universe rebuild, candidate collection, or other-country changes.
+
+## IBE.MC-only top-up — 2026-11-01
+- Spain was the only missing country for IBE.MC (reports and trades EUR — Bund 10y risk-free and ECB FX already in the snapshot). Added Spain A3, default spread 0.95%, CRP 1.48%, total ERP 5.68% from registered ctryprem_global_2026-07. Stage 3 does not discount, so no additional instrument was required.
+- All datasets resolve for Spain: EUROPE exact for beta/capex/dbtfund/wcdata/regressions/pbv_industry/evebitda_industry; ratings GLOBAL fallback unchanged (same warning as prior top-ups). EUROPE PE/PBV/EV-EBITDA equations resolved in topup_IBE.MC.json.
+- Reproducible script topup_ibe.py asserts all existing countries, currencies, FX and snapshot fields unchanged. No universe rebuild, candidate collection, or other-country changes.
