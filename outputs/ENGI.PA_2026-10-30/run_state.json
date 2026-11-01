@@ -1,0 +1,47 @@
+{
+  "company": "ENGIE SA",
+  "ticker": "ENGI.PA",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-11-01T16:20:00+00:00",
+  "stages": {
+    "stage1_data": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report",
+        "Reduced input step done: price/shares/EV bridge/FY2025 fundamentals collected into relative_inputs.md; cross-checked vs ENGIE FY2025 results press release (revenue ~exact, NIGs exact 3,827; vendor EBITDA/EBIT scope narrower than issuer; vendor CFO negative -1,476 vs issuer CFFO 13,600 - flagged)."
+      ],
+      "outputs": [
+        "relative_inputs.md"
+      ],
+      "next_step": ""
+    },
+    "stage2_dcf": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report"
+      ],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage3_relative": {
+      "status": "in_progress",
+      "notes": [
+        "2026-11-01T16:20:00+00:00 Cache 2026-10-30 reused; France/EUR covered (ECB FX, EUROPE equations, France Aa3 spread in macro snapshot). Route published_damodaran."
+      ],
+      "outputs": [],
+      "next_step": "",
+      "started": "2026-11-01T16:20:00+00:00"
+    },
+    "stage4_recommendation": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report"
+      ],
+      "outputs": [],
+      "next_step": ""
+    }
+  },
+  "final_status": "in_progress",
+  "human_review": "pending"
+}
