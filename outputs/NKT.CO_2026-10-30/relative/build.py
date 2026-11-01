@@ -108,7 +108,7 @@ for name in ['pe','peg','relative_pe','ev_ebit','ev_ebitda','ev_cf','pbv','ev_as
   row['value_per_share_'+s]=value(name,chosen.get(q,np.nan)) if stats['usable'] else np.nan
   row['raw_value_'+s]=value(name,stats.get(q,np.nan)) if stats['usable'] else np.nan
   row['adjusted_'+q]=adj.get(q,np.nan)
- row['upside']=row['value_per_share_mid']/T.price-1
+ row['upside']=row['value_per_share_mid']/(T.price/FX[T.quote_currency])-1  # EUR value vs EUR price (DKK 839 / 7.4735)
  summary.append(row)
 S=pd.DataFrame(summary)
 S['n_valid_adjusted']=S.adjusted_n_valid;S['valuation_status']=S.status
@@ -181,7 +181,7 @@ for i,dep in enumerate(['PE','PBV','EV/EBITDA'],2):
 reg_wb.save(P/'regression_valuation.xlsx');chosen=max(preds,key=lambda v:v['published_r2'])
 regresult=dict(inputs=inputs,beta_note=beta_note,predictions=preds,chosen=chosen['model'],substituted_input='approved fundamental g_eps and g_rev fallback (not analyst consensus); published ROE closing parent-common equity (hybrid stripped), peer-score ROE average equity',status='draft pending human review',dataset_checks=checks)
 (P/'regression_results.json').write_text(json.dumps(regresult,indent=2,default=str)+'\n')
-row=dict(company='NKT A/S',ticker='NKT.CO',isin='DK0010287663',gics_sector='not independently verified; internal bucket D not GICS',typicality_result='n/a_published_route',primary_regression='published_damodaran_EUROPE_2026-01',chosen_model=chosen['model'],predicted_primary=chosen['predicted'],actual_multiple=chosen['actual'],published_r2=chosen['published_r2'],implied_value_per_share=chosen['value_per_share'],current_price=T.price,upside=chosen['value_per_share']/T.price-1,classification='Not classified (no SEy published)',units_policy='as_published_note; decimal approved',units_unverified='no; alternative policy disclosed',substituted_input=regresult['substituted_input'],rationale=f"{chosen['model']} highest published R2; beta kept ({beta_note}); hybrid EUR150m stripped from NI/equity for parent-common basis; FY2025 effective tax 6.46% one-off-driven - flagged.",source_urls=T.source_urls)
+row=dict(company='NKT A/S',ticker='NKT.CO',isin='DK0010287663',gics_sector='not independently verified; internal bucket D not GICS',typicality_result='n/a_published_route',primary_regression='published_damodaran_EUROPE_2026-01',chosen_model=chosen['model'],predicted_primary=chosen['predicted'],actual_multiple=chosen['actual'],published_r2=chosen['published_r2'],implied_value_per_share=chosen['value_per_share'],current_price=T.price/FX[T.quote_currency],price_quote_currency='DKK 839.0 (EUR 112.26 at ECB 7.4735)',upside=chosen['value_per_share']/(T.price/FX[T.quote_currency])-1,classification='Not classified (no SEy published)',units_policy='as_published_note; decimal approved',units_unverified='no; alternative policy disclosed',substituted_input=regresult['substituted_input'],rationale=f"{chosen['model']} highest published R2; beta kept ({beta_note}); hybrid EUR150m stripped from NI/equity for parent-common basis; FY2025 effective tax 6.46% one-off-driven - flagged.",source_urls=T.source_urls)
 for k in ['failed_test','adj_r2','predicted_A','predicted_B','predicted_C','residual','std_residual','damodaran_predicted','sector_dummy_coef']:row[k]='n/a_published_route'
 for i,p in enumerate([p for p in preds if p is not chosen],2):row[f'alternative_{i}_model']=p['model'];row[f'alternative_{i}_prediction']=p['predicted']
 pd.DataFrame([row]).to_csv(P/'valuation_multiples.csv',index=False)

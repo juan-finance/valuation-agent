@@ -1,0 +1,26 @@
+{
+  "ticker": "NKT.CO",
+  "valuation_date": "2026-10-30",
+  "current_price": 112.26333043420085,
+  "current_price_dkk": 839.0,
+  "quote_currency": "DKK",
+  "shares_m": 53.45,
+  "peer_count": 10,
+  "tier12": 8,
+  "tier3": 2,
+  "europe": 10,
+  "raw_pe_median": 26.38470024732179,
+  "scaled_pe_median": 30.58618145262718,
+  "peer_indicative": 151.07113009342518,
+  "peer_iqr_low": 95.11323971394174,
+  "peer_iqr_high": 240.99014886663,
+  "peer_upside": 0.34568544785841837,
+  "regression_pbv": 102.38544901777362,
+  "regression_pe": 89.72337065532585,
+  "regression_evebitda": 319.5826133754439,
+  "qa": {
+    "PASS": 31,
+    "FAIL": 8,
+    "N/A": 9
+  }
+}
