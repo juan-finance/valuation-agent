@@ -1,0 +1,46 @@
+{
+  "company": "Alfa Laval AB",
+  "ticker": "ALFA.ST",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-11-01T14:16:17+00:00",
+  "stages": {
+    "stage1_data": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report",
+        "Reduced input step done: price/shares/EV bridge/FY2025 fundamentals collected into relative_inputs.md; cross-checked vs Alfa Laval FY2025 release (<0.7% diffs)."
+      ],
+      "outputs": [
+        "relative_inputs.md"
+      ],
+      "next_step": ""
+    },
+    "stage2_dcf": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report"
+      ],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage3_relative": {
+      "status": "in_progress",
+      "notes": [
+        "2026-11-01T14:16:17+00:00 Cache 2026-10-30 reused; Sweden/SEK covered (ECB FX, EUROPE datasets). Route published_damodaran."
+      ],
+      "outputs": [],
+      "next_step": "comparables pool + selection",
+      "started": "2026-11-01T14:16:17+00:00",
+      "_t0": 1793542577.0984814
+    },
+    "stage4_recommendation": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report, no DCF, no recommendation/report"
+      ],
+      "outputs": [],
+      "next_step": ""
+    }
+  }
+}
