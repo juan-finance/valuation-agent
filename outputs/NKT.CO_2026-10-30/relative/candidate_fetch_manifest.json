@@ -1,0 +1,328 @@
+[
+  {
+    "ticker": "NKT",
+    "name": "NKT",
+    "tier": 0,
+    "hypothesis": "target",
+    "url": "https://stockanalysis.com/quote/cph/NKT/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "NEX",
+    "name": "Nexans",
+    "tier": 1,
+    "hypothesis": "power grid cables; same main business",
+    "url": "https://stockanalysis.com/quote/epa/NEX/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "PRY",
+    "name": "Prysmian",
+    "tier": 1,
+    "hypothesis": "power grid cables; same main business; universe target",
+    "url": "https://stockanalysis.com/quote/bit/PRY/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "5802",
+    "name": "Sumitomo Electric",
+    "tier": 1,
+    "hypothesis": "power cables; World expansion only",
+    "url": "https://stockanalysis.com/quote/tyo/5802/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Sumitomo Electric Industries, Ltd. (TYO:5802) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "5801",
+    "name": "Furukawa Electric",
+    "tier": 1,
+    "hypothesis": "power cables; World expansion only",
+    "url": "https://stockanalysis.com/quote/tyo/5801/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Furukawa Electric Co., Ltd. (TYO:5801) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ELHA",
+    "name": "ElvalHalcor",
+    "tier": 1,
+    "hypothesis": "copper/aluminium and Hellenic Cables; Greece market classification screen",
+    "url": "https://stockanalysis.com/quote/ath/ELHA/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest Elvalhalcor Hellenic Copper and Aluminium Industry S.A. (ATH:ELHA) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "tier": 2,
+    "hypothesis": "electrification, drives and industrial automation",
+    "url": "https://stockanalysis.com/quote/swx/ABBN/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SU",
+    "name": "Schneider Electric",
+    "tier": 2,
+    "hypothesis": "electrical power management and grid equipment; universe target",
+    "url": "https://stockanalysis.com/quote/epa/SU/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "LR",
+    "name": "Legrand",
+    "tier": 2,
+    "hypothesis": "electrical infrastructure equipment",
+    "url": "https://stockanalysis.com/quote/epa/LR/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SIE",
+    "name": "Siemens",
+    "tier": 2,
+    "hypothesis": "industrial electrification and automation",
+    "url": "https://stockanalysis.com/quote/etr/SIE/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ENR",
+    "name": "Siemens Energy",
+    "tier": 2,
+    "hypothesis": "grid technology and power equipment; universe target",
+    "url": "https://stockanalysis.com/quote/etr/ENR/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "VWS",
+    "name": "Vestas",
+    "tier": 2,
+    "hypothesis": "wind turbines and recurring services; universe target",
+    "url": "https://stockanalysis.com/quote/cph/VWS/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "NDX1",
+    "name": "Nordex",
+    "tier": 2,
+    "hypothesis": "wind turbines",
+    "url": "https://stockanalysis.com/quote/etr/NDX1/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ETN",
+    "name": "Eaton",
+    "tier": 2,
+    "hypothesis": "power management; World expansion only",
+    "url": "https://stockanalysis.com/stocks/etn/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "GEV",
+    "name": "GE Vernova",
+    "tier": 2,
+    "hypothesis": "power generation, wind and grids; World expansion only; spin-off screen",
+    "url": "https://stockanalysis.com/stocks/gev/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "WRT1V",
+    "name": "Wartsila",
+    "tier": 2,
+    "hypothesis": "power generation and marine engines/services",
+    "url": "https://stockanalysis.com/quote/hel/WRT1V/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ANDR",
+    "name": "Andritz",
+    "tier": 2,
+    "hypothesis": "hydropower and industrial process equipment",
+    "url": "https://stockanalysis.com/quote/vie/ANDR/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "IMI",
+    "name": "IMI",
+    "tier": 2,
+    "hypothesis": "industrial and power flow control",
+    "url": "https://stockanalysis.com/quote/lon/IMI/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ROR",
+    "name": "Rotork",
+    "tier": 2,
+    "hypothesis": "energy flow-control actuators",
+    "url": "https://stockanalysis.com/quote/lon/ROR/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SPX",
+    "name": "Spirax",
+    "tier": 2,
+    "hypothesis": "industrial thermal energy management",
+    "url": "https://stockanalysis.com/quote/lon/SPX/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SKF.B",
+    "name": "SKF",
+    "tier": 2,
+    "hypothesis": "bearings for wind and rotating industrial machinery",
+    "url": "https://stockanalysis.com/quote/sto/SKF.B/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "tier": 2,
+    "hypothesis": "energy pumps and industrial flow equipment",
+    "url": "https://stockanalysis.com/quote/swx/SUN/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ALFA",
+    "name": "Alfa Laval",
+    "tier": 3,
+    "hypothesis": "heat transfer equipment; universe target",
+    "url": "https://stockanalysis.com/quote/sto/ALFA/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "ATCO.A",
+    "name": "Atlas Copco",
+    "tier": 3,
+    "hypothesis": "compressors and industrial energy equipment",
+    "url": "https://stockanalysis.com/quote/sto/ATCO.A/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SAND",
+    "name": "Sandvik",
+    "tier": 3,
+    "hypothesis": "mining and metal cutting equipment; different demand drivers",
+    "url": "https://stockanalysis.com/quote/sto/SAND/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "METSO",
+    "name": "Metso",
+    "tier": 3,
+    "hypothesis": "minerals processing; different end market",
+    "url": "https://stockanalysis.com/quote/hel/METSO/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "WEIR",
+    "name": "Weir",
+    "tier": 3,
+    "hypothesis": "mining pumps; different end market",
+    "url": "https://stockanalysis.com/quote/lon/WEIR/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "G1A",
+    "name": "GEA",
+    "tier": 3,
+    "hypothesis": "food processing equipment; different end market",
+    "url": "https://stockanalysis.com/quote/etr/G1A/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "EPI.A",
+    "name": "Epiroc",
+    "tier": 3,
+    "hypothesis": "mining equipment; different end market",
+    "url": "https://stockanalysis.com/quote/sto/EPI.A/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "SMIN",
+    "name": "Smiths",
+    "tier": 3,
+    "hypothesis": "diversified technology; portfolio-change screen",
+    "url": "https://stockanalysis.com/quote/lon/SMIN/",
+    "page": "profile",
+    "status": 200,
+    "cache": "reused dated parsed extract"
+  },
+  {
+    "ticker": "TKA",
+    "name": "thyssenkrupp",
+    "tier": 3,
+    "hypothesis": "diversified industrials; restructuring screen",
+    "url": "https://stockanalysis.com/quote/etr/TKA/",
+    "page": "profile",
+    "status": 200,
+    "cache": "new extract",
+    "description": [
+      "Get the latest thyssenkrupp AG (ETR:TKA) stock price quote with financials, statistics, dividends, charts, historical data and more."
+    ],
+    "units": []
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "family": "evebitda_industry",
+    "industry": "Electrical Equipment",
+    "values": {
+      "Industry Name": "Electrical Equipment",
+      "Number of firms": 146.0,
+      "EV/EBITDAR&D (Pos. EBITDA)": 15.33,
+      "EV/EBITDA (Pos. EBITDA)": 18.94,
+      "EV/EBIT (Pos. EBITDA)": 24.34,
+      "EV/EBIT (1-t) (Pos. EBITDA)": 32.32,
+      "EV/EBITDAR&D (All firms)": 18.21,
+      "EV/EBITDA (All firms)": 23.42,
+      "EV/EBIT (All firms)": 24.76,
+      "EV/EBIT (1-t) (All firms)": 32.87,
+      "is_aggregate": false
+    },
+    "dataset": "evebitda_industry_europe_2026-01",
+    "sha256": "73d9607d318faba49b8571c13d4fd836176c658fc305be7644dfb8cf2c416972",
+    "as_of": "2026-01-05",
+    "identity": "published industry ratio; NOT verified median"
+  },
+  {
+    "family": "evebitda_industry",
+    "industry": "Machinery",
+    "values": {
+      "Industry Name": "Machinery",
+      "Number of firms": 210.0,
+      "EV/EBITDAR&D (Pos. EBITDA)": 12.55,
+      "EV/EBITDA (Pos. EBITDA)": 14.98,
+      "EV/EBIT (Pos. EBITDA)": 19.05,
+      "EV/EBIT (1-t) (Pos. EBITDA)": 25.15,
+      "EV/EBITDAR&D (All firms)": 14.23,
+      "EV/EBITDA (All firms)": 17.41,
+      "EV/EBIT (All firms)": 19.24,
+      "EV/EBIT (1-t) (All firms)": 25.4,
+      "is_aggregate": false
+    },
+    "dataset": "evebitda_industry_europe_2026-01",
+    "sha256": "73d9607d318faba49b8571c13d4fd836176c658fc305be7644dfb8cf2c416972",
+    "as_of": "2026-01-05",
+    "identity": "published industry ratio; NOT verified median"
+  },
+  {
+    "family": "pbv_industry",
+    "industry": "Electrical Equipment",
+    "values": {
+      "Industry Name": "Electrical Equipment",
+      "Number of firms": 146.0,
+      "PBV": 5.71,
+      "ROE": 0.1815,
+      "EV/ Invested Capital": 6.9,
+      "ROIC": 0.2829,
+      "is_aggregate": false
+    },
+    "dataset": "pbv_industry_europe_2026-01",
+    "sha256": "567ce2faa9d0beaa86e68fdfb06af6262764985bc38f688c659291c9eb6b0f12",
+    "as_of": "2026-01-05",
+    "identity": "published industry ratio; NOT verified median"
+  },
+  {
+    "family": "pbv_industry",
+    "industry": "Machinery",
+    "values": {
+      "Industry Name": "Machinery",
+      "Number of firms": 210.0,
+      "PBV": 4.05,
+      "ROE": 0.1576,
+      "EV/ Invested Capital": 3.71,
+      "ROIC": 0.1834,
+      "is_aggregate": false
+    },
+    "dataset": "pbv_industry_europe_2026-01",
+    "sha256": "567ce2faa9d0beaa86e68fdfb06af6262764985bc38f688c659291c9eb6b0f12",
+    "as_of": "2026-01-05",
+    "identity": "published industry ratio; NOT verified median"
+  }
+]
