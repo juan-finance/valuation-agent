@@ -1,0 +1,41 @@
+{
+  "company": "Equinor ASA",
+  "ticker": "EQNR.OL",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-11-01T16:43:47.048964+00:00",
+  "stages": {
+    "stage1_data": {
+      "status": "skipped_by_deviation",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage2_dcf": {
+      "status": "skipped_by_deviation",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage3_relative": {
+      "status": "pending",
+      "notes": [],
+      "outputs": [],
+      "next_step": "peer collection"
+    },
+    "stage4_recommendation": {
+      "status": "skipped_by_deviation",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    }
+  },
+  "reduced_input_step": {
+    "status": "done",
+    "started": "2026-11-01T16:44:00+00:00",
+    "elapsed_min": 14.0,
+    "finished": "2026-11-01T16:43:47.048982+00:00",
+    "timing_note": "approximate start; thereafter measured"
+  },
+  "session_status": "reduced inputs done; stage 3 next"
+}
