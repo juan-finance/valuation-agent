@@ -98,6 +98,16 @@
       "total_erp": 0.056799999999999996,
       "region": "Western Europe",
       "warnings": []
+    },
+    "Finland": {
+      "country": "Finland",
+      "table": "rated",
+      "rating": "Aa1",
+      "default_spread": 0.0022,
+      "crp": 0.0034000000000000002,
+      "total_erp": 0.0454,
+      "region": "Western Europe",
+      "warnings": []
     }
   },
   "mature_erp": {
