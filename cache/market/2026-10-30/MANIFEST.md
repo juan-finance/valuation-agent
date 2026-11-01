@@ -56,3 +56,8 @@ check_dataset findings (regressions_multi_2026-01): warnings — GLOBAL PEG ln(g
 - Country-specific resolutions and EUROPE PE/PBV/EV-EBITDA equations saved in topup_MT.AS.json. Existing completed library integrity checks reused; no library dataset redownloaded. Ratings GLOBAL fallback is representative as a common corporate coverage-to-spread cross-check, not as a European industry debt ratio.
 - Existing regression warnings/Jan-2026 vintage limitations and Spot_check pending status remain unchanged. No universe rebuild or own-estimation work.
 - Reproducible top-up: PYTHONPATH=src python cache/market/2026-10-30/topup_mt.py; assertions verify old EUR, ERP, FX and other snapshot fields unchanged.
+
+## EQNR.OL-only top-up — 2026-11-01
+- Norway was the only missing country for EQNR.OL (reports USD — already in risk_free; trades NOK — already in ECB FX 2026-10-30). Added Norway Aaa, default spread 0, CRP 0, total ERP 4.20% from registered ctryprem_global_2026-07. Stage 3 does not discount, so no NOK risk-free instrument was required.
+- All datasets resolve for Norway: EUROPE exact for beta/capex/dbtfund/wcdata/regressions/industry benchmarks; ratings GLOBAL fallback unchanged (same warning as prior top-ups). EUROPE PE/PBV/EV-EBITDA equations resolved in topup_EQNR.OL.json.
+- Reproducible script topup_eqnr.py asserts all existing countries, currencies, FX and snapshot fields unchanged. No universe rebuild, candidate collection, or other-country changes.
