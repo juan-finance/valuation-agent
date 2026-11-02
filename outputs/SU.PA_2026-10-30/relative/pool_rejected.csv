@@ -1,0 +1,99 @@
+ticker,name,reason
+G1A,GEA Group,market cap outside 0.1-10x target band
+SUN,Sulzer,market cap outside 0.1-10x target band
+ANDR,Andritz,market cap outside 0.1-10x target band
+FLS,FLSmidth,market cap outside 0.1-10x target band
+KSB,KSB,market cap outside 0.1-10x target band
+BCHN,Burckhardt Compression,market cap outside 0.1-10x target band
+WEIR,Weir Group,market cap outside 0.1-10x target band
+ROR,Rotork,market cap outside 0.1-10x target band
+IMI,IMI,market cap outside 0.1-10x target band
+SPX,Spirax Group,market cap outside 0.1-10x target band
+SMIN,Smiths Group,market cap outside 0.1-10x target band
+SKF.B,SKF B,market cap outside 0.1-10x target band
+IP,Interpump,market cap outside 0.1-10x target band
+BUCN,Bucher Industries,market cap outside 0.1-10x target band
+KRN,Krones,market cap outside 0.1-10x target band
+INDT,Indutrade,market cap outside 0.1-10x target band
+ABBN,ABB,restructuring/perimeter: FY2025 Robotics discontinued-operation/divestment plus Gamesa Electric acquisition
+RAA,Rational,market cap outside 0.1-10x target band
+KGX,KION,market cap outside 0.1-10x target band
+BP,BP,"oil, gas and fuels"
+SHEL,Shell,"oil, gas and fuels"
+TTE,TotalEnergies,"oil, gas and fuels"
+EQNR,Equinor,"oil, gas and fuels"
+ENI,Eni,"oil, gas and fuels"
+REP,Repsol,"oil, gas and fuels"
+OMV,OMV,"oil, gas and fuels"
+GALP,Galp,"oil, gas and fuels"
+NESTE,Neste,"oil, gas and fuels"
+ORLEN,Orlen,"oil, gas and fuels"
+VARE,Var Energi,"oil, gas and fuels"
+AKRBP,Aker BP,"oil, gas and fuels"
+HBR,Harbour Energy,market cap outside 0.1-10x target band
+EDPR,EDP Renovaveis,market cap outside 0.1-10x target band
+ORSTED,Orsted,utility or renewable developer
+ANE,Acciona Energia,market cap outside 0.1-10x target band
+ERG,ERG,market cap outside 0.1-10x target band
+SLR,Solaria,market cap outside 0.1-10x target band
+GRE,Grenergy,market cap outside 0.1-10x target band
+SCATC,Scatec,market cap outside 0.1-10x target band
+EKT,Energiekontor,EUR1bn minimum or missing market cap
+PNE3,PNE,EUR1bn minimum or missing market cap
+IBE,Iberdrola,utility or renewable developer
+ENEL,Enel,utility or renewable developer
+SSE,SSE,utility or renewable developer
+ENGI,ENGIE,utility or renewable developer
+VER,Verbund,utility or renewable developer
+RWE,RWE,utility or renewable developer
+FORTUM,Fortum,utility or renewable developer
+DRX,Drax,market cap outside 0.1-10x target band
+EOAN,E.ON,utility or renewable developer
+ELE,Endesa,utility or renewable developer
+NTGY,Naturgy,utility or renewable developer
+CNA,Centrica,market cap outside 0.1-10x target band
+A2A,A2A,market cap outside 0.1-10x target band
+EDP,EDP,utility or renewable developer
+NG,National Grid,utility or renewable developer
+TRN,Terna,utility or renewable developer
+REE,Redeia,market cap outside 0.1-10x target band
+SRG,Snam,utility or renewable developer
+IG,Italgas,market cap outside 0.1-10x target band
+NDX1,Nordex,market cap outside 0.1-10x target band
+NKT,NKT,market cap outside 0.1-10x target band
+NEX,Nexans,market cap outside 0.1-10x target band
+SIE,Siemens,restructuring/perimeter: FY2025 Altair acquisition / India perimeter change makes FY figures noncomparable
+VAR,Var Energi,"oil, gas and fuels"
+ENOG,Energean,market cap outside 0.1-10x target band
+DNO,DNO,market cap outside 0.1-10x target band
+SUBC,Subsea 7,market cap outside 0.1-10x target band
+SPM,Saipem,market cap outside 0.1-10x target band
+TE,Technip Energies,market cap outside 0.1-10x target band
+TGS,TGS,market cap outside 0.1-10x target band
+SBMO,SBM Offshore,market cap outside 0.1-10x target band
+MT.AS,ArcelorMittal,"mining, metals, chemicals or materials"
+VOE,voestalpine,market cap outside 0.1-10x target band
+SSAB.A,SSAB,market cap outside 0.1-10x target band
+OUT1V,Outokumpu,market cap outside 0.1-10x target band
+SZG,Salzgitter,market cap outside 0.1-10x target band
+ALLEI,Alleima,market cap outside 0.1-10x target band
+BEKB,Bekaert,market cap outside 0.1-10x target band
+NHY,Norsk Hydro,market cap outside 0.1-10x target band
+NDA,Aurubis,market cap outside 0.1-10x target band
+RIO,Rio Tinto,"mining, metals, chemicals or materials"
+ANTO,Antofagasta,"mining, metals, chemicals or materials"
+BOL,Boliden,market cap outside 0.1-10x target band
+TKA,thyssenkrupp,market cap outside 0.1-10x target band
+APAM,Aperam,market cap outside 0.1-10x target band
+ACX,Acerinox,market cap outside 0.1-10x target band
+GRNG,Granges,market cap outside 0.1-10x target band
+YAR,Yara,market cap outside 0.1-10x target band
+BAS,BASF,"mining, metals, chemicals or materials"
+HEI,Heidelberg Materials,"mining, metals, chemicals or materials"
+GLEN,Glencore,"mining, metals, chemicals or materials"
+AAL,Anglo American,"mining, metals, chemicals or materials"
+NK,Imerys,market cap outside 0.1-10x target band
+BZU,Buzzi,market cap outside 0.1-10x target band
+ERA,Eramet,market cap outside 0.1-10x target band
+SDF,K+S,market cap outside 0.1-10x target band
+VBK,Verbio,market cap outside 0.1-10x target band

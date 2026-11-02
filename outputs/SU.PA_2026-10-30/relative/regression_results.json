@@ -1,0 +1,156 @@
+{
+  "regressions": {
+    "PE": {
+      "region": "EUROPE",
+      "r2": 0.201,
+      "predicted": 27.964456923076924,
+      "alt_units": null,
+      "dataset": "regressions_multi_2026-01",
+      "vintage": "2026-01",
+      "as_of": "2026-01-01",
+      "sha256": "a894ea86f209d59c68c57ba5674ee096ee875cf9726af2cfe84ec212af1d9bf5",
+      "variables": [
+        "beta",
+        "g_eps",
+        "payout"
+      ],
+      "constant": 9.72,
+      "terms": [
+        {
+          "variable": "beta",
+          "coef": 2.99,
+          "tstat": 4.85
+        },
+        {
+          "variable": "g_eps",
+          "coef": 49.82,
+          "tstat": 11.95
+        },
+        {
+          "variable": "payout",
+          "coef": 7.98,
+          "tstat": 9.22
+        }
+      ]
+    },
+    "PBV": {
+      "region": "EUROPE",
+      "r2": 0.423,
+      "predicted": 3.3920225431974056,
+      "alt_units": null,
+      "dataset": "regressions_multi_2026-01",
+      "vintage": "2026-01",
+      "as_of": "2026-01-01",
+      "sha256": "a894ea86f209d59c68c57ba5674ee096ee875cf9726af2cfe84ec212af1d9bf5",
+      "variables": [
+        "g_eps",
+        "beta",
+        "roe",
+        "payout"
+      ],
+      "constant": 0.73,
+      "terms": [
+        {
+          "variable": "g_eps",
+          "coef": 3.92,
+          "tstat": 5.87
+        },
+        {
+          "variable": "beta",
+          "coef": 0.13,
+          "tstat": 1.38
+        },
+        {
+          "variable": "roe",
+          "coef": 10.75,
+          "tstat": 24.81
+        },
+        {
+          "variable": "payout",
+          "coef": -0.25,
+          "tstat": 2.43
+        }
+      ]
+    },
+    "EV/EBITDA": {
+      "region": "EUROPE",
+      "r2": 0.262,
+      "predicted": 22.483461108857924,
+      "alt_units": 18.095089194723386,
+      "dataset": "regressions_multi_2026-01",
+      "vintage": "2026-01",
+      "as_of": "2026-01-01",
+      "sha256": "a894ea86f209d59c68c57ba5674ee096ee875cf9726af2cfe84ec212af1d9bf5",
+      "variables": [
+        "g_rev",
+        "dfr",
+        "tax_rate",
+        "roic"
+      ],
+      "constant": 18.15,
+      "terms": [
+        {
+          "variable": "g_rev",
+          "coef": 35.25,
+          "tstat": 13.96
+        },
+        {
+          "variable": "dfr",
+          "coef": -0.11,
+          "tstat": 10.65
+        },
+        {
+          "variable": "tax_rate",
+          "coef": -0.12,
+          "tstat": 5.19
+        },
+        {
+          "variable": "roic",
+          "coef": 2.29,
+          "tstat": 5.06
+        }
+      ]
+    }
+  },
+  "inputs": {
+    "beta": 1.19,
+    "g_eps": 0.204,
+    "g_rev": 0.1156,
+    "payout": 0.5668016194331984,
+    "roe": 0.17203190214471673,
+    "roic": 0.1322655449299522,
+    "dfr": 0.12958772792695597,
+    "tax_rate": 0.2506028246641405,
+    "oper_margin": 0.17351564056584978
+  },
+  "comparables_adjust": {
+    "pe": {
+      "available": true,
+      "n_valid": 10,
+      "median": 23.433946274871495,
+      "p25": 18.725373770100155,
+      "p75": 27.81566344669207
+    },
+    "pbv": {
+      "available": true,
+      "n_valid": 10,
+      "median": 4.842609743700285,
+      "p25": 4.125999157656747,
+      "p75": 5.014648636782805
+    },
+    "ps": {
+      "available": true,
+      "n_valid": 10,
+      "median": 3.2560496346396635,
+      "p25": 2.8348428880915977,
+      "p75": 3.397967659665464
+    },
+    "ev_sales": {
+      "available": true,
+      "n_valid": 9,
+      "median": 3.558235098742012,
+      "p25": 3.348830827936482,
+      "p75": 3.737584213619356
+    }
+  }
+}

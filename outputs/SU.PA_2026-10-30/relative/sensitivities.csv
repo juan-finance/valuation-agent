@@ -1,0 +1,13 @@
+sensitivity,removed,adj_pe_value,raw_pe_value,n_valid,value_per_share
+leave-one-out selected peer,SAND,164.94467911540474,238.2412887510229,9.0,
+leave-one-out selected peer,LR,182.2279840244173,238.2412887510229,9.0,
+leave-one-out selected peer,ATCO.A,182.2279840244173,227.01460067976618,9.0,
+leave-one-out selected peer,EPI.A,164.94467911540474,227.01460067976618,9.0,
+leave-one-out selected peer,METSO,164.94467911540474,227.01460067976618,9.0,
+leave-one-out selected peer,HLMA,164.94467911540474,227.01460067976618,9.0,
+leave-one-out selected peer,ALFA,182.2279840244173,238.2412887510229,9.0,
+leave-one-out selected peer,ENR,164.94467911540474,227.01460067976618,9.0,
+leave-one-out selected peer,WRT1V,182.2279840244173,238.2412887510229,9.0,
+leave-one-out selected peer,PRY,182.2279840244173,238.2412887510229,9.0,
+issuer adjusted measures: adj NI 4829 (EPS adj 8.59) on raw PE median,,,,,269.7645960483172
+target declared payout basis payout=0.567 (vs CF basis 0.526): fundamental growth 0.0685 vs 0.0721,,,,,
