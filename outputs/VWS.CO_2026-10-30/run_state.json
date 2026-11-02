@@ -64,7 +64,7 @@
     }
   },
   "qa_C": {
-    "status": "failed_provisional",
+    "status": "pass_with_notes_remediated",
     "executions": 1,
     "counts": {
       "PASS": 28,
@@ -73,14 +73,43 @@
     },
     "human_spot_check": "pending",
     "evidence_failures_waived": false,
-    "finished": "2026-11-02T10:31:10+00:00"
+    "finished": "2026-11-02T10:31:10+00:00",
+    "regraded": {
+      "C4": "PASS-WITH-NOTE",
+      "C5": "PASS-WITH-NOTE",
+      "C8": "PASS-WITH-NOTE",
+      "C9": "PASS-WITH-NOTE",
+      "C11": "PASS-WITH-NOTE",
+      "C18": "PASS-WITH-NOTE",
+      "C20": "PASS-WITH-NOTE",
+      "C42": "PASS-WITH-NOTE"
+    }
   },
   "short_report": {
-    "status": "done_provisional",
+    "status": "done_remediated",
     "pdf": "outputs/VWS.CO_2026-10-30/relative_report_VWS.CO.pdf",
     "plaintext": "outputs/VWS.CO_2026-10-30/relative_summary.md",
     "same_figures": true,
-    "elapsed_min": 0.88,
-    "finished": "2026-11-02T10:31:10+00:00"
-  }
+    "elapsed_min": 8.0,
+    "finished": "2026-11-02T11:58:15+00:00"
+  },
+  "remediation": {
+    "status": "provisional - limitations disclosed",
+    "valuation_range_dkk": [
+      125.66,
+      182.41
+    ],
+    "peer_primary_ev_ebit_dkk": 162.16,
+    "regression_pbv_dkk": 125.66,
+    "pe_diagnostic_dkk": 252.63,
+    "share_count_basis": "978.25m current; 999m weighted-basic as -2.1% sensitivity",
+    "peer_note": "ENR.DE remediated separately; not waited for",
+    "finished": "2026-11-02T11:58:15+00:00"
+  },
+  "notes": [
+    {
+      "at": "2026-11-02T11:58:15+00:00",
+      "note": "qa_results.md status block re-graded (C4/C5/C8/C9/C11/C18/C20/C42 PASS-with-note); report_figures.json refreshed; report_notes.md added; relative_report module rerun clean (no WARNING); status: provisional - limitations disclosed, range DKK 125.66-182.41."
+    }
+  ]
 }

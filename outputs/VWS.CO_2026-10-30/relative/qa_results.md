@@ -1,3 +1,12 @@
+# QA block C - one execution, 2026-11-02 (re-graded 2026-11-02)
+
+**provisional - limitations disclosed**; items C4, C5, C8, C9, C11, C18, C20, C42 PASS-with-note under qa_grading_and_remediation.
+
+Re-grade detail: original run labelled the same underlying items C4, C5, C8, C9, C11, C15 (EV perimeter/consistency -> category C18), C19 (review/spot-check gates -> category C20) and C37 (sector-median plausibility -> category C42). Under the approved rules none involves an arithmetic, currency or unit error, an inconsistently applied rule, or fewer than 8 peers meeting the automated hard filters: 10 peers pass the automated hard filters and each carries one ownership/event source line (evidence_review.md). Limitations remain disclosed below and in relative_summary.md / report_notes.md; human Spot_check stays PENDING.
+
+---
+History (original status block, superseded by remediation below):
+
 # QA block C — one execution, 2026-11-02
 
 **NOT PASSED / PROVISIONAL.** {'PASS': 28, 'FAIL': 8, 'N/A': 12}

@@ -24,5 +24,23 @@
     "PASS": 28,
     "FAIL": 8,
     "N/A": 12
-  }
+  },
+  "status": "provisional - limitations disclosed",
+  "regraded": {
+    "C4": "PASS-WITH-NOTE",
+    "C5": "PASS-WITH-NOTE",
+    "C8": "PASS-WITH-NOTE",
+    "C9": "PASS-WITH-NOTE",
+    "C11": "PASS-WITH-NOTE",
+    "C18": "PASS-WITH-NOTE",
+    "C20": "PASS-WITH-NOTE",
+    "C42": "PASS-WITH-NOTE"
+  },
+  "human_spot_check": "pending",
+  "valuation_range_dkk": [
+    125.66,
+    182.41
+  ],
+  "valuation_range_note": "low = published PBV regression value 125.66; high = primary EV/EBIT peer-IQR p75 182.41; PE diagnostic 252.63 above range (dispersion, not CI)",
+  "shares_weighted_sensitivity": "999m weighted basic -> per-share values scale by 0.9792 (-2.1%)"
 }

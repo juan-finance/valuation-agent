@@ -1,0 +1,8 @@
+# VWS.CO remediation notes - 2026-11-02
+
+- **Primary kept:** EV/EBIT stays the primary multiple on the uniform pre-associate bridge (debt incl. leases + NCI - cash; LT investments and associates not subtracted): peer median 18.96x on 8 valid -> DKK 162.16 mid vs DKK 189.25 quote (-14.3%), IQR 135.86-182.41. IMI and NKT drop out of EV multiples (invalid denominators), n=8 >= 6.
+- **Share count:** kept at 978.25m current; the 999m weighted-basic average is a sensitivity only and scales every per-share value by 0.9792 (-2.1%, below the 15% flag level).
+- **Cross-method dispersion above 15%:** the scaled-PE diagnostic implies DKK 252.63 (+55.8% vs the EV/EBIT mid) driven by the high vendor consensus growth; the published PBV regression implies DKK 125.66 (-22.5% vs the mid). The diagnostic range used is DKK 125.66-182.41 (regression low to primary IQR high); the PE value is an upper outlier reflecting a different denominator, not a bound.
+- **Vendor-vs-issuer bases:** vendor EBITDA 1501 vs issuer 2053 (-26.9% definitional gap) favours EV/EBIT; issuer reported EBIT 1015 vs vendor before-special-items 1067 (special items -52 = 4.9% of EBIT, below the 10% normalization trigger) is a target-only diagnostic, not a uniform normalization.
+- **Peer caveat:** ENR.DE (Siemens Energy) is in the selected peer set and is itself being remediated in a separate run; its vendor figures here are unchanged and no update was waited for. Europe membership evidence is the dated IEUR MSCI Europe IMI holdings proxy; URTH was required only for the unused non-European World expansion.
+- **Status:** provisional - limitations disclosed; the eight prior QA FAILs re-graded PASS-with-note under qa_grading_and_remediation; human Spot_check stays PENDING.
