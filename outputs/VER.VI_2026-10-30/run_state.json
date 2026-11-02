@@ -1,0 +1,13 @@
+{
+  "company": "Verbund AG",
+  "ticker": "VER.VI",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-11-02T00:00:00+00:00",
+  "stages": {
+    "stage1_data": {"status": "skipped_by_deviation", "notes": ["Reduced input step completed: outputs/VER.VI_2026-10-30/relative_inputs.md"], "outputs": ["outputs/VER.VI_2026-10-30/relative_inputs.md"], "next_step": ""},
+    "stage2_dcf": {"status": "skipped_by_deviation", "notes": [], "outputs": [], "next_step": ""},
+    "stage3_relative": {"status": "in_progress", "notes": [], "outputs": [], "next_step": "Candidate pool, scoring, selection, multiples, published regression"},
+    "stage4_recommendation": {"status": "skipped_by_deviation", "notes": [], "outputs": [], "next_step": ""}
+  }
+}
