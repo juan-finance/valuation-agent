@@ -24,9 +24,38 @@
       ]
     },
     "stage3_relative": {
-      "status": "pending",
-      "notes": [],
-      "outputs": []
+      "status": "provisional",
+      "notes": [
+        "2026-11-02T09:35:58+00:00 10 numerical peers on first Europe step (no relaxation); default Tier3 cap 2 kept; regression PBV chosen by published R2. Not an unqualified final valuation.",
+        "2026-11-02T09:35:58+00:00 Numerical deliverables complete/recalculated; candidate-source qualification and human Spot_check not complete."
+      ],
+      "outputs": [
+        "outputs/ORSTED.CO_2026-10-30/relative/finalize_stage3.py",
+        "outputs/ORSTED.CO_2026-10-30/relative/prepare_pool.py",
+        "outputs/ORSTED.CO_2026-10-30/relative/multiples_summary.csv",
+        "outputs/ORSTED.CO_2026-10-30/relative/comparables_report.md",
+        "outputs/ORSTED.CO_2026-10-30/relative/candidate_raw.csv",
+        "outputs/ORSTED.CO_2026-10-30/relative/comparables_audit.xlsx",
+        "outputs/ORSTED.CO_2026-10-30/relative/fetch_manifest.json",
+        "outputs/ORSTED.CO_2026-10-30/relative/regression_results.json",
+        "outputs/ORSTED.CO_2026-10-30/relative/build.py",
+        "outputs/ORSTED.CO_2026-10-30/relative/sensitivities.csv",
+        "outputs/ORSTED.CO_2026-10-30/relative/collect.py",
+        "outputs/ORSTED.CO_2026-10-30/relative/candidate_gates.csv",
+        "outputs/ORSTED.CO_2026-10-30/relative/formula_checks.json",
+        "outputs/ORSTED.CO_2026-10-30/relative/report_figures.json",
+        "outputs/ORSTED.CO_2026-10-30/relative/dataset_checks.json",
+        "outputs/ORSTED.CO_2026-10-30/relative/valuation_summary.md",
+        "outputs/ORSTED.CO_2026-10-30/relative/qa_and_report.py",
+        "outputs/ORSTED.CO_2026-10-30/relative/evidence_review.md",
+        "outputs/ORSTED.CO_2026-10-30/relative/regression_valuation.xlsx",
+        "outputs/ORSTED.CO_2026-10-30/relative/qa_results.md",
+        "outputs/ORSTED.CO_2026-10-30/relative/comparables.csv",
+        "outputs/ORSTED.CO_2026-10-30/relative/peer_selection.json",
+        "outputs/ORSTED.CO_2026-10-30/relative/valuation_multiples.csv"
+      ],
+      "next_step": "QA block C once, then required PDF/plaintext; evidence gates and human review remain unresolved",
+      "finished": "2026-11-02T09:35:58+00:00"
     },
     "stage4_recommendation": {
       "status": "skipped_by_deviation",
@@ -37,5 +66,24 @@
   },
   "final_status": "in_progress",
   "human_review": "pending",
-  "_t0": 1793611628.1348178
+  "_t0": 1793611628.1348178,
+  "qa_C": {
+    "status": "failed_provisional",
+    "executions": 1,
+    "counts": {
+      "PASS": 31,
+      "FAIL": 8,
+      "N/A": 9
+    },
+    "human_spot_check": "pending",
+    "evidence_failures_waived": false,
+    "finished": "2026-11-02T09:36:00+00:00"
+  },
+  "short_report": {
+    "status": "done_provisional",
+    "pdf": "outputs/ORSTED.CO_2026-10-30/relative_report_ORSTED.CO.pdf",
+    "plaintext": "outputs/ORSTED.CO_2026-10-30/relative_summary.md",
+    "same_figures": true,
+    "finished": "2026-11-02T09:36:00+00:00"
+  }
 }

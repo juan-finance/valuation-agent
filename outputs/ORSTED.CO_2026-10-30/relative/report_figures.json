@@ -1,0 +1,25 @@
+{
+  "ticker": "ORSTED.CO",
+  "valuation_date": "2026-10-30",
+  "price_dkk": 131.9,
+  "price_eur": 17.649026560513818,
+  "shares_m": 1321.062,
+  "peer_count": 10,
+  "tier12": 10,
+  "tier3": 0,
+  "europe": 10,
+  "peer_ev_ebitda_low": 14.705267554987357,
+  "peer_ev_ebitda_mid": 19.989080623921343,
+  "peer_ev_ebitda_high": 32.22033240553224,
+  "peer_upside": 0.1325882793243074,
+  "peer_pbv_mid": 4.982957483831124,
+  "peer_ev_ebit_mid": 18.766952822368708,
+  "regression_pbv": 35.988806372414864,
+  "regression_pe": 6.466324803193506,
+  "regression_ev_ebitda": 38.023250671296694,
+  "qa": {
+    "PASS": 31,
+    "FAIL": 8,
+    "N/A": 9
+  }
+}

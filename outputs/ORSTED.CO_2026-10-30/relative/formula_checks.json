@@ -1,0 +1,44 @@
+[
+  {
+    "check": "PE",
+    "workbook": 36.937129999999996,
+    "recomputed": 36.937129999999996,
+    "delta": 0.0,
+    "status": "PASS"
+  },
+  {
+    "check": "PBV",
+    "workbook": 2.9655548425466516,
+    "recomputed": 2.9655548425466516,
+    "delta": 0.0,
+    "status": "PASS"
+  },
+  {
+    "check": "EV/EBITDA",
+    "workbook": 21.254326476270922,
+    "recomputed": 21.254326476270922,
+    "delta": 0.0,
+    "status": "PASS"
+  },
+  {
+    "check": "EV_recompute EOAN",
+    "recorded": 91444.0,
+    "recomputed": 91444.0,
+    "delta": 0.0,
+    "status": "PASS"
+  },
+  {
+    "check": "EV_recompute FORTUM",
+    "recorded": 22713.0,
+    "recomputed": 22713.0,
+    "delta": 0.0,
+    "status": "PASS"
+  },
+  {
+    "check": "EV_recompute RWE",
+    "recorded": 60026.0,
+    "recomputed": 60026.0,
+    "delta": 0.0,
+    "status": "PASS"
+  }
+]
