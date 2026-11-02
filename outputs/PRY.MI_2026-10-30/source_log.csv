@@ -3,3 +3,6 @@ PRY.MI StockAnalysis financials,https://stockanalysis.com,2026-11-01,"price, sha
 ENR/ORSTED/other candidate rows,outputs/*/relative/candidate_raw.csv,2026-11-01,European peer candidates,used
 Damodaran published regressions EUROPE,data/ regressions_multi_2026-01 (as_of 2026-01-01),2026-10-30,"PE, PBV, EV/EBITDA equations",used
 Damodaran country risk (Italy),cache/macro/2026-10-30.json (ctryprem_global_2026-07),2026-10-30,"Italy default spread 0.0152, CRP 0.0236",used
+dataset regressions_multi_2026-01,data/damodaran/2026-01/regressions_multi.md,2026-10-30,"sha256 a894ea86f209d59c68c57ba5674ee096ee875cf9726af2cfe84ec212af1d9bf5; integrity 0 errors, 5 warnings (GLOBAL/EM rows not used; DFR/tax units)",used
+ISIN format check (ten peers),cache comparables.csv of other runs,2026-11-02,ISO 6166 check digit valid; exchange register not checked,partial
+market cap internal reconciliation,StockAnalysis price x shares,2026-11-01,0.0% difference; annual report not fetched,partial

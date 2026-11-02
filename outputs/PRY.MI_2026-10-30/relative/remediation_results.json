@@ -1,0 +1,39 @@
+{
+  "integrity": {
+    "dataset_id": "regressions_multi_2026-01",
+    "file": "data/damodaran/2026-01/regressions_multi.md",
+    "sha256": "a894ea86f209d59c68c57ba5674ee096ee875cf9726af2cfe84ec212af1d9bf5",
+    "registry_sha256": "a894ea86f209d59c68c57ba5674ee096ee875cf9726af2cfe84ec212af1d9bf5",
+    "sha_matches_registry": true,
+    "errors": [],
+    "warnings": [
+      "identical_tstats: ('PEG', 'GLOBAL'): identical t-stats [12.83] on different terms (possible transcription error in the source)",
+      "sign_differs_from_all_other_regions: PEG / ln(g_eps) in GLOBAL: coefficient +0.48 (t=12.8) has the opposite sign of all other regions; verify against Damodaran's original before use",
+      "sign_differs_from_all_other_regions: PBV / beta in GLOBAL: coefficient -0.12 (t=2.6) has the opposite sign of all other regions; verify against Damodaran's original before use",
+      "sign_differs_from_all_other_regions: EV/EBITDA / roic in EM: coefficient -4.88 (t=7.0) has the opposite sign of all other regions; verify against Damodaran's original before use",
+      "units_dfr_tax_unresolved: DFR and Tax rate coefficients (e.g. -0.11, -0.12, t-stats 5-90) look like percentage points, while the file says decimals. predict() requires an explicit unit policy; resolve with Damodaran's variable page and a sector-median plausibility check."
+    ],
+    "infos": [
+      "equation_counts",
+      "regions_only_in_one_view",
+      "views_agree",
+      "identical_r2_across_regions",
+      "no_residual_se"
+    ]
+  },
+  "mcap": {
+    "price": 110.4,
+    "shares_m": 292.25,
+    "mcap_price_x_shares": 32264.4,
+    "mcap_stockanalysis": 32264.4,
+    "diff_pct": 0.0
+  },
+  "pool_count": 30,
+  "sensitivity_unit": {
+    "decimal_multiple": 24.74071294333798,
+    "pct_points_multiple": 20.65107756912731,
+    "decimal_value": 155.87295437079848,
+    "pct_value": 128.1795808701555,
+    "change_pct": -17.766631557367283
+  }
+}

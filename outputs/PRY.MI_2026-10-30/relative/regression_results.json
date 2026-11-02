@@ -138,5 +138,28 @@
       "p25": 4.832540977731629,
       "p75": 6.6022681619667765
     }
-  }
+  },
+  "predictions": [
+    {
+      "model": "PE",
+      "predicted": 22.88170888794597,
+      "actual": 25.40503937007874,
+      "published_r2": 0.201,
+      "value_per_share": 99.43462887148462
+    },
+    {
+      "model": "PBV",
+      "predicted": 3.8722870240497675,
+      "actual": 4.983688600556071,
+      "published_r2": 0.423,
+      "value_per_share": 85.77993564995106
+    },
+    {
+      "model": "EV/EBITDA",
+      "predicted": 24.74071294333798,
+      "actual": 18.025467407781708,
+      "published_r2": 0.262,
+      "value_per_share": 155.87295437079848
+    }
+  ]
 }

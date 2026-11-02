@@ -1,0 +1,31 @@
+ticker,name,source,distance,status,reason
+VWS,Vestas,cache candidate_raw (eligible),0.5617,selected,
+ABBN,ABB,cache candidate_raw (eligible),0.8325,selected,
+IMI,IMI,cache candidate_raw (eligible),0.925,selected,
+NEX,Nexans,cache candidate_raw (eligible),0.9259,selected,
+ALFA,Alfa Laval,cache candidate_raw (eligible),1.0255,selected,
+NDX1,Nordex,cache candidate_raw (eligible),1.0998,selected,
+HLMA,Halma,cache candidate_raw (eligible),1.205,selected,
+G1A,GEA Group,cache candidate_raw (eligible),1.2114,selected,
+WRT1V,Wartsila,cache candidate_raw (eligible),1.2279,selected,
+NKT,NKT,cache candidate_raw (eligible),1.2738,selected,
+KRN,Krones,cache candidate_raw (eligible),1.2811,"eligible, not selected (rank below top 10)",rank 11; Tier 2; distance above top 10 cut-off
+LR,Legrand,cache candidate_raw (eligible),1.3227,"eligible, not selected (rank below top 10)",rank 12; Tier 1; distance above top 10 cut-off
+SIE,Siemens,cache candidate_raw (eligible),1.3361,"eligible, not selected (rank below top 10)",rank 13; Tier 2; distance above top 10 cut-off
+ATCO.A,Atlas Copco A,cache candidate_raw (eligible),1.3626,"eligible, not selected (rank below top 10)",rank 14; Tier 2; distance above top 10 cut-off
+INDT,Indutrade,cache candidate_raw (eligible),1.4434,"eligible, not selected (rank below top 10)",rank 15; Tier 2; distance above top 10 cut-off
+ANDR,Andritz,cache candidate_raw (eligible),1.4552,"eligible, not selected (rank below top 10)",rank 16; Tier 2; distance above top 10 cut-off
+EPI.A,Epiroc A,cache candidate_raw (eligible),1.4994,"eligible, not selected (rank below top 10)",rank 17; Tier 3; distance above top 10 cut-off
+SU,Schneider Electric,cache candidate_raw (eligible),1.5586,"eligible, not selected (rank below top 10)",rank 18; Tier 1; distance above top 10 cut-off
+ENR,Siemens Energy,cache candidate_raw (eligible),1.6088,"eligible, not selected (rank below top 10)",rank 19; Tier 1; distance above top 10 cut-off
+SAND,Sandvik,cache candidate_raw (eligible),1.6141,"eligible, not selected (rank below top 10)",rank 20; Tier 3; distance above top 10 cut-off
+BUCN,Bucher Industries,cache candidate_raw (eligible),1.6172,"eligible, not selected (rank below top 10)",rank 21; Tier 2; distance above top 10 cut-off
+IP,Interpump,cache candidate_raw (eligible),1.6498,"eligible, not selected (rank below top 10)",rank 22; Tier 2; distance above top 10 cut-off
+FLS,FLSmidth,cache candidate_raw (rejected),,rejected,OTHER
+KSB,KSB,cache candidate_raw (rejected),,rejected,market cap below EUR 3.2bn (size band 0.1x)
+BCHN,Burckhardt Compression,cache candidate_raw (rejected),,rejected,market cap below EUR 3.2bn (size band 0.1x)
+WEIR,Weir Group,cache candidate_raw (rejected),,rejected,"mining, metals, chemicals or materials"
+RAA,Rational,cache candidate_raw (rejected),,rejected,"mining, metals, chemicals or materials"
+BP,BP,cache candidate_raw (rejected),,rejected,"oil, gas and fuels"
+SHEL,Shell,cache candidate_raw (rejected),,rejected,"oil, gas and fuels"
+TTE,TotalEnergies,cache candidate_raw (rejected),,rejected,"oil, gas and fuels"

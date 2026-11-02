@@ -25,7 +25,7 @@
       "status": "skipped_by_deviation"
     },
     "stage3_relative": {
-      "status": "done_provisional",
+      "status": "provisional",
       "notes": [
         "published_damodaran EUROPE (PE, PBV, EV/EBITDA); PBV chosen by published R2 0.423; comparables 10 peers",
         "outputs: relative/, comparables_report.md, valuation_multiples.csv, regression_valuation.xlsx (not recalculated), comparables_audit.xlsx"
@@ -38,8 +38,8 @@
       ]
     },
     "qa_C": {
-      "status": "run_once",
-      "result": "PASS/PENDING listed in qa_results.md; FAIL 0; PENDING items not performed"
+      "status": "remediated_once",
+      "result": "FAIL 0; PARTIAL 2; PENDING 1 (workbook recalc); human Spot_check PENDING; see relative/qa_results.md"
     },
     "short_report": {
       "status": "done",
@@ -47,7 +47,28 @@
       "summary": "relative_summary.md"
     }
   },
-  "final_status": "done_provisional",
+  "final_status": "provisional - limitations disclosed",
   "human_review": "pending",
-  "elapsed_minutes_stage3": 4
+  "elapsed_minutes_stage3": 4,
+  "remediation": {
+    "rule": "qa_grading_and_remediation + relative_only",
+    "status": "provisional - limitations disclosed",
+    "changes": [
+      "fresh 30-row candidate pool with rejection reasons (relative/candidate_pool_20_30.csv)",
+      "EV random checks (3, seed 20261030), ISIN format checks (10), dataset sha256 + integrity in source_log",
+      "sensitivities: leave-one-out, quartiles, EV/EBITDA units (relative/sensitivities.csv)",
+      "annual-report market-cap reconciliation and exchange-register ISIN check NOT done (PARTIAL)",
+      "workbook recalculation NOT possible (no LibreOffice, no Python formula engine); Python recompute kept",
+      "qa_results.md moved to relative/ with remediated status block; history kept below"
+    ],
+    "valuation_range_eur": [
+      67.04,
+      178.6
+    ],
+    "human_spot_check": "pending",
+    "finished": "2026-11-02T12:35:26+00:00",
+    "elapsed_min_approx": null,
+    "timing_note": "elapsed not logged per step; remediation ran in one session from the first checkout of this turn"
+  },
+  "elapsed_minutes_remediation": null
 }

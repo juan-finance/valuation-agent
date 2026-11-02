@@ -1,0 +1,47 @@
+{
+  "ticker": "PRY.MI",
+  "valuation_date": "2026-10-30",
+  "current_price": 110.4,
+  "shares_m": 292.25,
+  "mcap_eur_m": 32264.4,
+  "peer_count": 10,
+  "tier12": 10,
+  "tier3": 0,
+  "europe": 10,
+  "raw_pe_median": 26.976011880570635,
+  "scaled_pe_median": 30.977235770169912,
+  "pe_value": 134.61450616977174,
+  "pe_iqr": [
+    111.51940524263718,
+    178.59874362990737
+  ],
+  "ev_ebit_median": 18.144302123791423,
+  "ev_ebit_value": 83.39068110016996,
+  "ev_ebit_iqr": [
+    67.03823431169074,
+    99.92326676820144
+  ],
+  "regression_pbv": 85.77993564995106,
+  "regression_pbv_multiple": 3.8722870240497675,
+  "regression_pe": 99.43462887148462,
+  "regression_ev_ebitda": 155.87295437079848,
+  "valuation_range_eur": [
+    67.03823431169074,
+    178.59874362990737
+  ],
+  "valuation_range_basis": "envelope of primary P/E (growth-adjusted) IQR and EV/EBIT cross-check IQR; no averaging with regressions",
+  "qa": {
+    "source": "qa_results.md (remediated)"
+  },
+  "status": "provisional - limitations disclosed",
+  "human_spot_check": "pending",
+  "chosen_model": "PBV",
+  "chosen_r2": 0.423,
+  "ev_bridge": "pre-associate: debt + NCI - cash (associates not collected, not subtracted)",
+  "sensitivities": {
+    "quartile p25 (adjusted PE)": -17.16,
+    "quartile p75 (adjusted PE)": 32.67,
+    "raw PE median (no growth scaling)": -12.92,
+    "EV/EBITDA regression units (pct-points vs decimal)": -17.77
+  }
+}

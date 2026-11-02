@@ -1,0 +1,11 @@
+ticker,isin,format_check_digit_ok,source,exchange_register_check,note
+NEX,FR0000044448,True,other runs comparables.csv (cache),not performed (no web access in this step),
+NKT,DK0010287663,True,other runs comparables.csv (cache),not performed (no web access in this step),
+ABBN,CH0012221716,True,other runs comparables.csv (cache),not performed (no web access in this step),
+VWS,DK0061539921,True,other runs comparables.csv (cache),not performed (no web access in this step),"second ISIN also found in cache: DK0010268606 (checksum ok); ambiguous, needs register check"
+IMI,GB00BGLP8L22,True,other runs comparables.csv (cache),not performed (no web access in this step),
+ALFA,SE0000695876,True,other runs comparables.csv (cache),not performed (no web access in this step),
+NDX1,DE000A0D6554,True,other runs comparables.csv (cache),not performed (no web access in this step),
+HLMA,GB0004052071,True,other runs comparables.csv (cache),not performed (no web access in this step),
+G1A,DE0006602006,True,other runs comparables.csv (cache),not performed (no web access in this step),
+WRT1V,FI0009003727,True,other runs comparables.csv (cache),not performed (no web access in this step),
