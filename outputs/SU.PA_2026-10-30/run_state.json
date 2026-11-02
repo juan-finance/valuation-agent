@@ -1,0 +1,36 @@
+{
+  "company": "Schneider Electric SE",
+  "ticker": "SU.PA",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-11-02",
+  "stages": {
+    "stage0_market": {
+      "status": "done",
+      "notes": [
+        "No top-up needed: France country (Aa3, CRP 0.74%, mature ERP 4.20%) and EUR already in cache; EUROPE equations resolve for FR"
+      ]
+    },
+    "stage1_data": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only: reduced input step in relative_inputs.md (StockAnalysis uniform extract, issuer cross-check vs Schneider FY2025 results release)"
+      ],
+      "outputs": [
+        "relative_inputs.md",
+        "source_log.csv"
+      ]
+    },
+    "stage2_dcf": {
+      "status": "skipped_by_deviation"
+    },
+    "stage3_relative": {
+      "status": "in_progress"
+    },
+    "stage4_recommendation": {
+      "status": "skipped_by_deviation"
+    }
+  },
+  "final_status": "in_progress",
+  "human_review": "pending"
+}
