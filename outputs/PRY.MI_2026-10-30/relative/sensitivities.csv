@@ -13,3 +13,7 @@ quartile p25 (adjusted PE),,111.51940524263718,-17.15647264493748
 quartile p75 (adjusted PE),,178.59874362990735,32.674218189133384
 raw PE median (no growth scaling),,117.22680954088864,-12.91665892749646
 EV/EBITDA regression units (pct-points vs decimal),,128.1795808701555,-17.766631557367283
+
+Tier-1 second peer set: adjusted P/E median (n=10),,134.6145,-0.0000
+Tier-1 second peer set: EV/EBIT median (n=8),,100.5012,26.1759
+Tier-1 second peer set: EV/EBITDA median (n=8),,108.1281,28.3044

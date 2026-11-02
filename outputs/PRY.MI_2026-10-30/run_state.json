@@ -57,16 +57,17 @@
       "qa_results.md re-graded: xlsx recalculation, exchange-register ISIN verification and annual-report market-cap reconciliation now PASS-with-note; Vestas ISIN disclosed note kept (DK0061539921)",
       "report_figures.json refreshed from current multiples_summary.csv and regression_results.json",
       "report_notes.md rewritten: P/E vs EV divergence bullet (net debt/EBITDA 1.62x vs 0.16x, ETR 21.6% vs 26.3% n=4); current medians stated",
-      "relative_report re-run: no WARNING"
+      "relative_report re-run: no WARNING",
+      "Part B: relative/evidence_review.md (10 peers, ownership + FY2024-25 event lines); Tier-1 second peer set sensitivity in sensitivities.csv and report_notes.md"
     ],
     "valuation_range_eur": [
       67.04,
       178.6
     ],
     "human_spot_check": "pending",
-    "finished": "2026-11-02T16:09:00+00:00",
-    "elapsed_min_approx": 3.0,
+    "finished": "2026-11-02T16:12:00+00:00",
+    "elapsed_min_approx": 8.0,
     "timing_note": "elapsed not logged per step; remediation ran in one session from the first checkout of this turn"
   },
-  "elapsed_minutes_remediation": 3.0
+  "elapsed_minutes_remediation": 8.0
 }
