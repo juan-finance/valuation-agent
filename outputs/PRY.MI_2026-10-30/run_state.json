@@ -1,0 +1,16 @@
+{
+  "company": "Prysmian S.p.A.",
+  "ticker": "PRY.MI",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-11-02",
+  "stages": {
+    "stage0_market": {"status": "done", "notes": ["Italy-only top-up (topup_it.py); no rebuild"]},
+    "stage1_data": {"status": "skipped_by_deviation", "notes": ["relative_only: reduced input step in relative_inputs.md (StockAnalysis, annual-report cross-check not done)"], "outputs": ["relative_inputs.md", "source_log.csv"]},
+    "stage2_dcf": {"status": "skipped_by_deviation"},
+    "stage3_relative": {"status": "in_progress", "notes": ["published_damodaran route, standard mode, min_valid=6"]},
+    "stage4_recommendation": {"status": "skipped_by_deviation", "notes": ["relative_only approved deviation; short PDF report instead"]}
+  },
+  "final_status": "in_progress",
+  "human_review": "pending"
+}
