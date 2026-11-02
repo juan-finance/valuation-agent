@@ -118,6 +118,16 @@
       "total_erp": 0.042,
       "region": "Western Europe",
       "warnings": []
+    },
+    "Italy": {
+      "country": "Italy",
+      "table": "rated",
+      "rating": "Baa2",
+      "default_spread": 0.0152,
+      "crp": 0.0236,
+      "total_erp": 0.06559999999999999,
+      "region": "Western Europe",
+      "warnings": []
     }
   },
   "mature_erp": {

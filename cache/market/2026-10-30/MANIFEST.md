@@ -76,3 +76,8 @@ check_dataset findings (regressions_multi_2026-01): warnings — GLOBAL PEG ln(g
 - Denmark was the only missing country for NKT.CO (reports and trades DKK — ECB FX DKK per EUR already in the snapshot). Added Denmark Aaa, default spread 0, CRP 0, total ERP 4.20% from registered ctryprem_global_2026-07. Stage 3 does not discount, so no Denmark-specific instrument was required.
 - All datasets resolve for Denmark: EUROPE exact for beta/capex/dbtfund/wcdata/regressions/pbv_industry/evebitda_industry; ratings GLOBAL fallback unchanged (same warning as prior top-ups). EUROPE PE/PBV/EV-EBITDA equations resolved in topup_NKT.CO.json.
 - Reproducible script topup_nkt.py asserts all existing countries, currencies, FX and snapshot fields unchanged. No universe rebuild, candidate collection, or other-country changes.
+
+## PRY.MI-only top-up - 2026-11-02
+- Added Italy sovereign spread from registered ctryprem_global_2026-07: Baa2, default spread 1.52%, CRP 2.36%, total ERP 6.56%. Stage 3 does not discount, so this is for consistency only.
+- All datasets resolve for Italy at exact EUROPE level (see topup_PRY.MI.json); EUROPE PE/PBV/EV-EBITDA equations found.
+- Reproducible script topup_it.py asserts all existing countries, currencies, FX and snapshot fields unchanged. No universe rebuild or candidate collection.

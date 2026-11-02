@@ -1,0 +1,16 @@
+{
+  "ticker": "PRY.MI",
+  "valuation_date": "2026-10-30",
+  "country": "Italy",
+  "currency": "EUR",
+  "resolutions": {
+    "beta": "beta_europe_2026-01 [exact]",
+    "capex": "capex_europe_2026-01 [exact]",
+    "ctryprem": "ctryprem_global_2026-07 [exact]",
+    "dbtfund": "dbtfund_europe_2026-01 [exact]",
+    "wcdata": "wcdata_europe_2026-01 [exact]",
+    "regressions": "regressions_multi_2026-01 [exact]",
+    "pbv_industry": "pbv_industry_europe_2026-01 [exact]",
+    "evebitda_industry": "evebitda_industry_europe_2026-01 [exact]"
+  }
+}
