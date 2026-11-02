@@ -1,0 +1,28 @@
+{
+  "ticker": "VWS.CO",
+  "valuation_date": "2026-10-30",
+  "current_price_dkk": 189.25,
+  "shares_m": 978.25,
+  "peer_count": 10,
+  "tier12": 9,
+  "tier3": 1,
+  "europe": 10,
+  "ev_ebit_n": 8,
+  "ev_ebit_median": 18.95997960831921,
+  "ev_ebit_mid_dkk": 162.16175815196468,
+  "ev_ebit_iqr": [
+    135.86012867740928,
+    182.40588540909977
+  ],
+  "ev_ebit_upside": -0.1431346993291166,
+  "pe_mid_dkk": 252.63171537922543,
+  "ev_sales_mid_dkk": 195.02946833625745,
+  "regression_model": "PBV",
+  "regression_r2": 0.423,
+  "regression_value_dkk": 125.65663911978076,
+  "qa": {
+    "PASS": 28,
+    "FAIL": 8,
+    "N/A": 12
+  }
+}

@@ -53,7 +53,7 @@
         "outputs/VWS.CO_2026-10-30/relative/peer_selection.json",
         "outputs/VWS.CO_2026-10-30/relative/valuation_multiples.csv"
       ],
-      "next_step": "QA block C once, then required PDF/plaintext; evidence gates and human review remain unresolved",
+      "next_step": "Do not issue qualified comparable conclusion until QA source failures are resolved; human Spot_check pending.",
       "finished": "2026-11-02T10:30:17+00:00"
     },
     "stage4_recommendation": {
@@ -62,5 +62,25 @@
       "outputs": [],
       "next_step": ""
     }
+  },
+  "qa_C": {
+    "status": "failed_provisional",
+    "executions": 1,
+    "counts": {
+      "PASS": 28,
+      "FAIL": 8,
+      "N/A": 12
+    },
+    "human_spot_check": "pending",
+    "evidence_failures_waived": false,
+    "finished": "2026-11-02T10:31:10+00:00"
+  },
+  "short_report": {
+    "status": "done_provisional",
+    "pdf": "outputs/VWS.CO_2026-10-30/relative_report_VWS.CO.pdf",
+    "plaintext": "outputs/VWS.CO_2026-10-30/relative_summary.md",
+    "same_figures": true,
+    "elapsed_min": 0.88,
+    "finished": "2026-11-02T10:31:10+00:00"
   }
 }
