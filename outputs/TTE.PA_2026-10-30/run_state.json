@@ -1,0 +1,64 @@
+{
+  "company": "TotalEnergies SE",
+  "ticker": "TTE.PA",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-11-02T10:10:21+00:00",
+  "stages": {
+    "stage1_data": {
+      "status": "skipped_by_deviation",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage2_dcf": {
+      "status": "skipped_by_deviation",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage3_relative": {
+      "status": "provisional",
+      "notes": [
+        "2026-11-02T10:10:21+00:00 10 numerical peers; World relaxation (a) used; regression PBV chosen by published R2. Not an unqualified final valuation.",
+        "2026-11-02T10:10:21+00:00 Numerical deliverables complete/recalculated in Python (LibreOffice absent, disclosed); candidate-source qualification and human Spot_check not complete."
+      ],
+      "outputs": [
+        "outputs/TTE.PA_2026-10-30/relative/finalize_stage3.py",
+        "outputs/TTE.PA_2026-10-30/relative/candidate_fetch_manifest.json",
+        "outputs/TTE.PA_2026-10-30/relative/multiples_summary.csv",
+        "outputs/TTE.PA_2026-10-30/relative/source_log.csv",
+        "outputs/TTE.PA_2026-10-30/relative/comparables_report.md",
+        "outputs/TTE.PA_2026-10-30/relative/candidate_raw.csv",
+        "outputs/TTE.PA_2026-10-30/relative/industry_benchmarks.json",
+        "outputs/TTE.PA_2026-10-30/relative/world_pool_membership.csv",
+        "outputs/TTE.PA_2026-10-30/relative/comparables_audit.xlsx",
+        "outputs/TTE.PA_2026-10-30/relative/normalize.py",
+        "outputs/TTE.PA_2026-10-30/relative/peer_ev_checks.csv",
+        "outputs/TTE.PA_2026-10-30/relative/regression_results.json",
+        "outputs/TTE.PA_2026-10-30/relative/build.py",
+        "outputs/TTE.PA_2026-10-30/relative/sensitivities.csv",
+        "outputs/TTE.PA_2026-10-30/relative/world_candidate_membership.csv",
+        "outputs/TTE.PA_2026-10-30/relative/collect.py",
+        "outputs/TTE.PA_2026-10-30/relative/candidate_gates.csv",
+        "outputs/TTE.PA_2026-10-30/relative/formula_checks.json",
+        "outputs/TTE.PA_2026-10-30/relative/valuation_summary.md",
+        "outputs/TTE.PA_2026-10-30/relative/qa_and_report.py",
+        "outputs/TTE.PA_2026-10-30/relative/evidence_review.md",
+        "outputs/TTE.PA_2026-10-30/relative/regression_valuation.xlsx",
+        "outputs/TTE.PA_2026-10-30/relative/comparables.csv",
+        "outputs/TTE.PA_2026-10-30/relative/peer_selection.json",
+        "outputs/TTE.PA_2026-10-30/relative/valuation_multiples.csv"
+      ],
+      "next_step": "QA block C once, then required PDF/plaintext; evidence gates and human review remain unresolved",
+      "finished": "2026-11-02T10:10:21+00:00",
+      "elapsed_min": 1.8
+    },
+    "stage4_recommendation": {
+      "status": "skipped_by_deviation",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    }
+  }
+}

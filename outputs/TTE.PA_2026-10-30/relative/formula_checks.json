@@ -1,0 +1,73 @@
+{
+  "note": "LibreOffice absent; formulas re-evaluated in Python and compared to stored predictions/distances (1e-9 / 1e-6).",
+  "checks": [
+    {
+      "check": "PE",
+      "prediction_delta": 0.0,
+      "share_value_delta": 0.0,
+      "status": "PASS"
+    },
+    {
+      "check": "PBV",
+      "prediction_delta": 4.440892098500626e-16,
+      "share_value_delta": 2.842170943040401e-14,
+      "status": "PASS"
+    },
+    {
+      "check": "EV/EBITDA",
+      "prediction_delta": 0.0,
+      "share_value_delta": 0.0,
+      "status": "PASS"
+    },
+    {
+      "check": "score SHEL",
+      "delta": 7.216449660063518e-16,
+      "status": "PASS"
+    },
+    {
+      "check": "score XOM",
+      "delta": 1.1102230246251565e-16,
+      "status": "PASS"
+    },
+    {
+      "check": "score COP",
+      "delta": 2.220446049250313e-16,
+      "status": "PASS"
+    },
+    {
+      "check": "score VLO",
+      "delta": 2.220446049250313e-16,
+      "status": "PASS"
+    },
+    {
+      "check": "score REP",
+      "delta": 8.881784197001252e-16,
+      "status": "PASS"
+    },
+    {
+      "check": "score EQNR",
+      "delta": 2.220446049250313e-16,
+      "status": "PASS"
+    },
+    {
+      "check": "score ENI",
+      "delta": 5.551115123125783e-16,
+      "status": "PASS"
+    },
+    {
+      "check": "score CVX",
+      "delta": 4.440892098500626e-16,
+      "status": "PASS"
+    },
+    {
+      "check": "score OMV",
+      "delta": 2.220446049250313e-16,
+      "status": "PASS"
+    },
+    {
+      "check": "score EOG",
+      "delta": 2.220446049250313e-16,
+      "status": "PASS"
+    }
+  ]
+}

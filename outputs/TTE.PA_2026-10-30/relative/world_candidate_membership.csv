@@ -1,0 +1,10 @@
+Ticker,Name,Sector,Asset Class,Market Value,Weight (%),Notional Value,Quantity,Price,Location,Exchange,Currency,FX Rate,Market Currency,Accrual Date
+XOM,EXXONMOBIL HOLDINGS CORP,Energy,Equity,"77,968,653.00",0.86,"77,968,653.00","416,388.00",187.25,United States,NYSE,USD,1.0,USD,-
+CVX,CHEVRON,Energy,Equity,"43,579,678.72",0.48,"43,579,678.72","185,036.00",235.52,United States,NYSE,USD,1.0,USD,-
+COP,CONOCOPHILLIPS,Energy,Equity,"18,834,018.25",0.21,"18,834,018.25","122,275.00",154.03,United States,NYSE,USD,1.0,USD,-
+VLO,VALERO ENERGY CORP,Energy,Equity,"11,980,607.82",0.13,"11,980,607.82","29,977.00",399.66,United States,NYSE,USD,1.0,USD,-
+CNQ,CANADIAN NATURAL RESOURCES LTD,Energy,Equity,"11,656,284.53",0.13,"11,656,284.53","207,478.00",56.18,Canada,Toronto Stock Exchange,USD,1.4,CAD,-
+PSX,PHILLIPS 66,Energy,Equity,"11,360,432.61",0.13,"11,360,432.61","40,167.00",282.83,United States,NYSE,USD,1.0,USD,-
+EOG,EOG RESOURCES,Energy,Equity,"8,827,751.58",0.1,"8,827,751.58","53,327.00",165.54,United States,NYSE,USD,1.0,USD,-
+OXY,OCCIDENTAL PETROLEUM CORP,Energy,Equity,"4,677,824.00",0.05,"4,677,824.00","73,091.00",64.00,United States,NYSE,USD,1.0,USD,-
+IMO,IMPERIAL OIL LTD,Energy,Equity,"2,091,776.82",0.02,"2,091,776.82","15,091.00",138.61,Canada,Toronto Stock Exchange,USD,1.4,CAD,-
