@@ -1,0 +1,5 @@
+source,location,accessed,used_for,status
+PRY.MI StockAnalysis financials,https://stockanalysis.com,2026-11-01,"price, shares, P&L, balance sheet, multiples",used
+ENR/ORSTED/other candidate rows,outputs/*/relative/candidate_raw.csv,2026-11-01,European peer candidates,used
+Damodaran published regressions EUROPE,data/ regressions_multi_2026-01 (as_of 2026-01-01),2026-10-30,"PE, PBV, EV/EBITDA equations",used
+Damodaran country risk (Italy),cache/macro/2026-10-30.json (ctryprem_global_2026-07),2026-10-30,"Italy default spread 0.0152, CRP 0.0236",used

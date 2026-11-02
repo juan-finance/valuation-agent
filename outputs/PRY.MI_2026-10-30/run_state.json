@@ -5,12 +5,49 @@
   "mode": "standard",
   "created": "2026-11-02",
   "stages": {
-    "stage0_market": {"status": "done", "notes": ["Italy-only top-up (topup_it.py); no rebuild"]},
-    "stage1_data": {"status": "skipped_by_deviation", "notes": ["relative_only: reduced input step in relative_inputs.md (StockAnalysis, annual-report cross-check not done)"], "outputs": ["relative_inputs.md", "source_log.csv"]},
-    "stage2_dcf": {"status": "skipped_by_deviation"},
-    "stage3_relative": {"status": "in_progress", "notes": ["published_damodaran route, standard mode, min_valid=6"]},
-    "stage4_recommendation": {"status": "skipped_by_deviation", "notes": ["relative_only approved deviation; short PDF report instead"]}
+    "stage0_market": {
+      "status": "done",
+      "notes": [
+        "Italy-only top-up (topup_it.py); no rebuild"
+      ]
+    },
+    "stage1_data": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only: reduced input step in relative_inputs.md (StockAnalysis, annual-report cross-check not done)"
+      ],
+      "outputs": [
+        "relative_inputs.md",
+        "source_log.csv"
+      ]
+    },
+    "stage2_dcf": {
+      "status": "skipped_by_deviation"
+    },
+    "stage3_relative": {
+      "status": "done_provisional",
+      "notes": [
+        "published_damodaran EUROPE (PE, PBV, EV/EBITDA); PBV chosen by published R2 0.423; comparables 10 peers",
+        "outputs: relative/, comparables_report.md, valuation_multiples.csv, regression_valuation.xlsx (not recalculated), comparables_audit.xlsx"
+      ]
+    },
+    "stage4_recommendation": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation; short PDF report instead"
+      ]
+    },
+    "qa_C": {
+      "status": "run_once",
+      "result": "PASS/PENDING listed in qa_results.md; FAIL 0; PENDING items not performed"
+    },
+    "short_report": {
+      "status": "done",
+      "file": "relative_report_PRY.MI.pdf",
+      "summary": "relative_summary.md"
+    }
   },
-  "final_status": "in_progress",
-  "human_review": "pending"
+  "final_status": "done_provisional",
+  "human_review": "pending",
+  "elapsed_minutes_stage3": 4
 }
