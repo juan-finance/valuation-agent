@@ -1,0 +1,25 @@
+{
+  "tier1": [
+    "ABBN",
+    "ENR",
+    "SU",
+    "LR",
+    "NKT",
+    "NEX"
+  ],
+  "extra": [
+    "VWS",
+    "IMI",
+    "ALFA",
+    "NDX1"
+  ],
+  "pe_adj_median": 30.97723577016991,
+  "pe_value": 134.61450616977172,
+  "ev_ebit_median": 21.410505703638663,
+  "ev_ebit_value": 100.50122919510964,
+  "ev_ebitda_median": 17.68996587315024,
+  "ev_ebitda_value": 108.12811792288905,
+  "n_ebit": 8,
+  "peer_nd_ebitda_median": 0.15813434038699994,
+  "peer_etr_median": 0.2629133831468029
+}

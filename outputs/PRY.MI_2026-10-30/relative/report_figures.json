@@ -15,18 +15,18 @@
     111.51940524263718,
     178.59874362990737
   ],
-  "ev_ebit_median": 18.144302123791423,
-  "ev_ebit_value": 83.39068110016996,
+  "ev_ebit_median": 17.43056800726918,
+  "ev_ebit_value": 79.6516667891501,
   "ev_ebit_iqr": [
-    67.03823431169074,
-    99.92326676820144
+    63.25390136738017,
+    102.4965331589502
   ],
   "regression_pbv": 85.77993564995106,
   "regression_pbv_multiple": 3.8722870240497675,
   "regression_pe": 99.43462887148462,
   "regression_ev_ebitda": 155.87295437079848,
   "valuation_range_eur": [
-    67.03823431169074,
+    63.25390136738017,
     178.59874362990737
   ],
   "valuation_range_basis": "envelope of primary P/E (growth-adjusted) IQR and EV/EBIT cross-check IQR; no averaging with regressions",
