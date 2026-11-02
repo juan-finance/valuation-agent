@@ -25,12 +25,24 @@
       "status": "skipped_by_deviation"
     },
     "stage3_relative": {
-      "status": "in_progress"
+      "status": "done",
+      "elapsed_minutes": 8,
+      "notes": [
+        "10 peers (8 T1-2 + 2 T3 at cap, size band excludes most Tier-1 mid-caps); primary PE growth-adj 23.43x -> EUR 173.59; published PBV chosen (R2 0.423) -> EUR 145.78",
+        "QA block C run once: PROVISIONAL, no FAILs; human Spot_check pending"
+      ],
+      "outputs": [
+        "relative/",
+        "qa_results.md",
+        "relative_summary.md",
+        "relative_report_SU.PA.pdf",
+        "source_log_stage3.csv"
+      ]
     },
     "stage4_recommendation": {
       "status": "skipped_by_deviation"
     }
   },
-  "final_status": "in_progress",
+  "final_status": "done_provisional",
   "human_review": "pending"
 }
