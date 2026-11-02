@@ -116,5 +116,11 @@
     "peer_primary_eur": 137.91,
     "regression_pbv_eur": 102.39,
     "finished": "2026-11-02T10:59:42+00:00"
-  }
+  },
+  "notes": [
+    {
+      "at": "2026-11-02T11:10:00+00:00",
+      "note": "qa_results.md status block re-graded (C4/C5/C8/C9/C11/C18/C20/C42 PASS-with-note); report_figures.json refreshed; report_notes.md added; status: provisional - limitations disclosed."
+    }
+  ]
 }

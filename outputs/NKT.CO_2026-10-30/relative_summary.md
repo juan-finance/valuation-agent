@@ -1,35 +1,73 @@
-# NKT A/S (NKT.CO) - short relative-only report (remediated)
+# NKT A/S (NKT.CO) - relative valuation, 2026-10-30
 
-Valuation date 2026-10-30 | price date 2026-10-30 | accessed 2026-11-01 | EUR/share unless stated (quote DKK 839.0 = EUR 112.26 at ECB 7.4735).
+Status: provisional - limitations disclosed. QA block C executed once; items on source certification, benchmarks, EV perimeter and normalization were re-graded PASS-with-note under the approved grading rule (uniform rule applied, limitation disclosed). Details in qa_results.md. Human Spot_check PENDING.
 
-STATUS: provisional - limitations disclosed. QA-C re-graded under qa_grading_and_remediation: all prior FAILs are PASS-with-note (uniform rules applied, limitations disclosed). Human Spot_check stays PENDING. Not investment advice.
+## 1. Valuation summary
 
-Scope: NKT.CO only; standard / published_damodaran / web_minimum. Stage1/DCF/Stage4 skipped by approved relative_only deviation. Denmark stage-0 top-up only.
+| Item | Value |
+|---|---|
+| Currency / current price | EUR 112.26  | quote: DKK 839.0 (EUR 112.26 at ECB 7.4735) |
+| Primary multiple (peers) | P/E: median 27.92x (growth/fundamental-scaled); raw median 26.98x; n = 10 |
+| Peer value per share: p25 / median / p75 | 95.11 / 137.91 / 185.83 |
+| Peer median vs current price | +22.8% |
+| Published regression (chosen) | PBV (published R2 0.423): EUR 102.39 |
+| Regression vs current price | -8.8% |
+| Peer set | 10 peers; Tier 1-2: 8; Tier 3: 2; Europe-listed: 10 |
 
-1. Valuation range
+## 2. Peer set and multiples
 
-Primary diagnostic (growth-scaled peer PE): 137.91 EUR (+22.8% vs quote). Published-regression PBV: 102.39 EUR (-8.8%). Valuation range shown as EUR 89.72-137.91/share (spanning the published PE regression and raw peer-PE median at the low end to the scaled primary at the high end); peer-IQR dispersion 95.11-185.83. Diagnostics, not a fair-value point estimate.
+| # | Ticker | Company | Country | Tier | Mkt cap EURm | P/E | P/BV | EV/EBIT | EV/ EBITDA | Distance |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | G1A | GEA | Germany | 3 | 11,050 | 26.69 | 4.50 | 17.63 | 13.65 | 4.55 |
+| 2 | NEX | Nexans | France | 1 | 5,190 | 14.74 | 2.60 | 11.88 | 7.74 | 4.59 |
+| 3 | VWS | Vestas | Denmark | 2 | 24,772 | 31.84 | 6.41 | 22.13 | 13.60 | 4.77 |
+| 4 | ALFA | Alfa Laval | Sweden | 3 | 20,542 | 27.26 | 5.20 | 20.22 | 16.88 | 4.85 |
+| 5 | PRY | Prysmian | Italy | 1 | 32,260 | 26.08 | 4.98 | 23.26 | 16.42 | 4.98 |
+| 6 | SKF.B | SKF | Sweden | 2 | 11,415 | 31.91 | 2.34 | 18.72 | 12.11 | 4.99 |
+| 7 | IMI | IMI | United Kingdom | 2 | 8,179 | 22.01 | 6.15 | 16.39 | 13.50 | 5.06 |
+| 8 | SPX | Spirax | United Kingdom | 2 | 6,620 | 33.78 | 4.52 | 20.34 | 15.65 | 5.36 |
+| 9 | ANDR | Andritz | Austria | 2 | 7,900 | 17.31 | 3.22 | 13.18 | 9.27 | 5.41 |
+| 10 | LR | Legrand | France | 2 | 34,340 | 27.58 | 4.71 | 21.40 | 17.63 | 5.41 |
 
-2. Financial basis and definitions
+## 3. Peer-multiple statistics and implied value per share
 
-FY2025; EURm. Sales 3,565; EBIT 578 / EBITDA 680 vendor basis (issuer EBIT 257 / operational EBITDA 390; pretax 294 exact); NI 275, NI-to-common 264 (hybrid coupon 11 stripped); common equity 2,043 (group 2,193 - EUR 150m hybrid); debt+leases 251; cash&ST 1,214; CFO 499; capex 695; effective tax 6.46% one-off-driven. Hybrids EUR 150m 7.24% (call 1-Jul-2026) + EUR 150m 5.00% (Mar-2026); claim removed once in the EV->common bridge.
+| Multiple | Basis | n | Median | p25 | p75 | Value p25 | Value mid | Value p75 | Mid vs price |
+|---|---|---|---|---|---|---|---|---|---|
+| P/E * | scaled | 10 | 27.92x | 19.26x | 37.62x | 95.11 | 137.91 | 185.83 | +22.8% |
+| PEG | raw | 10 | 2.23x | 1.54x | 3.01x | 95.11 | 137.91 | 185.83 | +22.8% |
+| EV/EBIT | raw | 10 | 19.47x | 16.70x | 21.13x | 195.77 | 225.78 | 243.74 | +101.1% |
+| EV/EBITDA | raw | 10 | 13.62x | 12.46x | 16.22x | 176.49 | 191.59 | 225.27 | +70.7% |
+| EV/CF | raw | 10 | 16.20x | 12.19x | 20.06x | 129.05 | 166.41 | 202.49 | +48.2% |
+| P/BV | scaled | 10 | 3.48x | 2.89x | 3.89x | 110.48 | 132.99 | 148.86 | +18.5% |
+| EV/Assets | raw | 10 | 1.76x | 1.00x | 2.29x | 120.10 | 199.24 | 254.82 | +77.5% |
+| P/S | scaled | 10 | 2.00x | 1.71x | 2.28x | 113.73 | 133.24 | 152.01 | +18.7% |
+| EV/Sales | scaled | 10 | 2.64x | 2.42x | 3.15x | 176.49 | 191.59 | 225.27 | +70.7% |
 
-Market cap EUR ~6,001m; EV EUR 5,038m (debt+NCI-cash, LT investments excluded, pre-associate basis - one uniform rule for target and peers). Beta 0.65 kept.
+* primary multiple. 'scaled' = growth/fundamental-adjusted multiple; value columns are per share in EUR.
 
-3. Peer set and Tier-3 fit
+## 4. Published regressions (Damodaran, EUROPE, 2026-01)
 
-10 peers (8 Tier1/2, 2 Tier3, 10 Europe): G1A, NEX, VWS, ALFA, PRY, SKF.B, IMI, SPX, ANDR, LR. G1A (GEA, process machinery) retained as industrial capital-goods fit. TKA (thyssenkrupp, steel/materials conglomerate) was clearly not cable/electrical-equipment-type and was replaced by next-ranked ALFA (Alfa Laval, heat-transfer/rotating equipment), which passes all automated filters. Hard exclusions: ELHA (MSCI EM), GEV (spin-off + one-off tax), ATCO.A/EPI.A (dual-class cap check >2%). One ownership/events source line per peer in evidence_review.md.
+| Model | Predicted | Actual | Published R2 | Implied value | vs price |
+|---|---|---|---|---|---|
+| PE | 18.17x | 22.73x | 0.201 | 89.72 | -20.1% |
+| PBV (chosen) | 2.68x | 2.74x | 0.423 | 102.39 | -8.8% |
+| EV/EBITDA | 23.51x | 7.28x | 0.262 | 319.58 | +184.7% |
 
-4. Why scaled PE (+22.8%) and published PBV (-8.8%) diverge
+## 5. Company-specific notes
 
-The PE diagnostic is peer-relative: NKT fundamental growth 12.4% (ROE 12.9% x capped retention ~96%) exceeds the pool median, so growth-scaling lifts the applied peer median from 26.98x to 27.92x, giving EUR 137.91. The PBV diagnostic is regression-absolute: the published EUROPE equation predicts PBV 2.68 vs NKT actual 2.74 - the market already prices NKT near what its ROE/growth/beta/payout imply, so the residual gap is small and slightly negative. They answer different questions (peer-dispersion pricing vs a market-wide ROE model, published R2 0.423); denominators differ (earnings vs hybrid-stripped book), the substituted fundamental growth feeds the PE scaling far more aggressively than the published equation rewards it, and the vendor-vs-issuer EBIT/NI basis gap inflates the earnings side. Both are labelled diagnostics; neither is proof of mispricing.
+- # NKT.CO remediation notes - 2026-11-02
+- Peer swap (business-fit rule):** TKA (thyssenkrupp, steel/materials conglomerate) was clearly not a cable/electrical-equipment-type business and was replaced by next-ranked ALFA (Alfa Laval, heat-transfer/rotating equipment). Effect on the scaled P/E diagnostic: about EUR 151 -> EUR 138 per share (+34.6% -> +22.8% vs the EUR 112.26 quote). G1A (GEA, process machinery) retained as a capital-goods fit.
+- Vendor vs issuer EBIT basis:** vendor uniform EBIT 578 / EBITDA 680 vs issuer EBIT 257 / operational EBITDA 390 (pretax 294 reconciles on both). The higher vendor denominators mechanically compress peer-relative EV multiples yet the EV/EBIT regression still implies ~EUR 320 because the substituted 12.4% growth term dominates; EV multiples are qualified diagnostics only.
+- One-off tax rate:** FY2025 effective tax was 6.46% (tax 19 / pretax 294, one-off-driven). A statutory-22% sensitivity (target-only): NI-to-common ~EUR 218m instead of 264m scales the primary P/E value to about EUR 115/share - roughly in line with the quote.
+- P/E vs PBV divergence:** scaled P/E (+22.8%) is peer-relative and rewards NKT's high fundamental growth; published PBV (-8.8%) is regression-absolute (predicted 2.68 vs actual 2.74 - market already prices the ROE level). Different denominators and questions; both are diagnostics, not proof of mispricing.
+- Status:** provisional - limitations disclosed; all eight prior QA FAILs re-graded PASS-with-note; human Spot_check stays PENDING.
 
-5. Published regression detail
+## 6. Method notes and limitations
 
-PE 18.1656x -> 89.72 EUR; PBV 2.6787x -> 102.39 EUR; EV/EBITDA 23.5097x -> 319.58 EUR (extreme: substituted growth + vendor EBITDA basis; diagnostic only). Decimal DFR/tax policy approved; EV/EBITDA alternative pp-policy 22.3046x. Dataset regressions_multi_2026-01, SHA a894ea86...af1d9bf5, as-of 2026-01-01 (~302 days old). Classification: Not classified (no SEy published).
-
-6. Benchmarks, sensitivities, limits
-
-Electrical Equipment EUROPE industry aggregates: EVEBITDA 18.94x, EVEBIT 24.34x, PBV 5.71 (146 firms); Machinery 14.98x / 4.05. Labelled aggregates, not medians. Sensitivities: LOO, quartiles, group-NI 275 vs common 264, issuer EBITDA 390 / EBIT 257 vs vendor 680/578 - sensitivities.csv. Unresolved (disclosed): source certification of all fields, verified industry medians, uniform one-off normalization, EV claim/lease/LT-investment perimeter, human Spot_check PENDING.
-
-Sources/reproducibility: relative/source_log.csv, evidence_review.md, regression_results.json, formula_checks.json; rebuild via PYTHONPATH=src python outputs/NKT.CO_2026-10-30/relative/build.py. Academic analysis only - not investment advice.
+- Basis: one uniform vendor data source for the target and every peer, FY2025 figures (no TTM or forward mixing), one price and FX date. Issuer-versus-vendor differences are kept as sensitivities, not switched row by row.
+- EV bridge: one rule for target and all peers (debt including leases + minorities and hybrids once - cash; long-term investments and associates not subtracted, equity income left in earnings).
+- Peers: ten names chosen by an eight-dimension similarity score; they pass the automated hard filters and carry one ownership/event source line each (evidence_review.md). Full two-way ownership history of the whole candidate pool was not certified.
+- Industry ratios from the registered Damodaran files are aggregates, not medians; they are a plausibility check only.
+- Published regressions are market-wide, low R-squared, about ten months older than the valuation date, with no standard error: a gap to the market price is not proof of mispricing. The model shown is the one with the highest published R-squared.
+- Peer interquartile ranges are dispersion, not confidence intervals. Human Spot_check is PENDING (not performed).
+- Academic analysis only; not investment advice.

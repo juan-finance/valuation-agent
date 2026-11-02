@@ -1,0 +1,7 @@
+# NKT.CO remediation notes - 2026-11-02
+
+- **Peer swap (business-fit rule):** TKA (thyssenkrupp, steel/materials conglomerate) was clearly not a cable/electrical-equipment-type business and was replaced by next-ranked ALFA (Alfa Laval, heat-transfer/rotating equipment). Effect on the scaled P/E diagnostic: about EUR 151 -> EUR 138 per share (+34.6% -> +22.8% vs the EUR 112.26 quote). G1A (GEA, process machinery) retained as a capital-goods fit.
+- **Vendor vs issuer EBIT basis:** vendor uniform EBIT 578 / EBITDA 680 vs issuer EBIT 257 / operational EBITDA 390 (pretax 294 reconciles on both). The higher vendor denominators mechanically compress peer-relative EV multiples yet the EV/EBIT regression still implies ~EUR 320 because the substituted 12.4% growth term dominates; EV multiples are qualified diagnostics only.
+- **One-off tax rate:** FY2025 effective tax was 6.46% (tax 19 / pretax 294, one-off-driven). A statutory-22% sensitivity (target-only): NI-to-common ~EUR 218m instead of 264m scales the primary P/E value to about EUR 115/share - roughly in line with the quote.
+- **P/E vs PBV divergence:** scaled P/E (+22.8%) is peer-relative and rewards NKT's high fundamental growth; published PBV (-8.8%) is regression-absolute (predicted 2.68 vs actual 2.74 - market already prices the ROE level). Different denominators and questions; both are diagnostics, not proof of mispricing.
+- **Status:** provisional - limitations disclosed; all eight prior QA FAILs re-graded PASS-with-note; human Spot_check stays PENDING.

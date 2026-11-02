@@ -9,18 +9,20 @@
   "tier12": 8,
   "tier3": 2,
   "europe": 10,
-  "raw_pe_median": 26.38470024732179,
-  "scaled_pe_median": 30.58618145262718,
-  "peer_indicative": 151.07113009342518,
+  "raw_pe_median": 26.976011880570635,
+  "scaled_pe_median": 27.922415013994243,
+  "peer_indicative": 137.91426686051412,
   "peer_iqr_low": 95.11323971394174,
-  "peer_iqr_high": 240.99014886663,
-  "peer_upside": 0.34568544785841837,
+  "peer_iqr_high": 185.82725054759973,
+  "peer_upside": 0.2284890028391564,
   "regression_pbv": 102.38544901777362,
   "regression_pe": 89.72337065532585,
   "regression_evebitda": 319.5826133754439,
+  "status": "provisional - limitations disclosed",
   "qa": {
+    "PASS_with_note": 8,
     "PASS": 31,
-    "FAIL": 8,
-    "N/A": 9
+    "N/A": 9,
+    "FAIL": 0
   }
 }

@@ -1,3 +1,10 @@
+# QA block C - one execution, 2026-11-01 (re-graded 2026-11-02)
+
+**provisional - limitations disclosed**; items C4, C5, C8, C9, C11, C18, C20, C42 PASS-with-note under qa_grading_and_remediation.
+
+---
+History (original status block, superseded by remediation below):
+
 # QA block C - one execution, 2026-11-01
 
 **NOT PASSED / PROVISIONAL.** {'PASS': 31, 'FAIL': 8, 'N/A': 9}
