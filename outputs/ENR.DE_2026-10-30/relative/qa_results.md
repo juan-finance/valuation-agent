@@ -1,3 +1,32 @@
+# QA block C — current status
+
+**provisional - limitations disclosed**; {'PASS': 30, 'PASS-with-note': 9, 'FAIL': 0, 'N/A': 9}. Human Spot_check PENDING, not performed/waived. Valuation range EUR 42.87–104.07: envelope of EV/EBIT and growth-scaled PE peer IQRs, not a confidence interval.
+
+## Remediation re-grade
+Approved qa_grading_and_remediation and relative_only applied. C3–C20 and C42 reviewed for this remediation: only previously failing/changed items re-tested once; unchanged passing items retained, not rerun. No full QA repetition.
+
+- C3: PASS: uniform855.34m shares and108560m cap reconcile within0.00023%;850m is sensitivity, not an error.
+- C4: PASS-with-note: vendor fields retained consistently, lineage/definitions disclosed.
+- C5: PASS-with-note: registered industry aggregates, not medians; plausibility only; target recovery/margin mix explains large gaps.
+- C6: PASS retained; no changed calculation or passing-QA rerun.
+- C7: PASS retained; no changed calculation or passing-QA rerun.
+- C8: PASS-with-note:10 automated/source-line qualified peers, not a requirement for exhaustive history certification.
+- C9: PASS-with-note: automated filters retained; selected ownership/events source lines, smaller events noted, no confirmed >25% exclusion.
+- C10: PASS retained; no changed calculation or passing-QA rerun.
+- C11: PASS-with-note:26 initial candidates and ordered expansions retained; no full-pool ownership/event certification demanded.
+- C12: PASS retained; no changed calculation or passing-QA rerun.
+- C13: PASS retained; no changed calculation or passing-QA rerun.
+- C14: PASS retained; no changed calculation or passing-QA rerun.
+- C15: PASS retained; no changed calculation or passing-QA rerun.
+- C16: PASS retained; no changed calculation or passing-QA rerun.
+- C17: PASS-with-note: uniform pre-associate EV/EBIT primary alongside growth-scaled PE, not PE-only fallback.
+- C18: PASS-with-note: one vendor pre-associate bridge and exact inverse for target/all peers; no investments/associates deducted.
+- C19: PASS retained; no changed calculation or passing-QA rerun.
+- C20: PASS-with-note: peer/IQR/LOO, margin, issuer-definition and share sensitivities disclosed; no invented normalization.
+- C42: PASS-with-note: both DFR/tax policies retained, approved decimal base, industry aggregate plausibility and units_unverified disclosed.
+
+## Historical QA — superseded, preserved verbatim
+
 # QA block C — one execution, 2026-11-01
 
 **NOT PASSED / PROVISIONAL.** {'PASS': 29, 'FAIL': 10, 'N/A': 9}

@@ -1,55 +1,73 @@
-# Siemens Energy AG (ENR.DE) — short relative-only report
+# Siemens Energy AG (ENR.DE) - relative valuation, 2026-10-30
 
-Valuation date2026-10-30 | information cutoff2026-10-30 | accessed2026-11-01 | EUR/share unless stated.
+Status: provisional - limitations disclosed - limitations disclosed. QA block C executed once; items on source certification, benchmarks, EV perimeter and normalization were re-graded PASS-with-note under the approved grading rule (uniform rule applied, limitation disclosed). Details in qa_results.md. Human Spot_check PENDING.
 
-STATUS: PROVISIONAL / QA-C NOT PASSED. Source-qualified comparable conclusion BLOCKED. Figures below are reproducible diagnostics, not an unqualified valuation or investment recommendation.
+## 1. Valuation summary
 
-Scope: ENR.DE only; standard / published_damodaran / web_minimum. Germany/EUR dated cache reused, no Stage0 rebuild or top-up. Full Stage1, DCF and Stage4 skipped by approved relative_only deviation. Mandatory short PDF supplied per explicit user override of no-PDF default.
+| Item | Value |
+|---|---|
+| Currency / current price | EUR 126.92 |
+| Primary multiple (peers) | EV/EBIT: median 21.01x; raw median 21.01x; n = 10 |
+| Peer value per share: p25 / median / p75 | 42.87 / 44.18 / 46.12 |
+| Peer median vs current price | -65.2% |
+| Published regression (chosen) | PBV (published R2 0.423): EUR 35.94 |
+| Regression vs current price | -71.7% |
+| Peer set | 10 peers; Tier 1-2: 7; Tier 3: 3; Europe-listed: 9 |
 
-1. Financial basis and definitions
+## 2. Peer set and multiples
 
-FY2025 ended2025-09-30 (not TTM/forward); EURm. Sales39077; parent NI1414; standardized vendor EBIT1569; income-statement D&A1111; EBITDA2680; CFO5821; capex1724; common equity10301 (prior9075); assets56637; lease-inclusive debt3966; cash9162; NCI375; associates703 book proxy.
+| # | Ticker | Company | Country | Tier | Mkt cap EURm | P/E | P/BV | EV/EBIT | EV/ EBITDA | Distance |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | WRT1V | Wartsila | Finland | 1 | 15,120 | 24.15 | 5.26 | 16.36 | 14.97 | 2.03 |
+| 2 | VWS | Vestas | Denmark | 1 | 24,772 | 31.84 | 6.41 | 22.28 | 15.84 | 2.18 |
+| 3 | SAND | Sandvik | Sweden | 3 | 41,009 | 30.65 | 4.83 | 23.40 | 18.46 | 2.28 |
+| 4 | ETN | Eaton | United States | 2 | 128,625 | 35.16 | 7.40 | 29.00 | 24.37 | 2.34 |
+| 5 | SU | Schneider Electric | France | 2 | 133,720 | 32.12 | 5.53 | 21.42 | 18.83 | 2.41 |
+| 6 | G1A | GEA | Germany | 3 | 11,050 | 26.69 | 4.50 | 17.64 | 15.05 | 2.65 |
+| 7 | LR | Legrand | France | 2 | 34,340 | 27.58 | 4.71 | 21.40 | 18.42 | 2.67 |
+| 8 | METSO | Metso | Finland | 3 | 13,890 | 32.84 | 5.22 | 20.62 | 17.46 | 2.69 |
+| 9 | ALFA | Alfa Laval | Sweden | 2 | 20,542 | 27.26 | 5.20 | 20.28 | 17.64 | 2.80 |
+| 10 | SPX | Spirax | United Kingdom | 2 | 6,620 | 33.78 | 4.52 | 20.34 | 16.43 | 3.00 |
 
-Issuer operating2149 less equity-accounted580 reconciles vendor1569. ParentNI1414 plus minority271 reconciles group1685. EBITDA2680 is not cashflow D&A-based; customer advances make CFO unlike FCFF. FY2025 cash dividend0; proposed0.70 is not paid-FY2025 payout. NI/average-common-equity fundamental growth14.5954% for peers; closing-common-equity13.7278% for published route. Growth is NOT analyst consensus.
+## 3. Peer-multiple statistics and implied value per share
 
-Current quote126.92; uniform vendor shares855.34m and rounded cap108560m. Issuer states850m ISSUED asof2026-10-13: outstanding/treasury definition unresolved. Cap arithmetic within0.00023% does not settle it. All fixed-equity per-share values at850m increase0.628235%.
+| Multiple | Basis | n | Median | p25 | p75 | Value p25 | Value mid | Value p75 | Mid vs price |
+|---|---|---|---|---|---|---|---|---|---|
+| EV/EBIT * | raw | 10 | 21.01x | 20.30x | 22.07x | 42.87 | 44.18 | 46.12 | -65.2% |
+| P/E * | scaled | 10 | 43.23x | 36.63x | 62.95x | 60.56 | 71.47 | 104.07 | -43.7% |
+| PEG | raw | 10 | 2.96x | 2.51x | 4.31x | 60.56 | 71.47 | 104.07 | -43.7% |
+| EV/EBITDA | raw | 10 | 17.55x | 15.99x | 18.45x | 55.73 | 60.61 | 63.44 | -52.2% |
+| EV/CF | raw | 10 | 22.60x | 15.75x | 24.98x | 112.84 | 159.41 | 175.61 | +25.6% |
+| P/BV | scaled | 10 | 4.50x | 3.96x | 4.86x | 47.64 | 54.24 | 58.56 | -57.3% |
+| EV/Assets | raw | 10 | 2.26x | 1.83x | 2.43x | 127.12 | 155.11 | 166.46 | +22.2% |
+| P/S | scaled | 10 | 1.13x | 0.99x | 1.18x | 45.20 | 51.65 | 53.99 | -59.3% |
+| EV/Sales | scaled | 10 | 1.20x | 1.10x | 1.27x | 55.73 | 60.61 | 63.44 | -52.2% |
 
-2. Peer diagnostics — not source-qualified fair value
+* primary multiple. 'scaled' = growth/fundamental-adjusted multiple; value columns are per share in EUR.
 
-26 initial candidates; final numeric10 peers, 7 Tier1/2, 3 Tier3, 9 Europe-listed. Standard World proxy entity/name match used; IMI-only candidates excluded. Ordered expansions: Europe -> World ->0.05–20x size ->Tier3 cap4 (3 used). No other hard filter waived. Peers: WRT1V, VWS, SAND, ETN, SU, G1A, LR, METSO, ALFA, SPX.
+## 4. Published regressions (Damodaran, EUROPE, 2026-01)
 
-Eight score weights: growth30%, beta15%, leverage10%, ROE10%, EBITDAmargin10%, payout7.5%, capex/sales7.5%, log EURcap10%. Pool-only5/95 clipping/sampleSD; positive extremes remain in multiple distributions. Full pool/selection/parameter/source schedules retained.
+| Model | Predicted | Actual | Published R2 | Implied value | vs price |
+|---|---|---|---|---|---|
+| PE | 22.09x | 76.78x | 0.201 | 36.52 | -71.2% |
+| PBV (chosen) | 2.98x | 10.54x | 0.423 | 35.94 | -71.7% |
+| EV/EBITDA | 23.49x | 38.71x | 0.262 | 79.24 | -37.6% |
 
-Equipment default EV/EBIT cannot be unqualified because peer associates/claim/lease definitions are unresolved; EV/sales shares the same bridge problem. PE used only as indicative equity fallback. Raw PE median31.243353x; growth-scaled PE median43.233905x (10 valid). Indicative scaled-PE value71.471861; peer-IQR dispersion60.560166–104.067212; vs quote-43.6875%. IQR is NOT a confidence interval.
+## 5. Company-specific notes
 
-Raw PE value51.649755. Share sensitivity at850m: indicative scaled PE71.920873; IQR60.940627–104.720999. Other full raw/scaled multiples/counts/skew in multiples_summary.csv; relativePE and TobinQ unavailable, not invented.
+- ENR equipment/service turnaround: uniform pre-associate EV/EBIT primary EUR44.18 (peer IQR 42.87–46.12) alongside growth-scaled PE EUR71.47 (60.56–104.07); range EUR42.87–104.07, dispersion not confidence. PE is not fallback-only. Published PBV35.94 is separate, not averaged.
+- Uniform vendor shares855.34m/cap108560m retained (price126.92 reconciliation0.00023%); issuer850m issued is a +0.628% per-share sensitivity, not an outstanding-share error. ENR FY2025 parentNI1414 differs from group1685 because NCI271.
+- Vendor ENR EBIT1569 versus issuer2149 reflects580 equity-accounted income classification; vendor fields kept for every observation, no incremental equity-income strip. Issuer2149 sensitivity at fixed peer median gives EUR58.43 (+32.3%, above15%); no associates/investments deducted from EV; leases/NCI/hybrids counted once using vendor claims with0 incremental unidentified hybrids.
+- ENR weak wind margin and portfolio/restructuring offset make reported earnings fragile. Mechanical all-target/all-peer EBIT margin4/6/8/10% sensitivity gives EUR167.07 (+278.2%, above15%); it is algebraic rescaling, not researched normalization or a recovery forecast. FY2025 net specials+6 mask large gross costs/gains.
+- Primary peer quartiles materially move value: EV/EBIT-3.0%/+4.4%, PE-15.3%/+45.6% (both PE tails above15%; raw PE31.24x gives EUR51.65 versus scaled EUR71.47 (-27.7%, above15%); EV/EBITDA alternative EUR60.61 is +37.2% versus EV/EBIT, above15%); full multiple alternatives in table.10 peers,7 Tier1/2,3 Tier3,9 Europe: approved cap4 relaxation retained; smaller bolt-ons/restructurings noted, not automatic exclusions.
+- FY2025 CFO5821 includes customer advances, not enterprise FCFF; noDCF or Stage4 recommendation. Industry aggregates Electrical Equipment18.94x EV/EBITDA and24.34x EV/EBIT are plausibility only, not medians. Registered published models use labelled fundamental growth rather than analyst forecasts; both unit policies retained. Human Spot_check remains PENDING; academic analysis only, not investment advice.
 
-3. Published-regression diagnostics
+## 6. Method notes and limitations
 
-Germany resolves EUROPE; January2026 equations asof2026-01-01 (302days old). No market estimation, sector-specific fit, SEy, p-values, adjustedR2, A/B/C, D1–D10 or residual classification. Classification: Not classified (no SEy published). Model choice by highest publishedR2 is a weak heuristic only.
-
-PE: prediction22.090203039x; publishedR20.201; implied36.518282;850m sensitivity36.747702. Equation: 9.72 +2.99 beta +49.82 g_eps +7.98 payout.
-
-PBV: prediction2.984224881x; publishedR20.423; implied35.939510;850m sensitivity36.165295. Equation: .73 +3.92 g_eps +.13 beta +10.75 ROE -.25 payout.
-
-EV/EBITDA: prediction23.492377566x; publishedR20.262; implied79.244010;850m sensitivity79.741849. Equation: 18.15 +35.25 g_rev -.11 DFR -.12 tax +2.29 ROIC.
-
-Chosen published PBV implied35.939510; vs quote-71.6833%. Highest publishedR2.423, not sector fit or proof of mispricing. Decimal DFR/tax policy explicitly approved; EVEBITDA alternative percent-point prediction20.278194964x, implied69.173150. Both scenarios preserved; source-unit ambiguity not resolved by approval.
-
-Registered dataset regressions_multi_2026-01 SHA a894ea86f209d59c68c57ba5674ee096ee875cf9726af2cfe84ec212af1d9bf5. GLOBAL PEG sign/tstat, GLOBAL PBV beta sign and EM ROIC sign warnings not used. All exact coefficients/tstats and input IDs in live workbook; post-LibreOffice recalculation all predictions/prices/scores agree with library within1e-9. Published EV definition undocumented; no associate removal imposed on regression EV bridge.
-
-4. Benchmark, sensitivity and limits
-
-Closest Electrical Equipment EUROPE published ratios: EVEBITDA18.94, EVEBIT24.34, PBV5.71 (146 firms). Machinery/GreenRenewable alternatives investigated. These are NOT verified industry medians; aggregate-versus-median comparison remains a QA failure. Target EVEBITDA38.70858 is104.38% above18.94, plausibly recovery-priced against weak reported FY margins, not grounds to overwrite data. Neither unit policy >30% above18.94; this plausibility is not unit proof.
-
-Sensitivities: raw/scaled and peer quartiles, leave-one-out peer set, all-observation EBIT margins4/6/8/10% (mechanical scaling largely cancels),850m share denominator, both unit policies; target-only net special-item+6 removal is a diagnostic, NOT uniform normalized peer earnings. Gross target restructuring/standalone costs exceed10% EBIT while offsetting portfolio gains mask net. No substantiated uniform normalization constructed.
-
-Unresolved QA: full two-way ownership/event/history qualification for all candidates, valid outstanding shares, authentic matching industry medians, uniform material-one-off normalization and comparable EV claim/lease/associate consistency. Three seeded arithmetic EV checks PASS, human Spot_check PENDING (not performed/waived). Ten numeric names do not satisfy ten qualified peers until these gates are cleared. No final fair-value recommendation is issued.
-
-5. Source and reproducibility pointers
-
-Uniform raw financial/statistics/history: https://stockanalysis.com/quote/etr/ENR/financials/ and peer-specific URLs in relative/source_log.csv. Issuer: https://www.siemens-energy.com/global/en/home/investor-relations/share.html and FY2025 annual report (linked in relative_inputs.md / relative/evidence_review.md). Standard proxy dated2026-10-29: https://www.ishares.com/us/products/239696/ishares-msci-world-etf/latest-holdings.csv . Library IDs/SHA/vintage/mappings and all qualification evidence: relative/evidence_review.md, regression_results.json, dataset_checks.json, candidate_gates.csv. All numbers derive from the attached run artifacts; no DCF used.
-
-Reproduce from repository root: PYTHONPATH=src python outputs/ENR.DE_2026-10-30/relative/build.py; LibreOffice headless recalculate both workbooks in a separate directory, compare with formula_checks.json. finalize_stage3.py is a one-time checkpoint helper, not safe to rerun on finished state. qa_and_report.py intentionally refuses a second full QA run. Cached parsed data and source locators committed; market cache never rebuilt.
-
-Academic analysis only. Not investment advice; source limitations and model assumptions can materially change results.
+- Basis: one uniform vendor data source for the target and every peer, FY2025 figures (no TTM or forward mixing), one price and FX date. Issuer-versus-vendor differences are kept as sensitivities, not switched row by row.
+- EV bridge: one rule for target and all peers (debt including leases + minorities and hybrids once - cash; long-term investments and associates not subtracted, equity income left in earnings).
+- Peers: ten names chosen by an eight-dimension similarity score; they pass the automated hard filters and carry one ownership/event source line each (evidence_review.md). Full two-way ownership history of the whole candidate pool was not certified.
+- Industry ratios from the registered Damodaran files are aggregates, not medians; they are a plausibility check only.
+- Published regressions are market-wide, low R-squared, about ten months older than the valuation date, with no standard error: a gap to the market price is not proof of mispricing. The model shown is the one with the highest published R-squared.
+- Peer interquartile ranges are dispersion, not confidence intervals. Human Spot_check is PENDING (not performed).
+- Academic analysis only; not investment advice.

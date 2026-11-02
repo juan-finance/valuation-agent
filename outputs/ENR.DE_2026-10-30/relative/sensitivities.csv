@@ -1,16 +1,20 @@
-sensitivity,margin,n_valid,multiple_median,value_per_share,qualified,removed
-common EBIT margin all observations,0.04,10.0,88.33709764867373,167.06683961078508,"pre-associate EV sensitivity, not primary",
-common EBIT margin all observations,0.06,10.0,58.89139843244916,167.06683961078508,"pre-associate EV sensitivity, not primary",
-common EBIT margin all observations,0.08,10.0,44.16854882433687,167.06683961078508,"pre-associate EV sensitivity, not primary",
-common EBIT margin all observations,0.1,10.0,35.33483905946949,167.06683961078508,"pre-associate EV sensitivity, not primary",
-leave-one-out selected peer,,9.0,,73.70066924523115,,WRT1V
-leave-one-out selected peer,,9.0,,73.70066924523115,,VWS
-leave-one-out selected peer,,9.0,,69.24305365277148,,SAND
-leave-one-out selected peer,,9.0,,73.70066924523115,,ETN
-leave-one-out selected peer,,9.0,,69.24305365277148,,SU
-leave-one-out selected peer,,9.0,,73.70066924523115,,G1A
-leave-one-out selected peer,,9.0,,69.24305365277148,,LR
-leave-one-out selected peer,,9.0,,69.24305365277148,,METSO
-leave-one-out selected peer,,9.0,,73.70066924523115,,ALFA
-leave-one-out selected peer,,9.0,,69.24305365277148,,SPX
-issuer reported special-item net+6 removed; target-only diagnostic NOT harmonized,,,,44.03105077448916,,
+sensitivity,margin,n_valid,multiple_median,value_per_share,qualified,removed,base_value_per_share,change_fraction
+common EBIT margin all observations,0.04,10.0,88.33709764867373,167.06683961078508,provisional - limitations disclosed,,,
+common EBIT margin all observations,0.06,10.0,58.89139843244916,167.06683961078508,provisional - limitations disclosed,,,
+common EBIT margin all observations,0.08,10.0,44.16854882433687,167.06683961078508,provisional - limitations disclosed,,,
+common EBIT margin all observations,0.1,10.0,35.33483905946949,167.06683961078508,provisional - limitations disclosed,,,
+leave-one-out selected peer,,9.0,,73.70066924523115,provisional - limitations disclosed,WRT1V,,
+leave-one-out selected peer,,9.0,,73.70066924523115,provisional - limitations disclosed,VWS,,
+leave-one-out selected peer,,9.0,,69.24305365277148,provisional - limitations disclosed,SAND,,
+leave-one-out selected peer,,9.0,,73.70066924523115,provisional - limitations disclosed,ETN,,
+leave-one-out selected peer,,9.0,,69.24305365277148,provisional - limitations disclosed,SU,,
+leave-one-out selected peer,,9.0,,73.70066924523115,provisional - limitations disclosed,G1A,,
+leave-one-out selected peer,,9.0,,69.24305365277148,provisional - limitations disclosed,LR,,
+leave-one-out selected peer,,9.0,,69.24305365277148,provisional - limitations disclosed,METSO,,
+leave-one-out selected peer,,9.0,,73.70066924523115,provisional - limitations disclosed,ALFA,,
+leave-one-out selected peer,,9.0,,69.24305365277148,provisional - limitations disclosed,SPX,,
+issuer reported special-item net+6 removed; target-only diagnostic NOT harmonized,,,,44.03105077448916,provisional - limitations disclosed,,,
+issuer operating EBIT2149 vs vendor1569; median held fixed,,,,58.42599104674944,sensitivity only; base vendor rule unchanged,,44.17843924144061,0.3225001165714387
+issuer850m issued shares vs base855.34m; EV/EBIT,,,,44.45598378914567,sensitivity only; base vendor rule unchanged,,44.17843924144061,0.0062823529411766
+issuer850m issued shares vs base855.34m; scaled PE,,,,71.9208729079868,sensitivity only; base vendor rule unchanged,,71.47186144900131,0.0062823529411766
+associate703 book value added back in equity inverse; diagnostic only; EV/EBIT,,,,45.00033462807049,sensitivity only; base vendor rule unchanged,,44.17843924144061,0.0186039932768589

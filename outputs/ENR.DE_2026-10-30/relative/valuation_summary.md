@@ -1,3 +1,9 @@
+# Current remediation disposition
+
+Status: provisional - limitations disclosed. EV/EBIT and growth-scaled PE are co-primary: EUR44.18 and EUR71.47 respectively; combined peer-IQR envelope EUR42.87–104.07 (not confidence bounds). Uniform pre-associate vendor EV bridge in ev_bridge.csv;10 selected source-line qualified peers.855.34m shares base/850m sensitivity; Tier3cap4 retained (3 used/7 Tier1–2/9 Europe). See report_notes.md, peer_qualification.csv and current qa_results.md block. Prior blocking/fallback-only wording below is historical and superseded. Human Spot_check PENDING.
+
+## Historical analysis
+
 # Relative valuation by regression — Europe, ENR.DE, 2026-10-30
 
 ## Headline

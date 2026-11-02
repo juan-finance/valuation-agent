@@ -1,3 +1,9 @@
+# Current remediation disposition
+
+Status: provisional - limitations disclosed. EV/EBIT and growth-scaled PE are co-primary: EUR44.18 and EUR71.47 respectively; combined peer-IQR envelope EUR42.87–104.07 (not confidence bounds). Uniform pre-associate vendor EV bridge in ev_bridge.csv;10 selected source-line qualified peers.855.34m shares base/850m sensitivity; Tier3cap4 retained (3 used/7 Tier1–2/9 Europe). See report_notes.md, peer_qualification.csv and current qa_results.md block. Prior blocking/fallback-only wording below is historical and superseded. Human Spot_check PENDING.
+
+## Historical analysis
+
 # Siemens Energy comparables — 2026-10-30
 
 DRAFT pending human Spot_check. Primary PE rather than prescribed EV/EBIT: comparable EV associate values and uniform lease/cash/claim perimeter are unresolved. EV/Sales shares that bridge problem, so next ordered equity cross-check PE is used under comparables procedure section1. EV rows remain qualified pre-associate sensitivities, not compliant comparable EV base. No DCF, recommendation, synthesis weight or residual-band classification.

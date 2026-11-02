@@ -16,8 +16,57 @@
   "peer_upside": -0.4368747128190883,
   "regression_pbv": 35.939510019407486,
   "qa": {
-    "PASS": 29,
-    "FAIL": 10,
+    "PASS": 30,
+    "PASS-with-note": 9,
+    "FAIL": 0,
     "N/A": 9
-  }
+  },
+  "status": "provisional - limitations disclosed",
+  "primary_multiples": [
+    "ev_ebit",
+    "pe"
+  ],
+  "ev_bridge": "uniform vendor pre-associate; no investment deduction or incremental equity-income stripping",
+  "ev_ebit_median": 21.011208553711803,
+  "ev_ebit_value": 44.178439241440614,
+  "ev_ebit_iqr": [
+    42.86827465732265,
+    46.116212394597575
+  ],
+  "pe_value": 71.47186144900131,
+  "pe_iqr": [
+    60.5601661851123,
+    104.06721236771976
+  ],
+  "valuation_range_eur": [
+    42.86827465732265,
+    104.06721236771976
+  ],
+  "valuation_range_basis": "envelope of two primary peer IQRs; no averaging with regressions",
+  "qualified_peers": 10,
+  "issuer_ebit_sensitivity": {
+    "sensitivity": "issuer operating EBIT2149 vs vendor1569; median held fixed",
+    "value_per_share": 58.42599104674944,
+    "base_value_per_share": 44.178439241440614,
+    "change_fraction": 0.32250011657143873,
+    "qualified": "sensitivity only; base vendor rule unchanged"
+  },
+  "shares_sensitivity": [
+    {
+      "sensitivity": "issuer850m issued shares vs base855.34m; EV/EBIT",
+      "value_per_share": 44.45598378914567,
+      "base_value_per_share": 44.178439241440614,
+      "change_fraction": 0.006282352941176628,
+      "qualified": "sensitivity only; base vendor rule unchanged"
+    },
+    {
+      "sensitivity": "issuer850m issued shares vs base855.34m; scaled PE",
+      "value_per_share": 71.9208729079868,
+      "base_value_per_share": 71.47186144900131,
+      "change_fraction": 0.006282352941176628,
+      "qualified": "sensitivity only; base vendor rule unchanged"
+    }
+  ],
+  "raw_pe_value": 51.64975483302414,
+  "raw_pe_vs_scaled": -0.27734140701122245
 }
