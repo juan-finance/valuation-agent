@@ -20,14 +20,14 @@ Status: provisional - limitations disclosed. QA block C executed once; no FAIL i
 |---|---|---|---|---|---|---|---|---|---|---|
 | 1 | VWS | Vestas | Denmark | 2 | 24,772 | 31.84 | 6.41 | 22.28 | 15.84 | 0.56 |
 | 2 | ABBN | ABB | Switzerland | 1 | 138,830 | 32.76 | 9.64 | 27.15 | 24.03 | 0.83 |
-| 3 | IMI | IMI | United Kingdom | 2 | 8,179 | 22.01 | 6.15 | n/a | n/a | 0.93 |
+| 3 | IMI | IMI | United Kingdom | 2 | 8,179 | 22.01 | 6.15 | 16.72 | 13.77 | 0.93 |
 | 4 | NEX | Nexans | France | 1 | 5,190 | 14.74 | 2.60 | 11.88 | 8.41 | 0.93 |
 | 5 | ALFA | Alfa Laval | Sweden | 2 | 20,542 | 27.26 | 5.20 | 20.32 | 16.96 | 1.03 |
 | 6 | NDX1 | Nordex | Germany | 2 | 8,920 | 32.50 | 6.99 | 13.58 | 11.50 | 1.10 |
-| 7 | HLMA | Halma | United Kingdom | 2 | 15,615 | 43.93 | 6.86 | n/a | n/a | 1.20 |
-| 8 | G1A | GEA Group | Belgium | 2 | 11,050 | 26.69 | 4.50 | 18.14 | 14.04 | 1.21 |
+| 7 | HLMA | Halma | United Kingdom | 2 | 15,615 | 43.93 | 6.86 | 31.98 | 25.55 | 1.20 |
+| 8 | G1A | GEA Group | Germany | 2 | 11,050 | 26.69 | 4.50 | 18.14 | 14.04 | 1.21 |
 | 9 | WRT1V | Wartsila | Finland | 2 | 15,120 | 24.15 | 5.26 | 16.47 | 14.29 | 1.23 |
-| 10 | NKT | NKT | Denmark | 1 | 6,000 | 21.82 | 2.74 | n/a | n/a | 1.27 |
+| 10 | NKT | NKT | Denmark | 1 | 6,000 | 21.82 | 2.74 | 8.71 | 7.41 | 1.27 |
 
 ## 3. Peer-multiple statistics and implied value per share
 
@@ -36,9 +36,9 @@ Status: provisional - limitations disclosed. QA block C executed once; no FAIL i
 | P/E * | scaled | 10 | 30.98x | 25.66x | 41.10x | 111.52 | 134.61 | 178.60 | +21.9% |
 | P/BV | scaled | 10 | 5.86x | 4.83x | 6.60x | 107.05 | 129.76 | 146.26 | +17.5% |
 | P/S | raw | 10 | 2.10x | 1.41x | 3.17x | 95.10 | 141.77 | 213.96 | +28.4% |
-| EV/EBIT | raw | 7 | 18.14x | 15.02x | 21.30x | 67.04 | 83.39 | 99.92 | -24.5% |
-| EV/EBITDA | raw | 7 | 14.29x | 12.77x | 16.40x | 74.82 | 85.13 | 99.40 | -22.9% |
-| EV/Sales | raw | 7 | 1.91x | 1.13x | 2.72x | 64.47 | 117.35 | 172.23 | +6.3% |
+| EV/EBIT | raw | 10 | 17.43x | 14.30x | 21.79x | 63.25 | 79.65 | 102.50 | -27.9% |
+| EV/EBITDA | raw | 10 | 14.17x | 12.07x | 16.68x | 70.06 | 84.27 | 101.30 | -23.7% |
+| EV/Sales | raw | 10 | 1.95x | 1.30x | 3.40x | 76.19 | 120.32 | 217.91 | +9.0% |
 
 * primary multiple. 'scaled' = growth/fundamental-adjusted multiple; value columns are per share in EUR.
 
@@ -52,11 +52,12 @@ Status: provisional - limitations disclosed. QA block C executed once; no FAIL i
 
 ## 5. Company-specific notes
 
-- Primary and range:** P/E is primary (growth-adjusted median 30.98x, EUR 134.61; IQR EUR 111.52-178.60), with EV/EBIT as cross-check (median 18.14x, EUR 83.39; IQR EUR 67.04-99.92). Envelope EUR 67.04-178.60, wide by design; no averaging with the regressions.
-- Chosen regression below peers:** published P/BV (R2 0.423) implies EUR 85.78 (-22.3%), P/E regression EUR 99.43, EV/EBITDA regression EUR 155.87 (+41%, low R2 0.262). Published equations are market-wide, about ten months older than the valuation date, with no standard error: a gap to price is not proof of mispricing.
+- Primary and range:** P/E is primary per sector_adjustments.md (growth-adjusted median 30.98x, EUR 134.61; IQR EUR 111.52-178.60). EV/EBIT (median 17.43x, EUR 79.65; IQR EUR 63.25-102.50) and EV/EBITDA (median 14.17x, EUR 84.27; IQR EUR 70.06-101.30) are the more comparable cross-check for a levered target. Envelope EUR 63.25-178.60, wide by design; no averaging with the regressions.
+- P/E vs EV divergence:** the growth-adjusted P/E sits well above the EV-based values, and both differences push that way: Prysmian carries net debt/EBITDA of 1.62x versus a peer median of 0.16x (net-cash peers such as Wartsila, Nordex and Vestas lower equity value relative to EV), and its effective tax rate of 21.6% versus 26.3% (n = 4 peers) lifts net income relative to operating earnings. P/E stays primary per sector_adjustments.md; the EV multiples are the cleaner like-for-like check.
+- Chosen regression below peers:** published P/BV (R2 0.423) implies EUR 85.78, P/E regression EUR 99.43, EV/EBITDA regression EUR 155.87 (low R2 0.262). Published equations are market-wide, about ten months older than the valuation date, with no standard error: a gap to price is not proof of mispricing.
 - Sensitivities above 15%:** EV/EBITDA regression with the percent-point units reading of DFR and tax gives EUR 128.18 (-17.8%); raw P/E median without growth scaling -12.9%; adjusted P/E p25 -17.2% and p75 +32.7%. Peer leave-one-out moves stay within +/-2.8%.
 - Inputs not verified against filings:** StockAnalysis figures for FY2025 (accessed 2026-11-01), no annual-report reconciliation of market cap (internal check 0.0%), associates not collected (pre-associate EV bridge: debt + NCI - cash), growth substituted by fundamental ROE x retention (labelled substituted_input).
-- Peer data limits:** peer ISINs pass the check digit but are not verified on the exchange register; VWS has two ISINs in the cache (one unresolved). Ownership and event sources per peer are not collected for this run; the peer set is judgement-based on the eight-dimension similarity score.
+- Peer data limits:** peer ISINs pass the check digit but are not verified on the exchange register; Vestas has two cached ISINs with issuer pages unreadable (DK0061539921 kept, DK0010268606 unresolved). Ownership and event evidence per peer is in relative/evidence_review.md.
 
 ## 6. Method notes and limitations
 

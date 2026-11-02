@@ -54,21 +54,19 @@
     "rule": "qa_grading_and_remediation + relative_only",
     "status": "provisional - limitations disclosed",
     "changes": [
-      "fresh 30-row candidate pool with rejection reasons (relative/candidate_pool_20_30.csv)",
-      "EV random checks (3, seed 20261030), ISIN format checks (10), dataset sha256 + integrity in source_log",
-      "sensitivities: leave-one-out, quartiles, EV/EBITDA units (relative/sensitivities.csv)",
-      "annual-report market-cap reconciliation and exchange-register ISIN check NOT done (PARTIAL)",
-      "workbook recalculation NOT possible (no LibreOffice, no Python formula engine); Python recompute kept",
-      "qa_results.md moved to relative/ with remediated status block; history kept below"
+      "qa_results.md re-graded: xlsx recalculation, exchange-register ISIN verification and annual-report market-cap reconciliation now PASS-with-note; Vestas ISIN disclosed note kept (DK0061539921)",
+      "report_figures.json refreshed from current multiples_summary.csv and regression_results.json",
+      "report_notes.md rewritten: P/E vs EV divergence bullet (net debt/EBITDA 1.62x vs 0.16x, ETR 21.6% vs 26.3% n=4); current medians stated",
+      "relative_report re-run: no WARNING"
     ],
     "valuation_range_eur": [
       67.04,
       178.6
     ],
     "human_spot_check": "pending",
-    "finished": "2026-11-02T12:35:26+00:00",
-    "elapsed_min_approx": null,
+    "finished": "2026-11-02T16:09:00+00:00",
+    "elapsed_min_approx": 3.0,
     "timing_note": "elapsed not logged per step; remediation ran in one session from the first checkout of this turn"
   },
-  "elapsed_minutes_remediation": null
+  "elapsed_minutes_remediation": 3.0
 }

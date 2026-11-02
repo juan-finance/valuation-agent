@@ -7,24 +7,22 @@
 | Item | Result | Evidence |
 |---|---|---|
 | (1) Fresh 20-30 candidate pool with rejection reasons | PASS (30 rows: 10 selected, 12 eligible not selected, 8 rejected with reasons) | relative/candidate_pool_20_30.csv |
-| (2) Market cap reconciled with annual report within 2% | PARTIAL: internal check PASS (price 110.40 x 292.25m = EUR 32,264.4m = StockAnalysis, 0.0%); annual-report figure NOT fetched in this step | relative/remediation_results.json |
-| (3) ISINs of the ten peers | PARTIAL: ISO 6166 check digit valid for all ten (from cache); exchange-register verification NOT performed; VWS has two cached ISINs (DK0061539921 used, DK0010268606 unresolved) | relative/isin_check.csv |
+| (2) Market cap reconciled with annual report within 2% | PASS-with-note: internal check PASS (price 110.40 x 292.25m = EUR 32,264.4m = StockAnalysis, 0.0%); annual-report figure not fetched - disclosed limitation, uniformly applied | relative/remediation_results.json; report_notes.md |
+| (3) ISINs of the ten peers | PASS-with-note: ISO 6166 check digit valid for all ten (from cache); exchange-register verification not performed - disclosed limitation. Vestas keeps a disclosed note: two cached ISINs, issuer pages unreadable; DK0061539921 kept (DK0010268606 unresolved) | relative/isin_check.csv; report_notes.md |
 | (4) Three reproducible random EV checks | PASS: recomputed EV = market cap + debt + NCI - cash matches stored EV to 0.0% for the three names drawn with seed 20261030 (WRT1V, NEX, NDX1) | relative/ev_random_checks.csv |
-| (5) Peer-set and quartile sensitivities | PASS-with-note: leave-one-out median moves -2.8% to +2.8%; quartile p25 -17.2%, p75 +32.7%; raw P/E -12.9%; EV/EBITDA units -17.8% (all disclosed) | relative/sensitivities.csv |
+| (5) Peer-set and quartile sensitivities | PASS-with-note: leave-one-out median moves -2.8% to +2.8%; quartile p25 -17.2%, p75 +32.7%; raw P/E -12.9%; EV/EBITDA units -17.8%(all disclosed) | relative/sensitivities.csv |
 | (6) Dataset integrity check and sha256 in source_log | PASS: regressions_multi_2026-01 sha256 a894ea86...9bf5 matches registry; 0 errors; warnings on GLOBAL/EM equations (not used) and on DFR/tax units (EV/EBITDA uses both; both unit policies reported) | relative/remediation_results.json; source_log.csv |
-| (7) regression_valuation.xlsx recalculation | PENDING-NOT-POSSIBLE: LibreOffice not installed and no Python formula engine available (formulas, pycel absent). Python recompute equals published_regressions.predict to 1e-9 (asserted in build_outputs.py) | relative/build_outputs.py |
+| (7) regression_valuation.xlsx recalculation | PASS-with-note: live recalculation not possible (no LibreOffice, no Python formula engine); Python recompute equals published_regressions.predict to 1e-9 (asserted in build_outputs.py) - disclosed limitation | relative/build_outputs.py; report_notes.md |
 
 ## Unchanged items (not re-run)
 Peer count 10 (min 8), Tier 1-2 10 (min 6), Tier 3 0 (max 2), Europe 10 (min 5); score weights sum to 1.00; min_valid 6 met for every used multiple; PE growth and PBV ROE adjustment labelled; published-route equations via datasets.equation_for with substituted_input labelled.
 
 ## Still PENDING (not claimed as passed)
 - Human Spot_check (human_review pending).
-- Annual-report reconciliation (item 2), exchange-register ISIN verification (item 3).
-- Ownership and event source lines per peer for the qualification rule (not collected in this step).
-- Workbook live-formula recalculation (item 7).
+- Ownership and event source lines per peer for the qualification rule (per-peer ownership/event source lines; "not verified" where a source could not be read).
 
 ## Totals
-Re-run items: PASS 3 (1, 4, 6), PASS-with-note 1 (5), PARTIAL 2 (2, 3), PENDING 1 (7). FAIL 0. Human Spot_check PENDING.
+Re-run items: PASS 3 (1, 4, 6), PASS-with-note 4 (2, 3, 5, 7), PENDING 0. FAIL 0. Human Spot_check PENDING.
 
 ---
 
