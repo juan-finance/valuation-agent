@@ -1,0 +1,23 @@
+{
+  "ticker": "SHEL.L",
+  "valuation_date": "2026-10-30",
+  "current_price": 40.365,
+  "quote_currency": "GBP",
+  "shares_m": 5700,
+  "peer_count": 10,
+  "tier12": 10,
+  "tier3": 0,
+  "europe": 5,
+  "raw_evebitda_median": 8.427819160891442,
+  "scaled_evebitda_median": null,
+  "peer_indicative": 46.51522129950024,
+  "peer_iqr_low": 41.29804304543432,
+  "peer_iqr_high": 72.82738824246067,
+  "peer_upside": 0.1523652000371667,
+  "regression_pbv": 45.269616893953305,
+  "qa": {
+    "PASS": 30,
+    "FAIL": 9,
+    "N/A": 9
+  }
+}

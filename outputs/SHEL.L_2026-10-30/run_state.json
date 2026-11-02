@@ -49,7 +49,7 @@
         "outputs/SHEL.L_2026-10-30/relative/peer_selection.json",
         "outputs/SHEL.L_2026-10-30/relative/valuation_multiples.csv"
       ],
-      "next_step": "QA block C once, then required PDF/plaintext; evidence gates and human review remain unresolved",
+      "next_step": "Do not issue qualified comparable conclusion until QA source failures are resolved; human Spot_check pending.",
       "finished": "2026-11-02T10:37:23+00:00",
       "elapsed_min": 0.4
     },
@@ -59,5 +59,25 @@
       "outputs": [],
       "next_step": ""
     }
+  },
+  "qa_C": {
+    "status": "failed_provisional",
+    "executions": 1,
+    "counts": {
+      "PASS": 30,
+      "FAIL": 9,
+      "N/A": 9
+    },
+    "human_spot_check": "pending",
+    "evidence_failures_waived": false,
+    "finished": "2026-11-02T10:38:09+00:00"
+  },
+  "short_report": {
+    "status": "done_provisional",
+    "pdf": "outputs/SHEL.L_2026-10-30/relative_report_SHEL.L.pdf",
+    "plaintext": "outputs/SHEL.L_2026-10-30/relative_summary.md",
+    "same_figures": true,
+    "elapsed_min": 0.77,
+    "finished": "2026-11-02T10:38:09+00:00"
   }
 }
