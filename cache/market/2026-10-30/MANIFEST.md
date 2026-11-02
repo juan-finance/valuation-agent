@@ -81,3 +81,8 @@ check_dataset findings (regressions_multi_2026-01): warnings — GLOBAL PEG ln(g
 - Added Italy sovereign spread from registered ctryprem_global_2026-07: Baa2, default spread 1.52%, CRP 2.36%, total ERP 6.56%. Stage 3 does not discount, so this is for consistency only.
 - All datasets resolve for Italy at exact EUROPE level (see topup_PRY.MI.json); EUROPE PE/PBV/EV-EBITDA equations found.
 - Reproducible script topup_it.py asserts all existing countries, currencies, FX and snapshot fields unchanged. No universe rebuild or candidate collection.
+
+## VER.VI-only top-up - 2026-11-02
+- Added Austria sovereign spread from registered ctryprem_global_2026-07: Aa1, default spread 0.22%, CRP 0.34%, total ERP 4.54%. Stage 3 does not discount, so this is for consistency only.
+- All datasets resolve for Austria at exact EUROPE level (see topup_VER.VI.json); EUROPE PE/PBV/EV-EBITDA equations found; ratings GLOBAL fallback unchanged.
+- Reproducible script topup_ver.py asserts all existing countries, currencies, FX and snapshot fields unchanged. No universe rebuild or candidate collection.

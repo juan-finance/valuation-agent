@@ -128,6 +128,16 @@
       "total_erp": 0.06559999999999999,
       "region": "Western Europe",
       "warnings": []
+    },
+    "Austria": {
+      "country": "Austria",
+      "table": "rated",
+      "rating": "Aa1",
+      "default_spread": 0.0022,
+      "crp": 0.0034000000000000002,
+      "total_erp": 0.0454,
+      "region": "Western Europe",
+      "warnings": []
     }
   },
   "mature_erp": {
