@@ -18,10 +18,40 @@
       "next_step": ""
     },
     "stage3_relative": {
-      "status": "in_progress",
-      "notes": [],
-      "outputs": [],
-      "next_step": ""
+      "status": "provisional",
+      "notes": [
+        "2026-11-02T10:37:23+00:00 10 numerical peers; World relaxation (a) used; regression PBV chosen by published R2. Not an unqualified final valuation.",
+        "2026-11-02T10:37:23+00:00 Numerical deliverables complete/recalculated in Python (LibreOffice absent, disclosed); candidate-source qualification and human Spot_check not complete."
+      ],
+      "outputs": [
+        "outputs/SHEL.L_2026-10-30/relative/finalize_stage3.py",
+        "outputs/SHEL.L_2026-10-30/relative/candidate_fetch_manifest.json",
+        "outputs/SHEL.L_2026-10-30/relative/multiples_summary.csv",
+        "outputs/SHEL.L_2026-10-30/relative/source_log.csv",
+        "outputs/SHEL.L_2026-10-30/relative/comparables_report.md",
+        "outputs/SHEL.L_2026-10-30/relative/candidate_raw.csv",
+        "outputs/SHEL.L_2026-10-30/relative/industry_benchmarks.json",
+        "outputs/SHEL.L_2026-10-30/relative/world_pool_membership.csv",
+        "outputs/SHEL.L_2026-10-30/relative/comparables_audit.xlsx",
+        "outputs/SHEL.L_2026-10-30/relative/normalize.py",
+        "outputs/SHEL.L_2026-10-30/relative/peer_ev_checks.csv",
+        "outputs/SHEL.L_2026-10-30/relative/regression_results.json",
+        "outputs/SHEL.L_2026-10-30/relative/build.py",
+        "outputs/SHEL.L_2026-10-30/relative/sensitivities.csv",
+        "outputs/SHEL.L_2026-10-30/relative/world_candidate_membership.csv",
+        "outputs/SHEL.L_2026-10-30/relative/collect.py",
+        "outputs/SHEL.L_2026-10-30/relative/candidate_gates.csv",
+        "outputs/SHEL.L_2026-10-30/relative/formula_checks.json",
+        "outputs/SHEL.L_2026-10-30/relative/valuation_summary.md",
+        "outputs/SHEL.L_2026-10-30/relative/evidence_review.md",
+        "outputs/SHEL.L_2026-10-30/relative/regression_valuation.xlsx",
+        "outputs/SHEL.L_2026-10-30/relative/comparables.csv",
+        "outputs/SHEL.L_2026-10-30/relative/peer_selection.json",
+        "outputs/SHEL.L_2026-10-30/relative/valuation_multiples.csv"
+      ],
+      "next_step": "QA block C once, then required PDF/plaintext; evidence gates and human review remain unresolved",
+      "finished": "2026-11-02T10:37:23+00:00",
+      "elapsed_min": 0.4
     },
     "stage4_recommendation": {
       "status": "skipped_by_deviation",

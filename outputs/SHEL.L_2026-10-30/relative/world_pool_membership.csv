@@ -1,0 +1,18 @@
+Ticker,Name,Sector,Asset Class,Market Value,Weight (%),Notional Value,Quantity,Price,Location,Exchange,Currency,FX Rate,Market Currency,Accrual Date
+XOM,EXXONMOBIL HOLDINGS CORP,Energy,Equity,"77,968,653.00",0.86,"77,968,653.00","416,388.00",187.25,United States,NYSE,USD,1.0,USD,-
+CVX,CHEVRON,Energy,Equity,"43,579,678.72",0.48,"43,579,678.72","185,036.00",235.52,United States,NYSE,USD,1.0,USD,-
+COP,CONOCOPHILLIPS,Energy,Equity,"18,834,018.25",0.21,"18,834,018.25","122,275.00",154.03,United States,NYSE,USD,1.0,USD,-
+TTE,TOTALENERGIES,Energy,Equity,"18,652,158.44",0.21,"18,652,158.44","195,586.00",95.37,France,Nyse Euronext - Euronext Paris,USD,0.9,EUR,-
+VLO,VALERO ENERGY CORP,Energy,Equity,"11,980,607.82",0.13,"11,980,607.82","29,977.00",399.66,United States,NYSE,USD,1.0,USD,-
+CNQ,CANADIAN NATURAL RESOURCES LTD,Energy,Equity,"11,656,284.53",0.13,"11,656,284.53","207,478.00",56.18,Canada,Toronto Stock Exchange,USD,1.4,CAD,-
+PSX,PHILLIPS 66,Energy,Equity,"11,360,432.61",0.13,"11,360,432.61","40,167.00",282.83,United States,NYSE,USD,1.0,USD,-
+EOG,EOG RESOURCES,Energy,Equity,"8,827,751.58",0.1,"8,827,751.58","53,327.00",165.54,United States,NYSE,USD,1.0,USD,-
+ENI,ENI,Energy,Equity,"5,563,602.20",0.06,"5,563,602.20","183,673.00",30.29,Italy,Borsa Italiana,USD,0.9,EUR,-
+OXY,OCCIDENTAL PETROLEUM CORP,Energy,Equity,"4,677,824.00",0.05,"4,677,824.00","73,091.00",64.00,United States,NYSE,USD,1.0,USD,-
+REP,REPSOL,Energy,Equity,"3,924,537.57",0.04,"3,924,537.57","114,405.00",34.30,Spain,Bolsa De Madrid,USD,0.9,EUR,-
+EQNR,EQUINOR,Energy,Equity,"3,208,999.67",0.04,"3,208,999.67","66,005.00",48.62,Norway,Oslo Bors Asa,USD,9.2,NOK,-
+IMO,IMPERIAL OIL LTD,Energy,Equity,"2,091,776.82",0.02,"2,091,776.82","15,091.00",138.61,Canada,Toronto Stock Exchange,USD,1.4,CAD,-
+AKRBP,AKER BP,Energy,Equity,"1,384,227.21",0.02,"1,384,227.21","32,478.00",42.62,Norway,Oslo Bors Asa,USD,9.2,NOK,-
+NESTE,NESTE,Energy,Equity,"1,335,701.11",0.01,"1,335,701.11","42,221.00",31.64,Finland,Nasdaq Omx Helsinki Ltd.,USD,0.9,EUR,-
+OMV,OMV,Energy,Equity,"1,157,105.01",0.01,"1,157,105.01","13,612.00",85.01,Austria,Wiener Boerse Ag,USD,0.9,EUR,-
+VAR,VAR ENERGI,Energy,Equity,"617,556.31",0.01,"617,556.31","96,181.00",6.42,Norway,Oslo Bors Asa,USD,9.2,NOK,-
