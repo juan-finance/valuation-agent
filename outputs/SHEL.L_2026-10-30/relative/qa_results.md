@@ -1,3 +1,22 @@
+# QA block C — current status
+
+**provisional - limitations disclosed**; {'PASS': 30, 'PASS-with-note': 9, 'FAIL': 0, 'N/A': 9}. Human Spot_check PENDING, not performed/waived. Valuation range GBP 41.30–72.83 (peer EV/EBITDA IQR on the uniform pre-associate bridge; dispersion, not a confidence interval).
+
+## Remediation re-grade
+Approved qa_grading_and_remediation and relative_only applied. Only previously failing/changed items re-tested once; unchanged passing items retained, not rerun. LibreOffice unavailable on this box: workbook formulas re-evaluated in Python and compared to predictions within 1e-9/1e-6 (formula_checks.json).
+
+- C4: PASS-with-note: vendor fields and transformations retained uniformly; lineage/definitions disclosed, no per-row switching.
+- C5: PASS-with-note: registered Damodaran ratios labelled industry aggregates, never medians; plausibility cross-check only.
+- C8: PASS-with-note: 10 peers pass the automated hard filters plus one ownership/event source line each; exhaustive certification not required.
+- C9: PASS-with-note: selected-peer ownership/event source lines added (peer_qualification.csv); Adura JV noted on SHEL and EQNR, below the 25%-of-EV exclusion rule; smaller events noted.
+- C11: PASS-with-note: 33-candidate pool and ordered World relaxation retained and auditable; no full-pool certification demanded.
+- C17: PASS-with-note: primary EV/EBITDA on the uniform pre-associate bridge applied identically to target and all ten peers.
+- C18: PASS-with-note: one vendor pre-associate bridge and its exact inverse; LT investments 29,332 not subtracted, equity income 1,618 stays in earnings.
+- C20: PASS-with-note: peer/IQR/LOO, EBITDA -10% and issuer-vs-vendor sensitivities disclosed; no invented uniform normalization.
+- C42: PASS-with-note: both DFR/tax unit policies computed; approved decimal base; industry-aggregate plausibility and units caveat disclosed.
+
+## Historical QA — superseded, preserved verbatim
+
 # QA block C — one execution, 2026-11-02
 
 **NOT PASSED / PROVISIONAL.** {'PASS': 30, 'FAIL': 9, 'N/A': 9}

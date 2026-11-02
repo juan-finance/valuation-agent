@@ -1,13 +1,16 @@
-sensitivity,removed,value_per_share,n_valid
-leave-one-out selected peer,TTE,58.88459524711703,9.0
-leave-one-out selected peer,XOM,40.368141096614636,9.0
-leave-one-out selected peer,COP,58.88459524711703,9.0
-leave-one-out selected peer,REP,40.368141096614636,9.0
-leave-one-out selected peer,EQNR,58.88459524711703,9.0
-leave-one-out selected peer,VLO,40.368141096614636,9.0
-leave-one-out selected peer,CVX,40.368141096614636,9.0
-leave-one-out selected peer,ENI,40.368141096614636,9.0
-leave-one-out selected peer,BP,58.88459524711703,9.0
-leave-one-out selected peer,EOG,58.88459524711703,9.0
-target EBITDA -10% cyclicality diagnostic (not normalized),,41.256173365692206,
-cash & ST investments only vs vendor broader cash definition; EV +USD 5.6bn sensitivity,,46.51522129950024,
+sensitivity,removed,value_per_share,n_valid,base_value_per_share,change_fraction,qualified
+leave-one-out selected peer,TTE,58.88459524711703,9.0,,,
+leave-one-out selected peer,XOM,40.36814109661464,9.0,,,
+leave-one-out selected peer,COP,58.88459524711703,9.0,,,
+leave-one-out selected peer,REP,40.36814109661464,9.0,,,
+leave-one-out selected peer,EQNR,58.88459524711703,9.0,,,
+leave-one-out selected peer,VLO,40.36814109661464,9.0,,,
+leave-one-out selected peer,CVX,40.36814109661464,9.0,,,
+leave-one-out selected peer,ENI,40.36814109661464,9.0,,,
+leave-one-out selected peer,BP,58.88459524711703,9.0,,,
+leave-one-out selected peer,EOG,58.88459524711703,9.0,,,
+target EBITDA -10% cyclicality diagnostic (not normalized),,41.256173365692206,,,,
+cash & ST investments only vs vendor broader cash definition; EV +USD 5.6bn sensitivity,,46.51522129950024,,,,
+"issuer net debt 45,687 vs vendor 45,472 (+215 claim)",,46.48707025145406,,46.51522129950024,-0.0006052007764281164,sensitivity only; base vendor rule unchanged
+"issuer adjusted EBITDA 56,135 vs vendor 47,658 at fixed peer median",,55.86956880356897,,46.51522129950024,0.20110293453917705,sensitivity only; base vendor rule unchanged
+"issuer total revenue incl other income 273,731 vs vendor 266,886 (EV/Sales diagnostic)",,45.352047637053964,,46.51522129950023,-0.02500630180724872,sensitivity only; base vendor rule unchanged

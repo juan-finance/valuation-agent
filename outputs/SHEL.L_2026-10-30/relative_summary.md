@@ -1,55 +1,73 @@
-# Shell plc (SHEL.L) — short relative-only report
+# Shell plc (SHEL.L) - relative valuation, 2026-10-30
 
-Valuation date 2026-10-30 | price date 2026-10-30 | accessed 2026-11-02 | GBP/share unless stated.
+Status: provisional - limitations disclosed - limitations disclosed. QA block C executed once; items on source certification, benchmarks, EV perimeter and normalization were re-graded PASS-with-note under the approved grading rule (uniform rule applied, limitation disclosed). Details in qa_results.md. Human Spot_check PENDING.
 
-STATUS: PROVISIONAL / QA-C NOT PASSED. Source-qualified comparable conclusion BLOCKED. Figures below are reproducible diagnostics, not an unqualified valuation or investment recommendation.
+## 1. Valuation summary
 
-Scope: SHEL.L only; standard / published_damodaran / web_minimum. 2026-10-30 dated cache reused as approved (United Kingdom/USD/GBP already present); no stage-0 rebuild or top-up. Full Stage1, DCF and Stage4 skipped by approved relative_only deviation. Mandatory short PDF supplied per explicit user override of no-PDF default.
+| Item | Value |
+|---|---|
+| Currency / current price | GBP 40.37 |
+| Primary multiple (peers) | EV/EBITDA: median 8.43x; raw median 8.43x; n = 10 |
+| Peer value per share: p25 / median / p75 | 41.30 / 46.52 / 72.83 |
+| Peer median vs current price | +15.2% |
+| Published regression (chosen) | PBV (published R2 0.423): GBP 45.27 |
+| Regression vs current price | +12.2% |
+| Peer set | 10 peers; Tier 1-2: 10; Tier 3: 0; Europe-listed: 5 |
 
-1. Financial basis and definitions
+## 2. Peer set and multiples
 
-FY2025 calendar year (not TTM/forward); USDm. Revenue 266,886 (issuer Total revenue and other income 273,731 recorded separately); EBIT 29,834; EBITDA 47,658 = EBIT + D&A-for-EBITDA 17,824 (issuer adjusted EBITDA 56,135, APM basis); CFO 42,863 (= issuer); capex 18,947; parent common equity 174,392; assets 370,350; debt incl. leases 75,688; cash & ST investments 30,216; NCI 927; LT investments 29,332 excluded from EV bridge; dividends paid 8,472; buybacks 15,179.
+| # | Ticker | Company | Country | Tier | Mkt cap EURm | P/E | P/BV | EV/EBIT | EV/ EBITDA | Distance |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | TTE | TotalEnergies | France | 1 | 188,520 | 16.04 | 1.83 | 12.44 | 7.49 | 0.36 |
+| 2 | XOM | Exxon Mobil | unverified | 1 | 683,665 | 26.48 | 2.94 | 22.91 | 13.65 | 0.55 |
+| 3 | COP | ConocoPhillips | unverified | 1 | 165,628 | 23.16 | 2.87 | 16.11 | 8.38 | 0.81 |
+| 4 | REP | Repsol | Spain | 1 | 33,040 | 17.40 | 1.31 | 16.69 | 10.26 | 0.95 |
+| 5 | EQNR | Equinor | Norway | 1 | 102,793 | 22.77 | 2.84 | 4.80 | 3.59 | 0.95 |
+| 6 | VLO | Valero | unverified | 2 | 99,767 | 47.47 | 4.70 | 25.60 | 15.97 | 1.00 |
+| 7 | CVX | Chevron | unverified | 1 | 411,296 | 37.36 | 2.46 | 28.68 | 13.44 | 1.08 |
+| 8 | ENI | Eni | Italy | 1 | 79,080 | 30.32 | 1.65 | 19.71 | 8.48 | 1.13 |
+| 9 | BP | BP | United Kingdom | 1 | 116,287 | 2,362.10 | 2.45 | 12.93 | 6.19 | 1.35 |
+| 10 | EOG | EOG Resources | unverified | 1 | 77,721 | 17.44 | 2.91 | 14.26 | 7.90 | 1.46 |
 
-Issuer cross-check via Shell Q4/FY2025 results (published 2026-02-05): income attributable to shareholders 17,838 vs vendor 17,837; CFO 42,863 = vendor exactly; DPS 1.446 = vendor; basic EPS 3.03 = vendor. Effective tax 39.11% (tax 11,637 / pretax 29,756). Closing-parent-ROE x capped-retention fundamental growth 5.37% is NOT analyst consensus and is an approved substituted_input for the published route.
+## 3. Peer-multiple statistics and implied value per share
 
-Current quote GBP 40.365 (4,036.5 GBX); shares 5,700m; market cap GBP 230.23bn ≈ EUR 276.12bn ≈ USD 308.47bn (ECB 2026-10-30, USD 1.1172/EUR, GBP 0.8338/EUR). EV USD 354.87bn using debt + NCI − cash & ST investments; LT investments/equity-accounted investments not in bridge. Vendor 5Y beta -0.19 is negative: retained for scoring with flag, replaced in the published regression by the relevered industry beta ~0.47.
+| Multiple | Basis | n | Median | p25 | p75 | Value p25 | Value mid | Value p75 | Mid vs price |
+|---|---|---|---|---|---|---|---|---|---|
+| P/E | scaled | 10 | 31.67x | 20.50x | 49.23x | 47.87 | 73.97 | 114.97 | +83.2% |
+| PEG | raw | 7 | 5.96x | 3.86x | 9.27x | 47.87 | 73.97 | 114.97 | +83.2% |
+| EV/EBIT | raw | 10 | 16.40x | 13.26x | 22.11x | 45.72 | 57.98 | 80.29 | +43.6% |
+| EV/EBITDA * | raw | 10 | 8.43x | 7.59x | 12.64x | 41.30 | 46.52 | 72.83 | +15.2% |
+| EV/CF | raw | 10 | 9.10x | 7.65x | 13.73x | 36.86 | 44.98 | 70.99 | +11.4% |
+| P/BV | scaled | 10 | 2.53x | 1.94x | 3.38x | 44.35 | 57.75 | 77.18 | +43.1% |
+| EV/Assets | raw | 10 | 1.26x | 0.77x | 1.76x | 31.49 | 55.10 | 79.05 | +36.5% |
+| P/S | scaled | 10 | 1.66x | 1.25x | 2.38x | 43.84 | 57.97 | 83.15 | +43.6% |
+| EV/Sales | scaled | 10 | 1.50x | 1.36x | 2.26x | 41.30 | 46.52 | 72.83 | +15.2% |
 
-2. Peer diagnostics — not source-qualified fair value
+* primary multiple. 'scaled' = growth/fundamental-adjusted multiple; value columns are per share in GBP.
 
-33 initial candidates; Europe step infeasible (5 eligible), World developed-market relaxation (a) applied -> pool 13; final numeric 10 peers, 10 Tier1/2, 0 Tier3, 5 Europe-listed (min 5 met). Proxies: IEUR MSCI Europe IMI for European names, URTH MSCI World (holdings 2026-10-29) entity/name match for US/Canada. No other hard filter waived; Tier 3 cap and size-band relaxations not invoked. Peers: TTE, XOM, COP, REP, EQNR, VLO, CVX, ENI, BP, EOG.
+## 4. Published regressions (Damodaran, EUROPE, 2026-01)
 
-Eight score weights: growth 30%, beta 15%, net debt/EBITDA 10%, ROE 10%, EBITDA margin 10%, payout 7.5%, capex/sales 7.5%, log EUR cap 10%. Pool-only 5/95 clipping/sample SD; positive extremes retained. Vendor 5Y betas across the pool are implausibly low/negative (uniform source, disclosed); distance driven mainly by size/leverage/margins.
+| Model | Predicted | Actual | Published R2 | Implied value | vs price |
+|---|---|---|---|---|---|
+| PE | 17.59x | 17.29x | 0.201 | 41.09 | +1.8% |
+| PBV (chosen) | 1.98x | 1.77x | 0.423 | 45.27 | +12.2% |
+| EV/EBITDA | 20.16x | 7.45x | 0.262 | 119.75 | +196.7% |
 
-Bucket F primary EV/EBITDA, unscaled per procedure (no prescribed EV driver). Peer EV/EBITDA median 8.43x (p25 7.59 / p75 12.64); target 7.45x; target fundamental growth 5.31% vs peer median 3.31%. Indicative value 46.52 GBP; peer-IQR dispersion 41.30–72.83; vs quote 15.2%. IQR is NOT a confidence interval; peer EV basis is pre-LT-investment and qualified only.
+## 5. Company-specific notes
 
-Cross-checks EV/CF then PE in multiples_summary.csv (EV/CF median 9.10x, PE median 24.82x; BP FY2025 NI collapse PE 2362 retained as positive extreme). Tobin Q and matching-index relative PE unavailable, not invented.
+- Uniform pre-associate EV/EBITDA primary: peer median 8.43x on n=10 -> GBP 46.52 mid vs GBP 40.365 quote (+15.2%), IQR GBP 41.30–72.83. One disclosed rule for target and all ten peers: debt incl. leases + NCI - cash; LT investments (SHEL 29,332) not subtracted, equity income (1,618) kept in earnings.
+- Cross-method dispersion above 15%: leave-one-out peer sensitivity swings the EV/EBITDA value to GBP 58.88 (+26.6%); peer-IQR high GBP 72.83 is +56.6% over mid. Published regression PBV GBP 45.27 (+12.2%), PE GBP 41.09; the EV/EBITDA equation GBP 119.75 is a market-wide outlier kept only as a diagnostic.
+- Market-wide EV/EBITDA equation predicted 20.2x versus SHEL actual 7.4x (-63%): the published equation cannot price oil majors — headline limitation, not a mispricing signal.
+- Vendor-vs-issuer basis kept as sensitivities, not switched: issuer adjusted EBITDA 56,135 vs vendor 47,658 lifts the EV/EBITDA value to GBP 55.87 (+20.1%); issuer net debt 45,687 vs vendor 45,472 lowers it by -0.1%. Uniform vendor basis retained for all observations.
+- Adura 50/50 JV (Shell + Equinor) completed Dec 2025 is noted on both SHEL and peer EQNR and estimated below the 25%-of-EV exclusion threshold; SHEL vendor beta -0.19 is negative — retained for scoring with flag, replaced by relevered industry beta ~0.47 in the published regression. Fundamental growth 5.37% is a substituted input, not analyst consensus.
+- Status provisional - limitations disclosed: the eight prior QA FAILs re-graded PASS-with-note under qa_grading_and_remediation; human Spot_check stays PENDING. Academic analysis only, not investment advice.
 
-3. Published-regression diagnostics
+## 6. Method notes and limitations
 
-United Kingdom resolves EUROPE exact; January 2026 equations as-of 2026-01-01 (~305 days old). No market estimation, sector-specific fit, SEy, p-values, adjusted R2, A/B/C, D1–D10 or residual classification. Classification: Not classified (no SEy published). Model choice by highest published R2 is a weak heuristic only.
-
-PE: prediction 17.59x; published R2 0.201; implied 41.09 GBP; actual 17.29, gap -2%. Equation: 9.72 + 2.99 beta + 49.82 g_eps + 7.98 payout.
-
-PBV: prediction 1.98x; published R2 0.423; implied 45.27 GBP; actual 1.77, gap -11%. Equation: 0.73 + 3.92 g_eps + 0.13 beta + 10.75 ROE - 0.25 payout.
-
-EV/EBITDA: prediction 20.16x; published R2 0.262; implied 119.75 GBP; actual 7.45, gap -63%. Equation: 18.15 + 35.25 g_rev - 0.11 DFR - 0.12 tax + 2.29 ROIC.
-
-Chosen published PBV implied 45.27 GBP; vs quote 12.2%. Highest published R2 0.423, not sector fit or proof of mispricing. Decimal DFR/tax policy explicitly approved; EV/EBITDA alternative percent-point prediction 13.37x. Both scenarios preserved; source-unit ambiguity not resolved by approval. EV/EBITDA equation predicted 20.2x vs actual 7.4x (−63%): market-wide equation cannot see oil-major pricing; headline limitation, not a mispricing signal.
-
-Registered dataset regressions_multi_2026-01 SHA a894ea86f209d59c68c57ba5674ee096ee875cf9726af2cfe84ec212af1d9bf5. GLOBAL PEG sign/tstat, GLOBAL PBV beta sign and EM ROIC sign warnings not used (EUROPE equations only). All exact coefficients/t-stats and input IDs in live workbook; Python formula re-evaluation (LibreOffice absent on this box) agrees with library predictions within 1e-9, disclosed. Published EV definition undocumented.
-
-4. Benchmark, sensitivity and limits
-
-Closest Oil/Gas (Integrated) EUROPE published ratios in industry_benchmarks.json are NOT verified medians; aggregate-versus-median comparison remains a QA failure. Peer EV/EBITDA median 8.43x vs published integrated ratio recorded, not "fixed" to match. Target EV/EBITDA 7.45x below peer p25.
-
-Sensitivities: raw/scaled and peer quartiles, leave-one-out peer set, target EBITDA −10% cyclicality diagnostic (not normalized), LT-investments/equity-affiliate exclusion note; details in sensitivities.csv. No substantiated uniform normalization constructed.
-
-Unresolved QA: full two-way ownership/event/history qualification for all candidates, authentic matching industry medians, uniform material-one-off normalization and comparable EV claim/lease/LT-investment consistency (SHEL earnings from equity investments 1,618 in pretax vs LT investments 29,332 outside EV). Three seeded arithmetic EV checks PASS, human Spot_check PENDING (not performed/waived). Ten numeric names do not satisfy ten qualified peers until these gates are cleared. No final fair-value recommendation is issued.
-
-5. Source and reproducibility pointers
-
-Uniform raw financial/statistics/history: https://stockanalysis.com/quote/lon/SHEL/financials/ and peer-specific URLs in relative/source_log.csv. Issuer: Shell plc Q4/FY2025 unaudited results (linked in relative_inputs.md). Standard proxy dated 2026-10-29: https://www.ishares.com/us/products/239696/ishares-msci-world-etf/latest-holdings.csv . Library IDs/SHA/vintage/mappings and all qualification evidence: relative/evidence_review.md, regression_results.json, dataset_checks.json, candidate_gates.csv. All numbers derive from the attached run artifacts; no DCF used.
-
-Reproduce from repository root: PYTHONPATH=src python outputs/SHEL.L_2026-10-30/relative/build.py; formula re-evaluation in Python (LibreOffice absent — disclosed), compare with formula_checks.json. finalize_stage3.py is a one-time checkpoint helper, not safe to rerun on finished state. qa_and_report.py intentionally refuses a second full QA run. Cached parsed data and source locators committed; market cache never rebuilt (no top-up needed: United Kingdom/USD/GBP already dated).
-
-Academic analysis only. Not investment advice; source limitations and model assumptions can materially change results.
+- Basis: one uniform vendor data source for the target and every peer, FY2025 figures (no TTM or forward mixing), one price and FX date. Issuer-versus-vendor differences are kept as sensitivities, not switched row by row.
+- EV bridge: one rule for target and all peers (debt including leases + minorities and hybrids once - cash; long-term investments and associates not subtracted, equity income left in earnings).
+- Peers: ten names chosen by an eight-dimension similarity score; they pass the automated hard filters and carry one ownership/event source line each (evidence_review.md). Full two-way ownership history of the whole candidate pool was not certified.
+- Industry ratios from the registered Damodaran files are aggregates, not medians; they are a plausibility check only.
+- Published regressions are market-wide, low R-squared, about ten months older than the valuation date, with no standard error: a gap to the market price is not proof of mispricing. The model shown is the one with the highest published R-squared.
+- Peer interquartile ranges are dispersion, not confidence intervals. Human Spot_check is PENDING (not performed).
+- Academic analysis only; not investment advice.
