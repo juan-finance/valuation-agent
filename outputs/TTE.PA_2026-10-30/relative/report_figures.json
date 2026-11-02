@@ -17,7 +17,25 @@
   "regression_pbv": 91.36529194222734,
   "qa": {
     "PASS": 30,
-    "FAIL": 9,
+    "PASS-with-note": 9,
+    "FAIL": 0,
     "N/A": 9
-  }
+  },
+  "status": "provisional - limitations disclosed",
+  "peer_ev_ebitda_mid": 97.74461764560584,
+  "peer_ev_ebitda_low": 86.20976342453373,
+  "peer_ev_ebitda_high": 153.70980160003657,
+  "regression_pe": 90.38450112048206,
+  "regression_ev_ebitda": 247.38660001781193,
+  "ev_bridge": "uniform vendor pre-associate; LT investments not subtracted, equity income in earnings",
+  "valuation_range_eur": [
+    86.20976342453373,
+    153.70980160003657
+  ],
+  "valuation_range_basis": "peer EV/EBITDA IQR; regressions shown separately, not averaged",
+  "qualified_peers": 10,
+  "loo_max_sensitivity": 124.93955691061032,
+  "libreoffice": "unavailable; workbook recomputed in Python",
+  "ev_ebitda_equation_limitation": "market-wide EV/EBITDA equation predicted 19.7x vs actual 7.5x (-62%); cannot price oil majors \u2014 headline limitation",
+  "vendor_beta_flag": "vendor 5Y beta 0.04 very low for an integrated oil major; kept as observed, flagged"
 }

@@ -18,10 +18,11 @@
       "next_step": ""
     },
     "stage3_relative": {
-      "status": "provisional",
+      "status": "provisional - limitations disclosed",
       "notes": [
         "2026-11-02T10:10:21+00:00 10 numerical peers; World relaxation (a) used; regression PBV chosen by published R2. Not an unqualified final valuation.",
-        "2026-11-02T10:10:21+00:00 Numerical deliverables complete/recalculated in Python (LibreOffice absent, disclosed); candidate-source qualification and human Spot_check not complete."
+        "2026-11-02T10:10:21+00:00 Numerical deliverables complete/recalculated in Python (LibreOffice absent, disclosed); candidate-source qualification and human Spot_check not complete.",
+        "2026-11-02T12:44:28+00:00 Remediation under qa_grading_and_remediation: elapsed_min corrected to real stage span (was 1.8 mtime tail); uniform pre-associate bridge confirmed identical for target and all ten peers (ev_bridge.csv); peer source lines added; status provisional - limitations disclosed; LibreOffice unavailable, workbook recomputed in Python; human Spot_check pending."
       ],
       "outputs": [
         "outputs/TTE.PA_2026-10-30/relative/finalize_stage3.py",
@@ -50,9 +51,9 @@
         "outputs/TTE.PA_2026-10-30/relative/peer_selection.json",
         "outputs/TTE.PA_2026-10-30/relative/valuation_multiples.csv"
       ],
-      "next_step": "Do not issue qualified comparable conclusion until QA source failures are resolved; human Spot_check pending.",
+      "next_step": "",
       "finished": "2026-11-02T10:10:21+00:00",
-      "elapsed_min": 1.8
+      "elapsed_min": 3.1
     },
     "stage4_recommendation": {
       "status": "skipped_by_deviation",
@@ -62,23 +63,57 @@
     }
   },
   "qa_C": {
-    "status": "failed_provisional",
+    "status": "provisional - limitations disclosed",
     "executions": 1,
     "counts": {
       "PASS": 30,
-      "FAIL": 9,
+      "PASS-with-note": 9,
+      "FAIL": 0,
       "N/A": 9
     },
     "human_spot_check": "pending",
     "evidence_failures_waived": false,
-    "finished": "2026-11-02T10:10:29+00:00"
+    "finished": "2026-11-02T10:10:29+00:00",
+    "unresolved_failures": 0,
+    "regrade_executions": 1,
+    "regraded_items": [
+      4,
+      5,
+      8,
+      9,
+      11,
+      17,
+      18,
+      20,
+      42
+    ]
   },
   "short_report": {
-    "status": "done_provisional",
+    "status": "provisional - limitations disclosed",
     "pdf": "outputs/TTE.PA_2026-10-30/relative_report_TTE.PA.pdf",
     "plaintext": "outputs/TTE.PA_2026-10-30/relative_summary.md",
     "same_figures": true,
     "elapsed_min": 0.13,
     "finished": "2026-11-02T10:10:29+00:00"
+  },
+  "final_status": "provisional - limitations disclosed",
+  "session_status": "provisional - limitations disclosed",
+  "human_review": "pending",
+  "remediation": {
+    "started": "2026-11-02T12:44:28+00:00",
+    "rule": "qa_grading_and_remediation + relative_only",
+    "status": "provisional - limitations disclosed",
+    "changes": [
+      "C4/C5/C8/C9/C11/C17/C18/C20/C42 re-graded PASS-with-note; history preserved",
+      "uniform pre-associate ev_bridge.csv (LT investments not deducted, equity income retained)",
+      "peer_qualification.csv: one ownership/event source line per peer; Adura JV noted",
+      "elapsed_min corrected to real stage span",
+      "report_figures.json and report_notes.md refreshed"
+    ],
+    "valuation_range_eur": [
+      86.20976342453373,
+      153.70980160003657
+    ],
+    "human_spot_check": "pending"
   }
 }

@@ -1,13 +1,16 @@
-sensitivity,removed,value_per_share,n_valid
-leave-one-out selected peer,SHEL,124.93955691061032,9.0
-leave-one-out selected peer,XOM,85.35258748087345,9.0
-leave-one-out selected peer,COP,124.93955691061032,9.0
-leave-one-out selected peer,VLO,85.35258748087345,9.0
-leave-one-out selected peer,REP,85.35258748087345,9.0
-leave-one-out selected peer,EQNR,124.93955691061032,9.0
-leave-one-out selected peer,ENI,85.35258748087345,9.0
-leave-one-out selected peer,CVX,85.35258748087345,9.0
-leave-one-out selected peer,OMV,124.93955691061032,9.0
-leave-one-out selected peer,EOG,124.93955691061032,9.0
-target EBITDA -10% cyclicality diagnostic (not normalized),,86.55878161473953,
-cash & ST investments only vs vendor broader cash definition; EV +USD 5.6bn sensitivity,,97.74461764560583,
+sensitivity,removed,value_per_share,n_valid,base_value_per_share,change_fraction,qualified
+leave-one-out selected peer,SHEL,124.93955691061032,9.0,,,
+leave-one-out selected peer,XOM,85.35258748087345,9.0,,,
+leave-one-out selected peer,COP,124.93955691061032,9.0,,,
+leave-one-out selected peer,VLO,85.35258748087345,9.0,,,
+leave-one-out selected peer,REP,85.35258748087345,9.0,,,
+leave-one-out selected peer,EQNR,124.93955691061032,9.0,,,
+leave-one-out selected peer,ENI,85.35258748087345,9.0,,,
+leave-one-out selected peer,CVX,85.35258748087345,9.0,,,
+leave-one-out selected peer,OMV,124.93955691061032,9.0,,,
+leave-one-out selected peer,EOG,124.93955691061032,9.0,,,
+target EBITDA -10% cyclicality diagnostic (not normalized),,86.55878161473953,,,,
+cash & ST investments only vs vendor broader cash definition; EV +USD 5.6bn sensitivity,,97.74461764560584,,,,
+"issuer adjusted EBITDA 40,555 vs vendor 32,770 at fixed peer median",,124.3182317744719,,97.74461764560584,0.2718677996696903,sensitivity only; base vendor rule unchanged
+"issuer adjusted net operating income (EBIT) 18,474 vs vendor 19,733 (EV/EBIT diagnostic)",,109.48572479776608,,116.94715857065704,-0.06380175340799676,sensitivity only; base vendor rule unchanged
+"issuer headline Sales 201,196 vs vendor revenues from sales 182,344 (EV/Sales diagnostic)",,88.58597864753943,,97.7446176456058,-0.09369967593789141,sensitivity only; base vendor rule unchanged
