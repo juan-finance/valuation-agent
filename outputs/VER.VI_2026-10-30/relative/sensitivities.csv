@@ -1,8 +1,8 @@
 scenario,EBITDA_eurm,peer_median_ev_ebitda,EUR_per_share,note,EBIT_eurm,peer_median_ev_ebit
-vendor FY2025 EBITDA,2715.0,11.213607517072575,77.90986243984813,mechanical median-held-fixed sensitivity; vendor vs issuer EBITDA basis gap -0.8%,,
-issuer-basis EBIT via peer EV/EBIT median,,,104.35393823808569,mechanical median-held-fixed sensitivity,2108.0,18.80082790449513
-"issuer reported EBITDA 2,737.5",2737.5,11.213607517072575,78.63609054742436,mechanical median-held-fixed sensitivity; vendor vs issuer EBITDA basis gap -0.8%,,
-issuer-basis EBIT via peer EV/EBIT median,,,104.58663514669583,mechanical median-held-fixed sensitivity,2112.3,18.80082790449513
+vendor FY2025 EBITDA,2715.0,11.213607517072576,77.90986243984813,mechanical median-held-fixed sensitivity; vendor vs issuer EBITDA basis gap -0.8%,,
+issuer-basis EBIT via peer EV/EBIT median,,,104.35393823808568,mechanical median-held-fixed sensitivity,2108.0,18.80082790449513
+"issuer reported EBITDA 2,737.5",2737.5,11.213607517072576,78.63609054742436,mechanical median-held-fixed sensitivity; vendor vs issuer EBITDA basis gap -0.8%,,
+issuer-basis EBIT via peer EV/EBIT median,,,104.58663514669584,mechanical median-held-fixed sensitivity,2112.3,18.80082790449513
 leave-one-out peer FORTUM,,,135.64802432023663,peer ev_ebitda applied to target EBITDA,,
 leave-one-out peer CNA,,,,peer ev_ebitda applied to target EBITDA,,
 leave-one-out peer ENGI,,,53.66296434710333,peer ev_ebitda applied to target EBITDA,,
@@ -13,3 +13,5 @@ leave-one-out peer ANE,,,52.81743389323307,peer ev_ebitda applied to target EBIT
 leave-one-out peer NTGY,,,56.69815694954611,peer ev_ebitda applied to target EBITDA,,
 leave-one-out peer ORSTED,,,76.0646030280523,peer ev_ebitda applied to target EBITDA,,
 leave-one-out peer IBE,,,105.653799024647,peer ev_ebitda applied to target EBITDA,,
+"issuer net debt 2,818.1 vs vendor 2,386 kept basis",2715.0,11.213607517072575,76.6661,"mechanical median-held-fixed sensitivity; uniform pre-associate EV bridge kept for target and all peers; vendor basis kept, issuer figure disclosed not switched",,
+"issuer net debt 2,818.1 vs vendor 2,386 kept basis (EV/EBIT)",,,103.1102,mechanical median-held-fixed sensitivity; same net-debt sensitivity applied to EV/EBIT value,2108.0,18.80082790449513

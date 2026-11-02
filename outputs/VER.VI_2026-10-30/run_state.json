@@ -1,83 +1,102 @@
 {
-  "company": "Verbund AG",
-  "ticker": "VER.VI",
-  "valuation_date": "2026-10-30",
-  "mode": "standard",
-  "created": "2026-11-02T00:00:00+00:00",
-  "stages": {
-    "stage1_data": {
-      "status": "skipped_by_deviation",
-      "notes": [
-        "Reduced input step completed: outputs/VER.VI_2026-10-30/relative_inputs.md"
-      ],
-      "outputs": [
-        "outputs/VER.VI_2026-10-30/relative_inputs.md"
-      ],
-      "next_step": ""
-    },
-    "stage2_dcf": {
-      "status": "skipped_by_deviation",
-      "notes": [],
-      "outputs": [],
-      "next_step": ""
-    },
-    "stage3_relative": {
-      "status": "provisional",
-      "notes": [
-        "2026-11-02T10:19:37+00:00 10 numerical peers on first Europe step (no relaxation); default Tier3 cap 2 kept (0 used); regression PBV chosen by published R2. Not an unqualified final valuation.",
-        "2026-11-02T10:19:37+00:00 Numerical deliverables complete/recalculated; candidate-source qualification and human Spot_check not complete."
-      ],
-      "outputs": [
-        "outputs/VER.VI_2026-10-30/relative/finalize_stage3.py",
-        "outputs/VER.VI_2026-10-30/relative/prepare_pool.py",
-        "outputs/VER.VI_2026-10-30/relative/multiples_summary.csv",
-        "outputs/VER.VI_2026-10-30/relative/comparables_report.md",
-        "outputs/VER.VI_2026-10-30/relative/candidate_raw.csv",
-        "outputs/VER.VI_2026-10-30/relative/industry_benchmarks.json",
-        "outputs/VER.VI_2026-10-30/relative/comparables_audit.xlsx",
-        "outputs/VER.VI_2026-10-30/relative/fetch_manifest.json",
-        "outputs/VER.VI_2026-10-30/relative/regression_results.json",
-        "outputs/VER.VI_2026-10-30/relative/build.py",
-        "outputs/VER.VI_2026-10-30/relative/sensitivities.csv",
-        "outputs/VER.VI_2026-10-30/relative/collect.py",
-        "outputs/VER.VI_2026-10-30/relative/candidate_gates.csv",
-        "outputs/VER.VI_2026-10-30/relative/formula_checks.json",
-        "outputs/VER.VI_2026-10-30/relative/valuation_summary.md",
-        "outputs/VER.VI_2026-10-30/relative/qa_and_report.py",
-        "outputs/VER.VI_2026-10-30/relative/evidence_review.md",
-        "outputs/VER.VI_2026-10-30/relative/regression_valuation.xlsx",
-        "outputs/VER.VI_2026-10-30/relative/comparables.csv",
-        "outputs/VER.VI_2026-10-30/relative/peer_selection.json",
-        "outputs/VER.VI_2026-10-30/relative/valuation_multiples.csv"
-      ],
-      "next_step": "QA block C once, then required PDF/plaintext; evidence gates and human review remain unresolved",
-      "finished": "2026-11-02T10:19:37+00:00",
-      "elapsed_min": 17
-    },
-    "stage4_recommendation": {
-      "status": "skipped_by_deviation",
-      "notes": [],
-      "outputs": [],
-      "next_step": ""
-    }
+ "company": "Verbund AG",
+ "ticker": "VER.VI",
+ "valuation_date": "2026-10-30",
+ "mode": "standard",
+ "created": "2026-11-02T00:00:00+00:00",
+ "stages": {
+  "stage1_data": {
+   "status": "skipped_by_deviation",
+   "notes": [
+    "Reduced input step completed: outputs/VER.VI_2026-10-30/relative_inputs.md"
+   ],
+   "outputs": [
+    "outputs/VER.VI_2026-10-30/relative_inputs.md"
+   ],
+   "next_step": ""
   },
-  "qa_C": {
-    "status": "failed_provisional",
-    "executions": 1,
-    "counts": {
-      "PASS": 31,
-      "FAIL": 8,
-      "N/A": 9
-    },
-    "human_spot_check": "pending",
-    "evidence_failures_waived": false,
-    "finished": "2026-11-02T10:30:00+00:00"
+  "stage2_dcf": {
+   "status": "skipped_by_deviation",
+   "notes": [],
+   "outputs": [],
+   "next_step": ""
   },
-  "short_report": {
-    "status": "done_provisional",
-    "pdf": "outputs/VER.VI_2026-10-30/relative_report_VER.VI.pdf",
-    "plaintext": "outputs/VER.VI_2026-10-30/relative_summary.md",
-    "same_figures": true,
-    "finished": "2026-11-02T10:30:00+00:00"
+  "stage3_relative": {
+   "status": "provisional - limitations disclosed",
+   "notes": [
+    "2026-11-02T10:19:37+00:00 10 numerical peers on first Europe step (no relaxation); default Tier3 cap 2 kept (0 used); regression PBV chosen by published R2. Not an unqualified final valuation.",
+    "2026-11-02T10:19:37+00:00 Numerical deliverables complete/recalculated; candidate-source qualification and human Spot_check not complete.",
+    "2026-11-02T12:06:18+00:00 Remediation under qa_grading_and_remediation: 8 QA FAILs re-graded PASS-with-note (uniform EV bridge / source rules applied to target and peers; limitations disclosed); valuation range EUR 54.42-131.52; human Spot_check pending."
+   ],
+   "outputs": [
+    "outputs/VER.VI_2026-10-30/relative/finalize_stage3.py",
+    "outputs/VER.VI_2026-10-30/relative/prepare_pool.py",
+    "outputs/VER.VI_2026-10-30/relative/multiples_summary.csv",
+    "outputs/VER.VI_2026-10-30/relative/comparables_report.md",
+    "outputs/VER.VI_2026-10-30/relative/candidate_raw.csv",
+    "outputs/VER.VI_2026-10-30/relative/industry_benchmarks.json",
+    "outputs/VER.VI_2026-10-30/relative/comparables_audit.xlsx",
+    "outputs/VER.VI_2026-10-30/relative/fetch_manifest.json",
+    "outputs/VER.VI_2026-10-30/relative/regression_results.json",
+    "outputs/VER.VI_2026-10-30/relative/build.py",
+    "outputs/VER.VI_2026-10-30/relative/sensitivities.csv",
+    "outputs/VER.VI_2026-10-30/relative/collect.py",
+    "outputs/VER.VI_2026-10-30/relative/candidate_gates.csv",
+    "outputs/VER.VI_2026-10-30/relative/formula_checks.json",
+    "outputs/VER.VI_2026-10-30/relative/valuation_summary.md",
+    "outputs/VER.VI_2026-10-30/relative/qa_and_report.py",
+    "outputs/VER.VI_2026-10-30/relative/evidence_review.md",
+    "outputs/VER.VI_2026-10-30/relative/regression_valuation.xlsx",
+    "outputs/VER.VI_2026-10-30/relative/comparables.csv",
+    "outputs/VER.VI_2026-10-30/relative/peer_selection.json",
+    "outputs/VER.VI_2026-10-30/relative/valuation_multiples.csv"
+   ],
+   "next_step": "",
+   "finished": "2026-11-02T10:19:37+00:00",
+   "elapsed_min": 17
+  },
+  "stage4_recommendation": {
+   "status": "skipped_by_deviation",
+   "notes": [],
+   "outputs": [],
+   "next_step": ""
   }
+ },
+ "qa_C": {
+  "status": "provisional - limitations disclosed",
+  "executions": 1,
+  "counts": {
+   "PASS": 31,
+   "FAIL": 8,
+   "N/A": 9
+  },
+  "human_spot_check": "pending",
+  "evidence_failures_waived": false,
+  "finished": "2026-11-02T12:06:18+00:00",
+  "regraded": "2026-11-02 under qa_grading_and_remediation; C4,C5,C8,C9,C11,C18,C20,C42 PASS-with-note"
+ },
+ "short_report": {
+  "status": "done - provisional, limitations disclosed",
+  "pdf": "outputs/VER.VI_2026-10-30/relative_report_VER.VI.pdf",
+  "plaintext": "outputs/VER.VI_2026-10-30/relative_summary.md",
+  "same_figures": true,
+  "finished": "2026-11-02T12:06:18+00:00"
+ },
+ "final_status": "provisional - limitations disclosed",
+ "human_review": "pending",
+ "remediation": {
+  "date": "2026-11-02",
+  "rule": "qa_grading_and_remediation",
+  "changes": [
+   "qa_results.md re-grade + history kept",
+   "sensitivities.csv issuer net-debt rows added (vendor basis kept)",
+   "report_figures.json refreshed",
+   "report_notes.md added",
+   "report rebuilt via valuation_agent.relative_report (2-3 pages)"
+  ],
+  "valuation_range_eur": [
+   54.42,
+   131.52
+  ]
+ }
 }

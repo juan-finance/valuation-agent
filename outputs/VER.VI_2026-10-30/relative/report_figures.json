@@ -18,8 +18,15 @@
   "regression_pe": 49.767614430650234,
   "regression_ev_ebitda": 131.52147953314505,
   "qa": {
+    "PASS_with_note": 8,
     "PASS": 31,
-    "FAIL": 8,
-    "N/A": 9
-  }
+    "N/A": 9,
+    "FAIL": 0
+  },
+  "status": "provisional - limitations disclosed",
+  "valuation_range_eur": [
+    54.42,
+    131.52
+  ],
+  "issuer_net_debt_sensitivity_eur": 1.2437
 }

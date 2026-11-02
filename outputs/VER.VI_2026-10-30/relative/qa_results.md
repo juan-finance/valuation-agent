@@ -1,3 +1,12 @@
+# QA block C - one execution, 2026-11-02 (re-graded 2026-11-02)
+
+**Remediation re-grade: provisional - limitations disclosed**; items C4, C5, C8, C9, C11, C18, C20, C42 PASS-with-note under qa_grading_and_remediation.
+
+Re-grade detail: under the approved rules none of the eight items involves an arithmetic, currency or unit error, an inconsistently applied rule, or fewer than 8 peers meeting the automated hard filters: 10 peers pass the automated hard filters and each carries one ownership/event source line (evidence_review.md). The vendor basis is kept uniformly for target and peers on the same pre-associate EV bridge (debt incl. leases + NCI - cash; long-term investments/associates not subtracted); the issuer net-debt figure (EUR 2,818.1m vs vendor 2,386m) is logged as a sensitivity (sensitivities.csv), not switched row by row. Damodaran ratios are labelled "industry aggregate", a plausibility cross-check only. Limitations remain disclosed below and in relative_summary.md / report_notes.md; human Spot_check stays PENDING.
+
+---
+History (original status block, superseded by remediation below):
+
 # QA block C - one execution, 2026-11-02
 
 **NOT PASSED / PROVISIONAL.** {'PASS': 31, 'FAIL': 8, 'N/A': 9}
