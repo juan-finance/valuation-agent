@@ -1,0 +1,81 @@
+ticker,name,reason
+FLS,FLSmidth,OTHER
+KSB,KSB,market cap below EUR 3.2bn (size band 0.1x)
+BCHN,Burckhardt Compression,market cap below EUR 3.2bn (size band 0.1x)
+WEIR,Weir Group,"mining, metals, chemicals or materials"
+RAA,Rational,"mining, metals, chemicals or materials"
+BP,BP,"oil, gas and fuels"
+SHEL,Shell,"oil, gas and fuels"
+TTE,TotalEnergies,"oil, gas and fuels"
+EQNR,Equinor,"oil, gas and fuels"
+ENI,Eni,"oil, gas and fuels"
+REP,Repsol,"oil, gas and fuels"
+OMV,OMV,"oil, gas and fuels"
+GALP,Galp,"oil, gas and fuels"
+NESTE,Neste,"oil, gas and fuels"
+ORLEN,Orlen,"oil, gas and fuels"
+VARE,Var Energi,"oil, gas and fuels"
+AKRBP,Aker BP,"oil, gas and fuels"
+HBR,Harbour Energy,utility or renewable developer
+EDPR,EDP Renovaveis,utility or renewable developer
+ORSTED,Orsted,utility or renewable developer
+ANE,Acciona Energia,utility or renewable developer
+ERG,ERG,market cap below EUR 3.2bn (size band 0.1x)
+SLR,Solaria,market cap below EUR 3.2bn (size band 0.1x)
+GRE,Grenergy,market cap below EUR 3.2bn (size band 0.1x)
+SCATC,Scatec,market cap below EUR 3.2bn (size band 0.1x)
+EKT,Energiekontor,EUR1bn minimum or missing market cap
+PNE3,PNE,EUR1bn minimum or missing market cap
+IBE,Iberdrola,utility or renewable developer
+ENEL,Enel,utility or renewable developer
+SSE,SSE,utility or renewable developer
+ENGI,ENGIE,utility or renewable developer
+VER,Verbund,utility or renewable developer
+RWE,RWE,utility or renewable developer
+FORTUM,Fortum,utility or renewable developer
+DRX,Drax,utility or renewable developer
+EOAN,E.ON,utility or renewable developer
+ELE,Endesa,utility or renewable developer
+NTGY,Naturgy,utility or renewable developer
+CNA,Centrica,utility or renewable developer
+A2A,A2A,utility or renewable developer
+EDP,EDP,utility or renewable developer
+NG,National Grid,utility or renewable developer
+TRN,Terna,utility or renewable developer
+REE,Redeia,utility or renewable developer
+SRG,Snam,utility or renewable developer
+IG,Italgas,utility or renewable developer
+VAR,Var Energi,"oil, gas and fuels"
+ENOG,Energean,market cap below EUR 3.2bn (size band 0.1x)
+DNO,DNO,market cap below EUR 3.2bn (size band 0.1x)
+SUBC,Subsea 7,oilfield services
+SPM,Saipem,utility or renewable developer
+TE,Technip Energies,oilfield services
+TGS,TGS,market cap below EUR 3.2bn (size band 0.1x)
+SBMO,SBM Offshore,oilfield services
+MT.AS,ArcelorMittal,"mining, metals, chemicals or materials"
+VOE,voestalpine,"mining, metals, chemicals or materials"
+SSAB.A,SSAB,"mining, metals, chemicals or materials"
+OUT1V,Outokumpu,market cap below EUR 3.2bn (size band 0.1x)
+SZG,Salzgitter,market cap below EUR 3.2bn (size band 0.1x)
+ALLEI,Alleima,market cap below EUR 3.2bn (size band 0.1x)
+BEKB,Bekaert,market cap below EUR 3.2bn (size band 0.1x)
+NHY,Norsk Hydro,"mining, metals, chemicals or materials"
+NDA,Aurubis,"mining, metals, chemicals or materials"
+RIO,Rio Tinto,"mining, metals, chemicals or materials"
+ANTO,Antofagasta,"mining, metals, chemicals or materials"
+BOL,Boliden,"mining, metals, chemicals or materials"
+TKA,thyssenkrupp,"mining, metals, chemicals or materials"
+APAM,Aperam,market cap below EUR 3.2bn (size band 0.1x)
+ACX,Acerinox,"mining, metals, chemicals or materials"
+GRNG,Granges,market cap below EUR 3.2bn (size band 0.1x)
+YAR,Yara,"mining, metals, chemicals or materials"
+BAS,BASF,"mining, metals, chemicals or materials"
+HEI,Heidelberg Materials,"mining, metals, chemicals or materials"
+GLEN,Glencore,"mining, metals, chemicals or materials"
+AAL,Anglo American,"mining, metals, chemicals or materials"
+NK,Imerys,market cap below EUR 3.2bn (size band 0.1x)
+BZU,Buzzi,OTHER
+ERA,Eramet,market cap below EUR 3.2bn (size band 0.1x)
+SDF,K+S,market cap below EUR 3.2bn (size band 0.1x)
+VBK,Verbio,market cap below EUR 3.2bn (size band 0.1x)
