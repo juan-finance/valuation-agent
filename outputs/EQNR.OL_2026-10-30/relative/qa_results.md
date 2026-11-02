@@ -1,3 +1,22 @@
+# QA block C — current status
+
+**provisional - limitations disclosed**; {'PASS': 30, 'PASS-with-note': 9, 'FAIL': 0, 'N/A': 9}. Human Spot_check PENDING, not performed/waived. Valuation range NOK 347.55–574.25 per share (after-tax PE peer IQR; dispersion, not a confidence interval; mid NOK 452.07 vs quote 447.5).
+
+## Remediation re-grade
+Approved qa_grading_and_remediation and relative_only applied. Only previously failing/changed items re-tested once; unchanged passing items retained, not rerun. Primary multiple switched from EV/EBITDA to after-tax PE on the documented petroleum-tax comparability failure (tax_comparability.csv); EV/EBITDA is a labelled diagnostic. Workbook formulas re-evaluated in Python after LibreOffice recalculation; predictions agree within 1e-9 (formula_checks.json).
+
+- C4: PASS-with-note: vendor fields and transformations retained uniformly; lineage/definitions disclosed, no per-row switching.
+- C5: PASS-with-note: registered Damodaran ratios labelled industry aggregates, never medians; plausibility cross-check only.
+- C8: PASS-with-note: 10 peers pass the automated hard filters plus one ownership/event source line each; exhaustive certification not required.
+- C9: PASS-with-note: selected-peer ownership/event source lines added (peer_qualification.csv); Adura JV and Eni-VAR stake recorded; smaller events noted.
+- C11: PASS-with-note: 33-candidate pool and ordered World relaxation retained and auditable; no full-pool certification demanded.
+- C17: PASS-with-note: primary switched to after-tax PE after the documented petroleum-tax comparability failure of EV/EBITDA; bucket-F fallback order; EV/EBITDA kept as labelled diagnostic.
+- C18: PASS-with-note: one vendor pre-associate bridge and its exact inverse (ev_bridge.csv); PE is an equity multiple unaffected by the EV-perimeter limitation.
+- C20: PASS-with-note: peer/IQR/LOO, EBITDA -10%, cash-definition and issuer-vs-vendor EBIT sensitivities disclosed; no invented uniform normalization.
+- C42: PASS-with-note: both DFR/tax unit policies computed; approved decimal base; industry-aggregate plausibility and units caveat disclosed.
+
+## Historical QA — superseded, preserved verbatim
+
 # QA block C — one execution, 2026-11-01
 
 **NOT PASSED / PROVISIONAL.** {'PASS': 30, 'FAIL': 9, 'N/A': 9}

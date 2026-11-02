@@ -1,13 +1,16 @@
-sensitivity,removed,value_per_share,n_valid
-leave-one-out selected peer,REP,1712.8045103874604,9.0
-leave-one-out selected peer,SHEL,1712.8045103874604,9.0
-leave-one-out selected peer,TTE,1712.8045103874604,9.0
-leave-one-out selected peer,OMV,1858.0889195591228,9.0
-leave-one-out selected peer,ENI,1712.8045103874604,9.0
-leave-one-out selected peer,XOM,1712.8045103874604,9.0
-leave-one-out selected peer,BP,1858.0889195591228,9.0
-leave-one-out selected peer,AKRBP,1858.0889195591228,9.0
-leave-one-out selected peer,COP,1858.0889195591228,9.0
-leave-one-out selected peer,VAR,1858.0889195591228,9.0
-target EBITDA -10% cyclicality diagnostic (not normalized),,874.0938408991977,
-cash & ST investments only vs vendor broader cash definition; EV +USD 5.6bn sensitivity,,976.3699946750418,
+sensitivity,removed,value_per_share,n_valid,base_value_per_share,change_fraction,qualified
+leave-one-out selected peer,REP,1712.8045103874604,9.0,,,
+leave-one-out selected peer,SHEL,1712.8045103874604,9.0,,,
+leave-one-out selected peer,TTE,1712.8045103874604,9.0,,,
+leave-one-out selected peer,OMV,1858.0889195591228,9.0,,,
+leave-one-out selected peer,ENI,1712.8045103874604,9.0,,,
+leave-one-out selected peer,XOM,1712.8045103874604,9.0,,,
+leave-one-out selected peer,BP,1858.0889195591228,9.0,,,
+leave-one-out selected peer,AKRBP,1858.0889195591228,9.0,,,
+leave-one-out selected peer,COP,1858.0889195591228,9.0,,,
+leave-one-out selected peer,VAR,1858.0889195591228,9.0,,,
+target EBITDA -10% cyclicality diagnostic (not normalized),,874.0938408991977,,,,
+cash & ST investments only vs vendor broader cash definition; EV +USD 5.6bn sensitivity,,976.3699946750418,,,,
+"issuer operating income 25,352 vs vendor EBIT 26,437 (EV/EBIT diagnostic)",,1202.511145126365,,1253.9755105595498,-0.041040965313764666,sensitivity only; base vendor rule unchanged
+PE at peer median excluding >200x outliers (20.97x vs 23.11x),,410.2216898509595,,452.0710999112172,-0.09257262866057259,sensitivity only; base vendor rule unchanged
+"EQNR NI at group basis 5,058 vs parent 5,043 (PE diagnostic)",,453.4157492268365,,452.0710999112172,0.002974419988102328,sensitivity only; base vendor rule unchanged

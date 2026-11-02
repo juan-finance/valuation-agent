@@ -13,12 +13,36 @@
   "peer_indicative": 976.3699946750418,
   "peer_iqr_low": 791.761389840307,
   "peer_iqr_high": 1111.073256785453,
-  "peer_upside": 1.181832390335289,
+  "peer_upside": 0.010214748404954621,
   "regression_pbv": 301.0085308327297,
   "qa": {
     "PASS": 30,
-    "FAIL": 9,
+    "PASS-with-note": 9,
+    "FAIL": 0,
     "N/A": 9
   },
-  "adjustment": "not applicable: EV multiples unscaled per comparables_procedure rule 118"
+  "adjustment": "not applicable: EV multiples unscaled per comparables_procedure rule 118",
+  "status": "provisional - limitations disclosed",
+  "primary_multiple": "pe_after_tax",
+  "primary_reason": "petroleum-tax comparability failure of EV/EBITDA; tax wedge inside pre-tax multiple",
+  "peer_pe_median": 23.114406986524354,
+  "peer_pe_mid_nok": 452.0710999112172,
+  "peer_pe_low_nok": 347.5507580989824,
+  "peer_pe_high_nok": 574.253026563872,
+  "ev_ebitda_diagnostic_mid_nok": 976.3699946750418,
+  "ev_ebitda_diagnostic_flag": "non-comparable under ~80% petroleum tax; labelled diagnostic only",
+  "effective_tax_target": 0.7984,
+  "effective_tax_peer_median": 0.46383955472718663,
+  "norwegian_peers_cluster": "VAR 80.3%/3.31x and AKRBP 97.1%/3.68x confirm tax wedge inside EV/EBITDA (EQNR 79.8%/3.59x)",
+  "regression_pe": 372.3385309855719,
+  "regression_ev_ebitda": 2484.8589315384816,
+  "valuation_range_nok": [
+    347.5507580989824,
+    574.253026563872
+  ],
+  "valuation_range_basis": "after-tax PE peer IQR; regressions shown separately, not averaged",
+  "qualified_peers": 10,
+  "loo_max_sensitivity_ev_ebitda": 1858.0889195591228,
+  "ev_bridge": "uniform vendor pre-associate; LT investments not subtracted, equity income in earnings",
+  "pe_skew": "BP PE 2362x (FY2025 NI collapse) and AKRBP 202x retained as positive extremes; skew_flag disclosed; median robust"
 }

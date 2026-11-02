@@ -18,10 +18,11 @@
       "next_step": ""
     },
     "stage3_relative": {
-      "status": "provisional",
+      "status": "provisional - limitations disclosed",
       "notes": [
         "2026-11-01T16:53:32+00:00 10 numerical peers; Tier3 cap 4 relaxation used; regression PBV chosen by published R2. Not an unqualified final valuation.",
-        "2026-11-01T16:53:32+00:00 Numerical deliverables complete/recalculated; candidate-source qualification and human Spot_check not complete."
+        "2026-11-01T16:53:32+00:00 Numerical deliverables complete/recalculated; candidate-source qualification and human Spot_check not complete.",
+        "2026-11-02T12:49:10+00:00 Remediation under qa_grading_and_remediation: petroleum-tax comparability test -> EV/EBITDA re-labelled diagnostic, after-tax PE primary (NOK 452.07 mid, range 347.55-574.25); uniform pre-associate ev_bridge.csv; peer source lines added; C4/C5/C8/C9/C11/C17/C18/C20/C42 re-graded PASS-with-note; human Spot_check pending."
       ],
       "outputs": [
         "outputs/EQNR.OL_2026-10-30/relative/finalize_stage3.py",
@@ -49,8 +50,9 @@
         "outputs/EQNR.OL_2026-10-30/relative/peer_selection.json",
         "outputs/EQNR.OL_2026-10-30/relative/valuation_multiples.csv"
       ],
-      "next_step": "Do not issue qualified comparable conclusion until QA source failures are resolved; human Spot_check pending.",
-      "finished": "2026-11-01T16:53:32+00:00"
+      "next_step": "",
+      "finished": "2026-11-01T16:53:32+00:00",
+      "elapsed_min": 7.9
     },
     "stage4_recommendation": {
       "status": "skipped_by_deviation",
@@ -66,25 +68,59 @@
     "finished": "2026-11-01T16:43:47.048982+00:00",
     "timing_note": "approximate start; thereafter measured"
   },
-  "session_status": "reduced inputs done; stage 3 next",
+  "session_status": "provisional - limitations disclosed",
   "qa_C": {
-    "status": "failed_provisional",
+    "status": "provisional - limitations disclosed",
     "executions": 1,
     "counts": {
       "PASS": 30,
-      "FAIL": 9,
+      "PASS-with-note": 9,
+      "FAIL": 0,
       "N/A": 9
     },
     "human_spot_check": "pending",
     "evidence_failures_waived": false,
-    "finished": "2026-11-01T16:54:25+00:00"
+    "finished": "2026-11-01T16:54:25+00:00",
+    "unresolved_failures": 0,
+    "regrade_executions": 1,
+    "regraded_items": [
+      4,
+      5,
+      8,
+      9,
+      11,
+      17,
+      18,
+      20,
+      42
+    ]
   },
   "short_report": {
-    "status": "done_provisional",
+    "status": "provisional - limitations disclosed",
     "pdf": "outputs/EQNR.OL_2026-10-30/relative_report_EQNR.OL.pdf",
     "plaintext": "outputs/EQNR.OL_2026-10-30/relative_summary.md",
     "same_figures": true,
     "elapsed_min": 0.88,
     "finished": "2026-11-01T16:54:25+00:00"
+  },
+  "final_status": "provisional - limitations disclosed",
+  "human_review": "pending",
+  "remediation": {
+    "started": "2026-11-02T12:49:10+00:00",
+    "rule": "qa_grading_and_remediation + relative_only",
+    "status": "provisional - limitations disclosed",
+    "changes": [
+      "primary multiple switched EV/EBITDA -> after-tax PE on petroleum-tax comparability failure (tax_comparability.csv); EV/EBITDA kept as labelled diagnostic",
+      "C4/C5/C8/C9/C11/C17/C18/C20/C42 re-graded PASS-with-note; history preserved",
+      "uniform pre-associate ev_bridge.csv",
+      "peer_qualification.csv: one ownership/event source line per peer; Adura JV and Eni-VAR noted",
+      "report_figures.json and report_notes.md refreshed"
+    ],
+    "primary_multiple": "pe_after_tax",
+    "valuation_range_nok": [
+      347.5507580989824,
+      574.253026563872
+    ],
+    "human_spot_check": "pending"
   }
 }

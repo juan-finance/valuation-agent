@@ -1,6 +1,6 @@
 # Equinor (EQNR.OL)  bucket F: oil, gas and fuels; reporting currency USD (verified)
 
-Status: stage 3 relative_only run done 2026-11-01 (provisional, QA-C not passed). Stages 1/2/4 skipped by approved deviation.
+Status: stage 3 relative_only run done 2026-11-01; remediated 2026-11-02 under qa_grading_and_remediation -> "provisional - limitations disclosed" (30 PASS / 9 PASS-with-note / 9 N/A). Stages 1/2/4 skipped by approved deviation.
 
 ## Identity and perimeter (stage 3 run facts)
 - ISIN NO0010096985; primary listing Oslo (OSL:EQNR); stockanalysis slug `osl/EQNR`. FY = calendar year. Reports USDm, trades NOK. [source: stockanalysis + Equinor SEC 6-K, 2026-11-01; confidence: high]
@@ -14,7 +14,8 @@ Status: stage 3 relative_only run done 2026-11-01 (provisional, QA-C not passed)
 
 ## Stage 3 results (diagnostic only; QA-C 30 PASS / 9 FAIL / 9 N/A)
 - Peers (all Tier1, 8 Europe): REP SHEL TTE OMV ENI XOM BP AKRBP COP VAR.
-- Primary EV/EBITDA unscaled (rule 118): peer median 7.468x → indicative 976.37 NOK (+118% vs 447.5; qualified, not a conclusion). Regression chosen PBV (pub R² 0.423) → 301.01 NOK (−33%).
+- PRIMARY: after-tax PE — peer median 23.11x → NOK 452.07 mid (+1.0% vs 447.5), IQR 347.55–574.25. EV/EBITDA (peer median 7.468x → NOK 976.37) re-labelled diagnostic: petroleum-tax wedge inside the pre-tax multiple (EQNR/VAR/AKRBP eff 80–97% sit at the three lowest peer multiples). Regression chosen PBV (R² 0.423) → NOK 301.01 (−32.7%).
+- Remediation artifacts: tax_comparability.csv, ev_bridge.csv, peer_qualification.csv; qa_results.md re-graded (history preserved).
 - Outputs: outputs/EQNR.OL_2026-10-30/relative/ ; report relative_report_EQNR.OL.pdf + relative_summary.md.
 
 ## Data quirks and source notes

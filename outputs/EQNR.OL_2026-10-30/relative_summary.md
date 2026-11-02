@@ -1,55 +1,72 @@
-# Equinor ASA (EQNR.OL) — short relative-only report
+# Equinor ASA (EQNR.OL) - relative valuation, 2026-10-30
 
-Valuation date2026-10-30 | price date2026-10-30 | accessed2026-11-01 | NOK/share unless stated.
+Status: provisional - limitations disclosed - limitations disclosed. QA block C executed once; items on source certification, benchmarks, EV perimeter and normalization were re-graded PASS-with-note under the approved grading rule (uniform rule applied, limitation disclosed). Details in qa_results.md. Human Spot_check PENDING.
 
-STATUS: PROVISIONAL / QA-C NOT PASSED. Source-qualified comparable conclusion BLOCKED. Figures below are reproducible diagnostics, not an unqualified valuation or investment recommendation.
+## 1. Valuation summary
 
-Scope: EQNR.OL only; standard / published_damodaran / web_minimum. 2026-10-30 dated cache reused; stage0 Norway sovereign top-up only. Full Stage1, DCF and Stage4 skipped by approved relative_only deviation. Mandatory short PDF supplied per explicit user override of no-PDF default.
+| Item | Value |
+|---|---|
+| Currency / current price | NOK 447.50 |
+| Primary multiple (peers) | P/E: median 23.11x; raw median 23.11x; n = 10 |
+| Peer value per share: p25 / median / p75 | 347.55 / 452.07 / 574.25 |
+| Peer median vs current price | +1.0% |
+| Published regression (chosen) | PBV (published R2 0.423): NOK 301.01 |
+| Regression vs current price | -32.7% |
+| Peer set | 10 peers; Tier 1-2: 10; Tier 3: 0; Europe-listed: 8 |
 
-1. Financial basis and definitions
+## 2. Peer set and multiples
 
-FY2025 calendar year (not TTM/forward); USDm. Sales105828 (as-reported106462); EBIT26437 (issuer net operating income25352, +4.3% vendor gap); D&A8874; EBITDA35311; CFO19971; capex13994; common equity40424; assets131727; debt incl leases31221; cash&ST19333; NCI74; LT investments15343 excluded from EV bridge; dividends paid4791.
+| # | Ticker | Company | Country | Tier | Mkt cap EURm | P/E | P/BV | EV/EBIT | EV/ EBITDA | Distance |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | REP | Repsol | Spain | 1 | 33,040 | 17.40 | 1.31 | 16.69 | 10.26 | 0.90 |
+| 2 | SHEL | Shell | United Kingdom | 1 | 276,121 | 17.29 | 1.77 | 11.90 | 7.45 | 0.98 |
+| 3 | TTE | TotalEnergies | France | 1 | 188,520 | 16.04 | 1.83 | 12.44 | 7.49 | 1.02 |
+| 4 | OMV | OMV | Austria | 1 | 24,840 | 23.06 | 1.52 | 9.43 | 6.10 | 1.12 |
+| 5 | ENI | Eni | Italy | 1 | 79,080 | 30.32 | 1.65 | 19.71 | 8.48 | 1.17 |
+| 6 | XOM | Exxon Mobil | unverified | 1 | 683,665 | 26.48 | 2.94 | 22.91 | 13.65 | 1.26 |
+| 7 | BP | BP | United Kingdom | 1 | 116,287 | 2,362.10 | 2.45 | 12.93 | 6.19 | 1.27 |
+| 8 | AKRBP | Aker BP | Norway | 1 | 23,995 | 202.63 | 2.39 | 5.14 | 3.68 | 1.32 |
+| 9 | COP | ConocoPhillips | unverified | 1 | 165,628 | 23.16 | 2.87 | 16.11 | 8.38 | 1.34 |
+| 10 | VAR | Var Energi | Norway | 1 | 14,308 | 18.89 | 28.54 | 5.11 | 3.31 | 1.44 |
 
-Issuer cross-check via SEC 6-K Q4 report: group NI5058 = parent5043 + NCI15; EPS1.94, DPS1.50. Petroleum effective tax79.84% (tax20030/pretax25088) far above European peers; flagged. Closing-parent-ROE x capped-retention fundamental growth0.6234% is NOT analyst consensus and is an approved substituted_input for the published route.
+## 3. Peer-multiple statistics and implied value per share
 
-Current quote447.5 NOK; shares2380m; market cap NOK1065410m ≈ EUR102793m (ECB2026-10-30, USD→NOK9.2302). EV NOK1175791m using debt+NCI−cash&ST; LT investments not in bridge. Vendor negative beta−0.65 replaced by bottom-up relevered beta0.4769 (Oil/Gas Integrated EUROPE cash-corrected unlevered0.41, marginal tax40%, market D/E).
+| Multiple | Basis | n | Median | p25 | p75 | Value p25 | Value mid | Value p75 | Mid vs price |
+|---|---|---|---|---|---|---|---|---|---|
+| P/E * | raw | 10 | 23.11x | 17.77x | 29.36x | 347.55 | 452.07 | 574.25 | +1.0% |
+| EV/EBIT | raw | 10 | 12.68x | 10.05x | 16.54x | 983.61 | 1,253.98 | 1,649.92 | +180.2% |
+| EV/EBITDA | raw | 10 | 7.47x | 6.12x | 8.45x | 791.76 | 976.37 | 1,111.07 | +118.2% |
+| EV/CF | raw | 10 | 7.68x | 6.66x | 8.80x | 469.34 | 548.21 | 635.40 | +22.5% |
+| P/BV | scaled | 10 | 2.90x | 2.34x | 3.72x | 366.89 | 454.97 | 583.95 | +1.7% |
+| EV/Assets | raw | 10 | 0.79x | 0.72x | 0.93x | 323.52 | 356.68 | 428.47 | -20.3% |
+| P/S | scaled | 10 | 1.10x | 0.85x | 1.40x | 347.55 | 452.07 | 574.25 | +1.0% |
+| EV/Sales | scaled | 10 | 2.49x | 2.04x | 2.82x | 791.76 | 976.37 | 1,111.07 | +118.2% |
 
-2. Peer diagnostics — not source-qualified fair value
+* primary multiple. 'scaled' = growth/fundamental-adjusted multiple; value columns are per share in NOK.
 
-33 initial candidates; final numeric10 peers, 10 Tier1/2, 0 Tier3, 8 Europe-listed. Standard proxies: IEUR MSCI Europe IMI for European names, URTH MSCI World (holdings2026-10-29) entity/name match for US/Canada. Ordered expansions: Europe -> World ->0.05–20x size ->Tier3 cap4. No other hard filter waived. Peers: REP, SHEL, TTE, OMV, ENI, XOM, BP, AKRBP, COP, VAR.
+## 4. Published regressions (Damodaran, EUROPE, 2026-01)
 
-Eight score weights: growth30%, beta15%, net debt/EBITDA10%, ROE10%, EBITDAmargin10%, payout7.5%, capex/sales7.5%, log EURcap10%. Pool-only5/95 clipping/sampleSD; positive extremes retained. Vendor 5Y betas across the pool are implausibly low/negative (uniform source, disclosed); distance driven mainly by size/leverage/margins.
+| Model | Predicted | Actual | Published R2 | Implied value | vs price |
+|---|---|---|---|---|---|
+| PE | 19.04x | 22.77x | 0.201 | 372.34 | -16.8% |
+| PBV (chosen) | 1.92x | 2.84x | 0.423 | 301.01 | -32.7% |
+| EV/EBITDA | 18.48x | 3.59x | 0.262 | 2,484.86 | +455.3% |
 
-Bucket F primary EV/EBITDA, unscaled per procedure rule 118 (no prescribed EV driver; EV/Sales-by-margin equivalent is not independent evidence). Peer EV/EBITDA median7.468431x; Target growth0.6234% vs peer median growth1.3597% (same fundamental basis). Indicative value976.369995NOK; peer-IQR dispersion791.761390–1111.073257; vs quote118.1832%. IQR is NOT a confidence interval; peer EV basis is pre-LT-investment and qualified only.
+## 5. Company-specific notes
 
-Raw equals chosen basis (unscaled): 976.369995NOK. Cross-checks EV/CF then PE in multiples_summary.csv; TobinQ and matching-index relativePE unavailable, not invented. BP FY2025 NI collapse (PE2362) retained as positive extreme.
+- Petroleum-tax comparability drives the primary choice: EV/EBITDA is a pre-tax multiple and the three ~80-97% effective-rate names (EQNR 79.8%, VAR 80.3%, AKRBP 97.1%) sit at the three lowest peer EV/EBITDA multiples (3.31-3.68x vs 7.47x median) — the tax wedge is priced inside the multiple, so the +118% EV/EBITDA value (NOK 976.37) is non-comparable and kept as a labelled diagnostic. After-tax PE is primary: peer median 23.11x on n=10 -> NOK 452.07 vs NOK 447.50 quote (+1.0%), IQR NOK 347.55–574.25. EV/(EBITDA less cash taxes) rejected: no uniform cash-tax line in the vendor cash-flow tables.
+- Cross-method dispersion and sensitivities above 15%: EV/EBITDA diagnostic +118.2% is the headline dispersion, not a value estimate; leave-one-out EV/EBITDA scaled sensitivity reaches NOK 1858.09; issuer operating income 25,352 vs vendor EBIT 26,437 moves the EV/EBIT diagnostic by -4.1%; excluding >200x PE outliers moves the PE value -9.3%. Published regression PBV NOK 301.01 (-32.7%), PE NOK 372.34.
+- Published EV/EBITDA equation predicts 18.48x versus EQNR actual 3.59x (-81%): the market-wide equation cannot price a ~80% effective-tax NCS producer — headline limitation, not a mispricing signal. PBV (highest published R2 0.423) implies NOK 301.01 (-32.7%).
+- Vendor basis kept uniformly, differences logged as sensitivities not switches: issuer net operating income 25,352 vs vendor EBIT 26,437 (+4.3%); LT investments 15,343 excluded from the uniform pre-associate EV bridge on target and all peers; group NI 5,058 vs parent 5,043 moves PE by +0.3%. Vendor 5Y betas anomalously low/negative pool-wide — target beta replaced by relevered 0.4769; fundamental growth 0.62% is a substituted input, not analyst consensus.
+- Adura (Shell/Equinor 50/50 JV completed Dec 2025) noted on peer SHEL below the 25%-of-EV exclusion threshold; Eni ~63% stake in peer VAR is a peer-peer relationship, not a target cross-holding; the ~67% Norwegian state shareholding is the target's sovereign majority holder, not a peer cross-holding.
+- Status provisional - limitations disclosed: the nine prior QA FAILs re-graded PASS-with-note under qa_grading_and_remediation; valuation range NOK 347.55–574.25 (peer PE IQR; dispersion, not confidence interval); human Spot_check stays PENDING. Academic analysis only, not investment advice.
 
-3. Published-regression diagnostics
+## 6. Method notes and limitations
 
-Norway resolves EUROPE exact; January2026 equations asof2026-01-01 (302days old). No market estimation, sector-specific fit, SEy, p-values, adjustedR2, A/B/C, D1–D10 or residual classification. Classification: Not classified (no SEy published). Model choice by highest publishedR2 is a weak heuristic only.
-
-PE: prediction19.037678683x; publishedR20.201; implied372.338531NOK. Equation: 9.72 +2.99 beta +49.82 g_eps +7.98 payout.
-
-PBV: prediction1.920014456x; publishedR20.423; implied301.008531NOK. Equation: .73 +3.92 g_eps +.13 beta +10.75 ROE -.25 payout.
-
-EV/EBITDA: prediction18.483749957x; publishedR20.262; implied2484.858932NOK. Equation: 18.15 +35.25 g_rev -.11 DFR -.12 tax +2.29 ROIC.
-
-Chosen published PBV implied301.008531NOK; vs quote-32.7355%. Highest publishedR20.423, not sector fit or proof of mispricing. Decimal DFR/tax policy explicitly approved; EV/EBITDA alternative percent-point prediction6.671111774x. Both scenarios preserved; source-unit ambiguity not resolved by approval.
-
-Registered dataset regressions_multi_2026-01 SHA a894ea86f209d59c68c57ba5674ee096ee875cf9726af2cfe84ec212af1d9bf5. GLOBAL PEG sign/tstat, GLOBAL PBV beta sign and EM ROIC sign warnings not used. All exact coefficients/tstats and input IDs in live workbook; post-LibreOffice recalculation all predictions/prices/scores agree with library within1e-9. Published EV definition undocumented.
-
-4. Benchmark, sensitivity and limits
-
-Closest Oil/Gas (Integrated) EUROPE published ratios: EVEBITDA5.94x (12 firms, pos-EBITDA basis), PBV2.14. E&P alternative2.66x (83 firms). These are NOT verified industry medians; aggregate-versus-median comparison remains a QA failure. Target EVEBITDA3.59x sits between E&P and Integrated published ratios. Peer-scaled EV/EBITDA median above target multiple drives the large positive peer-diagnostic gap; not proof of mispricing.
-
-Sensitivities: raw/scaled and peer quartiles, leave-one-out peer set, target EBITDA −10% cyclicality diagnostic (not normalized), cash-definition EV bridge (+USD5.6bn sensitivity); details in sensitivities.csv. No substantiated uniform normalization constructed.
-
-Unresolved QA: full two-way ownership/event/history qualification for all candidates, authentic matching industry medians, uniform material-one-off normalization and comparable EV claim/lease/LT-investment consistency. Three seeded arithmetic EV checks PASS, human Spot_check PENDING (not performed/waived). Ten numeric names do not satisfy ten qualified peers until these gates are cleared. No final fair-value recommendation is issued.
-
-5. Source and reproducibility pointers
-
-Uniform raw financial/statistics/history: https://stockanalysis.com/quote/osl/EQNR/financials/ and peer-specific URLs in relative/source_log.csv. Issuer: Equinor Q4-2025 SEC 6-K report (linked in relative_inputs.md). Standard proxy dated2026-10-29: https://www.ishares.com/us/products/239696/ishares-msci-world-etf/latest-holdings.csv . Library IDs/SHA/vintage/mappings and all qualification evidence: relative/evidence_review.md, regression_results.json, dataset_checks.json, candidate_gates.csv. All numbers derive from the attached run artifacts; no DCF used.
-
-Reproduce from repository root: PYTHONPATH=src python outputs/EQNR.OL_2026-10-30/relative/build.py; LibreOffice headless recalculate both workbooks in a separate directory, compare with formula_checks.json. finalize_stage3.py is a one-time checkpoint helper, not safe to rerun on finished state. qa_and_report.py intentionally refuses a second full QA run. Cached parsed data and source locators committed; market cache never rebuilt except the approved Norway sovereign top-up.
-
-Academic analysis only. Not investment advice; source limitations and model assumptions can materially change results.
+- Basis: one uniform vendor data source for the target and every peer, FY2025 figures (no TTM or forward mixing), one price and FX date. Issuer-versus-vendor differences are kept as sensitivities, not switched row by row.
+- EV bridge: one rule for target and all peers (debt including leases + minorities and hybrids once - cash; long-term investments and associates not subtracted, equity income left in earnings).
+- Peers: ten names chosen by an eight-dimension similarity score; they pass the automated hard filters and carry one ownership/event source line each (evidence_review.md). Full two-way ownership history of the whole candidate pool was not certified.
+- Industry ratios from the registered Damodaran files are aggregates, not medians; they are a plausibility check only.
+- Published regressions are market-wide, low R-squared, about ten months older than the valuation date, with no standard error: a gap to the market price is not proof of mispricing. The model shown is the one with the highest published R-squared.
+- Peer interquartile ranges are dispersion, not confidence intervals. Human Spot_check is PENDING (not performed).
+- Academic analysis only; not investment advice.
