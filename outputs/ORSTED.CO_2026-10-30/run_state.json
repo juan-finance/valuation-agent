@@ -1,0 +1,41 @@
+{
+  "company": "\u00d8rsted A/S",
+  "ticker": "ORSTED.CO",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-11-02T09:30:00+00:00",
+  "stages": {
+    "stage1_data": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation (standing_approvals.md): no data_pack/anomaly report",
+        "Reduced input step done: price/shares/EV bridge/FY2025 fundamentals collected into relative_inputs.md; cross-checked vs \u00d8rsted FY2025 annual report (revenue, shares, NCI, tax exact; EBITDA/EBIT definition gaps and hybrid DKK 20,955m documented; issuer common equity 119,718). No stage-0 top-up needed: Denmark/DKK/EUROPE equations already cached via NKT.CO top-up."
+      ],
+      "outputs": [
+        "relative_inputs.md",
+        "source_log.csv"
+      ],
+      "next_step": ""
+    },
+    "stage2_dcf": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation"
+      ]
+    },
+    "stage3_relative": {
+      "status": "pending",
+      "notes": [],
+      "outputs": []
+    },
+    "stage4_recommendation": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "relative_only approved deviation; short PDF report to be written instead"
+      ]
+    }
+  },
+  "final_status": "in_progress",
+  "human_review": "pending",
+  "_t0": 1793611628.1348178
+}
