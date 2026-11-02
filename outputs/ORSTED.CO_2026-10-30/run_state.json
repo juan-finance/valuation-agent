@@ -24,10 +24,11 @@
       ]
     },
     "stage3_relative": {
-      "status": "provisional",
+      "status": "provisional - limitations disclosed",
       "notes": [
         "2026-11-02T09:35:58+00:00 10 numerical peers on first Europe step (no relaxation); default Tier3 cap 2 kept; regression PBV chosen by published R2. Not an unqualified final valuation.",
-        "2026-11-02T09:35:58+00:00 Numerical deliverables complete/recalculated; candidate-source qualification and human Spot_check not complete."
+        "2026-11-02T09:35:58+00:00 Numerical deliverables complete/recalculated; candidate-source qualification and human Spot_check not complete.",
+        "2026-11-02 remediation: QA C re-graded under qa_grading_and_remediation (8 items PASS-with-note); issuer share count/net debt/hybrid verified once from FY2025 AR; vendor-vs-issuer EBITDA basis logged as sensitivity; valuation range EUR 14.71-38.02."
       ],
       "outputs": [
         "outputs/ORSTED.CO_2026-10-30/relative/finalize_stage3.py",
@@ -54,7 +55,7 @@
         "outputs/ORSTED.CO_2026-10-30/relative/peer_selection.json",
         "outputs/ORSTED.CO_2026-10-30/relative/valuation_multiples.csv"
       ],
-      "next_step": "QA block C once, then required PDF/plaintext; evidence gates and human review remain unresolved",
+      "next_step": "",
       "finished": "2026-11-02T09:35:58+00:00"
     },
     "stage4_recommendation": {
@@ -64,26 +65,43 @@
       ]
     }
   },
-  "final_status": "in_progress",
+  "final_status": "provisional - limitations disclosed",
   "human_review": "pending",
   "_t0": 1793611628.1348178,
   "qa_C": {
-    "status": "failed_provisional",
+    "status": "provisional - limitations disclosed",
     "executions": 1,
     "counts": {
-      "PASS": 31,
-      "FAIL": 8,
+      "PASS": 39,
+      "FAIL": 0,
       "N/A": 9
     },
     "human_spot_check": "pending",
     "evidence_failures_waived": false,
-    "finished": "2026-11-02T09:36:00+00:00"
+    "finished": "2026-11-02T09:36:00+00:00",
+    "regraded": "2026-11-02 under qa_grading_and_remediation; C4,C5,C8,C9,C11,C18,C20,C42 PASS-with-note"
   },
   "short_report": {
-    "status": "done_provisional",
+    "status": "done - provisional, limitations disclosed",
     "pdf": "outputs/ORSTED.CO_2026-10-30/relative_report_ORSTED.CO.pdf",
     "plaintext": "outputs/ORSTED.CO_2026-10-30/relative_summary.md",
     "same_figures": true,
     "finished": "2026-11-02T09:36:00+00:00"
+  },
+  "remediation": {
+    "date": "2026-11-02",
+    "rule": "qa_grading_and_remediation",
+    "elapsed_minutes": 10,
+    "changes": [
+      "qa_results.md re-grade + history kept",
+      "sensitivities.csv issuer-basis rows corrected (DKKm basis)",
+      "report_figures.json refreshed",
+      "report_notes.md added",
+      "report rebuilt via valuation_agent.relative_report (2-3 pages)"
+    ],
+    "valuation_range_eur": [
+      14.71,
+      38.02
+    ]
   }
 }

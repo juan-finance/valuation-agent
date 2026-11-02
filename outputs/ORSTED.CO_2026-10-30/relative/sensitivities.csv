@@ -1,5 +1,4 @@
-scenario,EBITDA_eurm,peer_median_ev_ebitda,EUR_per_share,note
-vendor FY2025 EBITDA,21583.0,13.011383039271486,165.26339404287614,mechanical median-held-fixed sensitivity; EBITDA definitions differ (vendor excludes equity-method income; issuer includes it)
-"issuer reported EBITDA 1,947",1947.0,13.011383039271486,,mechanical median-held-fixed sensitivity; EBITDA definitions differ (vendor excludes equity-method income; issuer includes it)
-"issuer recurring EBITDA 1,974",1974.0,13.011383039271486,,mechanical median-held-fixed sensitivity; EBITDA definitions differ (vendor excludes equity-method income; issuer includes it)
-"issuer recurring ex-AR 1,855",1855.0,13.011383039271486,,mechanical median-held-fixed sensitivity; EBITDA definitions differ (vendor excludes equity-method income; issuer includes it)
+scenario,EBITDA_dkkm,peer_median_ev_ebitda,DKK_per_share,EUR_per_share,note
+vendor FY2025 EBITDA,21583.0,13.011383039271486,149.27,19.97,"mechanical median-held-fixed sensitivity; vendor vs issuer EBITDA basis (definitions/perimeter differ), no per-row source switching"
+issuer reported EBITDA,22448.0,13.011383039271486,157.79,21.11,"mechanical median-held-fixed sensitivity; vendor vs issuer EBITDA basis (definitions/perimeter differ), no per-row source switching"
+issuer EBITDA excl. new partnerships and cancellation fees,25065.0,13.011383039271486,183.56,24.56,"mechanical median-held-fixed sensitivity; vendor vs issuer EBITDA basis (definitions/perimeter differ), no per-row source switching"

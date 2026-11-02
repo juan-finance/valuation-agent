@@ -1,0 +1,8 @@
+# ORSTED.CO remediation notes - 2026-11-02
+
+- **Primary kept:** EV/EBITDA on the uniform pre-associate bridge (debt incl. leases + NCI - cash; LT investments/associates not subtracted): peer median 13.01x on n=9 -> EUR 19.99 mid vs EUR 17.65 quote (+13.3%), IQR EUR 14.71-32.22.
+- **Cross-method dispersion above 15%:** the published PBV regression implies EUR 35.99 (+80% vs the primary mid) and the EV/EBITDA regression EUR 38.02 (+90%); the PE regression implies EUR 6.47 (-68%), a lower outlier on depressed post-impairment FY2025 net income (DKK 1,727m, 47% impairment-driven tax rate). Diagnostic range used: EUR 14.71-38.02 (primary IQR low to regression high); the PE value is not a bound.
+- **Capital structure in transition:** October 2025 rights issue took shares to 1,321.062m and cut issuer interest-bearing net debt to DKK 18,978m; the DKK 20,955m hybrid is removed from common equity once (parent equity 119,718) and once in the EV->equity bridge.
+- **Vendor-vs-issuer basis (sensitivity, not switched):** vendor EBITDA DKK 21,583m vs issuer 22,448m (25,065m excl. new partnerships and cancellation fees) moves the EV/EBITDA mid from EUR 19.97 to EUR 21.11-24.56 (+6%/+23%); issuer EBIT 8,620m vs vendor 12,495m widens the same gap on EV/EBIT.
+- **Peer caveat:** EDP and EDPR sit in the selected set; EDPR is itself a batch target under the same deviation. Membership evidence is the dated Europe holdings proxy; no peer-level issuer re-verification beyond the one ownership/event source line each.
+- **Status:** provisional - limitations disclosed; the eight prior QA FAILs re-graded PASS-with-note under qa_grading_and_remediation; human Spot_check stays PENDING.

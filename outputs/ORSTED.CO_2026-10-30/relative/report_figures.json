@@ -18,8 +18,24 @@
   "regression_pe": 6.466324803193506,
   "regression_ev_ebitda": 38.023250671296694,
   "qa": {
-    "PASS": 31,
-    "FAIL": 8,
-    "N/A": 9
-  }
+    "PASS": 39,
+    "FAIL": 0,
+    "N/A": 9,
+    "PASS_with_note": [
+      "C4",
+      "C5",
+      "C8",
+      "C9",
+      "C11",
+      "C18",
+      "C20",
+      "C42"
+    ]
+  },
+  "status": "provisional - limitations disclosed",
+  "valuation_range_eur": [
+    14.71,
+    38.02
+  ],
+  "valuation_range_note": "primary EV/EBITDA p25 to highest published regression (EV/EBITDA); PE regression EUR 6.47 is a lower outlier on depressed post-impairment net income"
 }

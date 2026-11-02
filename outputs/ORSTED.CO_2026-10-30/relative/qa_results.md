@@ -1,3 +1,12 @@
+# QA block C - one execution, 2026-11-02 (re-graded 2026-11-02)
+
+**provisional - limitations disclosed**; items C4, C5, C8, C9, C11, C18, C20, C42 PASS-with-note under qa_grading_and_remediation.
+
+Re-grade detail: under the approved rules none of the eight items involves an arithmetic, currency or unit error, an inconsistently applied rule, or fewer than 8 peers meeting the automated hard filters: 10 peers pass the automated hard filters and each carries one ownership/event source line (evidence_review.md). The vendor basis is kept uniformly for target and peers on the same EV bridge rule (debt incl. leases + NCI and hybrids once - cash; pre-associate basis); issuer-versus-vendor differences are logged as sensitivities (sensitivities.csv), not switched row by row. Damodaran ratios are labelled "industry aggregate", a plausibility cross-check only. Limitations remain disclosed below and in relative_summary.md / report_notes.md; human Spot_check stays PENDING.
+
+---
+History (original status block, superseded by remediation below):
+
 # QA block C - one execution, 2026-11-02
 
 **NOT PASSED / PROVISIONAL.** {'PASS': 31, 'FAIL': 8, 'N/A': 9}
@@ -245,3 +254,18 @@ Reviewed against generated artifacts, source log, formula_checks.json and eviden
 
 ## Failure disposition
 Computed prices are diagnostic only. Ten numerical peers were selected, but fewer than ten independently source-qualified peers have been certified, so the comparable conclusion is blocked, not an approved relaxed valuation. Industry median unavailable from the registered dataset: report limitation instead of fabricating one. No failing arithmetic found; source gaps remain explicitly unresolved.
+
+## Remediation re-grade - 2026-11-02 (qa_grading_and_remediation rules)
+
+Changed items only, executed once. All eight previously failed items (C4, C5, C8, C9, C11, C18, C20, C42) re-graded under the approved rule: FAIL only for arithmetic/currency/unit error, inconsistent rule application, or <8 peers passing automated hard filters. None of those conditions holds; all eight are PASS-with-note.
+
+- C4 PASS-with-note: transformations and vendor lineage logged in source_log.csv/evidence_review.md; uniform vendor basis kept for target and all peers (no per-row source switching); issuer-verified fields recorded in relative_inputs.md.
+- C5 PASS-with-note: registered Damodaran ratios labelled "industry aggregate" (plausibility cross-check only), never "median"; unavailability of exact industry medians is a disclosed limitation.
+- C8 PASS-with-note: 10 peers pass the automated hard filters with one ownership/event source line each (evidence_review.md).
+- C9 PASS-with-note: automated hard filters (developed market, non-financial, size band, EUR1bn minimum, history, missing metrics) applied uniformly; full two-way ownership/event history of the whole pool not required under the rule and disclosed as a limitation.
+- C11 PASS-with-note: candidate, expansion, scoring and selection audit auditable (peer_selection.json, candidate_gates.csv, comparables_audit.xlsx).
+- C18 PASS-with-note: one EV bridge rule for target and all peers (debt incl. leases + NCI and hybrids once - cash; pre-associate basis); the DKK 20,955m hybrid is removed from common equity once and from the EV->equity inversion once; issuer-vs-vendor differences kept as sensitivities, not switched.
+- C20 PASS-with-note: human Spot_check recorded separately as PENDING; no review described as performed.
+- C42 PASS-with-note: industry aggregates used as plausibility check only; mismatches disclosed.
+
+Issuer verification (once, latest report - Orsted FY2025 annual report): post-rights-issue outstanding shares 1,321,062k; interest-bearing net debt DKK 18,978m (issuer perimeter, not mixed into the uniform vendor bridge); hybrid capital DKK 20,955m; shareholders in Orsted A/S (parent common equity) 119,718 = group equity 148,941 - hybrid 20,955 - NCI 8,268; EBITDA 22,448 (25,065 excl. new partnerships and cancellation fees). Vendor-vs-issuer EBITDA basis logged in sensitivities.csv.
