@@ -5,19 +5,32 @@
   "quote_currency": "EUR",
   "shares_m": 768.28,
   "peer_count": 10,
-  "tier12": 8,
-  "tier3": 2,
+  "tier12": 10,
+  "tier3": 0,
   "europe": 8,
-  "raw_evebitda_median": 8.388417618412308,
+  "raw_evebitda_median": 7.983370895761727,
   "scaled_evebitda_median": NaN,
-  "peer_indicative": 7.305385280230431,
-  "peer_iqr_low": 4.564674461033476,
-  "peer_iqr_high": 9.56306561331822,
-  "peer_upside": -0.7422235257505141,
+  "peer_indicative": 6.712799208609082,
+  "peer_iqr_low": 4.469577050485805,
+  "peer_iqr_high": 16.31047737812121,
+  "peer_upside": -0.7631334083059604,
   "regression_pbv": 7.277527984588953,
   "qa": {
     "PASS": 30,
     "FAIL": 9,
     "N/A": 9
-  }
+  },
+  "sensitivity_avg_ebitda_3y": 9.265577132851856,
+  "ev_sales_raw_crosscheck": 22.815329625880278,
+  "remediated_peers": {
+    "removed": {
+      "SPM": "oilfield engineering services",
+      "SUBC": "offshore energy services"
+    },
+    "added": {
+      "MPC": "refining and marketing",
+      "GALP": "integrated energy with refining and biofuels"
+    }
+  },
+  "status": "provisional - limitations disclosed"
 }

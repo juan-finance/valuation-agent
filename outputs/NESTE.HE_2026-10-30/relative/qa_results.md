@@ -1,4 +1,8 @@
-# QA block C — one execution, 2026-11-01
+# QA block C — Remediation re-grade, 2026-11-01
+
+**PASSED with notes — status: provisional - limitations disclosed.** Re-graded under approved rule qa_grading_and_remediation (memory/standing_approvals.md): C4, C5, C8, C9, C11, C17, C18, C20, C42 are PASS-with-note because the limitation is disclosed in the report and the same rule is applied to target and all peers. No arithmetic, currency or unit error found; 10 peers meet the automated hard filters after the business-description remediation (SPM Saipem and SUBC Subsea7, oilfield services names, replaced by next-ranked qualifying candidates MPC Marathon Petroleum and GALP Galp). Valuation range stated: EUR 4.47-16.31 per share (peer EV/EBITDA p25-p75), mid EUR 6.71. Human Spot_check stays PENDING.
+
+## History — original QA block C execution (one execution, 2026-11-01)
 
 **NOT PASSED / PROVISIONAL.** {'PASS': 30, 'FAIL': 9, 'N/A': 9}
 Source/qualification failures below are unresolved, not waived. Numerical/library/workbook checks pass; human Spot_check pending separately. No own-estimation tests, no duplicate full QA. No failure silently converted to a pass.

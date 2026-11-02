@@ -56,3 +56,8 @@ Numeric screens and proxy membership only; no official-source certification comp
 | pbv        |       2.40752 |             2.14 | 0.125009 |
 
 Seeded EV checks: BP, OMV, REP (seed 20261030). Arithmetic checks pass; no human/source approval claimed.
+
+
+## Remediation 2026-11-01 — peer business review
+- Removed SPM (Saipem, engineering/drilling services) and SUBC (Subsea7, offshore services): not refiner/renewable/downstream.
+- Added MPC (Marathon Petroleum, US refiner; investor page https://www.marathonpetroleum.com/Investors/) and GALP (Galp Energia, integrated with refining and biofuels; https://www.galp.com/corp/en/investors): next-ranked qualifying candidates by distance. Ownership: no cross-holding >20% with Neste in either direction. Events: no completed acquisition/disposal/demerger in FY2025 making earnings non-comparable (perimeter change <25% of EV) for MPC or GALP.

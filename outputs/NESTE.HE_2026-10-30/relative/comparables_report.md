@@ -44,3 +44,7 @@ Oil/Gas EUROPE published ratios in industry_benchmarks.json are NOT verified med
 
 ## Sources and audit
 Candidate field-level sources in source_log.csv, official identity links in comparables.csv, selection logs and live scores in comparables_audit.xlsx. Three seeded EV arithmetic rows in Peer_Spot_check; human review explicitly pending.
+
+
+## Remediation 2026-11-01
+Business-description review: SPM and SUBC (oilfield services) replaced by MPC and GALP (next-ranked qualifying refiner/downstream candidates). Peer table, multiples_summary.csv and sensitivities.csv recomputed on the remediated set; FY2023-25 average-EBITDA and EV/Sales cross-check added.

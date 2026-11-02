@@ -159,5 +159,31 @@
         }
       }
     }
+  },
+  {
+    "step": "remediation_business_review",
+    "date": "2026-11-01",
+    "removed": {
+      "SPM": "Saipem - oil & gas engineering and drilling services, not a refiner/renewable-fuels/downstream peer",
+      "SUBC": "Subsea7 - offshore energy services, not a refiner/renewable-fuels/downstream peer"
+    },
+    "added": {
+      "MPC": "next-ranked qualifying candidate (distance 1.7098); refiner/integrated-downstream",
+      "GALP": "next-ranked qualifying candidate (distance 1.8244); refiner/integrated-downstream"
+    },
+    "rule": "qa_grading_and_remediation: peer must be refiner, renewable-fuels or downstream; services/E&P replaced by next-ranked qualifying pool candidate; World expansion already approved",
+    "events_notes": "CVX completed Hess acquisition 2025-07 (~$53bn EV <25% of CVX EV, noted not excluded); XOM no >25%-EV perimeter event in FY2025 (Pioneer closed FY2024, noted); no cross-holding >20% with target in either direction for CVX/XOM",
+    "final_peers": [
+      "ENI",
+      "PSX",
+      "VLO",
+      "REP",
+      "OMV",
+      "TTE",
+      "BP",
+      "EQNR",
+      "MPC",
+      "GALP"
+    ]
   }
 ]
