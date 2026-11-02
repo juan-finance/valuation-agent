@@ -30,7 +30,9 @@
         "2026-11-01T17:29:39+00:00 10 numerical peers on first Europe step (no relaxation used); default Tier3 cap 2 kept; regression PBV chosen by published R2. Not an unqualified final valuation.",
         "2026-11-01T17:29:39+00:00 Numerical deliverables complete/recalculated; candidate-source qualification and human Spot_check not complete.",
         "2026-11-01T17:30:16+00:00 10 numerical peers on first Europe step (no relaxation used); default Tier3 cap 2 kept; regression PBV chosen by published R2. Not an unqualified final valuation.",
-        "2026-11-01T17:30:16+00:00 Numerical deliverables complete/recalculated; candidate-source qualification and human Spot_check not complete."
+        "2026-11-01T17:30:16+00:00 Numerical deliverables complete/recalculated; candidate-source qualification and human Spot_check not complete.",
+        "2026-11-02T10:59:03+00:00 10 numerical peers on first Europe step (no relaxation used); default Tier3 cap 2 kept; regression PBV chosen by published R2. Not an unqualified final valuation.",
+        "2026-11-02T10:59:03+00:00 Numerical deliverables complete/recalculated; candidate-source qualification and human Spot_check not complete."
       ],
       "outputs": [
         "outputs/NKT.CO_2026-10-30/relative/finalize_stage3.py",
@@ -56,10 +58,14 @@
         "outputs/NKT.CO_2026-10-30/relative/regression_valuation.xlsx",
         "outputs/NKT.CO_2026-10-30/relative/comparables.csv",
         "outputs/NKT.CO_2026-10-30/relative/peer_selection.json",
-        "outputs/NKT.CO_2026-10-30/relative/valuation_multiples.csv"
+        "outputs/NKT.CO_2026-10-30/relative/valuation_multiples.csv",
+        "outputs/NKT.CO_2026-10-30/relative/report_figures.json",
+        "outputs/NKT.CO_2026-10-30/relative/dataset_checks.json",
+        "outputs/NKT.CO_2026-10-30/relative/qa_and_report.py",
+        "outputs/NKT.CO_2026-10-30/relative/qa_results.md"
       ],
-      "next_step": "Do not issue qualified comparable conclusion until QA source failures are resolved; human Spot_check pending.",
-      "finished": "2026-11-01T17:30:16+00:00"
+      "next_step": "QA block C once, then required PDF/plaintext; evidence gates and human review remain unresolved",
+      "finished": "2026-11-02T10:59:03+00:00"
     },
     "stage4_recommendation": {
       "status": "skipped_by_deviation",
@@ -71,7 +77,7 @@
   "final_status": "in_progress",
   "human_review": "pending",
   "qa_C": {
-    "status": "failed_provisional",
+    "status": "pass_with_notes_remediated",
     "executions": 1,
     "counts": {
       "PASS": 31,
@@ -80,7 +86,17 @@
     },
     "human_spot_check": "pending",
     "evidence_failures_waived": false,
-    "finished": "2026-11-01T17:30:45+00:00"
+    "finished": "2026-11-02T10:59:42+00:00",
+    "regraded": {
+      "C4": "PASS-WITH-NOTE",
+      "C5": "PASS-WITH-NOTE",
+      "C8": "PASS-WITH-NOTE",
+      "C9": "PASS-WITH-NOTE",
+      "C11": "PASS-WITH-NOTE",
+      "C18": "PASS-WITH-NOTE",
+      "C20": "PASS-WITH-NOTE",
+      "C42": "PASS-WITH-NOTE"
+    }
   },
   "short_report": {
     "status": "done_provisional",
@@ -88,6 +104,17 @@
     "plaintext": "outputs/NKT.CO_2026-10-30/relative_summary.md",
     "same_figures": true,
     "elapsed_min": 0.48,
-    "finished": "2026-11-01T17:30:45+00:00"
+    "finished": "2026-11-02T10:59:42+00:00"
+  },
+  "remediation": {
+    "status": "provisional - limitations disclosed",
+    "valuation_range_eur": [
+      89.72,
+      137.91
+    ],
+    "tier3_review": "G1A kept; TKA replaced by ALFA",
+    "peer_primary_eur": 137.91,
+    "regression_pbv_eur": 102.39,
+    "finished": "2026-11-02T10:59:42+00:00"
   }
 }

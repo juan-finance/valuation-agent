@@ -22,52 +22,52 @@
   },
   {
     "check": "score G1A",
-    "delta": 3.552713678800501e-15,
+    "delta": 8.881784197001252e-16,
     "status": "PASS"
   },
   {
     "check": "score NEX",
-    "delta": 0.0,
-    "status": "PASS"
-  },
-  {
-    "check": "score VWS",
-    "delta": 1.7763568394002505e-15,
-    "status": "PASS"
-  },
-  {
-    "check": "score TKA",
-    "delta": 3.552713678800501e-15,
-    "status": "PASS"
-  },
-  {
-    "check": "score PRY",
-    "delta": 8.881784197001252e-16,
-    "status": "PASS"
-  },
-  {
-    "check": "score SKF.B",
-    "delta": 8.881784197001252e-16,
-    "status": "PASS"
-  },
-  {
-    "check": "score IMI",
-    "delta": 2.6645352591003757e-15,
-    "status": "PASS"
-  },
-  {
-    "check": "score SPX",
-    "delta": 1.7763568394002505e-15,
-    "status": "PASS"
-  },
-  {
-    "check": "score ANDR",
     "delta": 4.440892098500626e-15,
     "status": "PASS"
   },
   {
-    "check": "score LR",
+    "check": "score VWS",
+    "delta": 3.552713678800501e-15,
+    "status": "PASS"
+  },
+  {
+    "check": "score ALFA",
+    "delta": 2.6645352591003757e-15,
+    "status": "PASS"
+  },
+  {
+    "check": "score PRY",
+    "delta": 3.552713678800501e-15,
+    "status": "PASS"
+  },
+  {
+    "check": "score SKF.B",
+    "delta": 2.6645352591003757e-15,
+    "status": "PASS"
+  },
+  {
+    "check": "score IMI",
+    "delta": 4.440892098500626e-15,
+    "status": "PASS"
+  },
+  {
+    "check": "score SPX",
     "delta": 8.881784197001252e-16,
+    "status": "PASS"
+  },
+  {
+    "check": "score ANDR",
+    "delta": 0.0,
+    "status": "PASS"
+  },
+  {
+    "check": "score LR",
+    "delta": 1.7763568394002505e-15,
     "status": "PASS"
   }
 ]

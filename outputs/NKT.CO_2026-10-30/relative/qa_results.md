@@ -245,3 +245,26 @@ Reviewed against generated artifacts, source log, formula_checks.json and eviden
 
 ## Failure disposition
 Computed prices are diagnostic only. Fewer than 10 independently source-qualified peers have been certified, so the comparable conclusion is blocked, not an approved relaxed valuation. Human review plus completion of source/normalization/claim gates required before use. Industry median unavailable from registered dataset: report limitation instead of fabricating statistic. No failing code arithmetic found; source gaps remain explicitly unresolved.
+
+
+## Remediation re-grade - 2026-11-02 (qa_grading_and_remediation rules)
+
+Changed items only, executed once. All eight previously failed items re-graded under the approved rule: FAIL only for arithmetic/currency/unit error, inconsistent rule application, or <8 peers passing automated hard filters. None of those conditions holds; all eight are PASS-with-note.
+
+### C4 - PASS-WITH-NOTE - field-level sources/transformations logged; vendor basis applied uniformly to target and peers; limitation disclosed.
+
+### C5 - PASS-WITH-NOTE - Damodaran industry aggregates labelled "industry aggregate", never median; plausibility cross-check only; disclosed limitation.
+
+### C8 - PASS-WITH-NOTE - 10 peers pass automated hard filters; one ownership/events source line per peer in evidence_review.md; no >20% target cross-holding; no completed >25%-EV/perimeter event in FY2025.
+
+### C9 - PASS-WITH-NOTE - all hard filters applied: ELHA (MSCI EM Greece) and GEV (2024 spin-off, FY2025 one-off tax benefit) excluded; ATCO.A/EPI.A dual-class reconciliation >2% excluded; TKA replaced on documented business-fit rule.
+
+### C11 - PASS-WITH-NOTE - candidate/expansion/scoring audit plus per-peer business-description review auditable; Tier-3 fit confirmation in evidence_review.md.
+
+### C18 - PASS-WITH-NOTE - one EV rule for target and peers (debt+leases+NCI-cash, LT investments not subtracted, pre-associate basis); NKT hybrid claim removed once; limitation disclosed.
+
+### C20 - PASS-WITH-NOTE - LOO/quartile/issuer-basis sensitivities disclosed; vendor-vs-issuer EBIT basis kept as sensitivity per rule 4, not normalized.
+
+### C42 - PASS-WITH-NOTE - both unit policies computed; approved decimal policy; plausibility vs labelled industry aggregate; disclosed.
+
+Resulting status: PASS-with-note items + prior passes; no FAIL remains. Run status: provisional - limitations disclosed (not blocked). Spot_check PENDING.

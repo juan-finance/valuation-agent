@@ -1,14 +1,14 @@
 sensitivity,removed,value_per_share,n_valid
 leave-one-out selected peer,G1A,124.87392686949696,9.0
-leave-one-out selected peer,NEX,177.2683333173534,9.0
-leave-one-out selected peer,VWS,177.2683333173534,9.0
-leave-one-out selected peer,TKA,124.87392686949696,9.0
-leave-one-out selected peer,PRY,177.2683333173534,9.0
+leave-one-out selected peer,NEX,150.9546068515313,9.0
+leave-one-out selected peer,VWS,150.9546068515313,9.0
+leave-one-out selected peer,ALFA,124.87392686949696,9.0
+leave-one-out selected peer,PRY,150.9546068515313,9.0
 leave-one-out selected peer,SKF.B,124.87392686949696,9.0
-leave-one-out selected peer,IMI,177.2683333173534,9.0
+leave-one-out selected peer,IMI,150.9546068515313,9.0
 leave-one-out selected peer,SPX,124.87392686949696,9.0
-leave-one-out selected peer,ANDR,177.2683333173534,9.0
+leave-one-out selected peer,ANDR,150.9546068515313,9.0
 leave-one-out selected peer,LR,124.87392686949696,9.0
-target group NI 275 (vs parent-common 264; hybrid not stripped),,135.7491593641439,
-target EBITDA issuer operational 390 (vs vendor 680 uniform basis),,114.0786049253656,
-target EBIT issuer 257 (vs vendor 578 uniform basis),,109.11821078554533,
+target group NI 275 (vs parent-common 264; hybrid not stripped),,138.79145495148595,
+target EBITDA issuer operational 390 (vs vendor 680 uniform basis),,114.6162593902571,
+target EBIT issuer 257 (vs vendor 578 uniform basis),,108.83796131345889,

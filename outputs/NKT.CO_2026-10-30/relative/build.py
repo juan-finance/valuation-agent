@@ -53,6 +53,7 @@ identity={
 # Event/ownership screens fixed before valuation; unknown evidence is never relabelled.
 excluded={'ELHA':'emerging-market classification (Greece, MSCI EM) and non-IEUR/World membership unverified',
  'GEV':'GE spin-off Apr 2024 inside FY2024-25 comparison period; FY2025 NI includes one-off tax benefit (noncomparable)',
+ 'TKA':'remediation business-fit review: steel/materials conglomerate, clearly not cable/electrical-equipment-type; replaced by next-ranked ALFA',
  'IMO':'n/a'}
 del excluded['IMO']
 for t,r in D.iterrows():
