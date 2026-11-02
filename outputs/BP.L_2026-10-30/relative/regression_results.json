@@ -85,7 +85,8 @@
           "code": "no_residual_se",
           "message": "the file publishes coefficients, t-stats and R2 only: no n, SEy or p-values, so residual-band classification and D1-D10 diagnostics are not available"
         }
-      ]
+      ],
+      "value_per_share": 1.9796708748476366
     },
     {
       "model": "PBV",
@@ -162,15 +163,16 @@
           "code": "no_residual_se",
           "message": "the file publishes coefficients, t-stats and R2 only: no n, SEy or p-values, so residual-band classification and D1-D10 diagnostics are not available"
         }
-      ]
+      ],
+      "value_per_share": null
     },
     {
-      "model": "EV/EBITDA",
+      "model": "EV/EBITDA (diagnostic only)",
       "predicted": 18.07278499767111,
       "published_r2": 0.262,
-      "actual": 6.192718329127893,
-      "deviation": -0.6573456537038482,
-      "value_per_share_gbp": 23.586822531233473,
+      "actual": 6.192022227298139,
+      "deviation": -0.6573841702816664,
+      "value_per_share_gbp": 23.587836960510554,
       "unit_policies": {
         "as_published_note": 18.07278499767111,
         "dfr_tax_percent_points": 4.27671633435448,
@@ -178,7 +180,7 @@
         "max_relative_difference": 0.7633615220395981,
         "uses_dfr_or_tax": true
       },
-      "status": "NOT USABLE: failed economic plausibility; arithmetic only, not price target",
+      "status": "diagnostic only; market-wide sector plausibility limitation; not a headline or target",
       "equation": "$\\text{EV/EBITDA} = \\underset{(28.40)}{18.15} + \\underset{(13.96)}{35.25} \\, g - \\underset{(10.65)}{0.11} \\, \\text{DFR} - \\underset{(5.19)}{0.12} \\, \\text{Tax Rate} + \\underset{(5.06)}{2.29} \\, \\text{ROIC}$",
       "dataset": "regressions_multi_2026-01",
       "as_of": "2026-01-01",
@@ -239,11 +241,13 @@
           "code": "no_residual_se",
           "message": "the file publishes coefficients, t-stats and R2 only: no n, SEy or p-values, so residual-band classification and D1-D10 diagnostics are not available"
         }
-      ]
+      ],
+      "value_per_share": 23.587836960510554,
+      "historical_value_with_preference_proxy": 23.586822531233473
     }
   ],
   "chosen": null,
-  "status": "not_usable",
+  "status": "diagnostic only",
   "substituted_input": "approved fundamental closing-common ROE x capped retention g_eps=0; g_rev=g_eps fallback; 3Y analyst fields retained separately, NOT passed as 5Y",
   "remediation": {
     "status": "NOT USABLE",
@@ -293,5 +297,6 @@
     "prediction_vs_industry_positive_EBITDA_ratio": 2.0425563969143283,
     "alternative_unit_policy": 4.27671633435448,
     "conclusion": "Large unexplained level and material unit ambiguity; no currency/per-share error found. No evidence supports changing approved decimal policy to force agreement. Withdraw regression point estimate rather than headline it."
-  }
+  },
+  "decision_use_status": "Peer EV/EBITDA headline; regression diagnostic, not averaged"
 }

@@ -1,27 +1,22 @@
 {
-  "status": "PASS artifact integrity; analytical QA remains non-passing",
-  "PDF_exists": true,
+  "status": "PASS",
+  "scope": "Artifact checks only; no repeat of block C or unchanged passing items",
   "pages": 2,
-  "narrative_identical_ignoring_whitespace_and_footer": true,
-  "visual_review": "Both final pages rendered and inspected; section4 begins page2; no clipping",
-  "pdf_sha256": "97b86b9b48a5eaa6b54abb198a47aa8ed2aa7307a52bd08efd43b571032cb177",
-  "summary_sha256": "a76b29a1a7acce6cd42e396ed827421d04eabde23ae617633f6009172a71c1f7",
-  "workbook_status": "NOT USABLE; unchanged historical formulas; cached values restored by LibreOffice after status edit",
-  "lint": "ruff E9,F63,F7,F82,F401 passed",
-  "typecheck": "mypy follow-imports=skip ignore-missing-imports passed",
-  "compileall": "passed",
-  "whitespace_check": "Changed analysis text/code passed with CSV CRLF permitted; binary PDF and byte-exact registered source Markdown (intentional hard breaks, SHA256 preserved) excluded.",
-  "source_log_preexisting_locator_findings": [
-    "line 2: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)",
-    "line 3: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)",
-    "line 4: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)",
-    "line 5: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)",
-    "line 6: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)",
-    "line 7: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)",
-    "line 8: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)",
-    "line 9: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)",
-    "line 10: sourced input needs url_or_local_file AND page_note_sheet_cell (exact locator)"
+  "report_generator": "valuation_agent.relative_report",
+  "warning_lines": 0,
+  "notes_count": 6,
+  "headline": "peer EV/EBITDA",
+  "regression": "labelled diagnostic only",
+  "workbook_diagnostic_cached_value": 23.5878369605106,
+  "pdf_sha256": "fc53bf85a6943b28333cccdfa790d0f2aa347445a8d7460a6fd0fbeb905af0ae",
+  "summary_sha256": "65c25335668bad0a276482a0979526c44280596f86d2bf231eb36a93557bdb81",
+  "checks": [
+    "all three requested ranges match rounded CSV figures in both outputs",
+    "six notes and large sensitivities present",
+    "correct peer tier/country metadata",
+    "regression uniform bridge cached value matches library to1e-9"
   ],
-  "source_log_new_rows": "all13new issuer rows have exact page locators",
-  "QA_execution_policy": "full block originally once; only eleven prior non-passing items reassessed; original passing items not rerun"
+  "renderer_status_alias": "provisional passed to module which appends limitations disclosed; persisted status restored in finally",
+  "visual_review": "Both final PDF pages inspected; readable, no clipping",
+  "code_checks": "ruff focused fatal/unused imports, mypy and compileall passed; no src changes"
 }

@@ -18,13 +18,14 @@
       "next_step": ""
     },
     "stage3_relative": {
-      "status": "blocked",
+      "status": "provisional - limitations disclosed",
       "notes": [
         "2026-11-01T14:58:44+00:00 QA C executed once, provisional with open failures. Conditional published EV/EBITDA result is not a verified fair-value conclusion.",
         "2026-11-01T14:58:44+00:00 Published workbook actually recalculated; matching PDF/plain text complete. Qualified comparable method remains blocked, not certified complete.",
         "2026-11-01T15:28:33+00:00 User-requested peer qualification, uniform EV bridge and regression plausibility remediation. Prior stage outputs retained.",
         "2026-11-01T15:36:50+00:00 Failed-only repair: reviewed10original prospects plus4substitutes;4rejected,10held,0uniform-certified. Fifteen bridge attempts logged. GBP versus GBp and current ordinary-share conversion verified. Regression NOT USABLE; matching two-page PDF/text replaced. QA C03,C04 provisional; C05,C42 fail-open; C08,C09,C10,C17,C18,C19,C20 blocked.",
-        "2026-11-01T15:36:50+00:00 Repair checkpoint delivered, not a completed qualified valuation. Eleven prior non-passing QA items reassessed; original full block C count remains1 and passing items not rerun. Published regression withdrawn; no price target. Report lint/type/compile, workbook cache restoration, PDF visual/text identity passed; legacy C04 locator limitations disclosed."
+        "2026-11-01T15:36:50+00:00 Repair checkpoint delivered, not a completed qualified valuation. Eleven prior non-passing QA items reassessed; original full block C count remains1 and passing items not rerun. Published regression withdrawn; no price target. Report lint/type/compile, workbook cache restoration, PDF visual/text identity passed; legacy C04 locator limitations disclosed.",
+        "Approved remediation: replaces stricter certification holds with source-line rule2; vendor pre-associate bridge uniform; peer ranges restored; regression diagnostic only; changed-item QA once."
       ],
       "outputs": [
         "outputs/BP.L_2026-10-30/relative/multiples_summary.csv",
@@ -60,10 +61,10 @@
         "outputs/BP.L_2026-10-30/relative/issuer_evidence_repair.json",
         "outputs/BP.L_2026-10-30/relative/report_validation.json"
       ],
-      "next_step": "Resolve held-peer ownership/identity/history and issuer pro-forma operating/associate/hybrid/lease bridges; genuine matching industry median still unverified. Do not rerun original passing QA or resurrect withdrawn regression.",
+      "next_step": "Human Spot_check pending; no recommendation under relative_only",
       "started": "2026-11-01T15:28:33+00:00",
-      "finished": "2026-11-01T15:36:50+00:00",
-      "elapsed_min": 8.3
+      "finished": "2026-11-02T13:02:38+00:00",
+      "elapsed_min": 8.4
     },
     "stage4_recommendation": {
       "status": "skipped_by_deviation",
@@ -89,14 +90,56 @@
   "deviation": "relative_only; session-authorized UK/GBP-only topup and short PDF/plaintext report; no DCF or recommendation",
   "qa_block_C": {
     "executions": 1,
-    "status": "provisional_not_all_pass",
-    "record": "outputs/BP.L_2026-10-30/relative/qa_results.md"
+    "status": "provisional - limitations disclosed",
+    "record": "outputs/BP.L_2026-10-30/relative/qa_results.md",
+    "current_grades": {
+      "C03": "PASS-with-note",
+      "C04": "PASS-with-note",
+      "C05": "PASS-with-note",
+      "C08": "PASS-with-note",
+      "C09": "PASS-with-note",
+      "C17": "PASS-with-note",
+      "C18": "PASS-with-note",
+      "C20": "PASS-with-note",
+      "C42": "PASS-with-note",
+      "C10": "PASS",
+      "C19": "PASS-with-note"
+    },
+    "current_failures": []
   },
   "report": {
-    "status": "done",
+    "status": "provisional - limitations disclosed",
     "pdf": "outputs/BP.L_2026-10-30/relative_report_BP.L.pdf",
     "plaintext": "outputs/BP.L_2026-10-30/relative_summary.md",
     "pages": 2,
-    "scope": "conditional regression and blocked comparable method; no stage4 recommendation"
-  }
+    "scope": "peer EV/EBITDA primary; PE and PBV ranges; published regression diagnostic only; no DCF or recommendation",
+    "generator": "valuation_agent.relative_report"
+  },
+  "approved_remediation": {
+    "started": "2026-11-02T12:54:13+00:00",
+    "status": "provisional - limitations disclosed",
+    "rules": [
+      "qa_grading_and_remediation",
+      "relative_only"
+    ],
+    "changed_items": [
+      "C03",
+      "C04",
+      "C05",
+      "C08",
+      "C09",
+      "C17",
+      "C18",
+      "C20",
+      "C42",
+      "C10",
+      "C19"
+    ],
+    "report_generator": "valuation_agent.relative_report",
+    "historical_timing_preserved": true,
+    "finished": "2026-11-02T13:02:38+00:00",
+    "elapsed_min": 8.4,
+    "report_warning_lines": 0
+  },
+  "final_status": "provisional - limitations disclosed"
 }

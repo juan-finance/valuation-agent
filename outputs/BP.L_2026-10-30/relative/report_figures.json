@@ -1,0 +1,154 @@
+{
+  "ticker": "BP.L",
+  "valuation_date": "2026-10-30",
+  "status": "provisional - limitations disclosed",
+  "current_price": 6.274,
+  "currency": "GBP",
+  "shares_m": 15450.0,
+  "peer_count": 10,
+  "europe": 6,
+  "tier12": 10,
+  "qualified_peers": [
+    "ENI",
+    "NESTE",
+    "EQNR",
+    "REP",
+    "TTE",
+    "VLO",
+    "XOM",
+    "COP",
+    "SHEL",
+    "PSX"
+  ],
+  "primary": "peer EV/EBITDA raw",
+  "ranges": {
+    "pe": {
+      "n_valid": 10,
+      "median": 24.09782358671439,
+      "p25": 18.82775457095984,
+      "p75": 29.333713465942882,
+      "value_per_share_low": 0.04911280832156565,
+      "value_per_share_mid": 0.06285995424046321,
+      "value_per_share_high": 0.07651794277341363
+    },
+    "ev_ebitda": {
+      "n_valid": 10,
+      "median": 9.385082559645587,
+      "p25": 7.71771476484171,
+      "p75": 15.391333882510734,
+      "value_per_share_low": 8.497391911567286,
+      "value_per_share_mid": 10.927247191939497,
+      "value_per_share_high": 19.680157939998598
+    },
+    "pbv": {
+      "n_valid": 10,
+      "median": 2.860338877662078,
+      "p25": 1.7848223654873623,
+      "p75": 2.9690109192278373,
+      "value_per_share_low": 4.572221863821416,
+      "value_per_share_mid": 7.327398069002718,
+      "value_per_share_high": 7.605785820098274
+    }
+  },
+  "regression_ev_ebitda": {
+    "multiple": 18.07278499767111,
+    "value_per_share_gbp": 23.587836960510554,
+    "status": "diagnostic only",
+    "gap_to_peer_median": 0.925692702521479,
+    "industry_aggregate": 5.94
+  },
+  "impairment_sensitivity": [
+    {
+      "sensitivity": "vendor EBITDA with impairment (no addback)",
+      "multiple": "ev_ebitda",
+      "value_per_share": 10.927247191939497,
+      "base_value_per_share": 10.927247191939497,
+      "change_fraction": 0.0,
+      "EBITDA": 30168.0
+    },
+    {
+      "sensitivity": "vendor EBITDA without impairment (6037 addback only)",
+      "multiple": "ev_ebitda",
+      "value_per_share": 13.664164986739115,
+      "base_value_per_share": 10.927247191939497,
+      "change_fraction": 0.2504672720150882,
+      "EBITDA": 36205.0
+    }
+  ],
+  "sensitivities_above_15pct": [
+    {
+      "sensitivity": "pbv fundamental-scaled median",
+      "multiple": "pbv",
+      "value_per_share": 0.058847666662360326,
+      "base_value_per_share": 7.327398069002718,
+      "change_fraction": -0.9919688181113968,
+      "EBITDA": null
+    },
+    {
+      "sensitivity": "ps fundamental-scaled median",
+      "multiple": "ps",
+      "value_per_share": 0.06285995424044452,
+      "base_value_per_share": 10.130471225593384,
+      "change_fraction": -0.9937949624612095,
+      "EBITDA": null
+    },
+    {
+      "sensitivity": "ev_sales fundamental-scaled median",
+      "multiple": "ev_sales",
+      "value_per_share": 10.9272471919395,
+      "base_value_per_share": 8.853166950727964,
+      "change_fraction": 0.234275514372966,
+      "EBITDA": null
+    },
+    {
+      "sensitivity": "vendor EBITDA without impairment (6037 addback only)",
+      "multiple": "ev_ebitda",
+      "value_per_share": 13.664164986739115,
+      "base_value_per_share": 10.927247191939497,
+      "change_fraction": 0.2504672720150882,
+      "EBITDA": 36205.0
+    }
+  ],
+  "qa": {
+    "C03": "PASS-with-note",
+    "C04": "PASS-with-note",
+    "C05": "PASS-with-note",
+    "C08": "PASS-with-note",
+    "C09": "PASS-with-note",
+    "C17": "PASS-with-note",
+    "C18": "PASS-with-note",
+    "C20": "PASS-with-note",
+    "C42": "PASS-with-note",
+    "C10": "PASS",
+    "C19": "PASS-with-note"
+  },
+  "human_spot_check": "PENDING",
+  "source": "Existing BP and SHEL/TTE/EQNR cleaned vendor snapshots; no recollection",
+  "tier3": 0,
+  "peer_classification": "Existing BP tiers and countries retained; reused cleaned target tier0 must not propagate to SHEL peer",
+  "issuer_vendor_debt_sensitivities": [
+    {
+      "sensitivity": "SHEL issuer-vendor debt difference only",
+      "multiple": "ev_ebitda",
+      "value_per_share": 10.927247191939495,
+      "base_value_per_share": 10.927247191939497,
+      "change_fraction": -1.1102230246251565e-16,
+      "issuer_minus_vendor_debt": -45
+    },
+    {
+      "sensitivity": "TTE issuer-vendor debt difference only",
+      "multiple": "ev_ebitda",
+      "value_per_share": 10.927247191939495,
+      "base_value_per_share": 10.927247191939497,
+      "change_fraction": -1.1102230246251565e-16,
+      "issuer_minus_vendor_debt": -388
+    }
+  ],
+  "source_files": [
+    "candidate_raw.csv",
+    "remediated_vendor_inputs.csv",
+    "ev_bridge.csv",
+    "peer_qualification.csv"
+  ],
+  "source_period_note": "FY2025; vendor period-end labels incomplete; cached extracts confirm December annual basis; no dates invented"
+}

@@ -25,9 +25,9 @@
     "OMV",
     "CVX"
   ],
-  "qualified_count": 0,
+  "qualified_count": 10,
   "bridge_rows": 15,
-  "regression_status": "not_usable",
+  "regression_status": "diagnostic only",
   "full_QA_executions": 1,
   "failed_items_rechecked": [
     "C03",
@@ -43,16 +43,41 @@
     "C42"
   ],
   "current_statuses": {
-    "C03": "PROVISIONAL",
-    "C04": "PROVISIONAL",
-    "C05": "FAIL_OPEN",
-    "C08": "BLOCKED",
-    "C09": "BLOCKED",
-    "C10": "BLOCKED",
-    "C17": "BLOCKED",
-    "C18": "BLOCKED",
-    "C19": "BLOCKED",
-    "C20": "BLOCKED",
-    "C42": "FAIL_OPEN"
-  }
+    "C03": "PASS-with-note",
+    "C04": "PASS-with-note",
+    "C05": "PASS-with-note",
+    "C08": "PASS-with-note",
+    "C09": "PASS-with-note",
+    "C17": "PASS-with-note",
+    "C18": "PASS-with-note",
+    "C20": "PASS-with-note",
+    "C42": "PASS-with-note",
+    "C10": "PASS",
+    "C19": "PASS-with-note"
+  },
+  "approved_remediation": {
+    "status": "provisional - limitations disclosed",
+    "qualified_count": 10,
+    "current_grades": {
+      "C03": "PASS-with-note",
+      "C04": "PASS-with-note",
+      "C05": "PASS-with-note",
+      "C08": "PASS-with-note",
+      "C09": "PASS-with-note",
+      "C17": "PASS-with-note",
+      "C18": "PASS-with-note",
+      "C20": "PASS-with-note",
+      "C42": "PASS-with-note",
+      "C10": "PASS",
+      "C19": "PASS-with-note"
+    },
+    "regression": "diagnostic only; not headline",
+    "figures": "report_figures.json"
+  },
+  "status": "provisional - limitations disclosed",
+  "historical_stricter_qualified_count": 0,
+  "current_bridge_rows": 11,
+  "current_qualification_file": "peer_qualification.csv",
+  "current_bridge_file": "ev_bridge.csv",
+  "current_figures_file": "report_figures.json"
 }

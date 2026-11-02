@@ -1,3 +1,24 @@
+# QA block C — current BP status
+
+**provisional - limitations disclosed**. No current FAIL items. Human Spot_check PENDING.
+
+## Remediation re-grade
+Approved qa_grading_and_remediation and relative_only replace prior stricter certification standard. Only the eleven changed/non-passing items assessed once; original passing items retained without rerun.
+
+- C03: PASS-with-note. GBP (not GBp), current ordinary shares and exact uniform inverse verified; vendor/issuer differences disclosed.
+- C04: PASS-with-note. One retained ownership/event source line per peer; old detailed-locator omissions disclosed.
+- C05: PASS-with-note. Industry aggregate 5.94x, never a median; cross-check only.
+- C08: PASS-with-note. Ten qualified peers; retained six plus next-ranked XOM,COP,SHEL,PSX replacing four completed-deal exclusions.
+- C09: PASS-with-note. Approved automated/source-line hard filters applied; exhaustive historical certification not required.
+- C17: PASS-with-note. EV/EBITDA primary; PE and PBV cross-checks; all have ten positive observations.
+- C18: PASS-with-note. Identical pre-associate formula and inverse for target and all peers; BP hybrids already inside NCI20948; no extra preference21 claim.
+- C20: PASS-with-note. Impairment addback6037, issuer/vendor, leave-one-out and scaled sensitivities disclosed; no uniform normalization claimed.
+- C42: PASS-with-note. 18.07x equation versus qualified peer median and industry aggregate investigated; decimal policy retained, diagnostic only.
+- C10: PASS. Six Europe peers; ten Tier1/2, zero Tier3.
+- C19: PASS-with-note. Current peer ISINs retained where available; cached listing/identity limitations disclosed; human Spot_check PENDING, not automated away.
+
+## Historical QA — superseded; retained verbatim
+
 # QA block C — BP.L, 2026-10-30
 
 CURRENT STATUS: see qa_failed_item_recheck.md for the eleven failed-only reassessments. Regression is NOT USABLE, comparable valuation BLOCKED. Original full-block evidence below is historical and retained unchanged; no original passing item was rerun.

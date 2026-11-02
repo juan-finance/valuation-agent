@@ -1,0 +1,31 @@
+{
+  "status": "provisional - limitations disclosed",
+  "grades": {
+    "C03": "PASS-with-note",
+    "C04": "PASS-with-note",
+    "C05": "PASS-with-note",
+    "C08": "PASS-with-note",
+    "C09": "PASS-with-note",
+    "C17": "PASS-with-note",
+    "C18": "PASS-with-note",
+    "C20": "PASS-with-note",
+    "C42": "PASS-with-note",
+    "C10": "PASS",
+    "C19": "PASS-with-note"
+  },
+  "evidence": {
+    "C03": "GBP (not GBp), current ordinary shares and exact uniform inverse verified; vendor/issuer differences disclosed.",
+    "C04": "One retained ownership/event source line per peer; old detailed-locator omissions disclosed.",
+    "C05": "Industry aggregate 5.94x, never a median; cross-check only.",
+    "C08": "Ten qualified peers; retained six plus next-ranked XOM,COP,SHEL,PSX replacing four completed-deal exclusions.",
+    "C09": "Approved automated/source-line hard filters applied; exhaustive historical certification not required.",
+    "C10": "Six Europe peers; ten Tier1/2, zero Tier3.",
+    "C17": "EV/EBITDA primary; PE and PBV cross-checks; all have ten positive observations.",
+    "C18": "Identical pre-associate formula and inverse for target and all peers; BP hybrids already inside NCI20948; no extra preference21 claim.",
+    "C19": "Current peer ISINs retained where available; cached listing/identity limitations disclosed; human Spot_check PENDING, not automated away.",
+    "C20": "Impairment addback6037, issuer/vendor, leave-one-out and scaled sensitivities disclosed; no uniform normalization claimed.",
+    "C42": "18.07x equation versus qualified peer median and industry aggregate investigated; decimal policy retained, diagnostic only."
+  },
+  "full_block_executions": 1,
+  "changed_item_executions": 1
+}

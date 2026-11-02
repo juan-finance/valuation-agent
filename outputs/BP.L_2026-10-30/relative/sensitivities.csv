@@ -1,8 +1,19 @@
-scenario,EBITDA_usdm,multiple_held_fixed,GBP_per_share,note,decision_use_status
-EBITDA -20% mechanical stress,24134.4,18.07278499767111,18.31932819741276,"mechanical conditional sensitivity, not commodity forecast or peer dispersion",NOT USABLE: withdrawn regression valuation; historical arithmetic only
-base vendor EBITDA,30168.0,18.07278499767111,23.586822531233476,"mechanical conditional sensitivity, not commodity forecast or peer dispersion",NOT USABLE: withdrawn regression valuation; historical arithmetic only
-EBITDA +20% mechanical stress,36201.6,18.07278499767111,28.854316865054194,"mechanical conditional sensitivity, not commodity forecast or peer dispersion",NOT USABLE: withdrawn regression valuation; historical arithmetic only
-issuer PBIT + DDA parallel,30464.0,18.07278499767111,23.8452384558574,"mechanical conditional sensitivity, not commodity forecast or peer dispersion",NOT USABLE: withdrawn regression valuation; historical arithmetic only
-issuer impairment-addback parallel,36501.0,18.07278499767111,29.11570108070421,"mechanical conditional sensitivity, not commodity forecast or peer dispersion",NOT USABLE: withdrawn regression valuation; historical arithmetic only
-full FY decommissioning provision as incremental debt-like claim,30168.0,18.07278499767111,22.994927201137543,"conservative stress only; may double-count operating provision economics, not base",NOT USABLE: withdrawn regression valuation; historical arithmetic only
-percentage-point DFR/tax unit alternative,30168.0,4.27671633435448,3.481810071231778,not user-approved base; illustrative unit risk,NOT USABLE: withdrawn regression valuation; historical arithmetic only
+sensitivity,multiple,value_per_share,base_value_per_share,change_fraction,EBITDA,issuer_minus_vendor_debt
+pbv fundamental-scaled median,pbv,0.0588476666623603,7.327398069002718,-0.9919688181113968,,
+ps fundamental-scaled median,ps,0.0628599542404445,10.130471225593384,-0.9937949624612096,,
+ev_sales fundamental-scaled median,ev_sales,10.9272471919395,8.853166950727964,0.234275514372966,,
+vendor EBITDA with impairment (no addback),ev_ebitda,10.927247191939497,10.927247191939497,0.0,30168.0,
+vendor EBITDA without impairment (6037 addback only),ev_ebitda,13.664164986739117,10.927247191939497,0.2504672720150882,36205.0,
+issuer reported EBIT plus DDA,ev_ebitda,11.0614409416928,10.927247191939497,0.0122806547153333,30464.0,
+leave-one-out ENI,ev_ebitda,12.26390448444421,10.927247191939497,0.122323332585603,,
+leave-one-out NESTE,ev_ebitda,9.59058989943479,10.927247191939497,-0.1223233325856025,,
+leave-one-out EQNR,ev_ebitda,12.26390448444421,10.927247191939497,0.122323332585603,,
+leave-one-out REP,ev_ebitda,9.59058989943479,10.927247191939497,-0.1223233325856025,,
+leave-one-out TTE,ev_ebitda,12.26390448444421,10.927247191939497,0.122323332585603,,
+leave-one-out VLO,ev_ebitda,9.59058989943479,10.927247191939497,-0.1223233325856025,,
+leave-one-out XOM,ev_ebitda,9.59058989943479,10.927247191939497,-0.1223233325856025,,
+leave-one-out COP,ev_ebitda,12.26390448444421,10.927247191939497,0.122323332585603,,
+leave-one-out SHEL,ev_ebitda,12.26390448444421,10.927247191939497,0.122323332585603,,
+leave-one-out PSX,ev_ebitda,9.59058989943479,10.927247191939497,-0.1223233325856025,,
+SHEL issuer-vendor debt difference only,ev_ebitda,10.927247191939495,10.927247191939497,-1.1102230246251565e-16,,-45.0
+TTE issuer-vendor debt difference only,ev_ebitda,10.927247191939495,10.927247191939497,-1.1102230246251565e-16,,-388.0

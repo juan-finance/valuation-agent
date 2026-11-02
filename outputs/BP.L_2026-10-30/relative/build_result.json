@@ -1,48 +1,10 @@
 {
-  "qualified_peers": 0,
+  "qualified_peers": 10,
   "regression": {
-    "company": "BP p.l.c.",
-    "ticker": "BP.L",
-    "isin": "GB0007980591",
-    "gics_sector": "Energy (cached proxy; bucket F is not GICS)",
-    "primary_regression": "published_damodaran_EUROPE_2026-01",
-    "chosen_model": null,
-    "predicted_primary": null,
-    "actual_multiple": 6.192718329127893,
-    "deviation": -0.6573456537038482,
-    "published_r2": 0.262,
-    "implied_value_per_share": null,
-    "currency": "GBP",
-    "current_price": 6.274,
-    "upside": null,
-    "classification": "Not classified (no SEy published)",
-    "units_policy": "as_published_note (user-approved decimal)",
-    "units_unverified": "economic unit plausibility unresolved despite approved decimal convention",
-    "equation_dataset_id": "regressions_multi_2026-01",
-    "substituted_input": "g_eps=0 fundamental closing-common ROE x capped retention; g_rev=g_eps fallback; 3Y consensus not passed as 5Y",
-    "second_model": "PE",
-    "second_predicted": 758.9213208673718,
-    "second_status": "not selected: near-zero reported NI and extreme payout",
-    "third_model": "PBV",
-    "third_predicted": -22.60001063617623,
-    "third_status": "not valued: negative prediction",
-    "damodaran_global": "not used until verified: global PBV sign anomaly; no averaging regions",
-    "damodaran_western_europe_uk": 18.07278499767111,
-    "status": "NOT USABLE",
-    "rationale": "Withdrawn: unresolved unit/sector plausibility and uniform peer bridge. See regression_plausibility_repair.json; history below is arithmetic only.",
-    "source_urls": "https://stockanalysis.com/quote/lon/BP/financials/income-statement/ | https://stockanalysis.com/quote/lon/BP/financials/balance-sheet/ | https://stockanalysis.com/quote/lon/BP/financials/cash-flow-statement/ | https://stockanalysis.com/quote/lon/BP/statistics/ | https://stockanalysis.com/quote/lon/BP/history/",
-    "typicality_result": "n/a_published_route",
-    "failed_test": "n/a_published_route",
-    "adj_r2": "n/a_published_route",
-    "predicted_A": "n/a_published_route",
-    "predicted_B": "n/a_published_route",
-    "predicted_C": "n/a_published_route",
-    "residual": "n/a_published_route",
-    "std_residual": "n/a_published_route",
-    "sector_dummy_coef": "n/a_published_route",
-    "SEy": "n/a_published_route",
-    "p_values": "n/a_published_route",
-    "D1_D10": "n/a_published_route"
+    "status": "diagnostic only",
+    "predicted_multiple": 18.07278499767111,
+    "value_per_share_gbp": 23.587836960510554,
+    "headline": false
   },
   "sensitivity": [
     {
@@ -140,5 +102,55 @@
     "D1_D10": "n/a_published_route"
   },
   "repair_result": "repair_result.json",
-  "remaining_QA": "qa_failed_item_recheck.md"
+  "remaining_QA": [],
+  "approved_remediation": {
+    "status": "provisional - limitations disclosed",
+    "qualified_count": 10,
+    "current_grades": {
+      "C03": "PASS-with-note",
+      "C04": "PASS-with-note",
+      "C05": "PASS-with-note",
+      "C08": "PASS-with-note",
+      "C09": "PASS-with-note",
+      "C17": "PASS-with-note",
+      "C18": "PASS-with-note",
+      "C20": "PASS-with-note",
+      "C42": "PASS-with-note",
+      "C10": "PASS",
+      "C19": "PASS-with-note"
+    },
+    "regression": "diagnostic only; not headline",
+    "figures": "report_figures.json"
+  },
+  "status": "provisional - limitations disclosed",
+  "historical_stricter_remaining_QA": "qa_failed_item_recheck.md",
+  "primary_peer_ranges": {
+    "pe": {
+      "n_valid": 10,
+      "median": 24.09782358671439,
+      "p25": 18.82775457095984,
+      "p75": 29.333713465942882,
+      "value_per_share_low": 0.04911280832156565,
+      "value_per_share_mid": 0.06285995424046321,
+      "value_per_share_high": 0.07651794277341363
+    },
+    "ev_ebitda": {
+      "n_valid": 10,
+      "median": 9.385082559645587,
+      "p25": 7.71771476484171,
+      "p75": 15.391333882510734,
+      "value_per_share_low": 8.497391911567286,
+      "value_per_share_mid": 10.927247191939497,
+      "value_per_share_high": 19.680157939998598
+    },
+    "pbv": {
+      "n_valid": 10,
+      "median": 2.860338877662078,
+      "p25": 1.7848223654873623,
+      "p75": 2.9690109192278373,
+      "value_per_share_low": 4.572221863821416,
+      "value_per_share_mid": 7.327398069002718,
+      "value_per_share_high": 7.605785820098274
+    }
+  }
 }

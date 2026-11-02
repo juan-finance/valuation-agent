@@ -1,5 +1,5 @@
 {
-  "status": "NOT USABLE",
+  "status": "provisional - limitations disclosed",
   "qualified_peer_median": null,
   "reason": "No certified uniform peer panel; a numeric-prospect median cannot be promoted to a peer median.",
   "original_numeric_prospect_diagnostic": {
@@ -45,5 +45,24 @@
   "benchmark_statistic": "Industry multiple; median NOT established by supplied file",
   "prediction_vs_industry_positive_EBITDA_ratio": 2.0425563969143283,
   "alternative_unit_policy": 4.27671633435448,
-  "conclusion": "Large unexplained level and material unit ambiguity; no currency/per-share error found. No evidence supports changing approved decimal policy to force agreement. Withdraw regression point estimate rather than headline it."
+  "conclusion": "Large unexplained level and material unit ambiguity; no currency/per-share error found. No evidence supports changing approved decimal policy to force agreement. Withdraw regression point estimate rather than headline it.",
+  "approved_remediation": {
+    "status": "provisional - limitations disclosed",
+    "qualified_count": 10,
+    "current_grades": {
+      "C03": "PASS-with-note",
+      "C04": "PASS-with-note",
+      "C05": "PASS-with-note",
+      "C08": "PASS-with-note",
+      "C09": "PASS-with-note",
+      "C17": "PASS-with-note",
+      "C18": "PASS-with-note",
+      "C20": "PASS-with-note",
+      "C42": "PASS-with-note",
+      "C10": "PASS",
+      "C19": "PASS-with-note"
+    },
+    "regression": "diagnostic only; not headline",
+    "figures": "report_figures.json"
+  }
 }
