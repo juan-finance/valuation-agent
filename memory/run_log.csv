@@ -43,3 +43,4 @@ PRY.MI_2026-10-30,Prysmian,standard,reduced_input+stage3+qaC+report,done_provisi
 SSE.L_2026-10-30,SSE plc,standard,reduced_input+stage3+qaC+report,done_provisional,10,2026-11-02T09:52:59+00:00
 SU.PA_2026-10-30,Schneider Electric SE,standard,reduced_input+stage3+qaC+report,done_provisional,8,2026-11-02T10:00:00+00:00
 TTE.PA_2026-10-30,TotalEnergies SE,standard,stage3_relative,provisional,1.8,2026-11-02T10:10:21+00:00
+TTE.PA_2026-10-30,TotalEnergies SE,standard,qa_C_short_report,done_provisional,0.13,2026-11-02T10:10:29+00:00

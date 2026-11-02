@@ -1,0 +1,23 @@
+{
+  "ticker": "TTE.PA",
+  "valuation_date": "2026-10-30",
+  "current_price": 85.43,
+  "quote_currency": "EUR",
+  "shares_m": 2210,
+  "peer_count": 10,
+  "tier12": 10,
+  "tier3": 0,
+  "europe": 5,
+  "raw_evebitda_median": 8.427819160891442,
+  "scaled_evebitda_median": null,
+  "peer_indicative": 97.74461764560584,
+  "peer_iqr_low": 86.20976342453373,
+  "peer_iqr_high": 153.70980160003657,
+  "peer_upside": 0.1441486321620722,
+  "regression_pbv": 91.36529194222734,
+  "qa": {
+    "PASS": 30,
+    "FAIL": 9,
+    "N/A": 9
+  }
+}
