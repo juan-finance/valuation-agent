@@ -1,0 +1,78 @@
+[
+  {
+    "family": "evebitda_industry",
+    "industry": "Utility (General)",
+    "values": {
+      "Industry Name": "Utility (General)",
+      "Number of firms": 18.0,
+      "EV/EBITDAR&D (Pos. EBITDA)": 7.5,
+      "EV/EBITDA (Pos. EBITDA)": 7.58,
+      "EV/EBIT (Pos. EBITDA)": 11.06,
+      "EV/EBIT (1-t) (Pos. EBITDA)": 15.72,
+      "EV/EBITDAR&D (All firms)": 8.13,
+      "EV/EBITDA (All firms)": 8.21,
+      "EV/EBIT (All firms)": 11.06,
+      "EV/EBIT (1-t) (All firms)": 15.73,
+      "is_aggregate": false
+    },
+    "dataset": "evebitda_industry_europe_2026-01",
+    "sha256": "73d9607d318faba49b8571c13d4fd836176c658fc305be7644dfb8cf2c416972",
+    "as_of": "2026-01-05",
+    "identity": "published industry ratio; NOT verified median"
+  },
+  {
+    "family": "evebitda_industry",
+    "industry": "Utility (Water)",
+    "values": {
+      "Industry Name": "Utility (Water)",
+      "Number of firms": 12.0,
+      "EV/EBITDAR&D (Pos. EBITDA)": 14.51,
+      "EV/EBITDA (Pos. EBITDA)": 14.66,
+      "EV/EBIT (Pos. EBITDA)": 23.49,
+      "EV/EBIT (1-t) (Pos. EBITDA)": 30.66,
+      "EV/EBITDAR&D (All firms)": 18.12,
+      "EV/EBITDA (All firms)": 18.35,
+      "EV/EBIT (All firms)": 23.51,
+      "EV/EBIT (1-t) (All firms)": 30.68,
+      "is_aggregate": false
+    },
+    "dataset": "evebitda_industry_europe_2026-01",
+    "sha256": "73d9607d318faba49b8571c13d4fd836176c658fc305be7644dfb8cf2c416972",
+    "as_of": "2026-01-05",
+    "identity": "published industry ratio; NOT verified median"
+  },
+  {
+    "family": "pbv_industry",
+    "industry": "Utility (General)",
+    "values": {
+      "Industry Name": "Utility (General)",
+      "Number of firms": 18.0,
+      "PBV": 1.51,
+      "ROE": 0.12300000000000001,
+      "EV/ Invested Capital": 1.49,
+      "ROIC": 0.12539999999999998,
+      "is_aggregate": false
+    },
+    "dataset": "pbv_industry_europe_2026-01",
+    "sha256": "567ce2faa9d0beaa86e68fdfb06af6262764985bc38f688c659291c9eb6b0f12",
+    "as_of": "2026-01-05",
+    "identity": "published industry ratio; NOT verified median"
+  },
+  {
+    "family": "pbv_industry",
+    "industry": "Utility (Water)",
+    "values": {
+      "Industry Name": "Utility (Water)",
+      "Number of firms": 12.0,
+      "PBV": 3.22,
+      "ROE": 0.1306,
+      "EV/ Invested Capital": 1.48,
+      "ROIC": 0.0565,
+      "is_aggregate": false
+    },
+    "dataset": "pbv_industry_europe_2026-01",
+    "sha256": "567ce2faa9d0beaa86e68fdfb06af6262764985bc38f688c659291c9eb6b0f12",
+    "as_of": "2026-01-05",
+    "identity": "published industry ratio; NOT verified median"
+  }
+]

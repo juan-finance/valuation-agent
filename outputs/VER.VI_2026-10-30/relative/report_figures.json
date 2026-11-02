@@ -1,0 +1,25 @@
+{
+  "ticker": "VER.VI",
+  "valuation_date": "2026-10-30",
+  "price_eur": 69.5,
+  "shares_m": 347.42,
+  "peer_count": 10,
+  "tier12": 10,
+  "tier3": 0,
+  "europe": 10,
+  "peer_ev_ebitda_low": 54.42176249771404,
+  "peer_ev_ebitda_mid": 77.90986243984813,
+  "peer_ev_ebitda_high": 102.17387443833252,
+  "peer_upside": 0.12100521496184347,
+  "peer_pbv_mid": 77.01696055459014,
+  "peer_ev_ebit_mid": 104.35393823808568,
+  "peer_ev_cf_mid": 70.66397155294409,
+  "regression_pbv": 59.612098822046065,
+  "regression_pe": 49.767614430650234,
+  "regression_ev_ebitda": 131.52147953314505,
+  "qa": {
+    "PASS": 31,
+    "FAIL": 8,
+    "N/A": 9
+  }
+}
