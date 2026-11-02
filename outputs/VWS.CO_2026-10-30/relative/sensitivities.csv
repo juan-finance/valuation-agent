@@ -1,0 +1,16 @@
+sensitivity,margin,n_valid,multiple_median,value_per_share,qualified,removed
+common EBIT margin all observations,0.04,8.0,57.459526006294055,338.1018882256479,"pre-associate EV sensitivity, not primary",
+common EBIT margin all observations,0.06,8.0,38.306350670862706,338.1018882256479,"pre-associate EV sensitivity, not primary",
+common EBIT margin all observations,0.08,8.0,28.729763003147028,338.1018882256479,"pre-associate EV sensitivity, not primary",
+common EBIT margin all observations,0.1,8.0,22.98381040251762,338.1018882256479,"pre-associate EV sensitivity, not primary",
+leave-one-out selected peer,,9.0,,276.51904434128943,,NDX1
+leave-one-out selected peer,,9.0,,276.51904434128943,,WRT1V
+leave-one-out selected peer,,9.0,,276.51904434128943,,IMI
+leave-one-out selected peer,,9.0,,228.7443864171615,,G1A
+leave-one-out selected peer,,9.0,,228.7443864171615,,ALFA
+leave-one-out selected peer,,9.0,,228.7443864171615,,ENR
+leave-one-out selected peer,,9.0,,276.51904434128943,,NKT
+leave-one-out selected peer,,9.0,,276.51904434128943,,ANDR
+leave-one-out selected peer,,9.0,,228.7443864171615,,LR
+leave-one-out selected peer,,9.0,,228.7443864171615,,ROR
+target-only issuer reported EBIT1015 (after special items -52); NOT harmonized,,,,154.62967004018932,,

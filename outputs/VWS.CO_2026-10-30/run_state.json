@@ -1,0 +1,66 @@
+{
+  "company": "Vestas Wind Systems A/S",
+  "ticker": "VWS.CO",
+  "valuation_date": "2026-10-30",
+  "mode": "standard",
+  "created": "2026-11-02T10:30:02+00:00",
+  "stages": {
+    "stage1_data": {
+      "status": "skipped_by_deviation",
+      "notes": [
+        "Reduced input step completed: outputs/VWS.CO_2026-10-30/relative_inputs.md"
+      ],
+      "outputs": [
+        "outputs/VWS.CO_2026-10-30/relative_inputs.md"
+      ],
+      "next_step": ""
+    },
+    "stage2_dcf": {
+      "status": "skipped_by_deviation",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    },
+    "stage3_relative": {
+      "status": "provisional",
+      "notes": [
+        "2026-11-02T10:30:17+00:00 10 numerical peers on first Europe step (9 Tier1/2, 1 Tier3, all Europe-listed); no relaxation. EV/EBIT qualified primary; regression PBV. Not an unqualified final valuation.",
+        "2026-11-02T10:30:17+00:00 Numerical deliverables complete/recalculated; candidate-source qualification and human Spot_check not complete."
+      ],
+      "outputs": [
+        "outputs/VWS.CO_2026-10-30/relative/finalize_stage3.py",
+        "outputs/VWS.CO_2026-10-30/relative/candidate_fetch_manifest.json",
+        "outputs/VWS.CO_2026-10-30/relative/multiples_summary.csv",
+        "outputs/VWS.CO_2026-10-30/relative/source_log.csv",
+        "outputs/VWS.CO_2026-10-30/relative/comparables_report.md",
+        "outputs/VWS.CO_2026-10-30/relative/candidate_raw.csv",
+        "outputs/VWS.CO_2026-10-30/relative/industry_benchmarks.json",
+        "outputs/VWS.CO_2026-10-30/relative/world_pool_membership.csv",
+        "outputs/VWS.CO_2026-10-30/relative/comparables_audit.xlsx",
+        "outputs/VWS.CO_2026-10-30/relative/normalize.py",
+        "outputs/VWS.CO_2026-10-30/relative/peer_ev_checks.csv",
+        "outputs/VWS.CO_2026-10-30/relative/regression_results.json",
+        "outputs/VWS.CO_2026-10-30/relative/build.py",
+        "outputs/VWS.CO_2026-10-30/relative/sensitivities.csv",
+        "outputs/VWS.CO_2026-10-30/relative/world_candidate_membership.csv",
+        "outputs/VWS.CO_2026-10-30/relative/collect.py",
+        "outputs/VWS.CO_2026-10-30/relative/candidate_gates.csv",
+        "outputs/VWS.CO_2026-10-30/relative/formula_checks.json",
+        "outputs/VWS.CO_2026-10-30/relative/valuation_summary.md",
+        "outputs/VWS.CO_2026-10-30/relative/evidence_review.md",
+        "outputs/VWS.CO_2026-10-30/relative/regression_valuation.xlsx",
+        "outputs/VWS.CO_2026-10-30/relative/comparables.csv",
+        "outputs/VWS.CO_2026-10-30/relative/peer_selection.json",
+        "outputs/VWS.CO_2026-10-30/relative/valuation_multiples.csv"
+      ],
+      "next_step": "QA block C once, then required PDF/plaintext; evidence gates and human review remain unresolved",
+      "finished": "2026-11-02T10:30:17+00:00"
+    },
+    "stage4_recommendation": {
+      "status": "skipped_by_deviation",
+      "notes": [],
+      "outputs": [],
+      "next_step": ""
+    }
+  }
+}
